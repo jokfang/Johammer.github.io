@@ -726,6 +726,15 @@ function noop()
 end
 
 function onLoad(save_state)
+    local object = spawnObject({
+    type = "rpg_BEAR",
+    position = {0, 3, 0},
+    scale = {2, 2, 2},
+    sound = false,
+    callback_function = function(spawned_object)
+        log(spawned_object.getBounds())
+    end
+})
 end
 
 function onSubmit()
@@ -735,11 +744,6 @@ end
 
 function onCloseInput()
     UI.hide("main-panel")
-end
-
-function sendRequest(data)
-    -- Perform the request
-    WebRequest.get(oprAfToTtsLink, handleResponse)
 end
 
 function beginAssignment(player, _, id)
@@ -822,12 +826,6 @@ function onScriptingButtonDown(index, player_color)
         cancelCurrentAssigning();
     end
 end
-
-function click_func()
-
-end
-
-
 
 function onObjectPickUp(player_color, picked_up_object)
     if nameToAssign == nil then
