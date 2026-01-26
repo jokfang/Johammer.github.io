@@ -73,10 +73,13 @@ assignNameAndDescriptionToObjects() → Inject perModelCode → Tag & Configure
   unitName = "display_name",
   nameToAssign = "formatted_name",
   originalToughValue = number,
-  originalCasterValue = number,
-  currentToughValue = number,
-  currentCasterValue = number,
-  armyNameToAssign = "army_name"
+  originalCasterValue = number,  -- Tokens generated PER TURN, not starting value
+  currentToughValue = number,    -- Starting HP = originalTough (traditional) or originalTough+5 (skirmish)
+  currentCasterValue = number,   -- Starts at originalCasterValue (first round's worth)
+  armyNameToAssign = "army_name",
+  unitColor = {r, g, b},         -- RGB array for unit visual distinction
+  menuHeightOffset = 0,          -- Per-model UI height adjustment
+  menuRotationOffset = 0         -- Per-model UI Y-rotation adjustment
 }
 ```
 
@@ -330,174 +333,131 @@ GLOBAL_FONT_SCALING = {name_base = 26, name_decrease = 4, loadout_base = 20, loa
 5. **Magic Numbers**: Hardcoded values → named constants
 6. **Assignment Process**: Optimized to prevent unwanted tool switching
 
-## Pointer Mode Preservation (2025)
+## Unit Color System (2025)
 
-A critical issue was identified where assigning model data would cause TTS to switch users from pointer mode to measuring mode. The root cause was discovered and fixed through targeted API optimization.
+Each unit is assigned a unique color from a 20-color palette for visual distinction in the UI.
 
-### Root Cause Discovery
+### Color Assignment
 
-**Problem**: Assigning card data to models triggered automatic tool switching from pointer to measuring mode
-
-**Investigation Process**:
-1. TTS API research revealed no direct tool control functions (`setPlayerTool()` doesn't exist)
-2. Initial complex solutions with delays and batching caused Lua errors
-3. **Root cause identified**: `target.reload()` call in assignment function
-
-### The Fix
-
-**Solution**: Remove unnecessary `target.reload()` call from `assignNameAndDescriptionToObjects()`
-
-**Before (Problematic)**:
+**Palette** (`UNIT_COLORS` constant):
 ```lua
-for _, target in ipairs(selectedObjects) do
-    target.setName(nameToAssign)
-    target.setDescription(descriptionToAssign)
-    target.setLuaScript(perModelCode)
-    target.setTags({})
-    target.addTag('OPRAFTTS_unit_id_' .. unitIdToAssign)
-    target.addTag('OPRAFTTS_army_id_' .. armyId)
-    target.memo = JSON.encode(memoData)
-    target.setRotation({0, 180, 0})
-    target.reload()  -- ← THIS was causing tool switching!
+{0, 0, 255},      -- Blue
+{255, 0, 0},      -- Red
+{0, 255, 0},      -- Green
+{255, 255, 0},    -- Yellow
+{255, 0, 255},    -- Magenta
+-- ... 20 colors total, wraps around
+```
+
+**Assignment Process**:
+1. During `beginAssignment()`, check if unit already has a color assigned
+2. If not, assign next color from palette (index wraps at 20)
+3. Store in `unitColorAssignments[unitId]` for consistency across models
+4. Pass color to model memo as `unitColor = {r, g, b}`
+
+**Usage**: The unit color is used for the toggle bar button background, providing visual grouping of models in the same unit.
+
+## Spell Token Mechanics
+
+**Important distinction:**
+- `originalCasterValue` = tokens generated **per turn**, NOT starting/max value
+- `currentCasterValue` = current token count (max 6)
+- Model starts with `currentCasterValue = originalCasterValue` (first round's worth)
+
+**Refresh behavior** (`armyRefreshSpellTokens()`):
+```lua
+currentCasterValue = min(currentCasterValue + originalCasterValue, 6)
+```
+
+Example: A Caster(3) generates 3 tokens/turn, starts at 3/6, refreshes add 3 more (capped at 6).
+
+## Action Panel UI System (2025)
+
+Replaced right-click context menus with a floating 3D action panel for better discoverability and modern UX.
+
+### UI Components
+
+**1. Toggle Bar** - Small button that floats above model
+- Shows "^" character, rotates 180° when panel open (looks like "v")
+- Background color matches unit color (from `unitColor` in memo)
+- Always visible, positioned just above model
+
+**2. Stat Bars** - HP/SP display (between toggle bar and action panel)
+- HP bar: Red (#e74c3c), shows "HP: X/Y"
+- SP bar: Blue (#3498db), shows "SP: X/6"
+- Always visible at 100% opacity
+- Uses VerticalLayout (HP on top, SP below)
+
+**3. Action Panel** - 3-column button panel (hidden by default)
+- **Model column**: HP +/-, SP +/-, Measuring controls
+- **Unit column**: Activated, Stunned/Shaken, Select All, Count
+- **Army column**: Measuring Off, Deactivate, Refresh Spells
+- Red X close button in top-right corner
+
+### Key Functions
+
+```lua
+buildActionPanelXml()      -- Generates complete XML for all UI components
+rebuildActionPanelXml()    -- Applies XML and preserves open state
+toggleActionPanel()        -- Opens/closes panel, closes other army menus
+closeActionPanel()         -- Internal close (resets toggle rotation)
+closeMenuFromExternal()    -- Called by army mates to close this menu
+```
+
+### Cross-Object Communication
+
+**Only one menu open per army:**
+When opening a menu, iterate all army mates and close their menus:
+```lua
+for _, armyMate in ipairs(getAllArmyMates()) do
+    if armyMate ~= self then
+        armyMate.call('closeMenuFromExternal')
+    end
 end
 ```
 
-**After (Fixed)**:
+### Button Behaviors
+
+**Close panel after action:**
+- Activated, Stunned, Shaken toggles → close panel
+- Army Deactivate → does NOT close panel (user preference)
+- HP/SP buttons → do NOT close panel (allows rapid adjustments)
+
+### Per-Model Position Adjustments
+
+Users can adjust menu position via right-click context menu:
+- "Menu Up" / "Menu Down" - adjusts `menuHeightOffset` (±20 units)
+- "Rotate Left 15°" / "Rotate Right 15°" - adjusts `menuRotationOffset` (±15°)
+
+Offsets stored in memo and applied to all UI panel positions/rotations.
+
+### State Preservation
+
+When rebuilding UI (e.g., after HP change), preserve open state:
 ```lua
-for _, target in ipairs(selectedObjects) do
-    target.setName(nameToAssign)
-    target.setDescription(descriptionToAssign)
-    target.setLuaScript(perModelCode)
-    target.setTags({})
-    target.addTag('OPRAFTTS_unit_id_' .. unitIdToAssign)
-    target.addTag('OPRAFTTS_army_id_' .. armyId)
-    target.memo = JSON.encode(memoData)
-    target.setRotation({0, 180, 0})
-    -- target.reload()  -- ← Removed - was unnecessary and problematic
+function rebuildActionPanelXml()
+    local wasOpen = isActionPanelOpen
+    self.UI.setXml(xml)
+    isActionPanelOpen = false
+
+    if wasOpen then
+        Wait.frames(function()
+            self.UI.show('action-panel')
+            isActionPanelOpen = true
+        end, 1)
+    end
 end
 ```
 
-### Why `reload()` Was Problematic
+### Assignment & Initialization
 
-**What `reload()` does** (from TTS API):
-- Deletes and respawns the object instantly
-- Invalidates old object reference
-- Primarily used for custom object modifications (`setCustomObject()`)
-- **Major operation that triggers TTS tool behavior changes**
+**Assignment process now includes:**
+1. Calculate starting HP based on game system (skirmish: tough+5, traditional: tough)
+2. Set `currentCasterValue = originalCasterValue` (first round's tokens)
+3. Include `unitColor` from assignment
+4. Call `target.reload()` - **required** for `onLoad()` to run and initialize UI
 
-**Why it wasn't needed**:
-- Assignment targets are standard game pieces, not custom objects
-- `setLuaScript()` works without reload on standard objects
-- Script functionality initializes when first accessed
-- TTS auto-refreshes standard objects for most property changes
-
-### Testing Considerations
-
-**Key functionalities to verify after `reload()` removal**:
-- ✅ Right-click context menus on assigned models
-- ✅ Wound tracking buttons appearing correctly
-- ✅ Status effect circles (activated, shaken, stunned)
-- ✅ Measuring radius cycling functionality
-- ✅ Unit-wide operations (select all, count, toggles)
-- ✅ Script initialization and `onLoad()` execution
-
-### Impact
-
-- **✅ Fixed tool switching**: Users stay in pointer mode during assignment
-- **✅ Simplified code**: Removed unnecessary complex solutions
-- **✅ Maintained functionality**: All existing features work identically
-- **✅ Both methods work**: Hotkey assignment and pickup assignment both fixed
-- **✅ Performance improvement**: Eliminated heavy object respawn operation
-
-**This was a perfect example of finding the minimal, targeted fix rather than over-engineering a complex solution.**
-
-## Floating UI System (2025)
-
-A new experimental feature was added to replace right-click context menus with floating 3D UI buttons, providing a more modern and accessible interface.
-
-### Implementation Overview
-
-**Problem**: Right-click context menus are hidden and require discovery
-**Solution**: Floating XML UI buttons positioned in 3D space near models
-
-### Technical Implementation
-
-**Core Functions**:
-```lua
-function createFloatingWoundButtons()  -- Generate XML for wound +/- buttons
-function rebuildFloatingUI()           -- Update object's UI with new XML
-function toggleFloatingUIMode()        -- Switch between floating UI and right-click modes
-```
-
-**3D Positioning System**:
-```lua
--- Dynamic positioning based on model bounds and scale
-local bounds = self.getBoundsNormalized()
-local scale = self.getScale()
-local forwardOffset = (bounds['size']['z'] / 2) + 0.5  -- In front of model
-local heightOffset = bounds['size']['y'] + 0.3         -- Above model base
-
--- Scale-aware positioning
-forwardOffset = forwardOffset / scale['z']
-heightOffset = heightOffset / scale['y']
-```
-
-**XML Structure**:
-```xml
-<Panel position="0 Y Z" rotation="0 0 0">
-    <HorizontalLayout spacing="10">
-        <Button onClick="hpDown" text="-" color="#e74c3c" tooltip="Decrease Wounds"/>
-        <Button onClick="hpUp" text="+" color="#27ae60" tooltip="Increase Wounds"/>
-    </HorizontalLayout>
-</Panel>
-```
-
-### User Experience Features
-
-**Toggle System**:
-- Right-click menu option: "UI: Floating" / "UI: Menu"
-- Dynamically switches between floating buttons and context menu items
-- Per-model setting that persists until toggled
-
-**Visual Design**:
-- Red "-" button for decreasing wounds
-- Green "+" button for increasing wounds
-- Tooltips for accessibility
-- 35x35 pixel buttons with bold 24pt font
-- Positioned in front of model at eye level
-
-**Conditional Display**:
-- Only shows for models with wound tracking capability
-- Respects existing "Toggle W/SP Count" setting
-- Automatically hidden when floating UI is disabled
-
-### Integration Points
-
-**Existing Systems**:
-- Integrates with wound tracking (`hpUp()`, `hpDown()` functions)
-- Connects to `rebuildXml()` system for show/hide behavior
-- Works with game system detection (traditional vs skirmish)
-
-**Rebuild Triggers**:
-- `onLoad()` - Initial setup
-- `cycleShowHideWoundsAndSpellTokens()` - Visibility toggle
-- `toggleFloatingUIMode()` - Mode switching
-- All wound-related functions - Updates after changes
-
-### Benefits
-
-- **Accessibility**: Visible buttons vs hidden right-click menus
-- **Modern UX**: Contemporary interface patterns
-- **VR Compatibility**: 3D UI works better in VR than context menus
-- **Discoverability**: Users can see available actions immediately
-- **Proof of Concept**: Foundation for expanding other functions to UI
-
-### Future Expansion Potential
-
-This system provides a framework for moving other right-click menu functions to floating UI:
-- Spell token management
-- Status effects (activated, shaken, stunned)
-- Measuring tools
-- Unit-wide operations
-
-**Current Status**: Experimental feature, defaulting to enabled (`useFloatingUIButtons = true`)
+**`onLoad()` initializes:**
+- Status effect circles
+- Context menu (adjustment options only)
+- Action panel XML via `rebuildActionPanelXml()`

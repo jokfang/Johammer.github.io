@@ -57,3 +57,10 @@ This is a React/TypeScript web application that converts armies from One Page Ru
 - TTS output formatting includes model names, descriptions, and special rules
 - Supports multiple One Page Rules game systems (Grimdark Future, Age of Fantasy, etc.)
 - Handles model duplication, custom naming, and equipment quantity management
+
+## Project Memory
+
+When working on these areas, read the relevant memory files:
+
+- "TTS mod", "mod.lua", "Lua", "Object UI", "positioning", "XML UI", "Wait.frames", "inter-object communication" → read `./CLAUDE/tts-lua-api-learnings.md`
+- "mod context", "perModelCode", "model scripts", "action panel", "toggle bar", "stat bars", "unit color", "spell tokens", "caster value", "army mates", "menu close" → read `./CLAUDE/mod-context.md`
