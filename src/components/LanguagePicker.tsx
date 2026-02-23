@@ -1,6 +1,7 @@
 import useLocalStorageState from "use-local-storage-state";
 import {
   BrazilFlag,
+  FranceFlag,
   GermanyFlag,
   PolandFlag,
   TürkiyeFlag,
@@ -13,6 +14,10 @@ const LANGUAGES = [
   {
     id: "en",
     flag: () => <UnitedKingdomFlag />,
+  },
+  {
+    id: "fr",
+    flag: () => <FranceFlag />,
   },
   {
     id: "de",

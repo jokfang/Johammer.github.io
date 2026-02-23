@@ -143,14 +143,18 @@ export const onGenerateDefinitions = async (stateView: Readonly<iAppState>) => {
 
   try {
     // get the army list
-    const response = await fetch(`/.netlify/functions/get-army?armyId=${id}&isBeta=${isBeta}`);
-    data = await response.json();
-    if (response.status !== 200) {
-      alert("Army Forge failed to export list. Sorry!");
-    }
+    data = await ky
+      .get(`/.netlify/functions/get-army?armyId=${id}&isBeta=${isBeta}`)
+      .json<ArmyForgeTypes.ListState>();
+
     if (!data) {
-      state.networkState.fetchArmyFromArmyForge = eNetworkRequestState.ERROR;
-      return;
+      throw new Error("No data returned from army forge fetch.");
+    }
+
+    // @ts-ignore
+    if (data && data.error) {
+      // @ts-ignore
+      throw new Error(`Army Forge returned an error: ${data.error}`);
     }
 
     // then get the core rules for the game we're playing
@@ -165,10 +169,11 @@ export const onGenerateDefinitions = async (stateView: Readonly<iAppState>) => {
 
     // get the common special rules for whatever army forge game system we're playing
     const commonRulesId = gameSystemMappingCommonRules[gameSystemUrlSlug];
-    const commonRulesResponse = await fetch(
-      `https://army-forge.onepagerules.com/api/rules/common/${commonRulesId}`
-    );
-    const commonRulesData = await commonRulesResponse.json();
+    const commonRulesData = (await ky
+      .get(
+        `https://army-forge.onepagerules.com/api/rules/common/${commonRulesId}`
+      )
+      .json()) as any;
 
     state.listName = data.name;
 
@@ -183,6 +188,10 @@ export const onGenerateDefinitions = async (stateView: Readonly<iAppState>) => {
     }
     state.networkState.fetchArmyFromArmyForge = eNetworkRequestState.SUCCESS;
   } catch (e) {
+    console.error(e);
+    alert(
+      "There was an error fetching the army list. Please check you have a valid share link and try again. More details may be in the developer console (F12)."
+    );
     state.networkState.fetchArmyFromArmyForge = eNetworkRequestState.ERROR;
   }
 

@@ -19,7 +19,7 @@ export const OutputOptions = () => {
 
   return (
     <details className="dark:text-slate-200">
-      <summary className="cursor-pointer">TTS Output Configuration</summary>
+      <summary className="cursor-pointer">{t("ttsOutputConfigurationHeader")}</summary>
       <div className="py-2 px-4 bg-stone-100 dark:bg-slate-600 space-y-4">
         <label className="flex flex-row items-center space-x-4">
           <input
@@ -184,9 +184,11 @@ export const OutputOptions = () => {
           />
 
           <div>
-            <p className="font-bold">Model Quality Stat Output Colour</p>
+            <p className="font-bold">
+              {t("ttsOutputConfigQualityOutputColour.name")}
+            </p>
             <p className="text-xs">
-              HEX code for the model's quality value in the TTS output.
+              {t("ttsOutputConfigQualityOutputColour.label")}
             </p>
           </div>
         </label>
@@ -206,9 +208,11 @@ export const OutputOptions = () => {
             }}
           />
           <div>
-            <p className="font-bold">Model Defense Stat Output Colour</p>
+            <p className="font-bold">
+              {t("ttsOutputConfigDefenseOutputColour.name")}
+            </p>
             <p className="text-xs">
-              HEX code for the model's defense value in the TTS output.
+              {t("ttsOutputConfigDefenseOutputColour.label")}
             </p>
           </div>
         </label>
@@ -229,9 +233,11 @@ export const OutputOptions = () => {
             }}
           />
           <div>
-            <p className="font-bold">Model Loadout Output Colour</p>
+            <p className="font-bold">
+              {t("ttsOutputConfigLoadoutOutputColour.name")}
+            </p>
             <p className="text-xs">
-              HEX code for the model's loadouts details in the TTS output.
+              {t("ttsOutputConfigLoadoutOutputColour.label")}
             </p>
           </div>
         </label>
@@ -252,9 +258,11 @@ export const OutputOptions = () => {
             }}
           />
           <div>
-            <p className="font-bold">Model Special Rules Output Colour</p>
+            <p className="font-bold">
+              {t("ttsOutputConfigSpecialRulesOutputColour.name")}
+            </p>
             <p className="text-xs">
-              HEX code for the model's special rules details in the TTS output.
+              {t("ttsOutputConfigSpecialRulesOutputColour.label")}
             </p>
           </div>
         </label>
@@ -276,11 +284,10 @@ export const OutputOptions = () => {
 
           <div>
             <p className="font-bold">
-              Model Tough Special Rule Rating Output Colour
+              {t("ttsOutputConfigToughOutputColour.name")}
             </p>
             <p className="text-xs">
-              HEX code for the model's Tough rating, if it has one, in the TTS
-              output.
+              {t("ttsOutputConfigToughOutputColour.label")}
             </p>
           </div>
         </label>
@@ -310,14 +317,10 @@ export const OutputOptions = () => {
         </label> */}
         <hr className="my-2" />
         <h3 className="text-base font-bold block">
-          Save & Load TTS Output Configs
+          {t("saveAndLoadTtsOutputConfigHeader")}
         </h3>
 
-        <p>
-          Save all of the above configuration into the local storage of your
-          browser by hitting the button below. You can then quickly load
-          different configs by hitting the load buttons below.
-        </p>
+        <p>{t("saveAndLoadTtsOutputConfigsLabel")}</p>
 
         <div className="flex flex-row space-x-4">
           <button
@@ -351,7 +354,7 @@ export const OutputOptions = () => {
             }}
             className="bg-stone-500 dark:bg-slate-500 border-stone-600 dark:border-zinc-800 text-white dark:border px-4 py-2 hover:scale-105 active:scale-95"
           >
-            Save Current Config
+            {t("saveCurrentConfigButton")}
           </button>
 
           <button
@@ -363,11 +366,11 @@ export const OutputOptions = () => {
             }}
             className="bg-stone-500 dark:bg-slate-500 border-stone-600 dark:border-zinc-800 text-white dark:border px-4 py-2 hover:scale-105 active:scale-95"
           >
-            Load app default config
+            {t("loadAppDefaultConfigButton")}
           </button>
         </div>
         <div>
-          <p className="font-bold">Load Custom Configs</p>
+          <p className="font-bold">{t("loadCustomConfigHeader")}</p>
           {allConfigs.length >= 1 && (
             <div className="flex flex-row gap-3 flex-wrap mt-2">
               {allConfigs.map((config: any) => {
@@ -381,7 +384,7 @@ export const OutputOptions = () => {
                       }}
                       className="text-xs bg-stone-500 dark:bg-slate-500 border-stone-600 dark:border-zinc-800 text-white dark:border pl-2 pr-6 py-2 text-center hover:scale-105 active:scale-95"
                     >
-                      Load Config{" "}
+                      {t("loadConfig")}{" "}
                       <span className="font-mono">
                         [ {config.id.substring(0, 5)} ]
                       </span>
@@ -403,7 +406,7 @@ export const OutputOptions = () => {
           )}
           {allConfigs.length === 0 && (
             <p className="text-stone-500 italic mt-2 dark:text-slate-300">
-              You have no saved TTS output configs
+              {t("loadCustomConfigPlaceholder")}
             </p>
           )}
         </div>

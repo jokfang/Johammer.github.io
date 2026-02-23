@@ -10,16 +10,32 @@ const httpError = (code: number, message: string) => ({
   }),
 });
 
+const getClient = () => {
+  const url = process.env.TURSO_DB_URL;
+  const authToken = process.env.TURSO_AUTH_STRING;
+
+  if (!url || !authToken) {
+    console.error("Database environment variables not set");
+    return null;
+  }
+
+  return createClient({
+    url,
+    authToken,
+  });
+};
+
 const handleGET = async (event) => {
+  const client = getClient();
+  if (!client) {
+    return httpError(500, "Database not configured");
+  }
+
   const { listId = null } = event.queryStringParameters as any;
 
   if (!listId) {
     return httpError(400, "Must supply `listId`");
   }
-  const client = createClient({
-    url: process.env.TURSO_DB_URL!,
-    authToken: process.env.TURSO_AUTH_STRING!,
-  });
 
   const results = await client.execute({
     sql: "SELECT * FROM `lists` WHERE `id` = ?",
@@ -42,6 +58,11 @@ const handleGET = async (event) => {
 };
 
 const handlePOST = async (event) => {
+  const client = getClient();
+  if (!client) {
+    return httpError(500, "Database not configured");
+  }
+
   const id = nanoid();
   const body = JSON.parse(event.body);
   const { list_json } = body;
@@ -51,11 +72,6 @@ const handlePOST = async (event) => {
   }
 
   try {
-    const client = createClient({
-      url: process.env.TURSO_DB_URL!,
-      authToken: process.env.TURSO_AUTH_STRING!,
-    });
-
     await client.execute({
       sql: "INSERT INTO `lists` (id, list_json) VALUES (?, ?)",
       args: [id, JSON.stringify(list_json)],

@@ -27,6 +27,7 @@ export const handler: Handler = async (event, context) => {
         statusCode: 500,
         body: JSON.stringify({
           error: `Army Forge failed to export list. Sorry!`,
+          originalError: e.message,
         }),
       };
     }
