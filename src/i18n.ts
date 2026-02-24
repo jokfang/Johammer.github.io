@@ -1,5 +1,7 @@
 export const i18n = {
   en: {
+    appTitle: "🎲 Tombola's OPR Army Forge to TTS Tool",
+    bugReport: "If you find any bugs, please report them on the",
     githubIssuesPage: "github issues page",
     thanks: ". Thanks!",
     lightMode: "Switch app theme to Light mode",
@@ -156,7 +158,7 @@ export const i18n = {
     },
   },
   fr: {
-    appTitle: "🎲 Outil de tombola d'OPR Army Forge pour TTS",
+    appTitle: "🎲 Outil Tombola's pour conversion OPR Army Forge vers TTS",
     bugReport: "Si vous trouvez des bugs, merci de les signaler sur la",
     githubIssuesPage: "page des bugs de github",
     thanks: ". Merci !",
