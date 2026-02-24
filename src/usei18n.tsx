@@ -25,7 +25,7 @@ export const usei18n = () => {
     if (val) {
       return val;
     }
-    return "[[MISSING TRANSLATION]]";
+    return _.get(i18n["en"], key) || "[[MISSING TRANSLATION]]";
   };
 
   return {
