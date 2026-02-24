@@ -543,23 +543,28 @@ local perModelCode = [[
         
         self.clearContextMenu()
 
-        self.addContextMenuItem("▼ Model", __noop, true)
+        if (decodedMemo['originalToughValue'] ~= 0 or decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff' or decodedMemo['originalCasterValue'] ~= 0) then
+            self.addContextMenuItem("Toggle W/SP Count", cycleShowHideWoundsAndSpellTokens, false)
+        end    
 
-        if (decodedMemo['originalToughValue'] ~= 0 or decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff') then
-            self.addContextMenuItem("Wounds +", hpUp, true)
-            self.addContextMenuItem("Wounds -", hpDown, true)
-        end
+        self.addContextMenuItem("Measuring", cycleMeasuringRadius, true)
+
+        self.addContextMenuItem("▼ Army", __noop, true)
+
+        self.addContextMenuItem("Deactivate", deactivateArmy)
+        self.addContextMenuItem("Refresh Spell Tokens", armyRefreshSpellTokens)
+
+        self.addContextMenuItem("▼ Model", __noop, true)
 
         if (decodedMemo['originalCasterValue'] ~= 0) then
             self.addContextMenuItem("Spell Tokens +", spellTokensUp, true)
             self.addContextMenuItem("Spell Tokens -", spellTokensDown, true)
         end
 
-        if (decodedMemo['originalToughValue'] ~= 0 or decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff' or decodedMemo['originalCasterValue'] ~= 0) then
-            self.addContextMenuItem("Toggle W/SP Count", cycleShowHideWoundsAndSpellTokens, false)
-        end    
-
-        self.addContextMenuItem("Measuring", cycleMeasuringRadius, true)
+        if (decodedMemo['originalToughValue'] ~= 0 or decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff') then
+            self.addContextMenuItem("Wounds +", hpUp, true)
+            self.addContextMenuItem("Wounds -", hpDown, true)
+        end
 
         self.addContextMenuItem("▼ Unit", __noop, true)
 
@@ -587,11 +592,6 @@ local perModelCode = [[
     
         self.addContextMenuItem("Select All", selectAllUnit)
         self.addContextMenuItem("Count", countUnit)
-
-        self.addContextMenuItem("▼ Army", __noop, true)
-
-        self.addContextMenuItem("Deactivate", deactivateArmy)
-        self.addContextMenuItem("Refresh Spell Tokens", armyRefreshSpellTokens)
     end
 ]]
 
