@@ -684,13 +684,13 @@ export const generateUnitOutput = (
   );
 
   const allApplicableSpecialRulesWithAddedUpRatings: any[] = [];
-  allApplicableSpecialRules.forEach((sr) => {
+  allApplicableSpecialRules.forEach((sr: any) => {
     if (sr === null) {
       return;
     }
     sr.rating = parseInt(sr.rating);
     const existing = allApplicableSpecialRulesWithAddedUpRatings.find(
-      (x) => x.name === sr.name
+      (x: any) => x.name === sr.name
     );
     if (existing) {
       if (existing.rating && sr.rating) {
@@ -707,7 +707,7 @@ export const generateUnitOutput = (
 
   const allApplicableSpecialRulesBBCode =
     translatedRules
-      .map((w) => {
+      .map((w: any) => {
         const isCoreSpecialRule = stateView.coreSpecialRulesDict.some(
           (csr) => csr.name === w.name
         );
