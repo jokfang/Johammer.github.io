@@ -13,6 +13,7 @@ import {
   iUnitProfileModelTTSOutput,
 } from "./types";
 import { state } from "./state";
+import { TranslateRules } from "./common-rules";
 
 // to get the data hit https://army-forge.onepagerules.com/api/rules/common/3 where the number is the game system. ask Adam @ army forge for the right one
 // import commonRules from "./data/common-rules.json";
@@ -169,16 +170,18 @@ export const onGenerateDefinitions = async (stateView: Readonly<iAppState>) => {
 
     // get the common special rules for whatever army forge game system we're playing
     const commonRulesId = gameSystemMappingCommonRules[gameSystemUrlSlug];
-    const commonRulesData = (await ky
+    let commonRulesData = (await ky
       .get(
         `https://army-forge.onepagerules.com/api/rules/common/${commonRulesId}`
       )
       .json()) as any;
+    
+    //commonRulesData = TranslateRules("common-rules", commonRulesData);
 
     state.listName = data.name;
 
     relevantCoreSpecialRules = [...commonRulesData.rules] as iCommonRule[];
-
+    
     state.gameSystem = data.gameSystem;
     state.coreSpecialRulesDict = relevantCoreSpecialRules;
     // @ts-ignore
@@ -235,7 +238,7 @@ export const onGenerateDefinitions = async (stateView: Readonly<iAppState>) => {
             originalName: unit.name,
             qua: parseInt(unit.quality),
             def: parseInt(unit.defense),
-            originalSpecialRules: unit.rules || [],
+            originalSpecialRules: TranslateRules("common-rules", { rules: unit.rules || [] }).rules,
             loadout: _.uniqBy(unit.loadout, "label").map((loadoutItem) => {
               return {
                 id: nanoid(),
@@ -698,8 +701,12 @@ export const generateUnitOutput = (
     }
   });
 
+  const translatedRules = TranslateRules("common-rules", {
+    rules: allApplicableSpecialRulesWithAddedUpRatings,
+  }).rules;
+
   const allApplicableSpecialRulesBBCode =
-    allApplicableSpecialRulesWithAddedUpRatings
+    translatedRules
       .map((w) => {
         const isCoreSpecialRule = stateView.coreSpecialRulesDict.some(
           (csr) => csr.name === w.name
@@ -730,7 +737,7 @@ export const generateUnitOutput = (
       .filter((x) => x !== "")
       .join("\r\n");
 
-  allApplicableSpecialRulesWithAddedUpRatings.forEach((sr) => {
+  translatedRules.forEach((sr) => {
     if (sr === null) {
       return;
     }
