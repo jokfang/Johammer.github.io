@@ -737,7 +737,7 @@ export const generateUnitOutput = (
       .filter((x) => x !== "")
       .join("\r\n");
 
-  translatedRules.forEach((sr) => {
+  translatedRules.forEach((sr: any) => {
     if (sr === null) {
       return;
     }
