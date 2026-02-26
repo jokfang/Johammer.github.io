@@ -1,8 +1,8 @@
 import useLocalStorageState from "use-local-storage-state";
-import { usei18n } from "../usei18n";
+import { useAppDictionary } from "../useAppDictionary";
 import { Moon, Sun } from "./icons";
 export const DarkModeSwitch = () => {
-  const { t } = usei18n();
+  const { t } = useAppDictionary();
   const [isDarkMode, setIsDarkMode] = useLocalStorageState<any>(
     "tombolaopraftotts_isDarkMode",
     {

@@ -1,7 +1,7 @@
-import { usei18n } from "../usei18n";
+import { useAppDictionary } from "../useAppDictionary";
 
 export const VersionHistory = () => {
-  const { t } = usei18n();
+  const { t } = useAppDictionary();
 
   return (
     <details className="dark:text-slate-200 text-sm">

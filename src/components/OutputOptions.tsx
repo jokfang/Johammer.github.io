@@ -3,10 +3,10 @@ import { state, initialTtsOutputConfig } from "../state";
 import { useSnapshot } from "valtio";
 import useLocalStorageState from "use-local-storage-state";
 import { Cross } from "./icons";
-import { usei18n } from "../usei18n";
+import { useAppDictionary } from "../useAppDictionary";
 
 export const OutputOptions = () => {
-  const { t } = usei18n();
+  const { t } = useAppDictionary();
 
   const stateView = useSnapshot(state, { sync: true });
 

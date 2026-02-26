@@ -1,4 +1,4 @@
-export const i18n = {
+export const appDictionary = {
   en: {
     appTitle: "🎲 Tombola's OPR Army Forge to TTS Tool",
     bugReport: "If you find any bugs, please report them on the",

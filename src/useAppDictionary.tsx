@@ -1,10 +1,10 @@
 import useLocalStorageState from "use-local-storage-state";
-import { i18n } from "./i18n";
+import { appDictionary } from "../public/locales/app.dictionary";
 import * as _ from "lodash";
-export const usei18n = () => {
+export const useAppDictionary = () => {
   const getInitialLanguage = () => {
     const browserLang = navigator.language.split("-")[0];
-    if (Object.keys(i18n).includes(browserLang)) {
+    if (Object.keys(appDictionary).includes(browserLang)) {
       return browserLang;
     }
     return "en";
@@ -18,14 +18,14 @@ export const usei18n = () => {
   );
 
   //   @ts-ignore
-  const currentLanguage = i18n[currentLanguageId];
+  const currentLanguage = appDictionary[currentLanguageId];
 
   const t = (key: string) => {
     const val = _.get(currentLanguage, key);
     if (val) {
       return val;
     }
-    return _.get(i18n["en"], key) || "[[MISSING TRANSLATION]]";
+    return _.get(appDictionary["en"], key) || "[[MISSING TRANSLATION]]";
   };
 
   return {

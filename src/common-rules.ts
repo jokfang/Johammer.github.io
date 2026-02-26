@@ -1,4 +1,4 @@
-import { commonRules } from '../public/locales/rules/common-rules';
+import { commonRules } from '../public/locales/rules/common-rules.dictionary';
 
 type RuleTranslations = {
   [key: string]: string;
