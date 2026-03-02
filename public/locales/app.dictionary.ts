@@ -1,6 +1,10 @@
 export const appDictionary = {
   en: {
     appTitle: "🎲 Tombola's OPR Army Forge to TTS Tool",
+    menuBar: {
+      title: "Army-Forge > TTS",
+      tools: "Tools",
+    },
     bugReport: "If you find any bugs, please report them on the",
     githubIssuesPage: "github issues page",
     thanks: ". Thanks!",
@@ -159,6 +163,10 @@ export const appDictionary = {
   },
   fr: {
     appTitle: "🎲 Outil Tombola's pour conversion OPR Army Forge vers TTS",
+    menuBar: {
+      title: "Army-Forge > TTS",
+      tools: "Outils",
+    },
     bugReport: "Si vous trouvez des bugs, merci de les signaler sur la",
     githubIssuesPage: "page des bugs de github",
     thanks: ". Merci !",

@@ -1,4 +1,5 @@
 import * as _ from "lodash";
+import { useMemo } from "react";
 import { useSnapshot } from "valtio";
 import {
   eNetworkRequestState,
@@ -23,7 +24,7 @@ import {
   onGenerateShareableId,
   getUnitIndexForSelectionId,
   isUnitHero,
-} from "../utils";
+} from "../modules/army-import";
 
 import { ArrowPath, Cross, Duplicate, Cog } from "../components/icons";
 import { DarkModeSwitch } from "../components/DarkModeSwitch";
@@ -45,6 +46,31 @@ function HomePage() {
     });
   });
 
+  const modelOutputById = useMemo(() => {
+    const outputByModelId: Record<
+      string,
+      { ttsNameOutput: string; ttsDescriptionOutput: string }
+    > = {};
+
+    stateView.unitProfiles.forEach((unit) => {
+      unit.models.forEach((model) => {
+        const { ttsNameOutput, ttsDescriptionOutput } = generateUnitOutput(
+          unit as iUnitProfile,
+          model as iUnitProfileModel,
+          stateView as iAppState
+        );
+        outputByModelId[model.id] = { ttsNameOutput, ttsDescriptionOutput };
+      });
+    });
+
+    return outputByModelId;
+  }, [
+    stateView.armySpecialRulesDict,
+    stateView.coreSpecialRulesDict,
+    stateView.ttsOutputConfig,
+    stateView.unitProfiles,
+  ]);
+
   return (
       <div>
         <div className="flex flex-row items-center justify-between space-x-2">
@@ -61,6 +87,7 @@ function HomePage() {
         {t("bugReport")}{" "}
         <a
           target="_blank"
+          rel="noopener noreferrer"
           className="text-blue-700 underline dark:text-blue-400 visited:text-purple-700 dark:visited:text-purple-400"
           href="https://github.com/thomascgray/grimdarkfuture-roster-to-tts/issues"
         >
@@ -79,6 +106,7 @@ function HomePage() {
               {t("armyForgeShareLinkAtdr_1")}
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-700 underline dark:text-blue-400 visited:text-purple-700 dark:visited:text-purple-400"
                 href="https://army-forge.onepagerules.com/"
               >
@@ -89,6 +117,7 @@ function HomePage() {
               {t("armyForgeShareLinkAtdr_3")}
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-700 underline visited:text-purple-700 dark:visited:text-purple-400"
                 href="https://steamcommunity.com/sharedfiles/filedetails/?id=2969610810"
               >
@@ -247,11 +276,7 @@ function HomePage() {
                   <div className="flex flex-col space-y-10">
                     {unit.models.map((model, modelIndex) => {
                       const { ttsNameOutput, ttsDescriptionOutput } =
-                        generateUnitOutput(
-                          unit as iUnitProfile,
-                          model as iUnitProfileModel,
-                          stateView as iAppState
-                        );
+                        modelOutputById[model.id];
                       return (
                         <div key={model.id} className="relative">
                           <p className="text-sm dark:text-white">

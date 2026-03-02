@@ -4,293 +4,183 @@ import { useSnapshot } from "valtio";
 import useLocalStorageState from "use-local-storage-state";
 import { Cross } from "./icons";
 import { useAppDictionary } from "../useAppDictionary";
+import { iAppState } from "../types";
+
+type iSavedTtsConfig = {
+  id: string;
+  config: iAppState["ttsOutputConfig"];
+  timestamp: number;
+};
+
+type iBooleanOption = {
+  key: keyof Pick<
+    iAppState["ttsOutputConfig"],
+    | "includeCoreSpecialRules"
+    | "includeFullCoreSpecialRulesText"
+    | "includeArmySpecialRules"
+    | "includeFullArmySpecialRulesText"
+    | "includeWeaponsListInName"
+    | "includeSpecialRulesListInName"
+    | "swapCustomNameBracketingForUnitsWithMultipleModels"
+    | "completelyReplaceNameWithCustomName"
+    | "disableSmallText"
+  >;
+  nameKey: string;
+  labelKey: string;
+  withDividerBefore?: boolean;
+};
+
+type iColorOption = {
+  key: keyof Pick<
+    iAppState["ttsOutputConfig"],
+    | "modelQuaOutputColour"
+    | "modelDefOutputColour"
+    | "modelWeaponOutputColour"
+    | "modelSpecialRulesOutputColour"
+    | "modelToughOutputColour"
+  >;
+  nameKey: string;
+  labelKey: string;
+};
+
+const BOOLEAN_OPTIONS: iBooleanOption[] = [
+  {
+    key: "includeCoreSpecialRules",
+    nameKey: "ttsOutputConfiguration1.name",
+    labelKey: "ttsOutputConfiguration1.label",
+  },
+  {
+    key: "includeFullCoreSpecialRulesText",
+    nameKey: "ttsOutputConfiguration2.name",
+    labelKey: "ttsOutputConfiguration2.label",
+  },
+  {
+    key: "includeArmySpecialRules",
+    nameKey: "ttsOutputConfiguration3.name",
+    labelKey: "ttsOutputConfiguration3.label",
+    withDividerBefore: true,
+  },
+  {
+    key: "includeFullArmySpecialRulesText",
+    nameKey: "ttsOutputConfiguration4.name",
+    labelKey: "ttsOutputConfiguration4.label",
+  },
+  {
+    key: "includeWeaponsListInName",
+    nameKey: "ttsOutputConfiguration5.name",
+    labelKey: "ttsOutputConfiguration5.label",
+    withDividerBefore: true,
+  },
+  {
+    key: "includeSpecialRulesListInName",
+    nameKey: "ttsOutputConfiguration6.name",
+    labelKey: "ttsOutputConfiguration6.label",
+  },
+  {
+    key: "swapCustomNameBracketingForUnitsWithMultipleModels",
+    nameKey: "ttsOutputConfiguration7.name",
+    labelKey: "ttsOutputConfiguration7.label",
+  },
+  {
+    key: "completelyReplaceNameWithCustomName",
+    nameKey: "ttsOutputConfiguration8.name",
+    labelKey: "ttsOutputConfiguration8.label",
+  },
+  {
+    key: "disableSmallText",
+    nameKey: "ttsOutputConfiguration9.name",
+    labelKey: "ttsOutputConfiguration9.label",
+    withDividerBefore: true,
+  },
+];
+
+const COLOR_OPTIONS: iColorOption[] = [
+  {
+    key: "modelQuaOutputColour",
+    nameKey: "ttsOutputConfigQualityOutputColour.name",
+    labelKey: "ttsOutputConfigQualityOutputColour.label",
+  },
+  {
+    key: "modelDefOutputColour",
+    nameKey: "ttsOutputConfigDefenseOutputColour.name",
+    labelKey: "ttsOutputConfigDefenseOutputColour.label",
+  },
+  {
+    key: "modelWeaponOutputColour",
+    nameKey: "ttsOutputConfigLoadoutOutputColour.name",
+    labelKey: "ttsOutputConfigLoadoutOutputColour.label",
+  },
+  {
+    key: "modelSpecialRulesOutputColour",
+    nameKey: "ttsOutputConfigSpecialRulesOutputColour.name",
+    labelKey: "ttsOutputConfigSpecialRulesOutputColour.label",
+  },
+  {
+    key: "modelToughOutputColour",
+    nameKey: "ttsOutputConfigToughOutputColour.name",
+    labelKey: "ttsOutputConfigToughOutputColour.label",
+  },
+];
 
 export const OutputOptions = () => {
   const { t } = useAppDictionary();
 
   const stateView = useSnapshot(state, { sync: true });
 
-  const [allConfigs, setAllConfigs] = useLocalStorageState<any>(
+  const [allConfigs, setAllConfigs] = useLocalStorageState<iSavedTtsConfig[]>(
     "tombolaopraftotts_ttsOutputConfigs",
     {
       defaultValue: [],
     }
   );
 
+  const toggleConfig = (key: iBooleanOption["key"]) => {
+    state.ttsOutputConfig[key] = !stateView.ttsOutputConfig[key];
+  };
+
   return (
     <details className="dark:text-slate-200">
       <summary className="cursor-pointer">{t("ttsOutputConfigurationHeader")}</summary>
       <div className="py-2 px-4 bg-stone-100 dark:bg-slate-600 space-y-4">
-        <label className="flex flex-row items-center space-x-4">
-          <input
-            checked={stateView.ttsOutputConfig.includeCoreSpecialRules}
-            className="w-5 h-5"
-            type="checkbox"
-            onChange={(e) => {
-              state.ttsOutputConfig.includeCoreSpecialRules =
-                !stateView.ttsOutputConfig.includeCoreSpecialRules;
-            }}
-          />
-          <div className="w-11/12">
-            <p className="font-bold">{t("ttsOutputConfiguration1.name")}</p>
-            <p className="text-xs">{t("ttsOutputConfiguration1.label")}</p>
+        {BOOLEAN_OPTIONS.map((option) => (
+          <div key={option.key}>
+            {option.withDividerBefore && <hr />}
+            <label className="flex flex-row items-center space-x-4">
+              <input
+                checked={stateView.ttsOutputConfig[option.key]}
+                className="w-5 h-5"
+                type="checkbox"
+                onChange={() => toggleConfig(option.key)}
+              />
+              <div className="w-11/12">
+                <p className="font-bold">{t(option.nameKey)}</p>
+                <p className="text-xs">{t(option.labelKey)}</p>
+              </div>
+            </label>
           </div>
-        </label>
-        <label className="flex flex-row items-center space-x-4">
-          <input
-            checked={stateView.ttsOutputConfig.includeFullCoreSpecialRulesText}
-            className="w-5 h-5"
-            type="checkbox"
-            onChange={(e) => {
-              state.ttsOutputConfig.includeFullCoreSpecialRulesText =
-                !stateView.ttsOutputConfig.includeFullCoreSpecialRulesText;
-            }}
-          />
-          <div className="w-11/12">
-            <p className="font-bold">{t("ttsOutputConfiguration2.name")}</p>
-            <p className="text-xs">{t("ttsOutputConfiguration2.label")}</p>
-          </div>
-        </label>
+        ))}
         <hr />
-        <label className="flex flex-row items-center space-x-4">
-          <input
-            checked={stateView.ttsOutputConfig.includeArmySpecialRules}
-            className="w-5 h-5"
-            type="checkbox"
-            onChange={(e) => {
-              state.ttsOutputConfig.includeArmySpecialRules =
-                !stateView.ttsOutputConfig.includeArmySpecialRules;
-            }}
-          />
-          <div className="w-11/12">
-            <p className="font-bold">{t("ttsOutputConfiguration3.name")}</p>
-            <p className="text-xs">{t("ttsOutputConfiguration3.label")}</p>
-          </div>
-        </label>
-        <label className="flex flex-row items-center space-x-4">
-          <input
-            checked={stateView.ttsOutputConfig.includeFullArmySpecialRulesText}
-            className="w-5 h-5"
-            type="checkbox"
-            onChange={(e) => {
-              state.ttsOutputConfig.includeFullArmySpecialRulesText =
-                !stateView.ttsOutputConfig.includeFullArmySpecialRulesText;
-            }}
-          />
-          <div className="w-11/12">
-            <p className="font-bold">{t("ttsOutputConfiguration4.name")}</p>
-            <p className="text-xs">{t("ttsOutputConfiguration4.label")}</p>
-          </div>
-        </label>
-        <hr />
-        <label className="flex flex-row items-center space-x-4">
-          <input
-            checked={stateView.ttsOutputConfig.includeWeaponsListInName}
-            className="w-5 h-5"
-            type="checkbox"
-            onChange={(e) => {
-              state.ttsOutputConfig.includeWeaponsListInName =
-                !stateView.ttsOutputConfig.includeWeaponsListInName;
-            }}
-          />
-          <div className="w-11/12">
-            <p className="font-bold">{t("ttsOutputConfiguration5.name")}</p>
-            <p className="text-xs">{t("ttsOutputConfiguration5.label")}</p>
-          </div>
-        </label>
-        <label className="flex flex-row items-center space-x-4">
-          <input
-            checked={stateView.ttsOutputConfig.includeSpecialRulesListInName}
-            className="w-5 h-5"
-            type="checkbox"
-            onChange={(e) => {
-              state.ttsOutputConfig.includeSpecialRulesListInName =
-                !stateView.ttsOutputConfig.includeSpecialRulesListInName;
-            }}
-          />
-          <div className="w-11/12">
-            <p className="font-bold">{t("ttsOutputConfiguration6.name")}</p>
-            <p className="text-xs">{t("ttsOutputConfiguration6.label")}</p>
-          </div>
-        </label>
-        <label className="flex flex-row items-center space-x-4">
-          <input
-            checked={
-              stateView.ttsOutputConfig
-                .swapCustomNameBracketingForUnitsWithMultipleModels
-            }
-            className="w-5 h-5"
-            type="checkbox"
-            onChange={(e) => {
-              state.ttsOutputConfig.swapCustomNameBracketingForUnitsWithMultipleModels =
-                !stateView.ttsOutputConfig
-                  .swapCustomNameBracketingForUnitsWithMultipleModels;
-            }}
-          />
-          <div className="w-11/12">
-            <p className="font-bold">{t("ttsOutputConfiguration7.name")}</p>
-            <p className="text-xs">{t("ttsOutputConfiguration7.label")}</p>
-          </div>
-        </label>
-        <label className="flex flex-row items-center space-x-4">
-          <input
-            checked={
-              stateView.ttsOutputConfig.completelyReplaceNameWithCustomName
-            }
-            className="w-5 h-5"
-            type="checkbox"
-            onChange={(e) => {
-              state.ttsOutputConfig.completelyReplaceNameWithCustomName =
-                !stateView.ttsOutputConfig.completelyReplaceNameWithCustomName;
-            }}
-          />
-          <div className="w-11/12">
-            <p className="font-bold">{t("ttsOutputConfiguration8.name")}</p>
-            <p className="text-xs">{t("ttsOutputConfiguration8.label")}</p>
-          </div>
-        </label>
-        <hr />
-
-        <label className="flex flex-row items-center space-x-4">
-          <input
-            checked={stateView.ttsOutputConfig.disableSmallText}
-            className="w-5 h-5"
-            type="checkbox"
-            onChange={(e) => {
-              state.ttsOutputConfig.disableSmallText =
-                !stateView.ttsOutputConfig.disableSmallText;
-            }}
-          />
-          <div className="w-11/12">
-            <p className="font-bold">{t("ttsOutputConfiguration9.name")}</p>
-            <p className="text-xs">{t("ttsOutputConfiguration9.label")}</p>
-          </div>
-        </label>
-        <hr />
-        <label className="flex flex-row items-center space-x-4">
-          <span
-            style={{
-              backgroundColor: stateView.ttsOutputConfig.modelQuaOutputColour,
-            }}
-            className="block h-5 w-5 rounded-full border border-stone-600"
-          ></span>
-          <input
-            className="border border-stone-500 px-2 py-1 w-20 dark:text-black"
-            value={stateView.ttsOutputConfig.modelQuaOutputColour}
-            onChange={(e) => {
-              state.ttsOutputConfig.modelQuaOutputColour =
-                e.currentTarget.value;
-            }}
-          />
-
-          <div>
-            <p className="font-bold">
-              {t("ttsOutputConfigQualityOutputColour.name")}
-            </p>
-            <p className="text-xs">
-              {t("ttsOutputConfigQualityOutputColour.label")}
-            </p>
-          </div>
-        </label>
-        <label className="flex flex-row items-center space-x-4">
-          <span
-            style={{
-              backgroundColor: stateView.ttsOutputConfig.modelDefOutputColour,
-            }}
-            className="block h-5 w-5 rounded-full border border-stone-600"
-          ></span>
-          <input
-            className="border border-stone-500 px-2 py-1 w-20 dark:text-black"
-            value={stateView.ttsOutputConfig.modelDefOutputColour}
-            onChange={(e) => {
-              state.ttsOutputConfig.modelDefOutputColour =
-                e.currentTarget.value;
-            }}
-          />
-          <div>
-            <p className="font-bold">
-              {t("ttsOutputConfigDefenseOutputColour.name")}
-            </p>
-            <p className="text-xs">
-              {t("ttsOutputConfigDefenseOutputColour.label")}
-            </p>
-          </div>
-        </label>
-        <label className="flex flex-row items-center space-x-4">
-          <span
-            style={{
-              backgroundColor:
-                stateView.ttsOutputConfig.modelWeaponOutputColour,
-            }}
-            className="block h-5 w-5 rounded-full border border-stone-600"
-          ></span>
-          <input
-            className="border border-stone-500 px-2 py-1 w-20 dark:text-black"
-            value={stateView.ttsOutputConfig.modelWeaponOutputColour}
-            onChange={(e) => {
-              state.ttsOutputConfig.modelWeaponOutputColour =
-                e.currentTarget.value;
-            }}
-          />
-          <div>
-            <p className="font-bold">
-              {t("ttsOutputConfigLoadoutOutputColour.name")}
-            </p>
-            <p className="text-xs">
-              {t("ttsOutputConfigLoadoutOutputColour.label")}
-            </p>
-          </div>
-        </label>
-        <label className="flex flex-row items-center space-x-4">
-          <span
-            style={{
-              backgroundColor:
-                stateView.ttsOutputConfig.modelSpecialRulesOutputColour,
-            }}
-            className="block h-5 w-5 rounded-full border border-stone-600"
-          ></span>
-          <input
-            className="border border-stone-500 px-2 py-1 w-20 dark:text-black"
-            value={stateView.ttsOutputConfig.modelSpecialRulesOutputColour}
-            onChange={(e) => {
-              state.ttsOutputConfig.modelSpecialRulesOutputColour =
-                e.currentTarget.value;
-            }}
-          />
-          <div>
-            <p className="font-bold">
-              {t("ttsOutputConfigSpecialRulesOutputColour.name")}
-            </p>
-            <p className="text-xs">
-              {t("ttsOutputConfigSpecialRulesOutputColour.label")}
-            </p>
-          </div>
-        </label>
-        <label className="flex flex-row items-center space-x-4">
-          <span
-            style={{
-              backgroundColor: stateView.ttsOutputConfig.modelToughOutputColour,
-            }}
-            className="block h-5 w-5 rounded-full border border-stone-600"
-          ></span>
-          <input
-            className="border border-stone-500 px-2 py-1 w-20 dark:text-black"
-            value={stateView.ttsOutputConfig.modelToughOutputColour}
-            onChange={(e) => {
-              state.ttsOutputConfig.modelToughOutputColour =
-                e.currentTarget.value;
-            }}
-          />
-
-          <div>
-            <p className="font-bold">
-              {t("ttsOutputConfigToughOutputColour.name")}
-            </p>
-            <p className="text-xs">
-              {t("ttsOutputConfigToughOutputColour.label")}
-            </p>
-          </div>
-        </label>
+        {COLOR_OPTIONS.map((option) => (
+          <label key={option.key} className="flex flex-row items-center space-x-4">
+            <span
+              style={{
+                backgroundColor: stateView.ttsOutputConfig[option.key],
+              }}
+              className="block h-5 w-5 rounded-full border border-stone-600"
+            ></span>
+            <input
+              className="border border-stone-500 px-2 py-1 w-20 dark:text-black"
+              value={stateView.ttsOutputConfig[option.key]}
+              onChange={(e) => {
+                state.ttsOutputConfig[option.key] = e.currentTarget.value;
+              }}
+            />
+            <div>
+              <p className="font-bold">{t(option.nameKey)}</p>
+              <p className="text-xs">{t(option.labelKey)}</p>
+            </div>
+          </label>
+        ))}
         {/* <label className="flex flex-row items-center space-x-4">
           <span
             style={{
@@ -373,7 +263,7 @@ export const OutputOptions = () => {
           <p className="font-bold">{t("loadCustomConfigHeader")}</p>
           {allConfigs.length >= 1 && (
             <div className="flex flex-row gap-3 flex-wrap mt-2">
-              {allConfigs.map((config: any) => {
+              {allConfigs.map((config) => {
                 return (
                   <div key={config.id} className="relative">
                     <button
@@ -392,7 +282,7 @@ export const OutputOptions = () => {
                     <button
                       onClick={() => {
                         setAllConfigs(
-                          allConfigs.filter((c: any) => c.id !== config.id)
+                          allConfigs.filter((c) => c.id !== config.id)
                         );
                       }}
                       className="shadow hover:scale-110 active:scale-95 absolute bg-red-500 -top-2 -right-2 text-white rounded-full p-1"

@@ -1,5 +1,5 @@
 require("dotenv").config();
-import { Handler } from "@netlify/functions";
+import { Handler, HandlerEvent } from "@netlify/functions";
 import { nanoid } from "nanoid";
 import { createClient } from "@libsql/client";
 
@@ -25,13 +25,26 @@ const getClient = () => {
   });
 };
 
-const handleGET = async (event) => {
+const parseEventBody = (
+  event: HandlerEvent
+): { list_json: unknown } | null => {
+  if (!event.body) {
+    return null;
+  }
+  try {
+    return JSON.parse(event.body) as { list_json: unknown };
+  } catch {
+    return null;
+  }
+};
+
+const handleGET = async (event: HandlerEvent) => {
   const client = getClient();
   if (!client) {
     return httpError(500, "Database not configured");
   }
 
-  const { listId = null } = event.queryStringParameters as any;
+  const listId = event.queryStringParameters?.listId ?? null;
 
   if (!listId) {
     return httpError(400, "Must supply `listId`");
@@ -57,17 +70,21 @@ const handleGET = async (event) => {
   };
 };
 
-const handlePOST = async (event) => {
+const handlePOST = async (event: HandlerEvent) => {
   const client = getClient();
   if (!client) {
     return httpError(500, "Database not configured");
   }
 
   const id = nanoid();
-  const body = JSON.parse(event.body);
-  const { list_json } = body;
+  const body = parseEventBody(event);
 
-  if (!list_json) {
+  if (!body) {
+    return httpError(400, "Invalid JSON body");
+  }
+
+  const { list_json } = body;
+  if (list_json == null) {
     return httpError(400, "Must supply `list_json`");
   }
 

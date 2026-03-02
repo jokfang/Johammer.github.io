@@ -112,6 +112,8 @@ export const deleteModel = (upId: string, mId: string) => {
   const unit = state.unitProfiles.find((up) => up.id === upId);
   if (unit) {
     const modelIndex = unit.models.findIndex((m) => m.id === mId);
-    unit.models.splice(modelIndex, 1);
+    if (modelIndex >= 0) {
+      unit.models.splice(modelIndex, 1);
+    }
   }
 };

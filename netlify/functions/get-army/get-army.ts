@@ -1,33 +1,23 @@
 import { Handler } from "@netlify/functions";
-import got from "got";
+import { RulesBook } from "./rulesbook";
 
 export const handler: Handler = async (event, context) => {
-  const { armyId = null } = event.queryStringParameters as any;
-  const { isBeta = null } = event.queryStringParameters as boolean | any;
+  const armyId = event.queryStringParameters?.armyId?.trim() ?? "";
+  const isBeta = event.queryStringParameters?.isBeta === "true";
 
   if (armyId) {
     try {
-
-      const baseUrl = isBeta === 'true'
-        ? 'https://army-forge-beta.onepagerules.com/api/tts'
-        : 'https://army-forge.onepagerules.com/api/tts';
-
-      const res = await got
-        .get(`${baseUrl}?id=${armyId}`)
-        .json();
+      const res = await RulesBook.fetchTtsExport(armyId, isBeta);
 
       return {
         statusCode: 200,
-        body: JSON.stringify({
-          ...(res as any),
-        }),
+        body: JSON.stringify(res),
       };
-    } catch (e) {
+    } catch {
       return {
         statusCode: 500,
         body: JSON.stringify({
-          error: `Army Forge failed to export list. Sorry!`,
-          originalError: e.message,
+          error: "Army Forge failed to export list. Sorry!",
         }),
       };
     }

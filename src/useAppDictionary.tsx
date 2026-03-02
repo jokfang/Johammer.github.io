@@ -17,8 +17,8 @@ export const useAppDictionary = () => {
     }
   );
 
-  //   @ts-ignore
-  const currentLanguage = appDictionary[currentLanguageId];
+  const dictionaries = appDictionary as Record<string, unknown>;
+  const currentLanguage = dictionaries[currentLanguageId || "en"];
 
   const t = (key: string) => {
     const val = _.get(currentLanguage, key);
