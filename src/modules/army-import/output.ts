@@ -246,9 +246,34 @@ export const generateUnitOutput = (
         const weapon = ci as iLoadoutWithContent;
         let label = weapon.label;
         let quantity = weapon.count;
-        if (quantity == null) {
+
+        // Some nested AF weapons provide count but no label; recover definition from parent text.
+        if (label == null) {
           label = fallbackDefinitionData[weapon.name];
+        }
+        if (quantity == null) {
           quantity = 1;
+        }
+
+        // Last-resort local definition build for nested weapons missing both label and fallback.
+        if (label == null) {
+          const chunks: string[] = [];
+          if (weapon.range) {
+            chunks.push(`${weapon.range}''`);
+          }
+          if (weapon.attacks) {
+            chunks.push(`A${weapon.attacks}`);
+          }
+          (weapon.specialRules || []).forEach((sr: iLoadoutWithContent) => {
+            let srString = `${sr.name}`;
+            if (sr.rating) {
+              srString += `(${sr.rating})`;
+            }
+            chunks.push(srString);
+          });
+          if (chunks.length > 0) {
+            label = `(${chunks.join(", ")})`;
+          }
         }
         if (label == null) {
           label = `[[Weapon definition missing in Army Forge data]]`;
