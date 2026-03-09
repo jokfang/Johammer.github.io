@@ -3,42 +3,48 @@ export type RuleDescription = {
   text: string;
 };
 
+export type SpellDescription = {
+  system: string;
+  cost: number;
+  text: string;
+};
+
 export enum SpecialRuleId {
-  ID_N_0zpUZx5GkSHb = "0zpUZx5GkSHb",
-  ID_N_56Tb7FFgHuyX = "56Tb7FFgHuyX",
-  ID_N_5xPzQn4Qdzz6 = "5xPzQn4Qdzz6",
-  ID_AiReKTM86F3e = "AiReKTM86F3e",
-  ID_AxiZW7zj2hUK = "AxiZW7zj2hUK",
-  ID_GgMdmXsCVdK2 = "GgMdmXsCVdK2",
-  ID_H18g_ND_uWiZ = "H18g-ND_uWiZ",
-  ID_HH7O68qvHVR0 = "HH7O68qvHVR0",
-  ID_K44UD3HPQAfg = "K44UD3HPQAfg",
-  ID_OJr14Si4C1Uj = "OJr14Si4C1Uj",
-  ID_OyVVPwEw7Uep = "OyVVPwEw7Uep",
-  ID_Q7nWXE_8DEHN = "Q7nWXE-8DEHN",
-  ID_RMi35vAtYNb = "RMi35vAtYNb-",
-  ID_SY80P2vKJGrY = "SY80P2vKJGrY",
-  ID_SshMejY9Kz7s = "SshMejY9Kz7s",
-  ID_k9nd29ZX_FQ = "_k9nd29ZX-FQ",
-  ID_aHBBAhsdAqyz = "aHBBAhsdAqyz",
-  ID_cJJJPqOuiHWx = "cJJJPqOuiHWx",
-  ID_cyQpyja0EDRj = "cyQpyja0EDRj",
-  ID_dRAJ8qnYDOxm = "dRAJ8qnYDOxm",
-  ID_f78kQxkgtIs1 = "f78kQxkgtIs1",
-  ID_fLQMyzi3zbFI = "fLQMyzi3zbFI",
-  ID_iv1Jm6zZiZPJ = "iv1Jm6zZiZPJ",
-  ID_ndODzgAqJGDz = "ndODzgAqJGDz",
-  ID_oACH5PrePLfv = "oACH5PrePLfv",
-  ID_p9iL_bzUnY7A = "p9iL_bzUnY7A",
-  ID_tKa31SeqrzS1 = "tKa31SeqrzS1",
-  ID_uAXC1RxdtELq = "uAXC1RxdtELq",
-  ID_vhKZ0CIT6dBt = "vhKZ0CIT6dBt",
-  ID_voFsQwaDph1Y = "voFsQwaDph1Y",
-  ID_wLKHbRBBr4NI = "wLKHbRBBr4NI",
-  ID_x2_Lkyj0JPk2 = "x2_Lkyj0JPk2",
-  ID_xw2YHtZNkhIV = "xw2YHtZNkhIV",
-  ID_ylxJ4fFb6cZf = "ylxJ4fFb6cZf",
-  ID_zrj60Gptp4Ce = "zrj60Gptp4Ce",
+  AoF_Ossified_Undead = "0zpUZx5GkSHb",
+  AoF_Rift_Daemons_of_Change = "56Tb7FFgHuyX",
+  AoF_Moonmire_s_Proving_Grounds_Rammit_Den_Geddul_Battalion = "5xPzQn4Qdzz6",
+  AoF_Viper_Matriarch_Warband = "AiReKTM86F3e",
+  AoF_Eternal_Wardens = "AxiZW7zj2hUK",
+  AoF_Goblins = "GgMdmXsCVdK2",
+  AoF_Centaur_Starting_Stampede = "H18g-ND_uWiZ",
+  AoF_Lovent_House_Army = "HH7O68qvHVR0",
+  AoF_Ogres = "K44UD3HPQAfg",
+  AoF_Lust_Disciples = "OJr14Si4C1Uj",
+  AoF_Moonmire_s_Proving_Grounds_Hakemba_Battalion = "OyVVPwEw7Uep",
+  AoF_Sky_City_Dwarves = "Q7nWXE-8DEHN",
+  AoF_War_Disciples_Rift_Daemons_of_War = "RMi35vAtYNb-",
+  AoF_High_Elves = "SY80P2vKJGrY",
+  AoF_Dwarves = "SshMejY9Kz7s",
+  AoF_Plague_Disciples_Plague_Daemons = "_k9nd29ZX-FQ",
+  AoF_Heroes_of_Morale_Magic = "aHBBAhsdAqyz",
+  AoF_Wood_Elves = "cJJJPqOuiHWx",
+  AoF_Moonmire_s_Proving_Grounds_Moonmire_Battalion = "cyQpyja0EDRj",
+  AoF_Secrets_of_Tixal_Ignatio_Lucrezza_Battalion = "dRAJ8qnYDOxm",
+  AoF_Vampiric_Undead = "f78kQxkgtIs1",
+  AoF_The_nasty_ones = "fLQMyzi3zbFI",
+  AoF_Secrets_of_Tixal_Teqi_Hakatlo_Battalion = "iv1Jm6zZiZPJ",
+  AoF_Havoc_Warriors = "ndODzgAqJGDz",
+  AoF_Sea_Elves = "oACH5PrePLfv",
+  AoF_Giant_s = "p9iL_bzUnY7A",
+  AoF_Plague_Daemons = "tKa31SeqrzS1",
+  AoF_Volcanic_Dwarf = "uAXC1RxdtELq",
+  AoF_The_Last_Tear_Ironpride_Cleaverfang_Battalion = "vhKZ0CIT6dBt",
+  AoF_Human_Empire = "voFsQwaDph1Y",
+  AoF_Orcs = "wLKHbRBBr4NI",
+  AoF_Ghostly_Undead = "x2_Lkyj0JPk2",
+  AoF_Change_Disciples_Change_Daemons = "xw2YHtZNkhIV",
+  AoF_The_Last_Tear_Kedseit_Hepalit_Battalion = "ylxJ4fFb6cZf",
+  AoF_Shadow_Stalkers = "zrj60Gptp4Ce",
 }
 
 export type SpecialRuleIdValue = `${SpecialRuleId}`;
@@ -49,16 +55,959 @@ export type RuleTranslationEntry = {
   description: RuleDescription[];
 };
 
+export type SpellTranslationEntry = {
+  title: string;
+  specialRule?: SpecialRuleIdValue[];
+  description: SpellDescription[];
+};
+
 export type RulesByLanguage = Record<string, Record<string, RuleTranslationEntry>>;
+export type SpellsByLanguage = Record<string, Record<string, SpellTranslationEntry>>;
 
 export const commonRules: RulesByLanguage = {
   "en": {
+    "Ambush Beacon": {
+      "title": "Ambush Beacon",
+      "description": [
+        {
+          "system": "all",
+          "text": "Friendly units using <key>Ambush</key> may ignore distance restrictions from enemies if they are deployed within 6\" of this model."
+        }
+      ]
+    },
+    "Bad Shot": {
+      "title": "Bad Shot",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets -1 to hit rolls when shooting."
+        }
+      ]
+    },
+    "Badlands Hunter": {
+      "title": "Badlands Hunter",
+      "description": [
+        {
+          "system": "all",
+          "text": "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+        }
+      ]
+    },
+    "Badlands Hunter Boost": {
+      "title": "Badlands Hunter Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Badlands <key>Hunter</key></key>, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from <key>Badlands <key>Hunter</key></key> (instead of only on 1)."
+        }
+      ]
+    },
+    "Badlands Hunter Boost Aura": {
+      "title": "Badlands Hunter Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Badlands <key>Hunter</key></key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Ballistic Vest": {
+      "title": "Ballistic Vest",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away and take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
+        }
+      ]
+    },
+    "Ballistic Vest Boost": {
+      "title": "Ballistic Vest Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in this unit have <key>Ballistic Vest</key>, enemy hits always count as having <key>AP</key>(-1) from <key>Ballistic Vest</key> (instead of only when being shot/charged from over 9\" away)."
+        }
+      ]
+    },
+    "Ballistic Vest Boost Aura": {
+      "title": "Ballistic Vest Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Ballistic Vest</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Bane in Melee Buff": {
+      "title": "Bane in Melee Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets <key>Bane</key> in melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Battle-Hardened": {
+      "title": "Battle-Hardened",
+      "description": [
+        {
+          "system": "all",
+          "text": "Units where all models have this rule get +1 to morale test rolls."
+        }
+      ]
+    },
+    "Battleborn": {
+      "title": "Battleborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+        }
+      ]
+    },
+    "Berserker Boost": {
+      "title": "Berserker Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Berserker</key>, it deals extra hits on successful unmodified hit results of 5-6 from <key>Berserker</key> (instead of only on 6)."
+        }
+      ]
+    },
+    "Berserker Boost Aura": {
+      "title": "Berserker Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Berserker</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Bloodborn": {
+      "title": "Bloodborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+        }
+      ]
+    },
+    "Brute Courage": {
+      "title": "Brute Courage",
+      "description": [
+        {
+          "system": "all",
+          "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+        }
+      ]
+    },
+    "Clan Warrior": {
+      "title": "Clan Warrior",
+      "description": [
+        {
+          "system": "all",
+          "text": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+        }
+      ]
+    },
+    "Clan Warrior Boost": {
+      "title": "Clan Warrior Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Clan Warrior</key>, it gets extra attacks on successful unmodified hit results of 5-6 from <key>Clan Warrior</key> (instead of only on 6)."
+        }
+      ]
+    },
+    "Clan Warrior Boost Aura": {
+      "title": "Clan Warrior Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Clan Warrior</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Cyber-Eyes": {
+      "title": "Cyber-Eyes",
+      "description": [
+        {
+          "system": "all",
+          "text": "When this model shoots at enemies over 9\" away, it gets +1 to hit rolls."
+        }
+      ]
+    },
+    "Cyber-Eyes Boost": {
+      "title": "Cyber-Eyes Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Cyber-Eyes</key>, it always gets +1 to hit rolls from <key>Cyber-Eyes</key> (instead of only when shooting over 9\" away)."
+        }
+      ]
+    },
+    "Cyber-Eyes Boost Aura": {
+      "title": "Cyber-Eyes Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Cyber-Eyes</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Darkborn": {
+      "title": "Darkborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets +3\" range when shooting and moves +3\" when using Charge actions."
+        }
+      ]
+    },
+    "Defensive Growth": {
+      "title": "Defensive Growth",
+      "description": [
+        {
+          "system": "all",
+          "text": "Place one marker on this unit at the end of each round if it's on the table. For each marker models with this rule in it get +1 to defense rolls (up to a max. of +2). If this unit is ever Shaken, it loses all its markers."
+        }
+      ]
+    },
+    "Defensive Growth Aura": {
+      "title": "Defensive Growth Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Defensive Growth</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Demolish": {
+      "title": "Demolish",
+      "description": [
+        {
+          "system": "all",
+          "text": "<key>Ignores Cover</key>, and against non-<key>Hero</key> units with <key>Tough</key>(3) or more, this weapon gets <key>AP</key>(+2)."
+        }
+      ]
+    },
+    "Devout": {
+      "title": "Devout",
+      "description": [
+        {
+          "system": "all",
+          "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+        }
+      ]
+    },
+    "Devout Boost": {
+      "title": "Devout Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Devout</key>, it deals extra hits on successful unmodified hit results of 5-6 from <key>Devout</key> (instead of only on 6)."
+        }
+      ]
+    },
+    "Devout Boost Aura": {
+      "title": "Devout Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Devout</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Entrenched Buff": {
+      "title": "Entrenched Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets <key>Entrenched</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Flying Aura": {
+      "title": "Flying Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Flying</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Grounded Precision": {
+      "title": "Grounded Precision",
+      "description": [
+        {
+          "system": "all",
+          "text": "If a unit where all models have this rule has most of them within 1\" of terrain, they get +1 to hit rolls when attacking."
+        }
+      ]
+    },
+    "Grounded Precision Aura": {
+      "title": "Grounded Precision Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Grounded Precision</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Grounded Stealth": {
+      "title": "Grounded Stealth",
+      "description": [
+        {
+          "system": "all",
+          "text": "If a unit where all models have this rule has most of them within 1\" of terrain, enemies get -1 to hit rolls when attacking them."
+        }
+      ]
+    },
+    "Guardian": {
+      "title": "Guardian",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away and take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
+        }
+      ]
+    },
+    "Guardian Boost": {
+      "title": "Guardian Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in this unit have <key>Guardian</key>, enemy hits always count as having <key>AP</key>(-1) from <key>Guardian</key> (instead of only when being shot/charged from over 9\" away)."
+        }
+      ]
+    },
+    "Guardian Boost Aura": {
+      "title": "Guardian Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Guardian</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Guerrilla": {
+      "title": "Guerrilla",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per round, units where all models have this rule may move by up to 3\" after shooting or being in melee."
+        }
+      ]
+    },
+    "Guerrilla Boost": {
+      "title": "Guerrilla Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If most models in this unit have <key>Guerrilla</key>, they may move by up to 6\" from <key>Guerrilla</key> (instead of only 3\")."
+        }
+      ]
+    },
+    "Guerrilla Boost Aura": {
+      "title": "Guerrilla Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Guerrilla</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Hive Bond": {
+      "title": "Hive Bond",
+      "description": [
+        {
+          "system": "all",
+          "text": "Units where all models have this rule get +1 to morale test rolls."
+        }
+      ]
+    },
+    "Hive Bond Boost": {
+      "title": "Hive Bond Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in this unit have <key>Hive Bond</key>, they get +2 to morale test rolls from <key>Hive Bond</key> (instead of only +1)."
+        }
+      ]
+    },
+    "Hive Bond Boost Aura": {
+      "title": "Hive Bond Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Hive Bond</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Hold the Line Boost Aura": {
+      "title": "Hold the Line Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Hold the Line</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Ignores Cover Aura": {
+      "title": "Ignores Cover Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Ignores Cover</key> when shooting. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Ignores Cover when Shooting": {
+      "title": "Ignores Cover when Shooting",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets <key>Ignores Cover</key> when shooting."
+        }
+      ]
+    },
+    "Ignores Cover when Shooting Aura": {
+      "title": "Ignores Cover when Shooting Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Ignores Cover</key> when shooting. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Ignores Regeneration in Melee": {
+      "title": "Ignores Regeneration in Melee",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets <key>Ignores <key>Regeneration</key></key> in melee."
+        }
+      ]
+    },
+    "Indirect Mark": {
+      "title": "Indirect Mark",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\", which friendly units gets <key>Indirect</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Infected": {
+      "title": "Infected",
+      "description": [
+        {
+          "system": "all",
+          "text": "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+        }
+      ]
+    },
+    "Infected Boost": {
+      "title": "Infected Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Infected</key>, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from <key>Infected</key> (instead of only on 1)."
+        }
+      ]
+    },
+    "Infected Boost Aura": {
+      "title": "Infected Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Infected</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Infiltrate Aura": {
+      "title": "Infiltrate Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Infiltrate</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Inquisitorial Agent": {
+      "title": "Inquisitorial Agent",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per game, if all models in this unit have this rule, it may be activated even if it had already activated this round (stops being fatigued when activated for the second time). Only up to half of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
+        }
+      ]
+    },
+    "Knightborn": {
+      "title": "Knightborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 4+ instead."
+        }
+      ]
+    },
+    "Machine-Fog": {
+      "title": "Machine-Fog",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away, enemy units get -1 to hit rolls."
+        }
+      ]
+    },
+    "Machine-Fog Boost": {
+      "title": "Machine-Fog Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in this unit have <key>Machine-Fog</key>, enemies attacking them always get -1 to hit rolls from <key>Machine-Fog</key> (instead of only when being shot/charged from over 9\" away)."
+        }
+      ]
+    },
+    "Machine-Fog Boost Aura": {
+      "title": "Machine-Fog Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Machine-Fog</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Martial Prowess": {
+      "title": "Martial Prowess",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per game, if all models in this unit have this rule, it may be activated even if it had already activated this round (stops being fatigued when activated for the second time). Only up to half of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
+        }
+      ]
+    },
+    "No Retreat Buff": {
+      "title": "No Retreat Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets <key>No Retreat</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Piercing Growth": {
+      "title": "Piercing Growth",
+      "description": [
+        {
+          "system": "all",
+          "text": "Place one marker on this unit at the end of each round if it's on the table. For each marker models with this rule in it get <key>AP</key>(+1) (up to a max. of +2). If this unit is ever Shaken, it loses all its markers."
+        }
+      ]
+    },
+    "Piercing Shooting Debuff": {
+      "title": "Piercing Shooting Debuff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\", which loses <key>AP</key>(+1) when shooting once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Piercing Shooting Mark": {
+      "title": "Piercing Shooting Mark",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\", which friendly units gets <key>AP</key>(+1) when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Point-Blank Piercing": {
+      "title": "Point-Blank Piercing",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets <key>AP</key>(+1) when shooting enemies within 12\"."
+        }
+      ]
+    },
+    "Point-Blank Piercing Aura": {
+      "title": "Point-Blank Piercing Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Point-Blank Piercing</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Point-Blank Surge": {
+      "title": "Point-Blank Surge",
+      "description": [
+        {
+          "system": "all",
+          "text": "When this model shoots at enemies within 12\", unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+        }
+      ]
+    },
+    "Protected Aura": {
+      "title": "Protected Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Protected</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Protection Feat Aura": {
+      "title": "Protection Feat Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Protection Feat</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Psychotic": {
+      "title": "Psychotic",
+      "description": [
+        {
+          "system": "all",
+          "text": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+        }
+      ]
+    },
+    "Psychotic Boost": {
+      "title": "Psychotic Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Psychotic</key>, it gets extra attacks on successful unmodified hit results of 5-6 from <key>Psychotic</key> (instead of only on 6)."
+        }
+      ]
+    },
+    "Psychotic Boost Aura": {
+      "title": "Psychotic Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Psychotic</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Quake when Shooting": {
+      "title": "Quake when Shooting",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets <key>Quake</key> when shooting."
+        }
+      ]
+    },
+    "Rapid Advance Buff": {
+      "title": "Rapid Advance Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets <key>Rapid Advance</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rapid Ambush": {
+      "title": "Rapid Ambush",
+      "description": [
+        {
+          "system": "all",
+          "text": "Counts as having <key>Ambush</key>, but may be deployed at the start of any round, including the first."
+        }
+      ]
+    },
+    "Rapid Blink": {
+      "title": "Rapid Blink",
+      "description": [
+        {
+          "system": "all",
+          "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within 3\" of their position."
+        }
+      ]
+    },
+    "Rapid Blink Boost": {
+      "title": "Rapid Blink Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Rapid Blink</key>, it may be placed within 6\" from <key>Rapid Blink</key> (instead of only within 3\")."
+        }
+      ]
+    },
+    "Rapid Blink Boost Aura": {
+      "title": "Rapid Blink Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Rapid Blink</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Reinforced": {
+      "title": "Reinforced",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away and take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
+        }
+      ]
+    },
+    "Runner Boost": {
+      "title": "Runner Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Runner</key>, it moves +4\" on Advance and +4\" on Rush/Charge from <key>Runner</key> (instead of only +2\" and +2\")."
+        }
+      ]
+    },
+    "Runner Boost Aura": {
+      "title": "Runner Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Runner</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Safety Gear": {
+      "title": "Safety Gear",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away, they get +1 to defense rolls."
+        }
+      ]
+    },
+    "Safety Gear Boost": {
+      "title": "Safety Gear Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in this unit have <key>Safety Gear</key>, they always get +1 to defense rolls from <key>Safety Gear</key> (instead of only when being shot/charged from over 9\" away)."
+        }
+      ]
+    },
+    "Safety Gear Boost Aura": {
+      "title": "Safety Gear Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Safety Gear</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Scrapper": {
+      "title": "Scrapper",
+      "description": [
+        {
+          "system": "all",
+          "text": "When attacking, targets must re-roll unmodified <key>Defense</key> results of 6 when blocking hits from this model's weapons."
+        }
+      ]
+    },
+    "Scrapper Boost": {
+      "title": "Scrapper Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Scrapper</key>, enemies taking hits from it must re-roll successful unmodified defense results of 5-6 from <key>Scrapper</key> (instead of only on 6)."
+        }
+      ]
+    },
+    "Scrapper Boost Aura": {
+      "title": "Scrapper Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Scrapper</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Screened": {
+      "title": "Screened",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away, enemy units get -1 to hit rolls."
+        }
+      ]
+    },
+    "Screened Aura": {
+      "title": "Screened Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Screened</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Self-Destruct": {
+      "title": "Self-Destruct",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits."
+        }
+      ]
+    },
+    "Self-Repair": {
+      "title": "Self-Repair",
+      "description": [
+        {
+          "system": "all",
+          "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+        }
+      ]
+    },
+    "Self-Repair Boost": {
+      "title": "Self-Repair Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in this unit have <key>Self-Repair</key>, they ignore wounds on rolls of 5-6 from <key>Self-Repair</key> (instead of only on 6+)."
+        }
+      ]
+    },
+    "Shadow Operative": {
+      "title": "Shadow Operative",
+      "description": [
+        {
+          "system": "all",
+          "text": "Enemies get -4\" range when trying to shoot at units where all models have this rule, and -2\" movement when trying to charge units where all models have this rule."
+        }
+      ]
+    },
+    "Shadow Operative Boost": {
+      "title": "Shadow Operative Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in this unit have <key>Shadow Operative</key>, enemies get -8\" range when shooting them and -4\" movement when charging them from <key>Shadow Operative</key> (instead of only -4\" and -2\")."
+        }
+      ]
+    },
+    "Shadow Operative Boost Aura": {
+      "title": "Shadow Operative Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Shadow Operative</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Shred when Shooting": {
+      "title": "Shred when Shooting",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets <key>Shred</key> when shooting."
+        }
+      ]
+    },
+    "Surge when Shooting": {
+      "title": "Surge when Shooting",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets <key>Surge</key> when shooting."
+        }
+      ]
+    },
+    "Surprise Piercing Shot": {
+      "title": "Surprise Piercing Shot",
+      "description": [
+        {
+          "system": "all",
+          "text": "Counts as having <key>Ambush</key>, and gets <key>AP</key>(+2) when shooting on the round in which it deploys via this rule."
+        }
+      ]
+    },
+    "Targeting Visor": {
+      "title": "Targeting Visor",
+      "description": [
+        {
+          "system": "all",
+          "text": "When this model shoots at enemies over 9\" away, it gets +1 to hit rolls."
+        }
+      ]
+    },
+    "Targeting Visor Boost": {
+      "title": "Targeting Visor Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has <key>Targeting Visor</key>, it always gets +1 to hit rolls when shooting from <key>Targeting Visor</key> (instead of only when shooting over 9\" away)."
+        }
+      ]
+    },
+    "Targeting Visor Boost Aura": {
+      "title": "Targeting Visor Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Targeting Visor</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Union Assault": {
+      "title": "Union Assault",
+      "description": [
+        {
+          "system": "all",
+          "text": "After this model is deployed, it may be placed anywhere fully within 9” of its position."
+        }
+      ]
+    },
+    "Versatile Reach Aura": {
+      "title": "Versatile Reach Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Versatile Reach</key>. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Watchborn": {
+      "title": "Watchborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get <key>AP</key>(+1) when attacking, or get +1 to hit rolls when attacking."
+        }
+      ]
+    },
+    "Wolfborn": {
+      "title": "Wolfborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within 3\" of their position."
+        }
+      ]
+    },
+    "Wreck": {
+      "title": "Wreck",
+      "description": [
+        {
+          "system": "all",
+          "text": "<key>Ignores Cover</key>, and when attacking the target must re-roll unmodified <key>Defense</key> results of 6."
+        }
+      ]
+    },
     "Aircraft": {
       "title": "Aircraft",
       "description": [
         {
           "system": "all",
-          "text": "May only use Advance actions, moving in a straight line, and adding 30” to its total move (even if Shaken). Aircraft ignore all units and terrain when moving and stopping, can’t seize or contest objectives, can’t be charged, and units targeting them get -12” range."
+          "text": "May only use Advance actions, moving in a straight line, and adding 30” to its total move (even if Shaken). <key>Aircraft</key> ignore all units and terrain when moving and stopping, can’t seize or contest objectives, can’t be charged, and units targeting them get -12” range."
         }
       ]
     },
@@ -67,11 +1016,11 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 9” away from enemy units. Players alternate in placing Ambush units, starting with the player that activates next. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy."
+          "text": "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 9” away from enemy units. Players alternate in placing <key>Ambush</key> units, starting with the player that activates next. Units that deploy via <key>Ambush</key> can’t seize or contest objectives on the round they deploy."
         },
         {
           "system": "aofr",
-          "text": "May be set aside before deployment. At the start of any round after the first, may be deployed fully within 6” of any table edge, over 9\" away from enemy units. Players alternate in placing Ambush units, starting with the player that activates next. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy."
+          "text": "May be set aside before deployment. At the start of any round after the first, may be deployed fully within 6” of any table edge, over 9\" away from enemy units. Players alternate in placing <key>Ambush</key> units, starting with the player that activates next. Units that deploy via <key>Ambush</key> can’t seize or contest objectives on the round they deploy."
         }
       ],
       "specialRule": [
@@ -102,7 +1051,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Targets get -X to Defense rolls when blocking hits."
+          "text": "Targets get -X to <key>Defense</key> rolls when blocking hits."
         }
       ],
       "specialRule": [
@@ -162,7 +1111,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and when attacking the target must re-roll unmodified Defense results of 6."
+          "text": "<key>Ignores Regeneration</key>, and when attacking the target must re-roll unmodified <key>Defense</key> results of 6."
         }
       ],
       "specialRule": [
@@ -280,11 +1229,11 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Strikes first with this weapon when charged, and the charging unit gets -1 total Impact rolls per model with Counter."
+          "text": "Strikes first with this weapon when charged, and the charging unit gets -1 total <key>Impact</key> rolls per model with <key>Counter</key>."
         },
         {
           "system": "aofr",
-          "text": "Strikes first with this weapon when charged, and the charging unit gets -1 total Impact rolls per model with Counter in the two front rows if charging in the front."
+          "text": "Strikes first with this weapon when charged, and the charging unit gets -1 total <key>Impact</key> rolls per model with <key>Counter</key> in the two front rows if charging in the front."
         }
       ],
       "specialRule": [
@@ -300,7 +1249,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Assign each wound to one model, and multiply it by X. Hits from Deadly must be resolved first, and these wounds don’t carry over to other models if the original target is killed."
+          "text": "Assign each wound to one model, and multiply it by X. Hits from <key>Deadly</key> must be resolved first, and these wounds don’t carry over to other models if the original target is killed."
         }
       ],
       "specialRule": [
@@ -428,15 +1377,15 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "gf",
-          "text": "Heroes with up to Tough(6) may deploy as part of one multi-model unit without another Hero. The hero may take morale tests on behalf of the unit, but must use the unit’s Defense until all other models have been killed."
+          "text": "Heroes with up to <key>Tough</key>(6) may deploy as part of one multi-model unit without another <key>Hero</key>. The hero may take morale tests on behalf of the unit, but must use the unit’s <key>Defense</key> until all other models have been killed."
         },
         {
           "system": "aof",
-          "text": "Heroes with up to Tough(6) may deploy as part of one multi-model unit without another Hero. The hero may take morale tests on behalf of the unit, but must use the unit’s Defense until all other models have been killed."
+          "text": "Heroes with up to <key>Tough</key>(6) may deploy as part of one multi-model unit without another <key>Hero</key>. The hero may take morale tests on behalf of the unit, but must use the unit’s <key>Defense</key> until all other models have been killed."
         },
         {
           "system": "aofr",
-          "text": "Heroes with up to Tough(6) may deploy as part of one multi-model unit without another Hero. The hero may take morale tests on behalf of the unit, but must use the unit’s Defense until all other models have been killed."
+          "text": "Heroes with up to <key>Tough</key>(6) may deploy as part of one multi-model unit without another <key>Hero</key>. The hero may take morale tests on behalf of the unit, but must use the unit’s <key>Defense</key> until all other models have been killed."
         }
       ],
       "specialRule": [
@@ -587,7 +1536,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and on unmodified results of 6 to hit, those hits get AP(+4)."
+          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -605,7 +1554,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "May be set aside before deployment. After all other units are deployed, may be deployed anywhere fully within 12” of their deployment zone. Players alternate in placing Scout units, starting with the player that activates next."
+          "text": "May be set aside before deployment. After all other units are deployed, may be deployed anywhere fully within 12” of their deployment zone. Players alternate in placing <key>Scout</key> units, starting with the player that activates next."
         }
       ],
       "specialRule": [
@@ -691,7 +1640,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model may pick any model in the target unit as its individual target, which is resolved as if it was a unit of [1]. Takedown attacks must be resolved before other weapons."
+          "text": "This model may pick any model in the target unit as its individual target, which is resolved as if it was a unit of [1]. <key>Takedown</key> attacks must be resolved before other weapons."
         }
       ]
     },
@@ -700,7 +1649,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When charging, gets +1 to hit rolls and AP(+1) in melee."
+          "text": "When charging, gets +1 to hit rolls and <key>AP</key>(+1) in melee."
         }
       ],
       "specialRule": [
@@ -756,7 +1705,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "May transport up to X models or Heroes with up to Tough(6), and non-Heroes with up to Tough(3) which occupy 3 spaces each. Transports may deploy with units inside, and units may enter/exit by using any move action, but must stay fully within 6\" of it when exiting. Units inside/outside transports may not target other units outside/inside transports, but may target the transport itself. When a transport is destroyed, units inside must take a dangerous terrain test, are Shaken, and must be placed fully within 6” of the transport before it’s removed."
+          "text": "May transport up to X models or Heroes with up to <key>Tough</key>(6), and non-Heroes with up to <key>Tough</key>(3) which occupy 3 spaces each. Transports may deploy with units inside, and units may enter/exit by using any move action, but must stay fully within 6\" of it when exiting. Units inside/outside transports may not target other units outside/inside transports, but may target the transport itself. When a transport is destroyed, units inside must take a dangerous terrain test, are Shaken, and must be placed fully within 6” of the transport before it’s removed."
         }
       ]
     },
@@ -765,7 +1714,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and ignores all negative modifiers to this weapon."
+          "text": "<key>Ignores Regeneration</key>, and ignores all negative modifiers to this weapon."
         }
       ],
       "specialRule": [
@@ -865,7 +1814,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Enemy units within 6\" of the Hero get -1 Defense."
+          "text": "Enemy units within 6\" of the <key>Hero</key> get -1 <key>Defense</key>."
         }
       ]
     },
@@ -874,7 +1823,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Friendly units that activate within 6\" of the Hero get +1 to hit when shooting."
+          "text": "Friendly units that activate within 6\" of the <key>Hero</key> get +1 to hit when shooting."
         }
       ]
     },
@@ -901,7 +1850,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Friendly units within 6\" of the Hero get +1 to morale test rolls."
+          "text": "Friendly units within 6\" of the <key>Hero</key> get +1 to morale test rolls."
         }
       ]
     },
@@ -910,7 +1859,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "The hero gets AP(+1) when shooting."
+          "text": "The hero gets <key>AP</key>(+1) when shooting."
         }
       ],
       "specialRule": [
@@ -967,7 +1916,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Friendly units within 6” of the Hero get -1 to wound effect rolls."
+          "text": "Friendly units within 6” of the <key>Hero</key> get -1 to wound effect rolls."
         }
       ]
     },
@@ -997,7 +1946,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Friendly units that activate within 6\" of the Hero get +1 to hit when in melee."
+          "text": "Friendly units that activate within 6\" of the <key>Hero</key> get +1 to hit when in melee."
         }
       ]
     },
@@ -1033,7 +1982,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Gets Tough(+1)."
+          "text": "Gets <key>Tough</key>(+1)."
         }
       ]
     },
@@ -1042,7 +1991,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Friendly units that activate within 6\" of the Hero get +6” range when shooting."
+          "text": "Friendly units that activate within 6\" of the <key>Hero</key> get +6” range when shooting."
         }
       ]
     },
@@ -1128,7 +2077,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0)."
+          "text": "When units where all models have this rule take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
         }
       ]
     },
@@ -1184,7 +2133,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Shadowborn, enemies get -8\" range when shooting  them and -4\" movement when charging them from Shadowborn (instead of only -4\" and -2\")."
+          "text": "If all models in this unit have <key>Shadowborn</key>, enemies get -8\" range when shooting  them and -4\" movement when charging them from <key>Shadowborn</key> (instead of only -4\" and -2\")."
         }
       ]
     },
@@ -1211,7 +2160,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, roll one die. On a 2+ one enemy unit within 6\" in line of sight takes 1 hit with Blast(3) and AP(1)."
+          "text": "Once per activation, before attacking, roll one die. On a 2+ one enemy unit within 6\" in line of sight takes 1 hit with <key>Blast</key>(3) and <key>AP</key>(1)."
         }
       ]
     },
@@ -1286,7 +2235,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Counts as having Defense X+."
+          "text": "Counts as having <key>Defense</key> X+."
         }
       ]
     },
@@ -1310,7 +2259,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Enemy units using Ambush must be set up over 12\" away from this model's unit."
+          "text": "Enemy units using <key>Ambush</key> must be set up over 12\" away from this model's unit."
         }
       ]
     },
@@ -1350,7 +2299,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model's melee weapons get AP(+2) against units where most models have Tough(3) or higher."
+          "text": "This model's melee weapons get <key>AP</key>(+2) against units where most models have <key>Tough</key>(3) or higher."
         }
       ]
     },
@@ -1363,7 +2312,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Thrust in melee."
+          "text": "This model and its unit get <key>Thrust</key> in melee."
         }
       ]
     },
@@ -1415,7 +2364,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Counter-Attack."
+          "text": "This model and its unit get <key>Counter-Attack</key>."
         }
       ]
     },
@@ -1459,7 +2408,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Rapid Rush."
+          "text": "This model and its unit get <key>Rapid Rush</key>."
         }
       ]
     },
@@ -1473,7 +2422,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets Bane in melee."
+          "text": "This model gets <key>Bane</key> in melee."
         }
       ]
     },
@@ -1485,7 +2434,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Shadowborn Boost."
+          "text": "This model and its unit get <key>Shadowborn Boost</key>."
         }
       ]
     },
@@ -1497,7 +2446,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Unpredictable Fighter</key> against once (next time the effect would apply)."
         }
       ]
     },
@@ -1551,7 +2500,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and against units where most models have Defense 2+ to Defense 4+, this weapon gets AP(+1)."
+          "text": "<key>Ignores Cover</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
         }
       ]
     },
@@ -1657,7 +2606,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When in melee, roll one die and apply one effect to all models with this rule: on a 1-3 they get AP(+1), and on a 4-6 they get +1 to hit rolls instead."
+          "text": "When in melee, roll one die and apply one effect to all models with this rule: on a 1-3 they get <key>AP</key>(+1), and on a 4-6 they get +1 to hit rolls instead."
         }
       ]
     },
@@ -1678,7 +2627,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When attacking, roll one die and apply one effect to all models with this rule: on a 1-3 they get AP(+1), and on a 4-6 they get +1 to hit rolls instead."
+          "text": "When attacking, roll one die and apply one effect to all models with this rule: on a 1-3 they get <key>AP</key>(+1), and on a 4-6 they get +1 to hit rolls instead."
         }
       ]
     },
@@ -1730,7 +2679,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Grounded Protection."
+          "text": "This model and its unit get <key>Grounded Protection</key>."
         }
       ]
     },
@@ -1800,7 +2749,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Piercing Assault."
+          "text": "This model and its unit get <key>Piercing Assault</key>."
         }
       ]
     },
@@ -1826,7 +2775,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Unpredictable Shooter."
+          "text": "This model and its unit get <key>Unpredictable Shooter</key>."
         }
       ]
     },
@@ -1840,7 +2789,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Hit & Run Shooter."
+          "text": "This model and its unit get <key>Hit & Run Shooter</key>."
         }
       ]
     },
@@ -1854,7 +2803,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Melee Evasion."
+          "text": "This model and its unit get <key>Melee Evasion</key>."
         }
       ]
     },
@@ -1866,7 +2815,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Wild Veil, enemies get -8\" range when shooting  them and -4\" movement when charging them from Wild Veil (instead of only -4\" and -2\")."
+          "text": "If all models in this unit have <key>Wild Veil</key>, enemies get -8\" range when shooting  them and -4\" movement when charging them from <key>Wild Veil</key> (instead of only -4\" and -2\")."
         }
       ]
     },
@@ -1879,7 +2828,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Quick Shot against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
         }
       ]
     },
@@ -1898,7 +2847,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets AP(+1) when charging."
+          "text": "This model gets <key>AP</key>(+1) when charging."
         }
       ]
     },
@@ -1910,7 +2859,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Wild Veil Boost."
+          "text": "This model and its unit get <key>Wild Veil Boost</key>."
         }
       ]
     },
@@ -1951,7 +2900,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Rapid Advance."
+          "text": "This model and its unit get <key>Rapid Advance</key>."
         }
       ]
     },
@@ -1977,7 +2926,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When shooting, roll one die and apply one effect to all models with this rule: on a 1-3 they get AP(+1), and on a 4-6 they get +1 to hit rolls instead."
+          "text": "When shooting, roll one die and apply one effect to all models with this rule: on a 1-3 they get <key>AP</key>(+1), and on a 4-6 they get +1 to hit rolls instead."
         }
       ]
     },
@@ -2069,7 +3018,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Stealth."
+          "text": "This model and its unit get <key>Stealth</key>."
         }
       ]
     },
@@ -2086,7 +3035,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model may ignore the Slow rule."
+          "text": "This model may ignore the <key>Slow</key> rule."
         }
       ]
     },
@@ -2104,7 +3053,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, when it's this model's turn to attack in melee, you may pick one model in the unit as its target, and make one attack at Quality 2+ with AP(2) and Deadly(3), which is resolved as if it's a unit of 1."
+          "text": "Once per game, when it's this model's turn to attack in melee, you may pick one model in the unit as its target, and make one attack at Quality 2+ with <key>AP</key>(2) and <key>Deadly</key>(3), which is resolved as if it's a unit of 1."
         }
       ]
     },
@@ -2128,7 +3077,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Grounded Reinforcement."
+          "text": "This model and its unit get <key>Grounded Reinforcement</key>."
         }
       ]
     },
@@ -2172,7 +3121,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Quick Shot."
+          "text": "This model and its unit get <key>Quick Shot</key>."
         }
       ]
     },
@@ -2187,7 +3136,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Swift."
+          "text": "This model and its unit get <key>Swift</key>."
         }
       ]
     },
@@ -2201,7 +3150,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Strider."
+          "text": "This model and its unit get <key>Strider</key>."
         }
       ]
     },
@@ -2217,7 +3166,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Unstoppable in melee."
+          "text": "This model and its unit get <key>Unstoppable</key> in melee."
         }
       ]
     },
@@ -2229,7 +3178,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and on unmodified results of 6 to hit, those hits get AP(+4)."
+          "text": "<key>Ignores Cover</key>, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+4)."
         }
       ]
     },
@@ -2242,7 +3191,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Piercing Assault against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
         }
       ]
     },
@@ -2255,7 +3204,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When a unit where all models have this rule is Shaken or fully destroyed, you may remove it from the table as destroyed and place a new copy of it fully within 12\" of any table edge at the beginning of the next round after Ambushers have been deployed. Units that deploy via Reinforcement can’t seize or contest objectives on the round they deploy, and this rule doesn’t apply to the new copy of the unit."
+          "text": "When a unit where all models have this rule is Shaken or fully destroyed, you may remove it from the table as destroyed and place a new copy of it fully within 12\" of any table edge at the beginning of the next round after Ambushers have been deployed. Units that deploy via <key>Reinforcement</key> can’t seize or contest objectives on the round they deploy, and this rule doesn’t apply to the new copy of the unit."
         }
       ]
     },
@@ -2310,7 +3259,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get No Retreat."
+          "text": "This model and its unit get <key>No Retreat</key>."
         }
       ]
     },
@@ -2328,7 +3277,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Counts as having Ambush, but may be deployed up to 1\" away from enemy units."
+          "text": "Counts as having <key>Ambush</key>, but may be deployed up to 1\" away from enemy units."
         }
       ]
     },
@@ -2372,7 +3321,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Piercing Hunter."
+          "text": "This model and its unit get <key>Piercing Hunter</key>."
         }
       ]
     },
@@ -2384,7 +3333,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Reanimation."
+          "text": "This model and its unit get <key>Reanimation</key>."
         }
       ]
     },
@@ -2415,7 +3364,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Scout."
+          "text": "This model and its unit get <key>Scout</key>."
         }
       ]
     },
@@ -2476,7 +3425,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Shred in melee."
+          "text": "This model and its unit get <key>Shred</key> in melee."
         }
       ]
     },
@@ -2488,7 +3437,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Against units where most models have Defense 2+ to Defense 4+, this weapon gets AP(+1)."
+          "text": "Against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
         }
       ]
     },
@@ -2500,7 +3449,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly model within 12\" with Caster, which gets +1 to casting rolls once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly model within 12\" with <key>Caster</key>, which gets +1 to casting rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -2512,7 +3461,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Cursed Undead Boost once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Cursed Undead Boost</key> once (next time the effect would apply)."
         }
       ]
     },
@@ -2543,7 +3492,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When this model shoots at enemies over 9\" away, its weapons get AP(+1)."
+          "text": "When this model shoots at enemies over 9\" away, its weapons get <key>AP</key>(+1)."
         }
       ]
     },
@@ -2567,7 +3516,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Cursed Undead, they ignore wounds on rolls of 5-6 from Cursed Undead (instead of only on 6+)."
+          "text": "If all models in this unit have <key>Cursed Undead</key>, they ignore wounds on rolls of 5-6 from <key>Cursed Undead</key> (instead of only on 6+)."
         }
       ]
     },
@@ -2598,7 +3547,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, when this model moves through enemy units, pick one of them and roll X dice. For each 4+ it takes 3 hits with AP(1)."
+          "text": "Once per activation, when this model moves through enemy units, pick one of them and roll X dice. For each 4+ it takes 3 hits with <key>AP</key>(1)."
         }
       ]
     },
@@ -2614,7 +3563,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly model within 3\" with Tough, and remove D3 wounds from it."
+          "text": "Once per activation, before attacking, pick one friendly model within 3\" with <key>Tough</key>, and remove D3 wounds from it."
         }
       ]
     },
@@ -2627,7 +3576,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Rending when shooting."
+          "text": "This model and its unit get <key>Rending</key> when shooting."
         }
       ]
     },
@@ -2643,7 +3592,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Resistance."
+          "text": "This model and its unit get <key>Resistance</key>."
         }
       ]
     },
@@ -2655,7 +3604,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Against units where most models have Tough(3) to Tough(9), this weapon gets AP(+2)."
+          "text": "Against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+2)."
         }
       ]
     },
@@ -2679,7 +3628,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Buccaneer Boost."
+          "text": "This model and its unit get <key>Buccaneer Boost</key>."
         }
       ]
     },
@@ -2694,7 +3643,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\" with Caster, which gets -1 to casting rolls once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" with <key>Caster</key>, which gets -1 to casting rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -2706,7 +3655,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Buccaneer, it always gets +1 to hit rolls from Buccaneer (instead of only when shooting over 9\" away)."
+          "text": "If this model has <key>Buccaneer</key>, it always gets +1 to hit rolls from <key>Buccaneer</key> (instead of only when shooting over 9\" away)."
         }
       ]
     },
@@ -2731,7 +3680,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, once during its activation when this model moves through enemy units, pick one of them, and roll X dice. For each 4+ it takes 3 hits with AP(1)."
+          "text": "Once per game, once during its activation when this model moves through enemy units, pick one of them, and roll X dice. For each 4+ it takes 3 hits with <key>AP</key>(1)."
         }
       ]
     },
@@ -2759,7 +3708,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Counts as having Impact(X) with hits that have AP(1)."
+          "text": "Counts as having <key>Impact</key>(X) with hits that have <key>AP</key>(1)."
         }
       ]
     },
@@ -2802,7 +3751,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Rending in melee."
+          "text": "This model and its unit get <key>Rending</key> in melee."
         }
       ]
     },
@@ -2832,7 +3781,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and against units where most models have Defense 2+ to Defense 3+, this weapon gets AP(+2)."
+          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
         }
       ]
     },
@@ -2844,7 +3793,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Shred when attacking against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Shred</key> when attacking against once (next time the effect would apply)."
         }
       ]
     },
@@ -2856,7 +3805,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Primal Boost once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Primal Boost</key> once (next time the effect would apply)."
         }
       ]
     },
@@ -2879,7 +3828,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This weapon ignores Regeneration."
+          "text": "This weapon ignores <key>Regeneration</key>."
         }
       ]
     },
@@ -2891,7 +3840,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Primal, it gets extra attacks on successful unmodified hit results of 5-6 from Primal (instead of only on 6)."
+          "text": "If this model has <key>Primal</key>, it gets extra attacks on successful unmodified hit results of 5-6 from <key>Primal</key> (instead of only on 6)."
         }
       ]
     },
@@ -2924,7 +3873,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12\" takes 3 hits with AP(1)."
+          "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12\" takes 3 hits with <key>AP</key>(1)."
         }
       ]
     },
@@ -2938,7 +3887,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When it's this model's turn to attack in melee, roll X dice. For each 6+ the target takes one hit with AP(2)."
+          "text": "When it's this model's turn to attack in melee, roll X dice. For each 6+ the target takes one hit with <key>AP</key>(2)."
         }
       ]
     },
@@ -2951,7 +3900,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Warbound Boost."
+          "text": "This model and its unit get <key>Warbound Boost</key>."
         }
       ]
     },
@@ -2964,7 +3913,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Warbound, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from Warbound (instead of only on 1)."
+          "text": "If this model has <key>Warbound</key>, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from <key>Warbound</key> (instead of only on 1)."
         }
       ]
     },
@@ -2985,7 +3934,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Ambush."
+          "text": "This model and its unit get <key>Ambush</key>."
         }
       ]
     },
@@ -3012,7 +3961,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Place one marker on this unit when it fully destroys an enemy unit. For each marker all models with this rule in this unit get +1 to hit rolls and AP(+1) until the end of the game (up to a max. of +2)."
+          "text": "Place one marker on this unit when it fully destroys an enemy unit. For each marker all models with this rule in this unit get +1 to hit rolls and <key>AP</key>(+1) until the end of the game (up to a max. of +2)."
         }
       ]
     },
@@ -3025,7 +3974,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get AP(+1) when shooting."
+          "text": "This model and its unit get <key>AP</key>(+1) when shooting."
         }
       ]
     },
@@ -3041,7 +3990,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Furious."
+          "text": "This model and its unit get <key>Furious</key>."
         }
       ]
     },
@@ -3070,7 +4019,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Shielded."
+          "text": "This model and its unit get <key>Shielded</key>."
         }
       ]
     },
@@ -3083,7 +4032,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get AP(+1) in melee."
+          "text": "This model and its unit get <key>AP</key>(+1) in melee."
         }
       ]
     },
@@ -3109,7 +4058,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and on unmodified results of 6 to hit, those hits get AP(+2)."
+          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+2)."
         }
       ]
     },
@@ -3122,7 +4071,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Reckless Piercing."
+          "text": "This model and its unit get <key>Reckless Piercing</key>."
         }
       ]
     },
@@ -3135,7 +4084,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When a unit where all models have this rule is activated, you may roll one die. On a 2+ they get AP(+1) when attacking until the end of the round, but on a 1 enemy units get AP(+1) when attacking them instead."
+          "text": "When a unit where all models have this rule is activated, you may roll one die. On a 2+ they get <key>AP</key>(+1) when attacking until the end of the round, but on a 1 enemy units get <key>AP</key>(+1) when attacking them instead."
         }
       ]
     },
@@ -3148,7 +4097,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12\" takes 3 hits with Bane."
+          "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12\" takes 3 hits with <key>Bane</key>."
         }
       ]
     },
@@ -3175,7 +4124,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Plaguebound, they ignore wounds on rolls of 5-6 from Plaguebound (instead of only on 6+)."
+          "text": "If all models in this unit have <key>Plaguebound</key>, they ignore wounds on rolls of 5-6 from <key>Plaguebound</key> (instead of only on 6+)."
         }
       ]
     },
@@ -3192,7 +4141,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Relentless."
+          "text": "This model and its unit get <key>Relentless</key>."
         }
       ]
     },
@@ -3208,7 +4157,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Regeneration."
+          "text": "This model and its unit get <key>Regeneration</key>."
         }
       ]
     },
@@ -3234,7 +4183,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Place one marker on this unit at the end of each round if it's on the table. If all models in it have this rule, for each marker enemies attacking them get AP(-1) to a min. of AP(0) (up to a max. of -2). If this unit is ever Shaken, it loses all its markers."
+          "text": "Place one marker on this unit at the end of each round if it's on the table. If all models in it have this rule, for each marker enemies attacking them get <key>AP</key>(-1) to a min. of <key>AP</key>(0) (up to a max. of -2). If this unit is ever Shaken, it loses all its markers."
         }
       ]
     },
@@ -3247,7 +4196,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Steadfast."
+          "text": "This model and its unit get <key>Steadfast</key>."
         }
       ]
     },
@@ -3260,7 +4209,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and on unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules)."
+          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules)."
         }
       ]
     },
@@ -3273,7 +4222,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Plaguebound Boost."
+          "text": "This model and its unit get <key>Plaguebound Boost</key>."
         }
       ]
     },
@@ -3287,7 +4236,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets Rending in melee."
+          "text": "This model gets <key>Rending</key> in melee."
         }
       ]
     },
@@ -3323,7 +4272,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Hit & Run Fighter."
+          "text": "This model and its unit get <key>Hit & Run Fighter</key>."
         }
       ],
       "specialRule": [
@@ -3336,7 +4285,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12\" takes 3 hits with Surge (roll one die per hit to see if it triggers)."
+          "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12\" takes 3 hits with <key>Surge</key> (roll one die per hit to see if it triggers)."
         }
       ],
       "specialRule": [
@@ -3348,7 +4297,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Lustbound, it moves +2\" on Advance and +6\" on Rush/Charge from Lustbound (instead of only +1\" and +3\")."
+          "text": "If this model has <key>Lustbound</key>, it moves +2\" on Advance and +6\" on Rush/Charge from <key>Lustbound</key> (instead of only +1\" and +3\")."
         }
       ],
       "specialRule": [
@@ -3375,7 +4324,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and against units where most models have Tough(3) to Tough(9), this weapon gets AP(+2)."
+          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -3388,7 +4337,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Unstoppable when shooting."
+          "text": "This model and its unit get <key>Unstoppable</key> when shooting."
         }
       ],
       "specialRule": [
@@ -3401,7 +4350,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Lustbound Boost."
+          "text": "This model and its unit get <key>Lustbound Boost</key>."
         }
       ],
       "specialRule": [
@@ -3414,7 +4363,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Gets AP(4), but this model's unit takes one wound on unmodified rolls of 1 to hit."
+          "text": "Gets <key>AP</key>(4), but this model's unit takes one wound on unmodified rolls of 1 to hit."
         }
       ],
       "specialRule": [
@@ -3426,7 +4375,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model ignores penalties from shooting after moving when using Indirect weapons."
+          "text": "This model ignores penalties from shooting after moving when using <key>Indirect</key> weapons."
         }
       ],
       "specialRule": [
@@ -3466,7 +4415,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Evasive."
+          "text": "This model and its unit get <key>Evasive</key>."
         }
       ],
       "specialRule": [
@@ -3503,7 +4452,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Bane when shooting."
+          "text": "This model and its unit get <key>Bane</key> when shooting."
         }
       ],
       "specialRule": [
@@ -3516,7 +4465,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Bane in melee."
+          "text": "This model and its unit get <key>Bane</key> in melee."
         }
       ],
       "specialRule": [
@@ -3531,7 +4480,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Scurry Boost."
+          "text": "This model and its unit get <key>Scurry Boost</key>."
         }
       ],
       "specialRule": [
@@ -3563,7 +4512,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Scurry, it moves +4\" on Advance and +4\" on Rush/Charge from Scurry (instead of only +2\" and +2\")."
+          "text": "If this model has <key>Scurry</key>, it moves +4\" on Advance and +4\" on Rush/Charge from <key>Scurry</key> (instead of only +2\" and +2\")."
         }
       ],
       "specialRule": [
@@ -3575,7 +4524,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When units where all models have this rule are shot or charged from over 9\" away and take hits, those hits count as having AP(-1), to a min. of AP(0)."
+          "text": "When units where all models have this rule are shot or charged from over 9\" away and take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
         }
       ],
       "specialRule": [
@@ -3587,7 +4536,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "On unmodified results of 6 to hit, those hits get AP(+4)."
+          "text": "On unmodified results of 6 to hit, those hits get <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -3639,7 +4588,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets AP(+1) when shooting."
+          "text": "This model gets <key>AP</key>(+1) when shooting."
         }
       ],
       "specialRule": [
@@ -3652,7 +4601,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Precision Feat."
+          "text": "This model and its unit get <key>Precision Feat</key>."
         }
       ],
       "specialRule": [
@@ -3665,7 +4614,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Furious against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Furious</key> against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -3677,7 +4626,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Ossified Boost."
+          "text": "This model and its unit get <key>Ossified Boost</key>."
         }
       ],
       "specialRule": [
@@ -3689,7 +4638,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Regeneration once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Regeneration</key> once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -3701,7 +4650,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Ossified, enemy hits always count as having AP(-1) from Ossified (instead of only when being shot/charged from over 9\" away)."
+          "text": "If all models in this unit have <key>Ossified</key>, enemy hits always count as having <key>AP</key>(-1) from <key>Ossified</key> (instead of only when being shot/charged from over 9\" away)."
         }
       ],
       "specialRule": [
@@ -3713,7 +4662,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Melee Shrouding."
+          "text": "This model and its unit get <key>Melee Shrouding</key>."
         }
       ],
       "specialRule": [
@@ -3740,7 +4689,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Ferocious Boost."
+          "text": "This model and its unit get <key>Ferocious Boost</key>."
         }
       ],
       "specialRule": [
@@ -3752,7 +4701,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Ravage(+1)."
+          "text": "This model and its unit get <key>Ravage</key>(+1)."
         }
       ],
       "specialRule": [
@@ -3764,7 +4713,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Speed Feat."
+          "text": "This model and its unit get <key>Speed Feat</key>."
         }
       ],
       "specialRule": [
@@ -3776,7 +4725,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Against units where most models have Tough(3) to Tough(9), this weapon gets Deadly(+3)."
+          "text": "Against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>Deadly</key>(+3)."
         }
       ],
       "specialRule": [
@@ -3788,7 +4737,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Rending in melee against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Rending</key> in melee against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -3800,7 +4749,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Piercing Assault."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Piercing Assault</key>."
         }
       ],
       "specialRule": [
@@ -3828,7 +4777,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Ferocious, it deals extra hits on successful unmodified hit results of 5-6 from Ferocious (instead of only on 6)."
+          "text": "If this model has <key>Ferocious</key>, it deals extra hits on successful unmodified hit results of 5-6 from <key>Ferocious</key> (instead of only on 6)."
         }
       ],
       "specialRule": [
@@ -3852,7 +4801,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, pick one enemy unit within 36\" and in line of sight of this model and roll one die, on a 4+ place a marker on it. When attacking, friendly units may remove markers from their target before rolling to block to get +AP(X), where X is the number of removed markers."
+          "text": "Once per activation, pick one enemy unit within 36\" and in line of sight of this model and roll one die, on a 4+ place a marker on it. When attacking, friendly units may remove markers from their target before rolling to block to get +<key>AP</key>(X), where X is the number of removed markers."
         }
       ],
       "specialRule": [
@@ -3876,7 +4825,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and on unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
+          "text": "<key>Ignores Cover</key>, and on unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
         }
       ],
       "specialRule": [
@@ -3888,7 +4837,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Royal Legion Boost."
+          "text": "This model and its unit get <key>Royal Legion Boost</key>."
         }
       ],
       "specialRule": [
@@ -3900,7 +4849,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Fortified."
+          "text": "This model and its unit get <key>Fortified</key>."
         }
       ],
       "specialRule": [
@@ -3915,7 +4864,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Indirect when shooting."
+          "text": "This model and its unit get <key>Indirect</key> when shooting."
         }
       ],
       "specialRule": [
@@ -3929,7 +4878,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Counts as having Infiltrate. Once deployed via this rule, roll X dice, for each 4+ one enemy unit within 3” takes 2 hits with AP(1)."
+          "text": "Counts as having <key>Infiltrate</key>. Once deployed via this rule, roll X dice, for each 4+ one enemy unit within 3” takes 2 hits with <key>AP</key>(1)."
         }
       ],
       "specialRule": [
@@ -3943,7 +4892,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Royal Legion, it gets +6\" range when shooting and moves +6\" when using Charge actions from Royal Legion (instead of only +3\" and +3\")."
+          "text": "If this model has <key>Royal Legion</key>, it gets +6\" range when shooting and moves +6\" when using Charge actions from <key>Royal Legion</key> (instead of only +3\" and +3\")."
         }
       ],
       "specialRule": [
@@ -3993,7 +4942,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and against units where most models have Tough(3) to Tough(9), this weapon gets Deadly(+3)."
+          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>Deadly</key>(+3)."
         }
       ],
       "specialRule": [
@@ -4005,7 +4954,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Slayer against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4017,7 +4966,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Angelic Blessing Boost once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Angelic Blessing Boost</key> once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4029,7 +4978,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Versatile Attack once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Versatile Attack</key> once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4041,7 +4990,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model's weapons get AP(+2) against units where most models have Tough(3) or higher."
+          "text": "This model's weapons get <key>AP</key>(+2) against units where most models have <key>Tough</key>(3) or higher."
         }
       ],
       "specialRule": [
@@ -4056,7 +5005,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Angelic Blessing, they ignore non-spell wounds on rolls of 5-6 from Angelic Blessing (instead of only on 6+)."
+          "text": "If all models in this unit have <key>Angelic Blessing</key>, they ignore non-spell wounds on rolls of 5-6 from <key>Angelic Blessing</key> (instead of only on 6+)."
         }
       ],
       "specialRule": [
@@ -4068,7 +5017,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get AP(+1) when attacking, or get +1 to hit rolls when attacking."
+          "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get <key>AP</key>(+1) when attacking, or get +1 to hit rolls when attacking."
         }
       ],
       "specialRule": [
@@ -4098,7 +5047,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "At the end of this unit's activation, another friendly unit within 12\" that hasn't activated yet may be activated immediately. May not be used if this unit was activated via Coordinate."
+          "text": "At the end of this unit's activation, another friendly unit within 12\" that hasn't activated yet may be activated immediately. May not be used if this unit was activated via <key>Coordinate</key>."
         }
       ],
       "specialRule": [
@@ -4110,7 +5059,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this unit is within 24\" of another friendly unit with this rule that has a Hero in it, then that Hero may use special rules that allow it to pick friendly units within 12\" (except for spells) on this unit as if it was in range."
+          "text": "If this unit is within 24\" of another friendly unit with this rule that has a <key>Hero</key> in it, then that <key>Hero</key> may use special rules that allow it to pick friendly units within 12\" (except for spells) on this unit as if it was in range."
         }
       ],
       "specialRule": [
@@ -4134,7 +5083,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Rapid Rush once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Rapid Rush</key> once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4146,7 +5095,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and on unmodified results of 6 to hit, those hits get AP(+2)."
+          "text": "<key>Ignores Cover</key>, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -4182,7 +5131,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Hold the Line Boost once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Hold the Line Boost</key> once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4194,7 +5143,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Furious once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Furious</key> once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4207,7 +5156,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, pick one friendly model within 6\" with Artillery, which may immediately move by up to 9\".\n\n"
+          "text": "Once per activation, pick one friendly model within 6\" with <key>Artillery</key>, which may immediately move by up to 9\".\n\n"
         }
       ],
       "specialRule": [
@@ -4222,7 +5171,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Pick one model with this rule in this unit to have Caster(X), where X is the total number of models with this rule in this unit. If the model is killed, pick another to be the new caster, and transfer all spell tokens to it. The caster loses all unspent spell tokens at the end of the round."
+          "text": "Pick one model with this rule in this unit to have <key>Caster</key>(X), where X is the total number of models with this rule in this unit. If the model is killed, pick another to be the new caster, and transfer all spell tokens to it. The caster loses all unspent spell tokens at the end of the round."
         }
       ],
       "specialRule": [
@@ -4235,7 +5184,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Hold the Line, they get +2 to morale test rolls from Hold the Line (instead of only +1)."
+          "text": "If all models in this unit have <key>Hold the Line</key>, they get +2 to morale test rolls from <key>Hold the Line</key> (instead of only +1)."
         }
       ],
       "specialRule": [
@@ -4247,7 +5196,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, during this model's activation, pick one enemy unit within 36\" and in line of sight of it, and place X markers on it. When attacking, friendly units may remove markers from their target before rolling to block to get +AP(Y), where Y is the number of removed markers."
+          "text": "Once per game, during this model's activation, pick one enemy unit within 36\" and in line of sight of it, and place X markers on it. When attacking, friendly units may remove markers from their target before rolling to block to get +<key>AP</key>(Y), where Y is the number of removed markers."
         }
       ],
       "specialRule": [
@@ -4271,7 +5220,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Fearless."
+          "text": "This model and its unit get <key>Fearless</key>."
         }
       ],
       "specialRule": [
@@ -4286,7 +5235,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets Indirect when shooting."
+          "text": "This model gets <key>Indirect</key> when shooting."
         }
       ],
       "specialRule": [
@@ -4311,7 +5260,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "On unmodified results of 6 to hit, those hits get AP(+2)."
+          "text": "On unmodified results of 6 to hit, those hits get <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -4323,7 +5272,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Highborn Boost."
+          "text": "This model and its unit get <key>Highborn Boost</key>."
         }
       ],
       "specialRule": [
@@ -4335,7 +5284,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Highborn, it moves +4\" on Advance and +4\" on Rush/Charge from Highborn (instead of only +2\" and +2\")."
+          "text": "If this model has <key>Highborn</key>, it moves +4\" on Advance and +4\" on Rush/Charge from <key>Highborn</key> (instead of only +2\" and +2\")."
         }
       ],
       "specialRule": [
@@ -4359,7 +5308,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and on unmodified results of 1 to block hits, this weapon deals 1 extra wound."
+          "text": "<key>Ignores Cover</key>, and on unmodified results of 1 to block hits, this weapon deals 1 extra wound."
         }
       ],
       "specialRule": [
@@ -4375,7 +5324,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Versatile Defense."
+          "text": "This model and its unit get <key>Versatile Defense</key>."
         }
       ],
       "specialRule": [
@@ -4392,7 +5341,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Shred when shooting."
+          "text": "This model and its unit get <key>Shred</key> when shooting."
         }
       ],
       "specialRule": [
@@ -4409,7 +5358,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Unpredictable Fighter."
+          "text": "This model and its unit get <key>Unpredictable Fighter</key>."
         }
       ],
       "specialRule": [
@@ -4427,7 +5376,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Ranged Shrouding."
+          "text": "This model and its unit get <key>Ranged Shrouding</key>."
         }
       ],
       "specialRule": [
@@ -4444,7 +5393,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets Shred in melee."
+          "text": "This model gets <key>Shred</key> in melee."
         }
       ],
       "specialRule": [
@@ -4462,7 +5411,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Steadfast once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Steadfast</key> once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4566,7 +5515,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Changebound Boost."
+          "text": "This model and its unit get <key>Changebound Boost</key>."
         }
       ],
       "specialRule": [
@@ -4579,7 +5528,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Changebound, enemies attacking them always get -1 to hit rolls from Changebound (instead of only when being shot/charged from over 9\" away)."
+          "text": "If all models in this unit have <key>Changebound</key>, enemies attacking them always get -1 to hit rolls from <key>Changebound</key> (instead of only when being shot/charged from over 9\" away)."
         }
       ],
       "specialRule": [
@@ -4592,7 +5541,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and on unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules)."
+          "text": "<key>Ignores Cover</key>, and on unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules)."
         }
       ],
       "specialRule": [
@@ -4605,7 +5554,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets Bane when shooting."
+          "text": "This model gets <key>Bane</key> when shooting."
         }
       ],
       "specialRule": [
@@ -4618,7 +5567,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12\" takes 3 hits with Shred."
+          "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12\" takes 3 hits with <key>Shred</key>."
         }
       ],
       "specialRule": [
@@ -4631,7 +5580,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets Unstoppable in melee."
+          "text": "This model gets <key>Unstoppable</key> in melee."
         }
       ],
       "specialRule": [
@@ -4657,7 +5606,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Bounding."
+          "text": "This model and its unit get <key>Bounding</key>."
         }
       ],
       "specialRule": [
@@ -4670,7 +5619,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Havocbound Boost."
+          "text": "This model and its unit get <key>Havocbound Boost</key>."
         }
       ],
       "specialRule": [
@@ -4683,7 +5632,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When this model shoots at enemies over 9\" away, or when it charges, its weapons get AP(+1)."
+          "text": "When this model shoots at enemies over 9\" away, or when it charges, its weapons get <key>AP</key>(+1)."
         }
       ],
       "specialRule": [
@@ -4708,7 +5657,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Havocbound, it always gets AP(+1) from Havocbound (instead of only when shooting over 9\" away, or when charging)."
+          "text": "If this model has <key>Havocbound</key>, it always gets <key>AP</key>(+1) from <key>Havocbound</key> (instead of only when shooting over 9\" away, or when charging)."
         }
       ],
       "specialRule": [
@@ -4721,7 +5670,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Melee Slayer."
+          "text": "This model and its unit get <key>Melee Slayer</key>."
         }
       ],
       "specialRule": [
@@ -4733,7 +5682,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Relentless against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4745,7 +5694,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and against units where most models have Defense 2+ to Defense 4+, this weapon gets AP(+1)."
+          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
         }
       ],
       "specialRule": [
@@ -4769,7 +5718,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Teleport."
+          "text": "This model and its unit get <key>Teleport</key>."
         }
       ],
       "specialRule": [
@@ -4781,7 +5730,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Lucky Boost."
+          "text": "This model and its unit get <key>Lucky Boost</key>."
         }
       ],
       "specialRule": [
@@ -4793,7 +5742,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When this unit is fully destroyed, place as many Vengeance markers on the unit that destroyed it as models with this rule in this unit at the beginning of the game. Friendly units get +X to hit rolls with their weapons when attacking that unit, where X is the number of markers on it."
+          "text": "When this unit is fully destroyed, place as many <key>Vengeance</key> markers on the unit that destroyed it as models with this rule in this unit at the beginning of the game. Friendly units get +X to hit rolls with their weapons when attacking that unit, where X is the number of markers on it."
         }
       ],
       "specialRule": [
@@ -4805,7 +5754,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and against units where most models have Defense 5+ to Defense 6+, this weapon gets Blast(+3)."
+          "text": "<key>Ignores Cover</key>, and against units where most models have <key>Defense</key> 5+ to <key>Defense</key> 6+, this weapon gets <key>Blast</key>(+3)."
         }
       ],
       "specialRule": [
@@ -4817,7 +5766,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Lucky, it deals extra hits on successful unmodified hit results of 5-6 from Lucky (instead of only on 6)."
+          "text": "If this model has <key>Lucky</key>, it deals extra hits on successful unmodified hit results of 5-6 from <key>Lucky</key> (instead of only on 6)."
         }
       ],
       "specialRule": [
@@ -4829,7 +5778,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When attacking, targets must re-roll unmodified Defense results of 6 when blocking hits from this model's weapons."
+          "text": "When attacking, targets must re-roll unmodified <key>Defense</key> results of 6 when blocking hits from this model's weapons."
         }
       ],
       "specialRule": [
@@ -4854,7 +5803,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Mischievous Boost."
+          "text": "This model and its unit get <key>Mischievous Boost</key>."
         }
       ],
       "specialRule": [
@@ -4866,7 +5815,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and against units where most models have Tough(3) to Tough(9), this weapon gets Deadly(+3)."
+          "text": "<key>Ignores Cover</key>, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>Deadly</key>(+3)."
         }
       ],
       "specialRule": [
@@ -4878,7 +5827,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Mischievous, enemies taking hits from it must re-roll successful unmodified defense results of 5-6 from Mischievous (instead of only on 6)."
+          "text": "If this model has <key>Mischievous</key>, enemies taking hits from it must re-roll successful unmodified defense results of 5-6 from <key>Mischievous</key> (instead of only on 6)."
         }
       ],
       "specialRule": [
@@ -4938,7 +5887,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Empyrean Spirit Boost."
+          "text": "This model and its unit get <key>Empyrean Spirit Boost</key>."
         }
       ],
       "specialRule": [
@@ -4950,7 +5899,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Against units where most models have Defense 2+ to Defense 3+, this weapon gets AP(+2)."
+          "text": "Against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -4962,7 +5911,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Bane when attacking against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4974,7 +5923,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Empyrean Spirit, enemies attacking them always get -1 to hit rolls from Empyrean Spirit (instead of only when being shot/charged from over 9\" away)."
+          "text": "If all models in this unit have <key>Empyrean Spirit</key>, enemies attacking them always get -1 to hit rolls from <key>Empyrean Spirit</key> (instead of only when being shot/charged from over 9\" away)."
         }
       ],
       "specialRule": [
@@ -4986,7 +5935,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, during this model's activation, pick one enemy unit within 36\" and in line of sight of it, and place X markers on it. Friendly units get +AP(X) when attacking it."
+          "text": "Once per game, during this model's activation, pick one enemy unit within 36\" and in line of sight of it, and place X markers on it. Friendly units get +<key>AP</key>(X) when attacking it."
         }
       ],
       "specialRule": [
@@ -4998,7 +5947,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "After all other units are deployed (excluding units that were set aside), you may remove up to two friendly units from the table and deploy them again. Players alternate in placing Re-Deployment units, starting with the player that activates next."
+          "text": "After all other units are deployed (excluding units that were set aside), you may remove up to two friendly units from the table and deploy them again. Players alternate in placing <key>Re-Deployment</key> units, starting with the player that activates next."
         }
       ],
       "specialRule": [
@@ -5010,7 +5959,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Warden Boost."
+          "text": "This model and its unit get <key>Warden Boost</key>."
         }
       ],
       "specialRule": [
@@ -5022,7 +5971,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and against units where most models have Defense 5+ to Defense 6+, this weapon gets Blast(+3)."
+          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Defense</key> 5+ to <key>Defense</key> 6+, this weapon gets <key>Blast</key>(+3)."
         }
       ],
       "specialRule": [
@@ -5034,7 +5983,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Unstoppable when shooting against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5046,7 +5995,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Warden, enemy hits always count as having AP(-1) from Warden (instead of only when being shot/charged from over 9\" away)."
+          "text": "If all models in this unit have <key>Warden</key>, enemy hits always count as having <key>AP</key>(-1) from <key>Warden</key> (instead of only when being shot/charged from over 9\" away)."
         }
       ],
       "specialRule": [
@@ -5070,7 +6019,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and on unmodified results of 1 to block hits, this weapon deals 1 extra wound."
+          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 1 to block hits, this weapon deals 1 extra wound."
         }
       ],
       "specialRule": [
@@ -5082,7 +6031,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Place one marker on this unit when it fully destroys an enemy unit. For each marker all models with this rule in this unit get AP(+1) and +1 to defense rolls until the end of the game (up to a max. of +2)."
+          "text": "Place one marker on this unit when it fully destroys an enemy unit. For each marker all models with this rule in this unit get <key>AP</key>(+1) and +1 to defense rolls until the end of the game (up to a max. of +2)."
         }
       ],
       "specialRule": [
@@ -5106,7 +6055,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Sturdy Boost."
+          "text": "This model and its unit get <key>Sturdy Boost</key>."
         }
       ],
       "specialRule": [
@@ -5118,7 +6067,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If all models in this unit have Sturdy, they always get +1 to defense rolls from Sturdy (instead of only when being shot/charged from over 9\" away)."
+          "text": "If all models in this unit have <key>Sturdy</key>, they always get +1 to defense rolls from <key>Sturdy</key> (instead of only when being shot/charged from over 9\" away)."
         }
       ],
       "specialRule": [
@@ -5130,7 +6079,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get AP(+1) when attacking, or get +1 to hit rolls when attacking."
+          "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get <key>AP</key>(+1) when attacking, or get +1 to hit rolls when attacking."
         }
       ],
       "specialRule": [
@@ -5154,7 +6103,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Ranged Slayer."
+          "text": "This model and its unit get <key>Ranged Slayer</key>."
         }
       ],
       "specialRule": [
@@ -5167,7 +6116,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and against units where most models have Defense 2+ to Defense 3+, this weapon gets AP(+2)."
+          "text": "<key>Ignores Cover</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -5179,7 +6128,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Vinci Tech Boost."
+          "text": "This model and its unit get <key>Vinci Tech Boost</key>."
         }
       ],
       "specialRule": [
@@ -5215,7 +6164,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model's ranged weapons get AP(+2) against units where most models have Tough(3) or higher."
+          "text": "This model's ranged weapons get <key>AP</key>(+2) against units where most models have <key>Tough</key>(3) or higher."
         }
       ],
       "specialRule": [
@@ -5228,7 +6177,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Vinci Tech, it always gets both AP(+1) and +1 to hit rolls from Vinci Tech (instead of having to pick between AP(+1) or +1 to hit rolls)."
+          "text": "If this model has <key>Vinci Tech</key>, it always gets both <key>AP</key>(+1) and +1 to hit rolls from <key>Vinci Tech</key> (instead of having to pick between <key>AP</key>(+1) or +1 to hit rolls)."
         }
       ],
       "specialRule": [
@@ -5264,7 +6213,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Stealth once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Stealth</key> once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5276,7 +6225,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Against units where most models have Defense 5+ to Defense 6+, this weapon gets Blast(+3)."
+          "text": "Against units where most models have <key>Defense</key> 5+ to <key>Defense</key> 6+, this weapon gets <key>Blast</key>(+3)."
         }
       ],
       "specialRule": [
@@ -5288,7 +6237,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Wave-Step Boost."
+          "text": "This model and its unit get <key>Wave-Step Boost</key>."
         }
       ],
       "specialRule": [
@@ -5300,7 +6249,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, when a unit where all models have this rule ends its activation, you may immediately remove it from the table (dropping any objectives it might hold within 1\"), and deploy it as if it had Ambush at the beginning of the next round."
+          "text": "Once per game, when a unit where all models have this rule ends its activation, you may immediately remove it from the table (dropping any objectives it might hold within 1\"), and deploy it as if it had <key>Ambush</key> at the beginning of the next round."
         }
       ],
       "specialRule": [
@@ -5312,7 +6261,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Wave-Step, it may be placed within 6\" from Wave-Step (instead of only within 3\")."
+          "text": "If this model has <key>Wave-Step</key>, it may be placed within 6\" from <key>Wave-Step</key> (instead of only within 3\")."
         }
       ],
       "specialRule": [
@@ -5336,7 +6285,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per round, when this unit ends its move within 3\" of enemy units after being in melee, pick one of them and roll as many dice as models with this rule in this unit, or as many dice as its Tough value (for single-model units). For each 6+ the target takes one wound."
+          "text": "Once per round, when this unit ends its move within 3\" of enemy units after being in melee, pick one of them and roll as many dice as models with this rule in this unit, or as many dice as its <key>Tough</key> value (for single-model units). For each 6+ the target takes one wound."
         }
       ],
       "specialRule": [
@@ -5384,7 +6333,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When attacking the target must re-roll unmodified Defense results of 6."
+          "text": "When attacking the target must re-roll unmodified <key>Defense</key> results of 6."
         }
       ],
       "specialRule": [
@@ -5396,7 +6345,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Harassing Boost."
+          "text": "This model and its unit get <key>Harassing Boost</key>."
         }
       ],
       "specialRule": [
@@ -5408,7 +6357,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Thrust in melee against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Thrust</key> in melee against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5420,7 +6369,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If most models in this unit have Harassing, they may move by up to 6\" from Harassing (instead of only 3\")."
+          "text": "If most models in this unit have <key>Harassing</key>, they may move by up to 6\" from <key>Harassing</key> (instead of only 3\")."
         }
       ],
       "specialRule": [
@@ -5468,7 +6417,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets Counter in melee."
+          "text": "This model gets <key>Counter</key> in melee."
         }
       ],
       "specialRule": [
@@ -5480,7 +6429,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and against units where most models have Tough(3) to Tough(9), this weapon gets AP(+4)."
+          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -5492,7 +6441,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Vale Formation Boost."
+          "text": "This model and its unit get <key>Vale Formation Boost</key>."
         }
       ],
       "specialRule": [
@@ -5504,7 +6453,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets Impact(+1) against once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which friendly units gets <key>Impact</key>(+1) against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5516,7 +6465,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Vale Formation, it gets +4\" range when shooting and moves +8\" when using Charge actions from Vale Formation (instead of only +2\" and +4\")."
+          "text": "If this model has <key>Vale Formation</key>, it gets +4\" range when shooting and moves +8\" when using Charge actions from <key>Vale Formation</key> (instead of only +2\" and +4\")."
         }
       ],
       "specialRule": [
@@ -5540,7 +6489,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "When attacking, targets must re-roll unmodified Defense results of 6 when blocking hits from this model's weapons."
+          "text": "When attacking, targets must re-roll unmodified <key>Defense</key> results of 6 when blocking hits from this model's weapons."
         }
       ],
       "specialRule": [
@@ -5552,7 +6501,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Against units where most models have Tough(3) to Tough(9), this weapon gets AP(+4)."
+          "text": "Against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -5564,7 +6513,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Bestial Boost."
+          "text": "This model and its unit get <key>Bestial Boost</key>."
         }
       ],
       "specialRule": [
@@ -5588,7 +6537,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Bestial, enemies taking hits from it must re-roll successful unmodified defense results of 5-6 from Bestial (instead of only on 6)."
+          "text": "If this model has <key>Bestial</key>, enemies taking hits from it must re-roll successful unmodified defense results of 5-6 from <key>Bestial</key> (instead of only on 6)."
         }
       ],
       "specialRule": [
@@ -5600,7 +6549,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Destroyer Boost."
+          "text": "This model and its unit get <key>Destroyer Boost</key>."
         }
       ],
       "specialRule": [
@@ -5612,7 +6561,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per game, when this unit attacks and all its models have this rule, you may use this rule so that all their weapons get AP(+2)."
+          "text": "Once per game, when this unit attacks and all its models have this rule, you may use this rule so that all their weapons get <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -5624,7 +6573,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Piercing Feat."
+          "text": "This model and its unit get <key>Piercing Feat</key>."
         }
       ],
       "specialRule": [
@@ -5636,7 +6585,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignores Regeneration, and on unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
+          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
         }
       ],
       "specialRule": [
@@ -5648,7 +6597,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Melee Evasion once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Melee Evasion</key> once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5660,7 +6609,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which gets Unwieldy in melee once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\", which gets <key>Unwieldy</key> in melee once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5684,7 +6633,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "If this model has Destroyer, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from Destroyer (instead of only on 1)."
+          "text": "If this model has <key>Destroyer</key>, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from <key>Destroyer</key> (instead of only on 1)."
         }
       ],
       "specialRule": [
@@ -5719,11 +6668,11 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Peut être mis de côté avant le déploiement. Au début de n'importe quel tour après le premier, peut être déployé n'importe où à plus de 9\" des unités ennemies. Les joueurs placent alternativement les unités en Embuscade, en commençant par le joueur qui active ensuite. Les unités qui se déploient via Embuscade ne peuvent pas prendre ou contester des objectifs le tour où elles se déploient."
+          "text": "Peut être mis de côté avant le déploiement. Au début de n'importe quel tour après le premier, peut être déployé n'importe où à plus de 9\" des unités ennemies. Les joueurs placent alternativement les unités en <key>Embuscade</key>, en commençant par le joueur qui active ensuite. Les unités qui se déploient via <key>Embuscade</key> ne peuvent pas prendre ou contester des objectifs le tour où elles se déploient."
         },
         {
           "system": "aofr",
-          "text": "Peut etre mis de cote avant le deploiement. Au debut de n'importe quel tour apres le premier, peut etre deploye entierement a moins de 6? de n'importe quel bord de table, a plus de 9\" des unites ennemies. Les joueurs placent alternativement les unites en Embuscade, en commencant par le joueur qui active ensuite. Les unites qui se deploient via Embuscade ne peuvent pas prendre ou contester des objectifs le tour ou elles se deploient."
+          "text": "Peut etre mis de cote avant le deploiement. Au debut de n'importe quel tour apres le premier, peut etre deploye entierement a moins de 6? de n'importe quel bord de table, a plus de 9\" des unites ennemies. Les joueurs placent alternativement les unites en <key>Embuscade</key>, en commencant par le joueur qui active ensuite. Les unites qui se deploient via <key>Embuscade</key> ne peuvent pas prendre ou contester des objectifs le tour ou elles se deploient."
         }
       ],
       "specialRule": [
@@ -5814,7 +6763,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la Régénération, et lors de l'attaque, la cible doit relancer les résultats de Défense non modifiés de 6."
+          "text": "Ignore la <key>Régénération</key>, et lors de l'attaque, la cible doit relancer les résultats de Défense non modifiés de 6."
         }
       ],
       "specialRule": [
@@ -5861,19 +6810,19 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore le couvert, et après avoir résolu les autres règles spéciales, chaque touche est multipliée par X, où X peut aller jusqu'au nombre de modèles ennemis dans l'unité cible et à moins de 3\" de celle-ci. Les touches doivent être réparties équitablement entre toutes les unités ennemies à moins de 3\" de n'importe quel modèle de la cible (le défenseur choisit comment)."
+          "text": "<key>Ignore le couvert</key>, et après avoir résolu les autres règles spéciales, chaque touche est multipliée par X, où X peut aller jusqu'au nombre de modèles ennemis dans l'unité cible et à moins de 3\" de celle-ci. Les touches doivent être réparties équitablement entre toutes les unités ennemies à moins de 3\" de n'importe quel modèle de la cible (le défenseur choisit comment)."
         },
         {
           "system": "gf",
-          "text": "Ignore le couvert, et apres avoir resolu les autres regles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unite cible."
+          "text": "<key>Ignore le couvert</key>, et apres avoir resolu les autres regles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unite cible."
         },
         {
           "system": "aof",
-          "text": "Ignore le couvert, et apres avoir resolu les autres regles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unite cible."
+          "text": "<key>Ignore le couvert</key>, et apres avoir resolu les autres regles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unite cible."
         },
         {
           "system": "aofr",
-          "text": "Ignore le couvert, et apres avoir resolu les autres regles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unite cible."
+          "text": "<key>Ignore le couvert</key>, et apres avoir resolu les autres regles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unite cible."
         }
       ],
       "specialRule": [
@@ -5932,11 +6881,11 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Frappe en premier avec cette arme lorsqu'il est chargé, et l'unité chargeante subit -1 au total des jets d'Impact par modèle avec Contre."
+          "text": "Frappe en premier avec cette arme lorsqu'il est chargé, et l'unité chargeante subit -1 au total des jets d'<key>Impact</key> par modèle avec <key>Contre</key>."
         },
         {
           "system": "aofr",
-          "text": "Frappe en premier avec cette arme lorsqu'il est charge, et l'unite chargeante subit -1 au total des jets d'Impact par modele avec Contre dans les deux rangs avant en cas de charge de front."
+          "text": "Frappe en premier avec cette arme lorsqu'il est charge, et l'unite chargeante subit -1 au total des jets d'<key>Impact</key> par modele avec <key>Contre</key> dans les deux rangs avant en cas de charge de front."
         }
       ],
       "specialRule": [
@@ -5952,7 +6901,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Assignez chaque blessure à un modèle et multipliez-la par X. Les touches de Mortel doivent être résolues en premier, et ces blessures ne se reportent pas sur d'autres modèles si la cible d'origine est tuée."
+          "text": "Assignez chaque blessure à un modèle et multipliez-la par X. Les touches de <key>Mortel</key> doivent être résolues en premier, et ces blessures ne se reportent pas sur d'autres modèles si la cible d'origine est tuée."
         }
       ],
       "specialRule": [
@@ -6080,15 +7029,15 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "gf",
-          "text": "Les heros avec jusqu'a Robuste(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la Defense de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
+          "text": "Les heros avec jusqu'a <key>Robuste</key>(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la <key>Defense</key> de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
         },
         {
           "system": "aof",
-          "text": "Les heros avec jusqu'a Robuste(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la Defense de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
+          "text": "Les heros avec jusqu'a <key>Robuste</key>(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la <key>Defense</key> de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
         },
         {
           "system": "aofr",
-          "text": "Les heros avec jusqu'a Robuste(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la Defense de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
+          "text": "Les heros avec jusqu'a <key>Robuste</key>(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la <key>Defense</key> de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
         }
       ],
       "specialRule": [
@@ -6239,7 +7188,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la Régénération, et sur des résultats non modifiés de 6 pour toucher, ces touches obtiennent PA(+4)."
+          "text": "Ignore la <key>Régénération</key>, et sur des résultats non modifiés de 6 pour toucher, ces touches obtiennent <key>PA</key>(+4)."
         }
       ],
       "specialRule": [
@@ -6257,7 +7206,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Peut être mis de côté avant le déploiement. Après que toutes les autres unités sont déployées, peut être déployé n'importe où entièrement à moins de 12\" de leur zone de déploiement. Les joueurs placent alternativement les unités Éclaireur, en commençant par le joueur qui active ensuite."
+          "text": "Peut être mis de côté avant le déploiement. Après que toutes les autres unités sont déployées, peut être déployé n'importe où entièrement à moins de 12\" de leur zone de déploiement. Les joueurs placent alternativement les unités <key>Éclaireur</key>, en commençant par le joueur qui active ensuite."
         }
       ],
       "specialRule": [
@@ -6343,7 +7292,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modèle peut choisir n'importe quel modèle dans l'unité cible comme sa cible individuelle, ce qui est résolu comme s'il s'agissait d'une unité de [1]. Les attaques de Mise à terre doivent être résolues avant les autres armes."
+          "text": "Ce modèle peut choisir n'importe quel modèle dans l'unité cible comme sa cible individuelle, ce qui est résolu comme s'il s'agissait d'une unité de [1]. Les attaques de <key>Mise à terre</key> doivent être résolues avant les autres armes."
         }
       ]
     },
@@ -6352,7 +7301,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lors d'une charge, obtient +1 à ses jets pour toucher et PA(+1) en mêlée."
+          "text": "Lors d'une charge, obtient +1 à ses jets pour toucher et <key>PA</key>(+1) en mêlée."
         }
       ],
       "specialRule": [
@@ -6369,15 +7318,15 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "gf",
-          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec Robuste rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele Robuste avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele Robuste suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
+          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec <key>Robuste</key> rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele <key>Robuste</key> avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele <key>Robuste</key> suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
         },
         {
           "system": "aof",
-          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec Robuste rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele Robuste avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele Robuste suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
+          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec <key>Robuste</key> rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele <key>Robuste</key> avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele <key>Robuste</key> suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
         },
         {
           "system": "aofr",
-          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec Robuste rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele Robuste avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele Robuste suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
+          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec <key>Robuste</key> rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele <key>Robuste</key> avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele <key>Robuste</key> suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
         }
       ],
       "specialRule": [
@@ -6408,7 +7357,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Peut transporter jusqu'à X modèles ou Héros avec jusqu'à Robuste(6), et des non-Héros avec jusqu'à Robuste(3) qui occupent 3 places chacun. Les transports peuvent se déployer avec des unités à l'intérieur, et les unités peuvent entrer/sortir en utilisant n'importe quelle action de mouvement, mais doivent rester entièrement à moins de 6\" de celui-ci en sortant. Les unités à l'intérieur/extérieur des transports ne peuvent pas cibler d'autres unités à l'extérieur/intérieur des transports, mais peuvent cibler le transport lui-même. Lorsqu'un transport est détruit, les unités à l'intérieur doivent effectuer un test de terrain dangereux, sont Secouées, et doivent être placées entièrement à moins de 6\" du transport avant qu'il ne soit retiré."
+          "text": "Peut transporter jusqu'à X modèles ou <key>Héros</key> avec jusqu'à <key>Robuste</key>(6), et des non-<key>Héros</key> avec jusqu'à <key>Robuste</key>(3) qui occupent 3 places chacun. Les transports peuvent se déployer avec des unités à l'intérieur, et les unités peuvent entrer/sortir en utilisant n'importe quelle action de mouvement, mais doivent rester entièrement à moins de 6\" de celui-ci en sortant. Les unités à l'intérieur/extérieur des transports ne peuvent pas cibler d'autres unités à l'extérieur/intérieur des transports, mais peuvent cibler le transport lui-même. Lorsqu'un transport est détruit, les unités à l'intérieur doivent effectuer un test de terrain dangereux, sont Secouées, et doivent être placées entièrement à moins de 6\" du transport avant qu'il ne soit retiré."
         }
       ]
     },
@@ -6417,7 +7366,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la Régénération et ignore tous les modificateurs négatifs de cette arme."
+          "text": "Ignore la <key>Régénération</key> et ignore tous les modificateurs négatifs de cette arme."
         }
       ],
       "specialRule": [
@@ -6517,7 +7466,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les unités ennemies à moins de 6\" du Héros subissent -1 en Défense."
+          "text": "Les unités ennemies à moins de 6\" du <key>Héros</key> subissent -1 en Défense."
         }
       ]
     },
@@ -6526,7 +7475,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les unités amies qui s'activent à moins de 6\" du Héros obtiennent +1 pour toucher en tirant."
+          "text": "Les unités amies qui s'activent à moins de 6\" du <key>Héros</key> obtiennent +1 pour toucher en tirant."
         }
       ]
     },
@@ -6553,7 +7502,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les unités amies à moins de 6\" du Héros obtiennent +1 à leurs jets de test de moral."
+          "text": "Les unités amies à moins de 6\" du <key>Héros</key> obtiennent +1 à leurs jets de test de moral."
         }
       ]
     },
@@ -6562,7 +7511,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Le héros obtient PA(+1) en tirant."
+          "text": "Le héros obtient <key>PA</key>(+1) en tirant."
         }
       ],
       "specialRule": [
@@ -6619,7 +7568,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les unités amies à moins de 6\" du Héros subissent -1 aux jets d'effet de blessure."
+          "text": "Les unités amies à moins de 6\" du <key>Héros</key> subissent -1 aux jets d'effet de blessure."
         }
       ]
     },
@@ -6649,7 +7598,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les unités amies qui s'activent à moins de 6\" du Héros obtiennent +1 pour toucher en mêlée."
+          "text": "Les unités amies qui s'activent à moins de 6\" du <key>Héros</key> obtiennent +1 pour toucher en mêlée."
         }
       ]
     },
@@ -6685,7 +7634,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Obtient Robuste(+1)."
+          "text": "Obtient <key>Robuste</key>(+1)."
         }
       ]
     },
@@ -6694,7 +7643,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les unités amies qui s'activent à moins de 6\" du Héros obtiennent +6\" de portée en tirant."
+          "text": "Les unités amies qui s'activent à moins de 6\" du <key>Héros</key> obtiennent +6\" de portée en tirant."
         }
       ]
     },
@@ -6780,7 +7729,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsque des unites dont tous les modeles ont cette regle subissent des touches, ces touches comptent comme ayant PA(-1), jusqu'a un minimum de PA(0)."
+          "text": "Lorsque des unites dont tous les modeles ont cette regle subissent des touches, ces touches comptent comme ayant <key>PA</key>(-1), jusqu'a un minimum de <key>PA</key>(0)."
         }
       ]
     },
@@ -6836,7 +7785,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Shadowborn, les ennemis ont -8\" de portee lorsqu'ils tirent sur eux et -4\" de mouvement lorsqu'ils les chargent via Shadowborn (au lieu de seulement -4\" et -2\")."
+          "text": "Si tous les modeles de cette unite ont <key>Shadowborn</key>, les ennemis ont -8\" de portee lorsqu'ils tirent sur eux et -4\" de mouvement lorsqu'ils les chargent via <key>Shadowborn</key> (au lieu de seulement -4\" et -2\")."
         }
       ]
     },
@@ -6863,7 +7812,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, lancez un de. Sur 2+, une unite ennemie a 6\" en ligne de vue subit 1 touche avec Blast(3) et AP(1)."
+          "text": "Une fois par activation, avant d'attaquer, lancez un de. Sur 2+, une unite ennemie a 6\" en ligne de vue subit 1 touche avec <key>Blast</key>(3) et <key>AP</key>(1)."
         }
       ]
     },
@@ -6938,7 +7887,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Compte comme ayant une Defense de X+."
+          "text": "Compte comme ayant une <key>Defense</key> de X+."
         }
       ]
     },
@@ -6962,7 +7911,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les unites ennemies utilisant Ambush doivent etre placees a plus de 12\" de l'unite de ce modele."
+          "text": "Les unites ennemies utilisant <key>Ambush</key> doivent etre placees a plus de 12\" de l'unite de ce modele."
         }
       ]
     },
@@ -7002,7 +7951,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les armes de melee de ce modele gagnent AP(+2) contre les unites dont la majorite des modeles ont Tough(3) ou plus."
+          "text": "Les armes de melee de ce modele gagnent <key>AP</key>(+2) contre les unites dont la majorite des modeles ont <key>Tough</key>(3) ou plus."
         }
       ]
     },
@@ -7015,7 +7964,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Thrust en melee."
+          "text": "Ce modele et son unite gagnent <key>Thrust</key> en melee."
         }
       ]
     },
@@ -7067,7 +8016,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Counter-Attack."
+          "text": "Ce modele et son unite gagnent <key>Counter-Attack</key>."
         }
       ]
     },
@@ -7111,7 +8060,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Rapid Rush."
+          "text": "Ce modele et son unite gagnent <key>Rapid Rush</key>."
         }
       ]
     },
@@ -7125,7 +8074,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne Bane en melee."
+          "text": "Ce modele gagne <key>Bane</key> en melee."
         }
       ]
     },
@@ -7137,7 +8086,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Shadowborn Boost."
+          "text": "Ce modele et son unite gagnent <key>Shadowborn Boost</key>."
         }
       ]
     },
@@ -7149,7 +8098,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\". Les unites amies gagnent Unpredictable Fighter contre elle une fois (la prochaine fois que l'effet devrait s'appliquer)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\". Les unites amies gagnent <key>Unpredictable Fighter</key> contre elle une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -7203,7 +8152,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore le couvert, et contre les unites dont la majorite des modeles ont une Defense de 2+ a 4+, cette arme gagne AP(+1)."
+          "text": "<key>Ignore le couvert</key>, et contre les unites dont la majorite des modeles ont une <key>Defense</key> de 2+ a 4+, cette arme gagne <key>AP</key>(+1)."
         }
       ]
     },
@@ -7246,7 +8195,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne +X a ses jets de Defense."
+          "text": "Ce modele gagne +X a ses jets de <key>Defense</key>."
         }
       ]
     },
@@ -7309,7 +8258,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "En melee, lancez un de et appliquez un effet a tous les modeles avec cette regle: sur 1-3 ils gagnent AP(+1), sur 4-6 ils gagnent +1 pour toucher."
+          "text": "En melee, lancez un de et appliquez un effet a tous les modeles avec cette regle: sur 1-3 ils gagnent <key>AP</key>(+1), sur 4-6 ils gagnent +1 pour toucher."
         }
       ]
     },
@@ -7330,7 +8279,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand ce modele attaque, lancez un de et appliquez un effet a tous les modeles avec cette regle: sur 1-3 ils gagnent AP(+1), sur 4-6 ils gagnent +1 pour toucher."
+          "text": "Quand ce modele attaque, lancez un de et appliquez un effet a tous les modeles avec cette regle: sur 1-3 ils gagnent <key>AP</key>(+1), sur 4-6 ils gagnent +1 pour toucher."
         }
       ]
     },
@@ -7382,7 +8331,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Grounded Protection."
+          "text": "Ce modele et son unite gagnent <key>Grounded Protection</key>."
         }
       ]
     },
@@ -7452,7 +8401,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Piercing Assault."
+          "text": "Ce modele et son unite gagnent <key>Piercing Assault</key>."
         }
       ]
     },
@@ -7478,7 +8427,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Unpredictable Shooter."
+          "text": "Ce modele et son unite gagnent <key>Unpredictable Shooter</key>."
         }
       ]
     },
@@ -7492,7 +8441,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Hit & Run Shooter."
+          "text": "Ce modele et son unite gagnent <key>Hit & Run Shooter</key>."
         }
       ]
     },
@@ -7506,7 +8455,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Melee Evasion."
+          "text": "Ce modele et son unite gagnent <key>Melee Evasion</key>."
         }
       ]
     },
@@ -7518,7 +8467,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Wild Veil, les ennemis subissent -8\" de portee en tir contre eux et -4\" de mouvement pour les charger via Wild Veil (au lieu de seulement -4\" et -2\")."
+          "text": "Si tous les modeles de cette unite ont <key>Wild Veil</key>, les ennemis subissent -8\" de portee en tir contre eux et -4\" de mouvement pour les charger via <key>Wild Veil</key> (au lieu de seulement -4\" et -2\")."
         }
       ]
     },
@@ -7531,7 +8480,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Quick Shot contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent <key>Quick Shot</key> contre elle une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -7550,7 +8499,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne AP(+1) lorsqu'il charge."
+          "text": "Ce modele gagne <key>AP</key>(+1) lorsqu'il charge."
         }
       ]
     },
@@ -7562,7 +8511,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Wild Veil Boost."
+          "text": "Ce modele et son unite gagnent <key>Wild Veil Boost</key>."
         }
       ]
     },
@@ -7603,7 +8552,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Rapid Advance."
+          "text": "Ce modele et son unite gagnent <key>Rapid Advance</key>."
         }
       ]
     },
@@ -7629,7 +8578,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lors d'un tir, lancez un de et appliquez un effet a tous les modeles avec cette regle : sur 1-3 ils gagnent AP(+1), et sur 4-6 ils gagnent +1 pour toucher a la place."
+          "text": "Lors d'un tir, lancez un de et appliquez un effet a tous les modeles avec cette regle : sur 1-3 ils gagnent <key>AP</key>(+1), et sur 4-6 ils gagnent +1 pour toucher a la place."
         }
       ]
     },
@@ -7721,7 +8670,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Stealth."
+          "text": "Ce modele et son unite gagnent <key>Stealth</key>."
         }
       ]
     },
@@ -7738,7 +8687,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele peut ignorer la regle Slow."
+          "text": "Ce modele peut ignorer la regle <key>Slow</key>."
         }
       ]
     },
@@ -7756,7 +8705,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, quand c'est au tour de ce modele d'attaquer en melee, vous pouvez choisir un modele de l'unite comme cible et faire une attaque a Qualite 2+ avec AP(2) et Deadly(3), resolue comme s'il s'agissait d'une unite de 1."
+          "text": "Une fois par partie, quand c'est au tour de ce modele d'attaquer en melee, vous pouvez choisir un modele de l'unite comme cible et faire une attaque a Qualite 2+ avec <key>AP</key>(2) et <key>Deadly</key>(3), resolue comme s'il s'agissait d'une unite de 1."
         }
       ]
     },
@@ -7780,7 +8729,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Grounded Reinforcement."
+          "text": "Ce modele et son unite gagnent <key>Grounded Reinforcement</key>."
         }
       ]
     },
@@ -7824,7 +8773,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Quick Shot."
+          "text": "Ce modele et son unite gagnent <key>Quick Shot</key>."
         }
       ]
     },
@@ -7839,7 +8788,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Swift."
+          "text": "Ce modele et son unite gagnent <key>Swift</key>."
         }
       ]
     },
@@ -7853,7 +8802,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Strider."
+          "text": "Ce modele et son unite gagnent <key>Strider</key>."
         }
       ]
     },
@@ -7869,7 +8818,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Unstoppable en melee."
+          "text": "Ce modele et son unite gagnent <key>Unstoppable</key> en melee."
         }
       ]
     },
@@ -7881,7 +8830,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore le couvert, et sur des resultats non modifies de 6 pour toucher, ces touches gagnent AP(+4)."
+          "text": "<key>Ignore le couvert</key>, et sur des resultats non modifies de 6 pour toucher, ces touches gagnent <key>AP</key>(+4)."
         }
       ]
     },
@@ -7894,7 +8843,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Piercing Assault contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent <key>Piercing Assault</key> contre elle une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -7907,7 +8856,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsqu'une unite dont tous les modeles ont cette regle est Secouee ou entierement detruite, vous pouvez la retirer de la table comme detruite et placer une nouvelle copie entierement a 12\" de n'importe quel bord de table au debut du round suivant, apres le deploiement des Ambushers. Les unites deployees via Reinforcement ne peuvent pas saisir ou contester des objectifs le round de leur deploiement, et cette regle ne s'applique pas a la nouvelle copie de l'unite."
+          "text": "Lorsqu'une unite dont tous les modeles ont cette regle est Secouee ou entierement detruite, vous pouvez la retirer de la table comme detruite et placer une nouvelle copie entierement a 12\" de n'importe quel bord de table au debut du round suivant, apres le deploiement des Ambushers. Les unites deployees via <key>Reinforcement</key> ne peuvent pas saisir ou contester des objectifs le round de leur deploiement, et cette regle ne s'applique pas a la nouvelle copie de l'unite."
         }
       ]
     },
@@ -7962,7 +8911,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent No Retreat."
+          "text": "Ce modele et son unite gagnent <key>No Retreat</key>."
         }
       ]
     },
@@ -7980,7 +8929,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Compte comme ayant Ambush, mais peut etre deployee jusqu'a 1\" des unites ennemies."
+          "text": "Compte comme ayant <key>Ambush</key>, mais peut etre deployee jusqu'a 1\" des unites ennemies."
         }
       ]
     },
@@ -8024,7 +8973,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Piercing Hunter."
+          "text": "Ce modele et son unite gagnent <key>Piercing Hunter</key>."
         }
       ]
     },
@@ -8036,7 +8985,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Reanimation."
+          "text": "Ce modele et son unite gagnent <key>Reanimation</key>."
         }
       ]
     },
@@ -8067,7 +9016,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Scout."
+          "text": "Ce modele et son unite gagnent <key>Scout</key>."
         }
       ]
     },
@@ -8128,7 +9077,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Shred en melee."
+          "text": "Ce modele et son unite gagnent <key>Shred</key> en melee."
         }
       ]
     },
@@ -8140,7 +9089,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Contre les unites dont la majorite des modeles ont une Defense de 2+ a 4+, cette arme gagne AP(+1)."
+          "text": "<key>Contre</key> les unites dont la majorite des modeles ont une <key>Defense</key> de 2+ a 4+, cette arme gagne <key>AP</key>(+1)."
         }
       ]
     },
@@ -8152,7 +9101,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez un modele allie a 12\" avec Caster ; il gagne +1 a son prochain jet d'incantation (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez un modele allie a 12\" avec <key>Caster</key> ; il gagne +1 a son prochain jet d'incantation (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -8164,7 +9113,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite alliee a 12\" ; elle gagne Cursed Undead Boost une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite alliee a 12\" ; elle gagne <key>Cursed Undead Boost</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -8195,7 +9144,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand ce modele tire sur des ennemis a plus de 9\", ses armes gagnent AP(+1)."
+          "text": "Quand ce modele tire sur des ennemis a plus de 9\", ses armes gagnent <key>AP</key>(+1)."
         }
       ]
     },
@@ -8219,7 +9168,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Cursed Undead, ils ignorent les blessures sur des jets de 5-6 via Cursed Undead (au lieu de seulement sur 6+)."
+          "text": "Si tous les modeles de cette unite ont <key>Cursed Undead</key>, ils ignorent les blessures sur des jets de 5-6 via <key>Cursed Undead</key> (au lieu de seulement sur 6+)."
         }
       ]
     },
@@ -8250,7 +9199,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, quand ce modele traverse des unites ennemies en mouvement, choisissez-en une et lancez X des. Pour chaque 4+, elle subit 3 touches avec AP(1)."
+          "text": "Une fois par activation, quand ce modele traverse des unites ennemies en mouvement, choisissez-en une et lancez X des. Pour chaque 4+, elle subit 3 touches avec <key>AP</key>(1)."
         }
       ]
     },
@@ -8266,7 +9215,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez un modele allie a 3\" avec Tough et retirez-lui D3 blessures."
+          "text": "Une fois par activation, avant d'attaquer, choisissez un modele allie a 3\" avec <key>Tough</key> et retirez-lui D3 blessures."
         }
       ]
     },
@@ -8279,7 +9228,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Rending en tir."
+          "text": "Ce modele et son unite gagnent <key>Rending</key> en tir."
         }
       ]
     },
@@ -8295,7 +9244,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Resistance."
+          "text": "Ce modele et son unite gagnent <key>Resistance</key>."
         }
       ]
     },
@@ -8307,7 +9256,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Contre les unites dont la majorite des modeles ont Tough(3) a Tough(9), cette arme gagne AP(+2)."
+          "text": "<key>Contre</key> les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+2)."
         }
       ]
     },
@@ -8331,7 +9280,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Buccaneer Boost."
+          "text": "Ce modele et son unite gagnent <key>Buccaneer Boost</key>."
         }
       ]
     },
@@ -8346,7 +9295,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" avec Caster ; elle subit -1 a son prochain jet d'incantation (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" avec <key>Caster</key> ; elle subit -1 a son prochain jet d'incantation (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -8358,7 +9307,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Buccaneer, il gagne toujours +1 pour toucher grace a Buccaneer (au lieu de seulement en tirant a plus de 9\")."
+          "text": "Si ce modele a <key>Buccaneer</key>, il gagne toujours +1 pour toucher grace a <key>Buccaneer</key> (au lieu de seulement en tirant a plus de 9\")."
         }
       ]
     },
@@ -8383,7 +9332,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, une fois durant son activation lorsque ce modele traverse des unites ennemies, choisissez-en une et lancez X des. Pour chaque 4+, elle subit 3 touches avec AP(1)."
+          "text": "Une fois par partie, une fois durant son activation lorsque ce modele traverse des unites ennemies, choisissez-en une et lancez X des. Pour chaque 4+, elle subit 3 touches avec <key>AP</key>(1)."
         }
       ]
     },
@@ -8411,7 +9360,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Compte comme ayant Impact(X) avec des touches ayant AP(1)."
+          "text": "Compte comme ayant <key>Impact</key>(X) avec des touches ayant <key>AP</key>(1)."
         }
       ]
     },
@@ -8454,7 +9403,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Rending en melee."
+          "text": "Ce modele et son unite gagnent <key>Rending</key> en melee."
         }
       ]
     },
@@ -8484,7 +9433,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration, et contre les unites dont la majorite des modeles ont une Defense de 2+ a 3+, cette arme gagne AP(+2)."
+          "text": "<key>Ignore Regeneration</key>, et contre les unites dont la majorite des modeles ont une <key>Defense</key> de 2+ a 3+, cette arme gagne <key>AP</key>(+2)."
         }
       ]
     },
@@ -8496,7 +9445,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Shred contre elle pour une attaque (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent <key>Shred</key> contre elle pour une attaque (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -8508,7 +9457,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite alliee a 12\" ; elle gagne Primal Boost une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite alliee a 12\" ; elle gagne <key>Primal Boost</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -8531,7 +9480,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette arme ignore Regeneration."
+          "text": "Cette arme ignore <key>Regeneration</key>."
         }
       ]
     },
@@ -8543,7 +9492,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Primal, il gagne des attaques supplementaires sur des jets pour toucher non modifies reussis de 5-6 via Primal (au lieu de seulement sur 6)."
+          "text": "Si ce modele a <key>Primal</key>, il gagne des attaques supplementaires sur des jets pour toucher non modifies reussis de 5-6 via <key>Primal</key> (au lieu de seulement sur 6)."
         }
       ]
     },
@@ -8576,7 +9525,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, lorsque ce modele est active, avant d'attaquer, lancez 3 des. Pour chaque 2+, une unite ennemie a 12\" subit 3 touches avec AP(1)."
+          "text": "Une fois par partie, lorsque ce modele est active, avant d'attaquer, lancez 3 des. Pour chaque 2+, une unite ennemie a 12\" subit 3 touches avec <key>AP</key>(1)."
         }
       ]
     },
@@ -8590,7 +9539,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand c'est au tour de ce modele d'attaquer en melee, lancez X des. Pour chaque 6+, la cible subit une touche avec AP(2)."
+          "text": "Quand c'est au tour de ce modele d'attaquer en melee, lancez X des. Pour chaque 6+, la cible subit une touche avec <key>AP</key>(2)."
         }
       ]
     },
@@ -8603,7 +9552,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Warbound Boost."
+          "text": "Ce modele et son unite gagnent <key>Warbound Boost</key>."
         }
       ]
     },
@@ -8616,7 +9565,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Warbound, les ennemis qui subissent des blessures de sa part subissent des blessures supplementaires sur des jets de defense echoues de 1-2 via Warbound (au lieu de seulement 1)."
+          "text": "Si ce modele a <key>Warbound</key>, les ennemis qui subissent des blessures de sa part subissent des blessures supplementaires sur des jets de defense echoues de 1-2 via <key>Warbound</key> (au lieu de seulement 1)."
         }
       ]
     },
@@ -8637,7 +9586,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Ambush."
+          "text": "Ce modele et son unite gagnent <key>Ambush</key>."
         }
       ]
     },
@@ -8664,7 +9613,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Placez un marqueur sur cette unite lorsqu'elle detruit completement une unite ennemie. Pour chaque marqueur, tous les modeles avec cette regle dans cette unite gagnent +1 pour toucher et AP(+1) jusqu'a la fin de la partie (max +2)."
+          "text": "Placez un marqueur sur cette unite lorsqu'elle detruit completement une unite ennemie. Pour chaque marqueur, tous les modeles avec cette regle dans cette unite gagnent +1 pour toucher et <key>AP</key>(+1) jusqu'a la fin de la partie (max +2)."
         }
       ]
     },
@@ -8677,7 +9626,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent AP(+1) en tir."
+          "text": "Ce modele et son unite gagnent <key>AP</key>(+1) en tir."
         }
       ]
     },
@@ -8693,7 +9642,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Furious."
+          "text": "Ce modele et son unite gagnent <key>Furious</key>."
         }
       ]
     },
@@ -8722,7 +9671,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Shielded."
+          "text": "Ce modele et son unite gagnent <key>Shielded</key>."
         }
       ]
     },
@@ -8735,7 +9684,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent AP(+1) en melee."
+          "text": "Ce modele et son unite gagnent <key>AP</key>(+1) en melee."
         }
       ]
     },
@@ -8761,7 +9710,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration, et sur des resultats non modifies de 6 pour toucher, ces touches gagnent AP(+2)."
+          "text": "<key>Ignore Regeneration</key>, et sur des resultats non modifies de 6 pour toucher, ces touches gagnent <key>AP</key>(+2)."
         }
       ]
     },
@@ -8774,7 +9723,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Reckless Piercing."
+          "text": "Ce modele et son unite gagnent <key>Reckless Piercing</key>."
         }
       ]
     },
@@ -8787,7 +9736,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand une unite dont tous les modeles ont cette regle est activee, vous pouvez lancer un de. Sur 2+, elle gagne AP(+1) lorsqu'elle attaque jusqu'a la fin du round ; sur 1, les unites ennemies gagnent AP(+1) lorsqu'elles l'attaquent a la place."
+          "text": "Quand une unite dont tous les modeles ont cette regle est activee, vous pouvez lancer un de. Sur 2+, elle gagne <key>AP</key>(+1) lorsqu'elle attaque jusqu'a la fin du round ; sur 1, les unites ennemies gagnent <key>AP</key>(+1) lorsqu'elles l'attaquent a la place."
         }
       ]
     },
@@ -8800,7 +9749,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, lorsque ce modele est active, avant d'attaquer, lancez 3 des. Pour chaque 2+, une unite ennemie a 12\" subit 3 touches avec Bane."
+          "text": "Une fois par partie, lorsque ce modele est active, avant d'attaquer, lancez 3 des. Pour chaque 2+, une unite ennemie a 12\" subit 3 touches avec <key>Bane</key>."
         }
       ]
     },
@@ -8827,7 +9776,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Plaguebound, ils ignorent les blessures sur des jets de 5-6 via Plaguebound (au lieu de seulement sur 6+)."
+          "text": "Si tous les modeles de cette unite ont <key>Plaguebound</key>, ils ignorent les blessures sur des jets de 5-6 via <key>Plaguebound</key> (au lieu de seulement sur 6+)."
         }
       ]
     },
@@ -8844,7 +9793,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Relentless."
+          "text": "Ce modele et son unite gagnent <key>Relentless</key>."
         }
       ]
     },
@@ -8860,7 +9809,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Regeneration."
+          "text": "Ce modele et son unite gagnent <key>Regeneration</key>."
         }
       ]
     },
@@ -8886,7 +9835,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Placez un marqueur sur cette unite a la fin de chaque round si elle est sur la table. Si tous ses modeles ont cette regle, pour chaque marqueur les ennemis qui les attaquent gagnent AP(-1), jusqu'a un minimum de AP(0) (max -2). Si cette unite est Secouee, elle perd tous ses marqueurs."
+          "text": "Placez un marqueur sur cette unite a la fin de chaque round si elle est sur la table. Si tous ses modeles ont cette regle, pour chaque marqueur les ennemis qui les attaquent gagnent <key>AP</key>(-1), jusqu'a un minimum de <key>AP</key>(0) (max -2). Si cette unite est Secouee, elle perd tous ses marqueurs."
         }
       ]
     },
@@ -8899,7 +9848,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Steadfast."
+          "text": "Ce modele et son unite gagnent <key>Steadfast</key>."
         }
       ]
     },
@@ -8912,7 +9861,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration, et sur des resultats non modifies de 6 pour toucher, cette arme inflige 1 touche supplementaire (seule la touche d'origine compte comme un 6 pour les regles speciales)."
+          "text": "<key>Ignore Regeneration</key>, et sur des resultats non modifies de 6 pour toucher, cette arme inflige 1 touche supplementaire (seule la touche d'origine compte comme un 6 pour les regles speciales)."
         }
       ]
     },
@@ -8925,7 +9874,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Plaguebound Boost."
+          "text": "Ce modele et son unite gagnent <key>Plaguebound Boost</key>."
         }
       ]
     },
@@ -8939,7 +9888,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne Rending en melee."
+          "text": "Ce modele gagne <key>Rending</key> en melee."
         }
       ]
     },
@@ -8988,7 +9937,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, quand ce modele est active, avant d'attaquer, lancez 3 des. Pour chaque 2+, une unite ennemie a 12\" subit 3 touches avec Surge (lancez un de par touche pour voir si l'effet se declenche)."
+          "text": "Une fois par partie, quand ce modele est active, avant d'attaquer, lancez 3 des. Pour chaque 2+, une unite ennemie a 12\" subit 3 touches avec <key>Surge</key> (lancez un de par touche pour voir si l'effet se declenche)."
         }
       ],
       "specialRule": [
@@ -9000,7 +9949,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Lie a la Luxure, il se deplace de +2\" en Avance et +6\" en Rush/Charge grace a cette regle (au lieu de seulement +1\" et +3\")."
+          "text": "Si ce modele a <key>Lie a la Luxure</key>, il se deplace de +2\" en Avance et +6\" en Rush/Charge grace a cette regle (au lieu de seulement +1\" et +3\")."
         }
       ],
       "specialRule": [
@@ -9027,7 +9976,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration et, contre les unites dont la majorite des modeles ont Tough(3) a Tough(9), cette arme gagne AP(+2)."
+          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -9053,7 +10002,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Lie a la Luxure."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Lie a la Luxure</key>."
         }
       ],
       "specialRule": [
@@ -9066,7 +10015,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Obtient AP(4), mais l'unite de ce modele subit une blessure sur un resultat non modifie de 1 pour toucher."
+          "text": "Obtient <key>AP</key>(4), mais l'unite de ce modele subit une blessure sur un resultat non modifie de 1 pour toucher."
         }
       ],
       "specialRule": [
@@ -9118,7 +10067,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Evasive."
+          "text": "Ce modele et son unite gagnent <key>Evasive</key>."
         }
       ],
       "specialRule": [
@@ -9168,7 +10117,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Fleau en melee."
+          "text": "Ce modele et son unite gagnent <key>Fleau en melee</key>."
         }
       ],
       "specialRule": [
@@ -9183,7 +10132,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement de Detale."
+          "text": "Ce modele et son unite gagnent <key>Renforcement de Detale</key>."
         }
       ],
       "specialRule": [
@@ -9215,7 +10164,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Detale, il se deplace de +4\" en Avance et +4\" en Rush/Charge grace a Detale (au lieu de seulement +2\" et +2\")."
+          "text": "Si ce modele a <key>Detale</key>, il se deplace de +4\" en Avance et +4\" en Rush/Charge grace a <key>Detale</key> (au lieu de seulement +2\" et +2\")."
         }
       ],
       "specialRule": [
@@ -9227,7 +10176,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand des unites dont tous les modeles ont cette regle sont prises pour cible par des tirs ou des charges a plus de 9\" et subissent des touches, ces touches comptent comme ayant AP(-1), jusqu'a un minimum de AP(0)."
+          "text": "Quand des unites dont tous les modeles ont cette regle sont prises pour cible par des tirs ou des charges a plus de 9\" et subissent des touches, ces touches comptent comme ayant <key>AP</key>(-1), jusqu'a un minimum de <key>AP</key>(0)."
         }
       ],
       "specialRule": [
@@ -9239,7 +10188,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Sur des resultats non modifies de 6 pour toucher, ces touches gagnent AP(+4)."
+          "text": "Sur des resultats non modifies de 6 pour toucher, ces touches gagnent <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -9291,7 +10240,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne AP(+1) au tir."
+          "text": "Ce modele gagne <key>AP</key>(+1) au tir."
         }
       ],
       "specialRule": [
@@ -9304,7 +10253,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Exploit de Precision."
+          "text": "Ce modele et son unite gagnent <key>Exploit de Precision</key>."
         }
       ],
       "specialRule": [
@@ -9317,7 +10266,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Furieux contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent <key>Furieux</key> contre elle une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -9329,7 +10278,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Ossifie."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Ossifie</key>."
         }
       ],
       "specialRule": [
@@ -9341,7 +10290,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Regeneration une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne <key>Regeneration</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -9353,7 +10302,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Ossifie, les touches ennemies comptent toujours comme ayant AP(-1) grace a Ossifie (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
+          "text": "Si tous les modeles de cette unite ont <key>Ossifie</key>, les touches ennemies comptent toujours comme ayant <key>AP</key>(-1) grace a <key>Ossifie</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
         }
       ],
       "specialRule": [
@@ -9365,7 +10314,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Voile de Melee."
+          "text": "Ce modele et son unite gagnent <key>Voile de Melee</key>."
         }
       ],
       "specialRule": [
@@ -9392,7 +10341,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Ferocite."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Ferocite</key>."
         }
       ],
       "specialRule": [
@@ -9416,7 +10365,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Exploit de Vitesse."
+          "text": "Ce modele et son unite gagnent <key>Exploit de Vitesse</key>."
         }
       ],
       "specialRule": [
@@ -9428,7 +10377,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Contre les unites dont la majorite des modeles ont Tough(3) a Tough(9), cette arme gagne Deadly(+3)."
+          "text": "<key>Contre</key> les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>Deadly</key>(+3)."
         }
       ],
       "specialRule": [
@@ -9452,7 +10401,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Assaut Perforant."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Assaut <key>Perforant</key>."
         }
       ],
       "specialRule": [
@@ -9480,7 +10429,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Ferocite, il inflige des touches supplementaires sur des resultats non modifies reussis de 5-6 pour toucher grace a Ferocite (au lieu de seulement 6)."
+          "text": "Si ce modele a <key>Ferocite</key>, il inflige des touches supplementaires sur des resultats non modifies reussis de 5-6 pour toucher grace a <key>Ferocite</key> (au lieu de seulement 6)."
         }
       ],
       "specialRule": [
@@ -9504,7 +10453,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, choisissez une unite ennemie a 36\" et en ligne de vue de ce modele, puis lancez un de ; sur 4+, placez-y un marqueur. Lors d'une attaque, les unites amies peuvent retirer des marqueurs de leur cible avant les jets de blocage pour obtenir +AP(X), ou X est le nombre de marqueurs retires."
+          "text": "Une fois par activation, choisissez une unite ennemie a 36\" et en ligne de vue de ce modele, puis lancez un de ; sur 4+, placez-y un marqueur. Lors d'une attaque, les unites amies peuvent retirer des marqueurs de leur cible avant les jets de blocage pour obtenir +<key>AP</key>(X), ou X est le nombre de marqueurs retires."
         }
       ],
       "specialRule": [
@@ -9540,7 +10489,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement de Legion Royale."
+          "text": "Ce modele et son unite gagnent <key>Renforcement de Legion Royale</key>."
         }
       ],
       "specialRule": [
@@ -9552,7 +10501,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Fortifie."
+          "text": "Ce modele et son unite gagnent <key>Fortifie</key>."
         }
       ],
       "specialRule": [
@@ -9567,7 +10516,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Indirect au tir."
+          "text": "Ce modele et son unite gagnent <key>Indirect</key> au tir."
         }
       ],
       "specialRule": [
@@ -9581,7 +10530,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Compte comme ayant Infiltrate. Une fois deployee via cette regle, lancez X des ; pour chaque 4+, une unite ennemie a 3\" subit 2 touches avec AP(1)."
+          "text": "Compte comme ayant <key>Infiltrate</key>. Une fois deployee via cette regle, lancez X des ; pour chaque 4+, une unite ennemie a 3\" subit 2 touches avec <key>AP</key>(1)."
         }
       ],
       "specialRule": [
@@ -9595,7 +10544,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Legion Royale, il gagne +6\" de portee au tir et se deplace de +6\" lorsqu'il utilise des actions de Charge grace a Legion Royale (au lieu de seulement +3\" et +3\")."
+          "text": "Si ce modele a <key>Legion Royale</key>, il gagne +6\" de portee au tir et se deplace de +6\" lorsqu'il utilise des actions de Charge grace a <key>Legion Royale</key> (au lieu de seulement +3\" et +3\")."
         }
       ],
       "specialRule": [
@@ -9645,7 +10594,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration et, contre les unites dont la majorite des modeles ont Tough(3) a Tough(9), cette arme gagne Deadly(+3)."
+          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>Deadly</key>(+3)."
         }
       ],
       "specialRule": [
@@ -9657,7 +10606,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Tueur contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent <key>Tueur</key> contre elle une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -9669,7 +10618,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Renforcement de Benediction Angelique une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne <key>Renforcement de Benediction Angelique</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -9681,7 +10630,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Attaque Polyvalente une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne <key>Attaque Polyvalente</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -9693,7 +10642,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les armes de ce modele gagnent AP(+2) contre les unites dont la majorite des modeles ont Tough(3) ou plus."
+          "text": "Les armes de ce modele gagnent <key>AP</key>(+2) contre les unites dont la majorite des modeles ont <key>Tough</key>(3) ou plus."
         }
       ],
       "specialRule": [
@@ -9708,7 +10657,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Benediction Angelique, ils ignorent les blessures non magiques sur 5-6 grace a Benediction Angelique (au lieu de seulement 6+)."
+          "text": "Si tous les modeles de cette unite ont <key>Benediction Angelique</key>, ils ignorent les blessures non magiques sur 5-6 grace a <key>Benediction Angelique</key> (au lieu de seulement 6+)."
         }
       ],
       "specialRule": [
@@ -9720,7 +10669,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand cette unite est activee, choisissez un effet : jusqu'a la fin de l'activation, tous les modeles avec cette regle gagnent soit AP(+1) en attaque, soit +1 aux jets pour toucher en attaque."
+          "text": "Quand cette unite est activee, choisissez un effet : jusqu'a la fin de l'activation, tous les modeles avec cette regle gagnent soit <key>AP</key>(+1) en attaque, soit +1 aux jets pour toucher en attaque."
         }
       ],
       "specialRule": [
@@ -9750,7 +10699,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "A la fin de l'activation de cette unite, une autre unite amie a 12\" qui n'a pas encore ete activee peut etre activee immediatement. Ne peut pas etre utilise si cette unite a ete activee via Coordination."
+          "text": "A la fin de l'activation de cette unite, une autre unite amie a 12\" qui n'a pas encore ete activee peut etre activee immediatement. Ne peut pas etre utilise si cette unite a ete activee via <key>Coordination</key>."
         }
       ],
       "specialRule": [
@@ -9762,7 +10711,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si cette unite est a 24\" d'une autre unite amie avec cette regle contenant un Hero, alors ce Hero peut utiliser ses regles speciales qui ciblent des unites amies a 12\" (sauf les sorts) sur cette unite comme si elle etait a portee."
+          "text": "Si cette unite est a 24\" d'une autre unite amie avec cette regle contenant un <key>Hero</key>, alors ce <key>Hero</key> peut utiliser ses regles speciales qui ciblent des unites amies a 12\" (sauf les sorts) sur cette unite comme si elle etait a portee."
         }
       ],
       "specialRule": [
@@ -9786,7 +10735,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Rush Rapide une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Rush <key>Rapide</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -9798,7 +10747,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Couvert et, sur des resultats non modifies de 6 pour toucher, ces touches gagnent AP(+2)."
+          "text": "Ignore Couvert et, sur des resultats non modifies de 6 pour toucher, ces touches gagnent <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -9834,7 +10783,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Renforcement Tenir la Ligne une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne <key>Renforcement Tenir la Ligne</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -9846,7 +10795,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Furieux une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne <key>Furieux</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -9859,7 +10808,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, choisissez un modele ami a 6\" avec Artillery ; il peut immediatement se deplacer de jusqu'a 9\"."
+          "text": "Une fois par activation, choisissez un modele ami a 6\" avec <key>Artillery</key> ; il peut immediatement se deplacer de jusqu'a 9\"."
         }
       ],
       "specialRule": [
@@ -9874,7 +10823,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Choisissez un modele avec cette regle dans cette unite pour avoir Caster(X), ou X est le nombre total de modeles avec cette regle dans cette unite. Si ce modele est tue, choisissez-en un autre comme nouveau lanceur et transferez-lui tous les jetons de sort. Le lanceur perd tous ses jetons de sort non depenses a la fin du round."
+          "text": "Choisissez un modele avec cette regle dans cette unite pour avoir <key>Caster</key>(X), ou X est le nombre total de modeles avec cette regle dans cette unite. Si ce modele est tue, choisissez-en un autre comme nouveau lanceur et transferez-lui tous les jetons de sort. Le lanceur perd tous ses jetons de sort non depenses a la fin du round."
         }
       ],
       "specialRule": [
@@ -9887,7 +10836,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Tenir la Ligne, ils gagnent +2 aux tests de moral grace a Tenir la Ligne (au lieu de seulement +1)."
+          "text": "Si tous les modeles de cette unite ont <key>Tenir la Ligne</key>, ils gagnent +2 aux tests de moral grace a <key>Tenir la Ligne</key> (au lieu de seulement +1)."
         }
       ],
       "specialRule": [
@@ -9899,7 +10848,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, pendant l'activation de ce modele, choisissez une unite ennemie a 36\" et en ligne de vue, puis placez X marqueurs sur elle. Lors d'une attaque, les unites amies peuvent retirer des marqueurs de leur cible avant les jets de blocage pour obtenir +AP(Y), ou Y est le nombre de marqueurs retires."
+          "text": "Une fois par partie, pendant l'activation de ce modele, choisissez une unite ennemie a 36\" et en ligne de vue, puis placez X marqueurs sur elle. Lors d'une attaque, les unites amies peuvent retirer des marqueurs de leur cible avant les jets de blocage pour obtenir +<key>AP</key>(Y), ou Y est le nombre de marqueurs retires."
         }
       ],
       "specialRule": [
@@ -9923,7 +10872,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Fearless."
+          "text": "Ce modele et son unite gagnent <key>Fearless</key>."
         }
       ],
       "specialRule": [
@@ -9938,7 +10887,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne Indirect au tir."
+          "text": "Ce modele gagne <key>Indirect</key> au tir."
         }
       ],
       "specialRule": [
@@ -9963,7 +10912,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Sur des resultats non modifies de 6 pour toucher, ces touches gagnent AP(+2)."
+          "text": "Sur des resultats non modifies de 6 pour toucher, ces touches gagnent <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -9975,7 +10924,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Noble."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Noble</key>."
         }
       ],
       "specialRule": [
@@ -9987,7 +10936,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Noble, il se deplace de +4\" en Avance et +4\" en Rush/Charge grace a Noble (au lieu de seulement +2\" et +2\")."
+          "text": "Si ce modele a <key>Noble</key>, il se deplace de +4\" en Avance et +4\" en Rush/Charge grace a <key>Noble</key> (au lieu de seulement +2\" et +2\")."
         }
       ],
       "specialRule": [
@@ -10027,7 +10976,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Defense Polyvalente."
+          "text": "Ce modele et son unite gagnent <key>Defense Polyvalente</key>."
         }
       ],
       "specialRule": [
@@ -10061,7 +11010,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Combattant Imprevisible."
+          "text": "Ce modele et son unite gagnent Combattant <key>Imprevisible</key>."
         }
       ],
       "specialRule": [
@@ -10079,7 +11028,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Voile a Distance."
+          "text": "Ce modele et son unite gagnent <key>Voile a Distance</key>."
         }
       ],
       "specialRule": [
@@ -10218,7 +11167,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Lie au Changement."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Lie au Changement</key>."
         }
       ],
       "specialRule": [
@@ -10231,7 +11180,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Lie au Changement, les ennemis qui les attaquent subissent toujours -1 aux jets pour toucher grace a Lie au Changement (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
+          "text": "Si tous les modeles de cette unite ont <key>Lie au Changement</key>, les ennemis qui les attaquent subissent toujours -1 aux jets pour toucher grace a <key>Lie au Changement</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
         }
       ],
       "specialRule": [
@@ -10309,7 +11258,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Bond."
+          "text": "Ce modele et son unite gagnent <key>Bond</key>."
         }
       ],
       "specialRule": [
@@ -10322,7 +11271,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Lie au Chaos."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Lie au Chaos</key>."
         }
       ],
       "specialRule": [
@@ -10335,7 +11284,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand ce modele tire sur des ennemis a plus de 9\" ou lorsqu'il charge, ses armes gagnent AP(+1)."
+          "text": "Quand ce modele tire sur des ennemis a plus de 9\" ou lorsqu'il charge, ses armes gagnent <key>AP</key>(+1)."
         }
       ],
       "specialRule": [
@@ -10348,7 +11297,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; elle doit immediatement effectuer un test de Terrain Dangereux."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; elle doit immediatement effectuer un test de Terrain <key>Dangereux</key>."
         }
       ],
       "specialRule": [
@@ -10360,7 +11309,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Lie au Chaos, il gagne toujours AP(+1) grace a Lie au Chaos (au lieu de s'appliquer seulement au tir a plus de 9\" ou en charge)."
+          "text": "Si ce modele a <key>Lie au Chaos</key>, il gagne toujours <key>AP</key>(+1) grace a <key>Lie au Chaos</key> (au lieu de s'appliquer seulement au tir a plus de 9\" ou en charge)."
         }
       ],
       "specialRule": [
@@ -10373,7 +11322,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Tueur en melee."
+          "text": "Ce modele et son unite gagnent <key>Tueur</key> en melee."
         }
       ],
       "specialRule": [
@@ -10385,7 +11334,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Implacable contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent <key>Implacable</key> contre elle une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -10397,7 +11346,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration et, contre les unites dont la majorite des modeles ont Defense 2+ a Defense 4+, cette arme gagne AP(+1)."
+          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Defense</key> 2+ a <key>Defense</key> 4+, cette arme gagne <key>AP</key>(+1)."
         }
       ],
       "specialRule": [
@@ -10421,7 +11370,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Teleport."
+          "text": "Ce modele et son unite gagnent <key>Teleport</key>."
         }
       ],
       "specialRule": [
@@ -10433,7 +11382,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Chanceux."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Chanceux</key>."
         }
       ],
       "specialRule": [
@@ -10445,7 +11394,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand cette unite est entierement detruite, placez autant de marqueurs Vengeance sur l'unite qui l'a detruite qu'il y avait de modeles avec cette regle dans cette unite au debut de la partie. Les unites amies gagnent +X aux jets pour toucher avec leurs armes contre cette unite, ou X est le nombre de marqueurs sur elle."
+          "text": "Quand cette unite est entierement detruite, placez autant de marqueurs <key>Vengeance</key> sur l'unite qui l'a detruite qu'il y avait de modeles avec cette regle dans cette unite au debut de la partie. Les unites amies gagnent +X aux jets pour toucher avec leurs armes contre cette unite, ou X est le nombre de marqueurs sur elle."
         }
       ],
       "specialRule": [
@@ -10457,7 +11406,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Couvert et, contre les unites dont la majorite des modeles ont Defense 5+ a Defense 6+, cette arme gagne Blast(+3)."
+          "text": "Ignore Couvert et, contre les unites dont la majorite des modeles ont <key>Defense</key> 5+ a <key>Defense</key> 6+, cette arme gagne <key>Blast</key>(+3)."
         }
       ],
       "specialRule": [
@@ -10469,7 +11418,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Chanceux, il inflige des touches supplementaires sur des resultats non modifies reussis de 5-6 pour toucher grace a Chanceux (au lieu de seulement 6)."
+          "text": "Si ce modele a <key>Chanceux</key>, il inflige des touches supplementaires sur des resultats non modifies reussis de 5-6 pour toucher grace a <key>Chanceux</key> (au lieu de seulement 6)."
         }
       ],
       "specialRule": [
@@ -10481,7 +11430,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lors d'une attaque, les cibles doivent relancer les resultats de Defense non modifies de 6 lorsqu'elles bloquent des touches d'armes de ce modele."
+          "text": "Lors d'une attaque, les cibles doivent relancer les resultats de <key>Defense</key> non modifies de 6 lorsqu'elles bloquent des touches d'armes de ce modele."
         }
       ],
       "specialRule": [
@@ -10506,7 +11455,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Malicieux."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Malicieux</key>."
         }
       ],
       "specialRule": [
@@ -10518,7 +11467,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Couvert et, contre les unites dont la majorite des modeles ont Tough(3) a Tough(9), cette arme gagne Deadly(+3)."
+          "text": "Ignore Couvert et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>Deadly</key>(+3)."
         }
       ],
       "specialRule": [
@@ -10530,7 +11479,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Malicieux, les ennemis qui subissent des touches de sa part doivent relancer les resultats de defense non modifies reussis de 5-6 grace a Malicieux (au lieu de seulement 6)."
+          "text": "Si ce modele a <key>Malicieux</key>, les ennemis qui subissent des touches de sa part doivent relancer les resultats de defense non modifies reussis de 5-6 grace a <key>Malicieux</key> (au lieu de seulement 6)."
         }
       ],
       "specialRule": [
@@ -10590,7 +11539,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement d'Esprit Empyreen."
+          "text": "Ce modele et son unite gagnent <key>Renforcement d'Esprit Empyreen</key>."
         }
       ],
       "specialRule": [
@@ -10602,7 +11551,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Contre les unites dont la majorite des modeles ont Defense 2+ a Defense 3+, cette arme gagne AP(+2)."
+          "text": "<key>Contre</key> les unites dont la majorite des modeles ont <key>Defense</key> 2+ a <key>Defense</key> 3+, cette arme gagne <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -10626,7 +11575,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Esprit Empyreen, les ennemis qui les attaquent subissent toujours -1 aux jets pour toucher grace a Esprit Empyreen (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
+          "text": "Si tous les modeles de cette unite ont <key>Esprit Empyreen</key>, les ennemis qui les attaquent subissent toujours -1 aux jets pour toucher grace a <key>Esprit Empyreen</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
         }
       ],
       "specialRule": [
@@ -10638,7 +11587,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, pendant l'activation de ce modele, choisissez une unite ennemie a 36\" et en ligne de vue, puis placez X marqueurs sur elle. Les unites amies gagnent +AP(X) lorsqu'elles l'attaquent."
+          "text": "Une fois par partie, pendant l'activation de ce modele, choisissez une unite ennemie a 36\" et en ligne de vue, puis placez X marqueurs sur elle. Les unites amies gagnent +<key>AP</key>(X) lorsqu'elles l'attaquent."
         }
       ],
       "specialRule": [
@@ -10650,7 +11599,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois toutes les autres unites deployees (hors unites mises de cote), vous pouvez retirer jusqu'a deux unites amies de la table et les deployer a nouveau. Les joueurs alternent pour placer les unites avec Redeploiement, en commencant par le joueur qui active ensuite."
+          "text": "Une fois toutes les autres unites deployees (hors unites mises de cote), vous pouvez retirer jusqu'a deux unites amies de la table et les deployer a nouveau. Les joueurs alternent pour placer les unites avec <key>Redeploiement</key>, en commencant par le joueur qui active ensuite."
         }
       ],
       "specialRule": [
@@ -10662,7 +11611,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Gardien."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Gardien</key>."
         }
       ],
       "specialRule": [
@@ -10674,7 +11623,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration et, contre les unites dont la majorite des modeles ont Defense 5+ a Defense 6+, cette arme gagne Blast(+3)."
+          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Defense</key> 5+ a <key>Defense</key> 6+, cette arme gagne <key>Blast</key>(+3)."
         }
       ],
       "specialRule": [
@@ -10698,7 +11647,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Gardien, les touches ennemies comptent toujours comme ayant AP(-1) grace a Gardien (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
+          "text": "Si tous les modeles de cette unite ont <key>Gardien</key>, les touches ennemies comptent toujours comme ayant <key>AP</key>(-1) grace a <key>Gardien</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
         }
       ],
       "specialRule": [
@@ -10722,7 +11671,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration et, sur des resultats non modifies de 1 pour bloquer des touches, cette arme inflige 1 blessure supplementaire."
+          "text": "<key>Ignore Regeneration</key> et, sur des resultats non modifies de 1 pour bloquer des touches, cette arme inflige 1 blessure supplementaire."
         }
       ],
       "specialRule": [
@@ -10734,7 +11683,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Placez un marqueur sur cette unite lorsqu'elle detruit entierement une unite ennemie. Pour chaque marqueur, tous les modeles avec cette regle dans cette unite gagnent AP(+1) et +1 aux jets de defense jusqu'a la fin de la partie (maximum +2)."
+          "text": "Placez un marqueur sur cette unite lorsqu'elle detruit entierement une unite ennemie. Pour chaque marqueur, tous les modeles avec cette regle dans cette unite gagnent <key>AP</key>(+1) et +1 aux jets de defense jusqu'a la fin de la partie (maximum +2)."
         }
       ],
       "specialRule": [
@@ -10758,7 +11707,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Robuste."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Robuste</key>."
         }
       ],
       "specialRule": [
@@ -10770,7 +11719,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont Robuste, ils gagnent toujours +1 aux jets de defense grace a Robuste (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
+          "text": "Si tous les modeles de cette unite ont <key>Robuste</key>, ils gagnent toujours +1 aux jets de defense grace a <key>Robuste</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
         }
       ],
       "specialRule": [
@@ -10782,7 +11731,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand cette unite est activee, choisissez un effet : jusqu'a la fin de l'activation, tous les modeles avec cette regle gagnent soit AP(+1) en attaque, soit +1 aux jets pour toucher en attaque."
+          "text": "Quand cette unite est activee, choisissez un effet : jusqu'a la fin de l'activation, tous les modeles avec cette regle gagnent soit <key>AP</key>(+1) en attaque, soit +1 aux jets pour toucher en attaque."
         }
       ],
       "specialRule": [
@@ -10806,7 +11755,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Tueur a Distance."
+          "text": "Ce modele et son unite gagnent <key>Tueur a Distance</key>."
         }
       ],
       "specialRule": [
@@ -10819,7 +11768,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Couvert et, contre les unites dont la majorite des modeles ont Defense 2+ a Defense 3+, cette arme gagne AP(+2)."
+          "text": "Ignore Couvert et, contre les unites dont la majorite des modeles ont <key>Defense</key> 2+ a <key>Defense</key> 3+, cette arme gagne <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -10831,7 +11780,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Tech Vinci."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Tech Vinci</key>."
         }
       ],
       "specialRule": [
@@ -10867,7 +11816,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les armes de tir de ce modele gagnent AP(+2) contre les unites dont la majorite des modeles ont Tough(3) ou plus."
+          "text": "Les armes de tir de ce modele gagnent <key>AP</key>(+2) contre les unites dont la majorite des modeles ont <key>Tough</key>(3) ou plus."
         }
       ],
       "specialRule": [
@@ -10880,7 +11829,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Tech Vinci, il gagne toujours a la fois AP(+1) et +1 aux jets pour toucher grace a Tech Vinci (au lieu de devoir choisir entre AP(+1) ou +1 aux jets pour toucher)."
+          "text": "Si ce modele a <key>Tech Vinci</key>, il gagne toujours a la fois <key>AP</key>(+1) et +1 aux jets pour toucher grace a <key>Tech Vinci</key> (au lieu de devoir choisir entre <key>AP</key>(+1) ou +1 aux jets pour toucher)."
         }
       ],
       "specialRule": [
@@ -10928,7 +11877,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Contre les unites dont la majorite des modeles ont Defense 5+ a Defense 6+, cette arme gagne Blast(+3)."
+          "text": "<key>Contre</key> les unites dont la majorite des modeles ont <key>Defense</key> 5+ a <key>Defense</key> 6+, cette arme gagne <key>Blast</key>(+3)."
         }
       ],
       "specialRule": [
@@ -10940,7 +11889,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement de Pas Ondulatoire."
+          "text": "Ce modele et son unite gagnent <key>Renforcement de Pas Ondulatoire</key>."
         }
       ],
       "specialRule": [
@@ -10952,7 +11901,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, quand une unite dont tous les modeles ont cette regle termine son activation, vous pouvez immediatement la retirer de la table (en lachant tous les objectifs qu'elle pourrait tenir a 1\"), puis la deployer comme si elle avait Embuscade au debut du round suivant."
+          "text": "Une fois par partie, quand une unite dont tous les modeles ont cette regle termine son activation, vous pouvez immediatement la retirer de la table (en lachant tous les objectifs qu'elle pourrait tenir a 1\"), puis la deployer comme si elle avait <key>Embuscade</key> au debut du round suivant."
         }
       ],
       "specialRule": [
@@ -10964,7 +11913,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Pas Ondulatoire, il peut etre place a 6\" grace a Pas Ondulatoire (au lieu de seulement 3\")."
+          "text": "Si ce modele a <key>Pas Ondulatoire</key>, il peut etre place a 6\" grace a <key>Pas Ondulatoire</key> (au lieu de seulement 3\")."
         }
       ],
       "specialRule": [
@@ -10988,7 +11937,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par round, quand cette unite termine son mouvement a 3\" d'unites ennemies apres avoir ete en melee, choisissez-en une et lancez autant de des que de modeles avec cette regle dans cette unite, ou autant de des que sa valeur Tough (pour les unites a un seul modele). Pour chaque 6+, la cible subit une blessure."
+          "text": "Une fois par round, quand cette unite termine son mouvement a 3\" d'unites ennemies apres avoir ete en melee, choisissez-en une et lancez autant de des que de modeles avec cette regle dans cette unite, ou autant de des que sa valeur <key>Tough</key> (pour les unites a un seul modele). Pour chaque 6+, la cible subit une blessure."
         }
       ],
       "specialRule": [
@@ -11036,7 +11985,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lors d'une attaque, la cible doit relancer les resultats de Defense non modifies de 6."
+          "text": "Lors d'une attaque, la cible doit relancer les resultats de <key>Defense</key> non modifies de 6."
         }
       ],
       "specialRule": [
@@ -11048,7 +11997,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement de Harcelement."
+          "text": "Ce modele et son unite gagnent <key>Renforcement de Harcelement</key>."
         }
       ],
       "specialRule": [
@@ -11072,7 +12021,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si la majorite des modeles de cette unite ont Harcelement, ils peuvent se deplacer de jusqu'a 6\" grace a Harcelement (au lieu de seulement 3\")."
+          "text": "Si la majorite des modeles de cette unite ont <key>Harcelement</key>, ils peuvent se deplacer de jusqu'a 6\" grace a <key>Harcelement</key> (au lieu de seulement 3\")."
         }
       ],
       "specialRule": [
@@ -11120,7 +12069,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne Riposte en melee."
+          "text": "Ce modele gagne <key>Riposte</key> en melee."
         }
       ],
       "specialRule": [
@@ -11132,7 +12081,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration et, contre les unites dont la majorite des modeles ont Tough(3) a Tough(9), cette arme gagne AP(+4)."
+          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -11144,7 +12093,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement de Formation du Val."
+          "text": "Ce modele et son unite gagnent <key>Renforcement de Formation du Val</key>."
         }
       ],
       "specialRule": [
@@ -11156,7 +12105,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Impact(+1) contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent <key>Impact</key>(+1) contre elle une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -11168,7 +12117,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Formation du Val, il gagne +4\" de portee au tir et se deplace de +8\" lorsqu'il utilise des actions de Charge grace a Formation du Val (au lieu de seulement +2\" et +4\")."
+          "text": "Si ce modele a <key>Formation du Val</key>, il gagne +4\" de portee au tir et se deplace de +8\" lorsqu'il utilise des actions de Charge grace a <key>Formation du Val</key> (au lieu de seulement +2\" et +4\")."
         }
       ],
       "specialRule": [
@@ -11192,7 +12141,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lors d'une attaque, les cibles doivent relancer les resultats de Defense non modifies de 6 lorsqu'elles bloquent des touches d'armes de ce modele."
+          "text": "Lors d'une attaque, les cibles doivent relancer les resultats de <key>Defense</key> non modifies de 6 lorsqu'elles bloquent des touches d'armes de ce modele."
         }
       ],
       "specialRule": [
@@ -11204,7 +12153,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Contre les unites dont la majorite des modeles ont Tough(3) a Tough(9), cette arme gagne AP(+4)."
+          "text": "<key>Contre</key> les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -11216,7 +12165,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Bestial."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Bestial</key>."
         }
       ],
       "specialRule": [
@@ -11240,7 +12189,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Bestial, les ennemis qui subissent des touches de sa part doivent relancer les resultats de defense non modifies reussis de 5-6 grace a Bestial (au lieu de seulement 6)."
+          "text": "Si ce modele a <key>Bestial</key>, les ennemis qui subissent des touches de sa part doivent relancer les resultats de defense non modifies reussis de 5-6 grace a <key>Bestial</key> (au lieu de seulement 6)."
         }
       ],
       "specialRule": [
@@ -11252,7 +12201,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Renforcement Destructeur."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Destructeur</key>."
         }
       ],
       "specialRule": [
@@ -11264,7 +12213,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, quand cette unite attaque et que tous ses modeles ont cette regle, vous pouvez utiliser cette regle pour que toutes leurs armes gagnent AP(+2)."
+          "text": "Une fois par partie, quand cette unite attaque et que tous ses modeles ont cette regle, vous pouvez utiliser cette regle pour que toutes leurs armes gagnent <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -11276,7 +12225,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Exploit Perforant."
+          "text": "Ce modele et son unite gagnent <key>Exploit Perforant</key>."
         }
       ],
       "specialRule": [
@@ -11288,7 +12237,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore Regeneration et, sur des resultats non modifies de 6 pour toucher qui ne sont pas bloques, cette arme inflige 1 blessure supplementaire."
+          "text": "<key>Ignore Regeneration</key> et, sur des resultats non modifies de 6 pour toucher qui ne sont pas bloques, cette arme inflige 1 blessure supplementaire."
         }
       ],
       "specialRule": [
@@ -11312,7 +12261,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; elle gagne Encombrant en melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; elle gagne <key>Encombrant</key> en melee une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -11336,7 +12285,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a Destructeur, les ennemis qui subissent des blessures de sa part subissent des blessures supplementaires sur des jets de defense rates de 1-2 grace a Destructeur (au lieu de seulement 1)."
+          "text": "Si ce modele a <key>Destructeur</key>, les ennemis qui subissent des blessures de sa part subissent des blessures supplementaires sur des jets de defense rates de 1-2 grace a <key>Destructeur</key> (au lieu de seulement 1)."
         }
       ],
       "specialRule": [
@@ -11355,6 +12304,8974 @@ export const commonRules: RulesByLanguage = {
         "K44UD3HPQAfg"
       ]
     }
+,
+    "Ambush Beacon": {
+      "title": "Ambush Beacon",
+      "description": [
+        {
+          "system": "all",
+          "text": "Friendly units using Ambush may ignore distance restrictions from enemies if they are deployed a 6\" of ce modele."
+        }
+      ]
+    },
+    "Bad Shot": {
+      "title": "Bad Shot",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets -1 jets pour toucher when shooting."
+        }
+      ]
+    },
+    "Badlands Hunter": {
+      "title": "Badlands Hunter",
+      "description": [
+        {
+          "system": "all",
+          "text": "Enemies that roll to block touches from ce modele's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+        }
+      ]
+    },
+    "Badlands Hunter Boost": {
+      "title": "Badlands Hunter Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Badlands Hunter, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from Badlands Hunter (instead of only on 1)."
+        }
+      ]
+    },
+    "Badlands Hunter Boost Aura": {
+      "title": "Badlands Hunter Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Badlands Hunter Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Ballistic Vest": {
+      "title": "Ballistic Vest",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away and take touches, those touches count as having AP(-1), to a min. of AP(0)."
+        }
+      ]
+    },
+    "Ballistic Vest Boost": {
+      "title": "Ballistic Vest Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in cette unite have Ballistic Vest, enemy touches always count as having AP(-1) from Ballistic Vest (instead of only when being shot/charged from over 9\" away)."
+        }
+      ]
+    },
+    "Ballistic Vest Boost Aura": {
+      "title": "Ballistic Vest Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Ballistic Vest Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Bane in Melee Buff": {
+      "title": "Bane in Melee Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 unite amies a 12\", qui gagne Bane in melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Battle-Hardened": {
+      "title": "Battle-Hardened",
+      "description": [
+        {
+          "system": "all",
+          "text": "Units where all models have this rule get +1 to jets de test de moral."
+        }
+      ]
+    },
+    "Battleborn": {
+      "title": "Battleborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+        }
+      ]
+    },
+    "Berserker Boost": {
+      "title": "Berserker Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Berserker, it deals extra touches on successful unmodified hit results of 5-6 from Berserker (instead of only on 6)."
+        }
+      ]
+    },
+    "Berserker Boost Aura": {
+      "title": "Berserker Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Berserker Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Bloodborn": {
+      "title": "Sangborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "For each unmodified roll of 6 to hit when attacking, ce modele may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+        }
+      ]
+    },
+    "Brute Courage": {
+      "title": "Brute Courage",
+      "description": [
+        {
+          "system": "all",
+          "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+        }
+      ]
+    },
+    "Clan Warrior": {
+      "title": "Clan Warrior",
+      "description": [
+        {
+          "system": "all",
+          "text": "For each unmodified roll of 6 to hit when attacking, ce modele may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+        }
+      ]
+    },
+    "Clan Warrior Boost": {
+      "title": "Clan Warrior Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Clan Warrior, it gets extra attacks on successful unmodified hit results of 5-6 from Clan Warrior (instead of only on 6)."
+        }
+      ]
+    },
+    "Clan Warrior Boost Aura": {
+      "title": "Clan Warrior Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Clan Warrior Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Cyber-Eyes": {
+      "title": "Cyber-Eyes",
+      "description": [
+        {
+          "system": "all",
+          "text": "When ce modele shoots at enemies over 9\" away, it gets +1 jets pour toucher."
+        }
+      ]
+    },
+    "Cyber-Eyes Boost": {
+      "title": "Cyber-Eyes Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Cyber-Eyes, it always gets +1 jets pour toucher from Cyber-Eyes (instead of only when shooting over 9\" away)."
+        }
+      ]
+    },
+    "Cyber-Eyes Boost Aura": {
+      "title": "Cyber-Eyes Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Cyber-Eyes Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Darkborn": {
+      "title": "Sombreborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets +3\" range when shooting and moves +3\" when using Charge actions."
+        }
+      ]
+    },
+    "Defensive Growth": {
+      "title": "Defensive Growth",
+      "description": [
+        {
+          "system": "all",
+          "text": "Place one marker on cette unite at the end of each round if it's on the table. For each marker models with this rule in it get +1 to defense rolls (up to a max. of +2). If cette unite is ever Shaken, it loses all its markers."
+        }
+      ]
+    },
+    "Defensive Growth Aura": {
+      "title": "Defensive Growth Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Defensive Growth. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Demolish": {
+      "title": "Demolish",
+      "description": [
+        {
+          "system": "all",
+          "text": "Ignores Cover, and against non-Hero units with Tough(3) or more, this weapon gets AP(+2)."
+        }
+      ]
+    },
+    "Devout": {
+      "title": "Devout",
+      "description": [
+        {
+          "system": "all",
+          "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+        }
+      ]
+    },
+    "Devout Boost": {
+      "title": "Devout Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Devout, it deals extra touches on successful unmodified hit results of 5-6 from Devout (instead of only on 6)."
+        }
+      ]
+    },
+    "Devout Boost Aura": {
+      "title": "Devout Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Devout Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Entrenched Buff": {
+      "title": "Entrenched Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 unite amies a 12\", qui gagne Entrenched une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Flying Aura": {
+      "title": "Flying Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Flying. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Grounded Precision": {
+      "title": "Grounded Precision",
+      "description": [
+        {
+          "system": "all",
+          "text": "If a unit where all models have this rule has most of them a 1\" of terrain, they get +1 jets pour toucher when attacking."
+        }
+      ]
+    },
+    "Grounded Precision Aura": {
+      "title": "Grounded Precision Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Grounded Precision. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Grounded Stealth": {
+      "title": "Grounded Stealth",
+      "description": [
+        {
+          "system": "all",
+          "text": "If a unit where all models have this rule has most of them a 1\" of terrain, enemies get -1 jets pour toucher when attacking them."
+        }
+      ]
+    },
+    "Guardian": {
+      "title": "Guardian",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away and take touches, those touches count as having AP(-1), to a min. of AP(0)."
+        }
+      ]
+    },
+    "Guardian Boost": {
+      "title": "Guardian Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in cette unite have Guardian, enemy touches always count as having AP(-1) from Guardian (instead of only when being shot/charged from over 9\" away)."
+        }
+      ]
+    },
+    "Guardian Boost Aura": {
+      "title": "Guardian Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Guardian Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Guerrilla": {
+      "title": "Guerrilla",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per round, units where all models have this rule may move by up to 3\" after shooting or being in melee."
+        }
+      ]
+    },
+    "Guerrilla Boost": {
+      "title": "Guerrilla Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If most models in cette unite have Guerrilla, they may move by up to 6\" from Guerrilla (instead of only 3\")."
+        }
+      ]
+    },
+    "Guerrilla Boost Aura": {
+      "title": "Guerrilla Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Guerrilla Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Hive Bond": {
+      "title": "Hive Bond",
+      "description": [
+        {
+          "system": "all",
+          "text": "Units where all models have this rule get +1 to jets de test de moral."
+        }
+      ]
+    },
+    "Hive Bond Boost": {
+      "title": "Hive Bond Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in cette unite have Hive Bond, they get +2 to jets de test de moral from Hive Bond (instead of only +1)."
+        }
+      ]
+    },
+    "Hive Bond Boost Aura": {
+      "title": "Hive Bond Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Hive Bond Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Hold the Line Boost Aura": {
+      "title": "Hold the Line Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Hold the Line Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Ignores Cover Aura": {
+      "title": "Ignores Cover Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Ignores Cover when shooting. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Ignores Cover when Shooting": {
+      "title": "Ignores Cover when Shooting",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets Ignores Cover when shooting."
+        }
+      ]
+    },
+    "Ignores Cover when Shooting Aura": {
+      "title": "Ignores Cover when Shooting Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Ignores Cover when shooting. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Ignores Regeneration in Melee": {
+      "title": "Ignores Regeneration in Melee",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets Ignores Regeneration in melee."
+        }
+      ]
+    },
+    "Indirect Mark": {
+      "title": "Indirect Mark",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 unite ennemies a 18\", which les unites amies gagnent Indirect against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Infected": {
+      "title": "Infected",
+      "description": [
+        {
+          "system": "all",
+          "text": "Enemies that roll to block touches from ce modele's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+        }
+      ]
+    },
+    "Infected Boost": {
+      "title": "Infected Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Infected, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from Infected (instead of only on 1)."
+        }
+      ]
+    },
+    "Infected Boost Aura": {
+      "title": "Infected Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Infected Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Infiltrate Aura": {
+      "title": "Infiltrate Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Infiltrate. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Inquisitorial Agent": {
+      "title": "Inquisitorial Agent",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per game, if all models in cette unite have this rule, it may be activated even if it had already activated this round (stops being fatigued when activated for the second time). Only up to half of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
+        }
+      ]
+    },
+    "Knightborn": {
+      "title": "Knightborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 4+ instead."
+        }
+      ]
+    },
+    "Machine-Fog": {
+      "title": "Machine-Fog",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away, les unites ennemies gagnent -1 jets pour toucher."
+        }
+      ]
+    },
+    "Machine-Fog Boost": {
+      "title": "Machine-Fog Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in cette unite have Machine-Fog, enemies attacking them always get -1 jets pour toucher from Machine-Fog (instead of only when being shot/charged from over 9\" away)."
+        }
+      ]
+    },
+    "Machine-Fog Boost Aura": {
+      "title": "Machine-Fog Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Machine-Fog Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Martial Prowess": {
+      "title": "Martial Prowess",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per game, if all models in cette unite have this rule, it may be activated even if it had already activated this round (stops being fatigued when activated for the second time). Only up to half of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
+        }
+      ]
+    },
+    "No Retreat Buff": {
+      "title": "No Retreat Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 unite amies a 12\", qui gagne No Retreat une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Piercing Growth": {
+      "title": "Piercing Growth",
+      "description": [
+        {
+          "system": "all",
+          "text": "Place one marker on cette unite at the end of each round if it's on the table. For each marker models with this rule in it get AP(+1) (up to a max. of +2). If cette unite is ever Shaken, it loses all its markers."
+        }
+      ]
+    },
+    "Piercing Shooting Debuff": {
+      "title": "Piercing Shooting Debuff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 unite ennemies a 18\", which loses AP(+1) when shooting une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Piercing Shooting Mark": {
+      "title": "Piercing Shooting Mark",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 unite ennemies a 18\", which les unites amies gagnent AP(+1) when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Point-Blank Piercing": {
+      "title": "Point-Blank Piercing",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets AP(+1) when shooting enemies a 12\"."
+        }
+      ]
+    },
+    "Point-Blank Piercing Aura": {
+      "title": "Point-Blank Piercing Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Point-Blank Piercing. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Point-Blank Surge": {
+      "title": "Point-Blank Surge",
+      "description": [
+        {
+          "system": "all",
+          "text": "When ce modele shoots at enemies a 12\", unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+        }
+      ]
+    },
+    "Protected Aura": {
+      "title": "Protected Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Protected. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Protection Feat Aura": {
+      "title": "Protection Feat Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Protection Feat. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Psychotic": {
+      "title": "Psychotic",
+      "description": [
+        {
+          "system": "all",
+          "text": "For each unmodified roll of 6 to hit when attacking, ce modele may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+        }
+      ]
+    },
+    "Psychotic Boost": {
+      "title": "Psychotic Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Psychotic, it gets extra attacks on successful unmodified hit results of 5-6 from Psychotic (instead of only on 6)."
+        }
+      ]
+    },
+    "Psychotic Boost Aura": {
+      "title": "Psychotic Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Psychotic Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Quake when Shooting": {
+      "title": "Quake when Shooting",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets Quake when shooting."
+        }
+      ]
+    },
+    "Rapid Advance Buff": {
+      "title": "Rapid Advance Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick up to 4 unite amies a 12\", qui gagne Rapid Advance une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rapid Ambush": {
+      "title": "Rapid Ambush",
+      "description": [
+        {
+          "system": "all",
+          "text": "Counts as having Ambush, but may be deployed at the start of any round, including the first."
+        }
+      ]
+    },
+    "Rapid Blink": {
+      "title": "Rapid Blink",
+      "description": [
+        {
+          "system": "all",
+          "text": "When cette unite is activated, you may place all models with this rule in it anywhere fully a 3\" of their position."
+        }
+      ]
+    },
+    "Rapid Blink Boost": {
+      "title": "Rapid Blink Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Rapid Blink, it may be placed a 6\" from Rapid Blink (instead of only a 3\")."
+        }
+      ]
+    },
+    "Rapid Blink Boost Aura": {
+      "title": "Rapid Blink Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Rapid Blink Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Reinforced": {
+      "title": "Reinforced",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away and take touches, those touches count as having AP(-1), to a min. of AP(0)."
+        }
+      ]
+    },
+    "Runner Boost": {
+      "title": "Runner Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Runner, it moves +4\" on Advance and +4\" on Rush/Charge from Runner (instead of only +2\" and +2\")."
+        }
+      ]
+    },
+    "Runner Boost Aura": {
+      "title": "Runner Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Runner Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Safety Gear": {
+      "title": "Safety Gear",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away, they get +1 to defense rolls."
+        }
+      ]
+    },
+    "Safety Gear Boost": {
+      "title": "Safety Gear Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in cette unite have Safety Gear, they always get +1 to defense rolls from Safety Gear (instead of only when being shot/charged from over 9\" away)."
+        }
+      ]
+    },
+    "Safety Gear Boost Aura": {
+      "title": "Safety Gear Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Safety Gear Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Scrapper": {
+      "title": "Scrapper",
+      "description": [
+        {
+          "system": "all",
+          "text": "When attacking, targets must re-roll unmodified Defense results of 6 when blocking touches from ce modele's weapons."
+        }
+      ]
+    },
+    "Scrapper Boost": {
+      "title": "Scrapper Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Scrapper, enemies taking touches from it must re-roll successful unmodified defense results of 5-6 from Scrapper (instead of only on 6)."
+        }
+      ]
+    },
+    "Scrapper Boost Aura": {
+      "title": "Scrapper Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Scrapper Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Screened": {
+      "title": "Screened",
+      "description": [
+        {
+          "system": "all",
+          "text": "When units where all models have this rule are shot or charged from over 9\" away, les unites ennemies gagnent -1 jets pour toucher."
+        }
+      ]
+    },
+    "Screened Aura": {
+      "title": "Screened Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Screened. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Self-Destruct": {
+      "title": "Self-Destruct",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele is killed in melee, the attacking unit takes X touches. If ce modele survives melee, after both sides have finished attacking, it is immediately killed, and the unite ennemie takes X touches."
+        }
+      ]
+    },
+    "Self-Repair": {
+      "title": "Self-Repair",
+      "description": [
+        {
+          "system": "all",
+          "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+        }
+      ]
+    },
+    "Self-Repair Boost": {
+      "title": "Self-Repair Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in cette unite have Self-Repair, they ignore wounds on rolls of 5-6 from Self-Repair (instead of only on 6+)."
+        }
+      ]
+    },
+    "Shadow Operative": {
+      "title": "Shadow Operative",
+      "description": [
+        {
+          "system": "all",
+          "text": "Enemies get -4\" range when trying to shoot at units where all models have this rule, and -2\" movement when trying to charge units where all models have this rule."
+        }
+      ]
+    },
+    "Shadow Operative Boost": {
+      "title": "Shadow Operative Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If all models in cette unite have Shadow Operative, enemies get -8\" range when shooting them and -4\" movement when charging them from Shadow Operative (instead of only -4\" and -2\")."
+        }
+      ]
+    },
+    "Shadow Operative Boost Aura": {
+      "title": "Shadow Operative Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Shadow Operative Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Shred when Shooting": {
+      "title": "Shred when Shooting",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets Shred when shooting."
+        }
+      ]
+    },
+    "Surge when Shooting": {
+      "title": "Surge when Shooting",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets Surge when shooting."
+        }
+      ]
+    },
+    "Surprise Piercing Shot": {
+      "title": "Surprise Piercing Shot",
+      "description": [
+        {
+          "system": "all",
+          "text": "Counts as having Ambush, and gets AP(+2) when shooting on the round in which it deploys via this rule."
+        }
+      ]
+    },
+    "Targeting Visor": {
+      "title": "Targeting Visor",
+      "description": [
+        {
+          "system": "all",
+          "text": "When ce modele shoots at enemies over 9\" away, it gets +1 jets pour toucher."
+        }
+      ]
+    },
+    "Targeting Visor Boost": {
+      "title": "Targeting Visor Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "text": "If ce modele has Targeting Visor, it always gets +1 jets pour toucher when shooting from Targeting Visor (instead of only when shooting over 9\" away)."
+        }
+      ]
+    },
+    "Targeting Visor Boost Aura": {
+      "title": "Targeting Visor Renforcement Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Targeting Visor Boost. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Union Assault": {
+      "title": "Union Assault",
+      "description": [
+        {
+          "system": "all",
+          "text": "After ce modele is deployed, it may be placed anywhere fully a 9” of its position."
+        }
+      ]
+    },
+    "Versatile Reach Aura": {
+      "title": "Versatile Reach Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and up to 3 unite amies picked before the start of the game get Versatile Reach. If ce modele is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Watchborn": {
+      "title": "Watchborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "When cette unite is activated, pick one effect: until the end of the activation all models with this rule in it either get AP(+1) when attacking, or get +1 jets pour toucher when attacking."
+        }
+      ]
+    },
+    "Wolfborn": {
+      "title": "Wolfborn",
+      "description": [
+        {
+          "system": "all",
+          "text": "When cette unite is activated, you may place all models with this rule in it anywhere fully a 3\" of their position."
+        }
+      ]
+    },
+    "Wreck": {
+      "title": "Wreck",
+      "description": [
+        {
+          "system": "all",
+          "text": "Ignores Cover, and when attacking the target must re-roll unmodified Defense results of 6."
+        }
+      ]
+    }
+
   },
   "pl": {}
 };
+
+
+export const commonSpells: SpellsByLanguage = {
+  en: {
+    "Labyrinthian Sparkle": {
+      "title": "Labyrinthian Sparkle",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Evasive</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Maze Vines": {
+      "title": "Maze Vines",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Fragment</key>."
+        }
+      ]
+    },
+    "Dream Haunter": {
+      "title": "Dream Haunter",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Unpredictable Fighter</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Chill of Death": {
+      "title": "Chill of Death",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits."
+        }
+      ]
+    },
+    "Combat Possession": {
+      "title": "Combat Possession",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Spectral Light": {
+      "title": "Spectral Light",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+        }
+      ]
+    },
+    "Hunter's Strike": {
+      "title": "Hunter's Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Spirit Vines": {
+      "title": "Spirit Vines",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Pierce</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Natural Harmony": {
+      "title": "Natural Harmony",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Resistance</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Tree Stomp": {
+      "title": "Tree Stomp",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy model within 24\", which takes 2 hits with <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Tree-Bark Growth": {
+      "title": "Tree-Bark Growth",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Grounded Reinforcement</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Insect Attack": {
+      "title": "Insect Attack",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\", which takes 6 hits."
+        }
+      ]
+    },
+    "Searing Heat": {
+      "title": "Searing Heat",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Lava Bolts": {
+      "title": "Lava Bolts",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\", which takes 2 hits."
+        }
+      ]
+    },
+    "Auric Fury": {
+      "title": "Auric Fury",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Hit & Run Fighter</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Suffocating Ashes": {
+      "title": "Suffocating Ashes",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 4 hits each."
+        }
+      ]
+    },
+    "Seismic Shift": {
+      "title": "Seismic Shift",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Grounded Protection</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Fire Storm": {
+      "title": "Fire Storm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 6\", which takes 9 hits with <key>Pulverize</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Vigorous Return": {
+      "title": "Vigorous Return",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Cursed Undead Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Cursed Strike": {
+      "title": "Cursed Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with <key>Sever</key>."
+        }
+      ]
+    },
+    "Seductive Invocation": {
+      "title": "Seductive Invocation",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\", which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
+        }
+      ]
+    },
+    "Spectral Wind": {
+      "title": "Spectral Wind",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\", which takes 4 hits with <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Dance of Death": {
+      "title": "Dance of Death",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Teleport</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Deadly Gaze": {
+      "title": "Deadly Gaze",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+        }
+      ]
+    },
+    "Aether-Cloud Rune": {
+      "title": "Aether-Cloud Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which gets -3 to casting rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Aether Shock": {
+      "title": "Aether Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Scratch</key>."
+        }
+      ]
+    },
+    "Wind Rune": {
+      "title": "Wind Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Swift</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Lightning Shock": {
+      "title": "Lightning Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Tinkering Rune": {
+      "title": "Tinkering Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Buccaneer Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Thunder Shock": {
+      "title": "Thunder Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>Shred</key>."
+        }
+      ]
+    },
+    "Poison Mist": {
+      "title": "Poison Mist",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which friendly units gets <key>Shred</key> when attacking against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Piranha Swarm": {
+      "title": "Piranha Swarm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Disintegrate</key>."
+        }
+      ]
+    },
+    "Fateful Guidance": {
+      "title": "Fateful Guidance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Steadfast</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Jaguar Pounce": {
+      "title": "Jaguar Pounce",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy model within 18\", which takes 4 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Primordial Roar": {
+      "title": "Primordial Roar",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Primal Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Serpent Egg": {
+      "title": "Serpent Egg",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 6\", which takes 9 hits with <key>Bane</key>."
+        }
+      ]
+    },
+    "Terrifying Fury": {
+      "title": "Terrifying Fury",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which must take a morale test. If failed, it becomes fatigued."
+        }
+      ]
+    },
+    "Flame of Destruction": {
+      "title": "Flame of Destruction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Fiery Protection": {
+      "title": "Fiery Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Melee Evasion</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Brutal Massacre": {
+      "title": "Brutal Massacre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 6\", which takes 6 hits with <key>Break</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "War Boon": {
+      "title": "War Boon",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Warbound Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Headtaker Strike": {
+      "title": "Headtaker Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to two enemy units within 12\", which take 3 hits with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Aura of Pestilence": {
+      "title": "Aura of Pestilence",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which counts as being in Difficult Terrain once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rapid Putrefaction": {
+      "title": "Rapid Putrefaction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Butcher</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Blessed Virus": {
+      "title": "Blessed Virus",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Rapid Rush</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Plague Malediction": {
+      "title": "Plague Malediction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy model within 24\", which takes 2 hits with <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Plague Boon": {
+      "title": "Plague Boon",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Plaguebound Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rot Wave": {
+      "title": "Rot Wave",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\", which takes 6 hits."
+        }
+      ]
+    },
+    "Combat Ecstasy": {
+      "title": "Combat Ecstasy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Beautiful Pain": {
+      "title": "Beautiful Pain",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Shatter</key>."
+        }
+      ]
+    },
+    "Blissful Dance": {
+      "title": "Blissful Dance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Melee Evasion</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Total Seizure": {
+      "title": "Total Seizure",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy model within 18\", which takes 4 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Lust Boon": {
+      "title": "Lust Boon",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Lustbound Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Overpowering Lash": {
+      "title": "Overpowering Lash",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+        }
+      ]
+    },
+    "Shifting Form": {
+      "title": "Shifting Form",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which gets -3 to casting rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Sky Blaze": {
+      "title": "Sky Blaze",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Slash</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Breath of Change": {
+      "title": "Breath of Change",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Bane when Shooting</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Mutating Inferno": {
+      "title": "Mutating Inferno",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 9\", which take 4 hits each."
+        }
+      ]
+    },
+    "Change Boon": {
+      "title": "Change Boon",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Changebound Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Power Bolt": {
+      "title": "Power Bolt",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Magic Skitter-Step": {
+      "title": "Magic Skitter-Step",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Scurry Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Heavenly Strike": {
+      "title": "Heavenly Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 12\", which take 1 hit with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "God-Mother's Frenzy": {
+      "title": "God-Mother's Frenzy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Melee Slayer</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Choking Censer-Fog": {
+      "title": "Choking Censer-Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits."
+        }
+      ]
+    },
+    "Cracking Bell-Chime": {
+      "title": "Cracking Bell-Chime",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which get -1 to defense rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Lightning Blast": {
+      "title": "Lightning Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy model within 12\", which takes 6 hits with <key>Hazardous</key>. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger."
+        }
+      ]
+    },
+    "Drain Spirit": {
+      "title": "Drain Spirit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Unstoppable</key> in melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Deep Fracture": {
+      "title": "Deep Fracture",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\", which takes 2 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Rapid Ossification": {
+      "title": "Rapid Ossification",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Ossified Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Shattering Blast": {
+      "title": "Shattering Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 6\", which takes 6 hits with <key>Destructive</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Soul Enslaver": {
+      "title": "Soul Enslaver",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which friendly units gets <key>Furious</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Bone Breaker": {
+      "title": "Bone Breaker",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\", which takes 6 hits."
+        }
+      ]
+    },
+    "Evil Gaze": {
+      "title": "Evil Gaze",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Counter-Attack</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Godly Smash": {
+      "title": "Godly Smash",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 1 hit with <key>AP</key>(2) and <key>Impale</key>."
+        }
+      ]
+    },
+    "Way-Clan Chant": {
+      "title": "Way-Clan Chant",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Ferocious Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Bone Strike": {
+      "title": "Bone Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 6\", which takes 6 hits with <key>Bane</key>."
+        }
+      ]
+    },
+    "Magic Fists": {
+      "title": "Magic Fists",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which friendly units gets <key>Rending</key> in melee against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Iron Burst": {
+      "title": "Iron Burst",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Battle Guts": {
+      "title": "Battle Guts",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Resistance</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Gobble Up": {
+      "title": "Gobble Up",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\", which takes 2 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Gorging Feast": {
+      "title": "Gorging Feast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Destroyer Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Great Trampling": {
+      "title": "Great Trampling",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\", which takes 4 hits with <key>AP</key>(1) and <key>Rupture</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Crack Spirits": {
+      "title": "Crack Spirits",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which get <key>Unwieldy</key> in melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Ice Maw": {
+      "title": "Ice Maw",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Desert Storm": {
+      "title": "Desert Storm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which counts as being in Difficult Terrain once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Storm of Skulls": {
+      "title": "Storm of Skulls",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Cursed Arrows": {
+      "title": "Cursed Arrows",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Shred</key> when shooting once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rapid Desiccation": {
+      "title": "Rapid Desiccation",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy model within 24\", which takes 2 hits with <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Tomb Queen's Guidance": {
+      "title": "Tomb Queen's Guidance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Royal Legion Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Tomb Queen's Vengeance": {
+      "title": "Tomb Queen's Vengeance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(1) and <key>Perforate</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Heavenly Guidance": {
+      "title": "Heavenly Guidance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Flying</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Lightning Bolt": {
+      "title": "Lightning Bolt",
+      "description": [
+        {
+          "system": "Kingdom of Angels",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 1 hit with <key>AP</key>(2) and <key>Chop</key>."
+        },
+        {
+          "system": "Eternal Wardens",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+        }
+      ]
+    },
+    "Star Blessing": {
+      "title": "Star Blessing",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Angelic Blessing Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Angelic Storm": {
+      "title": "Angelic Storm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Shock Energy": {
+      "title": "Shock Energy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Thunder Strike": {
+      "title": "Thunder Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\", which takes 6 hits."
+        }
+      ]
+    },
+    "Aura of Heroism": {
+      "title": "Aura of Heroism",
+      "description": [
+        {
+          "system": "Human Empire",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Hold the Line Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "Giant Tribes",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets +1 to morale test rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Fire Ball": {
+      "title": "Fire Ball",
+      "description": [
+        {
+          "system": "Human Empire",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Fracture</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "Giant Tribes",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Magic Targeting": {
+      "title": "Magic Targeting",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\", which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Blood Hex": {
+      "title": "Blood Hex",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits."
+        }
+      ]
+    },
+    "Elemental Form": {
+      "title": "Elemental Form",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>AP</key>(+1) in melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Spirit Leech": {
+      "title": "Spirit Leech",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy model within 18\", which takes 6 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Eagle-Eyed Focus": {
+      "title": "Eagle-Eyed Focus",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Arcane Blast": {
+      "title": "Arcane Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Magical Surge": {
+      "title": "Magical Surge",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Bane</key> in melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "High Tempest": {
+      "title": "High Tempest",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 9\", which take 4 hits each."
+        }
+      ]
+    },
+    "Path to Glory": {
+      "title": "Path to Glory",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Highborn Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Magic Arrows": {
+      "title": "Magic Arrows",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(1) and <key>Crack</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Barbed Chains": {
+      "title": "Barbed Chains",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which takes 2 hits."
+        }
+      ]
+    },
+    "Cursed Stride": {
+      "title": "Cursed Stride",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which counts as being in Dangerous Terrain once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Havoc Boost": {
+      "title": "Havoc Boost",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Havocbound Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Impaling Spike": {
+      "title": "Impaling Spike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy model within 18\", which takes 4 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Dark Shielding": {
+      "title": "Dark Shielding",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Fortified</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Thorn Field": {
+      "title": "Thorn Field",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(1) and <key>Slam</key>."
+        }
+      ]
+    },
+    "Rune of Piercing": {
+      "title": "Rune of Piercing",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Piercing Hunter</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rune of Lightning": {
+      "title": "Rune of Lightning",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy model within 24\", which takes 1 hit with <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Rune of Ashes": {
+      "title": "Rune of Ashes",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Havocbound Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rune of Darkness": {
+      "title": "Rune of Darkness",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 6\", which takes 6 hits with <key>Purge</key>."
+        }
+      ]
+    },
+    "Rune of Cracking": {
+      "title": "Rune of Cracking",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rune of Insanity": {
+      "title": "Rune of Insanity",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\", which takes 3 hits with <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Luck of the Ancients": {
+      "title": "Luck of the Ancients",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Lucky Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Cleansing Spirit": {
+      "title": "Cleansing Spirit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Bash</key>."
+        }
+      ]
+    },
+    "Giant Shadow": {
+      "title": "Giant Shadow",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\", which get -1 to morale test rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Nightmare Spirit": {
+      "title": "Nightmare Spirit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits."
+        }
+      ]
+    },
+    "Shortling Courage": {
+      "title": "Shortling Courage",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Fearless</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Dark Forest Spirit": {
+      "title": "Dark Forest Spirit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+        }
+      ]
+    },
+    "Spider Might": {
+      "title": "Spider Might",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Mischievous Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Stinging Spider": {
+      "title": "Stinging Spider",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with <key>Bane</key>."
+        }
+      ]
+    },
+    "Bat Thirst": {
+      "title": "Bat Thirst",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Pouncing Wolf": {
+      "title": "Pouncing Wolf",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\", which takes 4 hits with <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Wolf Resiliance": {
+      "title": "Wolf Resiliance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get +1 to defense rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Biting Bat": {
+      "title": "Biting Bat",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with <key>AP</key>(2) and <key>Skewer</key>."
+        }
+      ]
+    },
+    "Shock Attack": {
+      "title": "Shock Attack",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Thunder Clap": {
+      "title": "Thunder Clap",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Smash</key>."
+        }
+      ]
+    },
+    "Star Strike": {
+      "title": "Star Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Unpredictable Fighter</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Heavy Storm": {
+      "title": "Heavy Storm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 9\", which take 4 hits each."
+        }
+      ]
+    },
+    "Warding Cloud": {
+      "title": "Warding Cloud",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Warden Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rune of Battle": {
+      "title": "Rune of Battle",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Rapid Charge</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rune of Breaking": {
+      "title": "Rune of Breaking",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\", which takes 2 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Rune of Protection": {
+      "title": "Rune of Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Sturdy Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rune of Cleaving": {
+      "title": "Rune of Cleaving",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\", which takes 4 hits with <key>AP</key>(1) and <key>Quake</key>."
+        }
+      ]
+    },
+    "Rune of Smiting": {
+      "title": "Rune of Smiting",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\", which takes 3 hits with <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Rune of Spite": {
+      "title": "Rune of Spite",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Clearview Leaves": {
+      "title": "Clearview Leaves",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which friendly units get +6\" range when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Explosive Concoction": {
+      "title": "Explosive Concoction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Decimate</key>."
+        }
+      ]
+    },
+    "Mesmer Oils": {
+      "title": "Mesmer Oils",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Steadfast</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Choking Fog": {
+      "title": "Choking Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 9\", which take 4 hits each."
+        }
+      ]
+    },
+    "Fury Herbs": {
+      "title": "Fury Herbs",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Vinci Tech Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Neurotoxin Gas": {
+      "title": "Neurotoxin Gas",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+        }
+      ]
+    },
+    "Spirit Wind": {
+      "title": "Spirit Wind",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Rapid Rush</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Dragon Fire": {
+      "title": "Dragon Fire",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 3 hits."
+        }
+      ]
+    },
+    "Astral Storm": {
+      "title": "Astral Storm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\", which takes 4 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Jade Claws": {
+      "title": "Jade Claws",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Royal Warrior Boost once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Ancestral Guidance": {
+      "title": "Ancestral Guidance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which friendly units gets <key>Indirect when Shooting</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Blazing Starlight": {
+      "title": "Blazing Starlight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy model within 24\", which takes 3 hits with Splinter."
+        }
+      ]
+    },
+    "High Tide": {
+      "title": "High Tide",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Stealth</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Erode Soul": {
+      "title": "Erode Soul",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy model within 24\", which takes 1 hit with <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Crushing Pressure": {
+      "title": "Crushing Pressure",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Power Wave": {
+      "title": "Power Wave",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Wave-Step Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Darkest Abyss": {
+      "title": "Darkest Abyss",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which get -1 to hit rolls when attacking once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Sea Storm": {
+      "title": "Sea Storm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\", which takes 3 hits with <key>Thrash</key>."
+        }
+      ]
+    },
+    "Dark Isle Spirit": {
+      "title": "Dark Isle Spirit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Harassing Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Blade Storm": {
+      "title": "Blade Storm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Lacerate</key>."
+        }
+      ]
+    },
+    "World of Pain": {
+      "title": "World of Pain",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Thrust</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Storm Wave": {
+      "title": "Storm Wave",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 18\", which takes 2 hits with <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Healing Winds": {
+      "title": "Healing Winds",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Black Bolt": {
+      "title": "Black Bolt",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+        }
+      ]
+    },
+    "Protection of the Huntress": {
+      "title": "Protection of the Huntress",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Fortified</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Cleansing Light": {
+      "title": "Cleansing Light",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy model within 24\", which takes 1 hit with <key>Puncture</key>."
+        }
+      ]
+    },
+    "Great Hunt": {
+      "title": "Great Hunt",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Vale Formation Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Searing Gaze": {
+      "title": "Searing Gaze",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy unit within 6\", which takes 6 hits with <key>Bane</key>."
+        }
+      ]
+    },
+    "Curse of the Huntress": {
+      "title": "Curse of the Huntress",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which friendly units gets <key>Impact</key>(1) against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Wrath of the Huntress": {
+      "title": "Wrath of the Huntress",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 6 hits with <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Surge of Power": {
+      "title": "Surge of Power",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets <key>Bestial Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Flock Attack": {
+      "title": "Flock Attack",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Hunting Roar": {
+      "title": "Hunting Roar",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\", which get -1 to morale test rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Ancestral Wrath": {
+      "title": "Ancestral Wrath",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Pick one enemy model within 24\", which takes 2 hits with <key>Tear</key>."
+        }
+      ]
+    },
+    "Spirit Mantle": {
+      "title": "Spirit Mantle",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Destructive Flame": {
+      "title": "Destructive Flame",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 9 hits."
+        }
+      ]
+    },
+    "Absorption Amplifier": {
+      "title": "Absorption Amplifier",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Ballistic Vest</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Advanced Sight": {
+      "title": "Advanced Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Ammo Boost": {
+      "title": "Ammo Boost",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Mischievous</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Animate Spirit": {
+      "title": "Animate Spirit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Hit & Run</key> Fighter</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Apparition of Doom": {
+      "title": "Apparition of Doom",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Quake</key>."
+        }
+      ]
+    },
+    "Armor Rune": {
+      "title": "Armor Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Sturdy</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Art of Pain": {
+      "title": "Art of Pain",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 6\", which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+        }
+      ]
+    },
+    "Asphyxiating Fog": {
+      "title": "Asphyxiating Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Counter</key>-Attack</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Assign Bounty": {
+      "title": "Assign Bounty",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets <key>Impact</key>(1) against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Aura of Peace": {
+      "title": "Aura of Peace",
+      "description": [
+        {
+          "system": "Rebel Guerrillas",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get +1 to morale test rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "DAO Union",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key>Fearless</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Bad Omen": {
+      "title": "Bad Omen",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets <key>Furious</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Badland Frenzy": {
+      "title": "Badland Frenzy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Badlands <key>Hunter</key></key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Banishing Sigil": {
+      "title": "Banishing Sigil",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which get -1 to defense rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Battle Rune": {
+      "title": "Battle Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get +6\" range when shooting once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Berserker Frenzy": {
+      "title": "Berserker Frenzy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets <key>AP</key>(+1) when charging against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Bio-Displacer": {
+      "title": "Bio-Displacer",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Teleport</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Bio-Horror": {
+      "title": "Bio-Horror",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Blades of Discord": {
+      "title": "Blades of Discord",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 6\", which takes 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3)."
+        }
+      ]
+    },
+    "Blessed Ammo": {
+      "title": "Blessed Ammo",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key>Shred</key> when shooting once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Blessing of Souls": {
+      "title": "Blessing of Souls",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key><key>Highborn</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Blood Dome": {
+      "title": "Blood Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Evasive</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Blood Sight": {
+      "title": "Blood Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Blood Trauma": {
+      "title": "Blood Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Smash</key>."
+        }
+      ]
+    },
+    "Blood Wound": {
+      "title": "Blood Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Demolish</key>."
+        }
+      ]
+    },
+    "Boom!": {
+      "title": "Boom!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which take 1 hit with <key>Blast</key>(3) each."
+        }
+      ]
+    },
+    "Brain Burst": {
+      "title": "Brain Burst",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+        }
+      ]
+    },
+    "Brain Infestation": {
+      "title": "Brain Infestation",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which get -1 to hit rolls when attacking once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Breaking Rune": {
+      "title": "Breaking Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy model within 24\", which takes 1 hit with <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Brute Guts": {
+      "title": "Brute Guts",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key>Fearless</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Burn the Heretic": {
+      "title": "Burn the Heretic",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which get -3 to casting rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Burst of Rage": {
+      "title": "Burst of Rage",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key>Furious</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Calculated Foresight": {
+      "title": "Calculated Foresight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Celestial Roar": {
+      "title": "Celestial Roar",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key><key>Primal</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Cerebral Trauma": {
+      "title": "Cerebral Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Smash</key>."
+        }
+      ]
+    },
+    "Choking Gas": {
+      "title": "Choking Gas",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 6\", which take 3 hits with <key>Bane</key> each."
+        }
+      ]
+    },
+    "Choking Waste-Fog": {
+      "title": "Choking Waste-Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 3 hits each."
+        }
+      ]
+    },
+    "Clan Power": {
+      "title": "Clan Power",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Berserker</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Cleaving Rune": {
+      "title": "Cleaving Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 18\", which take 1 hit with <key>Blast</key>(3) each."
+        }
+      ]
+    },
+    "Coordinated Aggression": {
+      "title": "Coordinated Aggression",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets <key>AP</key>(1) when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Corpo-Network Link": {
+      "title": "Corpo-Network Link",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key><key>Cyber-Eyes</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Corrode Weapons": {
+      "title": "Corrode Weapons",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which loses <key>AP</key>(1) when shooting once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Cracking Blast": {
+      "title": "Cracking Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which get -1 to defense rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Crackling Bolt": {
+      "title": "Crackling Bolt",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 18\", which take 1 hit with <key>Blast</key>(3) each."
+        }
+      ]
+    },
+    "Creator of Illusions": {
+      "title": "Creator of Illusions",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which get <key>Unwieldy</key> in melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Crush!": {
+      "title": "Crush!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which take 1 hit with <key>Blast</key>(3) each."
+        }
+      ]
+    },
+    "Crushing Force": {
+      "title": "Crushing Force",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Cyber-City Connection": {
+      "title": "Cyber-City Connection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Runner</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Cyberspace Vision": {
+      "title": "Cyberspace Vision",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units get +6\" range when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Cyborg Assault": {
+      "title": "Cyborg Assault",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Hit & Run</key> Shooter</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Dark Assault": {
+      "title": "Dark Assault",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key>Shred</key> in melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Dark Dome": {
+      "title": "Dark Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Evasive</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Dark Mist": {
+      "title": "Dark Mist",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which get -1 to hit rolls when attacking once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Dark Sight": {
+      "title": "Dark Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Dark Trauma": {
+      "title": "Dark Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Smash</key>."
+        }
+      ]
+    },
+    "Dark Wound": {
+      "title": "Dark Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Demolish</key>."
+        }
+      ]
+    },
+    "Deadly Surge": {
+      "title": "Deadly Surge",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 6\", which take 3 hits with <key>Bane</key> each."
+        }
+      ]
+    },
+    "Death Bolt": {
+      "title": "Death Bolt",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 6\", which takes 1 hit with <key>AP</key>(2) and <key>Impale</key>."
+        }
+      ]
+    },
+    "Deceleration Rune": {
+      "title": "Deceleration Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Deep Hypnosis": {
+      "title": "Deep Hypnosis",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
+        }
+      ]
+    },
+    "Deep Meditation": {
+      "title": "Deep Meditation",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get +1 to hit rolls when shooting once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Destroy!": {
+      "title": "Destroy!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with <key>AP</key>(2) and <key>Impale</key> each."
+        }
+      ]
+    },
+    "Devastating Strike": {
+      "title": "Devastating Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>Decimate</key> each."
+        }
+      ]
+    },
+    "Devour Essence": {
+      "title": "Devour Essence",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy model within 18\", which takes 2 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Disastrous Malfunction": {
+      "title": "Disastrous Malfunction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 18\", which take 2 hits each."
+        }
+      ]
+    },
+    "Dome of Doom": {
+      "title": "Dome of Doom",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 3 hits each."
+        }
+      ]
+    },
+    "Doom Strike": {
+      "title": "Doom Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 6\", which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+        }
+      ]
+    },
+    "Dragon Breath": {
+      "title": "Dragon Breath",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 3 hits each."
+        }
+      ]
+    },
+    "Dread Strike": {
+      "title": "Dread Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy models within 24\", which take 1 hit with <key>Tear</key> each."
+        }
+      ]
+    },
+    "Elder Protection": {
+      "title": "Elder Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key>Resistance</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Electric Bolt": {
+      "title": "Electric Bolt",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+        }
+      ]
+    },
+    "Electric Tempest": {
+      "title": "Electric Tempest",
+      "description": [
+        {
+          "system": "Human Defense Force",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Fracture</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "Human Inquisition",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Elemental Seeker": {
+      "title": "Elemental Seeker",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "EMP Blast": {
+      "title": "EMP Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Shred</key> each."
+        }
+      ]
+    },
+    "Energy Storm": {
+      "title": "Energy Storm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Crack</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Enhance Serum": {
+      "title": "Enhance Serum",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Eternal Flame": {
+      "title": "Eternal Flame",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 6\", which take 3 hits with <key>Purge</key> each."
+        }
+      ]
+    },
+    "Eternal Guidance": {
+      "title": "Eternal Guidance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which friendly units get +6\" range when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Expel Threat": {
+      "title": "Expel Threat",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy models within 18\", which take 2 hits with <key>AP</key>(1) each."
+        }
+      ]
+    },
+    "Fade in the Dark": {
+      "title": "Fade in the Dark",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Stealth</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Fatal Sorrow": {
+      "title": "Fatal Sorrow",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 18\", which take 2 hits each."
+        }
+      ]
+    },
+    "Feral Strike": {
+      "title": "Feral Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+        }
+      ]
+    },
+    "Flame Bots": {
+      "title": "Flame Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+        }
+      ]
+    },
+    "Focused Defender": {
+      "title": "Focused Defender",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Unpredictable</key> Fighter</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Focused Shock": {
+      "title": "Focused Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Shred</key>."
+        }
+      ]
+    },
+    "Forge Protection": {
+      "title": "Forge Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get +1 to defense rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Gauss Bots": {
+      "title": "Gauss Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 6\", which take 3 hits with <key>Destructive</key> each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Godly Thunder": {
+      "title": "Godly Thunder",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy models within 24\", which take 1 hit with <key>AP</key>(4) each."
+        }
+      ]
+    },
+    "Great Psy-Maw": {
+      "title": "Great Psy-Maw",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Guardian Protection": {
+      "title": "Guardian Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key><key>Guardian</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Havoc Boon": {
+      "title": "Havoc Boon",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key><key>Havocbound</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Havoc Fog": {
+      "title": "Havoc Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Slam</key> each."
+        }
+      ]
+    },
+    "Havoc Terror": {
+      "title": "Havoc Terror",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+        }
+      ]
+    },
+    "Havoc Trauma": {
+      "title": "Havoc Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Head Bang": {
+      "title": "Head Bang",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets <key>Rending</key> in melee against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Heavenly Lance": {
+      "title": "Heavenly Lance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy models within 18\", which take 2 hits with <key>AP</key>(1) each."
+        }
+      ]
+    },
+    "Hidden Spirits": {
+      "title": "Hidden Spirits",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Unpredictable</key> Shooter</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Hive Shriek": {
+      "title": "Hive Shriek",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy models within 18\", which take 2 hits with <key>AP</key>(1) each."
+        }
+      ]
+    },
+    "Holistic Suffering": {
+      "title": "Holistic Suffering",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 3 hits each."
+        }
+      ]
+    },
+    "Holy Rage": {
+      "title": "Holy Rage",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key>Piercing <key>Hunter</key></key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Infuse Bloodthirst": {
+      "title": "Infuse Bloodthirst",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Hive Bond</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Insidious Protection": {
+      "title": "Insidious Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key>Grounded <key>Reinforcement</key></key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Inspiring Bots": {
+      "title": "Inspiring Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key>Rapid Advance</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Jaguar Blaze": {
+      "title": "Jaguar Blaze",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Shred</key> each."
+        }
+      ]
+    },
+    "Killing Blow": {
+      "title": "Killing Blow",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy model within 18\", which takes 2 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Knight Dome": {
+      "title": "Knight Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Evasive</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Knight Sight": {
+      "title": "Knight Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Knight Trauma": {
+      "title": "Knight Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Smash</key>."
+        }
+      ]
+    },
+    "Knight Wound": {
+      "title": "Knight Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Demolish</key>."
+        }
+      ]
+    },
+    "Light Fragments": {
+      "title": "Light Fragments",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Fragment</key> each."
+        }
+      ]
+    },
+    "Lightning Fog": {
+      "title": "Lightning Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+        }
+      ]
+    },
+    "Litanies of War": {
+      "title": "Litanies of War",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key><key>Devout</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Lore of Bravery": {
+      "title": "Lore of Bravery",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Fearless</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Lore of Protection": {
+      "title": "Lore of Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Safety Gear</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Lore of Terror": {
+      "title": "Lore of Terror",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which get -1 to morale test rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Means of Destruction": {
+      "title": "Means of Destruction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Mending Bots": {
+      "title": "Mending Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key><key>Self-Repair</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Mind Breaker": {
+      "title": "Mind Breaker",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Mind Corruption": {
+      "title": "Mind Corruption",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Mind Gash": {
+      "title": "Mind Gash",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Shred</key> each."
+        }
+      ]
+    },
+    "Mind Shaper": {
+      "title": "Mind Shaper",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which get -1 to morale test rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Mind Vortex": {
+      "title": "Mind Vortex",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 12\", which take 1 hit with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Mind Wound": {
+      "title": "Mind Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Demolish</key>."
+        }
+      ]
+    },
+    "Mob Frenzy": {
+      "title": "Mob Frenzy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets <key>AP</key>(1) when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Neurotoxin Cloud": {
+      "title": "Neurotoxin Cloud",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 6\", which take 2 hits each."
+        }
+      ]
+    },
+    "Nightmare Vision": {
+      "title": "Nightmare Vision",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy model within 24\", which takes 1 hit with <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Nomad Strike": {
+      "title": "Nomad Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 1 hit with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Obscuring Energy": {
+      "title": "Obscuring Energy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Shadow Operative</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Overload Electronics": {
+      "title": "Overload Electronics",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Scratch</key>."
+        }
+      ]
+    },
+    "Overwhelming Strike": {
+      "title": "Overwhelming Strike",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Rupture</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Path of War": {
+      "title": "Path of War",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Ferocious</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Piercing Bots": {
+      "title": "Piercing Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Piercing Pulse": {
+      "title": "Piercing Pulse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy models within 24\", which take 1 hit with <key>AP</key>(4) each."
+        }
+      ]
+    },
+    "Pike of Doom": {
+      "title": "Pike of Doom",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+        }
+      ]
+    },
+    "Piranha Curse": {
+      "title": "Piranha Curse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+        }
+      ]
+    },
+    "Pow!": {
+      "title": "Pow!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with <key>AP</key>(2) and <key>Skewer</key> each."
+        }
+      ]
+    },
+    "Power Beam": {
+      "title": "Power Beam",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy model within 18\", which takes 2 hits with <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Power Field": {
+      "title": "Power Field",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Shielded</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Power Maw": {
+      "title": "Power Maw",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 1 hit with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Power Surge": {
+      "title": "Power Surge",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy models within 12\", which take 2 hits with <key>Hazardous</key> each. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger."
+        }
+      ]
+    },
+    "Protective Dome": {
+      "title": "Protective Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Evasive</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psy-Adrenaline": {
+      "title": "Psy-Adrenaline",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Harassing</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psy-Cleansing": {
+      "title": "Psy-Cleansing",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>Disintegrate</key> each."
+        }
+      ]
+    },
+    "Psy-Destruction": {
+      "title": "Psy-Destruction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy models within 24\", which take 1 hit with <key>AP</key>(4) each."
+        }
+      ]
+    },
+    "Psy-Emowerment": {
+      "title": "Psy-Emowerment",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key>AP</key>(1) when attacking once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psy-Flame": {
+      "title": "Psy-Flame",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Psy-Frenzy": {
+      "title": "Psy-Frenzy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Psychotic</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psy-Hunter": {
+      "title": "Psy-Hunter",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Scrapper</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psy-Incense": {
+      "title": "Psy-Incense",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psy-Injected Courage": {
+      "title": "Psy-Injected Courage",
+      "description": [
+        {
+          "system": "Human Inquisition",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get +1 to morale test rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "Human Defense Force",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Hold the Line</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psy-Rapture": {
+      "title": "Psy-Rapture",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 18\", which take 2 hits each."
+        }
+      ]
+    },
+    "Psy-Strength": {
+      "title": "Psy-Strength",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get +1 to hit rolls in melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psychic Blast": {
+      "title": "Psychic Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Psychic Chains": {
+      "title": "Psychic Chains",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which get <key>Unwieldy</key> in melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psychic Feast": {
+      "title": "Psychic Feast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key>Resistance</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psychic Flurry": {
+      "title": "Psychic Flurry",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Melee <key>Slayer</key></key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psychic Onslaught": {
+      "title": "Psychic Onslaught",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>Reap</key> each."
+        }
+      ]
+    },
+    "Psychic Overload": {
+      "title": "Psychic Overload",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Fragment</key> each."
+        }
+      ]
+    },
+    "Psychic Smash": {
+      "title": "Psychic Smash",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 12\", which take 1 hit with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Psychic Stabilization": {
+      "title": "Psychic Stabilization",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Targeting Visor</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Psychic Terror": {
+      "title": "Psychic Terror",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 6\", which take 3 hits with <key>Bane</key> each."
+        }
+      ]
+    },
+    "Psychic Vomit": {
+      "title": "Psychic Vomit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 6\", which take 3 hits with <key>Bane</key> each."
+        }
+      ]
+    },
+    "Purge the Impure": {
+      "title": "Purge the Impure",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 12\", which take 1 hit with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Quill Blast": {
+      "title": "Quill Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>Scratch</key> each."
+        }
+      ]
+    },
+    "Raiding Drugs": {
+      "title": "Raiding Drugs",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Rapid Mutation": {
+      "title": "Rapid Mutation",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Resonance Wave": {
+      "title": "Resonance Wave",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Righteous Fury": {
+      "title": "Righteous Fury",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key>Piercing Assault</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Righteous Wrath": {
+      "title": "Righteous Wrath",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy model within 24\", which takes 1 hit with <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Running Shock": {
+      "title": "Running Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets <key>Thrust</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Searing Admonition": {
+      "title": "Searing Admonition",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 18\", which take 1 hit with <key>Blast</key>(3) each."
+        }
+      ]
+    },
+    "Searing Burst": {
+      "title": "Searing Burst",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 3 hits each."
+        }
+      ]
+    },
+    "Searing Shrapnel": {
+      "title": "Searing Shrapnel",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Wreck</key> each."
+        }
+      ]
+    },
+    "Serpent Comet": {
+      "title": "Serpent Comet",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Disintegrate</key>."
+        }
+      ]
+    },
+    "Shadow Blast": {
+      "title": "Shadow Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 12\", which take 1 hit with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Shadow Dance": {
+      "title": "Shadow Dance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Rapid Blink</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Shattering Curse": {
+      "title": "Shattering Curse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Crack</key> each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Shield Breaker": {
+      "title": "Shield Breaker",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Shred</key> each."
+        }
+      ]
+    },
+    "Shock Speed": {
+      "title": "Shock Speed",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Shroud Field": {
+      "title": "Shroud Field",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get +1 to defense rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Shrouding Incense": {
+      "title": "Shrouding Incense",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Machine-Fog</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Smash!": {
+      "title": "Smash!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>."
+        }
+      ]
+    },
+    "Smiting Rune": {
+      "title": "Smiting Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Quake</key> each."
+        }
+      ]
+    },
+    "Snake Bite": {
+      "title": "Snake Bite",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Lacerate</key>."
+        }
+      ]
+    },
+    "Soul Spear": {
+      "title": "Soul Spear",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy model within 24\", which takes 1 hit with <key>Puncture</key>."
+        }
+      ]
+    },
+    "Spirit Power": {
+      "title": "Spirit Power",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key>Flying</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Spirit Resolve": {
+      "title": "Spirit Resolve",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key><key>Clan Warrior</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Spread Plague": {
+      "title": "Spread Plague",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which take 1 hit with <key>Bash</key> each."
+        }
+      ]
+    },
+    "Static Blast": {
+      "title": "Static Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which take 1 hit with <key>Blast</key>(3) each."
+        }
+      ]
+    },
+    "Stimulant Shock": {
+      "title": "Stimulant Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key>Steadfast</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Stinger Blast": {
+      "title": "Stinger Blast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Smash</key>."
+        }
+      ]
+    },
+    "Storm of Power": {
+      "title": "Storm of Power",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Surge</key> each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "System Takeover": {
+      "title": "System Takeover",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 3 hits each."
+        }
+      ]
+    },
+    "Targeting Signal": {
+      "title": "Targeting Signal",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key>Relentless</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Taser Shock": {
+      "title": "Taser Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with <key>AP</key>(2) each."
+        }
+      ]
+    },
+    "Tech Zapper": {
+      "title": "Tech Zapper",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with <key>Pulverize</key>."
+        }
+      ]
+    },
+    "Tech-Sickness": {
+      "title": "Tech-Sickness",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four enemy units within 18\", which get -1 to defense rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Terror Seeker": {
+      "title": "Terror Seeker",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets <key><key>Unpredictable</key> Fighter</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "The Founder's Curse": {
+      "title": "The Founder's Curse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Shred</key> when attacking against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Thunderous Mist": {
+      "title": "Thunderous Mist",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 18\", which takes 2 hits."
+        }
+      ]
+    },
+    "Toxin Mist": {
+      "title": "Toxin Mist",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Trampling Force": {
+      "title": "Trampling Force",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with <key>AP</key>(1) and <key>Slam</key> each."
+        }
+      ]
+    },
+    "Triangulation Bots": {
+      "title": "Triangulation Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Indirect</key> when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Union Propaganda": {
+      "title": "Union Propaganda",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to four friendly units within 12\", which get <key>Grounded Precision</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Veil of Madness": {
+      "title": "Veil of Madness",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Violent Onslaught": {
+      "title": "Violent Onslaught",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Infected</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Volatile Infection": {
+      "title": "Volatile Infection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+        }
+      ]
+    },
+    "Wasteland Storm": {
+      "title": "Wasteland Storm",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to three enemy models within 24\", which take 1 hit with <key>Tear</key> each."
+        }
+      ]
+    },
+    "Watch Dome": {
+      "title": "Watch Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Evasive</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Watch Sight": {
+      "title": "Watch Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Watch Trauma": {
+      "title": "Watch Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Smash</key>."
+        }
+      ]
+    },
+    "Watch Wound": {
+      "title": "Watch Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Demolish</key>."
+        }
+      ]
+    },
+    "Wave of Discord": {
+      "title": "Wave of Discord",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which take 1 hit with <key>Thrash</key> each."
+        }
+      ]
+    },
+    "Weapon Booster": {
+      "title": "Weapon Booster",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which get <key><key>Scurry</key> Boost</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Wolf Dome": {
+      "title": "Wolf Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to six friendly units within 12\", which get <key>Evasive</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Wolf Sight": {
+      "title": "Wolf Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Wolf Trauma": {
+      "title": "Wolf Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with <key>Smash</key>."
+        }
+      ]
+    },
+    "Wolf Wound": {
+      "title": "Wolf Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>Demolish</key>."
+        }
+      ]
+    },
+    "Worker's Uprising": {
+      "title": "Worker's Uprising",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick up to two friendly units within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Zap!": {
+      "title": "Zap!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>."
+        }
+      ]
+    }
+
+  },
+  fr: {
+    "Labyrinthian Sparkle": {
+      "title": "Scintillement Labyrinthique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Evasif</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Maze Vines": {
+      "title": "Vignes du Labyrinthe",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>AP</key>(1) et <key>Fragment</key>."
+        }
+      ]
+    },
+    "Dream Haunter": {
+      "title": "Hanteur de Reves",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 18\". Les unites amies gagnent <key>Combattant imprevisible</key> contre elles une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Chill of Death": {
+      "title": "Frisson de Mort",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches."
+        }
+      ]
+    },
+    "Combat Possession": {
+      "title": "Possession de Combat",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui se deplacent de +2\" avec les actions Avance et de +4\" avec les actions Rush/Charge une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Spectral Light": {
+      "title": "Lumiere Spectrale",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Selectionnez une unite ennemie a 6\", qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+        }
+      ]
+    },
+    "Hunter's Strike": {
+      "title": "Frappe du Chasseur",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", contre laquelle les unites amies gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Spirit Vines": {
+      "title": "Vignes Spirituelles",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>AP</key>(1) et <key>Perce</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Natural Harmony": {
+      "title": "Harmonie Naturelle",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Resistance</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Tree Stomp": {
+      "title": "Pietinement d'Arbre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 2 touches avec <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Tree-Bark Growth": {
+      "title": "Croissance d'Ecorce",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Renforcement ancre</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Insect Attack": {
+      "title": "Attaque d'Insectes",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 6 touches."
+        }
+      ]
+    },
+    "Searing Heat": {
+      "title": "Chaleur Brulante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", contre laquelle les unites amies gagnent <key>Assaut perforant</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Lava Bolts": {
+      "title": "Projectiles de Lave",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 2 touches."
+        }
+      ]
+    },
+    "Auric Fury": {
+      "title": "Fureur Aurique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Combattant Frappe et Repli</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Suffocating Ashes": {
+      "title": "Cendres Suffocantes",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 12\", qui subissent chacune 4 touches."
+        }
+      ]
+    },
+    "Seismic Shift": {
+      "title": "Deplacement Sismique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Protection ancree</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Fire Storm": {
+      "title": "Tempete de Feu",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 9 touches avec <key>Pulverisation</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Vigorous Return": {
+      "title": "Retour Vigoureux",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Amplification Mort-vivant maudit</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Cursed Strike": {
+      "title": "Frappe Maudite",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 3 touches avec <key>Sectionnement</key>."
+        }
+      ]
+    },
+    "Seductive Invocation": {
+      "title": "Invocation Seduisante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 18\", qui doivent faire un test de moral. En cas d'echec, vous pouvez la deplacer de jusqu'a 6\" en ligne droite dans n'importe quelle direction."
+        }
+      ]
+    },
+    "Spectral Wind": {
+      "title": "Vent Spectral",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 4 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Dance of Death": {
+      "title": "Danse de la Mort",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Teleportation</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Deadly Gaze": {
+      "title": "Regard Mortel",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+        }
+      ]
+    },
+    "Aether-Cloud Rune": {
+      "title": "Rune de Nuage d'Aether",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Aether Shock": {
+      "title": "Choc d'Aether",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>Entaille</key>."
+        }
+      ]
+    },
+    "Wind Rune": {
+      "title": "Rune du Vent",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Vif</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Lightning Shock": {
+      "title": "Choc de Foudre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 12\", qui subissent chacune 2 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Tinkering Rune": {
+      "title": "Rune de Bricolage",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Amplification Boucanier</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Thunder Shock": {
+      "title": "Choc de Tonnerre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>Laceration</key>."
+        }
+      ]
+    },
+    "Poison Mist": {
+      "title": "Brume Empoisonnee",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", contre laquelle les unites amies gagnent <key>Laceration</key> pour une attaque (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Piranha Swarm": {
+      "title": "Essaim de Piranhas",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>Desintegration</key>."
+        }
+      ]
+    },
+    "Fateful Guidance": {
+      "title": "Guidance Fatidique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Inebranlable</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Jaguar Pounce": {
+      "title": "Bond du Jaguar",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 4 touches avec <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Primordial Roar": {
+      "title": "Rugissement Primordial",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Amplification Primal</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Serpent Egg": {
+      "title": "Oeuf de Serpent",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 9 touches avec Fleau."
+        }
+      ]
+    },
+    "Terrifying Fury": {
+      "title": "Fureur Terrifiante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui doit faire un test de moral. En cas d'echec, elle devient fatiguee."
+        }
+      ]
+    },
+    "Flame of Destruction": {
+      "title": "Flamme de Destruction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 touche avec <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Fiery Protection": {
+      "title": "Protection Ardente",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Evasion de melee</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Brutal Massacre": {
+      "title": "Massacre Brutal",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 6 touches avec <key>Brisure</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "War Boon": {
+      "title": "Don de Guerre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Amplification Lie a la guerre</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Headtaker Strike": {
+      "title": "Frappe du Preneur de Tetes",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a deux unites ennemies a 12\", qui subissent chacune 3 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Aura of Pestilence": {
+      "title": "Aura de Pestilence",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rapid Putrefaction": {
+      "title": "Putrefaction Rapide",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>AP</key>(1) et <key>Boucher</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Blessed Virus": {
+      "title": "Virus Beni",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Plague Malediction": {
+      "title": "Malediction de la Peste",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 2 touches avec <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Plague Boon": {
+      "title": "Don de la Peste",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Amplification Lie a la peste</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rot Wave": {
+      "title": "Vague de Putrefaction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 6 touches."
+        }
+      ]
+    },
+    "Combat Ecstasy": {
+      "title": "Extase de Combat",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", contre laquelle les unites amies gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Beautiful Pain": {
+      "title": "Belle Douleur",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>Fracasse</key>."
+        }
+      ]
+    },
+    "Blissful Dance": {
+      "title": "Danse Extatique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Evasion de melee</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Total Seizure": {
+      "title": "Paralysie Totale",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 4 touches avec <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Lust Boon": {
+      "title": "Don de la Luxure",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Renforcement Lie a la Luxure</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Overpowering Lash": {
+      "title": "Fouet Ecrasant",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+        }
+      ]
+    },
+    "Shifting Form": {
+      "title": "Forme Changeante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Sky Blaze": {
+      "title": "Brasier Celeste",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>AP</key>(1) et <key>Entaille</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Breath of Change": {
+      "title": "Souffle du Changement",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Fleau au Tir</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Mutating Inferno": {
+      "title": "Inferno Mutant",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 9\", qui subissent chacune 4 touches."
+        }
+      ]
+    },
+    "Change Boon": {
+      "title": "Don du Changement",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Renforcement Lie au Changement</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Power Bolt": {
+      "title": "Eclair de Puissance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Magic Skitter-Step": {
+      "title": "Pas-Fourbe Magique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Renforcement de Detale</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Heavenly Strike": {
+      "title": "Frappe Celeste",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez jusqu'a deux unites ennemies a 12\", qui subissent chacune 1 touche avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "God-Mother's Frenzy": {
+      "title": "Frenesie de la Deesse-Mere",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Tueur de melee</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Choking Censer-Fog": {
+      "title": "Brouillard d'Encensoir Suffocant",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches."
+        }
+      ]
+    },
+    "Cracking Bell-Chime": {
+      "title": "Carillon de Cloche Fissuree",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", qui subissent -1 a leurs jets de defense une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Lightning Blast": {
+      "title": "Explosion Foudroyante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez un modele ennemi a 12\", qui subit 6 touches avec <key>Dangereux</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 1\" se declenchent."
+        }
+      ]
+    },
+    "Drain Spirit": {
+      "title": "Drain d'Esprit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne Inarretable en melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Deep Fracture": {
+      "title": "Fracture Profonde",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 2 touches avec <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Rapid Ossification": {
+      "title": "Ossification Rapide",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement Ossifie</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Shattering Blast": {
+      "title": "Explosion Brisante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 6 touches avec <key>Destructeur</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Soul Enslaver": {
+      "title": "Asservisseur d'Ames",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", contre lesquelles les unites amies gagnent <key>Furieux</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Bone Breaker": {
+      "title": "Briseur d'Os",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 6 touches."
+        }
+      ]
+    },
+    "Evil Gaze": {
+      "title": "Mauvais Oeil",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Contre-attaque</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Godly Smash": {
+      "title": "Fracassement Divin",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 1 touche avec <key>AP</key>(2) et <key>Empalement</key>."
+        }
+      ]
+    },
+    "Way-Clan Chant": {
+      "title": "Chant de la Voie-Clan",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement Ferocite</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Bone Strike": {
+      "title": "Frappe d'Os",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 6 touches avec Fleau."
+        }
+      ]
+    },
+    "Magic Fists": {
+      "title": "Poings Magiques",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", contre lesquelles les unites amies gagnent <key>Perforant en melee</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Iron Burst": {
+      "title": "Explosion de Fer",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Battle Guts": {
+      "title": "Tripes de Bataille",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Resistance</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Gobble Up": {
+      "title": "Gober",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 2 touches avec <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Gorging Feast": {
+      "title": "Festin Vorace",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement Destructeur</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Great Trampling": {
+      "title": "Grand Pietinement",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 4 touches avec <key>AP</key>(1) et <key>Rupture</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Crack Spirits": {
+      "title": "Brise-Esprits",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", qui gagnent <key>Encombrant</key> en melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Ice Maw": {
+      "title": "Gueule de Glace",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Desert Storm": {
+      "title": "Tempete du Desert",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Storm of Skulls": {
+      "title": "Tempete de Cranes",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 touche avec <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Cursed Arrows": {
+      "title": "Fleches Maudites",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent Dechiquetage au tir une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rapid Desiccation": {
+      "title": "Dessechement Rapide",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 2 touches avec <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Tomb Queen's Guidance": {
+      "title": "Guide de la Reine des Tombes",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Renforcement de Legion Royale</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Tomb Queen's Vengeance": {
+      "title": "Vengeance de la Reine des Tombes",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(1) et <key>Perforation</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Heavenly Guidance": {
+      "title": "Guidance Celeste",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Volant</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Lightning Bolt": {
+      "title": "Eclair",
+      "description": [
+        {
+          "system": "Kingdom of Angels",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 1 touche avec <key>AP</key>(2) et <key>Decoupe</key>."
+        },
+        {
+          "system": "Eternal Wardens",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+        }
+      ]
+    },
+    "Star Blessing": {
+      "title": "Benediction Stellaire",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement de Benediction Angelique</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Angelic Storm": {
+      "title": "Tempete Angelique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 12\", qui subissent chacune 2 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Shock Energy": {
+      "title": "Energie de Choc",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", contre lesquelles les unites amies gagnent <key>Tueur</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Thunder Strike": {
+      "title": "Frappe de Tonnerre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 6 touches."
+        }
+      ]
+    },
+    "Aura of Heroism": {
+      "title": "Aura d'Heroisme",
+      "description": [
+        {
+          "system": "Human Empire",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Renforcement Tenir la Ligne</key> une fois (la prochaine fois que l'effet s'applique)."
+        },
+        {
+          "system": "Giant Tribes",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne +1 aux jets de test de moral une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Fire Ball": {
+      "title": "Boule de Feu",
+      "description": [
+        {
+          "system": "Human Empire",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>AP</key>(1) et <key>Fracture</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        },
+        {
+          "system": "Giant Tribes",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>AP</key>(1) et <key>Surge</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Magic Targeting": {
+      "title": "Ciblage Magique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 18\", contre lesquelles les unites amies gagnent +1 aux jets pour toucher en melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Blood Hex": {
+      "title": "Malefice de Sang",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches."
+        }
+      ]
+    },
+    "Elemental Form": {
+      "title": "Forme Elementaire",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>AP</key>(+1) en melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Spirit Leech": {
+      "title": "Siphon d'Esprit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 6 touches avec <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Eagle-Eyed Focus": {
+      "title": "Concentration de l'Oeil d'Aigle",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", contre laquelle les unites amies gagnent +1 aux jets pour toucher au tir une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Arcane Blast": {
+      "title": "Explosion Arcanique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 touche avec <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Magical Surge": {
+      "title": "Poussee Magique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Bane</key> en melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "High Tempest": {
+      "title": "Haute Tempete",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 9\", qui subissent chacune 4 touches."
+        }
+      ]
+    },
+    "Path to Glory": {
+      "title": "Voie vers la Gloire",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Renforcement Noble</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Magic Arrows": {
+      "title": "Fleches Magiques",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(1) et <key>Fissure</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Barbed Chains": {
+      "title": "Chaines Barbelees",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 2 touches."
+        }
+      ]
+    },
+    "Cursed Stride": {
+      "title": "Foulee Maudite",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui compte comme etant en terrain dangereux une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Havoc Boost": {
+      "title": "Renforcement du Chaos",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement Lie au Chaos</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Impaling Spike": {
+      "title": "Pointe Empalante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 4 touches avec <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Dark Shielding": {
+      "title": "Protection Sombre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Fortifie</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Thorn Field": {
+      "title": "Champ d'Epines",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(1) et <key>Percussion</key>."
+        }
+      ]
+    },
+    "Rune of Piercing": {
+      "title": "Rune de Percage",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Chasseur perforant</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rune of Lightning": {
+      "title": "Rune de Foudre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 1 touche avec <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Rune of Ashes": {
+      "title": "Rune de Cendres",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement Lie au Chaos</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rune of Darkness": {
+      "title": "Rune des Tenebres",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 6 touches avec <key>Purge</key>."
+        }
+      ]
+    },
+    "Rune of Cracking": {
+      "title": "Rune de Fissuration",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", contre lesquelles les unites amies gagnent <key>Implacable</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rune of Insanity": {
+      "title": "Rune de Folie",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 3 touches avec <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Luck of the Ancients": {
+      "title": "Chance des Anciens",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Renforcement Chanceux</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Cleansing Spirit": {
+      "title": "Esprit Purificateur",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>AP</key>(1) et <key>Fracasser</key>."
+        }
+      ]
+    },
+    "Giant Shadow": {
+      "title": "Ombre Geante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 18\", qui subissent -1 a leurs jets de test de moral une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Nightmare Spirit": {
+      "title": "Esprit de Cauchemar",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches."
+        }
+      ]
+    },
+    "Shortling Courage": {
+      "title": "Courage des Petits",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Sans peur</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Dark Forest Spirit": {
+      "title": "Esprit de la Foret Sombre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+        }
+      ]
+    },
+    "Spider Might": {
+      "title": "Puissance de l'Araignee",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne Renforcement Espiegle une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Stinging Spider": {
+      "title": "Araignee Piquante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 3 touches avec <key>Bane</key>."
+        }
+      ]
+    },
+    "Bat Thirst": {
+      "title": "Soif de Chauve-Souris",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 18\", contre lesquelles les unites amies gagnent <key>Assaut perforant</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Pouncing Wolf": {
+      "title": "Loup Bondissant",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 4 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Wolf Resiliance": {
+      "title": "Resilience du Loup",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent +1 aux jets de defense une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Biting Bat": {
+      "title": "Chauve-Souris Mordeuse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 3 touches avec <key>AP</key>(2) et Embrocher."
+        }
+      ]
+    },
+    "Shock Attack": {
+      "title": "Attaque de Choc",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", contre laquelle les unites amies gagnent Inarretable au tir une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Thunder Clap": {
+      "title": "Coup de Tonnerre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 touche avec <key>Ecrasement</key>."
+        }
+      ]
+    },
+    "Star Strike": {
+      "title": "Frappe Stellaire",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Combattant imprevisible</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Heavy Storm": {
+      "title": "Tempete Lourde",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 9\", qui subissent chacune 4 touches."
+        }
+      ]
+    },
+    "Warding Cloud": {
+      "title": "Nuage Protecteur",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Renforcement Gardien</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rune of Battle": {
+      "title": "Rune de Bataille",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rune of Breaking": {
+      "title": "Rune de Brisure",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 2 touches avec <key>AP</key>(1)."
+        }
+      ]
+    },
+    "Rune of Protection": {
+      "title": "Rune de Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement Robuste</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rune of Cleaving": {
+      "title": "Rune de Fendage",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 4 touches avec <key>AP</key>(1) et <key>Secousse</key>."
+        }
+      ]
+    },
+    "Rune of Smiting": {
+      "title": "Rune de Chatiment",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 3 touches avec <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Rune of Spite": {
+      "title": "Rune de Spite",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", qui se deplacent de -2\" avec les actions Avance et de -4\" avec les actions Rush/Charge une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Clearview Leaves": {
+      "title": "Feuilles Clairevue",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 18\", contre laquelle les unites amies gagnent +6\" de portee au tir une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Explosive Concoction": {
+      "title": "Concoction Explosive",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>Decimation</key>."
+        }
+      ]
+    },
+    "Mesmer Oils": {
+      "title": "Huiles Mesmeriques",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Inebranlable</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Choking Fog": {
+      "title": "Brouillard Etouffant",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 9\", qui subissent chacune 4 touches."
+        }
+      ]
+    },
+    "Fury Herbs": {
+      "title": "Herbes de Fureur",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Renforcement Tech Vinci</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Neurotoxin Gas": {
+      "title": "Gaz Neurotoxique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+        }
+      ]
+    },
+    "Spirit Wind": {
+      "title": "Vent Spirituel",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Dragon Fire": {
+      "title": "Feu Draconique",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 3 touches."
+        }
+      ]
+    },
+    "Astral Storm": {
+      "title": "Tempete Astrale",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 4 touches avec <key>AP</key>(1) et <key>Deferlante</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Jade Claws": {
+      "title": "Griffes de Jade",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent Renforcement Guerrier Royal une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Ancestral Guidance": {
+      "title": "Guidance Ancestrale",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", contre lesquelles les unites amies gagnent <key>Indirect au Tir</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Blazing Starlight": {
+      "title": "Lueur Stellaire Ardente",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 3 touches avec Splinter."
+        }
+      ]
+    },
+    "High Tide": {
+      "title": "Maree Haute",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Furtif</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Erode Soul": {
+      "title": "Erosion de l'Ame",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 1 touche avec <key>AP</key>(4)."
+        }
+      ]
+    },
+    "Crushing Pressure": {
+      "title": "Pression Ecrasante",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 12\", qui subissent chacune 2 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Power Wave": {
+      "title": "Vague de Puissance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement de Pas Ondulatoire</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Darkest Abyss": {
+      "title": "Abime le Plus Sombre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", qui subissent -1 aux jets pour toucher en attaquant une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Sea Storm": {
+      "title": "Tempete Marine",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 3 touches avec <key>Fracas</key>."
+        }
+      ]
+    },
+    "Dark Isle Spirit": {
+      "title": "Esprit de l'Ile Sombre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Renforcement de Harcelement</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Blade Storm": {
+      "title": "Tempete de Lames",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+        }
+      ]
+    },
+    "World of Pain": {
+      "title": "Monde de Douleur",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 18\", contre lesquelles les unites amies gagnent Percee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Storm Wave": {
+      "title": "Vague de Tempete",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 2 touches avec <key>Blast</key>(3)."
+        }
+      ]
+    },
+    "Healing Winds": {
+      "title": "Vents Guerisseurs",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Regeneration</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Black Bolt": {
+      "title": "Eclair Noir",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+        }
+      ]
+    },
+    "Protection of the Huntress": {
+      "title": "Protection de la Chasseresse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Fortifie</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Cleansing Light": {
+      "title": "Lumiere Purificatrice",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 1 touche avec <key>Perforation</key>."
+        }
+      ]
+    },
+    "Great Hunt": {
+      "title": "Grande Chasse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement de Formation du Val</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Searing Gaze": {
+      "title": "Regard Brulant",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 6 touches avec <key>Bane</key>."
+        }
+      ]
+    },
+    "Curse of the Huntress": {
+      "title": "Malediction de la Chasseresse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", contre lesquelles les unites amies gagnent <key>Impact</key>(1) une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Wrath of the Huntress": {
+      "title": "Colere de la Chasseresse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(2)."
+        }
+      ]
+    },
+    "Surge of Power": {
+      "title": "Deferlante de Puissance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite amie a 12\", qui gagne <key>Renforcement Bestial</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Flock Attack": {
+      "title": "Attaque de Nuée",
+      "description": [
+        {
+          "system": "all",
+          "cost": 1,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>AP</key>(1) et <key>Deferlante</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+        }
+      ]
+    },
+    "Hunting Roar": {
+      "title": "Rugissement de Chasse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez jusqu'a deux unites ennemies a 18\", qui subissent -1 a leurs jets de test de moral une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Ancestral Wrath": {
+      "title": "Colere Ancestrale",
+      "description": [
+        {
+          "system": "all",
+          "cost": 2,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 2 touches avec <key>Dechirure</key>."
+        }
+      ]
+    },
+    "Spirit Mantle": {
+      "title": "Manteau Spirituel",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Regeneration</key> une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Destructive Flame": {
+      "title": "Flamme Destructrice",
+      "description": [
+        {
+          "system": "all",
+          "cost": 3,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 9 touches."
+        }
+      ]
+    },
+    "Absorption Amplifier": {
+      "title": "Absorption Amplifier",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Ballistic Vest Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Advanced Sight": {
+      "title": "Advanced Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Ammo Boost": {
+      "title": "Ammo Renforcement",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Mischievous Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Animate Spirit": {
+      "title": "Animate Esprit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Hit & Run Fighter une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Apparition of Doom": {
+      "title": "Apparition of Doom",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Quake."
+        }
+      ]
+    },
+    "Armor Rune": {
+      "title": "Armor Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Sturdy Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Art of Pain": {
+      "title": "Art of Pain",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 6\", qui subissent 1 hit with AP(2) and Deadly(3) each."
+        }
+      ]
+    },
+    "Asphyxiating Fog": {
+      "title": "Asphyxiating Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Counter-Attack une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Assign Bounty": {
+      "title": "Assign Bounty",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which les unites amies gagnent Impact(1) against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Aura of Peace": {
+      "title": "Aura of Paix",
+      "description": [
+        {
+          "system": "Rebel Guerrillas",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent +1 to jets de test de moral une fois (la prochaine fois que l'effet s'applique)."
+        },
+        {
+          "system": "DAO Union",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Fearless une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Bad Omen": {
+      "title": "Bad Omen",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which les unites amies gagnent Furious against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Badland Frenzy": {
+      "title": "Badland Frenzy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Badlands Hunter Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Banishing Sigil": {
+      "title": "Banishing Sigil",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Battle Rune": {
+      "title": "Battle Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent +6\" range when shooting une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Berserker Frenzy": {
+      "title": "Berserker Frenzy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which les unites amies gagnent AP(+1) when charging against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Bio-Displacer": {
+      "title": "Bio-Displacer",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Teleport une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Bio-Horror": {
+      "title": "Bio-Horror",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Blades of Discord": {
+      "title": "Blades of Discord",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 1 hit with AP(2) and Deadly(3)."
+        }
+      ]
+    },
+    "Blessed Ammo": {
+      "title": "Blessed Ammo",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Shred when shooting une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Blessing of Souls": {
+      "title": "Blessing of Souls",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Highborn Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Blood Dome": {
+      "title": "Sang Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Blood Sight": {
+      "title": "Sang Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Blood Trauma": {
+      "title": "Sang Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 hit with Smash."
+        }
+      ]
+    },
+    "Blood Wound": {
+      "title": "Sang Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with Demolish."
+        }
+      ]
+    },
+    "Boom!": {
+      "title": "Boom!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", qui subissent 1 hit with Blast(3) each."
+        }
+      ]
+    },
+    "Brain Burst": {
+      "title": "Brain Burst",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 6\", qui subissent 1 hit with AP(2) and Deadly(3) each."
+        }
+      ]
+    },
+    "Brain Infestation": {
+      "title": "Brain Infestation",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", qui gagnent -1 jets pour toucher when attacking une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Breaking Rune": {
+      "title": "Breaking Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 1 hit with AP(4)."
+        }
+      ]
+    },
+    "Brute Guts": {
+      "title": "Brute Guts",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Fearless une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Burn the Heretic": {
+      "title": "Burn the Heretic",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", qui gagnent -3 to casting rolls une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Burst of Rage": {
+      "title": "Burst of Rage",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Furious une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Calculated Foresight": {
+      "title": "Calculated Foresight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which les unites amies gagnent Relentless against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Celestial Roar": {
+      "title": "Celestial Roar",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Primal Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Cerebral Trauma": {
+      "title": "Cerebral Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 hit with Smash."
+        }
+      ]
+    },
+    "Choking Gas": {
+      "title": "Choking Gas",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 6\", qui subissent 3 touches with Bane each."
+        }
+      ]
+    },
+    "Choking Waste-Fog": {
+      "title": "Choking Waste-Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 3 touches chacune."
+        }
+      ]
+    },
+    "Clan Power": {
+      "title": "Clan Power",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Berserker Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Cleaving Rune": {
+      "title": "Cleaving Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 18\", qui subissent 1 hit with Blast(3) each."
+        }
+      ]
+    },
+    "Coordinated Aggression": {
+      "title": "Coordinated Aggression",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which les unites amies gagnent AP(1) when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Corpo-Network Link": {
+      "title": "Corpo-Network Link",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Cyber-Eyes Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Corrode Weapons": {
+      "title": "Corrode Weapons",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which loses AP(1) when shooting une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Cracking Blast": {
+      "title": "Cracking Explosion",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Crackling Bolt": {
+      "title": "Crackling Eclair",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 18\", qui subissent 1 hit with Blast(3) each."
+        }
+      ]
+    },
+    "Creator of Illusions": {
+      "title": "Creator of Illusions",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", qui gagnent Unwieldy in melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Crush!": {
+      "title": "Crush!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", qui subissent 1 hit with Blast(3) each."
+        }
+      ]
+    },
+    "Crushing Force": {
+      "title": "Crushing Force",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(2) each."
+        }
+      ]
+    },
+    "Cyber-City Connection": {
+      "title": "Cyber-City Connection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Runner Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Cyberspace Vision": {
+      "title": "Cyberspace Vision",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent +6\" range when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Cyborg Assault": {
+      "title": "Cyborg Assault",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Hit & Run Shooter une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Dark Assault": {
+      "title": "Sombre Assault",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Shred in melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Dark Dome": {
+      "title": "Sombre Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Dark Mist": {
+      "title": "Sombre Mist",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", qui gagnent -1 jets pour toucher when attacking une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Dark Sight": {
+      "title": "Sombre Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Dark Trauma": {
+      "title": "Sombre Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 hit with Smash."
+        }
+      ]
+    },
+    "Dark Wound": {
+      "title": "Sombre Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with Demolish."
+        }
+      ]
+    },
+    "Deadly Surge": {
+      "title": "Deadly Surge",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 6\", qui subissent 3 touches with Bane each."
+        }
+      ]
+    },
+    "Death Bolt": {
+      "title": "Death Eclair",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 1 hit with AP(2) and Impale."
+        }
+      ]
+    },
+    "Deceleration Rune": {
+      "title": "Deceleration Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Deep Hypnosis": {
+      "title": "Deep Hypnosis",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
+        }
+      ]
+    },
+    "Deep Meditation": {
+      "title": "Deep Meditation",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent +1 jets pour toucher when shooting une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Destroy!": {
+      "title": "Destroy!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 6\", qui subissent 1 hit with AP(2) and Impale each."
+        }
+      ]
+    },
+    "Devastating Strike": {
+      "title": "Devastating Frappe",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with Decimate each."
+        }
+      ]
+    },
+    "Devour Essence": {
+      "title": "Devour Essence",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 2 touches with AP(1)."
+        }
+      ]
+    },
+    "Disastrous Malfunction": {
+      "title": "Disastrous Malfunction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 18\", qui subissent 2 touches chacune."
+        }
+      ]
+    },
+    "Dome of Doom": {
+      "title": "Dome of Doom",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 3 touches chacune."
+        }
+      ]
+    },
+    "Doom Strike": {
+      "title": "Doom Frappe",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 6\", qui subissent 1 hit with AP(2) and Deadly(3) each."
+        }
+      ]
+    },
+    "Dragon Breath": {
+      "title": "Dragon Breath",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 3 touches chacune."
+        }
+      ]
+    },
+    "Dread Strike": {
+      "title": "Dread Frappe",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux modele ennemis a 24\", qui subissent 1 hit with Tear each."
+        }
+      ]
+    },
+    "Elder Protection": {
+      "title": "Elder Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Resistance une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Electric Bolt": {
+      "title": "Electric Eclair",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 6\", qui subissent 1 hit with AP(2) and Deadly(3) each."
+        }
+      ]
+    },
+    "Electric Tempest": {
+      "title": "Electric Tempest",
+      "description": [
+        {
+          "system": "Human Defense Force",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Fracture. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "Human Inquisition",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Elemental Seeker": {
+      "title": "Elemental Seeker",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 hit with Blast(3)."
+        }
+      ]
+    },
+    "EMP Blast": {
+      "title": "EMP Explosion",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(1) and Shred each."
+        }
+      ]
+    },
+    "Energy Storm": {
+      "title": "Energy Tempete",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Crack. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Enhance Serum": {
+      "title": "Enhance Serum",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Regeneration une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Eternal Flame": {
+      "title": "Eternal Flame",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 6\", qui subissent 3 touches with Purge each."
+        }
+      ]
+    },
+    "Eternal Guidance": {
+      "title": "Eternal Guidance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which les unites amies gagnent +6\" range when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Expel Threat": {
+      "title": "Expel Threat",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois modele ennemis a 18\", qui subissent 2 touches with AP(1) each."
+        }
+      ]
+    },
+    "Fade in the Dark": {
+      "title": "Fade in the Sombre",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Stealth une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Fatal Sorrow": {
+      "title": "Fatal Sorrow",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 18\", qui subissent 2 touches chacune."
+        }
+      ]
+    },
+    "Feral Strike": {
+      "title": "Feral Frappe",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 6\", qui subissent 1 hit with AP(2) and Deadly(3) each."
+        }
+      ]
+    },
+    "Flame Bots": {
+      "title": "Flame Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 9\", qui subissent 2 touches chacune."
+        }
+      ]
+    },
+    "Focused Defender": {
+      "title": "Focused Defender",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Unpredictable Fighter une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Focused Shock": {
+      "title": "Focused Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Shred."
+        }
+      ]
+    },
+    "Forge Protection": {
+      "title": "Forge Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent +1 to defense rolls une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Gauss Bots": {
+      "title": "Gauss Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 6\", qui subissent 3 touches with Destructive each. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Godly Thunder": {
+      "title": "Godly Thunder",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux modele ennemis a 24\", qui subissent 1 hit with AP(4) each."
+        }
+      ]
+    },
+    "Great Psy-Maw": {
+      "title": "Great Psy-Maw",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(2) each."
+        }
+      ]
+    },
+    "Guardian Protection": {
+      "title": "Guardian Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Guardian Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Havoc Boon": {
+      "title": "Havoc Boon",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Havocbound Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Havoc Fog": {
+      "title": "Havoc Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(1) and Slam each."
+        }
+      ]
+    },
+    "Havoc Terror": {
+      "title": "Havoc Terror",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 9\", qui subissent 2 touches chacune."
+        }
+      ]
+    },
+    "Havoc Trauma": {
+      "title": "Havoc Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(2)."
+        }
+      ]
+    },
+    "Head Bang": {
+      "title": "Head Bang",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which les unites amies gagnent Rending in melee against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Heavenly Lance": {
+      "title": "Heavenly Lance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux modele ennemis a 18\", qui subissent 2 touches with AP(1) each."
+        }
+      ]
+    },
+    "Hidden Spirits": {
+      "title": "Hidden Esprits",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Unpredictable Shooter une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Hive Shriek": {
+      "title": "Hive Shriek",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois modele ennemis a 18\", qui subissent 2 touches with AP(1) each."
+        }
+      ]
+    },
+    "Holistic Suffering": {
+      "title": "Holistic Suffering",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 3 touches chacune."
+        }
+      ]
+    },
+    "Holy Rage": {
+      "title": "Holy Rage",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Piercing Hunter une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Infuse Bloodthirst": {
+      "title": "Infuse Sangthirst",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Hive Bond Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Insidious Protection": {
+      "title": "Insidious Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Grounded Reinforcement une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Inspiring Bots": {
+      "title": "Inspiring Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Rapid Advance une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Jaguar Blaze": {
+      "title": "Jaguar Blaze",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(1) and Shred each."
+        }
+      ]
+    },
+    "Killing Blow": {
+      "title": "Killing Blow",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 2 touches with AP(1)."
+        }
+      ]
+    },
+    "Knight Dome": {
+      "title": "Knight Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Knight Sight": {
+      "title": "Knight Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Knight Trauma": {
+      "title": "Knight Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 hit with Smash."
+        }
+      ]
+    },
+    "Knight Wound": {
+      "title": "Knight Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with Demolish."
+        }
+      ]
+    },
+    "Light Fragments": {
+      "title": "Light Fragments",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 2 touches with AP(1) and Fragment each."
+        }
+      ]
+    },
+    "Lightning Fog": {
+      "title": "Lightning Fog",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 9\", qui subissent 2 touches chacune."
+        }
+      ]
+    },
+    "Litanies of War": {
+      "title": "Litanies of War",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Devout Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Lore of Bravery": {
+      "title": "Lore of Bravery",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Fearless une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Lore of Protection": {
+      "title": "Lore of Protection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Safety Gear Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Lore of Terror": {
+      "title": "Lore of Terror",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", qui gagnent -1 to jets de test de moral une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Means of Destruction": {
+      "title": "Means of Destruction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which les unites amies gagnent Slayer against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Mending Bots": {
+      "title": "Mending Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Self-Repair Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Mind Breaker": {
+      "title": "Mind Breaker",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Mind Corruption": {
+      "title": "Mind Corruption",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Mind Gash": {
+      "title": "Mind Gash",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(1) and Shred each."
+        }
+      ]
+    },
+    "Mind Shaper": {
+      "title": "Mind Shaper",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", qui gagnent -1 to jets de test de moral une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Mind Vortex": {
+      "title": "Mind Vortex",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 12\", qui subissent 1 hit with AP(2) each."
+        }
+      ]
+    },
+    "Mind Wound": {
+      "title": "Mind Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with Demolish."
+        }
+      ]
+    },
+    "Mob Frenzy": {
+      "title": "Mob Frenzy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which les unites amies gagnent AP(1) when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Neurotoxin Cloud": {
+      "title": "Neurotoxin Cloud",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 6\", qui subissent 2 touches chacune."
+        }
+      ]
+    },
+    "Nightmare Vision": {
+      "title": "Nightmare Vision",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 1 hit with AP(4)."
+        }
+      ]
+    },
+    "Nomad Strike": {
+      "title": "Nomad Frappe",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 1 hit with AP(2) each."
+        }
+      ]
+    },
+    "Obscuring Energy": {
+      "title": "Obscuring Energy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Shadow Operative Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Overload Electronics": {
+      "title": "Overload Electronics",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with Scratch."
+        }
+      ]
+    },
+    "Overwhelming Strike": {
+      "title": "Overwhelming Frappe",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Rupture. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Path of War": {
+      "title": "Path of War",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Ferocious Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Piercing Bots": {
+      "title": "Piercing Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(2)."
+        }
+      ]
+    },
+    "Piercing Pulse": {
+      "title": "Piercing Pulse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois modele ennemis a 24\", qui subissent 1 hit with AP(4) each."
+        }
+      ]
+    },
+    "Pike of Doom": {
+      "title": "Pike of Doom",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 6\", qui subissent 1 hit with AP(2) and Deadly(3) each."
+        }
+      ]
+    },
+    "Piranha Curse": {
+      "title": "Piranha Curse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 9\", qui subissent 2 touches chacune."
+        }
+      ]
+    },
+    "Pow!": {
+      "title": "Pow!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 6\", qui subissent 1 hit with AP(2) and Skewer each."
+        }
+      ]
+    },
+    "Power Beam": {
+      "title": "Power Beam",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez un modele ennemi a 18\", qui subit 2 touches with AP(1)."
+        }
+      ]
+    },
+    "Power Field": {
+      "title": "Power Field",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Shielded une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Power Maw": {
+      "title": "Power Maw",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 1 hit with AP(2) each."
+        }
+      ]
+    },
+    "Power Surge": {
+      "title": "Power Surge",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois modele ennemis a 12\", qui subissent 2 touches with Hazardous each. Roll as many dice as touches to see if \"on rolls of 1\" effects trigger."
+        }
+      ]
+    },
+    "Protective Dome": {
+      "title": "Protective Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psy-Adrenaline": {
+      "title": "Psy-Adrenaline",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Harassing Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psy-Cleansing": {
+      "title": "Psy-Cleansing",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 2 touches with Disintegrate each."
+        }
+      ]
+    },
+    "Psy-Destruction": {
+      "title": "Psy-Destruction",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux modele ennemis a 24\", qui subissent 1 hit with AP(4) each."
+        }
+      ]
+    },
+    "Psy-Emowerment": {
+      "title": "Psy-Emowerment",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent AP(1) when attacking une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psy-Flame": {
+      "title": "Psy-Flame",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Psy-Frenzy": {
+      "title": "Psy-Frenzy",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Psychotic Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psy-Hunter": {
+      "title": "Psy-Hunter",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Scrapper Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psy-Incense": {
+      "title": "Psy-Incense",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which les unites amies gagnent Bane when attacking against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psy-Injected Courage": {
+      "title": "Psy-Injected Courage",
+      "description": [
+        {
+          "system": "Human Inquisition",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent +1 to jets de test de moral une fois (la prochaine fois que l'effet s'applique)."
+        },
+        {
+          "system": "Human Defense Force",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Hold the Line Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psy-Rapture": {
+      "title": "Psy-Rapture",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 18\", qui subissent 2 touches chacune."
+        }
+      ]
+    },
+    "Psy-Strength": {
+      "title": "Psy-Strength",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent +1 jets pour toucher in melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psychic Blast": {
+      "title": "Psychic Explosion",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 2 touches with AP(2) each."
+        }
+      ]
+    },
+    "Psychic Chains": {
+      "title": "Psychic Chains",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", qui gagnent Unwieldy in melee une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psychic Feast": {
+      "title": "Psychic Feast",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Resistance une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psychic Flurry": {
+      "title": "Psychic Flurry",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Melee Slayer une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psychic Onslaught": {
+      "title": "Psychic Onslaught",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 2 touches with Reap each."
+        }
+      ]
+    },
+    "Psychic Overload": {
+      "title": "Psychic Overload",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(1) and Fragment each."
+        }
+      ]
+    },
+    "Psychic Smash": {
+      "title": "Psychic Smash",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 12\", qui subissent 1 hit with AP(2) each."
+        }
+      ]
+    },
+    "Psychic Stabilization": {
+      "title": "Psychic Stabilization",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Targeting Visor Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Psychic Terror": {
+      "title": "Psychic Terror",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 6\", qui subissent 3 touches with Bane each."
+        }
+      ]
+    },
+    "Psychic Vomit": {
+      "title": "Psychic Vomit",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 6\", qui subissent 3 touches with Bane each."
+        }
+      ]
+    },
+    "Purge the Impure": {
+      "title": "Purge the Impure",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 12\", qui subissent 1 hit with AP(2) each."
+        }
+      ]
+    },
+    "Quill Blast": {
+      "title": "Quill Explosion",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 2 touches with Scratch each."
+        }
+      ]
+    },
+    "Raiding Drugs": {
+      "title": "Raiding Drugs",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which les unites amies gagnent +1 jets pour toucher in melee against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Rapid Mutation": {
+      "title": "Rapid Mutation",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Regeneration une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Resonance Wave": {
+      "title": "Resonance Wave",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Regeneration une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Righteous Fury": {
+      "title": "Righteous Fury",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Piercing Assault une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Righteous Wrath": {
+      "title": "Righteous Wrath",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 1 hit with AP(4)."
+        }
+      ]
+    },
+    "Running Shock": {
+      "title": "Running Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which les unites amies gagnent Thrust against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Searing Admonition": {
+      "title": "Searing Admonition",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 18\", qui subissent 1 hit with Blast(3) each."
+        }
+      ]
+    },
+    "Searing Burst": {
+      "title": "Searing Burst",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 3 touches chacune."
+        }
+      ]
+    },
+    "Searing Shrapnel": {
+      "title": "Searing Shrapnel",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 2 touches with AP(1) and Wreck each."
+        }
+      ]
+    },
+    "Serpent Comet": {
+      "title": "Serpent Comet",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with Disintegrate."
+        }
+      ]
+    },
+    "Shadow Blast": {
+      "title": "Shadow Explosion",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 12\", qui subissent 1 hit with AP(2) each."
+        }
+      ]
+    },
+    "Shadow Dance": {
+      "title": "Shadow Dance",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Rapid Blink Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Shattering Curse": {
+      "title": "Shattering Curse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(1) and Crack each. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "Shield Breaker": {
+      "title": "Shield Breaker",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(1) and Shred each."
+        }
+      ]
+    },
+    "Shock Speed": {
+      "title": "Shock Speed",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Shroud Field": {
+      "title": "Shroud Field",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent +1 to defense rolls une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Shrouding Incense": {
+      "title": "Shrouding Incense",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Machine-Fog Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Smash!": {
+      "title": "Smash!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Surge."
+        }
+      ]
+    },
+    "Smiting Rune": {
+      "title": "Smiting Rune",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 2 touches with AP(1) and Quake each."
+        }
+      ]
+    },
+    "Snake Bite": {
+      "title": "Snake Bite",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Lacerate."
+        }
+      ]
+    },
+    "Soul Spear": {
+      "title": "Soul Spear",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez un modele ennemi a 24\", qui subit 1 hit with Puncture."
+        }
+      ]
+    },
+    "Spirit Power": {
+      "title": "Esprit Power",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Flying une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Spirit Resolve": {
+      "title": "Esprit Resolve",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Clan Warrior Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Spread Plague": {
+      "title": "Spread Plague",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", qui subissent 1 hit with Bash each."
+        }
+      ]
+    },
+    "Static Blast": {
+      "title": "Static Explosion",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", qui subissent 1 hit with Blast(3) each."
+        }
+      ]
+    },
+    "Stimulant Shock": {
+      "title": "Stimulant Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Steadfast une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Stinger Blast": {
+      "title": "Stinger Explosion",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 hit with Smash."
+        }
+      ]
+    },
+    "Storm of Power": {
+      "title": "Tempete of Power",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(1) and Surge each. Roll as many dice as touches to see if \"on rolls of 6\" effects trigger."
+        }
+      ]
+    },
+    "System Takeover": {
+      "title": "System Takeover",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 3 touches chacune."
+        }
+      ]
+    },
+    "Targeting Signal": {
+      "title": "Targeting Signal",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Relentless une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Taser Shock": {
+      "title": "Taser Shock",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 12\", qui subissent 2 touches with AP(2) each."
+        }
+      ]
+    },
+    "Tech Zapper": {
+      "title": "Tech Zapper",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 6\", qui subit 3 touches with Pulverize."
+        }
+      ]
+    },
+    "Tech-Sickness": {
+      "title": "Tech-Sickness",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Terror Seeker": {
+      "title": "Terror Seeker",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which les unites amies gagnent Unpredictable Fighter against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "The Founder's Curse": {
+      "title": "The Founder's Curse",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent Shred when attacking against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Thunderous Mist": {
+      "title": "Thunderous Mist",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 2 touches."
+        }
+      ]
+    },
+    "Toxin Mist": {
+      "title": "Toxin Mist",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent Bane when attacking against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Trampling Force": {
+      "title": "Trampling Force",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 12\", qui subissent 2 touches with AP(1) and Slam each."
+        }
+      ]
+    },
+    "Triangulation Bots": {
+      "title": "Triangulation Bots",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent Indirect when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Union Propaganda": {
+      "title": "Union Propaganda",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Grounded Precision une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Veil of Madness": {
+      "title": "Veil of Madness",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which les unites amies gagnent Slayer against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Violent Onslaught": {
+      "title": "Violent Onslaught",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Infected Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Volatile Infection": {
+      "title": "Volatile Infection",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois unite ennemies a 6\", qui subissent 1 hit with AP(2) and Deadly(3) each."
+        }
+      ]
+    },
+    "Wasteland Storm": {
+      "title": "Wasteland Tempete",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a trois modele ennemis a 24\", qui subissent 1 hit with Tear each."
+        }
+      ]
+    },
+    "Watch Dome": {
+      "title": "Watch Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Watch Sight": {
+      "title": "Watch Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Watch Trauma": {
+      "title": "Watch Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 hit with Smash."
+        }
+      ]
+    },
+    "Watch Wound": {
+      "title": "Watch Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with Demolish."
+        }
+      ]
+    },
+    "Wave of Discord": {
+      "title": "Wave of Discord",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", qui subissent 1 hit with Thrash each."
+        }
+      ]
+    },
+    "Weapon Booster": {
+      "title": "Weapon Renforcementer",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Scurry Boost une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Wolf Dome": {
+      "title": "Wolf Dome",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Wolf Sight": {
+      "title": "Wolf Sight",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", which les unites amies gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Wolf Trauma": {
+      "title": "Wolf Trauma",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 18\", qui subit 1 hit with Smash."
+        }
+      ]
+    },
+    "Wolf Wound": {
+      "title": "Wolf Wound",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with Demolish."
+        }
+      ]
+    },
+    "Worker's Uprising": {
+      "title": "Worker's Uprising",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez jusqu'a deux unite amies a 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions une fois (la prochaine fois que l'effet s'applique)."
+        }
+      ]
+    },
+    "Zap!": {
+      "title": "Zap!",
+      "description": [
+        {
+          "system": "all",
+          "cost": 0,
+          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches with AP(1) and Surge."
+        }
+      ]
+    }
+
+  }
+}

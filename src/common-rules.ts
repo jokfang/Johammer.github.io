@@ -13,6 +13,12 @@ type TranslateOptions = {
 const translations: RulesByLanguage = commonRules;
 
 const normalizeSystem = (value?: string) => (value || "").toLowerCase();
+const stripKeyTags = (value: string) => value.replace(/<\/?key>/g, "");
+const repairFrenchEncoding = (value: string) =>
+  value
+    .replace(/d[�?]place/g, "déplace")
+    .replace(/Avanc[�?]e/g, "Avancée")
+    .replace(/Pr[�?]cipitation/g, "Précipitation");
 
 const pickDescriptionForSystem = (
   entry: RuleTranslationEntry | undefined,
@@ -119,7 +125,7 @@ export const TranslateRules = (dictionaryName: string, data: any) => {
         : originalDescription;
 
     if (newDescription) {
-      newDescription = newDescription
+      newDescription = repairFrenchEncoding(stripKeyTags(newDescription))
         .replace(/(\r\n|\n|\r)/gm, " ")
         .replace(/\s\s+/g, " ")
         .trim();

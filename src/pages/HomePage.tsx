@@ -89,7 +89,7 @@ function HomePage() {
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-700 underline dark:text-blue-400 visited:text-purple-700 dark:visited:text-purple-400"
-          href="https://github.com/thomascgray/grimdarkfuture-roster-to-tts/issues"
+          href="https://github.com/jokfang/johammer.github.io/issues"
         >
           {t("githubIssuesPage")}
         </a>

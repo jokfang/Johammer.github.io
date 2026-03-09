@@ -1,4 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import { TranslateRules, getRuleTranslator } from "../src/common-rules";
 
 describe("common-rules", () => {
@@ -131,5 +133,37 @@ describe("common-rules", () => {
     const translated = TranslateRules("common-rules", data);
     expect(translated.rules[0].description).toContain("doit subir X blessures");
     expect(translated.rules[0].description).not.toContain("Mis K.O.");
+  });
+
+  it("ignores <key> tags in translated descriptions", () => {
+    localStorage.setItem(
+      "tombolaopraftotts_currentLanguage",
+      JSON.stringify("fr")
+    );
+
+    const data = {
+      rules: [{ name: "Aircraft" }],
+    };
+
+    const translated = TranslateRules("common-rules", data);
+    expect(translated.rules[0].description).not.toContain("<key>");
+    expect(translated.rules[0].description).not.toContain("</key>");
+  });
+
+  it("keeps dictionary content in valid utf-8 without mojibake sequences", () => {
+    const dictionaryPath = resolve(
+      process.cwd(),
+      "public/locales/rules/common-rules.dictionary.ts"
+    );
+    const raw = readFileSync(dictionaryPath);
+    const decoded = raw.toString("utf8");
+
+    // Invalid UTF-8 byte sequences decode to replacement chars.
+    expect(decoded.includes("\uFFFD")).toBe(false);
+
+    // Typical mojibake markers when UTF-8 has been reinterpreted as latin-1/cp1252.
+    expect(
+      /Ã.|Â.|â€™|â€œ|â€\u009d|â€“|ï¿½/.test(decoded)
+    ).toBe(false);
   });
 });

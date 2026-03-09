@@ -26,7 +26,7 @@ export const initialTtsOutputConfig = {
   modelCampaignStuffOutputColour: "#a55eea",
 };
 
-export const state = proxy<iAppState>({
+const initialState: iAppState = {
   armyListShareLink: "",
   shareableLinkForTTS: undefined,
   gameSystem: undefined,
@@ -42,7 +42,14 @@ export const state = proxy<iAppState>({
     fetchArmyFromArmyForge: eNetworkRequestState.IDLE,
     saveArmyListAsBBToDB: eNetworkRequestState.IDLE,
   },
-});
+};
+
+export const state = proxy<iAppState>(_.cloneDeep(initialState));
+
+export const resetStateForTesting = () => {
+  const freshState = _.cloneDeep(initialState);
+  Object.assign(state, freshState);
+};
 
 export const updateWeaponQuantity = (
   upId: string,
