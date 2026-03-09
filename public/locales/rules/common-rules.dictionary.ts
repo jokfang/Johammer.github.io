@@ -6668,7 +6668,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Peut être mis de côté avant le déploiement. Au début de n'importe quel tour après le premier, peut être déployé n'importe où à plus de 9\" des unités ennemies. Les joueurs placent alternativement les unités en <key>Embuscade</key>, en commençant par le joueur qui active ensuite. Les unités qui se déploient via <key>Embuscade</key> ne peuvent pas prendre ou contester des objectifs le tour où elles se déploient."
+          "text": "peut être mise de côté avant le déploiement. Au début de n'importe quel round après le premier, les unités peuvent être déployées n'importe où à plus de 9” des unités ennemies. Les joueurs placent alternativement des unités en Embuscade, en commençant par le joueur qui doit s’activer en suivant. Les unités qui se déploient via une Embuscade ne peuvent pas s'emparer d'objectifs ou les contester lors du round où elles se déploient."
         },
         {
           "system": "aofr",
@@ -6703,7 +6703,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les cibles subissent -X à leurs jets de Défense lorsqu'elles bloquent des touches."
+          "text": " les cibles obtiennent un malus de -X aux jets de Défense contre les attaques de cette arme."
         }
       ],
       "specialRule": [
@@ -6748,7 +6748,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ne peut utiliser que des actions de Maintien. Lorsque ce modèle tire sur des ennemis à plus de 9\" de distance, il obtient +1 à ses jets pour toucher. Lorsque des unités ennemies tirent sur ce modèle à plus de 9\" de distance, elles subissent -2 à leurs jets pour toucher."
+          "text": "ne peut utiliser que des actions Tenir. Lorsque cette figurine tire sur des ennemis situés à plus de 9”, elle obtient +1 aux jets pour toucher. Lorsque des unités ennemies tirent sur cette figurine à plus de 9”, elles obtiennent -2 aux jets pour toucher."
         }
       ],
       "specialRule": [
@@ -6763,7 +6763,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la <key>Régénération</key>, et lors de l'attaque, la cible doit relancer les résultats de Défense non modifiés de 6."
+          "text": "ignore la <key>Régénération</key>, et lors d’une attaque, la cible doit relancer les résultats de défense non modifiés de 6."
         }
       ],
       "specialRule": [
@@ -6797,7 +6797,7 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "aof",
-          "text": "Ce modele et son unite obtiennent +1 a leurs jets de test de moral."
+          "text": "cette figurine et son unité gagne +1 pour leurs Tests de Moral."
         },
         {
           "system": "aofr",
@@ -6818,7 +6818,7 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "aof",
-          "text": "<key>Ignore le couvert</key>, et apres avoir resolu les autres regles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unite cible."
+          "text": "<key>Ignore le couvert</key>, et après la résolution des effets d’autres règles spéciales, chaque touche est multipliée par X, où X représente le minimum entre le nombre de figurines dans l’unité ciblée et le nombre de touche."
         },
         {
           "system": "aofr",
@@ -6853,7 +6853,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Reçoit X jetons de sort au début de chaque tour, mais ne peut pas détenir plus de 6 jetons à la fois. À tout moment avant d'attaquer, dépensez autant de jetons que la valeur du sort pour tenter de lancer un ou plusieurs sorts (un seul essai par sort). Lancez un dé, sur un 4+ résolvez l'effet sur une cible en ligne de vue. Les modèles à moins de 18\" en ligne de vue de l'unité du lanceur de sorts peuvent dépenser n'importe quel nombre de jetons de sort en même temps avant de lancer, pour donner au lanceur +1/-1 au jet par jeton."
+          "text": "Obtient X jetons de sort au début de chaque round, mais ne peut pas posséder plus de six jetons à la fois. À tout moment avant d’attaquer, dépensez autant de jetons que la valeur d’un sort pour essayer de lancer un ou plusieurs sorts (un seul essai par sort). Lancez 1D6 : sur un résultat de 4+, résolvez l'effet sur une cible en ligne de vue. Les figurines dans un rayon de 18” en ligne de vue du Lanceur de sorts peuvent dépenser n'importe quel nombre de jetons de sort en même temps avant le lancer de dé pour donner au lanceur +1/-1 au jet de dé par jeton"
         },
         {
           "system": "aofr",
@@ -6877,11 +6877,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Counter": {
-      "title": "Contre",
+      "title": "Contre-charge",
       "description": [
         {
           "system": "all",
-          "text": "Frappe en premier avec cette arme lorsqu'il est chargé, et l'unité chargeante subit -1 au total des jets d'<key>Impact</key> par modèle avec <key>Contre</key>."
+          "text": "frappe en premier avec cette arme quand elle est chargée, et l’unité qui charge a -1 jet de dé d’<key>Impact</key> par figurine possédant la Contre-charge."
         },
         {
           "system": "aofr",
@@ -6901,7 +6901,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Assignez chaque blessure à un modèle et multipliez-la par X. Les touches de <key>Mortel</key> doivent être résolues en premier, et ces blessures ne se reportent pas sur d'autres modèles si la cible d'origine est tuée."
+          "text": "Attribuez chaque blessure à une figurine, puis multipliez-les par X. Les blessures issues par cette règle spéciale doivent être résolues en premier et ces blessures ne sont pas répercutées sur les autres figurines si la cible d'origine est tuée."
         }
       ],
       "specialRule": [
@@ -6918,11 +6918,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Entrenched": {
-      "title": "Tranché",
+      "title": "Retranché",
       "description": [
         {
           "system": "all",
-          "text": "Tant qu'une unité où tous les modèles ont cette règle n'a pas bougé pendant le tour, les unités ennemies qui lui tirent dessus à plus de 9\" de distance subissent -2 à leurs jets pour toucher."
+          "text": " les ennemis ont -2 pour toucher lorsqu'ils tirent sur cette figurine à plus de 9” de distance, tant que celle-ci n'a pas bougé depuis le début de sa dernière activation."
         }
       ]
     },
@@ -6931,12 +6931,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Se déplace de +2\" en utilisant Avancée, et de +4\" en utilisant Précipitation/Charge."
+          "text": "se déplace de +2” pour Avancer et +4” pour Courir ou Charger"
         }
       ]
     },
     "Fear": {
-      "title": "Peur",
+      "title": "Effrayant",
       "description": [
         {
           "system": "all",
@@ -6944,15 +6944,15 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "gf",
-          "text": "Ce modele compte comme ayant inflige +X blessures lorsqu'on determine qui a gagne la melee."
+          "text": "Ce modele compte comme ayant inflige +X blessures lorsqu'on determine qui a gagne la mêlée."
         },
         {
           "system": "aof",
-          "text": "Ce modele compte comme ayant inflige +X blessures lorsqu'on determine qui a gagne la melee."
+          "text": " cette figurine compte toujours comme ayant infligé +X blessures supplémentaires pour déterminer qui a gagné la Mêlée."
         },
         {
           "system": "aofr",
-          "text": "Ce modele compte comme ayant inflige +X blessures lorsqu'on determine qui a gagne la melee."
+          "text": "Ce modele compte comme ayant inflige +X blessures lorsqu'on determine qui a gagne la mêlée."
         }
       ],
       "specialRule": [
@@ -6967,7 +6967,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsqu'une unité où tous les modèles ont cette règle échoue à un test de moral, lancez un dé. Sur un 4+, il est considéré comme réussi à la place."
+          "text": " lorsqu'une unité dont toutes les figurines possèdent cette règle spéciale échoue à un Test de Moral, 1D6: sur un résultat de 4+, le test est réussi à la place."
         }
       ],
       "specialRule": [
@@ -6991,7 +6991,7 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "aof",
-          "text": "Peut se deplacer a travers les unites et le terrain, et ignore les effets du terrain lors de ses deplacements."
+          "text": "peut se déplacer à travers les unités et les décors, et peut ignorer les effets du terrain lors d’un déplacement."
         },
         {
           "system": "aofr",
@@ -7007,7 +7007,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lors d'une charge, les résultats non modifiés de 6 pour toucher en mêlée infligent 1 touche supplémentaire (seule la touche originale compte comme un 6 pour les règles spéciales)."
+          "text": "lors d'une Charge, les jets pour toucher de 6 non modifiés pour toucher en Mêlée infligent une touche supplémentaire (seule la touche initiale compte pour un 6 en regard des règles spéciales)."
         }
       ],
       "specialRule": [
@@ -7029,15 +7029,15 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "gf",
-          "text": "Les heros avec jusqu'a <key>Robuste</key>(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la <key>Defense</key> de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
+          "text": "Les heros avec <key>Coriace</key>(6) ou moins peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la <key>Defense</key> de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
         },
         {
           "system": "aof",
-          "text": "Les heros avec jusqu'a <key>Robuste</key>(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la <key>Defense</key> de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
+          "text": " un héros avec <key>Coriace</key>(6) ou moins peut être déployé dans une unité amie composée de plusieurs figurines sans autre Héros. Le héros peut passer des Tests de Moral pour l’unité, mais doit utiliser la valeur de Défense de l’unité jusqu’à ce que toutes les autres figurines de l’unité aient été tuées."
         },
         {
           "system": "aofr",
-          "text": "Les heros avec jusqu'a <key>Robuste</key>(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la <key>Defense</key> de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
+          "text": "Les heros avec jusqu'a <key>Coriace</key>(6) peuvent etre deployes comme partie d'une unite multi-modeles sans autre Heros. Le heros peut faire des tests de moral au nom de l'unite, mais doit utiliser la <key>Defense</key> de l'unite jusqu'a ce que tous les autres modeles aient ete tues."
         }
       ],
       "specialRule": [
@@ -7049,7 +7049,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ne peut utiliser que des actions de Maintien."
+          "text": "ne peut utiliser que l’action Tenir."
         }
       ]
     },
@@ -7058,7 +7058,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lancez X dés lors d'une attaque après une charge, sauf si fatigué. Pour chaque 2+, la cible subit une touche."
+          "text": " jeter X dés lors d'une attaque après avoir Chargé, sauf si Fatigué. Pour chaque 2+ la cible subit une touche."
         },
         {
           "system": "aofr",
@@ -7078,7 +7078,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Subit -1 à ses jets pour toucher en tirant après s'être déplacé. Peut cibler des ennemis qui ne sont pas en ligne de vue comme s'ils l'étaient, et ignore le couvert des obstructions de vue."
+          "text": " a -1 aux jets de touche quand elle tire après s’être déplacée. Peut cibler des ennemis hors de la ligne de vue comme s’ils étaient en ligne de vue et ignore le Couvert dû aux obstacles."
         }
       ],
       "specialRule": [
@@ -7094,7 +7094,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ne peut être utilisé qu'une fois par partie."
+          "text": "Ne peut être utilisée qu’une seule fois par partie."
         }
       ]
     },
@@ -7120,7 +7120,7 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "aof",
-          "text": "Ce modele et son unite se deplacent de +1\" lorsqu'ils utilisent des actions de mouvement."
+          "text": "cette figurine et son unité se déplacent de +1” lorsqu’elles utilisent une action de mouvement. (Avancer, Courir, Charger)."
         },
         {
           "system": "aofr",
@@ -7133,7 +7133,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsqu'une unité où tous les modèles ont cette règle subit des blessures, lancez un dé pour chacune. Sur un 5+, elle est ignorée."
+          "text": "lorsqu'une unité dont toutes les figurines possèdent cette règle subit des blessures, lancez un dé pour chacune d'entre elles. Sur un résultat de 5+, la blessure est ignorée"
         }
       ],
       "specialRule": [
@@ -7161,7 +7161,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsque ce modèle tire sur des ennemis à plus de 9\" de distance, les résultats non modifiés de 6 pour toucher infligent 1 touche supplémentaire (seule la touche originale compte comme un 6 pour les règles spéciales)."
+          "text": " lorsque cette figurine tire sur des ennemis situé à  plus de 9”, les résultats non modifiés de 6 pour toucher infligent une touche supplémentaire (seule la touche initiale compte pour un 6 en regard des règles spéciales)."
         }
       ],
       "specialRule": [
@@ -7179,7 +7179,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Attaque avec une Qualité de 2+."
+          "text": "Attaque avec une Qualité 2+."
         }
       ]
     },
@@ -7188,7 +7188,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la <key>Régénération</key>, et sur des résultats non modifiés de 6 pour toucher, ces touches obtiennent <key>PA</key>(+4)."
+          "text": "Ignore la <key>Régénération</key> et sur un résultat non modifié de 6 pour toucher ces touches gagnent une <key>PA</key>(4)."
         }
       ],
       "specialRule": [
@@ -7206,7 +7206,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Peut être mis de côté avant le déploiement. Après que toutes les autres unités sont déployées, peut être déployé n'importe où entièrement à moins de 12\" de leur zone de déploiement. Les joueurs placent alternativement les unités <key>Éclaireur</key>, en commençant par le joueur qui active ensuite."
+          "text": "peut être mis de côté avant le déploiement. Une fois que toutes les autres unités ont été déployées, l’unité doit être déployée et peut être placée n'importe où à moins de 12” de sa zone de déploiement. Les joueurs placent alternativement les unités d'Éclaireur, en suivant l'ordre d'activation."
         }
       ],
       "specialRule": [
@@ -7225,7 +7225,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Se déplace de -2\" en utilisant Avancée, et de -4\" en utilisant Précipitation/Charge."
+          "text": "se déplace de -2” pour Avancer et -4” pour Charger ou Courir."
         }
       ],
       "specialRule": [
@@ -7236,12 +7236,12 @@ export const commonRules: RulesByLanguage = {
         "SshMejY9Kz7s"
       ]
     },
-    "Sniper REMOVE": {
-      "title": "Sniper REMOVE",
+    "Sniper": {
+      "title": "Sniper",
       "description": [
         {
           "system": "all",
-          "text": "Tire avec une Qualité de 2+, et chaque modèle avec Sniper peut choisir n'importe quel modèle dans l'unité cible comme sa cible individuelle, ce qui est résolu comme s'il s'agissait d'une unité de 1. Le tir de Sniper doit être résolu avant les autres armes."
+          "text": "tire avec une Qualité de 2+, et chaque figurine possédant cette règle peut cibler n’importe quelle figurine dans l’unité ciblée comme si elle était seule, ce qui est résolu comme s’il s’agissait d’une unité d'une seule figurine. Les tirs avec Sniper doivent être résolus avant les autres armes."
         }
       ]
     },
@@ -7250,7 +7250,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsque des unités où tous les modèles ont cette règle sont la cible de tirs à plus de 9\" de distance, les unités ennemies subissent -1 à leurs jets pour toucher."
+          "text": "lorsque des unités dont toutes les figurines possèdent cette règle sont ciblées par des tirs à plus de 9”, les unités ennemies subissent un malus de -1 aux jets pour toucher."
         }
       ],
       "specialRule": [
@@ -7262,7 +7262,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Strider": {
-      "title": "Marcheur",
+      "title": "Arpenteur",
       "description": [
         {
           "system": "all",
@@ -7274,7 +7274,7 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "aof",
-          "text": "Peut ignorer les effets du terrain difficile lors de ses deplacements."
+          "text": "Peut ignorer les effets des Terrain Difficile lorsqu'elle se déplace."
         },
         {
           "system": "aofr",
@@ -7288,20 +7288,20 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Takedown": {
-      "title": "Mise à terre",
+      "title": "Élimination",
       "description": [
         {
           "system": "all",
-          "text": "Ce modèle peut choisir n'importe quel modèle dans l'unité cible comme sa cible individuelle, ce qui est résolu comme s'il s'agissait d'une unité de [1]. Les attaques de <key>Mise à terre</key> doivent être résolues avant les autres armes."
+          "text": "cette figurine peut cibler n’importe quelle figurine dans l’unité ciblée comme s’il s’agissait d’une figurine individuelle, qui est résolu comme s’il s’agissait d’une unité d’une seule figurine. Les attaques d’Élimination doivent être résolues avant les autres armes."
         }
       ]
     },
     "Thrust": {
-      "title": "Poussée",
+      "title": "Percée",
       "description": [
         {
           "system": "all",
-          "text": "Lors d'une charge, obtient +1 à ses jets pour toucher et <key>PA</key>(+1) en mêlée."
+          "text": "lors d’une action Charger, gagne un bonus de +1 pour toucher et PA(1) en mêlée."
         }
       ],
       "specialRule": [
@@ -7310,7 +7310,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Tough": {
-      "title": "Robuste",
+      "title": "Coriace",
       "description": [
         {
           "system": "all",
@@ -7318,15 +7318,15 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "gf",
-          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec <key>Robuste</key> rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele <key>Robuste</key> avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele <key>Robuste</key> suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
+          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec <key>Coriace</key> rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele <key>Coriace</key> avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele <key>Coriace</key> suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
         },
         {
           "system": "aof",
-          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec <key>Robuste</key> rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele <key>Robuste</key> avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele <key>Robuste</key> suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
+          "text": "une figurine avec cette règle spéciale doit subir X blessures avant d’être retirée comme perte. Si une figurine Coriace rejoint une unité sans cette règle spéciale, alors elle est retirée en dernier lorsque l'unité subit des blessures. Vous devez continuer à infliger des blessures sur la figurine Coriace avec le plus de blessures dans l'unité jusqu'à ce qu'elle soit tuée, avant de commencer à les infliger à la prochaine figurine Coriace (les Héros doivent recevoir les blessures en dernier, même s'ils sont déjà blessés)."
         },
         {
           "system": "aofr",
-          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec <key>Robuste</key> rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele <key>Robuste</key> avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele <key>Robuste</key> suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
+          "text": "Ce modele doit subir X blessures avant d'etre tue. Si un modele avec <key>Coriace</key> rejoint une unite sans cette regle, il est retire en dernier quand l'unite subit des blessures. Vous devez continuer a placer les blessures sur le modele <key>Coriace</key> avec le plus de blessures dans l'unite jusqu'a ce qu'il soit tue, avant de commencer a les placer sur le modele <key>Coriace</key> suivant (les heros doivent recevoir les blessures en dernier, meme s'ils sont deja blesses)."
         }
       ],
       "specialRule": [
@@ -7357,7 +7357,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Peut transporter jusqu'à X modèles ou <key>Héros</key> avec jusqu'à <key>Robuste</key>(6), et des non-<key>Héros</key> avec jusqu'à <key>Robuste</key>(3) qui occupent 3 places chacun. Les transports peuvent se déployer avec des unités à l'intérieur, et les unités peuvent entrer/sortir en utilisant n'importe quelle action de mouvement, mais doivent rester entièrement à moins de 6\" de celui-ci en sortant. Les unités à l'intérieur/extérieur des transports ne peuvent pas cibler d'autres unités à l'extérieur/intérieur des transports, mais peuvent cibler le transport lui-même. Lorsqu'un transport est détruit, les unités à l'intérieur doivent effectuer un test de terrain dangereux, sont Secouées, et doivent être placées entièrement à moins de 6\" du transport avant qu'il ne soit retiré."
+          "text": "peut transporter jusqu'à X figurines ou <key>Héros</key> avec <key>Coriace</key>(6) ou moins, et des non-héros avec <key>Coriace</key>(3) qui occupent 3 places chacun. Les Transports peuvent se déployer en contenant des unités. Elles peuvent entrer/sortir en utilisant une action de mouvement, mais doivent rester entièrement à moins de 6” en sortant. Lorsqu’un Transport est détruit, les unités à l’intérieur doivent alors effectuer un Test de terrain Dangereux, sont Ébranlées et doivent être placées entièrement à moins de 6” du Transport avant de le retirer."
         }
       ]
     },
@@ -7366,7 +7366,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la <key>Régénération</key> et ignore tous les modificateurs négatifs de cette arme."
+          "text": "Ignore la <key>Régénération</key> et tous les modificateurs négatifs appliqués à cette arme."
         }
       ],
       "specialRule": [
@@ -7577,7 +7577,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsque le héros est activé, toutes les unités amies à moins de 6\" du héros cessent d'être secouées."
+          "text": "Lorsqu'une unité dont toutes les figurines possèdant cette règle spéciale subis des tirs ou sont chargées d'une distance supérieur à 9”, les blessures comptent comme ayant <key>PA</key>(-1) jusqu'à <key>PA</key>(0)."
         }
       ],
       "specialRule": [
@@ -7634,7 +7634,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Obtient <key>Robuste</key>(+1)."
+          "text": "Obtient <key>Coriace</key>(+1)."
         }
       ]
     },
@@ -7711,7 +7711,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Fortified": {
-      "title": "Fortifie",
+      "title": "Blindé",
       "specialRule": [
         "zrj60Gptp4Ce",
         "iv1Jm6zZiZPJ",
@@ -7729,7 +7729,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsque des unites dont tous les modeles ont cette regle subissent des touches, ces touches comptent comme ayant <key>PA</key>(-1), jusqu'a un minimum de <key>PA</key>(0)."
+          "text": "Lorsque une unité où toutes les figurines possèdent cette règle subit des touches, ces touches comptent comme ayant <key>PA</key>(-1), jusqu'à un minimum de <key>PA</key>(0)."
         }
       ]
     },
@@ -7773,7 +7773,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand ce modele attaque, les resultats non modifies de 6 pour toucher infligent 1 touche supplementaire (seule la touche d'origine compte comme un 6 pour les regles speciales)."
+          "text": "lorsque cette figurine attaque, les résultats non modifiés de 6 pour toucher infligent 1 touche supplémentaire (seule la touche initiale compte pour un 6 en regard des règles spéciales)."
         }
       ]
     },
@@ -7812,7 +7812,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, lancez un de. Sur 2+, une unite ennemie a 6\" en ligne de vue subit 1 touche avec <key>Blast</key>(3) et <key>AP</key>(1)."
+          "text": "Une fois par activation de cette figurine, avant d'attaquer, lancez 1D6. Sur un résultat de 2+, une unite ennemie dans un rayon de 6” en ligne de vue subit 1 touche avec <key>Explosion</key>(3) et <key>PA</key>(1)."
         }
       ]
     },
@@ -7840,7 +7840,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Precision Target": {
-      "title": "Cible de precision",
+      "title": "Cible désignée",
       "specialRule": [
         "zrj60Gptp4Ce",
         "iv1Jm6zZiZPJ"
@@ -7848,7 +7848,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, durant l'activation de ce modele, choisissez une unite ennemie a 36\" et en ligne de vue, puis placez X marqueurs sur elle. Les unites amies obtiennent +X pour toucher lorsqu'elles l'attaquent."
+          "text": "Une fois par partie, durant l'activation de cette figurine, choisissez une unité ennemie a 36” ou moins et en ligne de vue, puis placez X marqueurs dessus. Les unites alliée obtiennent +X pour toucher lorsqu'elles l'attaquent."
         }
       ]
     },
@@ -7887,12 +7887,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Compte comme ayant une <key>Defense</key> de X+."
+          "text": "Compte comme ayant une Defense de X+."
         }
       ]
     },
     "Repel Ambushers": {
-      "title": "Repousse les embusques",
+      "title": "Chasse à l'Embuscade",
       "specialRule": [
         "zrj60Gptp4Ce",
         "cJJJPqOuiHWx",
@@ -7911,7 +7911,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les unites ennemies utilisant <key>Ambush</key> doivent etre placees a plus de 12\" de l'unite de ce modele."
+          "text": "Les unités ennemies utilisant <key>Embuscade</key> doivent être placées a plus de 12” de l'unité de cette figurine."
         }
       ]
     },
@@ -7929,7 +7929,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Melee Slayer": {
-      "title": "Tueur de melee",
+      "title": "Tueur en mêlée",
       "specialRule": [
         "zrj60Gptp4Ce",
         "cJJJPqOuiHWx",
@@ -7951,12 +7951,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les armes de melee de ce modele gagnent <key>AP</key>(+2) contre les unites dont la majorite des modeles ont <key>Tough</key>(3) ou plus."
+          "text": "Les armes de mêlée de cette figurine gagnent <key>PA</key>(+2) contre les unités dont la majorité des figurinent possèdent <key>Coriace</key>(3) ou plus."
         }
       ]
     },
     "Thrust in Melee Aura": {
-      "title": "Aura de Percee en melee",
+      "title": "Aura de Percee en mêlée",
       "specialRule": [
         "zrj60Gptp4Ce",
         "GgMdmXsCVdK2"
@@ -7964,12 +7964,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Thrust</key> en melee."
+          "text": "Ce modele et son unite gagnent <key>Thrust</key> en mêlée."
         }
       ]
     },
     "Melee Evasion": {
-      "title": "Evasion de melee",
+      "title": "Evasion de mêlée",
       "specialRule": [
         "zrj60Gptp4Ce",
         "cJJJPqOuiHWx",
@@ -7988,7 +7988,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les ennemis subissent -1 pour toucher en melee lorsqu'ils attaquent des unites dont tous les modeles ont cette regle."
+          "text": "Les ennemis subissent un malus de -1 pour toucher en mêlée lorsqu'ils attaquent une unité où toutes les figurines possèdent cette regle."
         }
       ]
     },
@@ -8016,7 +8016,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Counter-Attack</key>."
+          "text": "Cette figurine et son unité gagnent <key>Contre-attaque</key>."
         }
       ]
     },
@@ -8048,7 +8048,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand c'est au tour de ce modele d'attaquer en melee, lancez X des. Pour chaque 6+, la cible subit une blessure."
+          "text": "Quand c'est au tour de cette figurine d'attaquer en mêlée, lancer X dés. Pour chaque 6+, la cible subit une blessure."
         }
       ]
     },
@@ -8065,7 +8065,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Bane in Melee": {
-      "title": "Fleau en melee",
+      "title": "Fleau en mêlée",
       "specialRule": [
         "zrj60Gptp4Ce",
         "fLQMyzi3zbFI",
@@ -8074,7 +8074,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne <key>Bane</key> en melee."
+          "text": "Ce modele gagne <key>Bane</key> en mêlée."
         }
       ]
     },
@@ -8140,7 +8140,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne +1 pour toucher en melee."
+          "text": "Ce modele gagne +1 pour toucher en mêlée."
         }
       ]
     },
@@ -8213,7 +8213,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Frappe en premier lorsqu'il est charge."
+          "text": "Frappe en premier lorsqu'elle est chargée."
         }
       ]
     },
@@ -8258,12 +8258,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "En melee, lancez un de et appliquez un effet a tous les modeles avec cette regle: sur 1-3 ils gagnent <key>AP</key>(+1), sur 4-6 ils gagnent +1 pour toucher."
+          "text": "Lors d'une attaque en mêlée, pour toutes les figurines disposant de cette régle, 1D6: sur 1-3 ils gagnent <key>PA</key>(1), sur 4-6 ils gagnent +1 pour toucher."
         }
       ]
     },
     "Unpredictable": {
-      "title": "Imprevisible",
+      "title": "Imprévisible",
       "specialRule": [
         "zrj60Gptp4Ce",
         "cJJJPqOuiHWx",
@@ -8279,7 +8279,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand ce modele attaque, lancez un de et appliquez un effet a tous les modeles avec cette regle: sur 1-3 ils gagnent <key>AP</key>(+1), sur 4-6 ils gagnent +1 pour toucher."
+          "text": "Pour toutes les figurines disposant de cette régle, lors d'une attaque, 1D6: sur 1-3 ils gagnent <key>PA</key>(1), sur 4-6 ils gagnent +1 pour toucher."
         }
       ]
     },
@@ -8308,7 +8308,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Evasive": {
-      "title": "Evasif",
+      "title": "Esquive",
       "specialRule": [
         "zrj60Gptp4Ce",
         "iv1Jm6zZiZPJ",
@@ -8318,7 +8318,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les ennemis subissent -1 pour toucher lorsqu'ils attaquent des unites dont tous les modeles ont cette regle."
+          "text": "Les ennemis subissent -1 pour toucher lorsqu'ils attaquent une unité où toutes les figurines ont cette règle."
         }
       ]
     },
@@ -8377,7 +8377,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Hit & Run Shooter": {
-      "title": "Tireur Frappe et Repli",
+      "title": "Tir en mouvement",
       "specialRule": [
         "cJJJPqOuiHWx",
         "Q7nWXE-8DEHN",
@@ -8386,7 +8386,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par round, les unites dont tous les modeles ont cette regle peuvent se deplacer jusqu'a 3\" apres avoir tire."
+          "text": "Une fois par round, les unités où toutes les figurines possèdent cette règle peuvent se deplacer de 3” ou moins apres avoir tiré."
         }
       ]
     },
@@ -8432,7 +8432,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Hit & Run Shooter Aura": {
-      "title": "Aura de Tireur Frappe et Repli",
+      "title": "Aura de Tireur en mouvement",
       "specialRule": [
         "cJJJPqOuiHWx",
         "Q7nWXE-8DEHN",
@@ -8441,12 +8441,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Hit & Run Shooter</key>."
+          "text": "Ce modele et son unite gagnent <key>Tir en mouvement</key>."
         }
       ]
     },
     "Melee Evasion Aura": {
-      "title": "Aura d'Evasion en melee",
+      "title": "Aura d'Evasion en mêlée",
       "specialRule": [
         "cJJJPqOuiHWx",
         "GgMdmXsCVdK2",
@@ -8455,7 +8455,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Melee Evasion</key>."
+          "text": "Ce modele et son unite gagnent <key>mêlée Evasion</key>."
         }
       ]
     },
@@ -8499,7 +8499,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne <key>AP</key>(+1) lorsqu'il charge."
+          "text": "Cette figurine gagne <key>PA</key>(+1) lorsqu'elle charge."
         }
       ]
     },
@@ -8516,7 +8516,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Spawn": {
-      "title": "Invocation",
+      "title": "Génération",
       "specialRule": [
         "cJJJPqOuiHWx",
         "f78kQxkgtIs1",
@@ -8527,7 +8527,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, lorsque ce modele est active, vous pouvez placer une nouvelle unite de X entierement a 6\" de lui."
+          "text": "Une fois par partie, lorsque cette figurine est activée, vous pouvez placer une nouvelle unité de X entièrement a 6” ou moins de lui."
         }
       ]
     },
@@ -8594,7 +8594,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par round, les unites dont tous les modeles ont cette regle peuvent se deplacer jusqu'a 3\" apres avoir tire ou apres avoir ete en melee."
+          "text": "Une fois par round, les unites dont tous les modeles ont cette regle peuvent se deplacer jusqu'a 3\" apres avoir tire ou apres avoir ete en mêlée."
         }
       ]
     },
@@ -8670,7 +8670,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Stealth</key>."
+          "text": "Cette figurine et son unité gagnent <key>Furtif</key>."
         }
       ]
     },
@@ -8705,7 +8705,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, quand c'est au tour de ce modele d'attaquer en melee, vous pouvez choisir un modele de l'unite comme cible et faire une attaque a Qualite 2+ avec <key>AP</key>(2) et <key>Deadly</key>(3), resolue comme s'il s'agissait d'une unite de 1."
+          "text": "Une fois par partie, quand c'est au tour de ce modele d'attaquer en mêlée, vous pouvez choisir un modele de l'unite comme cible et faire une attaque a Qualite 2+ avec <key>AP</key>(2) et <key>Deadly</key>(3), resolue comme s'il s'agissait d'une unite de 1."
         }
       ]
     },
@@ -8807,7 +8807,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Unstoppable in Melee Aura": {
-      "title": "Aura d'Inarretable en melee",
+      "title": "Aura Imparable en mêlée",
       "specialRule": [
         "uAXC1RxdtELq",
         "xw2YHtZNkhIV",
@@ -8818,7 +8818,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Unstoppable</key> en melee."
+          "text": "Cette figurine et son unité gagnent <key>Imparable</key> en mêlée."
         }
       ]
     },
@@ -8870,7 +8870,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par round, les unites dont tous les modeles ont cette regle peuvent se deplacer jusqu'a 3\" apres avoir ete en melee."
+          "text": "Une fois par round, les unites dont tous les modeles ont cette regle peuvent se deplacer jusqu'a 3\" apres avoir ete en mêlée."
         }
       ]
     },
@@ -8929,12 +8929,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Compte comme ayant <key>Ambush</key>, mais peut etre deployee jusqu'a 1\" des unites ennemies."
+          "text": "Compte comme ayant <key>Embuscade</key>, mais peut etre deployee jusqu'a 1” des unités ennemies."
         }
       ]
     },
     "Shred": {
-      "title": "Laceration",
+      "title": "Lacération",
       "specialRule": [
         "f78kQxkgtIs1",
         "Q7nWXE-8DEHN",
@@ -8959,7 +8959,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Sur des resultats non modifies de 1 pour bloquer des touches, cette arme inflige 1 blessure supplementaire."
+          "text": "Sur des résultats non modifiés de 1 pour bloquer, Les touches de cette arme infligent 1 blessure supplémentaire."
         }
       ]
     },
@@ -8985,7 +8985,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Reanimation</key>."
+          "text": "Ce modele et son unité gagnent <key>Reanimation</key>."
         }
       ]
     },
@@ -8997,12 +8997,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsqu'une unite dont tous les modeles ont cette regle subit des blessures, lancez un de pour chacune. Sur 6+, elle est ignoree."
+          "text": "Lorsqu'une unité dont tous les modeles ont cette regle subit des blessures, lancez un de pour chacune. Sur 6+, elle est ignoree."
         }
       ]
     },
     "Scout Aura": {
-      "title": "Aura d'Eclaireur",
+      "title": "Aura d’Éclaireur",
       "specialRule": [
         "f78kQxkgtIs1",
         "5xPzQn4Qdzz6",
@@ -9016,12 +9016,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Scout</key>."
+          "text": "Ce modele et son unité gagnent <key>Éclaireur</key>."
         }
       ]
     },
     "Surge": {
-      "title": "Deferlante",
+      "title": "Surcharge",
       "specialRule": [
         "f78kQxkgtIs1",
         "cyQpyja0EDRj",
@@ -9033,7 +9033,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Sur des resultats non modifies de 6 pour toucher, cette arme inflige 1 touche supplementaire (seule la touche d'origine compte comme un 6 pour les regles speciales)."
+          "text": "sur les résultats non modifiés de 6 pour toucher, cette arme inflige 1 touche supplémentaire (seule la touche initiale compte pour un 6 en regard des règles spéciales)."
         }
       ]
     },
@@ -9068,7 +9068,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Shred in Melee Aura": {
-      "title": "Aura de Laceration en melee",
+      "title": "Aura de Laceration en mêlée",
       "specialRule": [
         "f78kQxkgtIs1",
         "Q7nWXE-8DEHN",
@@ -9077,7 +9077,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Shred</key> en melee."
+          "text": "Ce modele et son unite gagnent <key>Lacération</key> en mêlée."
         }
       ]
     },
@@ -9185,7 +9185,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Crossing Barrage": {
-      "title": "Barrage de traversee",
+      "title": "Barrage croisé",
       "specialRule": [
         "Q7nWXE-8DEHN",
         "iv1Jm6zZiZPJ",
@@ -9199,12 +9199,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, quand ce modele traverse des unites ennemies en mouvement, choisissez-en une et lancez X des. Pour chaque 4+, elle subit 3 touches avec <key>AP</key>(1)."
+          "text": "Une fois par activation, quand cette figurine traverse des unités ennemies, choisissez-en une et lancez X dés. Pour chaque 4+, elle subit 3 touches avec <key>PA</key>(1)."
         }
       ]
     },
     "Mend": {
-      "title": "Reparation",
+      "title": "Guérison",
       "specialRule": [
         "Q7nWXE-8DEHN",
         "iv1Jm6zZiZPJ",
@@ -9215,7 +9215,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez un modele allie a 3\" avec <key>Tough</key> et retirez-lui D3 blessures."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une figurine allie a 3” ou moins avec <key>Coriace</key> et retirez-lui AD3 blessures."
         }
       ]
     },
@@ -9319,12 +9319,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Pour chaque jet non modifie de 6 pour toucher lors d'une attaque, ce modele peut effectuer +1 attaque avec cette arme. Cette regle ne s'applique pas aux attaques nouvellement generees."
+          "text": "Pour chaque jet non modifié à 6 pour toucher lors d'une attaque, cette figurine peut effectuer +1 attaque avec cette arme. Cette règle ne s'applique pas aux nouvelles attaques générées."
         }
       ]
     },
     "Crossing Strike": {
-      "title": "Frappe de traversee",
+      "title": "Frappe croisée",
       "specialRule": [
         "iv1Jm6zZiZPJ",
         "aHBBAhsdAqyz"
@@ -9332,19 +9332,19 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, une fois durant son activation lorsque ce modele traverse des unites ennemies, choisissez-en une et lancez X des. Pour chaque 4+, elle subit 3 touches avec <key>AP</key>(1)."
+          "text": "Une fois par partie, durant son activation lorsque cette figurine traverse des unités ennemies, choisissez-en une et lancez X dés. Pour chaque 4+, elle subit 3 touches avec <key>PA</key>(1)."
         }
       ]
     },
     "Protection Feat": {
-      "title": "Exploit de protection",
+      "title": "Protection extraordinaire",
       "specialRule": [
         "iv1Jm6zZiZPJ"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, quand cette unite subit des blessures et que tous ses modeles ont cette regle, vous pouvez utiliser cette regle et lancer un de par blessure ; sur 4+, elle est ignoree."
+          "text": "Une fois par partie, quand une unité où toutes les figurines possèdent cette règle, 1D6 par blessure: sur 4+, elle est ignorée."
         }
       ]
     },
@@ -9360,7 +9360,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Compte comme ayant <key>Impact</key>(X) avec des touches ayant <key>AP</key>(1)."
+          "text": "Les touches d'<key>Impact</key>(X) de cette figurine gagne <key>PA</key>(1)."
         }
       ]
     },
@@ -9372,12 +9372,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne +1 aux jets pour toucher en tir."
+          "text": "Cette figurine gagne +1 pour toucher lorsqu'elle tir."
         }
       ]
     },
     "Rapid Charge Aura": {
-      "title": "Aura de Charge rapide",
+      "title": "Aura de Charge véloce",
       "specialRule": [
         "iv1Jm6zZiZPJ",
         "vhKZ0CIT6dBt",
@@ -9388,12 +9388,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite se deplacent de +4\" lors des actions Charge."
+          "text": "Ce modele et son unité se déplacent de +4” ou moins lors d'une Charge."
         }
       ]
     },
     "Rending in Melee Aura": {
-      "title": "Aura de Perforant en melee",
+      "title": "Aura de Perforation en mêlée",
       "specialRule": [
         "iv1Jm6zZiZPJ",
         "tKa31SeqrzS1",
@@ -9403,7 +9403,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Rending</key> en melee."
+          "text": "Cette figurine et son unité gagnent <key>Perforant</key> en mêlée."
         }
       ]
     },
@@ -9421,43 +9421,43 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand cette unite est activee, vous pouvez placer tous les modeles avec cette regle qu'elle contient n'importe ou entierement dans un rayon de D3+1\" de leur position."
+          "text": "Quand cette unité est activée, vous pouvez placer toutes les figurines possédant cette règle n'importe où dans un rayon de D3+1” autour de leur position."
         }
       ]
     },
     "Disintegrate": {
-      "title": "Desintegration",
+      "title": "Désintegration",
       "specialRule": [
         "iv1Jm6zZiZPJ"
       ],
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key>, et contre les unites dont la majorite des modeles ont une <key>Defense</key> de 2+ a 3+, cette arme gagne <key>AP</key>(+2)."
+          "text": "Ignore la <key>Régénération</key>, et contre les unités dont la majorité des figurines ont une Défense de 2+ à 3+, cette arme gagne <key>PA</key>(+2)."
         }
       ]
     },
     "Shred Mark": {
-      "title": "Marquage Laceration",
+      "title": "Marquage de Lacération",
       "specialRule": [
         "iv1Jm6zZiZPJ"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent <key>Shred</key> contre elle pour une attaque (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ou moins, les unités alliées gagnent <key>Lacération</key> contre elle pour une attaque (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Primal Boost Buff": {
-      "title": "Amelioration Primal Boost",
+      "title": "Bonus de Boost de Primal",
       "specialRule": [
         "iv1Jm6zZiZPJ"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite alliee a 12\" ; elle gagne <key>Primal Boost</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ou moins, elle gagne <key>Boost de Primal</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -9485,19 +9485,19 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Primal Boost": {
-      "title": "Amplification Primal",
+      "title": "Boost de Primal",
       "specialRule": [
         "iv1Jm6zZiZPJ"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a <key>Primal</key>, il gagne des attaques supplementaires sur des jets pour toucher non modifies reussis de 5-6 via <key>Primal</key> (au lieu de seulement sur 6)."
+          "text": "Si cette figurine possède <key>Primal</key>, elle obtient des attaques supplementaires sur les touches non modifiées de 5-6 via <key>Primal</key> (au lieu de seulement sur 6)."
         }
       ]
     },
     "Steadfast": {
-      "title": "Inebranlable",
+      "title": "Inébranlable",
       "specialRule": [
         "iv1Jm6zZiZPJ",
         "tKa31SeqrzS1",
@@ -9512,7 +9512,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si une unite dont tous les modeles ont cette regle est Secouee au debut du round, lancez un de. Sur 4+, elle cesse d'etre Secouee."
+          "text": "Si une unite où toutes les figurines possèdent cette regle est Ébranlée au debut du round, 1D6: Sur 4+, elle cesse d'etre Ébranlée."
         }
       ]
     },
@@ -9539,12 +9539,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand c'est au tour de ce modele d'attaquer en melee, lancez X des. Pour chaque 6+, la cible subit une touche avec <key>AP</key>(2)."
+          "text": "Quand c'est au tour de ce modele d'attaquer en mêlée, lancez X des. Pour chaque 6+, la cible subit une touche avec <key>AP</key>(2)."
         }
       ]
     },
     "Warbound Boost Aura": {
-      "title": "Aura d'Amplification Lie a la guerre",
+      "title": "Aura de Boost de Guerrier-né",
       "specialRule": [
         "vhKZ0CIT6dBt",
         "RMi35vAtYNb-"
@@ -9552,12 +9552,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Warbound Boost</key>."
+          "text": "Cette figurine et son unité gagnent <key>Boost de Guerrier-né</key>."
         }
       ]
     },
     "Warbound Boost": {
-      "title": "Amplification Lie a la guerre",
+      "title": "Boost de Guerrier-né",
       "specialRule": [
         "vhKZ0CIT6dBt",
         "RMi35vAtYNb-"
@@ -9565,7 +9565,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a <key>Warbound</key>, les ennemis qui subissent des blessures de sa part subissent des blessures supplementaires sur des jets de defense echoues de 1-2 via <key>Warbound</key> (au lieu de seulement 1)."
+          "text": "Si cette figurine a <key>Guerrier-né</key>, les ennemis qui subissent des blessures de sa part, subiront des blessures supplémentaires pour chaque défense échouée à 1-2 via <key>Guerrier-né</key> (au lieu de seulement 1)."
         }
       ]
     },
@@ -9591,7 +9591,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Warbound": {
-      "title": "Lie a la guerre",
+      "title": "Guerrier-né",
       "specialRule": [
         "vhKZ0CIT6dBt",
         "RMi35vAtYNb-",
@@ -9600,12 +9600,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les ennemis qui font des jets pour bloquer des touches des armes de ce modele subissent 1 blessure supplementaire pour chaque resultat non modifie de 1."
+          "text": "les ennemis qui lancent les dés pour bloquer les touches infligées par les armes de cette figurine subissent une blessure supplémentaire pour chaque résultat non modifié de 1 obtenu."
         }
       ]
     },
     "Destructive Frenzy": {
-      "title": "Fr?n?sie destructrice",
+      "title": "Frénésie destructrice",
       "specialRule": [
         "vhKZ0CIT6dBt",
         "RMi35vAtYNb-"
@@ -9684,7 +9684,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>AP</key>(+1) en melee."
+          "text": "Ce modele et son unite gagnent <key>AP</key>(+1) en mêlée."
         }
       ]
     },
@@ -9702,7 +9702,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Break": {
-      "title": "Brisure",
+      "title": "Dislocation",
       "specialRule": [
         "vhKZ0CIT6dBt",
         "RMi35vAtYNb-"
@@ -9710,7 +9710,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key>, et sur des resultats non modifies de 6 pour toucher, ces touches gagnent <key>AP</key>(+2)."
+          "text": "Ignore la <key>Régénération</key>, et sur des resultats non modifies de 6 pour toucher, les touches gagnent <key>AP</key>(+2)."
         }
       ]
     },
@@ -9848,7 +9848,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Steadfast</key>."
+          "text": "Ce modele et son unite gagnent <key>Inébranlable</key>."
         }
       ]
     },
@@ -9879,7 +9879,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Rending in Melee": {
-      "title": "Perforant en melee",
+      "title": "Perforant en mêlée",
       "specialRule": [
         "tKa31SeqrzS1",
         "_k9nd29ZX-FQ",
@@ -9888,7 +9888,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne <key>Rending</key> en melee."
+          "text": "Ce modele gagne <key>Rending</key> en mêlée."
         }
       ]
     },
@@ -9911,7 +9911,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand ce modele subit une blessure en melee, l'attaquant subit X touches."
+          "text": "Quand ce modele subit une blessure en mêlée, l'attaquant subit X touches."
         }
       ],
       "specialRule": [
@@ -10054,7 +10054,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent +1 aux jets pour toucher en melee."
+          "text": "Ce modele et son unite gagnent +1 aux jets pour toucher en mêlée."
         }
       ],
       "specialRule": [
@@ -10100,11 +10100,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Bane when Shooting Aura": {
-      "title": "Aura de Fleau au Tir",
+      "title": "Aura de Fléau au Tir",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Fleau au tir."
+          "text": "Cette figurine et son unité gagnent <key>Fléau au tir</key>."
         }
       ],
       "specialRule": [
@@ -10113,11 +10113,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Bane in Melee Aura": {
-      "title": "Aura de Fleau en Melee",
+      "title": "Aura de Fleau en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Fleau en melee</key>."
+          "text": "Ce modele et son unite gagnent <key>Fleau en mêlée</key>."
         }
       ],
       "specialRule": [
@@ -10140,11 +10140,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Precision Fighter Buff": {
-      "title": "Bonus de Combattant de Precision",
+      "title": "Bonus de Combattant precis",
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\"; elle gagne +1 aux jets pour toucher en melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12” ou moins, elle gagne +1 aux jets pour sa prochaine touche en mélée (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -10310,11 +10310,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Melee Shrouding Aura": {
-      "title": "Aura de Voile de Melee",
+      "title": "Aura de Voile de mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Voile de Melee</key>."
+          "text": "Ce modele et son unite gagnent <key>Voile de mêlée</key>."
         }
       ],
       "specialRule": [
@@ -10385,11 +10385,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Rending in Melee Mark": {
-      "title": "Marque de Dechiquetage en Melee",
+      "title": "Marque de Dechiquetage en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Dechiquetage en melee contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Dechiquetage en mêlée contre elle une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -10410,7 +10410,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Melee Shrouding": {
-      "title": "Voile de Melee",
+      "title": "Voile de mêlée",
       "description": [
         {
           "system": "all",
@@ -10556,7 +10556,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele est tue en melee, l'unite attaquante subit X touches."
+          "text": "Si ce modele est tue en mêlée, l'unite attaquante subit X touches."
         }
       ],
       "specialRule": [
@@ -10665,11 +10665,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Versatile Attack": {
-      "title": "Attaque Polyvalente",
+      "title": "Attaque versatile",
       "description": [
         {
           "system": "all",
-          "text": "Quand cette unite est activee, choisissez un effet : jusqu'a la fin de l'activation, tous les modeles avec cette regle gagnent soit <key>AP</key>(+1) en attaque, soit +1 aux jets pour toucher en attaque."
+          "text": "Quand cette unite est activee, choisissez un effet : jusqu'a la fin de l'activation, toutes les figurines de l'unité avec cette regle gagnent soit <key>PA</key>(+1), soit +1 aux jets pour toucher."
         }
       ],
       "specialRule": [
@@ -10755,11 +10755,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Precision Fighting Mark": {
-      "title": "Marque de Precision en Melee",
+      "title": "Marque de Precision en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent +1 aux jets pour toucher en melee contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent +1 aux jets pour toucher en mêlée contre elle une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -10808,7 +10808,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, choisissez un modele ami a 6\" avec <key>Artillery</key> ; il peut immediatement se deplacer de jusqu'a 9\"."
+          "text": "Une fois par activation, choisissez une figurine alliée à 6” ou moins avec <key>Artillery</key>, elle pourra immédiatement se déplacer à 9” ou moins."
         }
       ],
       "specialRule": [
@@ -10944,11 +10944,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Bloodthirsty Fighter": {
-      "title": "Combattant Assoiffe de Sang",
+      "title": "Combattant sanguinaire",
       "description": [
         {
           "system": "all",
-          "text": "Pour chaque resultat non modifie de 1 obtenu par l'ennemi lorsqu'il bloque des touches d'armes de melee de ce modele, ce modele peut effectuer +1 attaque avec cette arme. Cette regle ne s'applique pas aux attaques generees."
+          "text": "pour chaque résultat de 1 non modifié obtenu par les ennemis lorsqu'ils bloquent les touches portées par les armes de cette figurine en mêlée, cette figurine peut effectuer un jet d'attaque supplémentaire avec cette arme. Cette règle ne s'applique pas aux nouvelles attaques générées."
         }
       ],
       "specialRule": [
@@ -10956,11 +10956,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Slam": {
-      "title": "Percussion",
+      "title": "Éclatement",
       "description": [
         {
           "system": "all",
-          "text": "Ignore Couvert et, sur des resultats non modifies de 1 pour bloquer des touches, cette arme inflige 1 blessure supplementaire."
+          "text": "Ignore les Couverts et, sur des resultats non modifies de 1 pour bloquer, cette arme inflige 1 blessure supplementaire."
         }
       ],
       "specialRule": [
@@ -10972,11 +10972,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Versatile Defense Aura": {
-      "title": "Aura de Defense Polyvalente",
+      "title": "Aura de Defense versatile",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Defense Polyvalente</key>."
+          "text": "Cette figurine et son unité gagnent <key>Defense versatile</key>."
         }
       ],
       "specialRule": [
@@ -11010,7 +11010,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent Combattant <key>Imprevisible</key>."
+          "text": "Cette figurine et son unité gagnent <key>Combattant Imprévisible</key>."
         }
       ],
       "specialRule": [
@@ -11024,11 +11024,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Ranged Shrouding Aura": {
-      "title": "Aura de Voile a Distance",
+      "title": "Aura de Voile fluctuant",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Voile a Distance</key>."
+          "text": "Ce modele et son unité gagnent <key>Voile fluctuant</key>."
         }
       ],
       "specialRule": [
@@ -11041,11 +11041,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Shred in Melee": {
-      "title": "Dechiquetage en Melee",
+      "title": "Dechiquetage en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne Dechiquetage en melee."
+          "text": "Ce modele gagne Dechiquetage en mêlée."
         }
       ],
       "specialRule": [
@@ -11059,11 +11059,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Steadfast Buff": {
-      "title": "Bonus de Tenacite",
+      "title": "Bonus d’Inébranlable",
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Tenace une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie a  12” ou moins, elle gagne <key>Inébranlable</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -11076,11 +11076,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Versatile Defense": {
-      "title": "Defense Polyvalente",
+      "title": "Defense versatile",
       "description": [
         {
           "system": "all",
-          "text": "Quand une unite dont tous les modeles ont cette regle est deployee ou activee, choisissez un effet : lorsqu'elle est prise pour cible par un tir ou une charge a plus de 9\", l'unite gagne soit +1 aux jets de defense, soit les unites ennemies subissent -1 aux jets pour toucher contre elle. Cet effet dure jusqu'a la prochaine activation de l'unite."
+          "text": "Quand une unite où toutes les figurines possèdent cette règle est déployée ou activée, choisissez un effet jusqu'à la prochaine activation: lorsqu'elle est prise pour cible par un tir ou une charge a plus de 9”, l'unité gagne soit +1 aux jets de défense, soit les unites ennemies subissent -1 aux tests de touche contre elle."
         }
       ],
       "specialRule": [
@@ -11093,11 +11093,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Ranged Shrouding": {
-      "title": "Voile a Distance",
+      "title": "Voile fluctuant",
       "description": [
         {
           "system": "all",
-          "text": "Les ennemis ont -6\" de portee lorsqu'ils tentent de tirer sur des unites dont tous les modeles ont cette regle."
+          "text": "Les ennemis ont -6” de portee lorsqu'ils tentent de tirer sur des unites où toutes les figurines possèdent cette regle."
         }
       ],
       "specialRule": [
@@ -11228,11 +11228,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Unstoppable in Melee": {
-      "title": "Inarretable en Melee",
+      "title": "Inarretable en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne Inarretable en melee."
+          "text": "Ce modele gagne Inarretable en mêlée."
         }
       ],
       "specialRule": [
@@ -11318,11 +11318,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Melee Slayer Aura": {
-      "title": "Aura de Tueur en Melee",
+      "title": "Aura de Tueur en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Tueur</key> en melee."
+          "text": "Ce modele et son unite gagnent <key>Tueur</key> en mêlée."
         }
       ],
       "specialRule": [
@@ -11583,11 +11583,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Piercing Target": {
-      "title": "Cible Perforante",
+      "title": "Perforation de la cible",
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, pendant l'activation de ce modele, choisissez une unite ennemie a 36\" et en ligne de vue, puis placez X marqueurs sur elle. Les unites amies gagnent +<key>AP</key>(X) lorsqu'elles l'attaquent."
+          "text": "Une fois par partie, pendant l'activation de cette figurine, choisissez une unite ennemie à 36” ou moins, et en ligne de vue, puis placez X marqueurs sur elle. Les unités amies gagnent <key>AP</key>(+X) lorsqu'elles l'attaquent."
         }
       ],
       "specialRule": [
@@ -11595,11 +11595,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Re-Deployment": {
-      "title": "Redeploiement",
+      "title": "Redéploiement",
       "description": [
         {
           "system": "all",
-          "text": "Une fois toutes les autres unites deployees (hors unites mises de cote), vous pouvez retirer jusqu'a deux unites amies de la table et les deployer a nouveau. Les joueurs alternent pour placer les unites avec <key>Redeploiement</key>, en commencant par le joueur qui active ensuite."
+          "text": "Une fois toutes les autres unités déployées (hors unités mises de côté), vous pouvez retirer jusqu'à deux unités amies de la table et les redéployer. Les joueurs placeront les unités avec Redéploiement, en suivant l'ordre d'activation."
         }
       ],
       "specialRule": [
@@ -11607,11 +11607,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Warden Boost Aura": {
-      "title": "Aura de Renforcement Gardien",
+      "title": "Aura de Boost de Gardien",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Renforcement Gardien</key>."
+          "text": "Cette figurine et son unité gagnent <key>Boost de Gardien</key>."
         }
       ],
       "specialRule": [
@@ -11619,11 +11619,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Smash": {
-      "title": "Ecrasement",
+      "title": "Fracas",
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Defense</key> 5+ a <key>Defense</key> 6+, cette arme gagne <key>Blast</key>(+3)."
+          "text": "Ignore la <key>Régénération</key> et, contre les unités dont la majorité des figurines ont Défense de 5+ ou 6+, cette arme gagne <key>Explosion</key>(3)."
         }
       ],
       "specialRule": [
@@ -11631,11 +11631,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Unstoppable Shooting Mark": {
-      "title": "Marque d'Inarretable au Tir",
+      "title": "Marque de tir Imparable",
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Inarretable au tir contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a  18” ou moins, les unités alliées gagnent <key>Imparable</key> lors du prochain tir (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -11643,11 +11643,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Warden Boost": {
-      "title": "Renforcement Gardien",
+      "title": "Boost de Gardien",
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont <key>Gardien</key>, les touches ennemies comptent toujours comme ayant <key>AP</key>(-1) grace a <key>Gardien</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
+          "text": "Si toutes les figurines de cette unité possèdent <key>Gardien</key>, les touches ennemies comptent toujours comme ayant <key>AP</key>(-1) grace à <key>Gardien</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9”)."
         }
       ],
       "specialRule": [
@@ -11655,7 +11655,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Sturdy": {
-      "title": "Robuste",
+      "title": "Coriace",
       "description": [
         {
           "system": "all",
@@ -11703,11 +11703,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Sturdy Boost Aura": {
-      "title": "Aura de Renforcement Robuste",
+      "title": "Aura de Renforcement Coriace",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Renforcement Robuste</key>."
+          "text": "Ce modele et son unite gagnent <key>Renforcement Coriace</key>."
         }
       ],
       "specialRule": [
@@ -11715,11 +11715,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Sturdy Boost": {
-      "title": "Renforcement Robuste",
+      "title": "Renforcement Coriace",
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unite ont <key>Robuste</key>, ils gagnent toujours +1 aux jets de defense grace a <key>Robuste</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
+          "text": "Si tous les modeles de cette unite ont <key>Coriace</key>, ils gagnent toujours +1 aux jets de defense grace a <key>Coriace</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9\")."
         }
       ],
       "specialRule": [
@@ -11925,7 +11925,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par round, les unites dont tous les modeles ont cette regle peuvent se deplacer de jusqu'a 3\" apres avoir tire ou combattu en melee."
+          "text": "Une fois par round, les unites dont tous les modeles ont cette regle peuvent se deplacer de jusqu'a 3\" apres avoir tire ou combattu en mêlée."
         }
       ],
       "specialRule": [
@@ -11937,7 +11937,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par round, quand cette unite termine son mouvement a 3\" d'unites ennemies apres avoir ete en melee, choisissez-en une et lancez autant de des que de modeles avec cette regle dans cette unite, ou autant de des que sa valeur <key>Tough</key> (pour les unites a un seul modele). Pour chaque 6+, la cible subit une blessure."
+          "text": "Une fois par round, quand cette unite termine son mouvement a 3\" d'unites ennemies apres avoir ete en mêlée, choisissez-en une et lancez autant de des que de modeles avec cette regle dans cette unite, ou autant de des que sa valeur <key>Tough</key> (pour les unites a un seul modele). Pour chaque 6+, la cible subit une blessure."
         }
       ],
       "specialRule": [
@@ -11949,7 +11949,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Placez un marqueur sur ce modele lorsqu'il ignore une blessure. En melee, choisissez une de ses armes pour obtenir +X attaques, ou X est le nombre de marqueurs sur lui."
+          "text": "Placez un marqueur sur ce modele lorsqu'il ignore une blessure. En mêlée, choisissez une de ses armes pour obtenir +X attaques, ou X est le nombre de marqueurs sur lui."
         }
       ],
       "specialRule": [
@@ -11961,7 +11961,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Pour chaque resultat non modifie de 6 pour toucher en melee, ce modele peut effectuer +1 attaque avec cette arme. Cette regle ne s'applique pas aux attaques generees."
+          "text": "Pour chaque resultat non modifie de 6 pour toucher en mêlée, ce modele peut effectuer +1 attaque avec cette arme. Cette regle ne s'applique pas aux attaques generees."
         }
       ],
       "specialRule": [
@@ -12009,7 +12009,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Percee en melee contre elle une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; les unites amies gagnent Percee en mêlée contre elle une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -12065,11 +12065,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Counter in Melee": {
-      "title": "Riposte en Melee",
+      "title": "Riposte en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Ce modele gagne <key>Riposte</key> en melee."
+          "text": "Ce modele gagne <key>Riposte</key> en mêlée."
         }
       ],
       "specialRule": [
@@ -12245,11 +12245,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Melee Evasion Buff": {
-      "title": "Bonus d'Evasion en Melee",
+      "title": "Bonus d'Evasion en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Evasion en melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Evasion en mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -12261,7 +12261,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; elle gagne <key>Encombrant</key> en melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite ennemie a 18\" ; elle gagne <key>Encombrant</key> en mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -17563,42 +17563,42 @@ export const commonSpells: SpellsByLanguage = {
       ]
     },
     "Poison Mist": {
-      "title": "Brume Empoisonnee",
+      "title": "Brume Empoisonnée",
       "description": [
         {
           "system": "all",
           "cost": 1,
-          "text": "Choisissez une unite ennemie a 18\", contre laquelle les unites amies gagnent <key>Laceration</key> pour une attaque (la prochaine fois que l'effet s'applique)."
+          "text": "Choisisser une unité ennemie a 18” ou moins, Les unités alliées gagnent <key>Lacération</key> pour une attaque (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Piranha Swarm": {
-      "title": "Essaim de Piranhas",
+      "title": "Nuée de piranhas",
       "description": [
         {
           "system": "all",
           "cost": 1,
-          "text": "Choisissez une unite ennemie a 12\", qui subit 2 touches avec <key>Desintegration</key>."
+          "text": "Choisisser une unite ennemie a 12” ou moins, elle 2 touches avec <key>Désintégration</key>."
         }
       ]
     },
     "Fateful Guidance": {
-      "title": "Guidance Fatidique",
+      "title": "Guide providentiel",
       "description": [
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Inebranlable</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisisser jusqu'à deux unités alliées à 12” ou moins, elles gagnent <key>Inébranlable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Jaguar Pounce": {
-      "title": "Bond du Jaguar",
+      "title": "Jaguar bondissant",
       "description": [
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez un modele ennemi a 18\", qui subit 4 touches avec <key>AP</key>(1)."
+          "text": "Choisisser une figurine ennemi à 18” ou moins, elle subit 4 touches avec <key>PA</key>(1)."
         }
       ]
     },
@@ -17608,37 +17608,37 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Amplification Primal</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisisser jusqu'à trois unités alliées à 12” ou moins, elles gagnent <key>Boost de Primal</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Serpent Egg": {
-      "title": "Oeuf de Serpent",
+      "title": "Œuf de Serpent",
       "description": [
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez une unite ennemie a 6\", qui subit 9 touches avec Fleau."
+          "text": "Choisisser une unité ennemie à 6” ou moins, qui subit 9 touches avec <key>Fléau</key>."
         }
       ]
     },
     "Terrifying Fury": {
-      "title": "Fureur Terrifiante",
+      "title": "Fureur terrifiante",
       "description": [
         {
           "system": "all",
           "cost": 1,
-          "text": "Choisissez une unite ennemie a 18\", qui doit faire un test de moral. En cas d'echec, elle devient fatiguee."
+          "text": "Choisissez une unité ennemie à 18” ou moins, qui devra faire un test de moral. En cas d'echec, elle sera fatiguée."
         }
       ]
     },
     "Flame of Destruction": {
-      "title": "Flamme de Destruction",
+      "title": "Flamme de la destruction",
       "description": [
         {
           "system": "all",
           "cost": 1,
-          "text": "Choisissez une unite ennemie a 18\", qui subit 1 touche avec <key>Blast</key>(3)."
+          "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 touche avec <key>Explosion</key>(3)."
         }
       ]
     },
@@ -17648,7 +17648,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Evasion de melee</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'à deux unités amies a 12” ou moins, qui gagneront <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -17658,27 +17658,27 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez une unite ennemie a 6\", qui subit 6 touches avec <key>Brisure</key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+          "text": "Choisissez une unité ennemie a 6” ou moins, qui subira 6 touches avec <key>Dislocation</key>. Lancez autant de dés que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
         }
       ]
     },
     "War Boon": {
-      "title": "Don de Guerre",
+      "title": "Bénédiction guerrière",
       "description": [
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Amplification Lie a la guerre</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a trois unités amies a 12”, qui gagneront <key>Boost de Guerrier-né</key> une fois (la prochaine fois que l'effet s'appliquera)."
         }
       ]
     },
     "Headtaker Strike": {
-      "title": "Frappe du Preneur de Tetes",
+      "title": "Décapitation",
       "description": [
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'a deux unites ennemies a 12\", qui subissent chacune 3 touches avec <key>AP</key>(2)."
+          "text": "Choisissez jusqu'a deux unités ennemies a 12”, qui subiront chacune 3 touches avec <key>PA</key>(2)."
         }
       ]
     },
@@ -17768,7 +17768,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Evasion de melee</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Evasion en mêlée</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -17888,7 +17888,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Tueur de melee</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Tueur de mêlée</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -17928,7 +17928,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 1,
-          "text": "Choisissez une unite amie a 12\", qui gagne Inarretable en melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez une unite amie a 12\", qui gagne Inarretable en mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -18028,7 +18028,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'a trois unites ennemies a 18\", contre lesquelles les unites amies gagnent <key>Perforant en melee</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", contre lesquelles les unites amies gagnent <key>Perforant en mêlée</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -18088,7 +18088,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'a trois unites ennemies a 18\", qui gagnent <key>Encombrant</key> en melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a trois unites ennemies a 18\", qui gagnent <key>Encombrant</key> en mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -18173,7 +18173,7 @@ export const commonSpells: SpellsByLanguage = {
       ]
     },
     "Lightning Bolt": {
-      "title": "Eclair",
+      "title": "Éclair",
       "description": [
         {
           "system": "Kingdom of Angels",
@@ -18183,7 +18183,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "Eternal Wardens",
           "cost": 3,
-          "text": "Choisissez une unite ennemie a 12\", qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+          "text": "Choisissez une unité ennemie  à 12” ou moins, elle subira 6 touches avec <key>PA</key>(1) et <key>Lacération</key>."
         }
       ]
     },
@@ -18263,7 +18263,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez jusqu'a deux unites ennemies a 18\", contre lesquelles les unites amies gagnent +1 aux jets pour toucher en melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a deux unites ennemies a 18\", contre lesquelles les unites amies gagnent +1 aux jets pour toucher en mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -18283,7 +18283,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>AP</key>(+1) en melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>AP</key>(+1) en mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -18323,7 +18323,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Bane</key> en melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Bane</key> en mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -18603,7 +18603,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 1,
-          "text": "Choisissez une unite ennemie a 18\", contre laquelle les unites amies gagnent Inarretable au tir une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez une unite ennemie à 18” ou moins, les unites alliée gagnent <key>Imparable</key> lors du prochain tir contre cette unité (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -18613,7 +18613,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 1,
-          "text": "Choisissez une unite ennemie a 18\", qui subit 1 touche avec <key>Ecrasement</key>."
+          "text": "Choisissez une unite ennemie à 18” ou moins, qui subit 1 touche avec <key>Fracas</key>."
         }
       ]
     },
@@ -18623,17 +18623,17 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Combattant imprevisible</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, elles gagnent <key>Combattant imprevisible</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Heavy Storm": {
-      "title": "Tempete Lourde",
+      "title": "Violente tempête",
       "description": [
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez jusqu'a deux unites ennemies a 9\", qui subissent chacune 4 touches."
+          "text": "Choisissez jusqu'à deux unités ennemies a 9” ou moins, elles subissent 4 touches chacune."
         }
       ]
     },
@@ -18643,7 +18643,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Renforcement Gardien</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'à trois unites amies a 12” ou moins, elles gagnent <key>Boost de Gardien</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -18673,7 +18673,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 2,
-          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement Robuste</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a deux unites amies a 12\", qui gagnent <key>Renforcement Coriace</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -19278,7 +19278,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -19398,7 +19398,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Primal Boost une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite amies a 12” ou moins, qui gagnent <key>Boost de Primal</key> (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -19508,7 +19508,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a deux unite ennemies a 18\", qui gagnent Unwieldy in melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a deux unite ennemies a 18\", qui gagnent Unwieldy in mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -19558,7 +19558,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent Hit & Run Shooter une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a deux unite amies a 12\", qui gagnent <key>Tir en mouvement</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -19568,7 +19568,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Shred in melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Shred in mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -19578,7 +19578,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -20013,7 +20013,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite ennemies a 18\", which les unites amies gagnent Rending in melee against une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", which les unites amies gagnent Rending in mêlée against une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -20123,7 +20123,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -20473,7 +20473,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -20588,7 +20588,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent +1 jets pour toucher in melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent +1 jets pour toucher in mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -20608,7 +20608,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite ennemies a 18\", qui gagnent Unwieldy in melee une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite ennemies a 18\", qui gagnent Unwieldy in mêlée une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -20628,7 +20628,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Melee Slayer une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent mêlée Slayer une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -20718,7 +20718,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which les unites amies gagnent +1 jets pour toucher in melee against une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a quatre unite ennemies a 18\", which les unites amies gagnent +1 jets pour toucher in mêlée against une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -20968,7 +20968,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Steadfast une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a quatre unite amies a 12\", qui gagnent Inébranlable une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -21158,7 +21158,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -21218,7 +21218,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent Evasive une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a six unite amies a 12\", qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
