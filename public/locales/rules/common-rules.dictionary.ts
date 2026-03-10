@@ -485,7 +485,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model gets <key>Ignores <key>Regeneration</key></key> in melee."
+          "text": "This model gets Ignores Regeneration in melee."
         }
       ]
     },
@@ -1111,7 +1111,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and when attacking the target must re-roll unmodified <key>Defense</key> results of 6."
+          "text": "Ignores Regeneration, and when attacking the target must re-roll unmodified <key>Defense</key> results of 6."
         }
       ],
       "specialRule": [
@@ -1536,7 +1536,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+4)."
+          "text": "Ignores Regeneration, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -1714,7 +1714,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and ignores all negative modifiers to this weapon."
+          "text": "Ignores Regeneration, and ignores all negative modifiers to this weapon."
         }
       ],
       "specialRule": [
@@ -3781,7 +3781,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
+          "text": "Ignores Regeneration, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
         }
       ]
     },
@@ -3828,7 +3828,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This weapon ignores <key>Regeneration</key>."
+          "text": "This weapon ignores Regeneration."
         }
       ]
     },
@@ -4058,7 +4058,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+2)."
+          "text": "Ignores Regeneration, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+2)."
         }
       ]
     },
@@ -4157,7 +4157,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get <key>Regeneration</key>."
+          "text": "This model and its unit get Regeneration."
         }
       ]
     },
@@ -4209,7 +4209,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules)."
+          "text": "Ignores Regeneration, and on unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules)."
         }
       ]
     },
@@ -4324,7 +4324,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+2)."
+          "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -4638,7 +4638,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Regeneration</key> once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Regeneration once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4942,7 +4942,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>Deadly</key>(+3)."
+          "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>Deadly</key>(+3)."
         }
       ],
       "specialRule": [
@@ -5694,7 +5694,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
+          "text": "Ignores Regeneration, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
         }
       ],
       "specialRule": [
@@ -5971,7 +5971,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Defense</key> 5+ to <key>Defense</key> 6+, this weapon gets <key>Blast</key>(+3)."
+          "text": "Ignores Regeneration, and against units where most models have <key>Defense</key> 5+ to <key>Defense</key> 6+, this weapon gets <key>Blast</key>(+3)."
         }
       ],
       "specialRule": [
@@ -6019,7 +6019,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 1 to block hits, this weapon deals 1 extra wound."
+          "text": "Ignores Regeneration, and on unmodified results of 1 to block hits, this weapon deals 1 extra wound."
         }
       ],
       "specialRule": [
@@ -6429,7 +6429,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+4)."
+          "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -6585,7 +6585,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignores Regeneration</key>, and on unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
+          "text": "Ignores Regeneration, and on unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
         }
       ],
       "specialRule": [
@@ -6763,7 +6763,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "ignore la <key>Régénération</key>, et lors d’une attaque, la cible doit relancer les résultats de défense non modifiés de 6."
+          "text": "ignore la Régénération, et lors d’une attaque, la cible doit relancer les résultats de défense non modifiés de 6."
         }
       ],
       "specialRule": [
@@ -7188,7 +7188,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la <key>Régénération</key> et sur un résultat non modifié de 6 pour toucher ces touches gagnent une <key>PA</key>(4)."
+          "text": "Ignore la Régénération et sur un résultat non modifié de 6 pour toucher ces touches gagnent une <key>PA</key>(4)."
         }
       ],
       "specialRule": [
@@ -7366,7 +7366,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la <key>Régénération</key> et tous les modificateurs négatifs appliqués à cette arme."
+          "text": "Ignore la Régénération et tous les modificateurs négatifs appliqués à cette arme."
         }
       ],
       "specialRule": [
@@ -9433,7 +9433,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la <key>Régénération</key>, et contre les unités dont la majorité des figurines ont une Défense de 2+ à 3+, cette arme gagne <key>PA</key>(+2)."
+          "text": "Ignore la Régénération, et contre les unités dont la majorité des figurines ont une Défense de 2+ à 3+, cette arme gagne <key>PA</key>(+2)."
         }
       ]
     },
@@ -9480,7 +9480,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette arme ignore <key>Regeneration</key>."
+          "text": "Cette arme ignore la Régénération."
         }
       ]
     },
@@ -9710,7 +9710,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la <key>Régénération</key>, et sur des resultats non modifies de 6 pour toucher, les touches gagnent <key>AP</key>(+2)."
+          "text": "Ignore la Régénération, et sur des resultats non modifies de 6 pour toucher, les touches gagnent <key>AP</key>(+2)."
         }
       ]
     },
@@ -9809,7 +9809,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ce modele et son unite gagnent <key>Regeneration</key>."
+          "text": "Ce modele et son unite gagnent la Régénération."
         }
       ]
     },
@@ -9861,7 +9861,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key>, et sur des resultats non modifies de 6 pour toucher, cette arme inflige 1 touche supplementaire (seule la touche d'origine compte comme un 6 pour les regles speciales)."
+          "text": "Ignore la Régénération, et sur des resultats non modifies de 6 pour toucher, cette arme inflige 1 touche supplementaire (seule la touche d'origine compte comme un 6 pour les regles speciales)."
         }
       ]
     },
@@ -9976,7 +9976,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+2)."
+          "text": "Ignore la Régénération et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+2)."
         }
       ],
       "specialRule": [
@@ -10290,7 +10290,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne <key>Regeneration</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unite amie a 12\" ; elle gagne Régénération une fois (la prochaine fois que l'effet s'applique)."
         }
       ],
       "specialRule": [
@@ -10594,7 +10594,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>Deadly</key>(+3)."
+          "text": "Ignore Régénération et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>Deadly</key>(+3)."
         }
       ],
       "specialRule": [
@@ -11346,7 +11346,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Defense</key> 2+ a <key>Defense</key> 4+, cette arme gagne <key>AP</key>(+1)."
+          "text": "Ignore la Régénération et, contre les unites dont la majorite des modeles ont <key>Defense</key> 2+ a <key>Defense</key> 4+, cette arme gagne <key>AP</key>(+1)."
         }
       ],
       "specialRule": [
@@ -11623,7 +11623,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la <key>Régénération</key> et, contre les unités dont la majorité des figurines ont Défense de 5+ ou 6+, cette arme gagne <key>Explosion</key>(3)."
+          "text": "Ignore la Régénération et, contre les unités dont la majorité des figurines ont Défense de 5+ ou 6+, cette arme gagne <key>Explosion</key>(3)."
         }
       ],
       "specialRule": [
@@ -11671,7 +11671,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key> et, sur des resultats non modifies de 1 pour bloquer des touches, cette arme inflige 1 blessure supplementaire."
+          "text": "Ignore la Régénération et, sur des resultats non modifies de 1 pour bloquer des touches, cette arme inflige 1 blessure supplementaire."
         }
       ],
       "specialRule": [
@@ -12081,7 +12081,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key> et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+4)."
+          "text": "Ignore la Régénération et, contre les unites dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+4)."
         }
       ],
       "specialRule": [
@@ -12237,7 +12237,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore Regeneration</key> et, sur des resultats non modifies de 6 pour toucher qui ne sont pas bloques, cette arme inflige 1 blessure supplementaire."
+          "text": "Ignore Regeneration et, sur des resultats non modifies de 6 pour toucher qui ne sont pas bloques, cette arme inflige 1 blessure supplementaire."
         }
       ],
       "specialRule": [
@@ -14920,7 +14920,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Pick up to three friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+          "text": "Pick up to three friendly units within 12\", which get Regeneration once (next time the effect would apply)."
         }
       ]
     },
@@ -15040,7 +15040,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Pick up to three friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+          "text": "Pick up to three friendly units within 12\", which get Regeneration once (next time the effect would apply)."
         }
       ]
     },
@@ -15810,7 +15810,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Pick up to six friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+          "text": "Pick up to six friendly units within 12\", which get Regeneration once (next time the effect would apply)."
         }
       ]
     },
@@ -16715,7 +16715,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Pick up to six friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+          "text": "Pick up to six friendly units within 12\", which get Regeneration once (next time the effect would apply)."
         }
       ]
     },
@@ -16725,7 +16725,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Pick up to six friendly units within 12\", which get <key>Regeneration</key> once (next time the effect would apply)."
+          "text": "Pick up to six friendly units within 12\", which get Regeneration once (next time the effect would apply)."
         }
       ]
     },
@@ -18933,7 +18933,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Regeneration</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent Régénération une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
@@ -19053,7 +19053,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent <key>Regeneration</key> une fois (la prochaine fois que l'effet s'applique)."
+          "text": "Choisissez jusqu'a trois unites amies a 12\", qui gagnent Régénération une fois (la prochaine fois que l'effet s'applique)."
         }
       ]
     },
