@@ -6810,19 +6810,19 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore le couvert</key>, et après avoir résolu les autres règles spéciales, chaque touche est multipliée par X, où X peut aller jusqu'au nombre de modèles ennemis dans l'unité cible et à moins de 3\" de celle-ci. Les touches doivent être réparties équitablement entre toutes les unités ennemies à moins de 3\" de n'importe quel modèle de la cible (le défenseur choisit comment)."
+          "text": "Ignore le couvert, et après avoir résolu les autres règles spéciales, chaque touche est multipliée par X, où X peut aller jusqu'au nombre de modèles ennemis dans l'unité cible et à moins de 3\" de celle-ci. Les touches doivent être réparties équitablement entre toutes les unités ennemies à moins de 3\" de n'importe quel modèle de la cible (le défenseur choisit comment)."
         },
         {
           "system": "gf",
-          "text": "<key>Ignore le couvert</key>, et apres avoir resolu les autres règles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unité cible."
+          "text": "Ignore le couvert, et apres avoir resolu les autres règles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unité cible."
         },
         {
           "system": "aof",
-          "text": "<key>Ignore le couvert</key>, et après la résolution des effets d’autres règles spéciales, chaque touche est multipliée par X, où X représente le minimum entre le nombre de figurines dans l’unité ciblée et le nombre de touche."
+          "text": "Ignore le couvert, et après la résolution des effets d’autres règles spéciales, chaque touche est multipliée par X, où X représente le minimum entre le nombre de figurines dans l’unité ciblée et le nombre de touche."
         },
         {
           "system": "aofr",
-          "text": "<key>Ignore le couvert</key>, et apres avoir resolu les autres règles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unité cible."
+          "text": "Ignore le couvert, et apres avoir resolu les autres règles speciales, chaque touche est multipliee par X, ou X est au maximum egal au nombre de modeles dans l'unité cible."
         }
       ],
       "specialRule": [
@@ -8152,7 +8152,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore le couvert</key>, et contre les unités où la majorité des figurines ont une <key>Défense</key> de 2+ a 4+, cette arme gagne <key>AP</key>(+1)."
+          "text": "Ignore le couvert, et contre les unités où la majorité des figurines ont une <key>Défense</key> de 2+ a 4+, cette arme gagne <key>AP</key>(+1)."
         }
       ]
     },
@@ -8830,7 +8830,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "<key>Ignore le couvert</key>, et sur des resultats non modifiés de 6 pour toucher, ces touches gagnent <key>AP</key>(+4)."
+          "text": "Ignore le couvert, et sur des resultats non modifiés de 6 pour toucher, ces touches gagnent <key>AP</key>(+4)."
         }
       ]
     },
