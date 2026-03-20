@@ -108,5 +108,54 @@ describe("army import translation flow", () => {
     );
     expect(output.ttsDescriptionOutput).toContain("doit subir X blessures");
   });
-});
 
+  it("keeps Tough wound tracking when the displayed rule name is translated to Coriace", () => {
+    localStorage.setItem(
+      "tombolaopraftotts_currentLanguage",
+      JSON.stringify("fr")
+    );
+
+    const unit = {
+      id: "unit-1",
+      originalName: "Elite",
+      originalUnit: {},
+      originalModelCountInUnit: 1,
+      originalSelectionId: "sel-1",
+      originalLoadoutCsvHelperString: "",
+      models: [],
+    } as any;
+
+    const model = {
+      id: "model-1",
+      name: "Elite",
+      originalName: "Elite",
+      qua: 4,
+      def: 4,
+      isGenerated: true,
+      originalSpecialRules: [{ name: "Coriace", key: "Tough", rating: "3" }],
+      xp: 0,
+      traits: [],
+      loadout: [],
+    } as any;
+
+    unit.models = [model];
+
+    state.gameSystem = eGameSystemInitials.GF;
+    state.armySpecialRulesDict = [
+      {
+        name: "Tough",
+        description: "This model must take X wounds before being killed.",
+      },
+    ] as any;
+    state.coreSpecialRulesDict = [
+      {
+        name: "Tough",
+        description: "This model must take X wounds before being killed.",
+      },
+    ] as any;
+
+    const output = generateUnitOutput(unit, model, state);
+
+    expect(output.originalToughValue).toBe(3);
+  });
+});

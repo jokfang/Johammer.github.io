@@ -92,7 +92,20 @@ local perModelCode = [[
     function onLoad()
         local bounds = self.getBoundsNormalized();
         modelSizeX = bounds['size']['x'];
-        local decodedMemo = JSON.decode(self.memo)
+        local decodedMemo = JSON.decode(self.memo) or {}
+
+        if decodedMemo['nameToAssign'] == nil or decodedMemo['nameToAssign'] == '' then
+            decodedMemo['nameToAssign'] = self.getName()
+                or decodedMemo['unitName']
+                or 'Unnamed Model'
+        end
+        if decodedMemo['originalToughValue'] == nil then
+            decodedMemo['originalToughValue'] = decodedMemo['originalCoriaceValue'] or 0
+        end
+        if decodedMemo['currentToughValue'] == nil then
+            decodedMemo['currentToughValue'] = decodedMemo['currentCoriaceValue'] or 0
+        end
+        self.memo = JSON.encode(decodedMemo)
     
         isShowWoundsAndSpellTokens = true;
 
@@ -406,13 +419,17 @@ local perModelCode = [[
             return;
         end
 
-        local decodedMemo = JSON.decode(self.memo)
+        local decodedMemo = JSON.decode(self.memo) or {}
+        local originalTough = decodedMemo['originalToughValue'] or decodedMemo['originalCoriaceValue'] or 0
+        local currentTough = decodedMemo['currentToughValue'] or decodedMemo['currentCoriaceValue'] or 0
+        local originalCaster = decodedMemo['originalCasterValue'] or 0
+        local currentCaster = decodedMemo['currentCasterValue'] or 0
 
         local bounds = self.getVisualBoundsNormalized();
         local modelSizeY = (bounds['size']['y'] + (bounds['size']['y'] / 2)) / self.getScale()['y'];    
 
         local rowCount = 1;
-        if (decodedMemo['originalCasterValue'] ~= 0) then
+        if (originalCaster ~= 0) then
             rowCount = rowCount + 1;
         end
 
@@ -421,11 +438,11 @@ local perModelCode = [[
         self.clearButtons();
 
         if (decodedMemo['gameSystem'] == 'gf' or decodedMemo['gameSystem'] == 'aof' or decodedMemo['gameSystem'] == 'aofr') then
-            local woundsDistribution = distributeObjects(decodedMemo['originalToughValue'], 0.275);
+            local woundsDistribution = distributeObjects(originalTough, 0.275);
             
             -- do wounds for non skirmish games
             for key, value in pairs(woundsDistribution) do
-                if (decodedMemo['currentToughValue'] < key) then
+                if (currentTough < key) then
                     opacity = 0.6;
                 else
                     opacity = 1;
@@ -447,12 +464,12 @@ local perModelCode = [[
         end
 
         if (decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff') then
-            local woundsDistribution = distributeObjects(decodedMemo['originalToughValue'] + 5, 0.275);
+            local woundsDistribution = distributeObjects(originalTough + 5, 0.275);
             
             -- do wounds for skirmish games
                 -- basically, they have as many wounds as they have tough plus 5
             for key, value in pairs(woundsDistribution) do
-                if (decodedMemo['currentToughValue'] < key) then
+                if (currentTough < key) then
                     opacity = 0.6;
                 else
                     opacity = 1;
@@ -476,11 +493,11 @@ local perModelCode = [[
         -- do spell tokens
         -- spell tokens are always the same regardless of game system
 
-        if (decodedMemo['originalCasterValue'] > 0) then
+        if (originalCaster > 0) then
             local spellTokensDistribution = distributeObjects(6, 0.275);
             local opacity = 1;
             for key, value in pairs(spellTokensDistribution) do
-                if (decodedMemo['currentCasterValue'] < key) then
+                if (currentCaster < key) then
                     opacity = 0.6;
                 else
                     opacity = 1;
@@ -503,14 +520,22 @@ local perModelCode = [[
     end
 
     function rebuildName()
-        local decodedMemo = JSON.decode(self.memo)
+        local decodedMemo = JSON.decode(self.memo) or {}
 
         local gameSystem = decodedMemo['gameSystem']
         local nameToAssign = decodedMemo['nameToAssign']
-        local currentTough = decodedMemo['currentToughValue']
-        local currentCaster = decodedMemo['currentCasterValue']
-        local originalTough = decodedMemo['originalToughValue']
-        local originalCaster = decodedMemo['originalCasterValue']
+            or self.getName()
+            or decodedMemo['unitName']
+            or 'Unnamed Model'
+        local currentTough = decodedMemo['currentToughValue'] or decodedMemo['currentCoriaceValue'] or 0
+        local currentCaster = decodedMemo['currentCasterValue'] or 0
+        local originalTough = decodedMemo['originalToughValue'] or decodedMemo['originalCoriaceValue'] or 0
+        local originalCaster = decodedMemo['originalCasterValue'] or 0
+
+        if decodedMemo['nameToAssign'] == nil or decodedMemo['nameToAssign'] == '' then
+            decodedMemo['nameToAssign'] = nameToAssign
+            self.memo = JSON.encode(decodedMemo)
+        end
 
         if (decodedMemo['gameSystem'] == 'gf' or decodedMemo['gameSystem'] == 'aof' or decodedMemo['gameSystem'] == 'aofr') then
             if (originalTough ~= 0 and originalCaster ~= 0) then

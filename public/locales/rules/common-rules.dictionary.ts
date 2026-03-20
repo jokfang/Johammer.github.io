@@ -7225,7 +7225,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "se déplace de -2” pour Avancer et -4” pour Charger ou Courir."
+          "text": "Se déplace de -2” pour Avancer et -4” pour Charger ou Courir."
         }
       ],
       "specialRule": [

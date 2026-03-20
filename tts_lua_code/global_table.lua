@@ -139,7 +139,20 @@ local perModelCode = [[
     function onLoad()
         local bounds = self.getBoundsNormalized();
         modelSizeX = bounds['size']['x'];
-        local decodedMemo = JSON.decode(self.memo)
+        local decodedMemo = JSON.decode(self.memo) or {}
+
+        if decodedMemo['nameToAssign'] == nil or decodedMemo['nameToAssign'] == '' then
+            decodedMemo['nameToAssign'] = self.getName()
+                or decodedMemo['unitName']
+                or 'Unnamed Model'
+        end
+        if decodedMemo['originalToughValue'] == nil then
+            decodedMemo['originalToughValue'] = decodedMemo['originalCoriaceValue'] or 0
+        end
+        if decodedMemo['currentToughValue'] == nil then
+            decodedMemo['currentToughValue'] = decodedMemo['currentCoriaceValue'] or 0
+        end
+        self.memo = JSON.encode(decodedMemo)
     
         isShowWoundsAndSpellTokens = true;
 
@@ -181,7 +194,7 @@ local perModelCode = [[
     function hpUp(player_color)
         local decodedMemo = JSON.decode(self.memo)
 
-        printToAll("'" .. decodedMemo['unitName'] .. "' gained 1 Wound.");
+        printToAll("'" .. decodedMemo['unitName'] .. "' subit 1 blessure.");
         
         self.memo = JSON.encode(mergeTables(decodedMemo, {
             currentToughValue = decodedMemo['currentToughValue'] + 1,
@@ -195,7 +208,7 @@ local perModelCode = [[
     function hpDown(player_color)
         local decodedMemo = JSON.decode(self.memo)
 
-        printToAll("'" .. decodedMemo['unitName'] .. "' lost 1 Wound.");
+        printToAll("'" .. decodedMemo['unitName'] .. "' perd 1 blessure.");
         
         self.memo = JSON.encode(mergeTables(decodedMemo, {
             currentToughValue = decodedMemo['currentToughValue'] - 1,
@@ -208,7 +221,7 @@ local perModelCode = [[
     function spellTokensUp(player_color)
         local decodedMemo = JSON.decode(self.memo)
         
-        printToAll("'" .. decodedMemo['unitName'] .. "' gained 1 Spell Token.");
+        printToAll("'" .. decodedMemo['unitName'] .. "' gagne 1 jeton de sort.");
         
         self.memo = JSON.encode(mergeTables(decodedMemo, {
             currentCasterValue = decodedMemo['currentCasterValue'] + 1,
@@ -221,7 +234,7 @@ local perModelCode = [[
     function spellTokensDown(player_color)
         local decodedMemo = JSON.decode(self.memo)
         
-        printToAll("'" .. decodedMemo['unitName'] .. "' lost 1 Spell Token.");
+        printToAll("'" .. decodedMemo['unitName'] .. "' perd 1 jeton de sort.");
         
         self.memo = JSON.encode(mergeTables(decodedMemo, {
             currentCasterValue = decodedMemo['currentCasterValue'] - 1,
@@ -234,7 +247,7 @@ local perModelCode = [[
     function toggleActivated(player_color)
         local decodedMemo = JSON.decode(self.memo)
         local unitMates = getAllUnitMates();
-        printToAll("'" .. decodedMemo['unitName'] .. "' toggled activation")
+        printToAll("Activation de '" .. decodedMemo['unitName'] .. "' modifiee")
         for _, unitMate in ipairs(unitMates) do
             
             unitMate.memo = JSON.encode(mergeTables(JSON.decode(unitMate.memo), {
@@ -249,7 +262,7 @@ local perModelCode = [[
     function toggleStunned(player_color)
         local decodedMemo = JSON.decode(self.memo)
         local unitMates = getAllUnitMates()
-        printToAll("'" .. decodedMemo['unitName'] .. "' toggled Stunned")
+        printToAll("Etat Etourdie de '" .. decodedMemo['unitName'] .. "' modifie")
         
         for _, unitMate in ipairs(unitMates) do
             unitMate.memo = JSON.encode(mergeTables(JSON.decode(unitMate.memo), {
@@ -264,7 +277,7 @@ local perModelCode = [[
         local decodedMemo = JSON.decode(self.memo)
         local unitMates = getAllUnitMates()
         
-        printToAll("'" .. decodedMemo['unitName'] .. "' toggled Shaken")
+        printToAll("Etat Ebranlee de '" .. decodedMemo['unitName'] .. "' modifie")
 
         for _, unitMate in ipairs(unitMates) do
             
@@ -299,13 +312,13 @@ local perModelCode = [[
     function countUnit(player_color)
         local unitMates = getAllUnitMates();
         local decodedMemo = JSON.decode(self.memo)
-        printToAll("Unit '" .. decodedMemo['unitName'] .. "' has " .. tablelength(unitMates) .." models remaining.")
+        printToAll("L'unite '" .. decodedMemo['unitName'] .. "' a encore " .. tablelength(unitMates) .." figurine(s).")
     end
 
     function deactivateArmy()
         local armyMates = getAllArmyMates();
         local decodedMemo = JSON.decode(self.memo)
-        printToAll("'" .. decodedMemo['armyNameToAssign'] .. "' deactivated")
+        printToAll("'" .. decodedMemo['armyNameToAssign'] .. "' desactivee")
 
         for _, armyMate in ipairs(armyMates) do
             armyMate.memo = JSON.encode(mergeTables(JSON.decode(armyMate.memo), {
@@ -320,7 +333,7 @@ local perModelCode = [[
     function armyRefreshSpellTokens()
         local armyMates = getAllArmyMates();
         local decodedMemo = JSON.decode(self.memo)
-        printToAll("'" .. decodedMemo['armyNameToAssign'] .. "' Spell Tokens refreshed")
+        printToAll("Jetons de sort de '" .. decodedMemo['armyNameToAssign'] .. "' rafraichis")
 
         for _, armyMate in ipairs(armyMates) do
             local armyMateMemo = JSON.decode(armyMate.memo);
@@ -387,9 +400,9 @@ local perModelCode = [[
 
     
         if measuringCircle.radius == 0 then
-            printToAll("'" .. decodedMemo['unitName'] .. "' model measuring aura turned off")
+            printToAll("Aura de portee de '" .. decodedMemo['unitName'] .. "' desactivee")
         else
-            printToAll("'" .. decodedMemo['unitName'] .. "' model measuring aura set to " .. measuringCircle.radius .. "''")
+            printToAll("Aura de portee de '" .. decodedMemo['unitName'] .. "' reglee sur " .. measuringCircle.radius .. "''")
         end
     
         rebuildStatusEffectThings();
@@ -452,13 +465,17 @@ local perModelCode = [[
             return;
         end
 
-        local decodedMemo = JSON.decode(self.memo)
+        local decodedMemo = JSON.decode(self.memo) or {}
+        local originalTough = decodedMemo['originalToughValue'] or decodedMemo['originalCoriaceValue'] or 0
+        local currentTough = decodedMemo['currentToughValue'] or decodedMemo['currentCoriaceValue'] or 0
+        local originalCaster = decodedMemo['originalCasterValue'] or 0
+        local currentCaster = decodedMemo['currentCasterValue'] or 0
 
         local bounds = self.getVisualBoundsNormalized();
         local modelSizeY = (bounds['size']['y'] + (bounds['size']['y'] / 2)) / self.getScale()['y'];    
 
         local rowCount = 1;
-        if (decodedMemo['originalCasterValue'] ~= 0) then
+        if (originalCaster ~= 0) then
             rowCount = rowCount + 1;
         end
 
@@ -467,11 +484,11 @@ local perModelCode = [[
         self.clearButtons();
 
         if (decodedMemo['gameSystem'] == 'gf' or decodedMemo['gameSystem'] == 'aof' or decodedMemo['gameSystem'] == 'aofr') then
-            local woundsDistribution = distributeObjects(decodedMemo['originalToughValue'], 0.275);
+            local woundsDistribution = distributeObjects(originalTough, 0.275);
             
             -- do wounds for non skirmish games
             for key, value in pairs(woundsDistribution) do
-                if (decodedMemo['currentToughValue'] < key) then
+                if (currentTough < key) then
                     opacity = 0.6;
                 else
                     opacity = 1;
@@ -493,12 +510,12 @@ local perModelCode = [[
         end
 
         if (decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff') then
-            local woundsDistribution = distributeObjects(decodedMemo['originalToughValue'] + 5, 0.275);
+            local woundsDistribution = distributeObjects(originalTough + 5, 0.275);
             
             -- do wounds for skirmish games
                 -- basically, they have as many wounds as they have tough plus 5
             for key, value in pairs(woundsDistribution) do
-                if (decodedMemo['currentToughValue'] < key) then
+                if (currentTough < key) then
                     opacity = 0.6;
                 else
                     opacity = 1;
@@ -522,11 +539,11 @@ local perModelCode = [[
         -- do spell tokens
         -- spell tokens are always the same regardless of game system
 
-        if (decodedMemo['originalCasterValue'] > 0) then
+        if (originalCaster > 0) then
             local spellTokensDistribution = distributeObjects(6, 0.275);
             local opacity = 1;
             for key, value in pairs(spellTokensDistribution) do
-                if (decodedMemo['currentCasterValue'] < key) then
+                if (currentCaster < key) then
                     opacity = 0.6;
                 else
                     opacity = 1;
@@ -549,22 +566,30 @@ local perModelCode = [[
     end
 
     function rebuildName()
-        local decodedMemo = JSON.decode(self.memo)
+        local decodedMemo = JSON.decode(self.memo) or {}
 
         local gameSystem = decodedMemo['gameSystem']
         local nameToAssign = decodedMemo['nameToAssign']
-        local currentTough = decodedMemo['currentToughValue']
-        local currentCaster = decodedMemo['currentCasterValue']
-        local originalTough = decodedMemo['originalToughValue']
-        local originalCaster = decodedMemo['originalCasterValue']
+            or self.getName()
+            or decodedMemo['unitName']
+            or 'Unnamed Model'
+        local currentTough = decodedMemo['currentToughValue'] or decodedMemo['currentCoriaceValue'] or 0
+        local currentCaster = decodedMemo['currentCasterValue'] or 0
+        local originalTough = decodedMemo['originalToughValue'] or decodedMemo['originalCoriaceValue'] or 0
+        local originalCaster = decodedMemo['originalCasterValue'] or 0
+
+        if decodedMemo['nameToAssign'] == nil or decodedMemo['nameToAssign'] == '' then
+            decodedMemo['nameToAssign'] = nameToAssign
+            self.memo = JSON.encode(decodedMemo)
+        end
 
         if (decodedMemo['gameSystem'] == 'gf' or decodedMemo['gameSystem'] == 'aof' or decodedMemo['gameSystem'] == 'aofr') then
             if (originalTough ~= 0 and originalCaster ~= 0) then
-                self.setName(nameToAssign .. "\r\n" .. "Wounds: ".. currentTough .. "/" .. originalTough .. "\r\n" .. "Spell Tokens: " .. currentCaster .. '/6')
+                self.setName(nameToAssign .. "\r\n" .. "Blessures : ".. currentTough .. "/" .. originalTough .. "\r\n" .. "Jetons de sort : " .. currentCaster .. '/6')
             elseif (originalTough ~= 0 and originalCaster == 0) then
-                self.setName(nameToAssign .. "\r\n" .. "Wounds:" .. currentTough .. '/' .. originalTough)
+                self.setName(nameToAssign .. "\r\n" .. "Blessures : " .. currentTough .. '/' .. originalTough)
             elseif (originalTough == 0 and originalCaster ~= 0) then
-                self.setName(nameToAssign .. "\r\n" .. "Spell Tokens: " .. currentCaster .. '/6')
+                self.setName(nameToAssign .. "\r\n" .. "Jetons de sort : " .. currentCaster .. '/6')
             else
                 self.setName(nameToAssign)
             end
@@ -572,13 +597,13 @@ local perModelCode = [[
 
         if (decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff') then
             if (originalTough ~= 0) then
-                nameToAssign = nameToAssign .. "\r\nTough: " .. originalTough;
+                nameToAssign = nameToAssign .. "\r\nCoriace : " .. originalTough;
             end
 
-            nameToAssign = nameToAssign .. "\r\nWounds: " .. currentTough;
+            nameToAssign = nameToAssign .. "\r\nBlessures : " .. currentTough;
             
             if (originalCaster ~= 0) then
-                nameToAssign = nameToAssign .. "\r\n" .. "Spell Tokens: " .. currentCaster .. '/6';
+                nameToAssign = nameToAssign .. "\r\n" .. "Jetons de sort : " .. currentCaster .. '/6';
             end
             self.setName(nameToAssign)
         end
@@ -587,7 +612,7 @@ local perModelCode = [[
     function measuringOff()
         local decodedMemo = JSON.decode(self.memo)
         measuringCircle.radius = 0;
-        printToAll("'" .. decodedMemo['unitName'] .. "' Measuring Off")
+        printToAll("Portee desactivee pour '" .. decodedMemo['unitName'] .. "'")
         rebuildStatusEffectThings();
     end
 
@@ -599,7 +624,7 @@ local perModelCode = [[
             armyMate.call('measuringOff');
         end
         
-        printToAll("'" .. decodedMemo['armyNameToAssign'] .. "' Measuring Off")
+        printToAll("Portee armee desactivee pour '" .. decodedMemo['armyNameToAssign'] .. "'")
         rebuildStatusEffectThings();
 
     end
@@ -608,58 +633,55 @@ local perModelCode = [[
         local decodedMemo = JSON.decode(self.memo)
         
         self.clearContextMenu()
+        
+        self.addContextMenuItem("Portee armee desactivee", measuringOffArmy)
+        if (decodedMemo['originalToughValue'] ~= 0 or decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff' or decodedMemo['originalCasterValue'] ~= 0) then
+            self.addContextMenuItem("Afficher/Masquer B/JS", cycleShowHideWoundsAndSpellTokens, false)
+        end  
+        self.addContextMenuItem("Tous les sélectionner", selectAllUnit)
+        self.addContextMenuItem("Désactiver", deactivateArmy)
+        self.addContextMenuItem("Compter", countUnit)
+        self.addContextMenuItem("Portée", cycleMeasuringRadius, true)
+        self.addContextMenuItem("Portée desactivée", measuringOff, true) 
+        self.addContextMenuItem("Rafraichir les jetons de sort", armyRefreshSpellTokens)
 
-        self.addContextMenuItem("▼ Model", __noop, true)
+        if  (decodedMemo['originalToughValue'] ~= 0 or decodedMemo['originalCasterValue'] ~= 0 or decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff') then
+            self.addContextMenuItem("▼ Figurine", __noop, true)
+        end
 
         if (decodedMemo['originalToughValue'] ~= 0 or decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff') then
-            self.addContextMenuItem("Wounds +", hpUp, true)
-            self.addContextMenuItem("Wounds -", hpDown, true)
+            self.addContextMenuItem("Blessure +", hpUp, true)
+            self.addContextMenuItem("Blessure -", hpDown, true)
         end
 
         if (decodedMemo['originalCasterValue'] ~= 0) then
-            self.addContextMenuItem("Spell Tokens +", spellTokensUp, true)
-            self.addContextMenuItem("Spell Tokens -", spellTokensDown, true)
-        end
+            self.addContextMenuItem("Jeton de sort +", spellTokensUp, true)
+            self.addContextMenuItem("Jeton de sort -", spellTokensDown, true)
+        end  
 
-        if (decodedMemo['originalToughValue'] ~= 0 or decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff' or decodedMemo['originalCasterValue'] ~= 0) then
-            self.addContextMenuItem("Toggle W/SP Count", cycleShowHideWoundsAndSpellTokens, false)
-        end    
-
-        self.addContextMenuItem("Measuring", cycleMeasuringRadius, true)
-        self.addContextMenuItem("Measuring Off", measuringOff, true) 
-
-        self.addContextMenuItem("▼ Unit", __noop, true)
+        self.addContextMenuItem("▼ Unité", __noop, true)
 
         if (decodedMemo['isActivated']) then
-            self.addContextMenuItem("☑ Activated", toggleActivated, false)
+            self.addContextMenuItem("☑ Activé", toggleActivated, false)
         else
-            self.addContextMenuItem("☐ Activated", toggleActivated, false)
+            self.addContextMenuItem("☐ Activé", toggleActivated, false)
         end
 
         if (decodedMemo['gameSystem'] == 'aofs' or decodedMemo['gameSystem'] == 'gff') then
             if (decodedMemo['isStunned']) then
-                self.addContextMenuItem("☑ Stunned", toggleStunned, false)
+                self.addContextMenuItem("☑ Etourdie", toggleStunned, false)
             else
-                self.addContextMenuItem("☐ Stunned", toggleStunned, false)
+                self.addContextMenuItem("☐ Etourdie", toggleStunned, false)
             end
         end
 
         if (decodedMemo['gameSystem'] == 'gf' or decodedMemo['gameSystem'] == 'aof' or decodedMemo['gameSystem'] == 'aofr') then
             if (decodedMemo['isShaken']) then
-                self.addContextMenuItem("☑ Shaken", toggleShaken, false)
+                self.addContextMenuItem("☑ Ébranlée", toggleShaken, false)
             else
-                self.addContextMenuItem("☐ Shaken", toggleShaken, false)
+                self.addContextMenuItem("☐ Ébranlée", toggleShaken, false)
             end
         end
-    
-        self.addContextMenuItem("Select All", selectAllUnit)
-        self.addContextMenuItem("Count", countUnit)
-
-        self.addContextMenuItem("▼ Army", __noop, true)
-        
-        self.addContextMenuItem("Army Measuring Off", measuringOffArmy)
-        self.addContextMenuItem("Deactivate", deactivateArmy)
-        self.addContextMenuItem("Refresh Spell Tokens", armyRefreshSpellTokens)
     end
 ]]
 
@@ -674,7 +696,7 @@ local function BuildModelCard(modelDefinition, unitIndex, modelIndex, totalModel
         <Button id="%s-%s" onClick="Global/beginAssignment">
             <VerticalLayout childForceExpandHeight="false" height="200" padding="20" spacing="20">
                 <Text fontSize="%s" fontStyle="bold" color="#2f3640">%s</Text>
-                <Text fontSize="%s" color="#2f3640" fontStyle="italic">Loadout: %s</Text>
+                <Text fontSize="%s" color="#2f3640" fontStyle="italic">Equipement : %s</Text>
             </VerticalLayout>
         </Button>
     ]], unitIndex, modelIndex, calculateFontSize(totalModelsInThisUnit, 26, 4), modelDefinition['name']:gsub("%&", "<![CDATA[&]]>"), calculateFontSize(totalModelsInThisUnit, 20, 2), modelDefinition['loadoutCSV']:gsub("%&", "<![CDATA[&]]>"))
@@ -796,7 +818,7 @@ function beginAssignment(player, _, id)
     originalToughValueToAssign = army[unitIndex]['modelDefinitions'][modelIndex]['originalToughValue']
     originalCasterValueToAssign = army[unitIndex]['modelDefinitions'][modelIndex]['originalCasterValue']
 
-    broadcastToAll("Assigning '" .. nameOfModelAssigning .. "'")
+    broadcastToAll("Assignation de '" .. nameOfModelAssigning .. "'")
 end
 
 function assignNameAndDescriptionToObjects( object )
@@ -842,7 +864,7 @@ function assignNameAndDescriptionToObjects( object )
         target.reload();
     end
 
-    broadcastToAll("Assigned '" .. nameOfModelAssigning .. "' to " .. tablelength(selectedObjects) .. " objects!", {0, 1, 0})
+    broadcastToAll("'" .. nameOfModelAssigning .. "' assigne a " .. tablelength(selectedObjects) .. " objet(s) !", {0, 1, 0})
 end
 
 function onScriptingButtonDown(index, player_color)
@@ -860,7 +882,7 @@ function onScriptingButtonDown(index, player_color)
 
     -- scripting key 2 is cancel assigning
     if (index == 2 and nameOfModelAssigning ~= nil) then
-        broadcastToAll("Stopped assigning '" .. nameOfModelAssigning .. "'")
+        broadcastToAll("Assignation de '" .. nameOfModelAssigning .. "' annulee")
         cancelCurrentAssigning();
     end
 end
@@ -912,12 +934,12 @@ end
 
 function handleResponse(response)
     if response.is_error then
-        broadcastToAll("Couldn't get the list from the server! Please re-load and try again", ERROR_RED)
+        broadcastToAll("Impossible de recuperer la liste depuis le serveur ! Recharge et reessaie.", ERROR_RED)
         return
     end
 
     if not isValidJson(response.text) then
-        broadcastToAll("Data from the server is not structured data - are you sure you copied the right URL? Please double check your URL and try again", ERROR_RED)
+        broadcastToAll("Les donnees du serveur sont invalides. Verifie l'URL puis reessaie.", ERROR_RED)
         return
     end
 

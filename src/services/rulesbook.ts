@@ -3,6 +3,10 @@ import { eGameSystemInitials } from "../army-forge-types";
 import {
   RulesBook as SharedRulesBook,
 } from "../../shared/rulesbook";
+import {
+  commonRules,
+  type RuleTranslationEntry,
+} from "../../public/locales/rules/common-rules.dictionary";
 
 type CommonRule = {
   id: number;
@@ -14,15 +18,46 @@ type CommonRule = {
 
 type CommonRulesResponse = { rules: CommonRule[] };
 
+const pickDescriptionForSystem = (
+  entry: RuleTranslationEntry | undefined,
+  system: eGameSystemInitials
+) => {
+  if (!entry || entry.description.length === 0) {
+    return "";
+  }
+
+  const normalizedSystem = `${system}`.toLowerCase();
+  const exact = entry.description.find(
+    (d) => `${d.system || ""}`.toLowerCase() === normalizedSystem
+  );
+  if (exact?.text) {
+    return exact.text;
+  }
+
+  const allSystems = entry.description.find(
+    (d) => `${d.system || ""}`.toLowerCase() === "all"
+  );
+  if (allSystems?.text) {
+    return allSystems.text;
+  }
+
+  return entry.description[0]?.text || "";
+};
+
 export class RulesBook extends SharedRulesBook {
   static async getCommonRulesForGameSystem(
     gameSystemInitials: eGameSystemInitials
   ): Promise<CommonRulesResponse> {
-    const key = RulesBook.toGameSystemKey(gameSystemInitials);
-    const url = `${RulesBook.getArmyForgeHost(false)}${RulesBook.getCommonRulesPath(
-      key
-    )}`;
-    return ky.get(url).json<CommonRulesResponse>();
+    const englishRules = commonRules.en || {};
+
+    return {
+      rules: Object.entries(englishRules).map(([name, entry], index) => ({
+        id: index + 1,
+        name,
+        description: pickDescriptionForSystem(entry, gameSystemInitials),
+        hasRating: false,
+      })),
+    };
   }
 }
 

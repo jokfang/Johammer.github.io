@@ -12,6 +12,7 @@ import {
 
 type iResolvedSpecialRule = {
   id: string;
+  key?: string;
   name: string;
   definition: string;
   rating?: string | number;
@@ -197,6 +198,7 @@ export const generateUnitOutput = (
     const definition = getSpecialRuleDefinition(x.name, stateView, x.key);
     return {
       id: nanoid(),
+      key: x.key || x.name,
       name: `${x.name}`,
       definition,
       rating: x.rating,
@@ -216,6 +218,7 @@ export const generateUnitOutput = (
     const definition = getSpecialRuleDefinition(x.name, stateView);
     return {
       id: nanoid(),
+      key: x.key || x.name,
       name: `${x.name}`,
       definition,
       rating: x.rating,
@@ -359,10 +362,11 @@ export const generateUnitOutput = (
     if (sr === null) {
       return;
     }
-    if (sr.name === "Tough") {
+    const ruleKey = `${sr.key ?? sr.name}`.toLowerCase();
+    if (ruleKey === "tough") {
       totalToughRating += Number(sr.rating ?? 0);
     }
-    if (sr.name === "Caster") {
+    if (ruleKey === "caster") {
       totalCasterRating += Number(sr.rating ?? 0);
     }
   });
