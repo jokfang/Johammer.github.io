@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste d'armee | ArmyArchiveFR</title>
+    <meta
+      name="description"
+      content="Informations de base sur une armee selectionnee."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="top-header">
+      <nav class="top-nav">
+        <a class="menu-button menu-home" href="./">Accueil</a>
+        <a class="menu-button" id="backToSelection" href="./choix-d-armee.html">Choix d'armee</a>
+        <button class="menu-button menu-login" id="openLoginModal" type="button">Se connecter</button>
+      </nav>
+    </header>
+
+    <main class="army-info-page">
+      <section class="army-info-hero">
+        <p class="army-eyebrow" id="systemLabel">Systeme</p>
+        <h1 id="armyTitle">Armee</h1>
+        <p id="armySubtitle">Aucune armee selectionnee.</p>
+      </section>
+
+      <section class="army-info-grid" id="armyInfoGrid" hidden>
+        <article class="info-card">
+          <h2>Style de jeu</h2>
+          <p id="armyStyle"></p>
+        </article>
+        <article class="info-card">
+          <h2>Selection</h2>
+          <p id="selectionMeta"></p>
+        </article>
+      </section>
+      <div class="army-actions" id="armyActions" hidden>
+        <a class="pdf-button" id="pdfButton" href="#" target="_blank" rel="noopener noreferrer">Consulter le PDF</a>
+      </div>
+
+      <p class="army-error" id="armyError" hidden>
+        Parametres invalides. Utilisez `systeme` et `armee` depuis la page de choix.
+      </p>
+    </main>
+
+    <footer class="footer">
+      <p>Projet non officiel communautaire. One Page Rules appartient a ses auteurs respectifs.</p>
+    </footer>
+
+    <div class="login-popup" id="loginPopup" hidden>
+      <h2 id="loginModalTitle">Connexion</h2>
+      <p id="loginModalDescription">
+        Connectez-vous avec Patreon pour synchroniser votre compte.
+      </p>
+      <a class="patreon-login-button" id="patreonLoginButton" href="/.netlify/functions/patreon-login">Se connecter avec Patreon</a>
+      <p class="login-helper" id="patreonLoginHelper">Vous serez redirige vers Patreon pour autoriser la connexion.</p>
+      <div class="patreon-account" id="patreonAccount" hidden>
+        <p class="patreon-user" id="patreonUser"></p>
+        <p class="patreon-tier-line" id="patreonTierLine"></p>
+        <button class="logout-button" id="logoutButton" type="button">Se deconnecter</button>
+      </div>
+    </div>
+
+    <script type="module" src="./src/army-list.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Pour créer la clé API
+https://www.patreon.com/portal/registration/register-clients
+
+À configurer sur Netlify
+
+PATREON_CLIENT_ID
+PATREON_CLIENT_SECRET
+PATREON_REDIRECT_URI
+Exemple: https://<ton-site>.netlify.app/.netlify/functions/patreon-callback
+(optionnel) PATREON_OAUTH_SCOPES
+Sinon défaut: identity identity[email] identity.memberships

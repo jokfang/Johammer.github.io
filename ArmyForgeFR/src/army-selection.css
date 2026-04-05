@@ -1,0 +1,200 @@
+:root {
+  --ink: #f5f1e8;
+  --ink-soft: rgba(245, 241, 232, 0.85);
+  --line: rgba(255, 255, 255, 0.22);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 15% 10%, rgba(232, 120, 40, 0.2), transparent 30%),
+    radial-gradient(circle at 85% 12%, rgba(0, 177, 255, 0.2), transparent 28%),
+    #12151c;
+}
+
+.top-header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0e1117;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.top-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1rem;
+}
+
+.menu-button {
+  display: inline-block;
+  padding: 0.65rem 0.95rem;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 140ms ease, transform 140ms ease;
+}
+
+.menu-button:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(-1px);
+}
+
+.army-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.army-hero h1 {
+  margin: 0.55rem 0 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  line-height: 1.06;
+}
+
+.army-eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.army-hero p {
+  margin: 1rem 0 0;
+  font-size: clamp(1rem, 1.4vw, 1.18rem);
+  color: var(--ink-soft);
+}
+
+.army-list-wrapper {
+  margin-top: 2rem;
+}
+
+.army-category + .army-category {
+  margin-top: 2rem;
+}
+
+.category-head {
+  margin-bottom: 0.9rem;
+}
+
+.category-head h2 {
+  margin: 0.35rem 0 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+}
+
+.category-eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.army-error {
+  margin: 0 0 1rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba(255, 130, 130, 0.45);
+  border-radius: 0.65rem;
+  color: #ffd3d3;
+  background: rgba(110, 25, 25, 0.45);
+}
+
+.army-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.9rem;
+}
+
+.army-item {
+  min-height: 4rem;
+}
+
+.army-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  padding: 0.95rem 1rem;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 700;
+  border-radius: 0.7rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.07);
+  transition: transform 120ms ease, background-color 120ms ease;
+}
+
+.army-link:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.army-link-core {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.army-name {
+  font-size: 1rem;
+}
+
+.army-subtitle {
+  margin-top: 0.3rem;
+  font-size: 0.84rem;
+  color: var(--ink-soft);
+}
+
+.footer {
+  min-height: 54px;
+  display: grid;
+  place-items: center;
+  font-size: 0.9rem;
+  color: rgba(245, 241, 232, 0.72);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background: #0e1117;
+  text-align: center;
+  padding: 0.8rem 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .top-header {
+    height: 64px;
+  }
+
+  .army-page {
+    padding-top: 1.4rem;
+  }
+
+  .army-list {
+    grid-template-columns: 1fr;
+  }
+}

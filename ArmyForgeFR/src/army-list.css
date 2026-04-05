@@ -1,0 +1,227 @@
+:root {
+  --ink: #f5f1e8;
+  --ink-soft: rgba(245, 241, 232, 0.85);
+  --line: rgba(255, 255, 255, 0.22);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 8%, rgba(0, 198, 255, 0.16), transparent 34%),
+    radial-gradient(circle at 88% 12%, rgba(255, 146, 74, 0.2), transparent 30%),
+    #12151c;
+}
+
+.top-header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0e1117;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.top-nav {
+  width: 100%;
+  display: flex;
+  gap: 0.7rem;
+  padding: 0 1rem;
+}
+
+.menu-button {
+  display: inline-block;
+  padding: 0.65rem 0.95rem;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.menu-button:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.army-info-page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.army-eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.army-info-hero h1 {
+  margin: 0.5rem 0 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(2rem, 3.6vw, 3rem);
+}
+
+.army-info-hero p {
+  margin-top: 0.9rem;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+.army-info-grid {
+  margin-top: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.info-card {
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.info-card h2 {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.15rem;
+}
+
+.info-card p {
+  margin: 0.65rem 0 0;
+  color: var(--ink-soft);
+}
+
+.army-error {
+  margin: 1rem 0 0;
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba(255, 130, 130, 0.45);
+  border-radius: 0.65rem;
+  color: #ffd3d3;
+  background: rgba(110, 25, 25, 0.45);
+}
+
+.army-actions {
+  margin-top: 1rem;
+}
+
+.viewer-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.viewer-eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.viewer-hero h1 {
+  margin: 0.5rem 0 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(2rem, 3.6vw, 3rem);
+}
+
+.viewer-hero p {
+  margin-top: 0.9rem;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+.viewer-status {
+  margin-top: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.65rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--ink-soft);
+}
+
+.viewer-frame {
+  width: 100%;
+  min-height: 78vh;
+  margin-top: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  background: #0e1117;
+}
+
+.viewer-fallback {
+  margin: 0.9rem 0 0;
+  color: var(--ink-soft);
+}
+
+.viewer-fallback a {
+  color: var(--ink);
+}
+
+.pdf-button {
+  display: inline-block;
+  padding: 0.78rem 1rem;
+  border-radius: 0.65rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.pdf-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.pdf-button[aria-disabled="true"] {
+  color: rgba(245, 241, 232, 0.45);
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.pdf-button[aria-disabled="true"]:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.footer {
+  min-height: 54px;
+  display: grid;
+  place-items: center;
+  font-size: 0.9rem;
+  color: rgba(245, 241, 232, 0.72);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background: #0e1117;
+  text-align: center;
+  padding: 0.8rem 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (max-width: 760px) {
+  .top-header {
+    height: 64px;
+  }
+
+  .army-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
