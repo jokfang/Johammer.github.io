@@ -13,6 +13,10 @@ const router = createBrowserRouter([
     element: <ConstructeurArmee />,
   },
   {
+    path: "/ArmyForgeFR",
+    element: <ConstructeurArmee />,
+  },
+  {
     path: "/",
     element: <MainLayout />,
     children: [

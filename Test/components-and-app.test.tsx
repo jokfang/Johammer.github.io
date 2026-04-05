@@ -178,6 +178,14 @@ describe("router/app/main entry", () => {
     const html = renderToStaticMarkup(<App />);
     expect(html).toContain("RouterProvider");
     expect(createBrowserRouter).toHaveBeenCalled();
+
+    const routes = createBrowserRouter.mock.calls[0]?.[0];
+    expect(routes).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ path: "/ConstructeurArmee" }),
+        expect.objectContaining({ path: "/ArmyForgeFR" }),
+      ])
+    );
   });
 
   it("renders MainLayout and includes outlet", async () => {
