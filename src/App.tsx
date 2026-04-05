@@ -5,8 +5,13 @@ import {
 import MainLayout from "./layouts/MainLayout";
 import HomePage from "./pages/HomePage";
 import Tools from "./pages/Tools";
+import ConstructeurArmee from "./pages/ConstructeurArmee";
 
 const router = createBrowserRouter([
+  {
+    path: "/ConstructeurArmee",
+    element: <ConstructeurArmee />,
+  },
   {
     path: "/",
     element: <MainLayout />,
