@@ -1,13 +1,27 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { resolve } from "node:path";
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/.netlify/functions': 'http://localhost:8888'
-    }
+      "/.netlify/functions": "http://localhost:8888"
+    },
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "index.html"),
+        "ArmyForgeFR/index": resolve(__dirname, "ArmyForgeFR/index.html"),
+        "ArmyForgeFR/choix-d-armee": resolve(__dirname, "ArmyForgeFR/choix-d-armee.html"),
+        "ArmyForgeFR/liste-d-armee": resolve(__dirname, "ArmyForgeFR/liste-d-armee.html"),
+        "ArmyForgeFR/livre": resolve(__dirname, "ArmyForgeFR/livre.html"),
+        "ArmyForgeFR/pdf-viewer": resolve(__dirname, "ArmyForgeFR/pdf-viewer.html"),
+        "ArmyForgeFR/depot": resolve(__dirname, "ArmyForgeFR/depot.html"),
+      },
+    },
   },
   test: {
     setupFiles: ["./Test/setup.ts"],
