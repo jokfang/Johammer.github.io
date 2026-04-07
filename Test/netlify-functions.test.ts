@@ -42,6 +42,46 @@ describe("netlify get-army handler", () => {
   });
 });
 
+describe("netlify get-army-book handler", () => {
+  beforeEach(() => {
+    vi.resetModules();
+  });
+
+  it("returns 400 when bookUid or gameSystemId is missing", async () => {
+    const { handler } = await import(
+      "../netlify/functions/get-army-book/get-army-book"
+    );
+    const res = await handler({ queryStringParameters: {} } as any, {} as any);
+    expect(res.statusCode).toBe(400);
+  });
+
+  it("fetches the expected army-book endpoint", async () => {
+    const json = vi.fn().mockResolvedValue({ ok: true });
+    const get = vi.fn().mockReturnValue({ json });
+    vi.doMock("got", () => ({ default: { get } }));
+
+    const { handler } = await import(
+      "../netlify/functions/get-army-book/get-army-book"
+    );
+    const res = await handler(
+      {
+        queryStringParameters: {
+          bookUid: "w7qor7b2kuifcyvk",
+          gameSystemId: "2",
+          isBeta: "false",
+        },
+      } as any,
+      {} as any
+    );
+
+    expect(get).toHaveBeenCalledWith(
+      "https://army-forge.onepagerules.com/api/army-books/w7qor7b2kuifcyvk?gameSystem=2&simpleMode=false",
+      expect.any(Object)
+    );
+    expect(res.statusCode).toBe(200);
+  });
+});
+
 describe("netlify save-list handler", () => {
   beforeEach(() => {
     vi.resetModules();

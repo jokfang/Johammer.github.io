@@ -5,6 +5,28 @@ export const appDictionary = {
       title: "Army-Forge > TTS",
       tools: "Tools",
     },
+    tools: {
+      title: "Tools",
+      armyBookExtractor: {
+        description:
+          "Generate a JSON extraction from an Army Forge army book URL. Paste an `army-info` URL, then copy or download the normalized result.",
+        inputLabel: "Army Forge army book URL",
+        placeholder:
+          "https://army-forge.onepagerules.com/army-info/grimdark-future/w7qor7b2kuifcyvk?armyId=XXX&armyName=Alien+Hives",
+        help: "This tool expects an Army Forge `army-info` URL, not a share link.",
+        detectedPrefix: "Detected source: ",
+        invalidUrl:
+          "This URL doesn't look like an Army Forge army-info URL.",
+        fetchError:
+          "The army book couldn't be fetched right now. Please verify the URL and try again.",
+        generate: "Generate JSON",
+        loading: "Generating...",
+        copy: "Copy JSON",
+        download: "Download JSON",
+        outputTitle: "Extracted Output",
+        outputReady: "JSON ready",
+      },
+    },
     bugReport: "If you find any bugs, please report them on the",
     githubIssuesPage: "github issues page",
     thanks: ". Thanks!",
@@ -166,6 +188,28 @@ export const appDictionary = {
     menuBar: {
       title: "Army-Forge > TTS",
       tools: "Outils",
+    },
+    tools: {
+      title: "Outils",
+      armyBookExtractor: {
+        description:
+          "Génère un JSON d'extraction à partir d'une URL de livre d'armée Army Forge. Collez une URL `army-info`, puis copiez ou téléchargez le résultat normalisé.",
+        inputLabel: "URL du livre d'armée Army Forge",
+        placeholder:
+          "https://army-forge.onepagerules.com/army-info/grimdark-future/w7qor7b2kuifcyvk?armyId=XXX&armyName=Alien+Hives",
+        help: "Cet outil attend une URL Army Forge de type `army-info`, pas un lien de partage.",
+        detectedPrefix: "Source détectée : ",
+        invalidUrl:
+          "Cette URL ne ressemble pas à une URL Army Forge `army-info`.",
+        fetchError:
+          "Impossible de récupérer ce livre d'armée pour le moment. Vérifiez l'URL puis réessayez.",
+        generate: "Générer le JSON",
+        loading: "Génération...",
+        copy: "Copier le JSON",
+        download: "Télécharger le JSON",
+        outputTitle: "Sortie extraite",
+        outputReady: "JSON prêt",
+      },
     },
     bugReport: "Si vous trouvez des bugs, merci de les signaler sur la",
     githubIssuesPage: "page des bugs de github",

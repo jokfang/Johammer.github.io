@@ -34,7 +34,10 @@ describe("stateless components", () => {
     expect(renderToStaticMarkup(<Maintenance />)).toContain(
       "under maintenance"
     );
-    expect(renderToStaticMarkup(<Tools />)).toContain("Outils");
+    const toolsHtml = renderToStaticMarkup(<Tools />);
+    expect(toolsHtml.includes("Tools") || toolsHtml.includes("Outils")).toBe(
+      true
+    );
   });
 
   it("renders all icon components as svg", () => {

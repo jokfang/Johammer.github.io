@@ -10,6 +10,10 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
+    "extract_army_pdf": "python tools/extract_army_pdf.py",
+    "extract_army_web": "python tools/extract_army_web.py",
+    "build_army_books": "python tools/build_army_books_from_urls.py",
+    "generate_army_pdf": "python tools/generate_army_pdf.py",
     "reset": "npm ci && npm run test && npm run build && npm run start"
   },
   "dependencies": {
