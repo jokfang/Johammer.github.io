@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -42,8 +43,25 @@ def normalize_text(value: str) -> str:
     normalized = str(value or "")
     for source, replacement in replacements.items():
         normalized = normalized.replace(source, replacement)
+    if any(marker in normalized for marker in ("Ã", "Â", "â", "Ä")):
+        try:
+            normalized = normalized.encode("latin-1").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass
     normalized = re.sub(r"(\r\n|\r|\n){3,}", "\n\n", normalized)
     return normalized.strip()
+
+
+def slugify_filename(value: str) -> str:
+    normalized = normalize_text(value).lower()
+    normalized = (
+        normalized.replace("œ", "oe")
+        .replace("æ", "ae")
+    )
+    ascii_text = (
+        unicodedata.normalize("NFKD", normalized).encode("ascii", "ignore").decode("ascii")
+    )
+    return re.sub(r"[^a-z0-9]+", "-", ascii_text).strip("-")
 
 
 def parse_army_book_url(url: str) -> dict[str, Any]:
@@ -204,8 +222,7 @@ def build_unit(unit: dict[str, Any], package_by_uid: dict[str, dict[str, Any]]) 
     special_rules = [format_special_rule_label(rule) for rule in rules if rule.get("name")]
     tough = next((re.search(r"\(([^)]+)\)", label).group(1) for label in special_rules if re.search(r"^Tough\(([^)]+)\)$", label)), "")
     unique_hero = any(rule.get("name") == "Hero" for rule in rules) and any(rule.get("name") == "Unique" for rule in rules)
-
-    return {
+    result = {
         "name": normalize_text(unit.get("name", "")),
         "size": int(unit.get("size") or 0),
         "cost": int(unit.get("cost") or 0),
@@ -218,6 +235,12 @@ def build_unit(unit: dict[str, Any], package_by_uid: dict[str, dict[str, Any]]) 
         "weapons": [format_weapon(weapon) for weapon in unit.get("weapons", [])],
         "upgrades": build_upgrades(unit, package_by_uid),
     }
+
+    unit_type = normalize_text(unit.get("unitType", ""))
+    if unit_type:
+        result["unitType"] = unit_type
+
+    return result
 
 
 def extract_army_book_to_data(source_url: str, source: dict[str, Any]) -> dict[str, Any]:
@@ -286,8 +309,8 @@ def extract_army_book_to_data(source_url: str, source: dict[str, Any]) -> dict[s
 def make_output_basename(data: dict[str, Any]) -> str:
     system_code = str(data.get("systemCode") or "army").lower()
     version = str(data.get("version") or "0.0.0")
-    army_name = str(data.get("armyName") or "unknown-army").lower()
-    army_slug = re.sub(r"[^a-z0-9]+", "-", army_name).strip("-") or "unknown-army"
+    army_name = str(data.get("armyName") or "unknown-army")
+    army_slug = slugify_filename(army_name) or "unknown-army"
     return f"{system_code}-{army_slug}-{version}"
 
 
@@ -300,9 +323,8 @@ def extract_from_url(
     parsed_url = parse_army_book_url(url)
     source = fetch_army_book(parsed_url)
     data = extract_army_book_to_data(url, source)
-    if language.lower() != "en":
-        translations = load_translation_dictionary(dictionary_path, language.lower())
-        data = apply_translations(data, translations)
+    translations = load_translation_dictionary(dictionary_path, language.lower())
+    data = apply_translations(data, translations)
     return data, make_output_basename(data)
 
 

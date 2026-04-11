@@ -70,6 +70,7 @@ type ArmyBookUnit = {
   cost: number;
   name: string;
   size: number;
+  unitType?: string;
   rules: ArmyBookRule[];
   defense: number;
   quality: number;
@@ -112,10 +113,10 @@ export type ExtractedArmyBook = {
   version: string;
   introduction: string;
   backgroundStory: string;
-  armyWideSpecialRule: { name: string; description: string }[];
-  specialRules: { name: string; description: string }[];
-  auraSpecialRules: { name: string; description: string }[];
-  armySpells: { name: string; cost: number; description: string }[];
+  armyWideSpecialRule: { name: string; keywords?: string[]; description?: string }[];
+  specialRules: { name: string; keywords?: string[]; description?: string }[];
+  auraSpecialRules: { name: string; keywords?: string[]; description?: string }[];
+  armySpells: { name: string; cost: number; keywords?: string[]; description?: string }[];
   units: {
     name: string;
     size: number;

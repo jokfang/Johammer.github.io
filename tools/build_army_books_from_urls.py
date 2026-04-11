@@ -46,6 +46,11 @@ def main() -> None:
         default=Path("public/locales/rules/common-rules.dictionary.ts"),
         help="Path to the common rules dictionary file.",
     )
+    parser.add_argument(
+        "--print-friendly",
+        action="store_true",
+        help="Generate print-friendly PDFs without faction colors or unit-type group separators.",
+    )
     args = parser.parse_args()
 
     urls = read_url_list(args.list_path)
@@ -64,7 +69,7 @@ def main() -> None:
         pdf_path = args.output_dir / f"{basename}.pdf"
 
         json_path.write_text(f"{json.dumps(data, ensure_ascii=False, indent=2)}\n", encoding="utf-8")
-        build_pdf(data, pdf_path)
+        build_pdf(data, pdf_path, print_friendly=args.print_friendly)
         print(f"Generated {json_path.as_posix()} and {pdf_path.as_posix()}")
 
 

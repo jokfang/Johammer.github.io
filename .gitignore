@@ -31,3 +31,5 @@ __pycache__/
 .netlify
 
 .env
+ArmyForgeFR/src/data/generated/jsonV1/
+ArmyForgeFR/src/data/generated/pdf/

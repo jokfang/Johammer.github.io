@@ -14,6 +14,7 @@
     "extract_army_web": "python tools/extract_army_web.py",
     "build_army_books": "python tools/build_army_books_from_urls.py",
     "generate_army_pdf": "python tools/generate_army_pdf.py",
+    "generate_army_pdfs": "python tools/generate_army_pdfs_from_dir.py",
     "reset": "npm ci && npm run test && npm run build && npm run start"
   },
   "dependencies": {

@@ -19,6 +19,7 @@ FOOTER_Y = 22.0
 
 LABELS = {
     "intro": "INTRODUCTION",
+    "about_opr": "AU SUJET D'OPR",
     "background_story": "HISTOIRE DE LA FACTION",
     "army_list_summary": "SOMMAIRE DE L'ARMEE",
     "name_size": "Nom [Taille]",
@@ -34,9 +35,29 @@ LABELS = {
     "ap": "PA",
 }
 
+ABOUT_OPR_PARAGRAPHS = [
+    "OPR (www.onepagerules.com) héberge de nombreux jeux gratuits conçus pour être rapides à apprendre et faciles à jouer.",
+    "Ce projet a été réalisé par des joueurs, pour des joueurs, et ne peut exister que grace au généreux soutien de notre formidable communauté !",
+    "Si vous souhaitez soutenir le développement de nos jeux, vous pouvez faire un don sur : www.patreon.com/onepagerules",
+    "Merci de jouer a OPR !",
+]
+
+UNIT_TYPE_ORDER = [
+    "Héros",
+    "Infanterie",
+    "Véhicule légers / Petits monstres",
+    "Véhicules / Monstres",
+    "Titans",
+]
+
+UNTYPED_UNIT_GROUP_LABEL = "Autres unités"
+COMMON_RULES_DICTIONARY_PATH = Path("public/locales/rules/common-rules.dictionary.ts")
+_TRANSLATION_CACHE: dict[str, Any] = {}
+PRINT_FRIENDLY_FILL = (0.0, 0.0, 0.0)
+
 
 def pdf_text(value: Any) -> str:
-    encoded = str(value).encode("latin-1", errors="replace")
+    encoded = str(value).encode("cp1252", errors="replace")
     escaped: list[str] = []
     for byte in encoded:
         char = chr(byte)
@@ -47,6 +68,40 @@ def pdf_text(value: Any) -> str:
         else:
             escaped.append(char)
     return "".join(escaped)
+
+
+def repair_text(value: Any) -> str:
+    text = str(value or "")
+    if any(marker in text for marker in ("Ã", "Â", "â", "Ä")):
+        try:
+            return text.encode("latin-1").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            return text
+    return text
+
+
+def parse_hex_color(value: Any, default: tuple[float, float, float]) -> tuple[float, float, float]:
+    text = str(value or "").strip()
+    if text.startswith("#"):
+        text = text[1:]
+    if len(text) != 6 or any(char not in "0123456789abcdefABCDEF" for char in text):
+        return default
+    return tuple(int(text[index : index + 2], 16) / 255 for index in range(0, 6, 2))
+
+
+def color_luminance(color: tuple[float, float, float]) -> float:
+    red, green, blue = color
+    return 0.2126 * red + 0.7152 * green + 0.0722 * blue
+
+
+def is_print_friendly(data: dict[str, Any]) -> bool:
+    return bool(data.get("__print_friendly"))
+
+
+def get_section_fill(data: dict[str, Any]) -> tuple[float, float, float]:
+    if is_print_friendly(data):
+        return PRINT_FRIENDLY_FILL
+    return parse_hex_color(data.get("factionColor"), (0.13, 0.12, 0.12))
 
 
 def text_width(value: str, font_size: float) -> float:
@@ -89,10 +144,24 @@ class TextStyle:
 class Page:
     number: int
     header: str
+    show_default_header: bool = True
     commands: list[str] = field(default_factory=list)
 
-    def text(self, x: float, y: float, value: str, style: TextStyle = TextStyle()) -> None:
-        self.commands.append(f"BT /{style.font} {style.size:.2f} Tf {x:.2f} {y:.2f} Td ({pdf_text(value)}) Tj ET")
+    def text(
+        self,
+        x: float,
+        y: float,
+        value: str,
+        style: TextStyle = TextStyle(),
+        rgb: tuple[float, float, float] | None = None,
+    ) -> None:
+        if rgb is None:
+            self.commands.append(f"BT /{style.font} {style.size:.2f} Tf {x:.2f} {y:.2f} Td ({pdf_text(value)}) Tj ET")
+            return
+        red, green, blue = rgb
+        self.commands.append(
+            f"BT {red:.3f} {green:.3f} {blue:.3f} rg /{style.font} {style.size:.2f} Tf {x:.2f} {y:.2f} Td ({pdf_text(value)}) Tj ET 0 g"
+        )
 
     def line(self, x1: float, y1: float, x2: float, y2: float, width: float = 0.5, gray: float = 0.0) -> None:
         self.commands.append(f"{gray:.2f} G {width:.2f} w {x1:.2f} {y1:.2f} m {x2:.2f} {y2:.2f} l S 0 G")
@@ -103,13 +172,25 @@ class Page:
     def fill_rect(self, x: float, y: float, width: float, height: float, gray: float = 0.92) -> None:
         self.commands.append(f"{gray:.2f} g {x:.2f} {y:.2f} {width:.2f} {height:.2f} re f 0 g")
 
+    def fill_rect_rgb(self, x: float, y: float, width: float, height: float, rgb: tuple[float, float, float]) -> None:
+        red, green, blue = rgb
+        self.commands.append(f"{red:.3f} {green:.3f} {blue:.3f} rg {x:.2f} {y:.2f} {width:.2f} {height:.2f} re f 0 g")
+
     def render(self) -> str:
-        commands = [
-            f"BT /F2 9.00 Tf {MARGIN_X:.2f} {HEADER_Y:.2f} Td ({pdf_text(self.header)}) Tj ET",
-            f"0.50 w {MARGIN_X:.2f} {HEADER_Y - 7:.2f} m {PAGE_WIDTH - MARGIN_X:.2f} {HEADER_Y - 7:.2f} l S",
-            *self.commands,
-            f"BT /F1 8.00 Tf {PAGE_WIDTH / 2 - 5:.2f} {FOOTER_Y:.2f} Td ({self.number}) Tj ET",
-        ]
+        commands: list[str] = []
+        if self.show_default_header:
+            commands.extend(
+                [
+                    f"BT /F2 9.00 Tf {MARGIN_X:.2f} {HEADER_Y:.2f} Td ({pdf_text(self.header)}) Tj ET",
+                    f"0.50 w {MARGIN_X:.2f} {HEADER_Y - 7:.2f} m {PAGE_WIDTH - MARGIN_X:.2f} {HEADER_Y - 7:.2f} l S",
+                ]
+            )
+        commands.extend(
+            [
+                *self.commands,
+                f"BT /F1 8.00 Tf {PAGE_WIDTH / 2 - 5:.2f} {FOOTER_Y:.2f} Td ({self.number}) Tj ET",
+            ]
+        )
         return "\n".join(commands)
 
 
@@ -129,7 +210,7 @@ class PdfBuilder:
         objects: list[bytes] = []
 
         def add_object(body: str) -> int:
-            objects.append(body.encode("latin-1"))
+            objects.append(body.encode("cp1252"))
             return len(objects)
 
         catalog_id = add_object("<< /Type /Catalog /Pages 2 0 R >>")
@@ -139,8 +220,8 @@ class PdfBuilder:
         page_ids: list[int] = []
 
         for page in self.pages:
-            content = page.render().encode("latin-1", errors="replace")
-            stream_id = add_object(f"<< /Length {len(content)} >>\nstream\n{content.decode('latin-1')}\nendstream")
+            content = page.render().encode("cp1252", errors="replace")
+            stream_id = add_object(f"<< /Length {len(content)} >>\nstream\n{content.decode('cp1252')}\nendstream")
             page_id = add_object(
                 "<< /Type /Page "
                 f"/Parent {pages_id} 0 R "
@@ -151,7 +232,7 @@ class PdfBuilder:
             page_ids.append(page_id)
 
         kids = " ".join(f"{page_id} 0 R" for page_id in page_ids)
-        objects[pages_id - 1] = f"<< /Type /Pages /Kids [{kids}] /Count {len(page_ids)} >>".encode("latin-1")
+        objects[pages_id - 1] = f"<< /Type /Pages /Kids [{kids}] /Count {len(page_ids)} >>".encode("cp1252")
 
         output = bytearray(b"%PDF-1.4\n%\xe2\xe3\xcf\xd3\n")
         offsets = [0]
@@ -230,10 +311,44 @@ class Layout:
 
 
 def format_header(data: dict[str, Any]) -> str:
-    system_code = data.get("systemCode") or data.get("systemName") or "ARMY"
-    army_name = str(data.get("armyName") or "Unknown Army").upper()
-    version = data.get("version") or ""
+    system_code = repair_text(data.get("systemCode") or data.get("systemName") or "ARMY")
+    army_name = repair_text(data.get("armyName") or "Unknown Army").upper()
+    version = repair_text(data.get("version") or "")
     return f"{system_code} - {army_name} V{version}".strip()
+
+
+def get_translation_dictionary(language: str = "fr") -> Any:
+    normalized_language = language.lower()
+    if normalized_language not in _TRANSLATION_CACHE:
+        _TRANSLATION_CACHE[normalized_language] = load_translation_dictionary(
+            COMMON_RULES_DICTIONARY_PATH, normalized_language
+        )
+    return _TRANSLATION_CACHE[normalized_language]
+
+
+def resolve_section_item_description(item: dict[str, Any], data: dict[str, Any], *, is_spell: bool = False) -> str:
+    direct_description = repair_text(item.get("description") or "")
+    keywords = [str(keyword).strip() for keyword in item.get("keywords", []) if str(keyword).strip()]
+    if not keywords:
+        return direct_description
+
+    translations = get_translation_dictionary("fr")
+    dictionary = translations.spells if is_spell else translations.rules
+    system_code = str(data.get("systemCode", ""))
+    resolved_parts: list[str] = []
+
+    for keyword in keywords:
+        translation = dictionary.get(keyword)
+        if not translation:
+            continue
+        description = pick_translation_description(translation.descriptions, system_code)
+        if description:
+            resolved_parts.append(strip_translation_markup(description))
+
+    if resolved_parts:
+        return " ".join(part for part in resolved_parts if part).strip()
+
+    return direct_description
 
 
 def weapon_summary(weapons: list[dict[str, Any]]) -> str:
@@ -254,7 +369,7 @@ def draw_summary_page(layout: Layout, data: dict[str, Any]) -> None:
     layout.y = PAGE_HEIGHT - MARGIN_TOP - 18
     layout.heading(LABELS["army_list_summary"], gap_before=0)
 
-    headers = [LABELS["name_size"], "Qua", LABELS["def"], "Equipment", LABELS["special_rules_table"], "Cost"]
+    headers = [LABELS["name_size"], "Qua", LABELS["def"], "Equipment", LABELS["special_rules_table"], "Coût"]
     table_width = PAGE_WIDTH - 2 * MARGIN_X
     widths = [108, 25, 25, 145, 164, table_width - 108 - 25 - 25 - 145 - 164]
     padding_x = 3.0
@@ -263,6 +378,33 @@ def draw_summary_page(layout: Layout, data: dict[str, Any]) -> None:
     line_height = 7.2
     header_style = TextStyle("F2", 6.5, line_height)
     body_style = TextStyle("F1", 6.5, line_height)
+    section_fill = get_section_fill(data)
+    unit_type_index = {unit_type: index for index, unit_type in enumerate(UNIT_TYPE_ORDER)}
+    units = list(data.get("units", []))
+    current_group_label = ""
+
+    def summary_group_key(item: tuple[int, dict[str, Any]]) -> tuple[int, int]:
+        original_index, unit = item
+        unit_type = str(unit.get("unitType") or "").strip()
+        if unit_type in unit_type_index:
+            return (0, unit_type_index[unit_type] * 1000 + original_index)
+        return (1, original_index)
+
+    def group_label_for_unit(unit: dict[str, Any]) -> str:
+        unit_type = str(unit.get("unitType") or "").strip()
+        if unit_type in unit_type_index:
+            return unit_type
+        return UNTYPED_UNIT_GROUP_LABEL
+
+    def draw_group_header(label: str) -> None:
+        nonlocal current_group_label
+        header_height = 18.0
+        if layout.y - header_height < MARGIN_BOTTOM:
+            layout.page = layout.pdf.new_page()
+            layout.y = PAGE_HEIGHT - MARGIN_TOP - 18
+        layout.y = draw_unit_type_header(layout.page, label, layout.y, PAGE_WIDTH - 2 * MARGIN_X, section_fill)
+        layout.y += 4.0
+        current_group_label = label
 
     def draw_table_row(values: list[str], style: TextStyle) -> None:
         cell_wrap_margin = 10.0
@@ -275,6 +417,10 @@ def draw_summary_page(layout: Layout, data: dict[str, Any]) -> None:
         if layout.y - row_height < MARGIN_BOTTOM:
             layout.page = layout.pdf.new_page()
             layout.y = PAGE_HEIGHT - MARGIN_TOP - 18
+            if current_group_label:
+                layout.y = draw_unit_type_header(
+                    layout.page, current_group_label, layout.y, PAGE_WIDTH - 2 * MARGIN_X, section_fill
+                )
             if values != headers:
                 draw_table_row(headers, header_style)
 
@@ -290,9 +436,20 @@ def draw_summary_page(layout: Layout, data: dict[str, Any]) -> None:
 
         layout.y -= row_height
 
-    draw_table_row(headers, header_style)
+    last_group_label = ""
 
-    for unit in data.get("units", []):
+    iterable_units = units if is_print_friendly(data) else [unit for _, unit in sorted(enumerate(units), key=summary_group_key)]
+
+    if is_print_friendly(data):
+        draw_table_row(headers, header_style)
+
+    for unit in iterable_units:
+        group_label = group_label_for_unit(unit)
+        if not is_print_friendly(data) and group_label != last_group_label:
+            draw_group_header(group_label)
+            draw_table_row(headers, header_style)
+            last_group_label = group_label
+
         equipment = weapon_summary(unit.get("weapons", []))
         rules = ", ".join(unit.get("specialRules", []))
         name = f"{unit.get('name')} [{unit.get('size')}]"
@@ -309,15 +466,6 @@ def draw_summary_page(layout: Layout, data: dict[str, Any]) -> None:
 def draw_rule_pages(layout: Layout, data: dict[str, Any]) -> None:
     layout.page = layout.pdf.new_page()
     layout.y = PAGE_HEIGHT - MARGIN_TOP - 18
-    left_sections = [
-        (LABELS["army_wide_special_rule"], data.get("armyWideSpecialRule", [])),
-        (LABELS["special_rules"], data.get("specialRules", [])),
-    ]
-    right_sections = [
-        (LABELS["aura_special_rules"], data.get("auraSpecialRules", [])),
-        (LABELS["army_spells"], data.get("armySpells", [])),
-    ]
-
     column_count = 3
     col_gap = 12.0
     col_width = (PAGE_WIDTH - 2 * MARGIN_X - col_gap * (column_count - 1)) / column_count
@@ -326,47 +474,134 @@ def draw_rule_pages(layout: Layout, data: dict[str, Any]) -> None:
     heading_style = TextStyle("F2", 8.2, 9.4)
     title_style = TextStyle("F2", 7.1, 8.1)
     body_style = TextStyle("F1", 6.8, 7.7)
+    section_fill = get_section_fill(data)
+    spells = list(data.get("armySpells", []))
 
-    def place(lines: list[tuple[str, TextStyle]], allowed_cols: list[int], col_index: int, extra_gap: float = 3.0) -> int:
-        nonlocal y_values
-        col = allowed_cols[col_index]
-        height = sum(style.leading for _, style in lines) + extra_gap
-        if y_values[col] - height < MARGIN_BOTTOM:
-            col_index += 1
-            if col_index >= len(allowed_cols):
-                layout.page = layout.pdf.new_page()
-                y_values = [PAGE_HEIGHT - MARGIN_TOP - 18 for _ in range(column_count)]
-                col_index = 0
-            col = allowed_cols[col_index]
-            if y_values[col] - height < MARGIN_BOTTOM:
-                layout.page = layout.pdf.new_page()
-                y_values = [PAGE_HEIGHT - MARGIN_TOP - 18 for _ in range(column_count)]
-                col_index = 0
-                col = allowed_cols[col_index]
+    def build_item_block(item: dict[str, Any], width: float, *, is_spell: bool = False) -> list[tuple[str, TextStyle]]:
+        title = f"{item.get('name')} ({item.get('cost')}):" if "cost" in item else f"{item.get('name')}:"
+        lines = [(title, title_style)]
+        body_lines = wrap_text(resolve_section_item_description(item, data, is_spell=is_spell), width, body_style.size)
+        lines.extend((line, body_style) for line in body_lines)
+        return lines
 
+    def block_height(lines: list[tuple[str, TextStyle]], extra_gap: float = 3.0) -> float:
+        return sum(style.leading for _, style in lines) + extra_gap
+
+    def draw_lines_in_column(col: int, lines: list[tuple[str, TextStyle]], extra_gap: float = 3.0) -> None:
         for line, style in lines:
             layout.page.text(x_values[col], y_values[col], line, style)
             y_values[col] -= style.leading
         y_values[col] -= extra_gap
-        return col_index
 
-    def place_sections(sections: list[tuple[str, list[dict[str, Any]]]], allowed_cols: list[int]) -> None:
-        col_index = 0
-        for heading, items in sections:
-            col_index = place([(heading.upper(), heading_style)], allowed_cols, col_index, extra_gap=2)
-            for item in items:
-                if "cost" in item:
-                    title = f"{item.get('name')} ({item.get('cost')}):"
-                else:
-                    title = f"{item.get('name')}:"
-                lines = [(title, title_style)]
-                lines.extend((line, body_style) for line in wrap_text(str(item.get("description", "")), col_width, body_style.size))
-                col_index = place(lines, allowed_cols, col_index)
+    def draw_section_in_column(col: int, heading: str, items: list[dict[str, Any]]) -> None:
+        if not items:
+            return
+        draw_lines_in_column(col, [(heading.upper(), heading_style)], extra_gap=2.0)
+        for item in items:
+            draw_lines_in_column(col, build_item_block(item, col_width))
 
-    place_sections(left_sections, [0, 1])
-    place_sections(right_sections, [2])
+    def ensure_top_section_fit(columns: list[list[tuple[str, list[dict[str, Any]]]]]) -> None:
+        nonlocal y_values
+        estimated_heights: list[float] = []
+        for column_sections in columns:
+            total = 0.0
+            for heading, items in column_sections:
+                if not items:
+                    continue
+                total += block_height([(heading.upper(), heading_style)], extra_gap=2.0)
+                for item in items:
+                    total += block_height(build_item_block(item, col_width))
+            estimated_heights.append(total)
+        if estimated_heights and layout.y - max(estimated_heights) < MARGIN_BOTTOM:
+            layout.page = layout.pdf.new_page()
+            layout.y = PAGE_HEIGHT - MARGIN_TOP - 18
+            y_values[:] = [layout.y for _ in range(column_count)]
 
-    layout.y = min(y_values)
+    army_wide_rules = list(data.get("armyWideSpecialRule", []))
+    special_rules = list(data.get("specialRules", []))
+    aura_rules = list(data.get("auraSpecialRules", []))
+
+    army_wide_height = block_height([(LABELS["army_wide_special_rule"].upper(), heading_style)], extra_gap=2.0) if army_wide_rules else 0.0
+    army_wide_height += sum(block_height(build_item_block(item, col_width)) for item in army_wide_rules)
+    special_rule_heights = [block_height(build_item_block(item, col_width)) for item in special_rules]
+    total_special_height = sum(special_rule_heights)
+
+    split_index = len(special_rules)
+    best_delta = float("inf")
+    running_height = 0.0
+    for index in range(len(special_rules) + 1):
+        left_height = army_wide_height
+        if index > 0:
+            left_height += block_height([(LABELS["special_rules"].upper(), heading_style)], extra_gap=2.0) + running_height
+        center_height = 0.0
+        if index < len(special_rules):
+            center_height = block_height([(LABELS["special_rules"].upper(), heading_style)], extra_gap=2.0) + (total_special_height - running_height)
+        delta = abs(left_height - center_height)
+        if delta <= best_delta:
+            best_delta = delta
+            split_index = index
+        if index < len(special_rule_heights):
+            running_height += special_rule_heights[index]
+
+    left_column_sections = [
+        (LABELS["army_wide_special_rule"], army_wide_rules),
+        (LABELS["special_rules"], special_rules[:split_index]),
+    ]
+    center_column_sections = [
+        (LABELS["special_rules"], special_rules[split_index:]),
+    ]
+    right_column_sections = [
+        (LABELS["aura_special_rules"], aura_rules),
+    ]
+
+    ensure_top_section_fit([left_column_sections, center_column_sections, right_column_sections])
+    draw_section_in_column(0, LABELS["army_wide_special_rule"], army_wide_rules)
+    draw_section_in_column(0, LABELS["special_rules"], special_rules[:split_index])
+    draw_section_in_column(1, LABELS["special_rules"], special_rules[split_index:])
+    draw_section_in_column(2, LABELS["aura_special_rules"], aura_rules)
+
+    layout.y = min(y_values) - 2.0
+
+    if not spells:
+        return
+
+    spells_header_height = 18.0
+    if layout.y - spells_header_height < MARGIN_BOTTOM:
+        layout.page = layout.pdf.new_page()
+        layout.y = PAGE_HEIGHT - MARGIN_TOP - 18
+
+    layout.y = draw_unit_type_header(layout.page, LABELS["army_spells"], layout.y, PAGE_WIDTH - 2 * MARGIN_X, section_fill)
+    layout.y -= 6.0
+
+    spell_column_count = 3
+    spell_col_gap = 12.0
+    spell_col_width = (PAGE_WIDTH - 2 * MARGIN_X - spell_col_gap * (spell_column_count - 1)) / spell_column_count
+    spell_x_values = [MARGIN_X + index * (spell_col_width + spell_col_gap) for index in range(spell_column_count)]
+    spell_y_values = [layout.y for _ in range(spell_column_count)]
+    spell_col = 0
+
+    for spell in spells:
+        lines = build_item_block(spell, spell_col_width, is_spell=True)
+        height = block_height(lines)
+        if spell_y_values[spell_col] - height < MARGIN_BOTTOM:
+            spell_col = 1 if spell_col < spell_column_count - 1 else 0
+            if spell_y_values[spell_col] - height < MARGIN_BOTTOM:
+                layout.page = layout.pdf.new_page()
+                layout.y = PAGE_HEIGHT - MARGIN_TOP - 18
+                layout.y = draw_unit_type_header(
+                    layout.page, LABELS["army_spells"], layout.y, PAGE_WIDTH - 2 * MARGIN_X, section_fill
+                )
+                layout.y -= 6.0
+                spell_y_values = [layout.y for _ in range(spell_column_count)]
+                spell_col = 0
+
+        for line, style in lines:
+            layout.page.text(spell_x_values[spell_col], spell_y_values[spell_col], line, style)
+            spell_y_values[spell_col] -= style.leading
+        spell_y_values[spell_col] -= 3.0
+        spell_col = (spell_col + 1) % spell_column_count
+
+    layout.y = min(spell_y_values)
 
 
 def upgrade_line(option: dict[str, Any]) -> str:
@@ -374,6 +609,21 @@ def upgrade_line(option: dict[str, Any]) -> str:
     suffix = f" ({details})" if details and not details.startswith("(") else f" {details}" if details else ""
     cost = f" {option.get('cost')}" if option.get("cost") else ""
     return f"{option.get('name', '')}{suffix}{cost}".strip()
+
+
+def format_pts_cost(value: Any) -> str:
+    text = str(value or "").strip()
+    if not text:
+        return ""
+
+    match = re.fullmatch(r"([+-]?\d+)\s*pts?", text, flags=re.IGNORECASE)
+    if match:
+        return f"{match.group(1)} pts"
+
+    if re.fullmatch(r"[+-]?\d+", text):
+        return f"{text} pts"
+
+    return text
 
 
 def upgrade_group_label(value: str) -> str:
@@ -513,6 +763,8 @@ def unit_card_layout(unit: dict[str, Any], width: float) -> list[dict[str, Any]]
 
     spe_name_width = inner_width * 0.44
     spe_details_width = inner_width - spe_name_width - 6.0
+    upgrade_cost_width = 40.0
+    upgrade_text_width = inner_width - 10.0 - upgrade_cost_width
 
     for group in unit.get("upgrades", []):
         group_type = str(group.get("type", ""))
@@ -540,8 +792,20 @@ def unit_card_layout(unit: dict[str, Any], width: float) -> list[dict[str, Any]]
                     }
                 )
                 continue
-            lines = wrap_text(f"- {upgrade_line(option)}", inner_width - 6, 6.2)
-            layout.append({"kind": "upgrade_option", "lines": lines, "height": max(len(lines), 1) * 6.9})
+            name = str(option.get("name", "")).strip()
+            details = str(option.get("details", "")).strip()
+            name_lines = wrap_text(name, upgrade_text_width, 6.35) or [""]
+            details_lines = wrap_text(details, upgrade_text_width, 5.75) if details else []
+            layout.append(
+                {
+                    "kind": "upgrade_option",
+                    "name_lines": name_lines,
+                    "details_lines": details_lines,
+                    "cost": format_pts_cost(option.get("cost")),
+                    "cost_width": upgrade_cost_width,
+                    "height": len(name_lines) * 6.9 + len(details_lines) * 6.3 + 2.2,
+                }
+            )
 
     return layout
 
@@ -569,7 +833,7 @@ def draw_unit_card(page: Page, unit: dict[str, Any], x: float, y: float, width: 
         if kind == "header":
             unique_prefix = "* " if unit.get("uniqueHero") else ""
             title = f"{unique_prefix}{unit.get('name')} [{unit.get('size')}]"
-            cost = f"{unit.get('cost')}pts"
+            cost = format_pts_cost(unit.get("cost"))
             page.text(inner_x, cursor - 6.2, title, TextStyle("F2", 7.9, 9.0))
             page.text(x + width - text_width(cost, 7.4) - 7.0, cursor - 6.2, cost, TextStyle("F2", 7.4, 9.0))
             cursor -= item["height"]
@@ -598,15 +862,14 @@ def draw_unit_card(page: Page, unit: dict[str, Any], x: float, y: float, width: 
             for label, key in [("Arme", "name"), ("RNG", "range"), (LABELS["atk"], "attacks"), (LABELS["ap"], "ap"), ("SPE", "special")]:
                 page.text(column_x, cursor - 5.7, label, TextStyle("F2", 5.8, 6.5))
                 column_x += widths[key]
+            page.line(inner_x, cursor - 8.0, inner_x + inner_width, cursor - 8.0, width=0.18, gray=0.82)
             cursor -= item["height"]
             continue
 
         if kind == "weapon":
             weapon = item["weapon"]
             widths = item["widths"]
-            row_top = cursor
-            row_bottom = cursor - item["height"] + 1
-            page.line(inner_x, row_top, inner_x + inner_width, row_top, width=0.18, gray=0.82)
+            row_bottom = cursor - item["height"]
             column_x = inner_x + 2.0
             text_y = cursor - 5.2
             for line in item["name_lines"]:
@@ -629,7 +892,8 @@ def draw_unit_card(page: Page, unit: dict[str, Any], x: float, y: float, width: 
 
         if kind == "upgrade_heading":
             cursor -= 1.0
-            page.text(inner_x, cursor - 5.0, item["text"], TextStyle("F2", 6.4, 7.3))
+            page.fill_rect(inner_x, cursor - 7.0, inner_width, 7.5, gray=0.94)
+            page.text(inner_x + 5.0, cursor - 5.0, item["text"], TextStyle("F2", 6.4, 7.3))
             cursor -= item["height"]
             continue
 
@@ -642,9 +906,28 @@ def draw_unit_card(page: Page, unit: dict[str, Any], x: float, y: float, width: 
             continue
 
         if kind == "upgrade_option":
-            for line in item["lines"]:
-                page.text(inner_x + 5.0, cursor - 4.8, line, TextStyle("F1", 6.2, 6.9))
-                cursor -= 6.9
+            row_top = cursor
+            row_bottom = cursor - item["height"] + 0.8
+            text_x = inner_x + 5.0
+            cost = str(item.get("cost", ""))
+            cost_x = inner_x + inner_width - text_width(cost, 5.9) - 3.0 if cost else inner_x + inner_width - 3.0
+            text_y = cursor - 4.8
+
+            page.line(inner_x, row_top, inner_x + inner_width, row_top, width=0.16, gray=0.88)
+
+            for line in item["name_lines"]:
+                page.text(text_x, text_y, line, TextStyle("F2", 6.1, 6.9))
+                text_y -= 6.9
+
+            for line in item["details_lines"]:
+                page.text(text_x + 3.0, text_y, line, TextStyle("F1", 5.75, 6.3))
+                text_y -= 6.3
+
+            if cost:
+                page.text(cost_x, cursor - 4.8, cost, TextStyle("F2", 5.9, 6.9))
+
+            page.line(inner_x, row_bottom, inner_x + inner_width, row_bottom, width=0.16, gray=0.9)
+            cursor -= item["height"]
             continue
 
         if kind == "upgrade_spe_option":
@@ -666,6 +949,42 @@ def draw_unit_card(page: Page, unit: dict[str, Any], x: float, y: float, width: 
     return bottom
 
 
+def draw_unit_type_header(
+    page: Page,
+    unit_type: str,
+    y: float,
+    width: float,
+    fill_rgb: tuple[float, float, float],
+) -> float:
+    bar_height = 12.0
+    text_color = (1.0, 1.0, 1.0) if color_luminance(fill_rgb) < 0.5 else (0.0, 0.0, 0.0)
+    page.fill_rect_rgb(MARGIN_X, y - bar_height, width, bar_height, fill_rgb)
+    page.text(MARGIN_X + 8.0, y - 8.4, unit_type, TextStyle("F2", 8.0, 9.0), rgb=text_color)
+    return y - bar_height - 4.0
+
+
+def draw_intro_banner(page: Page, data: dict[str, Any]) -> float:
+    fill_rgb = get_section_fill(data)
+    text_rgb = (1.0, 1.0, 1.0) if color_luminance(fill_rgb) < 0.5 else (0.0, 0.0, 0.0)
+    banner_top = PAGE_HEIGHT - 28.0
+    banner_height = 38.0
+    title = repair_text(data.get("armyName") or "Unknown Army").upper()
+    subtitle_bits = [repair_text(data.get("systemName") or data.get("systemCode") or "")]
+    version = repair_text(data.get("version") or "")
+    if version:
+        subtitle_bits.append(f"v{version}")
+    subtitle = " — ".join(bit for bit in subtitle_bits if bit)
+
+    page.show_default_header = False
+    page.fill_rect_rgb(MARGIN_X, banner_top - banner_height, PAGE_WIDTH - 2 * MARGIN_X, banner_height, fill_rgb)
+    title_x = PAGE_WIDTH / 2 - text_width(title, 15.5) / 2
+    subtitle_x = PAGE_WIDTH / 2 - text_width(subtitle, 7.0) / 2
+    page.text(title_x, banner_top - 20.0, title, TextStyle("F2", 15.5, 16.0), rgb=text_rgb)
+    if subtitle:
+        page.text(subtitle_x, banner_top - 32.0, subtitle, TextStyle("F1", 7.0, 8.0), rgb=text_rgb)
+    return banner_top - banner_height - 14.0
+
+
 def draw_units(layout: Layout, data: dict[str, Any]) -> None:
     layout.page = layout.pdf.new_page()
     layout.y = PAGE_HEIGHT - MARGIN_TOP - 18
@@ -674,8 +993,40 @@ def draw_units(layout: Layout, data: dict[str, Any]) -> None:
     x_values = [MARGIN_X, MARGIN_X + width + col_gap]
     y_values = [layout.y, layout.y]
     col = 0
+    units = list(data.get("units", []))
+    unit_type_index = {unit_type: index for index, unit_type in enumerate(UNIT_TYPE_ORDER)}
+    section_fill = get_section_fill(data)
 
-    for unit in data.get("units", []):
+    def unit_sort_key(item: tuple[int, dict[str, Any]]) -> tuple[int, int]:
+        original_index, unit = item
+        unit_type = str(unit.get("unitType") or "").strip()
+        if unit_type in unit_type_index:
+            return (0, unit_type_index[unit_type] * 1000 + original_index)
+        return (1, original_index)
+
+    last_group_key: str | None = None
+
+    iterable_units = units if is_print_friendly(data) else [unit for _, unit in sorted(enumerate(units), key=unit_sort_key)]
+
+    for unit in iterable_units:
+        unit_type = str(unit.get("unitType") or "").strip()
+        group_key = unit_type if unit_type in unit_type_index else "__untyped__"
+        group_label = unit_type if unit_type in unit_type_index else UNTYPED_UNIT_GROUP_LABEL
+
+        if not is_print_friendly(data) and group_key != last_group_key:
+            header_height = 18.0
+            first_card_height = unit_card_height(unit, width) + 8.0
+            next_y = min(y_values)
+            required_height = header_height + first_card_height
+            if next_y - required_height < MARGIN_BOTTOM:
+                layout.page = layout.pdf.new_page()
+                y_values = [PAGE_HEIGHT - MARGIN_TOP - 18, PAGE_HEIGHT - MARGIN_TOP - 18]
+                next_y = y_values[0]
+            next_y = draw_unit_type_header(layout.page, group_label, next_y, PAGE_WIDTH - 2 * MARGIN_X, section_fill)
+            y_values = [next_y, next_y]
+            col = 0
+            last_group_key = group_key
+
         height = unit_card_height(unit, width)
 
         if y_values[col] - height < MARGIN_BOTTOM:
@@ -693,8 +1044,10 @@ def draw_units(layout: Layout, data: dict[str, Any]) -> None:
 
 
 def draw_intro_page(layout: Layout, data: dict[str, Any]) -> None:
+    top_y = draw_intro_banner(layout.page, data)
     col_gap = 22.0
     col_width = (PAGE_WIDTH - 2 * MARGIN_X - col_gap) / 2
+    text_width_safe = col_width - 10.0
     sections = [
         (LABELS["intro"], str(data.get("introduction", "")), MARGIN_X),
         (LABELS["background_story"], str(data.get("backgroundStory", "")), MARGIN_X + col_width + col_gap),
@@ -703,20 +1056,43 @@ def draw_intro_page(layout: Layout, data: dict[str, Any]) -> None:
     body_style = TextStyle("F1", 8.0, 9.7)
 
     for heading, body, x in sections:
-        y = PAGE_HEIGHT - MARGIN_TOP - 18
+        y = top_y
         layout.page.text(x, y, heading.upper(), heading_style)
         y -= 4
         layout.page.line(x, y, x + col_width, y, 0.4)
         y -= 13
-        for line in wrap_text(body, col_width, body_style.size):
+        for line in wrap_text(body, text_width_safe, body_style.size):
             if y < MARGIN_BOTTOM:
                 break
             if line:
                 layout.page.text(x, y, line, body_style)
             y -= body_style.leading
 
+        if x != MARGIN_X:
+            continue
 
-def build_pdf(data: dict[str, Any], output_path: Path) -> None:
+        y -= 18
+        if y < MARGIN_BOTTOM:
+            continue
+
+        layout.page.text(x, y, LABELS["about_opr"], heading_style)
+        y -= 4
+        layout.page.line(x, y, x + col_width, y, 0.4)
+        y -= 13
+
+        for index, paragraph in enumerate(ABOUT_OPR_PARAGRAPHS):
+            paragraph_style = TextStyle("F2", 8.0, 9.7) if index == len(ABOUT_OPR_PARAGRAPHS) - 1 else body_style
+            for line in wrap_text(paragraph, text_width_safe, paragraph_style.size):
+                if y < MARGIN_BOTTOM:
+                    break
+                if line:
+                    layout.page.text(x, y, line, paragraph_style)
+                y -= paragraph_style.leading
+            y -= 9
+
+
+def build_pdf(data: dict[str, Any], output_path: Path, *, print_friendly: bool = False) -> None:
+    data = {**data, "__print_friendly": print_friendly}
     pdf = PdfBuilder(format_header(data))
     layout = Layout(pdf)
 
@@ -756,6 +1132,11 @@ def main() -> None:
         help="Path to the army JSON file, or a PDF output path with a matching JSON file.",
     )
     parser.add_argument("-o", "--output", type=Path, help="Path to write the generated PDF.")
+    parser.add_argument(
+        "--print-friendly",
+        action="store_true",
+        help="Generate a print-friendly PDF without faction colors or unit-type group separators.",
+    )
     args = parser.parse_args()
 
     json_path, output_path = resolve_cli_paths(args.input, args.output)
@@ -763,7 +1144,7 @@ def main() -> None:
         raise SystemExit(f"JSON input not found: {json_path}")
 
     data = json.loads(json_path.read_text(encoding="utf-8"))
-    build_pdf(data, output_path)
+    build_pdf(data, output_path, print_friendly=args.print_friendly)
 
 
 if __name__ == "__main__":

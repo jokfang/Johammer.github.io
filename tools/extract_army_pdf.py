@@ -3,7 +3,9 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 import unicodedata
+import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -12,6 +14,11 @@ try:
     from pypdf import PdfReader
 except ImportError as error:
     raise SystemExit("Missing dependency: install pypdf with `python -m pip install pypdf`.") from error
+
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
 
 
 SYSTEM_NAMES = {
@@ -37,6 +44,7 @@ UPGRADE_HEADING_RE = re.compile(r"^(Upgrade|Replace)\b")
 PRICED_OPTION_RE = re.compile(r"^(?P<text>.+?) (?P<cost>(?:\+\d+pts)|Free)$")
 SPELL_RE = re.compile(r"^(?P<name>.+?) \((?P<cost>\d+)\): (?P<description>.+)$")
 TS_STRING_RE = re.compile(r'"((?:\\.|[^"\\])*)"')
+DEFAULT_DICTIONARY_SOURCE = "https://raw.githubusercontent.com/jokfang/Johammer.github.io/refs/heads/main/public/locales/rules/common-rules.dictionary.ts"
 
 
 @dataclass
@@ -398,8 +406,20 @@ def strip_translation_markup(value: str) -> str:
     return normalize_text(cleaned).strip()
 
 
-def load_translation_dictionary(dictionary_path: Path, language: str) -> TranslationDictionary:
-    content = dictionary_path.read_text(encoding="utf-8")
+def read_dictionary_source(dictionary_source: str | Path) -> str:
+    if isinstance(dictionary_source, Path):
+        return dictionary_source.read_text(encoding="utf-8")
+
+    source = str(dictionary_source).strip()
+    if source.startswith(("http://", "https://")):
+        with urllib.request.urlopen(source) as response:
+            return response.read().decode("utf-8")
+
+    return Path(source).read_text(encoding="utf-8")
+
+
+def load_translation_dictionary(dictionary_source: str | Path, language: str) -> TranslationDictionary:
+    content = read_dictionary_source(dictionary_source)
     return TranslationDictionary(
         rules=parse_translation_entries(content, "commonRules", language),
         spells=parse_translation_entries(content, "commonSpells", language),
@@ -437,23 +457,31 @@ def apply_translations(data: dict[str, Any], translations: TranslationDictionary
 
     def translate_rules_section(items: list[dict[str, Any]]) -> None:
         for item in items:
-            translation = translations.rules.get(item.get("name", ""))
+            source_name = str(item.get("name", ""))
+            item["keywords"] = [source_name] if source_name else []
+            translation = translations.rules.get(source_name)
             if not translation:
                 continue
             item["name"] = strip_translation_markup(translation.title)
             description = pick_translation_description(translation.descriptions, system_code)
             if description:
-                item["description"] = strip_translation_markup(description)
+                item.pop("description", None)
+            elif item.get("description"):
+                item["description"] = strip_translation_markup(str(item.get("description", "")))
 
     def translate_spells_section(items: list[dict[str, Any]]) -> None:
         for item in items:
-            translation = translations.spells.get(item.get("name", ""))
+            source_name = str(item.get("name", ""))
+            item["keywords"] = [source_name] if source_name else []
+            translation = translations.spells.get(source_name)
             if not translation:
                 continue
             item["name"] = strip_translation_markup(translation.title)
             description = pick_translation_description(translation.descriptions, system_code)
             if description:
-                item["description"] = strip_translation_markup(description)
+                item.pop("description", None)
+            elif item.get("description"):
+                item["description"] = strip_translation_markup(str(item.get("description", "")))
 
     translate_rules_section(data.get("armyWideSpecialRule", []))
     translate_rules_section(data.get("specialRules", []))
@@ -656,16 +684,14 @@ def main() -> None:
     )
     parser.add_argument(
         "--dictionary",
-        type=Path,
-        default=Path("public/locales/rules/common-rules.dictionary.ts"),
-        help="Path to the common rules dictionary file.",
+        default=DEFAULT_DICTIONARY_SOURCE,
+        help="Path or URL to the common rules dictionary file.",
     )
     args = parser.parse_args()
 
     data = parse_pdf(args.pdf)
-    if args.language.lower() != "en":
-        translations = load_translation_dictionary(args.dictionary, args.language.lower())
-        data = apply_translations(data, translations)
+    translations = load_translation_dictionary(args.dictionary, args.language.lower())
+    data = apply_translations(data, translations)
     output = json.dumps(data, ensure_ascii=False, indent=2)
 
     if args.output:
