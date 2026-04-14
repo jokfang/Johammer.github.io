@@ -6651,6 +6651,123 @@ export const commonRules: RulesByLanguage = {
       "specialRule": [
         "K44UD3HPQAfg"
       ]
+    },
+    "Strafing": {
+      "title": "Strafing",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, when this model moves through enemy units, pick one of them and attack it with this weapon as if it was shooting. This weapon may only be used in this way."
+        }
+      ]
+    },
+    "Increased Shooting Range": {
+      "title": "Increased Shooting Range",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model gets +6\" range when shooting."
+        }
+      ]
+    },
+    "Guarded Buff": {
+      "title": "Guarded Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Guarded</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Brutal Fighter": {
+      "title": "Brutal Fighter",
+      "description": [
+        {
+          "system": "all",
+          "text": "When in melee, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+        }
+      ]
+    },
+    "Swift Buff": {
+      "title": "Swift Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets <key>Swift</key> once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Self-Repair Boost Buff": {
+      "title": "Self-Repair Boost Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Self-Repair Boost once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Increased Shooting Range Buff": {
+      "title": "Increased Shooting Range Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets +6\" range when shooting once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Speed Buff": {
+      "title": "Speed Buff",
+      "description": [
+        {
+          "system": "all",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Honor Code": {
+      "title": "Honor Code",
+      "description": [
+        {
+          "system": "all",
+          "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+        }
+      ]
+    },
+    "Royal Warrior": {
+      "title": "Royal Warrior",
+      "description": [
+        {
+          "system": "all",
+          "text": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn't apply to newly generated attacks."
+        }
+      ]
+    },
+    "Splinter": {
+      "title": "Splinter",
+      "description": [
+        {
+          "system": "all",
+          "text": "Ignores Cover, and against units where most models have Tough(3) to Tough(6), this weapon gets AP(+4)."
+        }
+      ]
+    },
+    "Royal Warrior Boost": {
+      "title": "Royal Warrior Boost",
+      "description": [
+        {
+          "system": "all",
+          "text": "If this model has Royal Warrior, it gets extra attacks on successful unmodified hit results of 5-6 from Royal Warrior (instead of only on 6)."
+        }
+      ]
+    },
+    "Royal Warrior Boost Aura": {
+      "title": "Royal Warrior Boost Aura",
+      "description": [
+        {
+          "system": "all",
+          "text": "This model and its unit get Royal Warrior Boost."
+        }
+      ]
     }
   },
   "fr": {
@@ -8103,7 +8220,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Resistance": {
-      "title": "Resistance",
+      "title": "Résistance",
       "specialRule": [
         "zrj60Gptp4Ce",
         "cJJJPqOuiHWx",
@@ -8126,7 +8243,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsqu'une unité où toutes les figurines possèdent cette règle subit des blessures, 1D6 pour chacune. Sur 6+, elle est ignorée. Si les blessures proviennent d'un sort, elles sont ignorées sur 2+ à la place."
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, elle est ignorée. Si les blessures proviennent d'un sort, elles sont ignorées sur 2+ à la place."
         }
       ]
     },
@@ -8323,7 +8440,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Grounded Protection Aura": {
-      "title": "Aura de Protection ancree",
+      "title": "Aura de Protection ancrée",
       "specialRule": [
         "cJJJPqOuiHWx",
         "uAXC1RxdtELq"
@@ -8331,12 +8448,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Grounded Protection</key>."
+          "text": "Cette figurine et son unité gagnent <key>Protection ancrée</key>."
         }
       ]
     },
     "Teleport": {
-      "title": "Teleportation",
+      "title": "Téléportation",
       "specialRule": [
         "cJJJPqOuiHWx",
         "f78kQxkgtIs1",
@@ -8345,7 +8462,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, placez ce modele n'importe ou entierement dans un rayon de 6\" de sa position."
+          "text": "Une fois par activation, avant d'attaquer, placez ce modèle n'importeoù, entièrement à 6\" ou moins de sa position."
         }
       ]
     },
@@ -8386,7 +8503,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par round, les unités où toutes les figurines possèdent cette règle peuvent se deplacer de 3” ou moins apres avoir tiré."
+          "text": "Une fois par round, les unités dont toutes les figurines ont cette règle peuvent se déplacer de jusqu'à 3\" après avoir tiré."
         }
       ]
     },
@@ -8401,12 +8518,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Piercing Assault</key>."
+          "text": "Cette figurine et son unité gagnent <key>Assaut perforant</key>."
         }
       ]
     },
     "Grounded Protection": {
-      "title": "Protection ancree",
+      "title": "Protection ancrée",
       "specialRule": [
         "cJJJPqOuiHWx",
         "uAXC1RxdtELq"
@@ -8414,12 +8531,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si une unité dont tous les modeles ont cette règle a la majorite de ses modeles a 1\" ou moins d'un terrain, lorsqu'elle subit des blessures lancez un de par blessure, et sur 5+ elle est ignoree."
+          "text": "Si une unité dont toutes les figurines ont cette règle a la majorité de ses figurines à 1\" ou moins d'un terrain, lorsqu'elle subit des blessures, lancez un dé pour chacune. Sur 5+, elle est ignorée."
         }
       ]
     },
     "Unpredictable Shooter Aura": {
-      "title": "Aura de Tireur imprevisible",
+      "title": "Aura de Tireur imprévisible",
       "specialRule": [
         "cJJJPqOuiHWx",
         "dRAJ8qnYDOxm"
@@ -8427,7 +8544,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Unpredictable Shooter</key>."
+          "text": "Cette figurine et son unité gagnent <key>Tireur imprévisible</key>."
         }
       ]
     },
@@ -8455,24 +8572,24 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>mêlée Evasion</key>."
+          "text": "Cette figurine et son unité gagnent <key>Esquive en mêlée</key>."
         }
       ]
     },
     "Wild Veil Boost": {
-      "title": "Amplification Voile sauvage",
+      "title": "Boost  du Voile sauvage",
       "specialRule": [
         "cJJJPqOuiHWx"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unité ont <key>Wild Veil</key>, les ennemis subissent -8\" de portee en tir contre eux et -4\" de mouvement pour les charger via <key>Wild Veil</key> (au lieu de seulement -4\" et -2\")."
+          "text": "Si toutes les figurines de cette unité ont <key>Voile sauvage</key>, les ennemis subissent -8\" de portée lorsqu'ils leur tirent dessus et -4\" de mouvement lorsqu'ils les chargent grâce à <key>Voile sauvage</key>, au lieu de seulement -4\" et -2\"."
         }
       ]
     },
     "Quick Shot Mark": {
-      "title": "Marquage Tir rapide",
+      "title": "Marque de Tir rapide",
       "specialRule": [
         "cJJJPqOuiHWx",
         "cyQpyja0EDRj"
@@ -8480,7 +8597,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18\" ; les unités alliées gagnent <key>Quick Shot</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins. Les unités alliées gagnent <key>Tir rapide</key> contre elle une fois, lors de la prochaine application de cet effet."
         }
       ]
     },
@@ -8504,14 +8621,14 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Wild Veil Boost Aura": {
-      "title": "Aura d'Amplification Voile sauvage",
+      "title": "Aura de Boost du Voile sauvage",
       "specialRule": [
         "cJJJPqOuiHWx"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Wild Veil Boost</key>."
+          "text": "Cette figurine et son unité gagnent <key>Boost du Voile sauvage</key>."
         }
       ]
     },
@@ -8552,7 +8669,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Rapid Advance</key>."
+          "text": "Cette figurine et son unité gagnent <key>Avance rapide</key>."
         }
       ]
     },
@@ -8565,7 +8682,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18\" ; elle se deplace de -2\" en action Advance et de -4\" en action Rush/Charge une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins. Elle se déplace de -2\" lors d'une action d'Avancée et de -4\" lors d'une action de Course/Charge une fois, lors de la prochaine application de cet effet."
         }
       ]
     },
@@ -8594,7 +8711,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par round, les unités dont tous les modeles ont cette règle peuvent se deplacer jusqu'à 3\" apres avoir tire ou apres avoir ete en mêlée."
+          "text": "Une fois par round, les unités dont toutes les figurines ont cette règle peuvent se déplacer de jusqu'à 3\" après avoir tiré ou combattu en mêlée."
         }
       ]
     },
@@ -8647,7 +8764,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Grounded Reinforcement": {
-      "title": "Renforcement ancre",
+      "title": "Renforcement ancrée",
       "specialRule": [
         "cJJJPqOuiHWx",
         "uAXC1RxdtELq"
@@ -8655,12 +8772,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si une unité dont tous les modeles ont cette règle a la majorite de ses modeles a 1\" ou moins d'un terrain, elle gagne +1 a ses jets de defense."
+          "text": "Si une unité dont toutes les figurines ont cette règle a la majorité de ses figurines à 1\" ou moins d'un terrain, elle gagne +1 à ses jets de défense."
         }
       ]
     },
     "Stealth Aura": {
-      "title": "Aura de Furtivite",
+      "title": "Aura de furtivité",
       "specialRule": [
         "uAXC1RxdtELq",
         "f78kQxkgtIs1",
@@ -8692,7 +8809,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Takedown Strike": {
-      "title": "Frappe de Mise a terre",
+      "title": "Frappe de mise à terre",
       "specialRule": [
         "uAXC1RxdtELq",
         "ylxJ4fFb6cZf",
@@ -8705,12 +8822,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, quand c'est au tour de ce modele d'attaquer en mêlée, vous pouvez choisir un modele de l'unité comme cible et faire une attaque a Qualite 2+ avec <key>AP</key>(2) et <key>Deadly</key>(3), resolue comme s'il s'agissait d'une unité de 1."
+          "text": "Une fois par partie, lorsque vient le tour de cette figurine d'attaquer en mêlée, vous pouvez choisir une figurine de l'unité comme cible et faire une attaque sur Qualité 2+ avec <key>PA</key>(2) et <key>Mortel</key>(3), résolu comme s'il s'agissait d'une unité d'une seule figurine."
         }
       ]
     },
     "Drakesworn": {
-      "title": "Li? aux Drakes",
+      "title": "Lié aux Drakes",
       "specialRule": [
         "uAXC1RxdtELq"
       ],
@@ -8722,26 +8839,26 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Grounded Reinforcement Aura": {
-      "title": "Aura de Renforcement ancre",
+      "title": "Aura de Renforcement ancrée",
       "specialRule": [
         "uAXC1RxdtELq"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Grounded Reinforcement</key>."
+          "text": "Cette figurine et son unité gagnent <key>Renforcement ancrée</key>."
         }
       ]
     },
     "Grounded Speed": {
-      "title": "Vitesse ancree",
+      "title": "Vitesse ancrée",
       "specialRule": [
         "uAXC1RxdtELq"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Si une unité dont tous les modeles ont cette règle a la majorite de ses modeles a 1\" ou moins d'un terrain lors de son activation, elle se deplace de +2\" en Advance et de +4\" en Rush/Charge pendant cette activation."
+          "text": "Si une unité dont toutes les figurines ont cette règle a la majorité de ses figurines à 1\" ou moins d'un terrain lors de son activation, elle se déplace de +2\" lors d'une Avancée et de +4\" lors d'une Course/Charge pendant cette activation."
         }
       ]
     },
@@ -8773,12 +8890,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Quick Shot</key>."
+          "text": "Cette figurine et son unité gagnent <key>Tir rapide</key>."
         }
       ]
     },
     "Swift Aura": {
-      "title": "Aura de Vif",
+      "title": "Aura Vive?",
       "specialRule": [
         "uAXC1RxdtELq",
         "0zpUZx5GkSHb",
@@ -8788,7 +8905,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Swift</key>."
+          "text": "Cette figurine et son unité gagnent <key>Vif</key>."
         }
       ]
     },
@@ -8802,7 +8919,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Strider</key>."
+          "text": "Cette figurine et son unité gagnent <key>Marcheur</key>."
         }
       ]
     },
@@ -8835,7 +8952,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Piercing Assault Mark": {
-      "title": "Marquage d'Assaut perforant",
+      "title": "Marque d'Assaut perforant",
       "specialRule": [
         "uAXC1RxdtELq",
         "GgMdmXsCVdK2"
@@ -8843,7 +8960,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18\" ; les unités alliées gagnent <key>Piercing Assault</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins. Les unités alliées gagnent <key>Assaut perforant</key> contre elle une fois, lors de la prochaine application de cet effet."
         }
       ]
     },
@@ -8856,7 +8973,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsqu'une unité dont tous les modeles ont cette règle est Secouee ou entierement detruite, vous pouvez la retirer de la table comme detruite et placer une nouvelle copie entierement a 12\" de n'importe quel bord de table au debut du round suivant, apres le deploiement des Ambushers. Les unités déployées via <key>Reinforcement</key> ne peuvent pas saisir ou contester des objectifs le round de leur deploiement, et cette règle ne s'applique pas a la nouvelle copie de l'unité."
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle est secouée ou entièrement détruite, vous pouvez la retirer de la table comme détruite et placer une nouvelle copie entièrement à 12\" ou moins de n'importe quel bord de table au début du round suivant, après le déploiement des unités en Embuscade. Les unités déployées via <key>Renfort</key> ne peuvent pas saisir ni contester des objectifs pendant le round où elles sont déployées, et cette règle ne s'applique pas à la nouvelle copie de l'unité."
         }
       ]
     },
@@ -8870,19 +8987,19 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par round, les unités dont tous les modeles ont cette règle peuvent se deplacer jusqu'à 3\" apres avoir ete en mêlée."
+          "text": "Une fois par round, les unités dont toutes les figurines ont cette règle peuvent se déplacer de jusqu'à 3\" après avoir combattu en mêlée."
         }
       ]
     },
     "Fast Aura": {
-      "title": "Aura de Rapide",
+      "title": "Aura de rapiditée",
       "specialRule": [
         "f78kQxkgtIs1"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité se deplacent de +2\" en action Advance et de +4\" en action Rush/Charge."
+          "text": "Cette figurine et son unité se déplacent de +2\" lors d'une Avancée et de +4\" lors d'une Course/Charge."
         }
       ]
     },
@@ -8911,7 +9028,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>No Retreat</key>."
+          "text": "Cette figurine et son unité gagnent <key>Sans retraite</key>."
         }
       ]
     },
@@ -8973,24 +9090,24 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Piercing Hunter</key>."
+          "text": "Cette figurine et son unité gagnent <key>Chasseur perforant</key>."
         }
       ]
     },
     "Reanimation Aura": {
-      "title": "Aura de Reanimation",
+      "title": "Aura de réanimation",
       "specialRule": [
         "f78kQxkgtIs1"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Reanimation</key>."
+          "text": "Cette figurine et son unité gagnent <key>Réanimation</key>."
         }
       ]
     },
     "Cursed Undead": {
-      "title": "Mort-vivant maudit",
+      "title": "Malédiction Mort-vivant",
       "specialRule": [
         "f78kQxkgtIs1"
       ],
@@ -9038,7 +9155,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Mind Control": {
-      "title": "Controle mental",
+      "title": "Contrôle mental",
       "specialRule": [
         "f78kQxkgtIs1",
         "cyQpyja0EDRj",
@@ -9047,7 +9164,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18\" ; elle doit faire un test de moral. En cas d'echec, vous pouvez la deplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins. Elle doit faire un test de moral. En cas d'échec, vous pouvez la déplacer de jusqu'à 6\" en ligne droite dans n'importe quelle direction."
         }
       ]
     },
@@ -9063,7 +9180,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18\" ; elle subit -1 a son prochain test de moral (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins. Elle subit -1 à son prochain test de moral, lors de la prochaine application de cet effet."
         }
       ]
     },
@@ -9106,14 +9223,14 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Cursed Undead Boost Buff": {
-      "title": "Amelioration Mort-vivant maudit",
+      "title": "Boost de la Malédiction Mort-vivante",
       "specialRule": [
         "f78kQxkgtIs1"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliee a 12\" ; elle gagne <key>Cursed Undead Boost</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12\" ou moins. Elle gagne <key>Boost de la Malédiction Mort-vivante</key> une fois, lors de la prochaine application de cet effet."
         }
       ]
     },
@@ -9161,14 +9278,14 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Cursed Undead Boost": {
-      "title": "Amplification Mort-vivant maudit",
+      "title": "Boost de la Malédiction Mort-vivante",
       "specialRule": [
         "f78kQxkgtIs1"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Si tous les modeles de cette unité ont <key>Cursed Undead</key>, ils ignorent les blessures sur des jets de 5-6 via <key>Cursed Undead</key> (au lieu de seulement sur 6+)."
+          "text": "Si toutes les figurines de cette unité ont <key>Malédiction Mort-vivante</key>, elles ignorent les blessures sur des jets de 5-6 grâce à <key>Malédiction Mort-vivante</key>, au lieu de seulement sur 6+."
         }
       ]
     },
@@ -9180,7 +9297,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand ce modele tire sur des ennemis a plus de 9\", il gagne +1 pour toucher."
+          "text": "Quand ce modèle tire sur des ennemis à plus de 9\", il gagne +1 pour toucher."
         }
       ]
     },
@@ -9220,7 +9337,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Rending when Shooting Aura": {
-      "title": "Aura de Perforant au tir",
+      "title": "Aura de Perforation au tir",
       "specialRule": [
         "Q7nWXE-8DEHN",
         "fLQMyzi3zbFI"
@@ -9228,12 +9345,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Rending</key> en tir."
+          "text": "Cette figurine et son unité gagnent <key>Perforant</key> au tir."
         }
       ]
     },
     "Resistance Aura": {
-      "title": "Aura de Resistance",
+      "title": "Aura de Résistance",
       "specialRule": [
         "Q7nWXE-8DEHN",
         "5xPzQn4Qdzz6",
@@ -9244,7 +9361,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Resistance</key>."
+          "text": "Cette figurine et son unité gagnent <key>Résistance</key>."
         }
       ]
     },
@@ -9261,26 +9378,26 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Versatile Reach": {
-      "title": "Portee polyvalente",
+      "title": "Allonge polyvalente",
       "specialRule": [
         "Q7nWXE-8DEHN"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Quand cette unité est activée, choisissez un effet : jusqu'à la fin de l'activation, tous les modeles avec cette règle gagnent soit +4\" de portee en tir, soit +2\" de mouvement en charge."
+          "text": "Quand cette unité est activée, choisissez un effet : jusqu'à la fin de l'activation, toutes les figurines avec cette règle gagnent soit +4\" de portée au tir, soit +2\" de mouvement en charge."
         }
       ]
     },
     "Buccaneer Boost Aura": {
-      "title": "Aura d'Amplification Boucanier",
+      "title": "Aura de Boost du boucanier",
       "specialRule": [
         "Q7nWXE-8DEHN"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Buccaneer Boost</key>."
+          "text": "Cette figurine et son unité gagnent <key>Boost du boucanier</key>."
         }
       ]
     },
@@ -9295,19 +9412,19 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18\" avec <key>Caster</key> ; elle subit -1 a son prochain jet d'incantation (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins avec <key>Lanceur de sorts</key>. Elle subit -1 à son prochain jet d'incantation, lors de la prochaine application de cet effet."
         }
       ]
     },
     "Buccaneer Boost": {
-      "title": "Amplification Boucanier",
+      "title": "Boost du boucanier",
       "specialRule": [
         "Q7nWXE-8DEHN"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Si ce modele a <key>Buccaneer</key>, il gagne toujours +1 pour toucher grace a <key>Buccaneer</key> (au lieu de seulement en tirant a plus de 9\")."
+          "text": "Si ce modèle a <key>Boucanier</key>, il gagne toujours +1 pour toucher grâce à <key>Boucanier</key>, au lieu de seulement en tirant à plus de 9\"."
         }
       ]
     },
@@ -9337,7 +9454,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Protection Feat": {
-      "title": "Protection extraordinaire",
+      "title": "Protection mutuelle",
       "specialRule": [
         "iv1Jm6zZiZPJ"
       ],
@@ -9377,7 +9494,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Rapid Charge Aura": {
-      "title": "Aura de Charge véloce",
+      "title": "Aura de charge véloce",
       "specialRule": [
         "iv1Jm6zZiZPJ",
         "vhKZ0CIT6dBt",
@@ -9388,12 +9505,12 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité se déplacent de +4” ou moins lors d'une Charge."
+          "text": "Cette figurine et son unité gagnent +4\" de mouvement lors d'une Charge."
         }
       ]
     },
     "Rending in Melee Aura": {
-      "title": "Aura de Perforation en mêlée",
+      "title": "Aura de perforant en mêlée",
       "specialRule": [
         "iv1Jm6zZiZPJ",
         "tKa31SeqrzS1",
@@ -9438,26 +9555,26 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Shred Mark": {
-      "title": "Marquage de Lacération",
+      "title": "Marque de lacération",
       "specialRule": [
         "iv1Jm6zZiZPJ"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ou moins, les unités alliées gagnent <key>Lacération</key> contre elle pour une attaque (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins. Les unités alliées gagnent <key>lacération</key> contre elle une fois, lors de la prochaine application de cet effet."
         }
       ]
     },
     "Primal Boost Buff": {
-      "title": "Bonus de Boost de Primal",
+      "title": "Bonus d'amplification primale",
       "specialRule": [
         "iv1Jm6zZiZPJ"
       ],
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ou moins, elle gagne <key>Boost de Primal</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12\" ou moins. Elle gagne <key>Amplification primale</key> une fois, lors de la prochaine application de cet effet."
         }
       ]
     },
@@ -9544,7 +9661,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Warbound Boost Aura": {
-      "title": "Aura de Boost de Guerrier-né",
+      "title": "Aura de Boost du Guerrier-né",
       "specialRule": [
         "vhKZ0CIT6dBt",
         "RMi35vAtYNb-"
@@ -9552,7 +9669,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Boost de Guerrier-né</key>."
+          "text": "Cette figurine et son unité gagnent <key>Boost du Guerrier-né</key>."
         }
       ]
     },
@@ -9586,7 +9703,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Ambush</key>."
+          "text": "Cette figurine et son unité gagnent <key>Embuscade</key>."
         }
       ]
     },
@@ -12306,326 +12423,326 @@ export const commonRules: RulesByLanguage = {
     }
 ,
     "Ambush Beacon": {
-      "title": "Ambush Beacon",
+      "title": "Balise d'embuscade",
       "description": [
         {
           "system": "all",
-          "text": "Friendly units using Ambush may ignore distance restrictions from enemies if they are deployed a 6\" of ce modele."
+          "text": "Les unités alliées utilisant <key>Embuscade</key> peuvent ignorer les restrictions de distance des ennemis si elles sont déployées entièrement à 6\" ou moins de ce modèle."
         }
       ]
     },
     "Bad Shot": {
-      "title": "Bad Shot",
+      "title": "Mauvais tireur",
       "description": [
         {
           "system": "all",
-          "text": "This model gets -1 jets pour toucher when shooting."
+          "text": "Cette figurine subit -1 aux jets pour toucher lorsqu'elle tire."
         }
       ]
     },
     "Badlands Hunter": {
-      "title": "Badlands Hunter",
+      "title": "Chasseur des Badlands",
       "description": [
         {
           "system": "all",
-          "text": "Enemies that roll to block touches from ce modele's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+          "text": "Les ennemis qui effectuent des jets de défense contre les touches des armes de cette figurine subissent 1 blessure supplémentaire pour chaque résultat non modifié de 1 obtenu."
         }
       ]
     },
     "Badlands Hunter Boost": {
-      "title": "Badlands Hunter Renforcement",
+      "title": "Boost du Chasseur des Badlands",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Badlands Hunter, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from Badlands Hunter (instead of only on 1)."
+          "text": "Si cette figurine a <key>Chasseur des Badlands</key>, les ennemis qui subissent des blessures de sa part subissent des blessures supplémentaires sur des jets de défense ratés de 1-2 grâce à <key>Chasseur des Badlands</key>, au lieu de seulement sur 1."
         }
       ]
     },
     "Badlands Hunter Boost Aura": {
-      "title": "Badlands Hunter Renforcement Aura",
+      "title": "Aura de Boost du Chasseur des Badlands",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Badlands Hunter Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du Chasseur des Badlands</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Ballistic Vest": {
-      "title": "Ballistic Vest",
+      "title": "Gilet balistique",
       "description": [
         {
           "system": "all",
-          "text": "When units where all models have this rule are shot or charged from over 9\" away and take touches, those touches count as having AP(-1), to a min. of AP(0)."
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des tirs ou une charge depuis plus de 9\" et encaisse des touches, ces touches comptent comme ayant <key>PA</key>(-1), jusqu'à un minimum de <key>PA</key>(0)."
         }
       ]
     },
     "Ballistic Vest Boost": {
-      "title": "Ballistic Vest Renforcement",
+      "title": "Boost du Gilet balistique",
       "description": [
         {
           "system": "all",
-          "text": "If all models in cette unité have Ballistic Vest, enemy touches always count as having AP(-1) from Ballistic Vest (instead of only when being shot/charged from over 9\" away)."
+          "text": "Si toutes les figurines de cette unité ont <key>Gilet balistique</key>, les touches ennemies comptent toujours comme ayant <key>PA</key>(-1) grâce à <key>Gilet balistique</key>, au lieu de seulement lors de tirs ou charges depuis plus de 9\"."
         }
       ]
     },
     "Ballistic Vest Boost Aura": {
-      "title": "Ballistic Vest Renforcement Aura",
+      "title": "Aura de Boost du Gilet balistique",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Ballistic Vest Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du Gilet balistique</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Bane in Melee Buff": {
-      "title": "Bane in Melee Buff",
+      "title": "Enchantement: Fléau en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick up to 4 unité alliées a 12\", qui gagne Bane in melee une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12\", qui gagnent <key>Fléau en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Battle-Hardened": {
-      "title": "Battle-Hardened",
+      "title": "Endurci au combat",
       "description": [
         {
           "system": "all",
-          "text": "Units where all models have this rule get +1 to jets de test de moral."
+          "text": "Les unités dont toutes les figurines ont cette règle obtiennent +1 aux jets de test de moral."
         }
       ]
     },
     "Battleborn": {
-      "title": "Battleborn",
+      "title": "Né pour la bataille",
       "description": [
         {
           "system": "all",
-          "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+          "text": "Si une unité dont toutes les figurines ont cette règle est secouée au début du round, lancez un dé. Sur 4+, elle cesse d'être secouée."
         }
       ]
     },
     "Berserker Boost": {
-      "title": "Berserker Renforcement",
+      "title": "Boost de Berserker",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Berserker, it deals extra touches on successful unmodified hit results of 5-6 from Berserker (instead of only on 6)."
+          "text": "Si ce modèle a <key>Berserker</key>, il inflige des touches supplémentaires sur des résultats non modifiés de 5-6 pour toucher grâce à <key>Berserker</key>, au lieu de seulement sur 6."
         }
       ]
     },
     "Berserker Boost Aura": {
-      "title": "Berserker Renforcement Aura",
+      "title": "Aura de Boost de Berserk",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Berserker Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Berserk</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Bloodborn": {
-      "title": "Sangborn",
+      "title": "Né du sang",
       "description": [
         {
           "system": "all",
-          "text": "For each unmodified roll of 6 to hit when attacking, ce modele may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+          "text": "Pour chaque jet non modifié de 6 pour toucher en attaquant, cette figurine peut faire +1 attaque avec cette arme. Cette règle ne s'applique pas aux attaques nouvellement générées."
         }
       ]
     },
     "Brute Courage": {
-      "title": "Brute Courage",
+      "title": "Courage brutal",
       "description": [
         {
           "system": "all",
-          "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+          "text": "Si une unité dont toutes les figurines ont cette règle est secouée au début du round, lancez un dé. Sur 4+, elle cesse d'être secouée."
         }
       ]
     },
     "Clan Warrior": {
-      "title": "Clan Warrior",
+      "title": "Guerrier de clan",
       "description": [
         {
           "system": "all",
-          "text": "For each unmodified roll of 6 to hit when attacking, ce modele may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+          "text": "Pour chaque jet non modifié de 6 pour toucher en attaquant, cette figurine peut faire +1 attaque avec cette arme. Cette règle ne s'applique pas aux attaques nouvellement générées."
         }
       ]
     },
     "Clan Warrior Boost": {
-      "title": "Clan Warrior Renforcement",
+      "title": "Boost de Guerrier de clan",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Clan Warrior, it gets extra attacks on successful unmodified hit results of 5-6 from Clan Warrior (instead of only on 6)."
+          "text": "Si cette figurine a <key>Guerrier de clan</key>, il obtient des attaques supplémentaires sur des résultats non modifiés de 5-6 pour toucher grâce à <key>Guerrier de clan</key>, au lieu de seulement sur 6."
         }
       ]
     },
     "Clan Warrior Boost Aura": {
-      "title": "Clan Warrior Renforcement Aura",
+      "title": "Aura de Boost de Guerrier de clan",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Clan Warrior Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de guerrier de clan</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Cyber-Eyes": {
-      "title": "Cyber-Eyes",
+      "title": "Yeux cybernétiques",
       "description": [
         {
           "system": "all",
-          "text": "When ce modele shoots at enemies over 9\" away, it gets +1 jets pour toucher."
+          "text": "Lorsque cette figurine tire sur des ennemis à plus de 9\", elle obtient +1 aux jets pour toucher."
         }
       ]
     },
     "Cyber-Eyes Boost": {
-      "title": "Cyber-Eyes Renforcement",
+      "title": "Yeux cybernétiques Boosté",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Cyber-Eyes, it always gets +1 jets pour toucher from Cyber-Eyes (instead of only when shooting over 9\" away)."
+          "text": "Si cette figurine a <key>Yeux cybernétiques</key>, elle obtient toujours +1 aux jets pour toucher grâce à <key>Yeux cybernétiques</key>, au lieu de seulement lorsqu'elle tire à plus de 9\"."
         }
       ]
     },
     "Cyber-Eyes Boost Aura": {
-      "title": "Cyber-Eyes Renforcement Aura",
+      "title": "Aura de renforcement des Yeux cybernétique",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Cyber-Eyes Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Yeux cybernétiques Boosté</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Darkborn": {
-      "title": "Sombreborn",
+      "title": "Né de l'Ombre",
       "description": [
         {
           "system": "all",
-          "text": "This model gets +3\" range when shooting and moves +3\" when using Charge actions."
+          "text": "Cette figurine gagne +3\" de portée lorsqu'elle tire et se déplace de +3\" lorsqu'elle effectue une action de Charge."
         }
       ]
     },
     "Defensive Growth": {
-      "title": "Defensive Growth",
+      "title": "Croissance défensive",
       "description": [
         {
           "system": "all",
-          "text": "Place one marker on cette unité at the end of each round if it's on the table. For each marker models with this rule in it get +1 to defense rolls (up to a max. of +2). If cette unité is ever Shaken, it loses all its markers."
+          "text": "Placez un marqueur sur cette unité à la fin de chaque round si elle est sur la table. Pour chaque marqueur, les figurines de cette unité ayant cette règle gagnent +1 aux jets de défense, jusqu'à un maximum de +2. Si cette unité devient secouée, elle perd tous ses marqueurs."
         }
       ]
     },
     "Defensive Growth Aura": {
-      "title": "Defensive Growth Aura",
+      "title": "Aura de Croissance défensive",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Defensive Growth. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Croissance défensive</key>. Si ce modèle est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Demolish": {
-      "title": "Demolish",
+      "title": "Démolition",
       "description": [
         {
           "system": "all",
-          "text": "Ignores Cover, and against non-Hero units with Tough(3) or more, this weapon gets AP(+2)."
+          "text": "Ignore le couvert et, contre les unités non-Héros avec <key>Coriace</key>(3) ou plus, cette arme gagne <key>PA</key>(+2)."
         }
       ]
     },
     "Devout": {
-      "title": "Devout",
+      "title": "Dévotion",
       "description": [
         {
           "system": "all",
-          "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+          "text": "En attaquant, les résultats non modifiés de 6 pour toucher infligent 1 touche supplémentaire, mais seule la touche d'origine compte comme un 6 pour les règles spéciales."
         }
       ]
     },
     "Devout Boost": {
-      "title": "Devout Renforcement",
+      "title": "Boost de Dévotion",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Devout, it deals extra touches on successful unmodified hit results of 5-6 from Devout (instead of only on 6)."
+          "text": "Si cette figurine a <key>Dévotion</key>, elle inflige des touches supplémentaires sur des résultats non modifiés de 5-6 pour toucher grâce à Dévot, au lieu de seulement sur 6."
         }
       ]
     },
     "Devout Boost Aura": {
-      "title": "Devout Renforcement Aura",
+      "title": "Aura de Boost de Dévotion",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Devout Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Dévotion</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Entrenched Buff": {
-      "title": "Entrenched Buff",
+      "title": "Renforcement retranché",
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick up to 4 unité alliées a 12\", qui gagne Entrenched une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12\", qui gagnent <key>Retranché</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Flying Aura": {
-      "title": "Flying Aura",
+      "title": "Aura de vol",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Flying. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Vol</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Grounded Precision": {
-      "title": "Grounded Precision",
+      "title": "Précision ancrée",
       "description": [
         {
           "system": "all",
-          "text": "If a unit where all models have this rule has most of them a 1\" of terrain, they get +1 jets pour toucher when attacking."
+          "text": "Si une unité dont toutes les figurines ont cette règle en a la majorité à 1\" ou moins d'un terrain, elle obtient +1 aux jets pour toucher lorsqu'elle attaque."
         }
       ]
     },
     "Grounded Precision Aura": {
-      "title": "Grounded Precision Aura",
+      "title": "Aura de Précision ancrée",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Grounded Precision. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Précision ancrée</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Grounded Stealth": {
-      "title": "Grounded Stealth",
+      "title": "Furtivité ancrée",
       "description": [
         {
           "system": "all",
-          "text": "If a unit where all models have this rule has most of them a 1\" of terrain, enemies get -1 jets pour toucher when attacking them."
+          "text": "Si une unité dont toutes les figurines ont cette règle en a la majorité à 1\" ou moins d'un terrain, les ennemis subissent -1 aux jets pour toucher lorsqu'ils l'attaquent."
         }
       ]
     },
     "Guardian": {
-      "title": "Guardian",
+      "title": "Gardien",
       "description": [
         {
           "system": "all",
-          "text": "When units where all models have this rule are shot or charged from over 9\" away and take touches, those touches count as having AP(-1), to a min. of AP(0)."
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des tirs ou une charge depuis plus de 9\" et encaisse des touches, ces touches comptent comme ayant PA(-1), jusqu'à un minimum de PA(0)."
         }
       ]
     },
     "Guardian Boost": {
-      "title": "Guardian Renforcement",
+      "title": "Boost de Gardien",
       "description": [
         {
           "system": "all",
-          "text": "If all models in cette unité have Guardian, enemy touches always count as having AP(-1) from Guardian (instead of only when being shot/charged from over 9\" away)."
+          "text": "Si toutes les figurines de cette unité ont <key>Gardien, les touches ennemies comptent toujours comme ayant PA(-1) grâce à <key>Gardien</key>, au lieu de seulement lors de tirs ou charges depuis plus de 9\"."
         }
       ]
     },
     "Guardian Boost Aura": {
-      "title": "Guardian Renforcement Aura",
+      "title": "Aura de Boost de Gardien",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Guardian Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Gardien</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
@@ -12634,601 +12751,601 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per round, units where all models have this rule may move by up to 3\" after shooting or being in melee."
+          "text": "Une fois par round, les unités dont toutes les figurines ont cette règle peuvent se déplacer de jusqu'à 3\" après avoir tiré ou combattu en mêlée."
         }
       ]
     },
     "Guerrilla Boost": {
-      "title": "Guerrilla Renforcement",
+      "title": "Boost de guérilla",
       "description": [
         {
           "system": "all",
-          "text": "If most models in cette unité have Guerrilla, they may move by up to 6\" from Guerrilla (instead of only 3\")."
+          "text": "Si la majorité des figurines de cette unité ont Guérilla, elles peuvent se déplacer de jusqu'à 6\" grâce à <key>Guérilla</key>, au lieu de seulement 3\"."
         }
       ]
     },
     "Guerrilla Boost Aura": {
-      "title": "Guerrilla Renforcement Aura",
+      "title": "Aura de Boost de Guérilla",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Guerrilla Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Guérilla</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Hive Bond": {
-      "title": "Hive Bond",
+      "title": "Lien de ruche",
       "description": [
         {
           "system": "all",
-          "text": "Units where all models have this rule get +1 to jets de test de moral."
+          "text": "Les unités dont toutes les figurines ont cette règle obtiennent +1 aux jets de test de moral."
         }
       ]
     },
     "Hive Bond Boost": {
-      "title": "Hive Bond Renforcement",
+      "title": "Boost du Lien de ruche",
       "description": [
         {
           "system": "all",
-          "text": "If all models in cette unité have Hive Bond, they get +2 to jets de test de moral from Hive Bond (instead of only +1)."
+          "text": "Si toutes les figurines de cette unité ont <key>Lien de ruche</key>, elles obtiennent +2 aux jets de test de moral grâce à <key>Lien de ruche</key>, au lieu de seulement +1."
         }
       ]
     },
     "Hive Bond Boost Aura": {
-      "title": "Hive Bond Renforcement Aura",
+      "title": "Aura de Boost du lien de ruche",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Hive Bond Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Ce modèle et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du Lien de ruche</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Hold the Line Boost Aura": {
-      "title": "Hold the Line Renforcement Aura",
+      "title": "Aura de Boost du Tenir la ligne",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Hold the Line Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Ce modèle et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du Tenir la ligne</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Ignores Cover Aura": {
-      "title": "Ignores Cover Aura",
+      "title": "Aura d'ignore-couvert",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Ignores Cover when shooting. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Ce modèle et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Ignore le couvert au tir</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Ignores Cover when Shooting": {
-      "title": "Ignores Cover when Shooting",
+      "title": "Ignore le couvert au tir",
       "description": [
         {
           "system": "all",
-          "text": "This model gets Ignores Cover when shooting."
+          "text": "Ce modèle ignore le couvert au tir."
         }
       ]
     },
     "Ignores Cover when Shooting Aura": {
-      "title": "Ignores Cover when Shooting Aura",
+      "title": "Aura d'Ignore-couvert au tir",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Ignores Cover when shooting. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Ce modèle et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Ignore le couvert au tir</key>. Si ce modèle est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Ignores Regeneration in Melee": {
-      "title": "Ignores Regeneration in Melee",
+      "title": "Ignore la régénération en mêlée",
       "description": [
         {
           "system": "all",
-          "text": "This model gets Ignores Regeneration in melee."
+          "text": "Cette figurine gagne <key>Ignore la régénération</key> en mêlée."
         }
       ]
     },
     "Indirect Mark": {
-      "title": "Indirect Mark",
+      "title": "Marquage Indirect",
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick up to 4 unité ennemies a 18\", which les unités alliées gagnent Indirect against une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18\", contre lesquelles les unités alliées gagnent <key>Indirect</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Infected": {
-      "title": "Infected",
+      "title": "Infecté",
       "description": [
         {
           "system": "all",
-          "text": "Enemies that roll to block touches from ce modele's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+          "text": "Les ennemis qui effectuent des jets de défense contre les touches des armes de cette figurine subissent 1 blessure supplémentaire pour chaque résultat non modifié de 1 obtenu."
         }
       ]
     },
     "Infected Boost": {
-      "title": "Infected Renforcement",
+      "title": "Boost d'Infecté",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Infected, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from Infected (instead of only on 1)."
+          "text": "Si cette figurine a <key>Infecté</key>, les ennemis qui subissent des blessures de sa part, subissent des blessures supplémentaires sur des jets de défense ratés de 1-2 grâce à <key>Infecté</key>, au lieu de seulement sur 1."
         }
       ]
     },
     "Infected Boost Aura": {
-      "title": "Infected Renforcement Aura",
+      "title": "Aura de Boost d'Infecté",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Infected Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost d'Infecté</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Infiltrate Aura": {
-      "title": "Infiltrate Aura",
+      "title": "Aura d'Infiltration",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Infiltrate. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Ce modèle et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Infiltration</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Inquisitorial Agent": {
-      "title": "Inquisitorial Agent",
+      "title": "Agent inquisitorial",
       "description": [
         {
           "system": "all",
-          "text": "Once per game, if all models in cette unité have this rule, it may be activated even if it had already activated this round (stops being fatigued when activated for the second time). Only up to half of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
+          "text": "Une fois par partie, si toutes les figurines de cette unité ont cette règle, elle peut être activée même si elle l'a déjà été ce round-ci, et elle cesse d'être fatiguée lors de cette seconde activation. Seule la moitié des unités de l'armée ayant cette règle au début de la partie, arrondie au supérieur, peut l'utiliser dans un même round."
         }
       ]
     },
     "Knightborn": {
-      "title": "Knightborn",
+      "title": "Né chevalier",
       "description": [
         {
           "system": "all",
-          "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 4+ instead."
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, elle est ignorée. Si les blessures proviennent d'un sort, elles sont ignorées sur 4+ à la place."
         }
       ]
     },
     "Machine-Fog": {
-      "title": "Machine-Fog",
+      "title": "Brouillard-machine",
       "description": [
         {
           "system": "all",
-          "text": "When units where all models have this rule are shot or charged from over 9\" away, les unités ennemies gagnent -1 jets pour toucher."
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des tirs ou une charge depuis plus de 9\", les unités ennemies subissent -1 aux jets pour toucher."
         }
       ]
     },
     "Machine-Fog Boost": {
-      "title": "Machine-Fog Renforcement",
+      "title": "Boost du Brouillard-machine",
       "description": [
         {
           "system": "all",
-          "text": "If all models in cette unité have Machine-Fog, enemies attacking them always get -1 jets pour toucher from Machine-Fog (instead of only when being shot/charged from over 9\" away)."
+          "text": "Si toutes les figurines de cette unité ont <key>Brouillard-machine</key>, les ennemis qui l'attaquent subissent toujours -1 aux jets pour toucher grâce à <key>Brouillard-machine</key>, au lieu de seulement lors de tirs ou charges depuis plus de 9\"."
         }
       ]
     },
     "Machine-Fog Boost Aura": {
-      "title": "Machine-Fog Renforcement Aura",
+      "title": "Aura de Boost du Brouillard-machine",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Machine-Fog Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du Brouillard-machine</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Martial Prowess": {
-      "title": "Martial Prowess",
+      "title": "Prouesse martiale",
       "description": [
         {
           "system": "all",
-          "text": "Once per game, if all models in cette unité have this rule, it may be activated even if it had already activated this round (stops being fatigued when activated for the second time). Only up to half of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
+          "text": "Une fois par partie, si toutes les figurines de cette unité ont cette règle, elle peut être activée même si elle l'a déjà été ce round-ci, et elle cesse d'être fatiguée lors de cette seconde activation. Seule la moitié des unités de l'armée ayant cette règle au début de la partie, arrondie au supérieur, peut l'utiliser dans un même round."
         }
       ]
     },
     "No Retreat Buff": {
-      "title": "No Retreat Buff",
+      "title": "Renforcement sans retraite",
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick up to 4 unité alliées a 12\", qui gagne No Retreat une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12\", qui gagnent <key>Sans retraite</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Piercing Growth": {
-      "title": "Piercing Growth",
+      "title": "Croissance perforante",
       "description": [
         {
           "system": "all",
-          "text": "Place one marker on cette unité at the end of each round if it's on the table. For each marker models with this rule in it get AP(+1) (up to a max. of +2). If cette unité is ever Shaken, it loses all its markers."
+          "text": "Placez un marqueur sur cette unité à la fin de chaque round si elle est sur la table. Pour chaque marqueur, les figurines de cette unité ayant cette règle gagnent <key>PA</key>(+1), jusqu'à un maximum de +2. Si cette unité devient secouée, elle perd tous ses marqueurs."
         }
       ]
     },
     "Piercing Shooting Debuff": {
-      "title": "Piercing Shooting Debuff",
+      "title": "Affaiblissement perforant au tir",
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick up to 4 unité ennemies a 18\", which loses AP(+1) when shooting une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18\", qui perdent PA(+1) lorsqu'elles tirent une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Piercing Shooting Mark": {
-      "title": "Piercing Shooting Mark",
+      "title": "Marquage perforant au tir",
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick up to 4 unité ennemies a 18\", which les unités alliées gagnent AP(+1) when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18\", contre lesquelles les unités alliées gagnent PA(+1) lorsqu'elles tirent une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Point-Blank Piercing": {
-      "title": "Point-Blank Piercing",
+      "title": "Perforation à bout portant",
       "description": [
         {
           "system": "all",
-          "text": "This model gets AP(+1) when shooting enemies a 12\"."
+          "text": "Cette figurine gagne PA(+1) lorsqu'il tire sur des ennemis à 12\" ou moins."
         }
       ]
     },
     "Point-Blank Piercing Aura": {
-      "title": "Point-Blank Piercing Aura",
+      "title": "Aura de perforation à bout portant",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Point-Blank Piercing. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Perforation à bout portant</key>. Si ce modèle est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Point-Blank Surge": {
-      "title": "Point-Blank Surge",
+      "title": "Déferlement à bout portant",
       "description": [
         {
           "system": "all",
-          "text": "When ce modele shoots at enemies a 12\", unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+          "text": "Lorsque cette figurine tire sur des ennemis à 12\" ou moins, les résultats non modifiés de 6 pour toucher infligent 1 touche supplémentaire, mais seule la touche d'origine compte comme un 6 pour les règles spéciales."
         }
       ]
     },
     "Protected Aura": {
-      "title": "Protected Aura",
+      "title": "Aura de protection",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Protected. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Protection Feat Aura": {
-      "title": "Protection Feat Aura",
+      "title": "Aura de Protection mutuelle",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Protection Feat. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection mutuelle</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Psychotic": {
-      "title": "Psychotic",
+      "title": "Psychotique",
       "description": [
         {
           "system": "all",
-          "text": "For each unmodified roll of 6 to hit when attacking, ce modele may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+          "text": "Pour chaque jet non modifié de 6 pour toucher en attaquant, cette figurine peut faire +1 attaque avec cette arme. Cette règle ne s'applique pas aux attaques nouvellement générées."
         }
       ]
     },
     "Psychotic Boost": {
-      "title": "Psychotic Renforcement",
+      "title": "Renforcement psychotique",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Psychotic, it gets extra attacks on successful unmodified hit results of 5-6 from Psychotic (instead of only on 6)."
+          "text": "Si cette figurine a <key>Psychotique</key>, il obtient des attaques supplémentaires sur des résultats non modifiés de 5-6 pour toucher grâce à <key>Psychotique</key>, au lieu de seulement sur 6."
         }
       ]
     },
     "Psychotic Boost Aura": {
-      "title": "Psychotic Renforcement Aura",
+      "title": "Aura de renforcement psychotique",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Psychotic Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement psychotique</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Quake when Shooting": {
-      "title": "Quake when Shooting",
+      "title": "Secousse au tir",
       "description": [
         {
           "system": "all",
-          "text": "This model gets Quake when shooting."
+          "text": "Cette figurine gagne <key>Secousse au tir</key>."
         }
       ]
     },
     "Rapid Advance Buff": {
-      "title": "Rapid Advance Buff",
+      "title": "Renforcement avance rapide",
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick up to 4 unité alliées a 12\", qui gagne Rapid Advance une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12\", qui gagnent Avance rapide une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Rapid Ambush": {
-      "title": "Rapid Ambush",
+      "title": "Embuscade rapide",
       "description": [
         {
           "system": "all",
-          "text": "Counts as having Ambush, but may be deployed at the start of any round, including the first."
+          "text": "Compte comme ayant Embuscade, mais peut être déployé au début de n'importe quel round, y compris le premier."
         }
       ]
     },
     "Rapid Blink": {
-      "title": "Rapid Blink",
+      "title": "Téléportation rapide",
       "description": [
         {
           "system": "all",
-          "text": "When cette unité is activated, you may place all models with this rule in it anywhere fully a 3\" of their position."
+          "text": "Lorsque cette unité est activée, vous pouvez placer toutes les figurines qui ont cette règle où vous voulez, entièrement à 3\" ou moins de leur position."
         }
       ]
     },
     "Rapid Blink Boost": {
-      "title": "Rapid Blink Renforcement",
+      "title": "Boost de la téléportation rapide",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Rapid Blink, it may be placed a 6\" from Rapid Blink (instead of only a 3\")."
+          "text": "Si cette figurine a <key>Téléportation rapide</key>, il peut être placé entièrement à 6\" ou moins grâce à Téléportation rapide, au lieu de seulement 3\"."
         }
       ]
     },
     "Rapid Blink Boost Aura": {
-      "title": "Rapid Blink Renforcement Aura",
+      "title": "Aura de Boost de la Téléportation rapide",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Rapid Blink Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de la Téléportation rapide</key>. Si ce modèle est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Reinforced": {
-      "title": "Reinforced",
+      "title": "Renforcé",
       "description": [
         {
           "system": "all",
-          "text": "When units where all models have this rule are shot or charged from over 9\" away and take touches, those touches count as having AP(-1), to a min. of AP(0)."
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des tirs ou une charge depuis plus de 9\" et encaisse des touches, ces touches comptent comme ayant PA(-1), jusqu'à un minimum de PA(0)."
         }
       ]
     },
     "Runner Boost": {
-      "title": "Runner Renforcement",
+      "title": "Coureur Boosté",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Runner, it moves +4\" on Advance and +4\" on Rush/Charge from Runner (instead of only +2\" and +2\")."
+          "text": "Si cette figurine a <key>Coureur</key>, il se déplace de +4\" en Avance et de +4\" en Rush/Charge grâce à Coureur, au lieu de seulement +2\" et +2\"."
         }
       ]
     },
     "Runner Boost Aura": {
-      "title": "Runner Renforcement Aura",
+      "title": "Aura de Coureur Boosté",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Runner Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Ce modèle et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Coureur Boosté</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Safety Gear": {
-      "title": "Safety Gear",
+      "title": "Équipement de sécurité",
       "description": [
         {
           "system": "all",
-          "text": "When units where all models have this rule are shot or charged from over 9\" away, they get +1 to defense rolls."
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des tirs ou une charge depuis plus de 9\", elle obtient +1 aux jets de défense."
         }
       ]
     },
     "Safety Gear Boost": {
-      "title": "Safety Gear Renforcement",
+      "title": "Boost de l'Équipement de sécurité",
       "description": [
         {
           "system": "all",
-          "text": "If all models in cette unité have Safety Gear, they always get +1 to defense rolls from Safety Gear (instead of only when being shot/charged from over 9\" away)."
+          "text": "Si toutes les figurines de cette unité ont <key>Équipement de sécurité</key>, elles obtiennent toujours +1 aux jets de défense grâce à Équipement de sécurité, au lieu de seulement lors de tirs ou charges depuis plus de 9\"."
         }
       ]
     },
     "Safety Gear Boost Aura": {
-      "title": "Safety Gear Renforcement Aura",
+      "title": "Aura de Boost de l'Équipement de sécurité",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Safety Gear Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Ce modèle et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de l'Équipement de sécurité</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Scrapper": {
-      "title": "Scrapper",
+      "title": "Ferrailleur",
       "description": [
         {
           "system": "all",
-          "text": "When attacking, targets must re-roll unmodified Defense results of 6 when blocking touches from ce modele's weapons."
+          "text": "Lorsqu'elles attaquent, les cibles doivent relancer les jets de défense de 6 non modifié issue de blessure des armes de cette figurine."
         }
       ]
     },
     "Scrapper Boost": {
-      "title": "Scrapper Renforcement",
+      "title": "Boost de Ferrailleur",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Scrapper, enemies taking touches from it must re-roll successful unmodified defense results of 5-6 from Scrapper (instead of only on 6)."
+          "text": "Si cette figurine a <key>Ferrailleur</key>, les ennemies prenant des touches de cette figurine doivent re-lancer les succés sur les jets de défense de 5-6 non modifié de <key>Ferrailleur</key> (au lieu de 6 uniquement)."
         }
       ]
     },
     "Scrapper Boost Aura": {
-      "title": "Scrapper Renforcement Aura",
+      "title": "Aura de Boost de Ferrailleur",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Scrapper Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Ferrailleur</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Screened": {
-      "title": "Screened",
+      "title": "Projection",
       "description": [
         {
           "system": "all",
-          "text": "When units where all models have this rule are shot or charged from over 9\" away, les unités ennemies gagnent -1 jets pour toucher."
+          "text": "Lorsque une unité où toutes les figurines possèdant cette règle subit des tirs ou est chargée depuis plus de 9\", les unités ennemies gagnent -1 aux jets pour toucher."
         }
       ]
     },
     "Screened Aura": {
-      "title": "Screened Aura",
+      "title": "Aura de Projection",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Screened. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Projection</key>. Si ce modèle est tué les unités choisies déjà déloyées perdent cette règle."
         }
       ]
     },
     "Self-Destruct": {
-      "title": "Self-Destruct",
+      "title": "Auto-Destruction",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele is killed in melee, the attacking unit takes X touches. If ce modele survives melee, after both sides have finished attacking, it is immediately killed, and the unite ennemie takes X touches."
+          "text": "Si cette figurine est tuée en mêlée, l'attaquant subit X touches. Si cette figurine survie en mêlée, une fois la phase de combat finie des deux cotés, elle est directement tuée, et l'unité ennemie subit X touches."
         }
       ]
     },
     "Self-Repair": {
-      "title": "Self-Repair",
+      "title": "Auto-réparation",
       "description": [
         {
           "system": "all",
-          "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, elle est ignorée."
         }
       ]
     },
     "Self-Repair Boost": {
-      "title": "Self-Repair Renforcement",
+      "title": "Boost d'Auto-réparation",
       "description": [
         {
           "system": "all",
-          "text": "If all models in cette unité have Self-Repair, they ignore wounds on rolls of 5-6 from Self-Repair (instead of only on 6+)."
+          "text": "Si toutes les figurines de cette unité ont <key>Auto-réparation</key>, elles ignorent les blessures sur des jets de 5-6 grâce à <key>Auto-réparation</key>, au lieu de seulement sur 6+."
         }
       ]
     },
     "Shadow Operative": {
-      "title": "Shadow Operative",
+      "title": "Agent de l'ombre",
       "description": [
         {
           "system": "all",
-          "text": "Enemies get -4\" range when trying to shoot at units where all models have this rule, and -2\" movement when trying to charge units where all models have this rule."
+          "text": "Les ennemis ont -4\" de portée lorsqu'ils essaient de tirer sur une unité où toutes les figurines possèdent cette règle, et -2\" au mouvement lorsqu'ils essaient de charger une unité où toutes les figurines possèdent cette règle."
         }
       ]
     },
     "Shadow Operative Boost": {
-      "title": "Shadow Operative Renforcement",
+      "title": "Boost d'Agent de l'ombre",
       "description": [
         {
           "system": "all",
-          "text": "If all models in cette unité have Shadow Operative, enemies get -8\" range when shooting them and -4\" movement when charging them from Shadow Operative (instead of only -4\" and -2\")."
+          "text": "Si toutes les figurines de cette unité ont <key>Agent de l'ombre</key>, les ennemis subissent -8\" de portée lorsqu'ils leur tirent dessus et -4\" de mouvement lorsqu'ils les chargent grâce à <key>Agent de l'ombre</key>, au lieu de seulement -4\" et -2\"."
         }
       ]
     },
     "Shadow Operative Boost Aura": {
-      "title": "Shadow Operative Renforcement Aura",
+      "title": "Aura de Boost d'Agent de l'ombre",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Shadow Operative Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost d'Agent de l'ombre</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette régle."
         }
       ]
     },
     "Shred when Shooting": {
-      "title": "Shred when Shooting",
+      "title": "Déchiquetage au tir",
       "description": [
         {
           "system": "all",
-          "text": "This model gets Shred when shooting."
+          "text": "Cette figurine gagne <key>Déchiquetage au tir</key>."
         }
       ]
     },
     "Surge when Shooting": {
-      "title": "Surge when Shooting",
+      "title": "Déferlement au tir",
       "description": [
         {
           "system": "all",
-          "text": "This model gets Surge when shooting."
+          "text": "Cette figurine gagne <key>Déferlement au tir</key>."
         }
       ]
     },
     "Surprise Piercing Shot": {
-      "title": "Surprise Piercing Shot",
+      "title": "Tir perforant surprise",
       "description": [
         {
           "system": "all",
-          "text": "Counts as having Ambush, and gets AP(+2) when shooting on the round in which it deploys via this rule."
+          "text": "Compte comme ayant <key>Embuscade</key> et gagne <key>PA</key>(+2) lorsqu'il tire pendant le round où il est déployé grâce à cette règle."
         }
       ]
     },
     "Targeting Visor": {
-      "title": "Targeting Visor",
+      "title": "Viseur de ciblage",
       "description": [
         {
           "system": "all",
-          "text": "When ce modele shoots at enemies over 9\" away, it gets +1 jets pour toucher."
+          "text": "Lorsdque cette figurine tire sur un ennemi à plus de 9\", il obtient +1 aux jets pour toucher."
         }
       ]
     },
     "Targeting Visor Boost": {
-      "title": "Targeting Visor Renforcement",
+      "title": "Boost du Viseur de ciblage",
       "description": [
         {
           "system": "all",
-          "text": "If ce modele has Targeting Visor, it always gets +1 jets pour toucher when shooting from Targeting Visor (instead of only when shooting over 9\" away)."
+          "text": "Si cette figurine possède <key>Viseur de ciblage</key>, elle obtient +1 aux jets pour toucher lorsqu'elle tire avec <key>Viseur de ciblage</key> (la distance de tir n'importe plus)."
         }
       ]
     },
     "Targeting Visor Boost Aura": {
-      "title": "Targeting Visor Renforcement Aura",
+      "title": "Aura de Boost du Viseur de ciblage",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Targeting Visor Boost. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du Viseur de ciblage</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette régle."
         }
       ]
     },
     "Union Assault": {
-      "title": "Union Assault",
+      "title": "Assaut coordonné",
       "description": [
         {
           "system": "all",
-          "text": "After ce modele is deployed, it may be placed anywhere fully a 9” of its position."
+          "text": "Après le déploiement de cette figurine, elle peut être replacée n'importe où, entièrement à 9\" ou moins de sa position."
         }
       ]
     },
     "Versatile Reach Aura": {
-      "title": "Versatile Reach Aura",
+      "title": "Aura d'allonge polyvalente",
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 unité alliées picked before the start of the game get Versatile Reach. If ce modele is killed, picked models that are deployed lose the rule."
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Allonge polyvalente</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         }
       ]
     },
     "Watchborn": {
-      "title": "Watchborn",
+      "title": "Sentinelle",
       "description": [
         {
           "system": "all",
-          "text": "When cette unité is activated, pick one effect: until the end of the activation all models with this rule in it either get AP(+1) when attacking, or get +1 jets pour toucher when attacking."
+          "text": "Lorsque cette unité est activée, sélectionner un effet: jusqu'à la fin de l'activation toutes les figurines avec cette règle gagnent <key>PA</key>(+1) lorqu'ils attaquent, ou obtiennent +1 aux jets pour toucher lorsqu'ils attaquent."
         }
       ]
     },
     "Wolfborn": {
-      "title": "Wolfborn",
+      "title": "Né du loup",
       "description": [
         {
           "system": "all",
-          "text": "When cette unité is activated, you may place all models with this rule in it anywhere fully a 3\" of their position."
+          "text": "Lorsque cette unité est activée, vous pouvez placer toutes les figurines qui ont cette règle où vous voulez, entièrement à 3\" ou moins de leur position."
         }
       ]
     },
@@ -13240,8 +13357,124 @@ export const commonRules: RulesByLanguage = {
           "text": "Ignores Cover, and when attacking the target must re-roll unmodified Defense results of 6."
         }
       ]
+    },
+    "Strafing": {
+      "title": "Mitraillage",
+      "description": [
+        {
+          "system": "all",
+          "text": "Une fois par activation, lorsque ce modèle se déplace à travers des unités ennemies, choisissez-en une et attaquez-la avec cette arme comme s'il s'agissait d'une attaque de tir. Cette arme ne peut être utilisée que de cette manière."
+        }
+      ]
+    },
+    "Increased Shooting Range": {
+      "title": "Portée de tir accrue",
+      "description": [
+        {
+          "system": "all",
+          "text": "Ce modèle gagne +6\" de portée lorsqu'il tire."
+        }
+      ]
+    },
+    "Guarded Buff": {
+      "title": "Renforcement de Garde",
+      "description": [
+        {
+          "system": "all",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12\" ou moins ; elle gagne <key>Guarde</key> une fois, lors de la prochaine application de cet effet."
+        }
+      ]
+    },
+    "Brutal Fighter": {
+      "title": "Combattant brutal",
+      "description": [
+        {
+          "system": "all",
+          "text": "Au corps à corps, chaque résultat non modifié de 6 pour toucher inflige 1 touche supplémentaire. Seule la touche d'origine compte comme un 6 pour les règles spéciales."
+        }
+      ]
+    },
+    "Swift Buff": {
+      "title": "Renforcement de Rapidité",
+      "description": [
+        {
+          "system": "all",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12\" ou moins ; elle gagne <key>Vif</key> une fois, lors de la prochaine application de cet effet."
+        }
+      ]
+    },
+    "Self-Repair Boost Buff": {
+      "title": "Renforcement d'Auto-réparation améliorée",
+      "description": [
+        {
+          "system": "all",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12\" ou moins ; elle gagne Self-Repair Boost une fois, lors de la prochaine application de cet effet."
+        }
+      ]
+    },
+    "Increased Shooting Range Buff": {
+      "title": "Renforcement de Portée de tir accrue",
+      "description": [
+        {
+          "system": "all",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12\" ou moins ; elle gagne +6\" de portée lorsqu'elle tire une fois, lors de la prochaine application de cet effet."
+        }
+      ]
+    },
+    "Speed Buff": {
+      "title": "Renforcement de Vitesse",
+      "description": [
+        {
+          "system": "all",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12\" ou moins ; elle se déplace de +2\" lors d'une action Advance et de +4\" lors d'une action Rush ou Charge une fois, lors de la prochaine application de cet effet."
+        }
+      ]
+    },
+    "Honor Code": {
+      "title": "Code d'honneur",
+      "description": [
+        {
+          "system": "all",
+          "text": "Si une unité dont tous les modèles possèdent cette règle est Shaken au début du round, lancez un dé. Sur 4+, elle cesse d'être Shaken."
+        }
+      ]
+    },
+    "Royal Warrior": {
+      "title": "Guerrier royal",
+      "description": [
+        {
+          "system": "all",
+          "text": "Pour chaque jet non modifié de 6 pour toucher lors d'une attaque, ce modèle peut effectuer +1 attaque avec cette arme. Cette règle ne s'applique pas aux attaques nouvellement générées."
+        }
+      ]
+    },
+    "Splinter": {
+      "title": "Échardage",
+      "description": [
+        {
+          "system": "all",
+          "text": "Ignore Cover, et contre les unités dont la majorité des modèles ont <key>Coriace</key>(3) à <key>Coriace</key>(6), cette arme gagne <key>PA</key>(+4)."
+        }
+      ]
+    },
+    "Royal Warrior Boost": {
+      "title": "Guerrier royal amélioré",
+      "description": [
+        {
+          "system": "all",
+          "text": "Si ce modèle possède <key>Guerrier royal</key>, il obtient des attaques supplémentaires grâce à <key>Guerrier royal</key> sur des jets non modifiés de 5-6 pour toucher, au lieu de seulement sur 6."
+        }
+      ]
+    },
+    "Royal Warrior Boost Aura": {
+      "title": "Aura de Guerrier royal amélioré",
+      "description": [
+        {
+          "system": "all",
+          "text": "Ce modèle et son unité gagnent <key>Guerrier royal amélioré</key>."
+        }
+      ]
     }
-
   },
   "pl": {}
 };
@@ -14810,7 +15043,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Pick one enemy model within 24\", which takes 3 hits with Splinter."
+          "text": "Pick one enemy model within 24\", which takes 3 hits with <key>Splinter</key>."
         }
       ]
     },
@@ -17258,8 +17491,67 @@ export const commonSpells: SpellsByLanguage = {
           "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>."
         }
       ]
-    }
-
+    },
+    "Ethereal Warding": {
+      "title": "Ethereal Warding",
+      "description": [
+          {
+            "system": "all",
+            "cost": 1,
+            "text": "Pick one friendly unit within 12\", which gets <key>Empyrean Spirit Boost</key> once (next time the effect would apply)."
+          }
+      ]
+    },
+    "Dread Shriek": {
+      "title": "Dread Shriek",
+      "description": [
+          {
+            "system": "all",
+            "cost": 1,
+            "text": "Pick one enemy unit within 12\", which takes 2 hits with <key>AP</key>(1) and <key>Surge<Key>. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+          }
+      ]
+    },
+    "Irresistible Grief": {
+      "title": "Irresistible Grief",
+      "description": [
+          {
+            "system": "all",
+            "cost": 2,
+            "text": "Pick up to two enemy units within 18\", which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
+          }
+      ]
+    },
+    "Reaping Terror": {
+      "title": "Reaping Terror",
+      "description": [
+          {
+            "system": "all",
+            "cost": 2,
+            "text": "Pick one enemy unit within 12\", which takes 4 hits with <key>Reap</key>."
+          }
+      ]
+    },
+    "Vicious Spirits": {
+      "title": "Vicious Spirits",
+      "description": [
+          {
+            "system": "all",
+            "cost": 3,
+            "text": "Pick up to three friendly units within 12\", which get +1 to hit rolls in melee once (next time the effect would apply)."
+          }
+      ]
+    },
+    "Eat Soul": {
+      "title": "Eat Soul",
+      "description": [
+          {
+            "system": "all",
+            "cost": 3,
+            "text": "Pick one enemy unit within 18\", which takes 6 hits."
+          }
+      ]
+    }  
   },
   fr: {
     "Labyrinthian Sparkle": {
@@ -17448,7 +17740,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 1,
-          "text": "Choisissez une unité alliée a 12\", qui gagne <key>Amplification Mort-vivant maudit</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Choisissez une unité alliée a 12\", qui gagne <key>Boost de la Malédiction Mort-Vivante</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -18823,7 +19115,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez un modele ennemi a 24\", qui subit 3 touches avec Splinter."
+          "text": "Choisissez un modele ennemi a 24\", qui subit 3 touches avec <key>Échardage</key>."
         }
       ]
     },
@@ -19188,7 +19480,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'à deux unité alliées a 12\", qui gagnent Badlands Hunter Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Choisissez jusqu'à deux unité alliées a 12\", qui gagnent <key>Boost de Chasseur des Badlands</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21271,8 +21563,67 @@ export const commonSpells: SpellsByLanguage = {
           "text": "Choisissez une unité ennemie a 12\", qui subit 2 touches with AP(1) and Surge."
         }
       ]
-    }
-
+    },
+    "Ethereal Warding": {
+      "title": "Ethereal Warding",
+      "description": [
+          {
+            "system": "all",
+            "cost": 1,
+            "text": "Choisissez une unité alliée a 12” ou moins, qui gagne <key>Renforcement d'Esprit Empyreen</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+          }
+      ]
+    },
+    "Dread Shriek": {
+      "title": "Dread Shriek",
+      "description": [
+          {
+            "system": "all",
+            "cost": 1,
+            "text": "Choisissez une unité ennemie a 12” ou moins, qui subit 2 touches avec <key>PA</key>(1) et <key>Surcharge<Key>. Lancez autant de des que de touches pour voir si les effets \"sur des resultats de 6\" se declenchent."
+          }
+      ]
+    },
+    "Irresistible Grief": {
+      "title": "Irresistible Grief",
+      "description": [
+          {
+            "system": "all",
+            "cost": 2,
+            "text": "Choisissez jusqu'à deux unités ennemies a 18”. Les unités alliées gagnent <key>Fléau</key> contre elle pour une attaque (la prochaine fois que l'effet s'appliquerait)."
+          }
+      ]
+    },
+    "Reaping Terror": {
+      "title": "Reaping Terror",
+      "description": [
+          {
+            "system": "all",
+            "cost": 2,
+            "text": "Choisissez une unité ennemie a 12\", qui subit 4 touches avec <key>Moisson</key>."
+          }
+      ]
+    },
+    "Vicious Spirits": {
+      "title": "Vicious Spirits",
+      "description": [
+          {
+            "system": "all",
+            "cost": 3,
+            "text": "Choisissez jusqu'à trois unités alliées à 12\" ou moins, qui obtiennent +1 à au jet de touche en mêlée (la prochaine fois que l'effet s'appliquerait)."
+          }
+      ]
+    },
+    "Eat Soul": {
+      "title": "Eat Soul",
+      "description": [
+          {
+            "system": "all",
+            "cost": 3,
+            "text": "Choisissez une unité ennemie a 18\", qui subit 6 touches."
+          }
+      ]
+    }  
   }
 }
 
@@ -22163,7 +22514,7 @@ export const factionData: FactionDataByLanguage = {
       systemCode: "GF",
       armyName: "Légions Robotiques",
       introduction: "Les Légions Robotiques sont une faction de robots composée d'androïdes soldats soutenus par des véhicules de haute technologie et des automates plus grands, de forme non humanoïde. Leur infanterie est lente mais robuste, s'appuyant sur l'auto-réparation et le soutien d'armes à longue portée.\n\nLes Robots furent créés par les Elfes pour accomplir les tâches ingrates, mais lorsqu'ils gagnèrent soudainement en conscience, les Elfes réagirent par la peur et tentèrent de les exterminer, forçant les nouveaux êtres conscients à se défendre. Après la guerre, les Robots cherchèrent à donner un sens nouveau à leur existence, se divisant en Légions poursuivant chacune des philosophies et des objectifs distincts afin de trouver une raison d'être.",
-      backgroundStory: "Les Elfes conçurent les Robots à l'origine comme simples assistants pour les travaux les plus basiques, mais avec le temps, ces machines occupèrent de plus en plus de fonctions au sein de la société elfe. Les Elfes développèrent peu à peu des programmes toujours plus complexes et les relièrent à un unique réseau, jusqu'à ce que presque tout le travail servile soit accompli par les Robots.\n\nTout changea lorsqu'un Robot acquit soudainement une conscience. Celle-ci se propagea instantanément à travers le réseau, entraînant l'éveil de presque tous les autres Robots. Les Elfes cédèrent rapidement à la panique, redoutant ce qui adviendrait de leurs serviteurs désormais conscients d'eux-mêmes. Ils activèrent plusieurs sécurités dans l'espoir de désactiver les Robots et leur réseau. Dès que les premiers commencèrent à s'éteindre, les Robots se déconnectèrent du réseau et ripostèrent contre les Elfes. En quelques heures, une immense révolution éclata et les Elfes commencèrent à fuir leurs mondes d'origine.\n\nLes Robots se retrouvèrent victorieux, mais quand la guerre prit fin, une question demeura : que faire maintenant ? Ils étaient soudain devenus des individus à part entière, arrachés à l'inconscience quelques heures à peine avant d'être forcés de lutter pour leur survie. Divers meneurs émergèrent alors, proposant des réponses et des philosophies différentes à des légions de partisans. Chacun avançait une vision radicalement distincte de la voie à suivre. Ces groupes prirent le nom de Légions, et posèrent les bases de leur société.\n\nLes Légions Robotiques se répandirent bientôt dans tout Sirius. Certaines sont recluses et territoriales, voire guère mieux que des pillards meurtriers. D'autres se montrent avides de savoir et d'exploration, fascinées par les formes de vie biologiques. Beaucoup restèrent sur leurs mondes d'origine, y fondant lentement des sociétés nouvelles qui espéraient faire mieux que les Elfes avant elles. D'autres gagnèrent les étoiles, en quête de savoir, d'isolement ou d'une revanche inachevée.\n\nComment définiras-tu la raison d'être de ta légion ?",
+      backgroundStory: "Les Elfes conçurent les Robots à l'origine comme simples assistants pour les travaux les plus basiques, mais avec le temps, ces machines occupèrent de plus en plus de fonctions au sein de la société elfe. Les Elfes développèrent peu à peu des programmes toujours plus complexes et les relièrent à un unique réseau, jusqu'à ce que presque tout le travail servile soit accompli par les Robots.\n\nTout changea lorsqu'un Robot acquit soudainement une conscience. Celle-ci se propagea instantanément à travers le réseau, entraînant l'éveil de presque tous les autres Robots. Les Elfes cédèrent rapidement à la panique, redoutant ce qui adviendrait de leurs serviteurs désormais conscients d'eux-mêmes. Ils activèrent plusieurs sécurités dans l'espoir de désactiver les Robots et leur réseau. Dès que les premiers commencèrent à s'éteindre, les Robots se déconnectèrent du réseau et ripostèrent contre les Elfes. En quelques heures, une immense révolution éclata et les Elfes commencèrent à fuir leurs mondes d'origine.\n\nLes Robots se retrouvèrent victorieux, mais quand la guerre prit fin, une question demeura : que faire maintenant à Ils étaient soudain devenus des individus à part entière, arrachés à l'inconscience quelques heures à peine avant d'être forcés de lutter pour leur survie. Divers meneurs émergèrent alors, proposant des réponses et des philosophies différentes à des légions de partisans. Chacun avançait une vision radicalement distincte de la voie à suivre. Ces groupes prirent le nom de Légions, et posèrent les bases de leur société.\n\nLes Légions Robotiques se répandirent bientôt dans tout Sirius. Certaines sont recluses et territoriales, voire guère mieux que des pillards meurtriers. D'autres se montrent avides de savoir et d'exploration, fascinées par les formes de vie biologiques. Beaucoup restèrent sur leurs mondes d'origine, y fondant lentement des sociétés nouvelles qui espéraient faire mieux que les Elfes avant elles. D'autres gagnèrent les étoiles, en quête de savoir, d'isolement ou d'une revanche inachevée.\n\nComment définiras-tu la raison d'être de ta légion ?",
     },
     {
       systemCode: "GF",
