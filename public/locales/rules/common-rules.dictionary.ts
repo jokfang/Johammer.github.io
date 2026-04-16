@@ -314,7 +314,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Devout</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+          "text": "This model and its unit get <key>Devout Boost</key>."
         }
       ]
     },
@@ -638,7 +638,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and up to 3 friendly units picked before the start of the game get <key>Point-Blank Piercing</key>. If this model is killed, picked models that are deployed lose the rule."
+          "text": "This model and its unit get<key>Point-Blank Piercing</key>."
         }
       ]
     },
@@ -3643,7 +3643,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\" with <key>Caster</key>, which gets -1 to casting rolls once (next time the effect would apply)."
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" with Caster, which gets -1 to casting rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -4157,7 +4157,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "This model and its unit get Regeneration."
+          "text": "This model and its unit get <key>Regeneration</key>."
         }
       ]
     },
@@ -7828,7 +7828,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Fortified": {
-      "title": "Blindé",
+      "title": "Renforcé",
       "specialRule": [
         "zrj60Gptp4Ce",
         "iv1Jm6zZiZPJ",
@@ -7846,7 +7846,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Lorsque une unité où toutes les figurines possèdent cette règle subit des touches, ces touches comptent comme ayant <key>PA</key>(-1), jusqu'à un minimum de <key>PA</key>(0)."
+          "text": "Lorsque des unités dont toutes les figurines possèdent cette règle subissent des blessures, ces blessures comptent comme ayant une <key>PA</key>(-1), jusqu'à un minimum de </key>PA<key>(0)."
         }
       ]
     },
@@ -7965,7 +7965,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par partie, durant l'activation de cette figurine, choisissez une unité ennemie a 36” ou moins et en ligne de vue, puis placez X marqueurs dessus. Les unités alliée obtiennent +X pour toucher lorsqu'elles l'attaquent."
+          "text": "Une fois par partie, lors de l'activation de cette figurine, choisissez une unité ennemie à 36\" ou moins et dans sa ligne de vue, et placez X marqueurs dessus. Les unités alliées obtiennent +X aux jets pour toucher lorsqu'elles l'attaquent."
         }
       ]
     },
@@ -8138,7 +8138,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Increased Shooting Range Aura": {
-      "title": "Aura de Portée de tir accrue",
+      "title": "Aura d'Augmentation de la portée de tir",
       "specialRule": [
         "zrj60Gptp4Ce",
         "ylxJ4fFb6cZf",
@@ -8147,7 +8147,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent +6” de portee en tir."
+          "text": "Cette figurine et son unité gagnent un bonus de +6\" de portée lorsqu'elles tirent."
         }
       ]
     },
@@ -8616,7 +8616,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine gagne <key>PA</key>(+1) lorsqu'elle charge."
+          "text": "Cette figurine gagne <key>PA</key>(+1) lorsqu'elle Charge."
         }
       ]
     },
@@ -8863,7 +8863,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Shielded": {
-      "title": "Bouclier magique",
+      "title": "Blindé",
       "specialRule": [
         "uAXC1RxdtELq",
         "vhKZ0CIT6dBt",
@@ -8876,7 +8876,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les unités dont tous les modeles ont cette règle gagnent +1 aux jets de defense contre les touches qui ne proviennent pas de sorts."
+          "text": "Les unités dont toutes les figurines possèdent cette règle spéciale obtiennent un bonus de +1 aux jets de Défense contre les touches qui ne proviennent pas de sorts."
         }
       ]
     },
@@ -8999,7 +8999,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité se déplacent de +2\" lors d'une Avancée et de +4\" lors d'une Course/Charge."
+          "text": "Cette figurine et son unité gagne un bonus de +2\" lorsqu'elles Avancent et +4\" lorsqu'elles Courent ou Chargent."
         }
       ]
     },
@@ -9076,7 +9076,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Sur des résultats non modifiés de 1 pour bloquer, Les touches de cette arme infligent 1 blessure supplémentaire."
+          "text": "Sur des résultats non modifiés de 1 pour bloquer des touches, cette arme inflige une blessure supplémentaire."
         }
       ]
     },
@@ -9185,7 +9185,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Shred in Melee Aura": {
-      "title": "Aura de Laceration en mêlée",
+      "title": "Aura de Lacération en mêlée",
       "specialRule": [
         "f78kQxkgtIs1",
         "Q7nWXE-8DEHN",
@@ -9194,7 +9194,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Lacération</key> en mêlée."
+          "text": "Cette figurine et son unité gagne la règle spéciale <key>Lacération</key> en mêlée."
         }
       ]
     },
@@ -9261,7 +9261,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Quand ce modele tire sur des ennemis a plus de 9\", ses armes gagnent <key>AP</key>(+1)."
+          "text": "Lorsque cette figurine tire sur des ennemis situés à 9\" ou plus, ses armes bénéficient d'un bonus de <key>AP</key>(+1)."
         }
       ]
     },
@@ -9402,7 +9402,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Casting Debuff": {
-      "title": "Affaiblissement d'incantation",
+      "title": "Malus de magie",
       "specialRule": [
         "Q7nWXE-8DEHN",
         "xw2YHtZNkhIV",
@@ -9412,7 +9412,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins avec <key>Lanceur de sorts</key>. Elle subit -1 à son prochain jet d'incantation, lors de la prochaine application de cet effet."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins du lanceur avec Lanceur de sorts, qui subit un malus de -1 aux jets de lancement de sort une fois (l'effet s'appliquera la prochaine fois qu'elle devrait s'appliquer)."
         }
       ]
     },
@@ -9778,7 +9778,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Shielded Aura": {
-      "title": "Aura de Bouclier magique",
+      "title": "Aura de Blindage",
       "specialRule": [
         "vhKZ0CIT6dBt",
         "SY80P2vKJGrY",
@@ -9788,7 +9788,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Shielded</key>."
+          "text": "Cette figurine et son unité gagnent <key>Blindé</key>."
         }
       ]
     },
@@ -9926,7 +9926,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent la Régénération."
+          "text": "Cette figurine et son unité gagnent la règle spéciale <key>Régénération</key>."
         }
       ]
     },
@@ -10156,7 +10156,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Les Lanceurs de sorts d'autres unités alliées a 12\" peuvent lancer des sorts comme s'ils etaient a la position de ce modele, et gagnent +1 aux jets de lancement en le faisant."
+          "text": "Les Lanceurs de sorts situés à 12\" appartenant à d'autres unités alliées peuvent lancer des sorts comme s'ils se trouvaient à la position de cette figurine, et bénéficient d'un bonus de +1 aux jets de lancement."
         }
       ],
       "specialRule": [
@@ -10261,7 +10261,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ou moins, elle gagne +1 aux jets pour sa prochaine touche en mélée (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12\" ou moins, qui obtient un bonus de +1 aux jets pour toucher en mêlée une seule fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -10618,7 +10618,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent <key>Fortifie</key>."
+          "text": "Cette figurine et son unité gagnent la règle spéciale <key>Renforcé</key>."
         }
       ],
       "specialRule": [
@@ -10884,11 +10884,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Precision Shooter Buff": {
-      "title": "Bonus de Tireur de Precision",
+      "title": "Bonus de Tireur précis",
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12\" ; elle gagne +1 aux jets pour toucher au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12\" ou moins qui gagne un bonus de +1 aux jets pour toucher lorsqu'elle tire, une seule fois (l'effet s'appliquera la prochaine fois qu'elle devrait tirer)."
         }
       ],
       "specialRule": [
@@ -11463,7 +11463,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Ignore la Régénération et, contre les unités dont la majorite des modeles ont <key>Defense</key> 2+ a <key>Defense</key> 4+, cette arme gagne <key>AP</key>(+1)."
+          "text": "Ignore la Régénération, et contre les unités dont la plupart des figurines possèdent une Défense comprise entre 2+ et 4+, cette arme gagne un bonus de <key>AP</key>(+1)."
         }
       ],
       "specialRule": [
@@ -11966,11 +11966,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Guarded": {
-      "title": "Garde",
+      "title": "Protégé",
       "description": [
         {
           "system": "all",
-          "text": "Quand des unités dont tous les modeles ont cette règle sont prises pour cible par des tirs ou des charges a plus de 9\", elles gagnent +1 aux jets de defense."
+          "text": "Lorsque des unités dont toutes les figurines possèdent cette règle subissent des tirs ou sont chargées à plus de 9\", elles obtiennent un bonus de +1 aux jets de Défense."
         }
       ],
       "specialRule": [
@@ -12174,7 +12174,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12\" ; elle gagne +1 aux tests de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12\" ou moins qui obtient un bonus de +1 aux Tests de Moral une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12390,7 +12390,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et son unité gagnent +1 aux tests de moral."
+          "text": "Cette figurine et son unité gagnent +1 aux Tests de Moral."
         }
       ],
       "specialRule": [
@@ -12652,7 +12652,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "En attaquant, les résultats non modifiés de 6 pour toucher infligent 1 touche supplémentaire, mais seule la touche d'origine compte comme un 6 pour les règles spéciales."
+          "text": "Lors d'une attaque, les résultats non modifiés de 6 pour toucher infligent une touche supplémentaire (seule la touche initiale compte comme un 6 pour les règles spéciales)."
         }
       ]
     },
@@ -12661,7 +12661,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Si cette figurine a <key>Dévotion</key>, elle inflige des touches supplémentaires sur des résultats non modifiés de 5-6 pour toucher grâce à Dévot, au lieu de seulement sur 6."
+          "text": "Si cette figurine dispose de la règle spéciale <key>Dévotion</key>, elle inflige des touches supplémentaires sur les résultats réussis non modifiés de 5-6 provenant de Dévotion (au lieu de seulement sur 6)."
         }
       ]
     },
@@ -12670,7 +12670,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Dévotion</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
+          "text": "Cette figurine et son unité gagne la règle spéciale <key>Boost de Dévotion</key>."
         }
       ]
     },
@@ -12985,7 +12985,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Cette figurine gagne PA(+1) lorsqu'il tire sur des ennemis à 12\" ou moins."
+          "text": "Cette figurine gagne <key>PA</key>(+1) lorsqu'elle tire sur des ennemis à 12\" ou moins."
         }
       ]
     },
@@ -12999,11 +12999,11 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Point-Blank Surge": {
-      "title": "Déferlement à bout portant",
+      "title": "Surcharge à bout portant",
       "description": [
         {
           "system": "all",
-          "text": "Lorsque cette figurine tire sur des ennemis à 12\" ou moins, les résultats non modifiés de 6 pour toucher infligent 1 touche supplémentaire, mais seule la touche d'origine compte comme un 6 pour les règles spéciales."
+          "text": "Lorsque cette figurine tire sur des ennemis situés à 12\" ou moins, les résultats non modifiés de 6 pour toucher infligent une touche supplémentaire (seule la touche initiale compte comme un 6 pour les règles spéciales)."
         }
       ]
     },
@@ -13381,7 +13381,7 @@ export const commonRules: RulesByLanguage = {
       "description": [
         {
           "system": "all",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12\" ou moins ; elle gagne <key>Guarde</key> une fois, lors de la prochaine application de cet effet."
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12\" ou moins qui bénéficie de la règle spéciale <key>Protégé</key> une seule fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -15587,8 +15587,8 @@ export const commonSpells: SpellsByLanguage = {
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Pick up to two enemy units within 18\", which get -3 to casting rolls once (next time the effect would apply)."
+          "cost": 1,
+          "text": "Pick one enemy unit within 18", which gets -3 to casting rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -16052,8 +16052,8 @@ export const commonSpells: SpellsByLanguage = {
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Pick up to two enemy units within 6\", which take 3 hits with <key>Purge</key> each."
+          "cost": 2,
+          "text": "Pick one enemy unit within 6\", which takes 6 hits with <key>Purge</key>."
         }
       ]
     },
@@ -16282,8 +16282,8 @@ export const commonSpells: SpellsByLanguage = {
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Pick up to four friendly units within 12\", which get <key>Piercing <key>Hunter</key></key> once (next time the effect would apply)."
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get <key>Piercing <key>Hunter</key></key> once (next time the effect would apply)."
         }
       ]
     },
@@ -16402,8 +16402,8 @@ export const commonSpells: SpellsByLanguage = {
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Pick up to six friendly units within 12\", which get <key><key>Devout</key> Boost</key> once (next time the effect would apply)."
+          "cost": 3,
+          "text": "Pick up to three friendly units within 12\", which get <key>Devout Boost</key> Boost</key> once (next time the effect would apply)."
         }
       ]
     },
@@ -16977,7 +16977,7 @@ export const commonSpells: SpellsByLanguage = {
       "description": [
         {
           "system": "all",
-          "cost": 0,
+          "cost": 1,
           "text": "Pick one enemy model within 24\", which takes 1 hit with <key>AP</key>(4)."
         }
       ]
@@ -16997,8 +16997,8 @@ export const commonSpells: SpellsByLanguage = {
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Pick up to three enemy units within 18\", which take 1 hit with <key>Blast</key>(3) each."
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\", which takes 3 hits with <key>Blast</key>(3)."
         }
       ]
     },
@@ -18695,7 +18695,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 3,
-          "text": "Choisissez jusqu'à trois unités alliées a 12\", qui gagnent <key>Fortifie</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Choisissez jusqu'à trois unités alliées a 12\", qui gagnent <key>Renforcé</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -19655,12 +19655,12 @@ export const commonSpells: SpellsByLanguage = {
       ]
     },
     "Burn the Heretic": {
-      "title": "Burn the Heretic",
+      "title": "Brulez les hérétiques",
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Choisissez jusqu'à deux unité ennemies a 18\", qui gagnent -3 to casting rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à 18\" ou moins, qui subit un malus de -3 aux jets de lancement de sorts une seule fois (l'effet s'appliquera la prochaine fois)."
         }
       ]
     },
@@ -20120,12 +20120,12 @@ export const commonSpells: SpellsByLanguage = {
       ]
     },
     "Eternal Flame": {
-      "title": "Eternal Flame",
+      "title": "Flamme éternelle",
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Choisissez jusqu'à deux unité ennemies a 6\", qui subissent 3 touches with Purge each."
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à 6\" ou moins, qui subit six touches avec <key>Purge</key>."
         }
       ]
     },
@@ -20350,12 +20350,12 @@ export const commonSpells: SpellsByLanguage = {
       ]
     },
     "Holy Rage": {
-      "title": "Holy Rage",
+      "title": "Sainte colère",
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Choisissez jusqu'à quatre unité alliées a 12\", qui gagnent Piercing Hunter une fois (la prochaine fois que l'effet s'appliquerait)."
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies situées à 12\" ou moins, qui obtiennent une seule fois la règle spéciale <key>Chasseur perforant</key> (la prochaine fois que cet effet s'appliquerait)."
         }
       ]
     },
@@ -20470,12 +20470,12 @@ export const commonSpells: SpellsByLanguage = {
       ]
     },
     "Litanies of War": {
-      "title": "Litanies of War",
+      "title": "Litanies de guerre",
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Choisissez jusqu'à six unité alliées a 12\", qui gagnent Devout Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies à 12\" ou moins, qui bénéficient une seule fois du <key>Boost de Dévotion</key> (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20735,7 +20735,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'à six unité alliées a 12\", qui gagnent Shielded une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Choisissez jusqu'à six unité alliées a 12\", qui gagnent <key>Blindé</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21040,17 +21040,17 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 0,
-          "text": "Choisissez jusqu'à quatre unité alliées a 12\", qui gagnent Piercing Assault une fois (la prochaine fois que l'effet s'appliquerait)."
+          "text": "Choisissez jusqu'à quatre unité alliées a 12\", qui gagnent <key>Assaut tranchant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
     "Righteous Wrath": {
-      "title": "Righteous Wrath",
+      "title": "Colère vertueuse",
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Choisissez un modele ennemi a 24\", qui subit 1 hit with AP(4)."
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie à 24\" ou moins, qui subit une touche avec <key>PA</key>(4)."
         }
       ]
     },
@@ -21065,12 +21065,12 @@ export const commonSpells: SpellsByLanguage = {
       ]
     },
     "Searing Admonition": {
-      "title": "Searing Admonition",
+      "title": "Sermon brûlant",
       "description": [
         {
           "system": "all",
-          "cost": 0,
-          "text": "Choisissez jusqu'à trois unité ennemies a 18\", qui subissent 1 hit with Blast(3) each."
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à 18\" ou moins, qui subit trois blessures avec <key>Explosion</key>(3)."
         }
       ]
     },
