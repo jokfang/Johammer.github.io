@@ -15588,7 +15588,7 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "all",
           "cost": 1,
-          "text": "Pick one enemy unit within 18", which gets -3 to casting rolls once (next time the effect would apply)."
+          "text": "Pick one enemy unit within 18\", which gets -3 to casting rolls once (next time the effect would apply)."
         }
       ]
     },
