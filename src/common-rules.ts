@@ -1,16 +1,15 @@
 import {
-  commonRules,
   type RuleTranslationEntry,
-} from "../public/locales/rules/common-rules.dictionary";
-
-type RulesByLanguage = Record<string, Record<string, RuleTranslationEntry>>;
+  type RulesByLanguage,
+  getCommonRulesDictionary,
+} from "./services/common-rules-api";
 type TranslateField = "title" | "description";
 type TranslateOptions = {
   field?: TranslateField;
   system?: string;
 };
 
-const translations: RulesByLanguage = commonRules;
+const translations: RulesByLanguage = getCommonRulesDictionary();
 
 const normalizeSystem = (value?: string) => (value || "").toLowerCase();
 const stripKeyTags = (value: string) => value.replace(/<\/?key>/g, "");

@@ -1,9 +1,9 @@
 import {
-  commonRules,
-  commonSpells,
+  getCommonRuleTranslations,
+  getCommonSpellTranslations,
   type RuleTranslationEntry,
   type SpellTranslationEntry,
-} from "../../../public/locales/rules/common-rules.dictionary";
+} from "../../services/common-rules-api";
 
 type ArmyBookRule = {
   id?: string;
@@ -265,7 +265,11 @@ const formatAp = (rules: ArmyBookRule[], language: string) => {
   }
 
   const label = apRule.label || `AP(${apRule.rating ?? 0})`;
-  const translated = translateLabel(label, commonRules[language] || commonRules.en, language);
+  const translated = translateLabel(
+    label,
+    getCommonRuleTranslations(language),
+    language
+  );
   const match = /\(([^)]+)\)/.exec(translated);
   return match?.[1] || "-";
 };
@@ -274,7 +278,7 @@ const formatRuleList = (
   rules: ArmyBookRule[],
   language: string
 ) => {
-  const dictionary = commonRules[language] || commonRules.en;
+  const dictionary = getCommonRuleTranslations(language);
   const entries = rules
     .filter((rule) => rule.name !== "AP")
     .map((rule) => translateLabel(rule.label || rule.name, dictionary, language));
@@ -321,14 +325,18 @@ const formatGainDetails = (
   if (gain.type === "ArmyBookItem" && Array.isArray(gain.content)) {
     return gain.content
       .map((item) =>
-        translateLabel(item.label || item.name, commonRules[language] || commonRules.en, language)
+        translateLabel(
+          item.label || item.name,
+          getCommonRuleTranslations(language),
+          language
+        )
       )
       .join(", ");
   }
 
   return translateLabel(
     gain.label || gain.name,
-    commonRules[language] || commonRules.en,
+    getCommonRuleTranslations(language),
     language
   );
 };
@@ -399,8 +407,8 @@ export const extractArmyBookData = (
   language = "fr"
 ): ExtractedArmyBook => {
   const normalizedLanguage = language.slice(0, 2);
-  const rulesDictionary = commonRules[normalizedLanguage] || commonRules.en;
-  const spellsDictionary = commonSpells[normalizedLanguage] || commonSpells.en;
+  const rulesDictionary = getCommonRuleTranslations(normalizedLanguage);
+  const spellsDictionary = getCommonSpellTranslations(normalizedLanguage);
   const system = GAME_SYSTEMS[source.gameSystemSlug || parsedUrl.gameSystemSlug];
   const systemCode = source.aberration || source.gameSystemKey || system?.code || "";
   const systemName = system?.name || source.gameSystemSlug || "";

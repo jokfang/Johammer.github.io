@@ -1,0 +1,6705 @@
+{
+  "Ambush Beacon": {
+    "title": "Ambush Beacon",
+    "description": [
+      {
+        "system": "all",
+        "text": "Friendly units using <key>Ambush</key> may ignore distance restrictions from enemies if they are deployed within 6” of this model."
+      }
+    ]
+  },
+  "Bad Shot": {
+    "title": "Bad Shot",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets -1 to hit rolls when shooting."
+      }
+    ]
+  },
+  "Badlands Hunter": {
+    "title": "Badlands Hunter",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+      }
+    ]
+  },
+  "Badlands Hunter Boost": {
+    "title": "Badlands Hunter Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Badlands <key>Hunter</key></key>, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from <key>Badlands <key>Hunter</key></key> (instead of only on 1)."
+      }
+    ]
+  },
+  "Badlands Hunter Boost Aura": {
+    "title": "Badlands Hunter Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Badlands <key>Hunter</key></key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Ballistic Vest": {
+    "title": "Ballistic Vest",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away and take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
+      }
+    ]
+  },
+  "Ballistic Vest Boost": {
+    "title": "Ballistic Vest Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Ballistic Vest</key>, enemy hits always count as having <key>AP</key>(-1) from <key>Ballistic Vest</key> (instead of only when being shot/charged from over 9” away)."
+      }
+    ]
+  },
+  "Ballistic Vest Boost Aura": {
+    "title": "Ballistic Vest Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Ballistic Vest</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Bane in Melee Buff": {
+    "title": "Bane in Melee Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12”, which gets <key>Bane</key> in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Battle-Hardened": {
+    "title": "Battle-Hardened",
+    "description": [
+      {
+        "system": "all",
+        "text": "Units where all models have this rule get +1 to morale test rolls."
+      }
+    ]
+  },
+  "Battleborn": {
+    "title": "Battleborn",
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+      }
+    ]
+  },
+  "Berserker Boost": {
+    "title": "Berserker Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Berserker</key>, it deals extra hits on successful unmodified hit results of 5-6 from <key>Berserker</key> (instead of only on 6)."
+      }
+    ]
+  },
+  "Berserker Boost Aura": {
+    "title": "Berserker Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Berserker</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Bloodborn": {
+    "title": "Bloodborn",
+    "description": [
+      {
+        "system": "all",
+        "text": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+      }
+    ]
+  },
+  "Brute Courage": {
+    "title": "Brute Courage",
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+      }
+    ]
+  },
+  "Clan Warrior": {
+    "title": "Clan Warrior",
+    "description": [
+      {
+        "system": "all",
+        "text": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+      }
+    ]
+  },
+  "Clan Warrior Boost": {
+    "title": "Clan Warrior Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Clan Warrior</key>, it gets extra attacks on successful unmodified hit results of 5-6 from <key>Clan Warrior</key> (instead of only on 6)."
+      }
+    ]
+  },
+  "Clan Warrior Boost Aura": {
+    "title": "Clan Warrior Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Clan Warrior</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Cyber-Eyes": {
+    "title": "Cyber-Eyes",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model shoots at enemies over 9” away, it gets +1 to hit rolls."
+      }
+    ]
+  },
+  "Cyber-Eyes Boost": {
+    "title": "Cyber-Eyes Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Cyber-Eyes</key>, it always gets +1 to hit rolls from <key>Cyber-Eyes</key> (instead of only when shooting over 9” away)."
+      }
+    ]
+  },
+  "Cyber-Eyes Boost Aura": {
+    "title": "Cyber-Eyes Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Cyber-Eyes</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Darkborn": {
+    "title": "Darkborn",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets +3” range when shooting and moves +3” when using Charge actions."
+      }
+    ]
+  },
+  "Defensive Growth": {
+    "title": "Defensive Growth",
+    "description": [
+      {
+        "system": "all",
+        "text": "Place one marker on this unit at the end of each round if it's on the table. For each marker models with this rule in it get +1 to defense rolls (up to a max. of +2). If this unit is ever Shaken, it loses all its markers."
+      }
+    ]
+  },
+  "Defensive Growth Aura": {
+    "title": "Defensive Growth Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Defensive Growth</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Demolish": {
+    "title": "Demolish",
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and against non-<key>Hero</key> units with <key>Tough</key>(3) or more, this weapon gets <key>AP</key>(+2)."
+      }
+    ]
+  },
+  "Devout": {
+    "title": "Devout",
+    "description": [
+      {
+        "system": "all",
+        "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+      }
+    ]
+  },
+  "Devout Boost": {
+    "title": "Devout Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Devout</key>, it deals extra hits on successful unmodified hit results of 5-6 from <key>Devout</key> (instead of only on 6)."
+      }
+    ]
+  },
+  "Devout Boost Aura": {
+    "title": "Devout Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Devout Boost</key>."
+      }
+    ]
+  },
+  "Entrenched Buff": {
+    "title": "Entrenched Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12”, which gets <key>Entrenched</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Flying Aura": {
+    "title": "Flying Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Flying</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Grounded Precision": {
+    "title": "Grounded Precision",
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule has most of them within 1” of terrain, they get +1 to hit rolls when attacking."
+      }
+    ]
+  },
+  "Grounded Precision Aura": {
+    "title": "Grounded Precision Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Grounded Precision</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Grounded Stealth": {
+    "title": "Grounded Stealth",
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule has most of them within 1” of terrain, enemies get -1 to hit rolls when attacking them."
+      }
+    ]
+  },
+  "Guardian": {
+    "title": "Guardian",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away and take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
+      }
+    ]
+  },
+  "Guardian Boost": {
+    "title": "Guardian Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Guardian</key>, enemy hits always count as having <key>AP</key>(-1) from <key>Guardian</key> (instead of only when being shot/charged from over 9” away)."
+      }
+    ]
+  },
+  "Guardian Boost Aura": {
+    "title": "Guardian Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Guardian</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Guerrilla": {
+    "title": "Guerrilla",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per round, units where all models have this rule may move by up to 3” after shooting or being in melee."
+      }
+    ]
+  },
+  "Guerrilla Boost": {
+    "title": "Guerrilla Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If most models in this unit have <key>Guerrilla</key>, they may move by up to 6” from <key>Guerrilla</key> (instead of only 3”)."
+      }
+    ]
+  },
+  "Guerrilla Boost Aura": {
+    "title": "Guerrilla Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Guerrilla</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Hive Bond": {
+    "title": "Hive Bond",
+    "description": [
+      {
+        "system": "all",
+        "text": "Units where all models have this rule get +1 to morale test rolls."
+      }
+    ]
+  },
+  "Hive Bond Boost": {
+    "title": "Hive Bond Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Hive Bond</key>, they get +2 to morale test rolls from <key>Hive Bond</key> (instead of only +1)."
+      }
+    ]
+  },
+  "Hive Bond Boost Aura": {
+    "title": "Hive Bond Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Hive Bond</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Hold the Line Boost Aura": {
+    "title": "Hold the Line Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Hold the Line</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Ignores Cover Aura": {
+    "title": "Ignores Cover Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Ignores Cover</key> when shooting. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Ignores Cover when Shooting": {
+    "title": "Ignores Cover when Shooting",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Ignores Cover</key> when shooting."
+      }
+    ]
+  },
+  "Ignores Cover when Shooting Aura": {
+    "title": "Ignores Cover when Shooting Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Ignores Cover</key> when shooting. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Ignores Regeneration in Melee": {
+    "title": "Ignores Regeneration in Melee",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets Ignores Regeneration in melee."
+      }
+    ]
+  },
+  "Indirect Mark": {
+    "title": "Indirect Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18”, which friendly units gets <key>Indirect</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Infected": {
+    "title": "Infected",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+      }
+    ]
+  },
+  "Infected Boost": {
+    "title": "Infected Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Infected</key>, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from <key>Infected</key> (instead of only on 1)."
+      }
+    ]
+  },
+  "Infected Boost Aura": {
+    "title": "Infected Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Infected</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Infiltrate Aura": {
+    "title": "Infiltrate Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Infiltrate</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Inquisitorial Agent": {
+    "title": "Inquisitorial Agent",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, if all models in this unit have this rule, it may be activated even if it had already activated this round (stops being fatigued when activated for the second time). Only up to half of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
+      }
+    ]
+  },
+  "Knightborn": {
+    "title": "Knightborn",
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 4+ instead."
+      }
+    ]
+  },
+  "Machine-Fog": {
+    "title": "Machine-Fog",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away, enemy units get -1 to hit rolls."
+      }
+    ]
+  },
+  "Machine-Fog Boost": {
+    "title": "Machine-Fog Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Machine-Fog</key>, enemies attacking them always get -1 to hit rolls from <key>Machine-Fog</key> (instead of only when being shot/charged from over 9” away)."
+      }
+    ]
+  },
+  "Machine-Fog Boost Aura": {
+    "title": "Machine-Fog Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Machine-Fog</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Martial Prowess": {
+    "title": "Martial Prowess",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, if all models in this unit have this rule, it may be activated even if it had already activated this round (stops being fatigued when activated for the second time). Only up to half of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
+      }
+    ]
+  },
+  "No Retreat Buff": {
+    "title": "No Retreat Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12”, which gets <key>No Retreat</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Piercing Growth": {
+    "title": "Piercing Growth",
+    "description": [
+      {
+        "system": "all",
+        "text": "Place one marker on this unit at the end of each round if it's on the table. For each marker models with this rule in it get <key>AP</key>(+1) (up to a max. of +2). If this unit is ever Shaken, it loses all its markers."
+      }
+    ]
+  },
+  "Piercing Shooting Debuff": {
+    "title": "Piercing Shooting Debuff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18”, which loses <key>AP</key>(+1) when shooting once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Piercing Shooting Mark": {
+    "title": "Piercing Shooting Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18”, which friendly units gets <key>AP</key>(+1) when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Point-Blank Piercing": {
+    "title": "Point-Blank Piercing",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>AP</key>(+1) when shooting enemies within 12”."
+      }
+    ]
+  },
+  "Point-Blank Piercing Aura": {
+    "title": "Point-Blank Piercing Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get<key>Point-Blank Piercing</key>."
+      }
+    ]
+  },
+  "Point-Blank Surge": {
+    "title": "Point-Blank Surge",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model shoots at enemies within 12”, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+      }
+    ]
+  },
+  "Protected Aura": {
+    "title": "Protected Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Protected</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Protection Feat Aura": {
+    "title": "Protection Feat Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Protection Feat</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Psychotic": {
+    "title": "Psychotic",
+    "description": [
+      {
+        "system": "all",
+        "text": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+      }
+    ]
+  },
+  "Psychotic Boost": {
+    "title": "Psychotic Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Psychotic</key>, it gets extra attacks on successful unmodified hit results of 5-6 from <key>Psychotic</key> (instead of only on 6)."
+      }
+    ]
+  },
+  "Psychotic Boost Aura": {
+    "title": "Psychotic Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Psychotic</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Quake when Shooting": {
+    "title": "Quake when Shooting",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Quake</key> when shooting."
+      }
+    ]
+  },
+  "Rapid Advance Buff": {
+    "title": "Rapid Advance Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12”, which gets <key>Rapid Advance</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rapid Ambush": {
+    "title": "Rapid Ambush",
+    "description": [
+      {
+        "system": "all",
+        "text": "Counts as having <key>Ambush</key>, but may be deployed at the start of any round, including the first."
+      }
+    ]
+  },
+  "Rapid Blink": {
+    "title": "Rapid Blink",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within 3” of their position."
+      }
+    ]
+  },
+  "Rapid Blink Boost": {
+    "title": "Rapid Blink Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Rapid Blink</key>, it may be placed within 6” from <key>Rapid Blink</key> (instead of only within 3”)."
+      }
+    ]
+  },
+  "Rapid Blink Boost Aura": {
+    "title": "Rapid Blink Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Rapid Blink</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Reinforced": {
+    "title": "Reinforced",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away and take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
+      }
+    ]
+  },
+  "Runner Boost": {
+    "title": "Runner Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Runner</key>, it moves +4” on Advance and +4” on Rush/Charge from <key>Runner</key> (instead of only +2” and +2”)."
+      }
+    ]
+  },
+  "Runner Boost Aura": {
+    "title": "Runner Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Runner</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Safety Gear": {
+    "title": "Safety Gear",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away, they get +1 to defense rolls."
+      }
+    ]
+  },
+  "Safety Gear Boost": {
+    "title": "Safety Gear Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Safety Gear</key>, they always get +1 to defense rolls from <key>Safety Gear</key> (instead of only when being shot/charged from over 9” away)."
+      }
+    ]
+  },
+  "Safety Gear Boost Aura": {
+    "title": "Safety Gear Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Safety Gear</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Scrapper": {
+    "title": "Scrapper",
+    "description": [
+      {
+        "system": "all",
+        "text": "When attacking, targets must re-roll unmodified <key>Defense</key> results of 6 when blocking hits from this model's weapons."
+      }
+    ]
+  },
+  "Scrapper Boost": {
+    "title": "Scrapper Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Scrapper</key>, enemies taking hits from it must re-roll successful unmodified defense results of 5-6 from <key>Scrapper</key> (instead of only on 6)."
+      }
+    ]
+  },
+  "Scrapper Boost Aura": {
+    "title": "Scrapper Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Scrapper</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Screened": {
+    "title": "Screened",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away, enemy units get -1 to hit rolls."
+      }
+    ]
+  },
+  "Screened Aura": {
+    "title": "Screened Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Screened</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Self-Destruct": {
+    "title": "Self-Destruct",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits."
+      }
+    ]
+  },
+  "Self-Repair": {
+    "title": "Self-Repair",
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+      }
+    ]
+  },
+  "Self-Repair Boost": {
+    "title": "Self-Repair Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Self-Repair</key>, they ignore wounds on rolls of 5-6 from <key>Self-Repair</key> (instead of only on 6+)."
+      }
+    ]
+  },
+  "Shadow Operative": {
+    "title": "Shadow Operative",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies get -4” range when trying to shoot at units where all models have this rule, and -2” movement when trying to charge units where all models have this rule."
+      }
+    ]
+  },
+  "Shadow Operative Boost": {
+    "title": "Shadow Operative Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Shadow Operative</key>, enemies get -8” range when shooting them and -4” movement when charging them from <key>Shadow Operative</key> (instead of only -4” and -2”)."
+      }
+    ]
+  },
+  "Shadow Operative Boost Aura": {
+    "title": "Shadow Operative Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Shadow Operative</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Shred when Shooting": {
+    "title": "Shred when Shooting",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Shred</key> when shooting."
+      }
+    ]
+  },
+  "Surge when Shooting": {
+    "title": "Surge when Shooting",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Surge</key> when shooting."
+      }
+    ]
+  },
+  "Surprise Piercing Shot": {
+    "title": "Surprise Piercing Shot",
+    "description": [
+      {
+        "system": "all",
+        "text": "Counts as having <key>Ambush</key>, and gets <key>AP</key>(+2) when shooting on the round in which it deploys via this rule."
+      }
+    ]
+  },
+  "Targeting Visor": {
+    "title": "Targeting Visor",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model shoots at enemies over 9” away, it gets +1 to hit rolls."
+      }
+    ]
+  },
+  "Targeting Visor Boost": {
+    "title": "Targeting Visor Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Targeting Visor</key>, it always gets +1 to hit rolls when shooting from <key>Targeting Visor</key> (instead of only when shooting over 9” away)."
+      }
+    ]
+  },
+  "Targeting Visor Boost Aura": {
+    "title": "Targeting Visor Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Targeting Visor</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Union Assault": {
+    "title": "Union Assault",
+    "description": [
+      {
+        "system": "all",
+        "text": "After this model is deployed, it may be placed anywhere fully within 9” of its position."
+      }
+    ]
+  },
+  "Versatile Reach Aura": {
+    "title": "Versatile Reach Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get <key>Versatile Reach</key>. If this model is killed, picked models that are deployed lose the rule."
+      }
+    ]
+  },
+  "Watchborn": {
+    "title": "Watchborn",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get <key>AP</key>(+1) when attacking, or get +1 to hit rolls when attacking."
+      }
+    ]
+  },
+  "Wolfborn": {
+    "title": "Wolfborn",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within 3” of their position."
+      }
+    ]
+  },
+  "Wreck": {
+    "title": "Wreck",
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and when attacking the target must re-roll unmodified <key>Defense</key> results of 6."
+      }
+    ]
+  },
+  "Aircraft": {
+    "title": "Aircraft",
+    "description": [
+      {
+        "system": "all",
+        "text": "May only use Advance actions, moving in a straight line, and adding 30” to its total move (even if Shaken). <key>Aircraft</key> ignore all units and terrain when moving and stopping, can’t seize or contest objectives, can’t be charged, and units targeting them get -12” range."
+      }
+    ]
+  },
+  "Ambush": {
+    "title": "Ambush",
+    "description": [
+      {
+        "system": "all",
+        "text": "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 9” away from enemy units. Players alternate in placing <key>Ambush</key> units, starting with the player that activates next. Units that deploy via <key>Ambush</key> can’t seize or contest objectives on the round they deploy."
+      },
+      {
+        "system": "aofr",
+        "text": "May be set aside before deployment. At the start of any round after the first, may be deployed fully within 6” of any table edge, over 9” away from enemy units. Players alternate in placing <key>Ambush</key> units, starting with the player that activates next. Units that deploy via <key>Ambush</key> can’t seize or contest objectives on the round they deploy."
+      }
+    ],
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "f78kQxkgtIs1",
+      "vhKZ0CIT6dBt",
+      "tKa31SeqrzS1",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb",
+      "voFsQwaDph1Y",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "xw2YHtZNkhIV",
+      "GgMdmXsCVdK2",
+      "x2_Lkyj0JPk2",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm",
+      "oACH5PrePLfv",
+      "AiReKTM86F3e",
+      "OyVVPwEw7Uep",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "AP": {
+    "title": "AP",
+    "description": [
+      {
+        "system": "all",
+        "text": "Targets get -X to <key>Defense</key> rolls when blocking hits."
+      }
+    ],
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "f78kQxkgtIs1",
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "vhKZ0CIT6dBt",
+      "tKa31SeqrzS1",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb",
+      "wLKHbRBBr4NI",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "p9iL_bzUnY7A",
+      "x2_Lkyj0JPk2",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm",
+      "oACH5PrePLfv",
+      "AiReKTM86F3e",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Artillery": {
+    "title": "Artillery",
+    "description": [
+      {
+        "system": "all",
+        "text": "May only use Hold actions. When this model shoots at enemies over 9” away, it gets +1 to hit rolls. When enemy units shoot at this model from over 9” away, they get -2 to hit rolls."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Bane": {
+    "title": "Bane",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and when attacking the target must re-roll unmodified <key>Defense</key> results of 6."
+      }
+    ],
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "tKa31SeqrzS1",
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb",
+      "wLKHbRBBr4NI",
+      "5xPzQn4Qdzz6",
+      "SY80P2vKJGrY",
+      "_k9nd29ZX-FQ",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "x2_Lkyj0JPk2",
+      "AxiZW7zj2hUK",
+      "dRAJ8qnYDOxm",
+      "oACH5PrePLfv",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Banner": {
+    "title": "Banner",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game get +1 to morale test rolls. If this model is killed, picked models that are deployed lose the rule."
+      },
+      {
+        "system": "gf",
+        "text": "This model and its unit get +1 to morale test rolls."
+      },
+      {
+        "system": "aof",
+        "text": "This model and its unit get +1 to morale test rolls."
+      },
+      {
+        "system": "aofr",
+        "text": "This model and its unit get +1 to morale test rolls."
+      }
+    ]
+  },
+  "Blast": {
+    "title": "Blast",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as enemy models in the target unit and within 3” of it. Hits must be split evenly between all enemy units within 3” of any model from the target (defender picks how)."
+      },
+      {
+        "system": "gf",
+        "text": "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as models in the target unit."
+      },
+      {
+        "system": "aof",
+        "text": "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as models in the target unit."
+      },
+      {
+        "system": "aofr",
+        "text": "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as models in the target unit."
+      }
+    ],
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "f78kQxkgtIs1",
+      "vhKZ0CIT6dBt",
+      "0zpUZx5GkSHb",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "oACH5PrePLfv",
+      "AiReKTM86F3e"
+    ]
+  },
+  "Caster": {
+    "title": "Caster",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. Models within 18” in line of sight of the caster’s unit may spend any number of spell tokens at the same time before rolling, to give the caster +1/-1 to the roll per token."
+      },
+      {
+        "system": "aofr",
+        "text": "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight in any direction. Models within 18” in line of sight of the caster’s unit may spend any number of spell tokens at the same time before rolling, to give the caster +1/-1 to the roll per token."
+      }
+    ],
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "Q7nWXE-8DEHN",
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "SY80P2vKJGrY",
+      "xw2YHtZNkhIV",
+      "H18g-ND_uWiZ",
+      "GgMdmXsCVdK2",
+      "oACH5PrePLfv",
+      "OyVVPwEw7Uep",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Counter": {
+    "title": "Counter",
+    "description": [
+      {
+        "system": "all",
+        "text": "Strikes first with this weapon when charged, and the charging unit gets -1 total <key>Impact</key> rolls per model with <key>Counter</key>."
+      },
+      {
+        "system": "aofr",
+        "text": "Strikes first with this weapon when charged, and the charging unit gets -1 total <key>Impact</key> rolls per model with <key>Counter</key> in the two front rows if charging in the front."
+      }
+    ],
+    "specialRule": [
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Deadly": {
+    "title": "Deadly",
+    "description": [
+      {
+        "system": "all",
+        "text": "Assign each wound to one model, and multiply it by X. Hits from <key>Deadly</key> must be resolved first, and these wounds don’t carry over to other models if the original target is killed."
+      }
+    ],
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "f78kQxkgtIs1",
+      "ylxJ4fFb6cZf",
+      "wLKHbRBBr4NI",
+      "aHBBAhsdAqyz",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "dRAJ8qnYDOxm",
+      "AiReKTM86F3e",
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Entrenched": {
+    "title": "Entrenched",
+    "description": [
+      {
+        "system": "all",
+        "text": "As long as a unit where all models have this rule hasn't moved during the round, enemy units shooting at it from over 9” away get -2 to hit rolls."
+      }
+    ]
+  },
+  "Fast": {
+    "title": "Fast",
+    "description": [
+      {
+        "system": "all",
+        "text": "Moves +2” when using Advance, and +4” when using Rush/Charge."
+      }
+    ]
+  },
+  "Fear": {
+    "title": "Fear",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model counts as having dealt +X wounds when checking wound effects in melee (must deal at least one wound)."
+      },
+      {
+        "system": "gf",
+        "text": "This model counts as having dealt +X wounds when checking who won melee."
+      },
+      {
+        "system": "aof",
+        "text": "This model counts as having dealt +X wounds when checking who won melee."
+      },
+      {
+        "system": "aofr",
+        "text": "This model counts as having dealt +X wounds when checking who won melee."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY",
+      "xw2YHtZNkhIV",
+      "oACH5PrePLfv",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Fearless": {
+    "title": "Fearless",
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule fails a morale test, roll one die. On a 4+ it counts as passed instead."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY",
+      "xw2YHtZNkhIV",
+      "fLQMyzi3zbFI",
+      "oACH5PrePLfv",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Flying": {
+    "title": "Flying",
+    "description": [
+      {
+        "system": "all",
+        "text": "May move through units and terrain, and ignores terrain effects whilst moving, and automatically passes jumping rolls."
+      },
+      {
+        "system": "gf",
+        "text": "May move through units and terrain, and ignores terrain effects whilst moving."
+      },
+      {
+        "system": "aof",
+        "text": "May move through units and terrain, and ignores terrain effects whilst moving."
+      },
+      {
+        "system": "aofr",
+        "text": "May move through units and terrain, and ignores terrain effects whilst moving."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz"
+    ]
+  },
+  "Furious": {
+    "title": "Furious",
+    "description": [
+      {
+        "system": "all",
+        "text": "When charging, unmodified results of 6 to hit in melee deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+      }
+    ],
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "0zpUZx5GkSHb",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "RMi35vAtYNb-",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep"
+    ]
+  },
+  "Hero": {
+    "title": "Hero",
+    "description": [
+      {
+        "system": "all",
+        "text": "Friendly units within 12” may take morale tests using the hero’s Quality, as long as the hero isn’t Shaken. "
+      },
+      {
+        "system": "gf",
+        "text": "Heroes with up to <key>Tough</key>(6) may deploy as part of one multi-model unit without another <key>Hero</key>. The hero may take morale tests on behalf of the unit, but must use the unit’s <key>Defense</key> until all other models have been killed."
+      },
+      {
+        "system": "aof",
+        "text": "Heroes with up to <key>Tough</key>(6) may deploy as part of one multi-model unit without another <key>Hero</key>. The hero may take morale tests on behalf of the unit, but must use the unit’s <key>Defense</key> until all other models have been killed."
+      },
+      {
+        "system": "aofr",
+        "text": "Heroes with up to <key>Tough</key>(6) may deploy as part of one multi-model unit without another <key>Hero</key>. The hero may take morale tests on behalf of the unit, but must use the unit’s <key>Defense</key> until all other models have been killed."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Immobile": {
+    "title": "Immobile",
+    "description": [
+      {
+        "system": "all",
+        "text": "May only use Hold actions."
+      }
+    ]
+  },
+  "Impact": {
+    "title": "Impact",
+    "description": [
+      {
+        "system": "all",
+        "text": "Roll X dice when attacking after charging, unless fatigued. For each 2+ the target takes one hit."
+      },
+      {
+        "system": "aofr",
+        "text": "Models in the two front rows roll X dice when attacking after charging, unless fatigued. For each 2+ the target takes one hit."
+      }
+    ],
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "ylxJ4fFb6cZf",
+      "fLQMyzi3zbFI",
+      "dRAJ8qnYDOxm",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Indirect": {
+    "title": "Indirect",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets -1 to hit rolls when shooting after moving. May target enemies that are not in line of sight as if in line of sight, and ignores cover from sight obstructions."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf",
+      "5xPzQn4Qdzz6",
+      "SY80P2vKJGrY",
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Limited": {
+    "title": "Limited",
+    "description": [
+      {
+        "system": "all",
+        "text": "May only be used once per game."
+      }
+    ]
+  },
+  "Morale": {
+    "title": "Morale",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets +X to morale test rolls."
+      }
+    ]
+  },
+  "Musician": {
+    "title": "Musician",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and up to 3 friendly units picked before the start of the game moves +1” when using move actions. If this model is killed, picked models that are deployed lose the rule."
+      },
+      {
+        "system": "gf",
+        "text": "This model and its unit moves +1” when using move actions."
+      },
+      {
+        "system": "aof",
+        "text": "This model and its unit moves +1” when using move actions."
+      },
+      {
+        "system": "aofr",
+        "text": "This model and its unit moves +1” when using move actions."
+      }
+    ]
+  },
+  "Regeneration": {
+    "title": "Regeneration",
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 5+ it is ignored."
+      }
+    ],
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "vhKZ0CIT6dBt",
+      "tKa31SeqrzS1",
+      "cyQpyja0EDRj",
+      "0zpUZx5GkSHb",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "AiReKTM86F3e",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Relentless": {
+    "title": "Relentless",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model shoots at enemies over 9” away, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+      }
+    ],
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "0zpUZx5GkSHb",
+      "SY80P2vKJGrY",
+      "_k9nd29ZX-FQ",
+      "H18g-ND_uWiZ",
+      "x2_Lkyj0JPk2",
+      "SshMejY9Kz7s"
+    ]
+  },
+  "Reliable": {
+    "title": "Reliable",
+    "description": [
+      {
+        "system": "all",
+        "text": "Attacks at Quality 2+."
+      }
+    ]
+  },
+  "Rending": {
+    "title": "Rending",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+4)."
+      }
+    ],
+    "specialRule": [
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "tKa31SeqrzS1",
+      "wLKHbRBBr4NI",
+      "_k9nd29ZX-FQ",
+      "fLQMyzi3zbFI",
+      "SshMejY9Kz7s"
+    ]
+  },
+  "Scout": {
+    "title": "Scout",
+    "description": [
+      {
+        "system": "all",
+        "text": "May be set aside before deployment. After all other units are deployed, may be deployed anywhere fully within 12” of their deployment zone. Players alternate in placing <key>Scout</key> units, starting with the player that activates next."
+      }
+    ],
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "5xPzQn4Qdzz6",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Slow": {
+    "title": "Slow",
+    "description": [
+      {
+        "system": "all",
+        "text": "Moves -2” when using Advance, and -4” when using Rush/Charge."
+      }
+    ],
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "0zpUZx5GkSHb",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "SshMejY9Kz7s"
+    ]
+  },
+  "Sniper REMOVE": {
+    "title": "Sniper REMOVE",
+    "description": [
+      {
+        "system": "all",
+        "text": "Shoots at Quality 2+, and each model with Sniper may pick any model in the target unit as its individual target, which is resolved as if it was a unit of 1. Sniper shooting must be resolved before other weapons."
+      }
+    ]
+  },
+  "Stealth": {
+    "title": "Stealth",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot from over 9” away, enemy units get -1 to hit rolls."
+      }
+    ],
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "f78kQxkgtIs1",
+      "ylxJ4fFb6cZf",
+      "AxiZW7zj2hUK",
+      "oACH5PrePLfv"
+    ]
+  },
+  "Strider": {
+    "title": "Strider",
+    "description": [
+      {
+        "system": "all",
+        "text": "May ignore the effects of difficult terrain when moving, and only needs 2+ to pass jumping rolls."
+      },
+      {
+        "system": "gf",
+        "text": "May ignore the effects of difficult terrain when moving. "
+      },
+      {
+        "system": "aof",
+        "text": "May ignore the effects of difficult terrain when moving. "
+      },
+      {
+        "system": "aofr",
+        "text": "May ignore the effects of difficult terrain when moving. "
+      }
+    ],
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "cyQpyja0EDRj",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Takedown": {
+    "title": "Takedown",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model may pick any model in the target unit as its individual target, which is resolved as if it was a unit of [1]. <key>Takedown</key> attacks must be resolved before other weapons."
+      }
+    ]
+  },
+  "Thrust": {
+    "title": "Thrust",
+    "description": [
+      {
+        "system": "all",
+        "text": "When charging, gets +1 to hit rolls and <key>AP</key>(+1) in melee."
+      }
+    ],
+    "specialRule": [
+      "GgMdmXsCVdK2",
+      "AiReKTM86F3e"
+    ]
+  },
+  "Tough": {
+    "title": "Tough",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model only rolls to check wound effects once it has taken at least X wounds, and is only Knocked Out on rolls of 5+X or more."
+      },
+      {
+        "system": "gf",
+        "text": "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. You must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last, even if already wounded)."
+      },
+      {
+        "system": "aof",
+        "text": "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. You must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last, even if already wounded)."
+      },
+      {
+        "system": "aofr",
+        "text": "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. You must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last, even if already wounded)."
+      }
+    ],
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "cyQpyja0EDRj",
+      "wLKHbRBBr4NI",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "OJr14Si4C1Uj",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm",
+      "AiReKTM86F3e",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Transport": {
+    "title": "Transport",
+    "description": [
+      {
+        "system": "all",
+        "text": "May transport up to X models or Heroes with up to <key>Tough</key>(6), and non-Heroes with up to <key>Tough</key>(3) which occupy 3 spaces each. Transports may deploy with units inside, and units may enter/exit by using any move action, but must stay fully within 6” of it when exiting. Units inside/outside transports may not target other units outside/inside transports, but may target the transport itself. When a transport is destroyed, units inside must take a dangerous terrain test, are Shaken, and must be placed fully within 6” of the transport before it’s removed."
+      }
+    ]
+  },
+  "Unstoppable": {
+    "title": "Unstoppable",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and ignores all negative modifiers to this weapon."
+      }
+    ],
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "cyQpyja0EDRj",
+      "0zpUZx5GkSHb",
+      "xw2YHtZNkhIV",
+      "AxiZW7zj2hUK",
+      "dRAJ8qnYDOxm",
+      "K44UD3HPQAfg",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Suppressor": {
+    "title": "Suppressor",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies that are shot at by the hero get -1 to hit when shooting until the end of the round."
+      }
+    ]
+  },
+  "Blinded Eye": {
+    "title": "Blinded Eye",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets -1 to rolls when shooting."
+      }
+    ]
+  },
+  "Natural Talent": {
+    "title": "Natural Talent",
+    "description": [
+      {
+        "system": "all",
+        "text": "The hero recovers and gets +1 XP."
+      }
+    ]
+  },
+  "Agile": {
+    "title": "Agile",
+    "description": [
+      {
+        "system": "all",
+        "text": "Moves +1” on advance and +2” on rush and charge."
+      }
+    ]
+  },
+  "Berserker": {
+    "title": "Berserker",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies get +1 to wound effect rolls when taking wounds from the hero in melee."
+      }
+    ]
+  },
+  "Fast Learner": {
+    "title": "Fast Learner",
+    "description": [
+      {
+        "system": "all",
+        "text": "May pick any other trait from the list."
+      }
+    ]
+  },
+  "Bitter Rivalry": {
+    "title": "Bitter Rivalry",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets +1 to hit against enemy heroes."
+      }
+    ]
+  },
+  "Duellist": {
+    "title": "Duellist",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemy units get -1 in melee against the hero."
+      }
+    ]
+  },
+  "Climber": {
+    "title": "Climber",
+    "description": [
+      {
+        "system": "all",
+        "text": "The hero needs to roll only 2+ when jumping."
+      }
+    ]
+  },
+  "Mastermind": {
+    "title": "Mastermind",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemy units within 6” of the <key>Hero</key> get -1 <key>Defense</key>."
+      }
+    ]
+  },
+  "Tactician": {
+    "title": "Tactician",
+    "description": [
+      {
+        "system": "all",
+        "text": "Friendly units that activate within 6” of the <key>Hero</key> get +1 to hit when shooting."
+      }
+    ]
+  },
+  "Hunter": {
+    "title": "Hunter",
+    "description": [
+      {
+        "system": "all",
+        "text": "The hero may shoot even after rush actions."
+      }
+    ]
+  },
+  "Arm Injury": {
+    "title": "Arm Injury",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets -1 to rolls when in melee."
+      }
+    ]
+  },
+  "Leader": {
+    "title": "Leader",
+    "description": [
+      {
+        "system": "all",
+        "text": "Friendly units within 6” of the <key>Hero</key> get +1 to morale test rolls."
+      }
+    ]
+  },
+  "Destroyer": {
+    "title": "Destroyer",
+    "description": [
+      {
+        "system": "all",
+        "text": "The hero gets <key>AP</key>(+1) when shooting."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Herbalist": {
+    "title": "Herbalist",
+    "description": [
+      {
+        "system": "all",
+        "text": "Friendly units within 6” may ignore wounds on a roll of 6+."
+      }
+    ]
+  },
+  "Fanatic": {
+    "title": "Fanatic",
+    "description": [
+      {
+        "system": "all",
+        "text": "The hero gets +1 attack when in melee."
+      }
+    ]
+  },
+  "Vanguard": {
+    "title": "Vanguard",
+    "description": [
+      {
+        "system": "all",
+        "text": "Friendly units that activate within 6” move +4” when using Charge actions."
+      }
+    ]
+  },
+  "Motivated": {
+    "title": "Motivated",
+    "description": [
+      {
+        "system": "all",
+        "text": "Always passes the first morale test of the match."
+      }
+    ]
+  },
+  "Resilient": {
+    "title": "Resilient",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets +1 to rolls when blocking hits."
+      }
+    ]
+  },
+  "Chemist": {
+    "title": "Chemist",
+    "description": [
+      {
+        "system": "all",
+        "text": "Friendly units within 6” of the <key>Hero</key> get -1 to wound effect rolls."
+      }
+    ]
+  },
+  "Warden": {
+    "title": "Warden",
+    "description": [
+      {
+        "system": "all",
+        "text": "When the hero is activated all friendly units within 6” of the hero stop being shaken."
+      }
+    ],
+    "specialRule": [
+      "AxiZW7zj2hUK"
+    ]
+  },
+  "Specialist": {
+    "title": "Specialist",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets +1 to hit rolls in melee or shooting (pick one)."
+      }
+    ]
+  },
+  "Instigator": {
+    "title": "Instigator",
+    "description": [
+      {
+        "system": "all",
+        "text": "Friendly units that activate within 6” of the <key>Hero</key> get +1 to hit when in melee."
+      }
+    ]
+  },
+  "Crazed": {
+    "title": "Crazed",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets +1 attack in melee when charging."
+      }
+    ]
+  },
+  "Headstrong": {
+    "title": "Headstrong",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets +1 to rolls when taking morale tests."
+      }
+    ]
+  },
+  "Elite": {
+    "title": "Elite",
+    "description": [
+      {
+        "system": "all",
+        "text": "May re-roll one roll of any kind once per round."
+      }
+    ]
+  },
+  "Toughened": {
+    "title": "Toughened",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets <key>Tough</key>(+1)."
+      }
+    ]
+  },
+  "Scavenger": {
+    "title": "Scavenger",
+    "description": [
+      {
+        "system": "all",
+        "text": "Friendly units that activate within 6” of the <key>Hero</key> get +6” range when shooting."
+      }
+    ]
+  },
+  "Dead": {
+    "title": "Dead",
+    "description": [
+      {
+        "system": "all",
+        "text": "Remove the hero from your strike team sheet."
+      }
+    ]
+  },
+  "Smashed Leg": {
+    "title": "Smashed Leg",
+    "description": [
+      {
+        "system": "all",
+        "text": "Moves -1” on advance and -2” on rush and charge actions."
+      }
+    ]
+  },
+  "Horrible Scars": {
+    "title": "Horrible Scars",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemy units get -1 to hit when in melee against the hero."
+      }
+    ]
+  },
+  "Traumatized": {
+    "title": "Traumatized",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets -1 to rolls when taking morale tests."
+      }
+    ]
+  },
+  "Prowler": {
+    "title": "Prowler",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemy units further than 12” get -1 to hit rolls when shooting at the hero."
+      }
+    ]
+  },
+  "Runner": {
+    "title": "Runner",
+    "description": [
+      {
+        "system": "all",
+        "text": "The hero always moves +2” (even in terrain)."
+      }
+    ]
+  },
+  "Chest Wound": {
+    "title": "Chest Wound",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets -1 to rolls when blocking hits."
+      }
+    ]
+  },
+  "Fortified": {
+    "title": "Fortified",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "iv1Jm6zZiZPJ",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ",
+      "p9iL_bzUnY7A",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm",
+      "HH7O68qvHVR0",
+      "K44UD3HPQAfg"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
+      }
+    ]
+  },
+  "Sergeant": {
+    "title": "Sergeant",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "f78kQxkgtIs1",
+      "iv1Jm6zZiZPJ",
+      "vhKZ0CIT6dBt",
+      "tKa31SeqrzS1",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb",
+      "wLKHbRBBr4NI",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "x2_Lkyj0JPk2",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm",
+      "oACH5PrePLfv",
+      "AiReKTM86F3e",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model attacks, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+      }
+    ]
+  },
+  "Shadowborn Boost": {
+    "title": "Shadowborn Boost",
+    "specialRule": [
+      "zrj60Gptp4Ce"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Shadowborn</key>, enemies get -8” range when shooting  them and -4” movement when charging them from <key>Shadowborn</key> (instead of only -4” and -2”)."
+      }
+    ]
+  },
+  "Breath Attack": {
+    "title": "Breath Attack",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "f78kQxkgtIs1",
+      "0zpUZx5GkSHb",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "AxiZW7zj2hUK",
+      "AiReKTM86F3e"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with <key>Blast</key>(3) and <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Unique": {
+    "title": "Unique",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "f78kQxkgtIs1",
+      "iv1Jm6zZiZPJ",
+      "vhKZ0CIT6dBt",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "5xPzQn4Qdzz6",
+      "RMi35vAtYNb-",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This unit may only be taken once per army."
+      }
+    ]
+  },
+  "Precision Target": {
+    "title": "Precision Target",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, during this model's activation, pick one enemy unit within 36” and in line of sight of it, and place X markers on it. Friendly units get +X to hit rolls when attacking it."
+      }
+    ]
+  },
+  "Armor": {
+    "title": "Armor",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "f78kQxkgtIs1",
+      "vhKZ0CIT6dBt",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb",
+      "wLKHbRBBr4NI",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "xw2YHtZNkhIV",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "x2_Lkyj0JPk2",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm",
+      "oACH5PrePLfv",
+      "AiReKTM86F3e",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Counts as having <key>Defense</key> X+."
+      }
+    ]
+  },
+  "Repel Ambushers": {
+    "title": "Repel Ambushers",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "f78kQxkgtIs1",
+      "vhKZ0CIT6dBt",
+      "ylxJ4fFb6cZf",
+      "voFsQwaDph1Y",
+      "RMi35vAtYNb-",
+      "GgMdmXsCVdK2",
+      "x2_Lkyj0JPk2",
+      "AxiZW7zj2hUK",
+      "dRAJ8qnYDOxm",
+      "oACH5PrePLfv",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemy units using <key>Ambush</key> must be set up over 12” away from this model's unit."
+      }
+    ]
+  },
+  "Ethereal": {
+    "title": "Ethereal",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "x2_Lkyj0JPk2"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, place this model anywhere fully within 6” of its position. This model moves -6” when using Advance, and -6â when using Rush/Charge."
+      }
+    ]
+  },
+  "Melee Slayer": {
+    "title": "Melee Slayer",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "Q7nWXE-8DEHN",
+      "ylxJ4fFb6cZf",
+      "wLKHbRBBr4NI",
+      "OJr14Si4C1Uj",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm",
+      "AiReKTM86F3e",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model's melee weapons get <key>AP</key>(+2) against units where most models have <key>Tough</key>(3) or higher."
+      }
+    ]
+  },
+  "Thrust in Melee Aura": {
+    "title": "Thrust in Melee Aura",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "GgMdmXsCVdK2"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Thrust</key> in melee."
+      }
+    ]
+  },
+  "Melee Evasion": {
+    "title": "Melee Evasion",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "vhKZ0CIT6dBt",
+      "cyQpyja0EDRj",
+      "wLKHbRBBr4NI",
+      "RMi35vAtYNb-",
+      "OJr14Si4C1Uj",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "oACH5PrePLfv",
+      "AiReKTM86F3e",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies get -1 to hit rolls in melee when attacking units where all models have this rule."
+      }
+    ]
+  },
+  "Shadowborn": {
+    "title": "Shadowborn",
+    "specialRule": [
+      "zrj60Gptp4Ce"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies get -4” range when trying to shoot at units where all models have this rule, and -2” movement when trying to charge units where all models have this rule."
+      }
+    ]
+  },
+  "Counter-Attack Aura": {
+    "title": "Counter-Attack Aura",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Counter-Attack</key>."
+      }
+    ]
+  },
+  "Increased Shooting Range Aura": {
+    "title": "Increased Shooting Range Aura",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "ylxJ4fFb6cZf",
+      "H18g-ND_uWiZ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get +6” range when shooting."
+      }
+    ]
+  },
+  "Ravage": {
+    "title": "Ravage",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "f78kQxkgtIs1",
+      "iv1Jm6zZiZPJ",
+      "wLKHbRBBr4NI",
+      "SshMejY9Kz7s",
+      "AiReKTM86F3e",
+      "K44UD3HPQAfg"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When it's this model's turn to attack in melee, roll X dice. For each 6+ the target takes one wound."
+      }
+    ]
+  },
+  "Rapid Rush Aura": {
+    "title": "Rapid Rush Aura",
+    "specialRule": [
+      "zrj60Gptp4Ce"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Rapid Rush</key>."
+      }
+    ]
+  },
+  "Bane in Melee": {
+    "title": "Bane in Melee",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "fLQMyzi3zbFI",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Bane</key> in melee."
+      }
+    ]
+  },
+  "Shadowborn Boost Aura": {
+    "title": "Shadowborn Boost Aura",
+    "specialRule": [
+      "zrj60Gptp4Ce"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Shadowborn Boost</key>."
+      }
+    ]
+  },
+  "Unpredictable Fighter Mark": {
+    "title": "Unpredictable Fighter Mark",
+    "specialRule": [
+      "zrj60Gptp4Ce"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Unpredictable Fighter</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Resistance": {
+    "title": "Resistance",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "f78kQxkgtIs1",
+      "Q7nWXE-8DEHN",
+      "vhKZ0CIT6dBt",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "5xPzQn4Qdzz6",
+      "voFsQwaDph1Y",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "xw2YHtZNkhIV",
+      "x2_Lkyj0JPk2",
+      "SshMejY9Kz7s",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 2+ instead."
+      }
+    ]
+  },
+  "Good Fighter": {
+    "title": "Good Fighter",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets +1 to hit rolls in melee."
+      }
+    ]
+  },
+  "Fragment": {
+    "title": "Fragment",
+    "specialRule": [
+      "zrj60Gptp4Ce"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
+      }
+    ]
+  },
+  "Defense": {
+    "title": "Defense",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "f78kQxkgtIs1",
+      "iv1Jm6zZiZPJ",
+      "vhKZ0CIT6dBt",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb",
+      "wLKHbRBBr4NI",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "voFsQwaDph1Y",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "x2_Lkyj0JPk2",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm",
+      "oACH5PrePLfv",
+      "AiReKTM86F3e",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets +X to defense rolls."
+      }
+    ]
+  },
+  "Counter-Attack": {
+    "title": "Counter-Attack",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "wLKHbRBBr4NI",
+      "K44UD3HPQAfg"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Strikes first when charged."
+      }
+    ]
+  },
+  "Rapid Rush": {
+    "title": "Rapid Rush",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "tKa31SeqrzS1",
+      "voFsQwaDph1Y",
+      "_k9nd29ZX-FQ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model moves +6” when using Rush actions."
+      }
+    ]
+  },
+  "Unpredictable Fighter": {
+    "title": "Unpredictable Fighter",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "iv1Jm6zZiZPJ",
+      "vhKZ0CIT6dBt",
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb",
+      "5xPzQn4Qdzz6",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "GgMdmXsCVdK2",
+      "x2_Lkyj0JPk2",
+      "AxiZW7zj2hUK",
+      "dRAJ8qnYDOxm",
+      "AiReKTM86F3e",
+      "OyVVPwEw7Uep",
+      "K44UD3HPQAfg"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When in melee, roll one die and apply one effect to all models with this rule: on a 1-3 they get <key>AP</key>(+1), and on a 4-6 they get +1 to hit rolls instead."
+      }
+    ]
+  },
+  "Unpredictable": {
+    "title": "Unpredictable",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "cJJJPqOuiHWx",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "x2_Lkyj0JPk2",
+      "dRAJ8qnYDOxm",
+      "K44UD3HPQAfg"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When attacking, roll one die and apply one effect to all models with this rule: on a 1-3 they get <key>AP</key>(+1), and on a 4-6 they get +1 to hit rolls instead."
+      }
+    ]
+  },
+  "Ignores Cover": {
+    "title": "Ignores Cover",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "uAXC1RxdtELq",
+      "5xPzQn4Qdzz6",
+      "voFsQwaDph1Y",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "dRAJ8qnYDOxm",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This weapon ignores cover."
+      }
+    ]
+  },
+  "Evasive": {
+    "title": "Evasive",
+    "specialRule": [
+      "zrj60Gptp4Ce",
+      "iv1Jm6zZiZPJ",
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies get -1 to hit rolls when attacking units where all models have this rule."
+      }
+    ]
+  },
+  "Grounded Protection Aura": {
+    "title": "Grounded Protection Aura",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Grounded Protection</key>."
+      }
+    ]
+  },
+  "Teleport": {
+    "title": "Teleport",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "f78kQxkgtIs1",
+      "fLQMyzi3zbFI"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, place this model anywhere fully within 6” of its position."
+      }
+    ]
+  },
+  "Precise": {
+    "title": "Precise",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "0zpUZx5GkSHb",
+      "p9iL_bzUnY7A",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets +1 to hit when attacking."
+      }
+    ]
+  },
+  "Wild Veil": {
+    "title": "Wild Veil",
+    "specialRule": [
+      "cJJJPqOuiHWx"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies get -4” range when trying to shoot at units where all models have this rule, and -2” movement when trying to charge units where all models have this rule."
+      }
+    ]
+  },
+  "Hit & Run Shooter": {
+    "title": "Hit & Run Shooter",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per round, units where all models have this rule may move by up to 3” after shooting."
+      }
+    ]
+  },
+  "Piercing Assault Aura": {
+    "title": "Piercing Assault Aura",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "cyQpyja0EDRj",
+      "wLKHbRBBr4NI",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Piercing Assault</key>."
+      }
+    ]
+  },
+  "Grounded Protection": {
+    "title": "Grounded Protection",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule has most of them within 1” of terrain, when they take wounds roll one die per wound, and on a 5+ it is ignored."
+      }
+    ]
+  },
+  "Unpredictable Shooter Aura": {
+    "title": "Unpredictable Shooter Aura",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Unpredictable Shooter</key>."
+      }
+    ]
+  },
+  "Hit & Run Shooter Aura": {
+    "title": "Hit & Run Shooter Aura",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Hit & Run Shooter</key>."
+      }
+    ]
+  },
+  "Melee Evasion Aura": {
+    "title": "Melee Evasion Aura",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "GgMdmXsCVdK2",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Melee Evasion</key>."
+      }
+    ]
+  },
+  "Wild Veil Boost": {
+    "title": "Wild Veil Boost",
+    "specialRule": [
+      "cJJJPqOuiHWx"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Wild Veil</key>, enemies get -8” range when shooting  them and -4” movement when charging them from <key>Wild Veil</key> (instead of only -4” and -2”)."
+      }
+    ]
+  },
+  "Quick Shot Mark": {
+    "title": "Quick Shot Mark",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "cyQpyja0EDRj"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Piercing Assault": {
+    "title": "Piercing Assault",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "cyQpyja0EDRj",
+      "wLKHbRBBr4NI",
+      "RMi35vAtYNb-",
+      "GgMdmXsCVdK2",
+      "AiReKTM86F3e",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>AP</key>(+1) when charging."
+      }
+    ]
+  },
+  "Wild Veil Boost Aura": {
+    "title": "Wild Veil Boost Aura",
+    "specialRule": [
+      "cJJJPqOuiHWx"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Wild Veil Boost</key>."
+      }
+    ]
+  },
+  "Spawn": {
+    "title": "Spawn",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "f78kQxkgtIs1",
+      "iv1Jm6zZiZPJ",
+      "cyQpyja0EDRj",
+      "SshMejY9Kz7s"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when this model is activated, you may place a new unit of X fully within 6” of it."
+      }
+    ]
+  },
+  "Pierce": {
+    "title": "Pierce",
+    "specialRule": [
+      "cJJJPqOuiHWx"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "On unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
+      }
+    ]
+  },
+  "Rapid Advance Aura": {
+    "title": "Rapid Advance Aura",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Rapid Advance</key>."
+      }
+    ]
+  },
+  "Speed Debuff": {
+    "title": "Speed Debuff",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "SshMejY9Kz7s"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which moves -2” when using Advance actions and -4” when using Rush/Charge actions once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Unpredictable Shooter": {
+    "title": "Unpredictable Shooter",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When shooting, roll one die and apply one effect to all models with this rule: on a 1-3 they get <key>AP</key>(+1), and on a 4-6 they get +1 to hit rolls instead."
+      }
+    ]
+  },
+  "Hit & Run": {
+    "title": "Hit & Run",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "cyQpyja0EDRj",
+      "wLKHbRBBr4NI"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per round, units where all models have this rule may move by up to 3” after shooting or being in melee."
+      }
+    ]
+  },
+  "Quick": {
+    "title": "Quick",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "cyQpyja0EDRj",
+      "GgMdmXsCVdK2",
+      "AiReKTM86F3e"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Moves +2” when using Advance, and +2” when using Rush/Charge."
+      }
+    ]
+  },
+  "Quick Shot": {
+    "title": "Quick Shot",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq",
+      "cyQpyja0EDRj",
+      "SY80P2vKJGrY",
+      "OJr14Si4C1Uj",
+      "GgMdmXsCVdK2",
+      "oACH5PrePLfv",
+      "AiReKTM86F3e"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model may shoot after using Rush actions."
+      }
+    ]
+  },
+  "Rapid Advance": {
+    "title": "Rapid Advance",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model moves +4” when using Advance actions."
+      }
+    ]
+  },
+  "Grounded Reinforcement": {
+    "title": "Grounded Reinforcement",
+    "specialRule": [
+      "cJJJPqOuiHWx",
+      "uAXC1RxdtELq"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule has most of them within 1” of terrain, they get +1 to defense rolls."
+      }
+    ]
+  },
+  "Stealth Aura": {
+    "title": "Stealth Aura",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "f78kQxkgtIs1",
+      "ylxJ4fFb6cZf",
+      "AxiZW7zj2hUK"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Stealth</key>."
+      }
+    ]
+  },
+  "Swift": {
+    "title": "Swift",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "Q7nWXE-8DEHN",
+      "0zpUZx5GkSHb",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "SshMejY9Kz7s"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model may ignore the <key>Slow</key> rule."
+      }
+    ]
+  },
+  "Takedown Strike": {
+    "title": "Takedown Strike",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "ylxJ4fFb6cZf",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "dRAJ8qnYDOxm",
+      "AiReKTM86F3e",
+      "K44UD3HPQAfg"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when it's this model's turn to attack in melee, you may pick one model in the unit as its target, and make one attack at Quality 2+ with <key>AP</key>(2) and <key>Deadly</key>(3), which is resolved as if it's a unit of 1."
+      }
+    ]
+  },
+  "Drakesworn": {
+    "title": "Drakesworn",
+    "specialRule": [
+      "uAXC1RxdtELq"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "After this model is deployed, it may be placed anywhere fully within 9” of its position."
+      }
+    ]
+  },
+  "Grounded Reinforcement Aura": {
+    "title": "Grounded Reinforcement Aura",
+    "specialRule": [
+      "uAXC1RxdtELq"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Grounded Reinforcement</key>."
+      }
+    ]
+  },
+  "Grounded Speed": {
+    "title": "Grounded Speed",
+    "specialRule": [
+      "uAXC1RxdtELq"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule has most of them within 1” of terrain when activated, they move +2” on Advance, and +4” on Rush/Charge during this activation."
+      }
+    ]
+  },
+  "Shielded": {
+    "title": "Shielded",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "vhKZ0CIT6dBt",
+      "ylxJ4fFb6cZf",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "x2_Lkyj0JPk2",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Units where all models have this rule get +1 to defense rolls against hits that are not from spells."
+      }
+    ]
+  },
+  "Quick Shot Aura": {
+    "title": "Quick Shot Aura",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "GgMdmXsCVdK2",
+      "AiReKTM86F3e"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Quick Shot</key>."
+      }
+    ]
+  },
+  "Swift Aura": {
+    "title": "Swift Aura",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "0zpUZx5GkSHb",
+      "H18g-ND_uWiZ",
+      "SshMejY9Kz7s"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Swift</key>."
+      }
+    ]
+  },
+  "Strider Aura": {
+    "title": "Strider Aura",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "cyQpyja0EDRj",
+      "HH7O68qvHVR0"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Strider</key>."
+      }
+    ]
+  },
+  "Unstoppable in Melee Aura": {
+    "title": "Unstoppable in Melee Aura",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "xw2YHtZNkhIV",
+      "AxiZW7zj2hUK",
+      "dRAJ8qnYDOxm",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Unstoppable</key> in melee."
+      }
+    ]
+  },
+  "Pulverize": {
+    "title": "Pulverize",
+    "specialRule": [
+      "uAXC1RxdtELq"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+4)."
+      }
+    ]
+  },
+  "Piercing Assault Mark": {
+    "title": "Piercing Assault Mark",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "GgMdmXsCVdK2"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Reinforcement": {
+    "title": "Reinforcement",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "ylxJ4fFb6cZf"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule is Shaken or fully destroyed, you may remove it from the table as destroyed and place a new copy of it fully within 12” of any table edge at the beginning of the next round after Ambushers have been deployed. Units that deploy via <key>Reinforcement</key> can’t seize or contest objectives on the round they deploy, and this rule doesn’t apply to the new copy of the unit."
+      }
+    ]
+  },
+  "Hit & Run Fighter": {
+    "title": "Hit & Run Fighter",
+    "specialRule": [
+      "uAXC1RxdtELq",
+      "cyQpyja0EDRj",
+      "wLKHbRBBr4NI"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per round, units where all models have this rule may move by up to 3” after being in melee."
+      }
+    ]
+  },
+  "Fast Aura": {
+    "title": "Fast Aura",
+    "specialRule": [
+      "f78kQxkgtIs1"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit moves +2” when using Advance actions and +4” when using Rush/Charge actions."
+      }
+    ]
+  },
+  "Instinctive": {
+    "title": "Instinctive",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "GgMdmXsCVdK2"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model is activated, if it is able to shoot/charge an enemy unit, then it must immediately attack the closest valid target and gets +1 to hit rolls for that attack."
+      }
+    ]
+  },
+  "No Retreat Aura": {
+    "title": "No Retreat Aura",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "0zpUZx5GkSHb",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "x2_Lkyj0JPk2"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>No Retreat</key>."
+      }
+    ]
+  },
+  "Infiltrate": {
+    "title": "Infiltrate",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "0zpUZx5GkSHb",
+      "5xPzQn4Qdzz6",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Counts as having <key>Ambush</key>, but may be deployed up to 1” away from enemy units."
+      }
+    ]
+  },
+  "Shred": {
+    "title": "Shred",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "cyQpyja0EDRj",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "GgMdmXsCVdK2",
+      "AxiZW7zj2hUK",
+      "dRAJ8qnYDOxm",
+      "oACH5PrePLfv",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "On unmodified results of 1 to block hits, this weapon deals 1 extra wound."
+      }
+    ]
+  },
+  "Piercing Hunter Aura": {
+    "title": "Piercing Hunter Aura",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "wLKHbRBBr4NI",
+      "aHBBAhsdAqyz"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Piercing Hunter</key>."
+      }
+    ]
+  },
+  "Reanimation Aura": {
+    "title": "Reanimation Aura",
+    "specialRule": [
+      "f78kQxkgtIs1"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Reanimation</key>."
+      }
+    ]
+  },
+  "Cursed Undead": {
+    "title": "Cursed Undead",
+    "specialRule": [
+      "f78kQxkgtIs1"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+      }
+    ]
+  },
+  "Scout Aura": {
+    "title": "Scout Aura",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "5xPzQn4Qdzz6",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "x2_Lkyj0JPk2"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Scout</key>."
+      }
+    ]
+  },
+  "Surge": {
+    "title": "Surge",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "cyQpyja0EDRj",
+      "p9iL_bzUnY7A",
+      "x2_Lkyj0JPk2",
+      "dRAJ8qnYDOxm",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "On unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules)."
+      }
+    ]
+  },
+  "Mind Control": {
+    "title": "Mind Control",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "cyQpyja0EDRj",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which must take a morale test. If failed you may move it by up to 6” in a straight line in any direction."
+      }
+    ]
+  },
+  "Morale Debuff": {
+    "title": "Morale Debuff",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "cyQpyja0EDRj",
+      "H18g-ND_uWiZ",
+      "fLQMyzi3zbFI",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to morale test rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Shred in Melee Aura": {
+    "title": "Shred in Melee Aura",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "Q7nWXE-8DEHN",
+      "SY80P2vKJGrY"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Shred</key> in melee."
+      }
+    ]
+  },
+  "Sever": {
+    "title": "Sever",
+    "specialRule": [
+      "f78kQxkgtIs1"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
+      }
+    ]
+  },
+  "Casting Buff": {
+    "title": "Casting Buff",
+    "specialRule": [
+      "f78kQxkgtIs1"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly model within 12” with <key>Caster</key>, which gets +1 to casting rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cursed Undead Boost Buff": {
+    "title": "Cursed Undead Boost Buff",
+    "specialRule": [
+      "f78kQxkgtIs1"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Cursed Undead Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "No Retreat": {
+    "title": "No Retreat",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "0zpUZx5GkSHb",
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "x2_Lkyj0JPk2"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored."
+      }
+    ]
+  },
+  "Piercing Hunter": {
+    "title": "Piercing Hunter",
+    "specialRule": [
+      "f78kQxkgtIs1",
+      "wLKHbRBBr4NI",
+      "aHBBAhsdAqyz",
+      "H18g-ND_uWiZ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model shoots at enemies over 9” away, its weapons get <key>AP</key>(+1)."
+      }
+    ]
+  },
+  "Reanimation": {
+    "title": "Reanimation",
+    "specialRule": [
+      "f78kQxkgtIs1"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule is activated, roll as many dice as the max. number of models/wounds it could restore. For each 5+ you may restore one model/wound. Note that new models may only be restored if they can be placed in coherency with non-restored models."
+      }
+    ]
+  },
+  "Cursed Undead Boost": {
+    "title": "Cursed Undead Boost",
+    "specialRule": [
+      "f78kQxkgtIs1"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Cursed Undead</key>, they ignore wounds on rolls of 5-6 from <key>Cursed Undead</key> (instead of only on 6+)."
+      }
+    ]
+  },
+  "Buccaneer": {
+    "title": "Buccaneer",
+    "specialRule": [
+      "Q7nWXE-8DEHN"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model shoots at enemies over 9” away, it gets +1 to hit rolls."
+      }
+    ]
+  },
+  "Crossing Barrage": {
+    "title": "Crossing Barrage",
+    "specialRule": [
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "aHBBAhsdAqyz",
+      "SY80P2vKJGrY",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, when this model moves through enemy units, pick one of them and roll X dice. For each 4+ it takes 3 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Mend": {
+    "title": "Mend",
+    "specialRule": [
+      "Q7nWXE-8DEHN",
+      "iv1Jm6zZiZPJ",
+      "5xPzQn4Qdzz6",
+      "voFsQwaDph1Y",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly model within 3” with <key>Tough</key>, and remove D3 wounds from it."
+      }
+    ]
+  },
+  "Rending when Shooting Aura": {
+    "title": "Rending when Shooting Aura",
+    "specialRule": [
+      "Q7nWXE-8DEHN",
+      "fLQMyzi3zbFI"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Rending</key> when shooting."
+      }
+    ]
+  },
+  "Resistance Aura": {
+    "title": "Resistance Aura",
+    "specialRule": [
+      "Q7nWXE-8DEHN",
+      "5xPzQn4Qdzz6",
+      "xw2YHtZNkhIV",
+      "SshMejY9Kz7s",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Resistance</key>."
+      }
+    ]
+  },
+  "Scratch": {
+    "title": "Scratch",
+    "specialRule": [
+      "Q7nWXE-8DEHN"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+2)."
+      }
+    ]
+  },
+  "Versatile Reach": {
+    "title": "Versatile Reach",
+    "specialRule": [
+      "Q7nWXE-8DEHN"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get +4” range when shooting, or move +2” when charging."
+      }
+    ]
+  },
+  "Buccaneer Boost Aura": {
+    "title": "Buccaneer Boost Aura",
+    "specialRule": [
+      "Q7nWXE-8DEHN"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Buccaneer Boost</key>."
+      }
+    ]
+  },
+  "Casting Debuff": {
+    "title": "Casting Debuff",
+    "specialRule": [
+      "Q7nWXE-8DEHN",
+      "xw2YHtZNkhIV",
+      "OyVVPwEw7Uep",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18” with Caster, which gets -1 to casting rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Buccaneer Boost": {
+    "title": "Buccaneer Boost",
+    "specialRule": [
+      "Q7nWXE-8DEHN"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Buccaneer</key>, it always gets +1 to hit rolls from <key>Buccaneer</key> (instead of only when shooting over 9” away)."
+      }
+    ]
+  },
+  "Primal": {
+    "title": "Primal",
+    "specialRule": [
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+      }
+    ]
+  },
+  "Crossing Strike": {
+    "title": "Crossing Strike",
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "aHBBAhsdAqyz"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, once during its activation when this model moves through enemy units, pick one of them, and roll X dice. For each 4+ it takes 3 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Protection Feat": {
+    "title": "Protection Feat",
+    "specialRule": [
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when this unit takes wounds and all its models have this rule, you may use this rule and roll one die per wound, and on a 4+ it is ignored."
+      }
+    ]
+  },
+  "Heavy Impact": {
+    "title": "Heavy Impact",
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "ylxJ4fFb6cZf",
+      "fLQMyzi3zbFI",
+      "dRAJ8qnYDOxm",
+      "HH7O68qvHVR0"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Counts as having <key>Impact</key>(X) with hits that have <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Good Shot": {
+    "title": "Good Shot",
+    "specialRule": [
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets +1 to hit rolls when shooting."
+      }
+    ]
+  },
+  "Rapid Charge Aura": {
+    "title": "Rapid Charge Aura",
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-",
+      "GgMdmXsCVdK2",
+      "AiReKTM86F3e"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit moves +4” when using Charge actions."
+      }
+    ]
+  },
+  "Rending in Melee Aura": {
+    "title": "Rending in Melee Aura",
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ",
+      "SshMejY9Kz7s"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Rending</key> in melee."
+      }
+    ]
+  },
+  "Bounding": {
+    "title": "Bounding",
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "voFsQwaDph1Y",
+      "xw2YHtZNkhIV",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2",
+      "p9iL_bzUnY7A",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within D3+1” of their position."
+      }
+    ]
+  },
+  "Disintegrate": {
+    "title": "Disintegrate",
+    "specialRule": [
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
+      }
+    ]
+  },
+  "Shred Mark": {
+    "title": "Shred Mark",
+    "specialRule": [
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Shred</key> when attacking against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Primal Boost Buff": {
+    "title": "Primal Boost Buff",
+    "specialRule": [
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Primal Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Ignores Regeneration": {
+    "title": "Ignores Regeneration",
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "vhKZ0CIT6dBt",
+      "tKa31SeqrzS1",
+      "cyQpyja0EDRj",
+      "aHBBAhsdAqyz",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "H18g-ND_uWiZ",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "HH7O68qvHVR0",
+      "K44UD3HPQAfg"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This weapon ignores Regeneration."
+      }
+    ]
+  },
+  "Primal Boost": {
+    "title": "Primal Boost",
+    "specialRule": [
+      "iv1Jm6zZiZPJ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Primal</key>, it gets extra attacks on successful unmodified hit results of 5-6 from <key>Primal</key> (instead of only on 6)."
+      }
+    ]
+  },
+  "Steadfast": {
+    "title": "Steadfast",
+    "specialRule": [
+      "iv1Jm6zZiZPJ",
+      "tKa31SeqrzS1",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ",
+      "dRAJ8qnYDOxm"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+      }
+    ]
+  },
+  "Storm of War": {
+    "title": "Storm of War",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12” takes 3 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Crush": {
+    "title": "Crush",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When it's this model's turn to attack in melee, roll X dice. For each 6+ the target takes one hit with <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Warbound Boost Aura": {
+    "title": "Warbound Boost Aura",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Warbound Boost</key>."
+      }
+    ]
+  },
+  "Warbound Boost": {
+    "title": "Warbound Boost",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Warbound</key>, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from <key>Warbound</key> (instead of only on 1)."
+      }
+    ]
+  },
+  "Ambush Aura": {
+    "title": "Ambush Aura",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "tKa31SeqrzS1",
+      "cyQpyja0EDRj",
+      "ylxJ4fFb6cZf",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "xw2YHtZNkhIV",
+      "AiReKTM86F3e",
+      "OyVVPwEw7Uep",
+      "56Tb7FFgHuyX"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Ambush</key>."
+      }
+    ]
+  },
+  "Warbound": {
+    "title": "Warbound",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-",
+      "p9iL_bzUnY7A"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+      }
+    ]
+  },
+  "Destructive Frenzy": {
+    "title": "Destructive Frenzy",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Place one marker on this unit when it fully destroys an enemy unit. For each marker all models with this rule in this unit get +1 to hit rolls and <key>AP</key>(+1) until the end of the game (up to a max. of +2)."
+      }
+    ]
+  },
+  "Piercing Shooter Aura": {
+    "title": "Piercing Shooter Aura",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>AP</key>(+1) when shooting."
+      }
+    ]
+  },
+  "Furious Aura": {
+    "title": "Furious Aura",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "aHBBAhsdAqyz",
+      "RMi35vAtYNb-",
+      "HH7O68qvHVR0",
+      "OyVVPwEw7Uep"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Furious</key>."
+      }
+    ]
+  },
+  "Rapid Charge": {
+    "title": "Rapid Charge",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-",
+      "SshMejY9Kz7s"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model moves +4” when using Charge actions."
+      }
+    ]
+  },
+  "Shielded Aura": {
+    "title": "Shielded Aura",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "SY80P2vKJGrY",
+      "RMi35vAtYNb-",
+      "x2_Lkyj0JPk2"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Shielded</key>."
+      }
+    ]
+  },
+  "Piercing Fighter Aura": {
+    "title": "Piercing Fighter Aura",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>AP</key>(+1) in melee."
+      }
+    ]
+  },
+  "Fatigue Debuff": {
+    "title": "Fatigue Debuff",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which must take a morale test. If failed, it becomes fatigued."
+      }
+    ]
+  },
+  "Break": {
+    "title": "Break",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+2)."
+      }
+    ]
+  },
+  "Reckless Piercing Aura": {
+    "title": "Reckless Piercing Aura",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Reckless Piercing</key>."
+      }
+    ]
+  },
+  "Reckless Piercing": {
+    "title": "Reckless Piercing",
+    "specialRule": [
+      "vhKZ0CIT6dBt",
+      "RMi35vAtYNb-"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule is activated, you may roll one die. On a 2+ they get <key>AP</key>(+1) when attacking until the end of the round, but on a 1 enemy units get <key>AP</key>(+1) when attacking them instead."
+      }
+    ]
+  },
+  "Storm of Plague": {
+    "title": "Storm of Plague",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12” takes 3 hits with <key>Bane</key>."
+      }
+    ]
+  },
+  "Plaguebound": {
+    "title": "Plaguebound",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ",
+      "p9iL_bzUnY7A"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+      }
+    ]
+  },
+  "Plaguebound Boost": {
+    "title": "Plaguebound Boost",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Plaguebound</key>, they ignore wounds on rolls of 5-6 from <key>Plaguebound</key> (instead of only on 6+)."
+      }
+    ]
+  },
+  "Relentless Aura": {
+    "title": "Relentless Aura",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "0zpUZx5GkSHb",
+      "SY80P2vKJGrY",
+      "_k9nd29ZX-FQ",
+      "x2_Lkyj0JPk2",
+      "SshMejY9Kz7s"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Relentless</key>."
+      }
+    ]
+  },
+  "Regeneration Aura": {
+    "title": "Regeneration Aura",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "0zpUZx5GkSHb",
+      "voFsQwaDph1Y",
+      "_k9nd29ZX-FQ",
+      "fLQMyzi3zbFI"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Regeneration</key>."
+      }
+    ]
+  },
+  "Precision Attacks Buff": {
+    "title": "Precision Attacks Buff",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls when attacking once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Fortified Growth": {
+    "title": "Fortified Growth",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Place one marker on this unit at the end of each round if it's on the table. If all models in it have this rule, for each marker enemies attacking them get <key>AP</key>(-1) to a min. of <key>AP</key>(0) (up to a max. of -2). If this unit is ever Shaken, it loses all its markers."
+      }
+    ]
+  },
+  "Steadfast Aura": {
+    "title": "Steadfast Aura",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Steadfast</key>."
+      }
+    ]
+  },
+  "Butcher": {
+    "title": "Butcher",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and on unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules)."
+      }
+    ]
+  },
+  "Plaguebound Boost Aura": {
+    "title": "Plaguebound Boost Aura",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Plaguebound Boost</key>."
+      }
+    ]
+  },
+  "Rending in Melee": {
+    "title": "Rending in Melee",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "_k9nd29ZX-FQ",
+      "fLQMyzi3zbFI"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Rending</key> in melee."
+      }
+    ]
+  },
+  "Difficult Terrain Debuff": {
+    "title": "Difficult Terrain Debuff",
+    "specialRule": [
+      "tKa31SeqrzS1",
+      "5xPzQn4Qdzz6",
+      "_k9nd29ZX-FQ"
+    ],
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which counts as being in Difficult Terrain once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Retaliate": {
+    "title": "Retaliate",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model takes a wound in melee, the attacker takes X hits."
+      }
+    ],
+    "specialRule": [
+      "cyQpyja0EDRj",
+      "oACH5PrePLfv"
+    ]
+  },
+  "Hit & Run Fighter Aura": {
+    "title": "Hit & Run Fighter Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Hit & Run Fighter</key>."
+      }
+    ],
+    "specialRule": [
+      "cyQpyja0EDRj",
+      "wLKHbRBBr4NI"
+    ]
+  },
+  "Storm of Lust": {
+    "title": "Storm of Lust",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12” takes 3 hits with <key>Surge</key> (roll one die per hit to see if it triggers)."
+      }
+    ],
+    "specialRule": [
+      "cyQpyja0EDRj"
+    ]
+  },
+  "Lustbound Boost": {
+    "title": "Lustbound Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Lustbound</key>, it moves +2” on Advance and +6” on Rush/Charge from <key>Lustbound</key> (instead of only +1” and +3”)."
+      }
+    ],
+    "specialRule": [
+      "cyQpyja0EDRj",
+      "OJr14Si4C1Uj"
+    ]
+  },
+  "Lustbound": {
+    "title": "Lustbound",
+    "description": [
+      {
+        "system": "all",
+        "text": "Moves +1” when using Advance, and +3” when using Rush/Charge."
+      }
+    ],
+    "specialRule": [
+      "cyQpyja0EDRj",
+      "OJr14Si4C1Uj",
+      "p9iL_bzUnY7A"
+    ]
+  },
+  "Shatter": {
+    "title": "Shatter",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+2)."
+      }
+    ],
+    "specialRule": [
+      "cyQpyja0EDRj",
+      "OJr14Si4C1Uj"
+    ]
+  },
+  "Unstoppable when Shooting Aura": {
+    "title": "Unstoppable when Shooting Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Unstoppable</key> when shooting."
+      }
+    ],
+    "specialRule": [
+      "cyQpyja0EDRj",
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Lustbound Boost Aura": {
+    "title": "Lustbound Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Lustbound Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "cyQpyja0EDRj",
+      "OJr14Si4C1Uj"
+    ]
+  },
+  "Hazardous": {
+    "title": "Hazardous",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets <key>AP</key>(4), but this model's unit takes one wound on unmodified rolls of 1 to hit."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf"
+    ]
+  },
+  "Quick Readjustment": {
+    "title": "Quick Readjustment",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model ignores penalties from shooting after moving when using <key>Indirect</key> weapons."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf"
+    ]
+  },
+  "Spell Conduit": {
+    "title": "Spell Conduit",
+    "description": [
+      {
+        "system": "all",
+        "text": "Casters within 12” that are from other friendly units may cast spells as if they were in this model's position, and get +1 to casting rolls when doing so."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf",
+      "aHBBAhsdAqyz",
+      "SY80P2vKJGrY",
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Precision Fighter Aura": {
+    "title": "Precision Fighter Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get +1 to hit rolls in melee."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf",
+      "fLQMyzi3zbFI"
+    ]
+  },
+  "Evasive Aura": {
+    "title": "Evasive Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Evasive</key>."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb"
+    ]
+  },
+  "Scurry": {
+    "title": "Scurry",
+    "description": [
+      {
+        "system": "all",
+        "text": "Moves +2” when using Advance, and +2” when using Rush/Charge."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf"
+    ]
+  },
+  "Defense Debuff": {
+    "title": "Defense Debuff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to defense rolls once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf"
+    ]
+  },
+  "Bane when Shooting Aura": {
+    "title": "Bane when Shooting Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Bane</key> when shooting."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf",
+      "AxiZW7zj2hUK"
+    ]
+  },
+  "Bane in Melee Aura": {
+    "title": "Bane in Melee Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Bane</key> in melee."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf",
+      "0zpUZx5GkSHb",
+      "5xPzQn4Qdzz6",
+      "oACH5PrePLfv"
+    ]
+  },
+  "Scurry Boost Aura": {
+    "title": "Scurry Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Scurry Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf"
+    ]
+  },
+  "Precision Fighter Buff": {
+    "title": "Precision Fighter Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls in melee once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf",
+      "voFsQwaDph1Y",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "GgMdmXsCVdK2",
+      "AiReKTM86F3e"
+    ]
+  },
+  "Scurry Boost": {
+    "title": "Scurry Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Scurry</key>, it moves +4” on Advance and +4” on Rush/Charge from <key>Scurry</key> (instead of only +2” and +2”)."
+      }
+    ],
+    "specialRule": [
+      "ylxJ4fFb6cZf"
+    ]
+  },
+  "Ossified": {
+    "title": "Ossified",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away and take hits, those hits count as having <key>AP</key>(-1), to a min. of <key>AP</key>(0)."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb"
+    ]
+  },
+  "Destructive": {
+    "title": "Destructive",
+    "description": [
+      {
+        "system": "all",
+        "text": "On unmodified results of 6 to hit, those hits get <key>AP</key>(+4)."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb"
+    ]
+  },
+  "Spell Accumulator": {
+    "title": "Spell Accumulator",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets X accumulator tokens at the start of each round, but can’t hold more than 6 tokens at once. Casters from other friendly units within 12” may spend this model's accumulator tokens as if they were their own spell tokens."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb",
+      "xw2YHtZNkhIV",
+      "oACH5PrePLfv",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Precision Feat": {
+    "title": "Precision Feat",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when this unit attacks and all its models have this rule, you may use this rule so that they get +2 to hit rolls."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb",
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Mobile Artillery": {
+    "title": "Mobile Artillery",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model uses a Hold action and shoots at enemies over 9” away, it gets +1 to hit rolls. As long this model hasn't moved during the round, when enemy units shoot at it from over 9” away, they get -2 to hit rolls."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb"
+    ]
+  },
+  "Piercing Shooter": {
+    "title": "Piercing Shooter",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>AP</key>(+1) when shooting."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Precision Feat Aura": {
+    "title": "Precision Feat Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Precision Feat</key>."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb",
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Furious Mark": {
+    "title": "Furious Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Furious</key> against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb"
+    ]
+  },
+  "Ossified Boost Aura": {
+    "title": "Ossified Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Ossified Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb"
+    ]
+  },
+  "Regeneration Buff": {
+    "title": "Regeneration Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets Regeneration once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb"
+    ]
+  },
+  "Ossified Boost": {
+    "title": "Ossified Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Ossified</key>, enemy hits always count as having <key>AP</key>(-1) from <key>Ossified</key> (instead of only when being shot/charged from over 9” away)."
+      }
+    ],
+    "specialRule": [
+      "0zpUZx5GkSHb"
+    ]
+  },
+  "Melee Shrouding Aura": {
+    "title": "Melee Shrouding Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Melee Shrouding</key>."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI",
+      "H18g-ND_uWiZ",
+      "AiReKTM86F3e",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Ferocious": {
+    "title": "Ferocious",
+    "description": [
+      {
+        "system": "all",
+        "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI"
+    ]
+  },
+  "Ferocious Boost Aura": {
+    "title": "Ferocious Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Ferocious Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI"
+    ]
+  },
+  "Ravage Aura": {
+    "title": "Ravage Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Ravage</key>(+1)."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI"
+    ]
+  },
+  "Speed Feat Aura": {
+    "title": "Speed Feat Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Speed Feat</key>."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI"
+    ]
+  },
+  "Impale": {
+    "title": "Impale",
+    "description": [
+      {
+        "system": "all",
+        "text": "Against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>Deadly</key>(+3)."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI"
+    ]
+  },
+  "Rending in Melee Mark": {
+    "title": "Rending in Melee Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Rending</key> in melee against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI"
+    ]
+  },
+  "Piercing Assault Buff": {
+    "title": "Piercing Assault Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Piercing Assault</key>."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI",
+      "AiReKTM86F3e"
+    ]
+  },
+  "Melee Shrouding": {
+    "title": "Melee Shrouding",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies get -3” movement when trying to charge units where all models have this rule."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI",
+      "H18g-ND_uWiZ",
+      "AiReKTM86F3e",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Ferocious Boost": {
+    "title": "Ferocious Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Ferocious</key>, it deals extra hits on successful unmodified hit results of 5-6 from <key>Ferocious</key> (instead of only on 6)."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI"
+    ]
+  },
+  "Speed Feat": {
+    "title": "Speed Feat",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when this unit moves and all its models have this rule, you may use this rule so that they move +3” when using Advance actions and +6” when using Rush/Charge actions."
+      }
+    ],
+    "specialRule": [
+      "wLKHbRBBr4NI"
+    ]
+  },
+  "Piercing Spotter": {
+    "title": "Piercing Spotter",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, pick one enemy unit within 36” and in line of sight of this model and roll one die, on a 4+ place a marker on it. When attacking, friendly units may remove markers from their target before rolling to block to get +<key>AP</key>(X), where X is the number of removed markers."
+      }
+    ],
+    "specialRule": [
+      "5xPzQn4Qdzz6"
+    ]
+  },
+  "Royal Legion": {
+    "title": "Royal Legion",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets +3” range when shooting and moves +3” when using Charge actions."
+      }
+    ],
+    "specialRule": [
+      "5xPzQn4Qdzz6"
+    ]
+  },
+  "Perforate": {
+    "title": "Perforate",
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and on unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
+      }
+    ],
+    "specialRule": [
+      "5xPzQn4Qdzz6"
+    ]
+  },
+  "Royal Legion Boost Aura": {
+    "title": "Royal Legion Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Royal Legion Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "5xPzQn4Qdzz6"
+    ]
+  },
+  "Fortified Aura": {
+    "title": "Fortified Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Fortified</key>."
+      }
+    ],
+    "specialRule": [
+      "5xPzQn4Qdzz6",
+      "aHBBAhsdAqyz",
+      "dRAJ8qnYDOxm",
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Indirect when Shooting Aura": {
+    "title": "Indirect when Shooting Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Indirect</key> when shooting."
+      }
+    ],
+    "specialRule": [
+      "5xPzQn4Qdzz6",
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Surprise Attack": {
+    "title": "Surprise Attack",
+    "description": [
+      {
+        "system": "all",
+        "text": "Counts as having <key>Infiltrate</key>. Once deployed via this rule, roll X dice, for each 4+ one enemy unit within 3” takes 2 hits with <key>AP</key>(1)."
+      }
+    ],
+    "specialRule": [
+      "5xPzQn4Qdzz6",
+      "fLQMyzi3zbFI",
+      "GgMdmXsCVdK2"
+    ]
+  },
+  "Royal Legion Boost": {
+    "title": "Royal Legion Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Royal Legion</key>, it gets +6” range when shooting and moves +6” when using Charge actions from <key>Royal Legion</key> (instead of only +3” and +3”)."
+      }
+    ],
+    "specialRule": [
+      "5xPzQn4Qdzz6"
+    ]
+  },
+  "Deathstrike": {
+    "title": "Deathstrike",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model is killed in melee, the attacking unit takes X hits."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz"
+    ]
+  },
+  "Angelic Blessing": {
+    "title": "Angelic Blessing",
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 4+ instead."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz"
+    ]
+  },
+  "Precision Debuff": {
+    "title": "Precision Debuff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to hit rolls when attacking once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz",
+      "SY80P2vKJGrY",
+      "oACH5PrePLfv"
+    ]
+  },
+  "Chop": {
+    "title": "Chop",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>Deadly</key>(+3)."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz"
+    ]
+  },
+  "Slayer Mark": {
+    "title": "Slayer Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz"
+    ]
+  },
+  "Angelic Blessing Boost Buff": {
+    "title": "Angelic Blessing Boost Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Angelic Blessing Boost</key> once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz"
+    ]
+  },
+  "Versatile Attack Buff": {
+    "title": "Versatile Attack Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Versatile Attack</key> once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz"
+    ]
+  },
+  "Slayer": {
+    "title": "Slayer",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model's weapons get <key>AP</key>(+2) against units where most models have <key>Tough</key>(3) or higher."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz",
+      "H18g-ND_uWiZ",
+      "dRAJ8qnYDOxm",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Angelic Blessing Boost": {
+    "title": "Angelic Blessing Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Angelic Blessing</key>, they ignore non-spell wounds on rolls of 5-6 from <key>Angelic Blessing</key> (instead of only on 6+)."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz"
+    ]
+  },
+  "Versatile Attack": {
+    "title": "Versatile Attack",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get <key>AP</key>(+1) when attacking, or get +1 to hit rolls when attacking."
+      }
+    ],
+    "specialRule": [
+      "aHBBAhsdAqyz",
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Defense Buff": {
+    "title": "Defense Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to defense rolls once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Coordinate": {
+    "title": "Coordinate",
+    "description": [
+      {
+        "system": "all",
+        "text": "At the end of this unit's activation, another friendly unit within 12” that hasn't activated yet may be activated immediately. May not be used if this unit was activated via <key>Coordinate</key>."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Extended Buff Range": {
+    "title": "Extended Buff Range",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this unit is within 24” of another friendly unit with this rule that has a <key>Hero</key> in it, then that <key>Hero</key> may use special rules that allow it to pick friendly units within 12” (except for spells) on this unit as if it was in range."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Hold the Line": {
+    "title": "Hold the Line",
+    "description": [
+      {
+        "system": "all",
+        "text": "Units where all models have this rule get +1 to morale test rolls."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Rapid Rush Buff": {
+    "title": "Rapid Rush Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Rapid Rush</key> once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Fracture": {
+    "title": "Fracture",
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+2)."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Precision Fighting Mark": {
+    "title": "Precision Fighting Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Precision Shooter Buff": {
+    "title": "Precision Shooter Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls when shooting once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Hold the Line Boost Buff": {
+    "title": "Hold the Line Boost Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Hold the Line Boost</key> once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Furious Buff": {
+    "title": "Furious Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Furious</key> once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Re-Position Artillery": {
+    "title": "Re-Position Artillery",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, pick one friendly model within 6” with <key>Artillery</key>, which may immediately move by up to 9”.\n\n"
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y",
+      "AxiZW7zj2hUK",
+      "SshMejY9Kz7s",
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Caster Group": {
+    "title": "Caster Group",
+    "description": [
+      {
+        "system": "all",
+        "text": "Pick one model with this rule in this unit to have <key>Caster</key>(X), where X is the total number of models with this rule in this unit. If the model is killed, pick another to be the new caster, and transfer all spell tokens to it. The caster loses all unspent spell tokens at the end of the round."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y",
+      "GgMdmXsCVdK2"
+    ]
+  },
+  "Hold the Line Boost": {
+    "title": "Hold the Line Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Hold the Line</key>, they get +2 to morale test rolls from <key>Hold the Line</key> (instead of only +1)."
+      }
+    ],
+    "specialRule": [
+      "voFsQwaDph1Y"
+    ]
+  },
+  "Piercing Tag": {
+    "title": "Piercing Tag",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, during this model's activation, pick one enemy unit within 36” and in line of sight of it, and place X markers on it. When attacking, friendly units may remove markers from their target before rolling to block to get +<key>AP</key>(Y), where Y is the number of removed markers."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY"
+    ]
+  },
+  "Highborn": {
+    "title": "Highborn",
+    "description": [
+      {
+        "system": "all",
+        "text": "Moves +2” when using Advance, and +2” when using Rush/Charge."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY"
+    ]
+  },
+  "Fearless Aura": {
+    "title": "Fearless Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Fearless</key>."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY",
+      "xw2YHtZNkhIV",
+      "oACH5PrePLfv",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Indirect when Shooting": {
+    "title": "Indirect when Shooting",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Indirect</key> when shooting."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY"
+    ]
+  },
+  "Precision Shooting Mark": {
+    "title": "Precision Shooting Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY",
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Crack": {
+    "title": "Crack",
+    "description": [
+      {
+        "system": "all",
+        "text": "On unmodified results of 6 to hit, those hits get <key>AP</key>(+2)."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY"
+    ]
+  },
+  "Highborn Boost Aura": {
+    "title": "Highborn Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Highborn Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY"
+    ]
+  },
+  "Highborn Boost": {
+    "title": "Highborn Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Highborn</key>, it moves +4” on Advance and +4” on Rush/Charge from <key>Highborn</key> (instead of only +2” and +2”)."
+      }
+    ],
+    "specialRule": [
+      "SY80P2vKJGrY"
+    ]
+  },
+  "Bloodthirsty Fighter": {
+    "title": "Bloodthirsty Fighter",
+    "description": [
+      {
+        "system": "all",
+        "text": "For each unmodified roll of 1 that enemies roll when blocking hits from this model's weapons in melee, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-"
+    ]
+  },
+  "Slam": {
+    "title": "Slam",
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and on unmodified results of 1 to block hits, this weapon deals 1 extra wound."
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz"
+    ]
+  },
+  "Versatile Defense Aura": {
+    "title": "Versatile Defense Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Versatile Defense</key>."
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Shred when Shooting Aura": {
+    "title": "Shred when Shooting Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Shred</key> when shooting."
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "oACH5PrePLfv"
+    ]
+  },
+  "Unpredictable Fighter Aura": {
+    "title": "Unpredictable Fighter Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Unpredictable Fighter</key>."
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "x2_Lkyj0JPk2",
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Ranged Shrouding Aura": {
+    "title": "Ranged Shrouding Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Ranged Shrouding</key>."
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "oACH5PrePLfv"
+    ]
+  },
+  "Shred in Melee": {
+    "title": "Shred in Melee",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Shred</key> in melee."
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "GgMdmXsCVdK2",
+      "OyVVPwEw7Uep"
+    ]
+  },
+  "Steadfast Buff": {
+    "title": "Steadfast Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Steadfast</key> once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Versatile Defense": {
+    "title": "Versatile Defense",
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule is deployed or activated, pick one effect: when shot or charged from over 9” away, the unit either gets +1 to defense rolls, or enemy units get -1 to hit rolls against it. This effect lasts until the units' next activation.\n"
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Ranged Shrouding": {
+    "title": "Ranged Shrouding",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies get -6” range when trying to shoot units where all models have this rule."
+      }
+    ],
+    "specialRule": [
+      "RMi35vAtYNb-",
+      "_k9nd29ZX-FQ",
+      "OJr14Si4C1Uj",
+      "xw2YHtZNkhIV",
+      "ndODzgAqJGDz",
+      "oACH5PrePLfv"
+    ]
+  },
+  "Great Sergeant": {
+    "title": "Great Sergeant",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model attacks, unmodified results of 5-6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+      }
+    ],
+    "specialRule": [
+      "_k9nd29ZX-FQ",
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Great Musician": {
+    "title": "Great Musician",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which moves +1” when using move actions once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "_k9nd29ZX-FQ",
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Great Banner": {
+    "title": "Great Banner",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to morale test rolls once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "_k9nd29ZX-FQ",
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Changebound": {
+    "title": "Changebound",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away, enemy units get -1 to hit rolls."
+      }
+    ],
+    "specialRule": [
+      "xw2YHtZNkhIV",
+      "p9iL_bzUnY7A",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Changebound Boost Aura": {
+    "title": "Changebound Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Changebound Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Changebound Boost": {
+    "title": "Changebound Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Changebound</key>, enemies attacking them always get -1 to hit rolls from <key>Changebound</key> (instead of only when being shot/charged from over 9” away)."
+      }
+    ],
+    "specialRule": [
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Slash": {
+    "title": "Slash",
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and on unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules)."
+      }
+    ],
+    "specialRule": [
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Bane when Shooting": {
+    "title": "Bane when Shooting",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Bane</key> when shooting."
+      }
+    ],
+    "specialRule": [
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Storm of Change": {
+    "title": "Storm of Change",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when this model is activated, before attacking, roll 3 dice. For each 2+ one enemy unit within 12” takes 3 hits with <key>Shred</key>."
+      }
+    ],
+    "specialRule": [
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Unstoppable in Melee": {
+    "title": "Unstoppable in Melee",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Unstoppable</key> in melee."
+      }
+    ],
+    "specialRule": [
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Split": {
+    "title": "Split",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is fully destroyed, you may place a new unit of X fully within 6” of it before removing the last model."
+      }
+    ],
+    "specialRule": [
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Bounding Aura": {
+    "title": "Bounding Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Bounding</key>."
+      }
+    ],
+    "specialRule": [
+      "xw2YHtZNkhIV",
+      "56Tb7FFgHuyX"
+    ]
+  },
+  "Havocbound Boost Aura": {
+    "title": "Havocbound Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Havocbound Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Havocbound": {
+    "title": "Havocbound",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this model shoots at enemies over 9” away, or when it charges, its weapons get <key>AP</key>(+1)."
+      }
+    ],
+    "specialRule": [
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Dangerous Terrain Debuff": {
+    "title": "Dangerous Terrain Debuff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which must immediately take a Dangerous Terrain test."
+      }
+    ],
+    "specialRule": [
+      "ndODzgAqJGDz"
+    ]
+  },
+  "Havocbound Boost": {
+    "title": "Havocbound Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Havocbound</key>, it always gets <key>AP</key>(+1) from <key>Havocbound</key> (instead of only when shooting over 9” away, or when charging)."
+      }
+    ],
+    "specialRule": [
+      "ndODzgAqJGDz",
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Melee Slayer Aura": {
+    "title": "Melee Slayer Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Melee Slayer</key>."
+      }
+    ],
+    "specialRule": [
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Relentless Mark": {
+    "title": "Relentless Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Purge": {
+    "title": "Purge",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
+      }
+    ],
+    "specialRule": [
+      "H18g-ND_uWiZ"
+    ]
+  },
+  "Lucky": {
+    "title": "Lucky",
+    "description": [
+      {
+        "system": "all",
+        "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+      }
+    ],
+    "specialRule": [
+      "fLQMyzi3zbFI"
+    ]
+  },
+  "Teleport Aura": {
+    "title": "Teleport Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Teleport</key>."
+      }
+    ],
+    "specialRule": [
+      "fLQMyzi3zbFI"
+    ]
+  },
+  "Lucky Boost Aura": {
+    "title": "Lucky Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Lucky Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "fLQMyzi3zbFI"
+    ]
+  },
+  "Vengeance": {
+    "title": "Vengeance",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is fully destroyed, place as many <key>Vengeance</key> markers on the unit that destroyed it as models with this rule in this unit at the beginning of the game. Friendly units get +X to hit rolls with their weapons when attacking that unit, where X is the number of markers on it."
+      }
+    ],
+    "specialRule": [
+      "fLQMyzi3zbFI"
+    ]
+  },
+  "Bash": {
+    "title": "Bash",
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and against units where most models have <key>Defense</key> 5+ to <key>Defense</key> 6+, this weapon gets <key>Blast</key>(+3)."
+      }
+    ],
+    "specialRule": [
+      "fLQMyzi3zbFI"
+    ]
+  },
+  "Lucky Boost": {
+    "title": "Lucky Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Lucky</key>, it deals extra hits on successful unmodified hit results of 5-6 from <key>Lucky</key> (instead of only on 6)."
+      }
+    ],
+    "specialRule": [
+      "fLQMyzi3zbFI"
+    ]
+  },
+  "Mischievous": {
+    "title": "Mischievous",
+    "description": [
+      {
+        "system": "all",
+        "text": "When attacking, targets must re-roll unmodified <key>Defense</key> results of 6 when blocking hits from this model's weapons."
+      }
+    ],
+    "specialRule": [
+      "GgMdmXsCVdK2"
+    ]
+  },
+  "Traversal": {
+    "title": "Traversal",
+    "description": [
+      {
+        "system": "all",
+        "text": "May move through friendly and enemy units."
+      }
+    ],
+    "specialRule": [
+      "GgMdmXsCVdK2",
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Mischievous Boost Aura": {
+    "title": "Mischievous Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Mischievous Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "GgMdmXsCVdK2"
+    ]
+  },
+  "Skewer": {
+    "title": "Skewer",
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>Deadly</key>(+3)."
+      }
+    ],
+    "specialRule": [
+      "GgMdmXsCVdK2"
+    ]
+  },
+  "Mischievous Boost": {
+    "title": "Mischievous Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Mischievous</key>, enemies taking hits from it must re-roll successful unmodified defense results of 5-6 from <key>Mischievous</key> (instead of only on 6)."
+      }
+    ],
+    "specialRule": [
+      "GgMdmXsCVdK2"
+    ]
+  },
+  "Unmovable": {
+    "title": "Unmovable",
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+      }
+    ],
+    "specialRule": [
+      "p9iL_bzUnY7A"
+    ]
+  },
+  "Delayed Action": {
+    "title": "Delayed Action",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per round, if your opponent has more units left to activate than you, then this model's unit may pass its turn instead of activating (may still be activated later)."
+      }
+    ],
+    "specialRule": [
+      "p9iL_bzUnY7A"
+    ]
+  },
+  "Crossing Attack": {
+    "title": "Crossing Attack",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, when this model moves through enemy units, pick one of them and roll X dice. For each 6+ it takes 1 hit."
+      }
+    ],
+    "specialRule": [
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Empyrean Spirit": {
+    "title": "Empyrean Spirit",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away, enemy units get -1 to hit rolls."
+      }
+    ],
+    "specialRule": [
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Empyrean Spirit Boost Aura": {
+    "title": "Empyrean Spirit Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Empyrean Spirit Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Reap": {
+    "title": "Reap",
+    "description": [
+      {
+        "system": "all",
+        "text": "Against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
+      }
+    ],
+    "specialRule": [
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Bane Mark": {
+    "title": "Bane Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Empyrean Spirit Boost": {
+    "title": "Empyrean Spirit Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Empyrean Spirit</key>, enemies attacking them always get -1 to hit rolls from <key>Empyrean Spirit</key> (instead of only when being shot/charged from over 9” away)."
+      }
+    ],
+    "specialRule": [
+      "x2_Lkyj0JPk2"
+    ]
+  },
+  "Piercing Target": {
+    "title": "Piercing Target",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, during this model's activation, pick one enemy unit within 36” and in line of sight of it, and place X markers on it. Friendly units get +<key>AP</key>(X) when attacking it."
+      }
+    ],
+    "specialRule": [
+      "AxiZW7zj2hUK"
+    ]
+  },
+  "Re-Deployment": {
+    "title": "Re-Deployment",
+    "description": [
+      {
+        "system": "all",
+        "text": "After all other units are deployed (excluding units that were set aside), you may remove up to two friendly units from the table and deploy them again. Players alternate in placing <key>Re-Deployment</key> units, starting with the player that activates next."
+      }
+    ],
+    "specialRule": [
+      "AxiZW7zj2hUK"
+    ]
+  },
+  "Warden Boost Aura": {
+    "title": "Warden Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Warden Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "AxiZW7zj2hUK"
+    ]
+  },
+  "Smash": {
+    "title": "Smash",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and against units where most models have <key>Defense</key> 5+ to <key>Defense</key> 6+, this weapon gets <key>Blast</key>(+3)."
+      }
+    ],
+    "specialRule": [
+      "AxiZW7zj2hUK"
+    ]
+  },
+  "Unstoppable Shooting Mark": {
+    "title": "Unstoppable Shooting Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "AxiZW7zj2hUK"
+    ]
+  },
+  "Warden Boost": {
+    "title": "Warden Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Warden</key>, enemy hits always count as having <key>AP</key>(-1) from <key>Warden</key> (instead of only when being shot/charged from over 9” away)."
+      }
+    ],
+    "specialRule": [
+      "AxiZW7zj2hUK"
+    ]
+  },
+  "Sturdy": {
+    "title": "Sturdy",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away, they get +1 to defense rolls."
+      }
+    ],
+    "specialRule": [
+      "SshMejY9Kz7s"
+    ]
+  },
+  "Quake": {
+    "title": "Quake",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and on unmodified results of 1 to block hits, this weapon deals 1 extra wound."
+      }
+    ],
+    "specialRule": [
+      "SshMejY9Kz7s"
+    ]
+  },
+  "Devastating Frenzy": {
+    "title": "Devastating Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "text": "Place one marker on this unit when it fully destroys an enemy unit. For each marker all models with this rule in this unit get <key>AP</key>(+1) and +1 to defense rolls until the end of the game (up to a max. of +2)."
+      }
+    ],
+    "specialRule": [
+      "SshMejY9Kz7s"
+    ]
+  },
+  "Precision Charge Aura": {
+    "title": "Precision Charge Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get +1 to hit rolls when charging."
+      }
+    ],
+    "specialRule": [
+      "SshMejY9Kz7s"
+    ]
+  },
+  "Sturdy Boost Aura": {
+    "title": "Sturdy Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Sturdy Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "SshMejY9Kz7s"
+    ]
+  },
+  "Sturdy Boost": {
+    "title": "Sturdy Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If all models in this unit have <key>Sturdy</key>, they always get +1 to defense rolls from <key>Sturdy</key> (instead of only when being shot/charged from over 9” away)."
+      }
+    ],
+    "specialRule": [
+      "SshMejY9Kz7s"
+    ]
+  },
+  "Vinci Tech": {
+    "title": "Vinci Tech",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get <key>AP</key>(+1) when attacking, or get +1 to hit rolls when attacking."
+      }
+    ],
+    "specialRule": [
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Protected": {
+    "title": "Protected",
+    "description": [
+      {
+        "system": "all",
+        "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+      }
+    ],
+    "specialRule": [
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Ranged Slayer Aura": {
+    "title": "Ranged Slayer Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Ranged Slayer</key>."
+      }
+    ],
+    "specialRule": [
+      "dRAJ8qnYDOxm",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Decimate": {
+    "title": "Decimate",
+    "description": [
+      {
+        "system": "all",
+        "text": "<key>Ignores Cover</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
+      }
+    ],
+    "specialRule": [
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Vinci Tech Boost Aura": {
+    "title": "Vinci Tech Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Vinci Tech Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Increased Shooting Range Mark": {
+    "title": "Increased Shooting Range Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units get +6” range when shooting against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Precision Spotter": {
+    "title": "Precision Spotter",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, pick one enemy unit within 36” and in line of sight of this model and roll one die, on a 4+ place a marker on it. Friendly units may remove markers from their target before rolling to hit to get +X to hit rolls when attacking, where X is the number of removed markers."
+      }
+    ],
+    "specialRule": [
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Ranged Slayer": {
+    "title": "Ranged Slayer",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model's ranged weapons get <key>AP</key>(+2) against units where most models have <key>Tough</key>(3) or higher."
+      }
+    ],
+    "specialRule": [
+      "dRAJ8qnYDOxm",
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Vinci Tech Boost": {
+    "title": "Vinci Tech Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Vinci Tech</key>, it always gets both <key>AP</key>(+1) and +1 to hit rolls from <key>Vinci Tech</key> (instead of having to pick between <key>AP</key>(+1) or +1 to hit rolls)."
+      }
+    ],
+    "specialRule": [
+      "dRAJ8qnYDOxm"
+    ]
+  },
+  "Wave-Step": {
+    "title": "Wave-Step",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within 3” of their position."
+      }
+    ],
+    "specialRule": [
+      "oACH5PrePLfv"
+    ]
+  },
+  "Guarded": {
+    "title": "Guarded",
+    "description": [
+      {
+        "system": "all",
+        "text": "When units where all models have this rule are shot or charged from over 9” away, they get +1 to defense rolls."
+      }
+    ],
+    "specialRule": [
+      "oACH5PrePLfv"
+    ]
+  },
+  "Stealth Buff": {
+    "title": "Stealth Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Stealth</key> once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "oACH5PrePLfv"
+    ]
+  },
+  "Thrash": {
+    "title": "Thrash",
+    "description": [
+      {
+        "system": "all",
+        "text": "Against units where most models have <key>Defense</key> 5+ to <key>Defense</key> 6+, this weapon gets <key>Blast</key>(+3)."
+      }
+    ],
+    "specialRule": [
+      "oACH5PrePLfv"
+    ]
+  },
+  "Wave-Step Boost Aura": {
+    "title": "Wave-Step Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Wave-Step Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "oACH5PrePLfv"
+    ]
+  },
+  "Ambush Re-Deployment": {
+    "title": "Ambush Re-Deployment",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when a unit where all models have this rule ends its activation, you may immediately remove it from the table (dropping any objectives it might hold within 1”), and deploy it as if it had <key>Ambush</key> at the beginning of the next round."
+      }
+    ],
+    "specialRule": [
+      "oACH5PrePLfv"
+    ]
+  },
+  "Wave-Step Boost": {
+    "title": "Wave-Step Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Wave-Step</key>, it may be placed within 6” from <key>Wave-Step</key> (instead of only within 3”)."
+      }
+    ],
+    "specialRule": [
+      "oACH5PrePLfv"
+    ]
+  },
+  "Harassing": {
+    "title": "Harassing",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per round, units where all models have this rule may move by up to 3” after shooting or being in melee."
+      }
+    ],
+    "specialRule": [
+      "AiReKTM86F3e"
+    ]
+  },
+  "Retreating Strike": {
+    "title": "Retreating Strike",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per round, when this unit ends its move within 3” of enemy units after being in melee, pick one of them and roll as many dice as models with this rule in this unit, or as many dice as its <key>Tough</key> value (for single-model units). For each 6+ the target takes one wound."
+      }
+    ],
+    "specialRule": [
+      "AiReKTM86F3e"
+    ]
+  },
+  "Regenerative Strength": {
+    "title": "Regenerative Strength",
+    "description": [
+      {
+        "system": "all",
+        "text": "Place one marker on this model when it ignores a wound. When in melee, pick one of its weapons to get +X attacks, where X is the number of markers on it."
+      }
+    ],
+    "specialRule": [
+      "AiReKTM86F3e"
+    ]
+  },
+  "Predator Fighter": {
+    "title": "Predator Fighter",
+    "description": [
+      {
+        "system": "all",
+        "text": "For each unmodified roll of 6 to hit in melee, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks."
+      }
+    ],
+    "specialRule": [
+      "AiReKTM86F3e"
+    ]
+  },
+  "Ruinous Frenzy": {
+    "title": "Ruinous Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "text": "Place one marker on this unit when it fully destroys an enemy unit. For each marker all models with this rule in this unit get +1 to hit rolls and +1 to defense rolls until the end of the game (up to a max. of +2)."
+      }
+    ],
+    "specialRule": [
+      "AiReKTM86F3e"
+    ]
+  },
+  "Lacerate": {
+    "title": "Lacerate",
+    "description": [
+      {
+        "system": "all",
+        "text": "When attacking the target must re-roll unmodified <key>Defense</key> results of 6."
+      }
+    ],
+    "specialRule": [
+      "AiReKTM86F3e"
+    ]
+  },
+  "Harassing Boost Aura": {
+    "title": "Harassing Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Harassing Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "AiReKTM86F3e"
+    ]
+  },
+  "Thrust Mark": {
+    "title": "Thrust Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Thrust</key> in melee against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "AiReKTM86F3e"
+    ]
+  },
+  "Harassing Boost": {
+    "title": "Harassing Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If most models in this unit have <key>Harassing</key>, they may move by up to 6” from <key>Harassing</key> (instead of only 3”)."
+      }
+    ],
+    "specialRule": [
+      "AiReKTM86F3e"
+    ]
+  },
+  "Precision Growth": {
+    "title": "Precision Growth",
+    "description": [
+      {
+        "system": "all",
+        "text": "Place one marker on this unit at the end of each round if it's on the table. For each marker models with this rule in it get +1 to hit rolls (up to a max. of +2). If this unit is ever Shaken, it loses all its markers."
+      }
+    ],
+    "specialRule": [
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Vale Formation": {
+    "title": "Vale Formation",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets +2” range when shooting and moves +4” when using Charge actions."
+      }
+    ],
+    "specialRule": [
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Courage Buff": {
+    "title": "Courage Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to morale test rolls once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Counter in Melee": {
+    "title": "Counter in Melee",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>Counter</key> in melee."
+      }
+    ],
+    "specialRule": [
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Puncture": {
+    "title": "Puncture",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+4)."
+      }
+    ],
+    "specialRule": [
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Vale Formation Boost Aura": {
+    "title": "Vale Formation Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Vale Formation Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Impact Mark": {
+    "title": "Impact Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Impact</key>(+1) against once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Vale Formation Boost": {
+    "title": "Vale Formation Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Vale Formation</key>, it gets +4” range when shooting and moves +8” when using Charge actions from <key>Vale Formation</key> (instead of only +2” and +4”)."
+      }
+    ],
+    "specialRule": [
+      "HH7O68qvHVR0"
+    ]
+  },
+  "Precision Shooter Aura": {
+    "title": "Precision Shooter Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get +1 to hit rolls when shooting."
+      }
+    ],
+    "specialRule": [
+      "OyVVPwEw7Uep"
+    ]
+  },
+  "Bestial": {
+    "title": "Bestial",
+    "description": [
+      {
+        "system": "all",
+        "text": "When attacking, targets must re-roll unmodified <key>Defense</key> results of 6 when blocking hits from this model's weapons."
+      }
+    ],
+    "specialRule": [
+      "OyVVPwEw7Uep"
+    ]
+  },
+  "Tear": {
+    "title": "Tear",
+    "description": [
+      {
+        "system": "all",
+        "text": "Against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+4)."
+      }
+    ],
+    "specialRule": [
+      "OyVVPwEw7Uep"
+    ]
+  },
+  "Bestial Boost Aura": {
+    "title": "Bestial Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Bestial Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "OyVVPwEw7Uep"
+    ]
+  },
+  "Precision Tag": {
+    "title": "Precision Tag",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, during this model's activation, pick one enemy unit within 36” and in line of sight of it, and place X markers on it. When attacking, friendly units may remove markers from their target before rolling to hit to get +Y to hit rolls, where Y is the number of removed markers."
+      }
+    ],
+    "specialRule": [
+      "OyVVPwEw7Uep"
+    ]
+  },
+  "Bestial Boost": {
+    "title": "Bestial Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Bestial</key>, enemies taking hits from it must re-roll successful unmodified defense results of 5-6 from <key>Bestial</key> (instead of only on 6)."
+      }
+    ],
+    "specialRule": [
+      "OyVVPwEw7Uep"
+    ]
+  },
+  "Destroyer Boost Aura": {
+    "title": "Destroyer Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Destroyer Boost</key>."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Piercing Feat": {
+    "title": "Piercing Feat",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per game, when this unit attacks and all its models have this rule, you may use this rule so that all their weapons get <key>AP</key>(+2)."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Piercing Feat Aura": {
+    "title": "Piercing Feat Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Piercing Feat</key>."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Rupture": {
+    "title": "Rupture",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Regeneration, and on unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Melee Evasion Buff": {
+    "title": "Melee Evasion Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Melee Evasion</key> once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Unwieldy Debuff": {
+    "title": "Unwieldy Debuff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets <key>Unwieldy</key> in melee once (next time the effect would apply)."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Courage Aura": {
+    "title": "Courage Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get +1 to morale test rolls."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Destroyer Boost": {
+    "title": "Destroyer Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Destroyer</key>, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from <key>Destroyer</key> (instead of only on 1)."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Unwieldy": {
+    "title": "Unwieldy",
+    "description": [
+      {
+        "system": "all",
+        "text": "Strikes last when charging."
+      }
+    ],
+    "specialRule": [
+      "K44UD3HPQAfg"
+    ]
+  },
+  "Strafing": {
+    "title": "Strafing",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, when this model moves through enemy units, pick one of them and attack it with this weapon as if it was shooting. This weapon may only be used in this way."
+      }
+    ]
+  },
+  "Increased Shooting Range": {
+    "title": "Increased Shooting Range",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets +6” range when shooting."
+      }
+    ]
+  },
+  "Guarded Buff": {
+    "title": "Guarded Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Guarded</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Brutal Fighter": {
+    "title": "Brutal Fighter",
+    "description": [
+      {
+        "system": "all",
+        "text": "When in melee, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
+      }
+    ]
+  },
+  "Swift Buff": {
+    "title": "Swift Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Swift</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Self-Repair Boost Buff": {
+    "title": "Self-Repair Boost Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets Self-Repair Boost once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Increased Shooting Range Buff": {
+    "title": "Increased Shooting Range Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +6” range when shooting once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Speed Buff": {
+    "title": "Speed Buff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one friendly unit within 12”, which moves +2” when using Advance actions and +4” when using Rush/Charge actions once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Honor Code": {
+    "title": "Honor Code",
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+      }
+    ]
+  },
+  "Royal Warrior": {
+    "title": "Royal Warrior",
+    "description": [
+      {
+        "system": "all",
+        "text": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn't apply to newly generated attacks."
+      }
+    ]
+  },
+  "Splinter": {
+    "title": "Splinter",
+    "description": [
+      {
+        "system": "all",
+        "text": "Ignores Cover, and against units where most models have Tough(3) to Tough(6), this weapon gets AP(+4)."
+      }
+    ]
+  },
+  "Royal Warrior Boost": {
+    "title": "Royal Warrior Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has Royal Warrior, it gets extra attacks on successful unmodified hit results of 5-6 from Royal Warrior (instead of only on 6)."
+      }
+    ]
+  },
+  "Royal Warrior Boost Aura": {
+    "title": "Royal Warrior Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get Royal Warrior Boost."
+      }
+    ]
+  }
+}

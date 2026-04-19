@@ -318,7 +318,7 @@ def extract_from_url(
     url: str,
     *,
     language: str = "fr",
-    dictionary_path: Path = Path("public/locales/rules/common-rules.dictionary.ts"),
+    dictionary_path: Path = Path("public/locales/rules/common-rules/index.json"),
 ) -> tuple[dict[str, Any], str]:
     parsed_url = parse_army_book_url(url)
     source = fetch_army_book(parsed_url)
@@ -335,13 +335,13 @@ def main() -> None:
     parser.add_argument(
         "--language",
         default="fr",
-        help="Target translation language from common-rules.dictionary.ts. Use 'en' to keep extracted text as-is.",
+        help="Target translation language from the common-rules dictionary API sources. Use 'en' to keep extracted text as-is.",
     )
     parser.add_argument(
         "--dictionary",
         type=Path,
-        default=Path("public/locales/rules/common-rules.dictionary.ts"),
-        help="Path to the common rules dictionary file.",
+        default=Path("public/locales/rules/common-rules/index.json"),
+        help="Path to the common rules dictionary manifest file.",
     )
     args = parser.parse_args()
 

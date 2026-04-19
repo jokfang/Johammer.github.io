@@ -1,0 +1,4072 @@
+{
+  "Labyrinthian Sparkle": {
+    "title": "Scintillement Labyrinthique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12” ou moins, qui gagne <key>Evasif</key>(la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Maze Vines": {
+    "title": "Vignes du Labyrinthe",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12” ou moins, qui subit 2 touches avec <key>PA</key>(1) et <key>Fragment</key>."
+      }
+    ]
+  },
+  "Dream Haunter": {
+    "title": "Hanteur de Rêves",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 18”. Les unités alliées gagnent <key>Combattant imprévisible</key> contre elles (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Chill of Death": {
+    "title": "Frisson de Mort",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12” ou moins, qui subit 6 touches."
+      }
+    ]
+  },
+  "Combat Possession": {
+    "title": "Possession de Combat",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12” ou moins, qui se deplacent de +2” avec les actions Déplacement et de +4” avec les actions Course/Charge (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Spectral Light": {
+    "title": "Lumière Spectrale",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Selectionnez une unité ennemie a 6”, qui subit 3 touches avec <key>PA</key>(2) et <key>Mortel</key>(3)."
+      }
+    ]
+  },
+  "Hunter's Strike": {
+    "title": "Frappe du Chasseur",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Spirit Vines": {
+    "title": "Vignes Spirituelles",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Perce</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Natural Harmony": {
+    "title": "Harmonie Naturelle",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Resistance</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Tree Stomp": {
+    "title": "Pietinement d'Arbre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Tree-Bark Growth": {
+    "title": "Croissance d'Ecorce",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement ancre</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Insect Attack": {
+    "title": "Attaque d'Insectes",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+      }
+    ]
+  },
+  "Searing Heat": {
+    "title": "Chaleur Brulante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Assaut perforant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Lava Bolts": {
+    "title": "Projectiles de Lave",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 2 touches."
+      }
+    ]
+  },
+  "Auric Fury": {
+    "title": "Fureur Aurique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Combattant Frappe et Repli</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Suffocating Ashes": {
+    "title": "Cendres Suffocantes",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subissent chacune 4 touches."
+      }
+    ]
+  },
+  "Seismic Shift": {
+    "title": "Deplacement Sismique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Protection ancree</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Fire Storm": {
+    "title": "Tempete de Feu",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 9 touches avec <key>Pulverisation</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Vigorous Return": {
+    "title": "Retour Vigoureux",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Boost de la Malédiction Mort-Vivante</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Cursed Strike": {
+    "title": "Frappe Maudite",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>Sectionnement</key>."
+      }
+    ]
+  },
+  "Seductive Invocation": {
+    "title": "Invocation Seduisante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 18”, qui doivent faire un test de moral. En cas d'echec, vous pouvez la deplacer de jusqu'à 6” en ligne droite dans n'importe quelle direction."
+      }
+    ]
+  },
+  "Spectral Wind": {
+    "title": "Vent Spectral",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Dance of Death": {
+    "title": "Danse de la Mort",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Teleportation</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Deadly Gaze": {
+    "title": "Regard Mortel",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+      }
+    ]
+  },
+  "Aether-Cloud Rune": {
+    "title": "Rune de Nuage d'Aether",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Aether Shock": {
+    "title": "Choc d'Aether",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Entaille</key>."
+      }
+    ]
+  },
+  "Wind Rune": {
+    "title": "Rune du Vent",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Vif</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Lightning Shock": {
+    "title": "Choc de Foudre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subissent chacune 2 touches avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Tinkering Rune": {
+    "title": "Rune de Bricolage",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Amplification Boucanier</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Thunder Shock": {
+    "title": "Choc de Tonnerre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>Laceration</key>."
+      }
+    ]
+  },
+  "Poison Mist": {
+    "title": "Brume Empoisonnée",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à 18\" ou moins. Les unités amies bénéficient de la règle spéciale <key>Lacération</key> une seule fois lorsqu'elles l'attaquent (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Piranha Swarm": {
+    "title": "Nuée de piranhas",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisisser une unité ennemie à 12” ou moins, qui subit deux touches avec <key>Désintégration</key>."
+      }
+    ]
+  },
+  "Fateful Guidance": {
+    "title": "Guide providentiel",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisisser jusqu'à deux unités alliées à 12” ou moins, qui obtiennent une seule fois la règle spéciale <key>Inébranlable</key> (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Jaguar Pounce": {
+    "title": "Jaguar bondissant",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisisser une figurine ennemi à 18” ou moins, qui subit 4 touches avec <key>PA</key>(1)."
+      }
+    ]
+  },
+  "Primordial Roar": {
+    "title": "Rugissement Primordial",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisisser jusqu'à trois unités alliées à 12” ou moins, qui bénéficient de la règle spéciale <key>Boost de Primal</key> une seule fois (la prochaine fois que cet effet s'appliquerait)."
+      }
+    ]
+  },
+  "Serpent Egg": {
+    "title": "Œuf de Serpent",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisisser une unité ennemie à 6” ou moins, qui subit 9 touches avec <key>Fléau</key>."
+      }
+    ]
+  },
+  "Terrifying Fury": {
+    "title": "Fureur terrifiante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à 18” ou moins, qui devra faire un test de moral. En cas d'echec, elle sera fatiguée."
+      }
+    ]
+  },
+  "Flame of Destruction": {
+    "title": "Flamme de la destruction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 touche avec <key>Explosion</key>(3)."
+      }
+    ]
+  },
+  "Fiery Protection": {
+    "title": "Protection Ardente",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12” ou moins, qui gagneront <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Brutal Massacre": {
+    "title": "Massacre Brutal",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 6” ou moins, qui subira 6 touches avec <key>Dislocation</key>. Lancez autant de dés que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "War Boon": {
+    "title": "Bénédiction guerrière",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagneront <key>Boost de Guerrier-né</key> une fois (la prochaine fois que l'effet s'appliquera)."
+      }
+    ]
+  },
+  "Headtaker Strike": {
+    "title": "Décapitation",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subiront chacune 3 touches avec <key>PA</key>(2)."
+      }
+    ]
+  },
+  "Aura of Pestilence": {
+    "title": "Aura de Pestilence",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rapid Putrefaction": {
+    "title": "Putrefaction Rapide",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Boucher</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Blessed Virus": {
+    "title": "Virus Beni",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Plague Malediction": {
+    "title": "Malediction de la Peste",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Plague Boon": {
+    "title": "Don de la Peste",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Amplification Lie a la peste</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rot Wave": {
+    "title": "Vague de Putrefaction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+      }
+    ]
+  },
+  "Combat Ecstasy": {
+    "title": "Extase de Combat",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Beautiful Pain": {
+    "title": "Belle Douleur",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+      }
+    ]
+  },
+  "Blissful Dance": {
+    "title": "Danse Extatique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Total Seizure": {
+    "title": "Paralysie Totale",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 4 touches avec <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Lust Boon": {
+    "title": "Don de la Luxure",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie a la Luxure</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Overpowering Lash": {
+    "title": "Fouet Ecrasant",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+      }
+    ]
+  },
+  "Shifting Form": {
+    "title": "Forme Changeante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Sky Blaze": {
+    "title": "Brasier Celeste",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Entaille</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Breath of Change": {
+    "title": "Souffle du Changement",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Fleau au Tir</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Mutating Inferno": {
+    "title": "Inferno Mutant",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
+      }
+    ]
+  },
+  "Change Boon": {
+    "title": "Don du Changement",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie au Changement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Power Bolt": {
+    "title": "Eclair de Puissance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Magic Skitter-Step": {
+    "title": "Pas-Fourbe Magique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Renforcement de Detale</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Heavenly Strike": {
+    "title": "Frappe Celeste",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subissent chacune 1 touche avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "God-Mother's Frenzy": {
+    "title": "Frenesie de la Deesse-Mere",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Tueur de mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Choking Censer-Fog": {
+    "title": "Brouillard d'Encensoir Suffocant",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches."
+      }
+    ]
+  },
+  "Cracking Bell-Chime": {
+    "title": "Carillon de Cloche Fissuree",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, qui subissent -1 a leurs jets de defense une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Lightning Blast": {
+    "title": "Explosion Foudroyante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez un modele ennemi a 12”, qui subit 6 touches avec <key>Dangereux</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 1” se declenchent."
+      }
+    ]
+  },
+  "Drain Spirit": {
+    "title": "Drain d'Esprit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne Inarretable en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Deep Fracture": {
+    "title": "Fracture Profonde",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 2 touches avec <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Rapid Ossification": {
+    "title": "Ossification Rapide",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Ossifie</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Shattering Blast": {
+    "title": "Explosion Brisante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 6 touches avec <key>Destructeur</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Soul Enslaver": {
+    "title": "Asservisseur d'Ames",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Furieux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Bone Breaker": {
+    "title": "Briseur d'Os",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+      }
+    ]
+  },
+  "Evil Gaze": {
+    "title": "Mauvais Oeil",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Contre-attaque</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Godly Smash": {
+    "title": "Fracassement Divin",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 1 touche avec <key>AP</key>(2) et <key>Empalement</key>."
+      }
+    ]
+  },
+  "Way-Clan Chant": {
+    "title": "Chant de la Voie-Clan",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Ferocite</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Bone Strike": {
+    "title": "Frappe d'Os",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 6 touches avec Fleau."
+      }
+    ]
+  },
+  "Magic Fists": {
+    "title": "Poings Magiques",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Perforant en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Iron Burst": {
+    "title": "Explosion de Fer",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Battle Guts": {
+    "title": "Tripes de Bataille",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Resistance</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Gobble Up": {
+    "title": "Gober",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 2 touches avec <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Gorging Feast": {
+    "title": "Festin Vorace",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Destructeur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Great Trampling": {
+    "title": "Grand Pietinement",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(1) et <key>Rupture</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Crack Spirits": {
+    "title": "Brise-Esprits",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, qui gagnent <key>Encombrant</key> en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Ice Maw": {
+    "title": "Gueule de Glace",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Desert Storm": {
+    "title": "Tempete du Desert",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Storm of Skulls": {
+    "title": "Tempete de Cranes",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 touche avec <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Cursed Arrows": {
+    "title": "Fleches Maudites",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent Dechiquetage au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rapid Desiccation": {
+    "title": "Dessechement Rapide",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Tomb Queen's Guidance": {
+    "title": "Guide de la Reine des Tombes",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement de Legion Royale</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Tomb Queen's Vengeance": {
+    "title": "Vengeance de la Reine des Tombes",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Perforation</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Heavenly Guidance": {
+    "title": "Guidance Celeste",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Volant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Lightning Bolt": {
+    "title": "Éclair",
+    "description": [
+      {
+        "system": "Kingdom of Angels",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 1 touche avec <key>AP</key>(2) et <key>Decoupe</key>."
+      },
+      {
+        "system": "Eternal Wardens",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie  à 12” ou moins, elle subira 6 touches avec <key>PA</key>(1) et <key>Lacération</key>."
+      }
+    ]
+  },
+  "Star Blessing": {
+    "title": "Benediction Stellaire",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement de Benediction Angelique</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Angelic Storm": {
+    "title": "Tempete Angelique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subissent chacune 2 touches avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Shock Energy": {
+    "title": "Energie de Choc",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Tueur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Thunder Strike": {
+    "title": "Frappe de Tonnerre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+      }
+    ]
+  },
+  "Aura of Heroism": {
+    "title": "Aura d'Heroisme",
+    "description": [
+      {
+        "system": "Human Empire",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Renforcement Tenir la Ligne</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "Giant Tribes",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne +1 aux jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Fire Ball": {
+    "title": "Boule de Feu",
+    "description": [
+      {
+        "system": "Human Empire",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Fracture</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      },
+      {
+        "system": "Giant Tribes",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Surge</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Magic Targeting": {
+    "title": "Ciblage Magique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 18”, contre lesquelles les unités alliées gagnent +1 aux jets pour toucher en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Blood Hex": {
+    "title": "Malefice de Sang",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches."
+      }
+    ]
+  },
+  "Elemental Form": {
+    "title": "Forme Elementaire",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>AP</key>(+1) en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Spirit Leech": {
+    "title": "Siphon d'Esprit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 6 touches avec <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Eagle-Eyed Focus": {
+    "title": "Concentration de l'Oeil d'Aigle",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent +1 aux jets pour toucher au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Arcane Blast": {
+    "title": "Explosion Arcanique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 touche avec <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Magical Surge": {
+    "title": "Poussee Magique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Bane</key> en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "High Tempest": {
+    "title": "Haute Tempete",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
+      }
+    ]
+  },
+  "Path to Glory": {
+    "title": "Voie vers la Gloire",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Noble</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Magic Arrows": {
+    "title": "Fleches Magiques",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Fissure</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Barbed Chains": {
+    "title": "Chaines Barbelees",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 2 touches."
+      }
+    ]
+  },
+  "Cursed Stride": {
+    "title": "Foulee Maudite",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain dangereux une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Havoc Boost": {
+    "title": "Renforcement du Chaos",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Lie au Chaos</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Impaling Spike": {
+    "title": "Pointe Empalante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 4 touches avec <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Dark Shielding": {
+    "title": "Protection Sombre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcé</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Thorn Field": {
+    "title": "Champ d'Epines",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Percussion</key>."
+      }
+    ]
+  },
+  "Rune of Piercing": {
+    "title": "Rune de Percage",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Chasseur perforant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rune of Lightning": {
+    "title": "Rune de Foudre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 1 touche avec <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Rune of Ashes": {
+    "title": "Rune de Cendres",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Lie au Chaos</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rune of Darkness": {
+    "title": "Rune des Tenebres",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 6 touches avec <key>Purge</key>."
+      }
+    ]
+  },
+  "Rune of Cracking": {
+    "title": "Rune de Fissuration",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Implacable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rune of Insanity": {
+    "title": "Rune de Folie",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 3 touches avec <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Luck of the Ancients": {
+    "title": "Chance des Anciens",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Renforcement Chanceux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Cleansing Spirit": {
+    "title": "Esprit Purificateur",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Fracasser</key>."
+      }
+    ]
+  },
+  "Giant Shadow": {
+    "title": "Ombre Geante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 18”, qui subissent -1 a leurs jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Nightmare Spirit": {
+    "title": "Esprit de Cauchemar",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches."
+      }
+    ]
+  },
+  "Shortling Courage": {
+    "title": "Courage des Petits",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Sans peur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Dark Forest Spirit": {
+    "title": "Esprit de la Foret Sombre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+      }
+    ]
+  },
+  "Spider Might": {
+    "title": "Puissance de l'Araignee",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne Renforcement Espiegle une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Stinging Spider": {
+    "title": "Araignee Piquante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>Bane</key>."
+      }
+    ]
+  },
+  "Bat Thirst": {
+    "title": "Soif de Chauve-Souris",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Assaut perforant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Pouncing Wolf": {
+    "title": "Loup Bondissant",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Wolf Resiliance": {
+    "title": "Resilience du Loup",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent +1 aux jets de defense une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Biting Bat": {
+    "title": "Chauve-Souris Mordeuse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>AP</key>(2) et Embrocher."
+      }
+    ]
+  },
+  "Shock Attack": {
+    "title": "Attaque de Choc",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à 18” ou moins, les unités alliée gagnent <key>Imparable</key> lors du prochain tir contre cette unité (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Thunder Clap": {
+    "title": "Coup de Tonnerre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 touche avec <key>Fracas</key>."
+      }
+    ]
+  },
+  "Star Strike": {
+    "title": "Frappe Stellaire",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, elles gagnent <key>Combattant imprévisible</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Heavy Storm": {
+    "title": "Violente tempête",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 9” ou moins, elles subissent 4 touches chacune."
+      }
+    ]
+  },
+  "Warding Cloud": {
+    "title": "Nuage Protecteur",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12” ou moins, elles gagnent <key>Boost de Gardien</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rune of Battle": {
+    "title": "Rune de Bataille",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rune of Breaking": {
+    "title": "Rune de Brisure",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 2 touches avec <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Rune of Protection": {
+    "title": "Rune de Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Coriace</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rune of Cleaving": {
+    "title": "Rune de Fendage",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(1) et <key>Secousse</key>."
+      }
+    ]
+  },
+  "Rune of Smiting": {
+    "title": "Rune de Chatiment",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 3 touches avec <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Rune of Spite": {
+    "title": "Rune de Spite",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, qui se deplacent de -2” avec les actions Avance et de -4” avec les actions Rush/Charge une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Clearview Leaves": {
+    "title": "Feuilles Clairevue",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent +6” de portee au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Explosive Concoction": {
+    "title": "Concoction Explosive",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Decimation</key>."
+      }
+    ]
+  },
+  "Mesmer Oils": {
+    "title": "Huiles Mesmeriques",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Inebranlable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Choking Fog": {
+    "title": "Brouillard Etouffant",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
+      }
+    ]
+  },
+  "Fury Herbs": {
+    "title": "Herbes de Fureur",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Tech Vinci</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Neurotoxin Gas": {
+    "title": "Gaz Neurotoxique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+      }
+    ]
+  },
+  "Spirit Wind": {
+    "title": "Vent Spirituel",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Dragon Fire": {
+    "title": "Feu Draconique",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 3 touches."
+      }
+    ]
+  },
+  "Astral Storm": {
+    "title": "Tempete Astrale",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(1) et <key>Deferlante</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Jade Claws": {
+    "title": "Griffes de Jade",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent Renforcement Guerrier Royal une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Ancestral Guidance": {
+    "title": "Guidance Ancestrale",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Indirect au Tir</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Blazing Starlight": {
+    "title": "Lueur Stellaire Ardente",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 3 touches avec <key>Échardage</key>."
+      }
+    ]
+  },
+  "High Tide": {
+    "title": "Maree Haute",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Furtif</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Erode Soul": {
+    "title": "Erosion de l'Ame",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 1 touche avec <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Crushing Pressure": {
+    "title": "Pression Ecrasante",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subissent chacune 2 touches avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Power Wave": {
+    "title": "Vague de Puissance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement de Pas Ondulatoire</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Darkest Abyss": {
+    "title": "Abime le Plus Sombre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, qui subissent -1 aux jets pour toucher en attaquant une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Sea Storm": {
+    "title": "Tempete Marine",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 3 touches avec <key>Fracas</key>."
+      }
+    ]
+  },
+  "Dark Isle Spirit": {
+    "title": "Esprit de l'Ile Sombre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Renforcement de Harcelement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Blade Storm": {
+    "title": "Tempete de Lames",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+      }
+    ]
+  },
+  "World of Pain": {
+    "title": "Monde de Douleur",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 18”, contre lesquelles les unités alliées gagnent Percee une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Storm Wave": {
+    "title": "Vague de Tempete",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 2 touches avec <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Healing Winds": {
+    "title": "Vents Guerisseurs",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent Régénération une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Black Bolt": {
+    "title": "Eclair Noir",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+      }
+    ]
+  },
+  "Protection of the Huntress": {
+    "title": "Protection de la Chasseresse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Fortifie</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Cleansing Light": {
+    "title": "Lumiere Purificatrice",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 1 touche avec <key>Perforation</key>."
+      }
+    ]
+  },
+  "Great Hunt": {
+    "title": "Grande Chasse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement de Formation du Val</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Searing Gaze": {
+    "title": "Regard Brulant",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 6 touches avec <key>Bane</key>."
+      }
+    ]
+  },
+  "Curse of the Huntress": {
+    "title": "Malediction de la Chasseresse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Impact</key>(1) une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Wrath of the Huntress": {
+    "title": "Colere de la Chasseresse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Surge of Power": {
+    "title": "Deferlante de Puissance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12”, qui gagne <key>Renforcement Bestial</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Flock Attack": {
+    "title": "Attaque de Nuée",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Deferlante</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Hunting Roar": {
+    "title": "Rugissement de Chasse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 18”, qui subissent -1 a leurs jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Ancestral Wrath": {
+    "title": "Colere Ancestrale",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>Dechirure</key>."
+      }
+    ]
+  },
+  "Spirit Mantle": {
+    "title": "Manteau Spirituel",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent Régénération une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Destructive Flame": {
+    "title": "Flamme Destructrice",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 9 touches."
+      }
+    ]
+  },
+  "Absorption Amplifier": {
+    "title": "Absorption Amplifier",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Ballistic Vest Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Advanced Sight": {
+    "title": "Advanced Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Ammo Boost": {
+    "title": "Ammo Renforcement",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Mischievous Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Animate Spirit": {
+    "title": "Animate Esprit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Hit & Run Fighter une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Apparition of Doom": {
+    "title": "Apparition of Doom",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Quake."
+      }
+    ]
+  },
+  "Armor Rune": {
+    "title": "Armor Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Sturdy Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Art of Pain": {
+    "title": "Art of Pain",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 6”, qui subissent 1 hit with AP(2) and Deadly(3) each."
+      }
+    ]
+  },
+  "Asphyxiating Fog": {
+    "title": "Asphyxiating Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Counter-Attack une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Assign Bounty": {
+    "title": "Assign Bounty",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, which les unités alliées gagnent Impact(1) against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Aura of Peace": {
+    "title": "Aura of Paix",
+    "description": [
+      {
+        "system": "Rebel Guerrillas",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent +1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "DAO Union",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Fearless une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Bad Omen": {
+    "title": "Bad Omen",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, which les unités alliées gagnent Furious against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Badland Frenzy": {
+    "title": "Badland Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent <key>Boost de Chasseur des Badlands</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Banishing Sigil": {
+    "title": "Banishing Sigil",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Battle Rune": {
+    "title": "Battle Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent +6” range when shooting une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Berserker Frenzy": {
+    "title": "Berserker Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, which les unités alliées gagnent AP(+1) when charging against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Bio-Displacer": {
+    "title": "Bio-Displacer",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Teleport une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Bio-Horror": {
+    "title": "Bio-Horror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Blades of Discord": {
+    "title": "Blades of Discord",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 1 hit with AP(2) and Deadly(3)."
+      }
+    ]
+  },
+  "Blessed Ammo": {
+    "title": "Blessed Ammo",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Shred when shooting une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Blessing of Souls": {
+    "title": "Blessing of Souls",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Highborn Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Blood Dome": {
+    "title": "Sang Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Blood Sight": {
+    "title": "Sang Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Blood Trauma": {
+    "title": "Sang Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 hit with Smash."
+      }
+    ]
+  },
+  "Blood Wound": {
+    "title": "Sang Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with Demolish."
+      }
+    ]
+  },
+  "Boom!": {
+    "title": "Boom!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, qui subissent 1 hit with Blast(3) each."
+      }
+    ]
+  },
+  "Brain Burst": {
+    "title": "Brain Burst",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 1 hit with AP(2) and Deadly(3) each."
+      }
+    ]
+  },
+  "Brain Infestation": {
+    "title": "Brain Infestation",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 jets pour toucher when attacking une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Breaking Rune": {
+    "title": "Breaking Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 1 hit with AP(4)."
+      }
+    ]
+  },
+  "Brute Guts": {
+    "title": "Brute Guts",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Fearless une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Burn the Heretic": {
+    "title": "Brulez les hérétiques",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à 18” ou moins, qui subit un malus de -3 aux jets de lancement de sorts une seule fois (l'effet s'appliquera la prochaine fois)."
+      }
+    ]
+  },
+  "Burst of Rage": {
+    "title": "Burst of Rage",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Furious une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Calculated Foresight": {
+    "title": "Calculated Foresight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, which les unités alliées gagnent Relentless against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Celestial Roar": {
+    "title": "Celestial Roar",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12” ou moins, qui gagnent <key>Boost de Primal</key> (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Cerebral Trauma": {
+    "title": "Cerebral Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 hit with Smash."
+      }
+    ]
+  },
+  "Choking Gas": {
+    "title": "Choking Gas",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 6”, qui subissent 3 touches with Bane each."
+      }
+    ]
+  },
+  "Choking Waste-Fog": {
+    "title": "Choking Waste-Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 3 touches chacune."
+      }
+    ]
+  },
+  "Clan Power": {
+    "title": "Clan Power",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Berserker Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Cleaving Rune": {
+    "title": "Cleaving Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 18”, qui subissent 1 hit with Blast(3) each."
+      }
+    ]
+  },
+  "Coordinated Aggression": {
+    "title": "Coordinated Aggression",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, which les unités alliées gagnent AP(1) when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Corpo-Network Link": {
+    "title": "Corpo-Network Link",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Cyber-Eyes Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Corrode Weapons": {
+    "title": "Corrode Weapons",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, which loses AP(1) when shooting une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Cracking Blast": {
+    "title": "Cracking Explosion",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Crackling Bolt": {
+    "title": "Crackling Eclair",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 18”, qui subissent 1 hit with Blast(3) each."
+      }
+    ]
+  },
+  "Creator of Illusions": {
+    "title": "Creator of Illusions",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, qui gagnent Unwieldy in mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Crush!": {
+    "title": "Crush!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, qui subissent 1 hit with Blast(3) each."
+      }
+    ]
+  },
+  "Crushing Force": {
+    "title": "Crushing Force",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(2) each."
+      }
+    ]
+  },
+  "Cyber-City Connection": {
+    "title": "Cyber-City Connection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Runner Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Cyberspace Vision": {
+    "title": "Cyberspace Vision",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent +6” range when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Cyborg Assault": {
+    "title": "Cyborg Assault",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent <key>Tir en mouvement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Dark Assault": {
+    "title": "Sombre Assault",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Shred in mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Dark Dome": {
+    "title": "Sombre Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Dark Mist": {
+    "title": "Sombre Mist",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, qui gagnent -1 jets pour toucher when attacking une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Dark Sight": {
+    "title": "Sombre Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Dark Trauma": {
+    "title": "Sombre Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 hit with Smash."
+      }
+    ]
+  },
+  "Dark Wound": {
+    "title": "Sombre Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with Demolish."
+      }
+    ]
+  },
+  "Deadly Surge": {
+    "title": "Deadly Surge",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 6”, qui subissent 3 touches with Bane each."
+      }
+    ]
+  },
+  "Death Bolt": {
+    "title": "Death Eclair",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 1 hit with AP(2) and Impale."
+      }
+    ]
+  },
+  "Deceleration Rune": {
+    "title": "Deceleration Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, which moves -2” when using Advance actions and -4” when using Rush/Charge actions une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Deep Hypnosis": {
+    "title": "Deep Hypnosis",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, which must take a morale test. If failed you may move it by up to 6” in a straight line in any direction."
+      }
+    ]
+  },
+  "Deep Meditation": {
+    "title": "Deep Meditation",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent +1 jets pour toucher when shooting une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Destroy!": {
+    "title": "Destroy!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 1 hit with AP(2) and Impale each."
+      }
+    ]
+  },
+  "Devastating Strike": {
+    "title": "Devastating Frappe",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with Decimate each."
+      }
+    ]
+  },
+  "Devour Essence": {
+    "title": "Devour Essence",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 2 touches with AP(1)."
+      }
+    ]
+  },
+  "Disastrous Malfunction": {
+    "title": "Disastrous Malfunction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 18”, qui subissent 2 touches chacune."
+      }
+    ]
+  },
+  "Dome of Doom": {
+    "title": "Dome of Doom",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 3 touches chacune."
+      }
+    ]
+  },
+  "Doom Strike": {
+    "title": "Doom Frappe",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 6”, qui subissent 1 hit with AP(2) and Deadly(3) each."
+      }
+    ]
+  },
+  "Dragon Breath": {
+    "title": "Dragon Breath",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 3 touches chacune."
+      }
+    ]
+  },
+  "Dread Strike": {
+    "title": "Dread Frappe",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux modele ennemis a 24”, qui subissent 1 hit with Tear each."
+      }
+    ]
+  },
+  "Elder Protection": {
+    "title": "Elder Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Resistance une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Electric Bolt": {
+    "title": "Electric Eclair",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 1 hit with AP(2) and Deadly(3) each."
+      }
+    ]
+  },
+  "Electric Tempest": {
+    "title": "Electric Tempest",
+    "description": [
+      {
+        "system": "Human Defense Force",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Fracture. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "Human Inquisition",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Elemental Seeker": {
+    "title": "Elemental Seeker",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 hit with Blast(3)."
+      }
+    ]
+  },
+  "EMP Blast": {
+    "title": "EMP Explosion",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(1) and Shred each."
+      }
+    ]
+  },
+  "Energy Storm": {
+    "title": "Energy Tempete",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Crack. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Enhance Serum": {
+    "title": "Enhance Serum",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Regeneration une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Eternal Flame": {
+    "title": "Flamme éternelle",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à 6” ou moins, qui subit six touches avec <key>Purge</key>."
+      }
+    ]
+  },
+  "Eternal Guidance": {
+    "title": "Eternal Guidance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, which les unités alliées gagnent +6” range when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Expel Threat": {
+    "title": "Expel Threat",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois modele ennemis a 18”, qui subissent 2 touches with AP(1) each."
+      }
+    ]
+  },
+  "Fade in the Dark": {
+    "title": "Fade in the Sombre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Stealth une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Fatal Sorrow": {
+    "title": "Fatal Sorrow",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 18”, qui subissent 2 touches chacune."
+      }
+    ]
+  },
+  "Feral Strike": {
+    "title": "Feral Frappe",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 1 hit with AP(2) and Deadly(3) each."
+      }
+    ]
+  },
+  "Flame Bots": {
+    "title": "Flame Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+      }
+    ]
+  },
+  "Focused Defender": {
+    "title": "Focused Defender",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Unpredictable Fighter une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Focused Shock": {
+    "title": "Focused Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Shred."
+      }
+    ]
+  },
+  "Forge Protection": {
+    "title": "Forge Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent +1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Gauss Bots": {
+    "title": "Gauss Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 3 touches with Destructive each. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Godly Thunder": {
+    "title": "Godly Thunder",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux modele ennemis a 24”, qui subissent 1 hit with AP(4) each."
+      }
+    ]
+  },
+  "Great Psy-Maw": {
+    "title": "Great Psy-Maw",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(2) each."
+      }
+    ]
+  },
+  "Guardian Protection": {
+    "title": "Guardian Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Guardian Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Havoc Boon": {
+    "title": "Havoc Boon",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Havocbound Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Havoc Fog": {
+    "title": "Havoc Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(1) and Slam each."
+      }
+    ]
+  },
+  "Havoc Terror": {
+    "title": "Havoc Terror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+      }
+    ]
+  },
+  "Havoc Trauma": {
+    "title": "Havoc Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(2)."
+      }
+    ]
+  },
+  "Head Bang": {
+    "title": "Head Bang",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, which les unités alliées gagnent Rending in mêlée against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Heavenly Lance": {
+    "title": "Heavenly Lance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux modele ennemis a 18”, qui subissent 2 touches with AP(1) each."
+      }
+    ]
+  },
+  "Hidden Spirits": {
+    "title": "Hidden Esprits",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Unpredictable Shooter une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Hive Shriek": {
+    "title": "Hive Shriek",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois modele ennemis a 18”, qui subissent 2 touches with AP(1) each."
+      }
+    ]
+  },
+  "Holistic Suffering": {
+    "title": "Holistic Suffering",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 3 touches chacune."
+      }
+    ]
+  },
+  "Holy Rage": {
+    "title": "Sainte colère",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies situées à 12” ou moins, qui obtiennent une seule fois la règle spéciale <key>Chasseur perforant</key> (la prochaine fois que cet effet s'appliquerait)."
+      }
+    ]
+  },
+  "Infuse Bloodthirst": {
+    "title": "Infuse Sangthirst",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Hive Bond Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Insidious Protection": {
+    "title": "Insidious Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Grounded Reinforcement une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Inspiring Bots": {
+    "title": "Inspiring Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Rapid Advance une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Jaguar Blaze": {
+    "title": "Jaguar Blaze",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(1) and Shred each."
+      }
+    ]
+  },
+  "Killing Blow": {
+    "title": "Killing Blow",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 2 touches with AP(1)."
+      }
+    ]
+  },
+  "Knight Dome": {
+    "title": "Knight Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Knight Sight": {
+    "title": "Knight Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Knight Trauma": {
+    "title": "Knight Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 hit with Smash."
+      }
+    ]
+  },
+  "Knight Wound": {
+    "title": "Knight Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with Demolish."
+      }
+    ]
+  },
+  "Light Fragments": {
+    "title": "Light Fragments",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 2 touches with AP(1) and Fragment each."
+      }
+    ]
+  },
+  "Lightning Fog": {
+    "title": "Lightning Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+      }
+    ]
+  },
+  "Litanies of War": {
+    "title": "Litanies de guerre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies à 12” ou moins, qui bénéficient une seule fois du <key>Boost de Dévotion</key> (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Lore of Bravery": {
+    "title": "Lore of Bravery",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Fearless une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Lore of Protection": {
+    "title": "Lore of Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Safety Gear Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Lore of Terror": {
+    "title": "Lore of Terror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Means of Destruction": {
+    "title": "Means of Destruction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, which les unités alliées gagnent Slayer against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Mending Bots": {
+    "title": "Mending Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Self-Repair Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Mind Breaker": {
+    "title": "Mind Breaker",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Mind Corruption": {
+    "title": "Mind Corruption",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Mind Gash": {
+    "title": "Mind Gash",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(1) and Shred each."
+      }
+    ]
+  },
+  "Mind Shaper": {
+    "title": "Mind Shaper",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Mind Vortex": {
+    "title": "Mind Vortex",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 12”, qui subissent 1 hit with AP(2) each."
+      }
+    ]
+  },
+  "Mind Wound": {
+    "title": "Mind Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with Demolish."
+      }
+    ]
+  },
+  "Mob Frenzy": {
+    "title": "Mob Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, which les unités alliées gagnent AP(1) when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Neurotoxin Cloud": {
+    "title": "Neurotoxin Cloud",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 6”, qui subissent 2 touches chacune."
+      }
+    ]
+  },
+  "Nightmare Vision": {
+    "title": "Nightmare Vision",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 1 hit with AP(4)."
+      }
+    ]
+  },
+  "Nomad Strike": {
+    "title": "Nomad Frappe",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 1 hit with AP(2) each."
+      }
+    ]
+  },
+  "Obscuring Energy": {
+    "title": "Obscuring Energy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Shadow Operative Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Overload Electronics": {
+    "title": "Overload Electronics",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with Scratch."
+      }
+    ]
+  },
+  "Overwhelming Strike": {
+    "title": "Overwhelming Frappe",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Rupture. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Path of War": {
+    "title": "Path of War",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Ferocious Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Piercing Bots": {
+    "title": "Piercing Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(2)."
+      }
+    ]
+  },
+  "Piercing Pulse": {
+    "title": "Piercing Pulse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois modele ennemis a 24”, qui subissent 1 hit with AP(4) each."
+      }
+    ]
+  },
+  "Pike of Doom": {
+    "title": "Pike of Doom",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 1 hit with AP(2) and Deadly(3) each."
+      }
+    ]
+  },
+  "Piranha Curse": {
+    "title": "Piranha Curse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+      }
+    ]
+  },
+  "Pow!": {
+    "title": "Pow!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 1 hit with AP(2) and Skewer each."
+      }
+    ]
+  },
+  "Power Beam": {
+    "title": "Power Beam",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez un modele ennemi a 18”, qui subit 2 touches with AP(1)."
+      }
+    ]
+  },
+  "Power Field": {
+    "title": "Power Field",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Blindé</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Power Maw": {
+    "title": "Power Maw",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 1 hit with AP(2) each."
+      }
+    ]
+  },
+  "Power Surge": {
+    "title": "Power Surge",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois modele ennemis a 12”, qui subissent 2 touches with Hazardous each. Roll as many dice as touches to see if ”on rolls of 1” effects trigger."
+      }
+    ]
+  },
+  "Protective Dome": {
+    "title": "Protective Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psy-Adrenaline": {
+    "title": "Psy-Adrenaline",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Harassing Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psy-Cleansing": {
+    "title": "Psy-Cleansing",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 2 touches with Disintegrate each."
+      }
+    ]
+  },
+  "Psy-Destruction": {
+    "title": "Psy-Destruction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux modele ennemis a 24”, qui subissent 1 hit with AP(4) each."
+      }
+    ]
+  },
+  "Psy-Emowerment": {
+    "title": "Psy-Emowerment",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent AP(1) when attacking une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psy-Flame": {
+    "title": "Psy-Flame",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Surge. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Psy-Frenzy": {
+    "title": "Psy-Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Psychotic Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psy-Hunter": {
+    "title": "Psy-Hunter",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Scrapper Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psy-Incense": {
+    "title": "Psy-Incense",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, which les unités alliées gagnent Bane when attacking against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psy-Injected Courage": {
+    "title": "Psy-Injected Courage",
+    "description": [
+      {
+        "system": "Human Inquisition",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent +1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "Human Defense Force",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Hold the Line Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psy-Rapture": {
+    "title": "Psy-Rapture",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 18”, qui subissent 2 touches chacune."
+      }
+    ]
+  },
+  "Psy-Strength": {
+    "title": "Psy-Strength",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent +1 jets pour toucher in mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psychic Blast": {
+    "title": "Psychic Explosion",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 2 touches with AP(2) each."
+      }
+    ]
+  },
+  "Psychic Chains": {
+    "title": "Psychic Chains",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, qui gagnent Unwieldy in mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psychic Feast": {
+    "title": "Psychic Feast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Resistance une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psychic Flurry": {
+    "title": "Psychic Flurry",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent mêlée Slayer une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psychic Onslaught": {
+    "title": "Psychic Onslaught",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 2 touches with Reap each."
+      }
+    ]
+  },
+  "Psychic Overload": {
+    "title": "Psychic Overload",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(1) and Fragment each."
+      }
+    ]
+  },
+  "Psychic Smash": {
+    "title": "Psychic Smash",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 12”, qui subissent 1 hit with AP(2) each."
+      }
+    ]
+  },
+  "Psychic Stabilization": {
+    "title": "Psychic Stabilization",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Targeting Visor Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Psychic Terror": {
+    "title": "Psychic Terror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 3 touches with Bane each."
+      }
+    ]
+  },
+  "Psychic Vomit": {
+    "title": "Psychic Vomit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 6”, qui subissent 3 touches with Bane each."
+      }
+    ]
+  },
+  "Purge the Impure": {
+    "title": "Purge the Impure",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 12”, qui subissent 1 hit with AP(2) each."
+      }
+    ]
+  },
+  "Quill Blast": {
+    "title": "Quill Explosion",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 2 touches with Scratch each."
+      }
+    ]
+  },
+  "Raiding Drugs": {
+    "title": "Raiding Drugs",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, which les unités alliées gagnent +1 jets pour toucher in mêlée against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Rapid Mutation": {
+    "title": "Rapid Mutation",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Regeneration une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Resonance Wave": {
+    "title": "Resonance Wave",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Regeneration une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Righteous Fury": {
+    "title": "Righteous Fury",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent <key>Assaut tranchant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Righteous Wrath": {
+    "title": "Colère vertueuse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie à 24” ou moins, qui subit une touche avec <key>PA</key>(4)."
+      }
+    ]
+  },
+  "Running Shock": {
+    "title": "Running Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, which les unités alliées gagnent Thrust against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Searing Admonition": {
+    "title": "Sermon brûlant",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à 18” ou moins, qui subit trois blessures avec <key>Explosion</key>(3)."
+      }
+    ]
+  },
+  "Searing Burst": {
+    "title": "Searing Burst",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 3 touches chacune."
+      }
+    ]
+  },
+  "Searing Shrapnel": {
+    "title": "Searing Shrapnel",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 2 touches with AP(1) and Wreck each."
+      }
+    ]
+  },
+  "Serpent Comet": {
+    "title": "Serpent Comet",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with Disintegrate."
+      }
+    ]
+  },
+  "Shadow Blast": {
+    "title": "Shadow Explosion",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 12”, qui subissent 1 hit with AP(2) each."
+      }
+    ]
+  },
+  "Shadow Dance": {
+    "title": "Shadow Dance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Rapid Blink Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Shattering Curse": {
+    "title": "Shattering Curse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(1) and Crack each. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Shield Breaker": {
+    "title": "Shield Breaker",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(1) and Shred each."
+      }
+    ]
+  },
+  "Shock Speed": {
+    "title": "Shock Speed",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, which moves +2” when using Advance actions and +4” when using Rush/Charge actions une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Shroud Field": {
+    "title": "Shroud Field",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent +1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Shrouding Incense": {
+    "title": "Shrouding Incense",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Machine-Fog Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Smash!": {
+    "title": "Smash!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Surge."
+      }
+    ]
+  },
+  "Smiting Rune": {
+    "title": "Smiting Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 2 touches with AP(1) and Quake each."
+      }
+    ]
+  },
+  "Snake Bite": {
+    "title": "Snake Bite",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Lacerate."
+      }
+    ]
+  },
+  "Soul Spear": {
+    "title": "Soul Spear",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez un modele ennemi a 24”, qui subit 1 hit with Puncture."
+      }
+    ]
+  },
+  "Spirit Power": {
+    "title": "Esprit Power",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Flying une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Spirit Resolve": {
+    "title": "Esprit Resolve",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Clan Warrior Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Spread Plague": {
+    "title": "Spread Plague",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, qui subissent 1 hit with Bash each."
+      }
+    ]
+  },
+  "Static Blast": {
+    "title": "Static Explosion",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, qui subissent 1 hit with Blast(3) each."
+      }
+    ]
+  },
+  "Stimulant Shock": {
+    "title": "Stimulant Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Inébranlable une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Stinger Blast": {
+    "title": "Stinger Explosion",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 hit with Smash."
+      }
+    ]
+  },
+  "Storm of Power": {
+    "title": "Tempete of Power",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(1) and Surge each. Roll as many dice as touches to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "System Takeover": {
+    "title": "System Takeover",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 3 touches chacune."
+      }
+    ]
+  },
+  "Targeting Signal": {
+    "title": "Targeting Signal",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Relentless une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Taser Shock": {
+    "title": "Taser Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 2 touches with AP(2) each."
+      }
+    ]
+  },
+  "Tech Zapper": {
+    "title": "Tech Zapper",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches with Pulverize."
+      }
+    ]
+  },
+  "Tech-Sickness": {
+    "title": "Tech-Sickness",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Terror Seeker": {
+    "title": "Terror Seeker",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, which les unités alliées gagnent Unpredictable Fighter against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "The Founder's Curse": {
+    "title": "The Founder's Curse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Shred when attacking against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Thunderous Mist": {
+    "title": "Thunderous Mist",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 2 touches."
+      }
+    ]
+  },
+  "Toxin Mist": {
+    "title": "Toxin Mist",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Bane when attacking against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Trampling Force": {
+    "title": "Trampling Force",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 2 touches with AP(1) and Slam each."
+      }
+    ]
+  },
+  "Triangulation Bots": {
+    "title": "Triangulation Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Indirect when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Union Propaganda": {
+    "title": "Union Propaganda",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Grounded Precision une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Veil of Madness": {
+    "title": "Veil of Madness",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité ennemies a 18”, which les unités alliées gagnent Slayer against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Violent Onslaught": {
+    "title": "Violent Onslaught",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Infected Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Volatile Infection": {
+    "title": "Volatile Infection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 1 hit with AP(2) and Deadly(3) each."
+      }
+    ]
+  },
+  "Wasteland Storm": {
+    "title": "Wasteland Tempete",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à trois modele ennemis a 24”, qui subissent 1 hit with Tear each."
+      }
+    ]
+  },
+  "Watch Dome": {
+    "title": "Watch Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Watch Sight": {
+    "title": "Watch Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Watch Trauma": {
+    "title": "Watch Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 hit with Smash."
+      }
+    ]
+  },
+  "Watch Wound": {
+    "title": "Watch Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with Demolish."
+      }
+    ]
+  },
+  "Wave of Discord": {
+    "title": "Wave of Discord",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, qui subissent 1 hit with Thrash each."
+      }
+    ]
+  },
+  "Weapon Booster": {
+    "title": "Weapon Renforcementer",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Scurry Boost une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Wolf Dome": {
+    "title": "Wolf Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Wolf Sight": {
+    "title": "Wolf Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Wolf Trauma": {
+    "title": "Wolf Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 1 hit with Smash."
+      }
+    ]
+  },
+  "Wolf Wound": {
+    "title": "Wolf Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with Demolish."
+      }
+    ]
+  },
+  "Worker's Uprising": {
+    "title": "Worker's Uprising",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez jusqu'à deux unité alliées a 12”, which moves +2” when using Advance actions and +4” when using Rush/Charge actions une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Zap!": {
+    "title": "Zap!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches with AP(1) and Surge."
+      }
+    ]
+  },
+  "Ethereal Warding": {
+    "title": "Ethereal Warding",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité alliée a 12” ou moins, qui gagne <key>Renforcement d'Esprit Empyreen</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Dread Shriek": {
+    "title": "Dread Shriek",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie a 12” ou moins, qui subit 2 touches avec <key>PA</key>(1) et <key>Surcharge<Key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+      }
+    ]
+  },
+  "Irresistible Grief": {
+    "title": "Irresistible Grief",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies a 18”. Les unités alliées gagnent <key>Fléau</key> contre elle pour une attaque (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Reaping Terror": {
+    "title": "Reaping Terror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>Moisson</key>."
+      }
+    ]
+  },
+  "Vicious Spirits": {
+    "title": "Vicious Spirits",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités alliées à 12” ou moins, qui obtiennent +1 à au jet de touche en mêlée (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Eat Soul": {
+    "title": "Eat Soul",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+      }
+    ]
+  }
+}

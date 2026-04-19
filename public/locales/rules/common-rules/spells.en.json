@@ -1,0 +1,4072 @@
+{
+  "Labyrinthian Sparkle": {
+    "title": "Labyrinthian Sparkle",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Evasive</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Maze Vines": {
+    "title": "Maze Vines",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Fragment</key>."
+      }
+    ]
+  },
+  "Dream Haunter": {
+    "title": "Dream Haunter",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unpredictable Fighter</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Chill of Death": {
+    "title": "Chill of Death",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits."
+      }
+    ]
+  },
+  "Combat Possession": {
+    "title": "Combat Possession",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which moves +2” when using Advance actions and +4” when using Rush/Charge actions once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Spectral Light": {
+    "title": "Spectral Light",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+      }
+    ]
+  },
+  "Hunter's Strike": {
+    "title": "Hunter's Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Spirit Vines": {
+    "title": "Spirit Vines",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Pierce</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Natural Harmony": {
+    "title": "Natural Harmony",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Resistance</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Tree Stomp": {
+    "title": "Tree Stomp",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Tree-Bark Growth": {
+    "title": "Tree-Bark Growth",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Grounded Reinforcement</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Insect Attack": {
+    "title": "Insect Attack",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      }
+    ]
+  },
+  "Searing Heat": {
+    "title": "Searing Heat",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Lava Bolts": {
+    "title": "Lava Bolts",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy model within 18”, which takes 2 hits."
+      }
+    ]
+  },
+  "Auric Fury": {
+    "title": "Auric Fury",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Hit & Run Fighter</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Suffocating Ashes": {
+    "title": "Suffocating Ashes",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12”, which take 4 hits each."
+      }
+    ]
+  },
+  "Seismic Shift": {
+    "title": "Seismic Shift",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Grounded Protection</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Fire Storm": {
+    "title": "Fire Storm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 6”, which takes 9 hits with <key>Pulverize</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Vigorous Return": {
+    "title": "Vigorous Return",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Cursed Undead Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cursed Strike": {
+    "title": "Cursed Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>Sever</key>."
+      }
+    ]
+  },
+  "Seductive Invocation": {
+    "title": "Seductive Invocation",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18”, which must take a morale test. If failed you may move it by up to 6” in a straight line in any direction."
+      }
+    ]
+  },
+  "Spectral Wind": {
+    "title": "Spectral Wind",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Dance of Death": {
+    "title": "Dance of Death",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Teleport</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Deadly Gaze": {
+    "title": "Deadly Gaze",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+      }
+    ]
+  },
+  "Aether-Cloud Rune": {
+    "title": "Aether-Cloud Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which gets -3 to casting rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Aether Shock": {
+    "title": "Aether Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Scratch</key>."
+      }
+    ]
+  },
+  "Wind Rune": {
+    "title": "Wind Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Swift</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Lightning Shock": {
+    "title": "Lightning Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Tinkering Rune": {
+    "title": "Tinkering Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Buccaneer Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Thunder Shock": {
+    "title": "Thunder Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>Shred</key>."
+      }
+    ]
+  },
+  "Poison Mist": {
+    "title": "Poison Mist",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which friendly units gets <key>Shred</key> when attacking against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Piranha Swarm": {
+    "title": "Piranha Swarm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Disintegrate</key>."
+      }
+    ]
+  },
+  "Fateful Guidance": {
+    "title": "Fateful Guidance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Steadfast</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Jaguar Pounce": {
+    "title": "Jaguar Pounce",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Primordial Roar": {
+    "title": "Primordial Roar",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Primal Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Serpent Egg": {
+    "title": "Serpent Egg",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 6”, which takes 9 hits with <key>Bane</key>."
+      }
+    ]
+  },
+  "Terrifying Fury": {
+    "title": "Terrifying Fury",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which must take a morale test. If failed, it becomes fatigued."
+      }
+    ]
+  },
+  "Flame of Destruction": {
+    "title": "Flame of Destruction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Fiery Protection": {
+    "title": "Fiery Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Brutal Massacre": {
+    "title": "Brutal Massacre",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Break</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "War Boon": {
+    "title": "War Boon",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Warbound Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Headtaker Strike": {
+    "title": "Headtaker Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to two enemy units within 12”, which take 3 hits with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Aura of Pestilence": {
+    "title": "Aura of Pestilence",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which counts as being in Difficult Terrain once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rapid Putrefaction": {
+    "title": "Rapid Putrefaction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Butcher</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Blessed Virus": {
+    "title": "Blessed Virus",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Rapid Rush</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Plague Malediction": {
+    "title": "Plague Malediction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Plague Boon": {
+    "title": "Plague Boon",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Plaguebound Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rot Wave": {
+    "title": "Rot Wave",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      }
+    ]
+  },
+  "Combat Ecstasy": {
+    "title": "Combat Ecstasy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Beautiful Pain": {
+    "title": "Beautiful Pain",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Shatter</key>."
+      }
+    ]
+  },
+  "Blissful Dance": {
+    "title": "Blissful Dance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Total Seizure": {
+    "title": "Total Seizure",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Lust Boon": {
+    "title": "Lust Boon",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Lustbound Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Overpowering Lash": {
+    "title": "Overpowering Lash",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+      }
+    ]
+  },
+  "Shifting Form": {
+    "title": "Shifting Form",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which gets -3 to casting rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Sky Blaze": {
+    "title": "Sky Blaze",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Slash</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Breath of Change": {
+    "title": "Breath of Change",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Bane when Shooting</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Mutating Inferno": {
+    "title": "Mutating Inferno",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+      }
+    ]
+  },
+  "Change Boon": {
+    "title": "Change Boon",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Changebound Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Power Bolt": {
+    "title": "Power Bolt",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Magic Skitter-Step": {
+    "title": "Magic Skitter-Step",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Scurry Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Heavenly Strike": {
+    "title": "Heavenly Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 12”, which take 1 hit with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "God-Mother's Frenzy": {
+    "title": "God-Mother's Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Melee Slayer</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Choking Censer-Fog": {
+    "title": "Choking Censer-Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits."
+      }
+    ]
+  },
+  "Cracking Bell-Chime": {
+    "title": "Cracking Bell-Chime",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which get -1 to defense rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Lightning Blast": {
+    "title": "Lightning Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy model within 12”, which takes 6 hits with <key>Hazardous</key>. Roll as many dice as hits to see if ”on rolls of 1” effects trigger."
+      }
+    ]
+  },
+  "Drain Spirit": {
+    "title": "Drain Spirit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Unstoppable</key> in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Deep Fracture": {
+    "title": "Deep Fracture",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy model within 18”, which takes 2 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Rapid Ossification": {
+    "title": "Rapid Ossification",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Ossified Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Shattering Blast": {
+    "title": "Shattering Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Destructive</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Soul Enslaver": {
+    "title": "Soul Enslaver",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Furious</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Bone Breaker": {
+    "title": "Bone Breaker",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      }
+    ]
+  },
+  "Evil Gaze": {
+    "title": "Evil Gaze",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Counter-Attack</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Godly Smash": {
+    "title": "Godly Smash",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6”, which takes 1 hit with <key>AP</key>(2) and <key>Impale</key>."
+      }
+    ]
+  },
+  "Way-Clan Chant": {
+    "title": "Way-Clan Chant",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Ferocious Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Bone Strike": {
+    "title": "Bone Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Bane</key>."
+      }
+    ]
+  },
+  "Magic Fists": {
+    "title": "Magic Fists",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Rending</key> in melee against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Iron Burst": {
+    "title": "Iron Burst",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Battle Guts": {
+    "title": "Battle Guts",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Resistance</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Gobble Up": {
+    "title": "Gobble Up",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy model within 18”, which takes 2 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Gorging Feast": {
+    "title": "Gorging Feast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Destroyer Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Great Trampling": {
+    "title": "Great Trampling",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(1) and <key>Rupture</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Crack Spirits": {
+    "title": "Crack Spirits",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which get <key>Unwieldy</key> in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Ice Maw": {
+    "title": "Ice Maw",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Desert Storm": {
+    "title": "Desert Storm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which counts as being in Difficult Terrain once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Storm of Skulls": {
+    "title": "Storm of Skulls",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Cursed Arrows": {
+    "title": "Cursed Arrows",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Shred</key> when shooting once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rapid Desiccation": {
+    "title": "Rapid Desiccation",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Tomb Queen's Guidance": {
+    "title": "Tomb Queen's Guidance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Royal Legion Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Tomb Queen's Vengeance": {
+    "title": "Tomb Queen's Vengeance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Perforate</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Heavenly Guidance": {
+    "title": "Heavenly Guidance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Flying</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Lightning Bolt": {
+    "title": "Lightning Bolt",
+    "description": [
+      {
+        "system": "Kingdom of Angels",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6”, which takes 1 hit with <key>AP</key>(2) and <key>Chop</key>."
+      },
+      {
+        "system": "Eternal Wardens",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+      }
+    ]
+  },
+  "Star Blessing": {
+    "title": "Star Blessing",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Angelic Blessing Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Angelic Storm": {
+    "title": "Angelic Storm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Shock Energy": {
+    "title": "Shock Energy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Thunder Strike": {
+    "title": "Thunder Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      }
+    ]
+  },
+  "Aura of Heroism": {
+    "title": "Aura of Heroism",
+    "description": [
+      {
+        "system": "Human Empire",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Hold the Line Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "Giant Tribes",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets +1 to morale test rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Fire Ball": {
+    "title": "Fire Ball",
+    "description": [
+      {
+        "system": "Human Empire",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Fracture</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "Giant Tribes",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Magic Targeting": {
+    "title": "Magic Targeting",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18”, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Blood Hex": {
+    "title": "Blood Hex",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits."
+      }
+    ]
+  },
+  "Elemental Form": {
+    "title": "Elemental Form",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>AP</key>(+1) in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Spirit Leech": {
+    "title": "Spirit Leech",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy model within 18”, which takes 6 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Eagle-Eyed Focus": {
+    "title": "Eagle-Eyed Focus",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Arcane Blast": {
+    "title": "Arcane Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Magical Surge": {
+    "title": "Magical Surge",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Bane</key> in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "High Tempest": {
+    "title": "High Tempest",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+      }
+    ]
+  },
+  "Path to Glory": {
+    "title": "Path to Glory",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Highborn Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Magic Arrows": {
+    "title": "Magic Arrows",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Crack</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Barbed Chains": {
+    "title": "Barbed Chains",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which takes 2 hits."
+      }
+    ]
+  },
+  "Cursed Stride": {
+    "title": "Cursed Stride",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which counts as being in Dangerous Terrain once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Havoc Boost": {
+    "title": "Havoc Boost",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Havocbound Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Impaling Spike": {
+    "title": "Impaling Spike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Dark Shielding": {
+    "title": "Dark Shielding",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Fortified</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Thorn Field": {
+    "title": "Thorn Field",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Slam</key>."
+      }
+    ]
+  },
+  "Rune of Piercing": {
+    "title": "Rune of Piercing",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Piercing Hunter</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rune of Lightning": {
+    "title": "Rune of Lightning",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy model within 24”, which takes 1 hit with <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Rune of Ashes": {
+    "title": "Rune of Ashes",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Havocbound Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rune of Darkness": {
+    "title": "Rune of Darkness",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Purge</key>."
+      }
+    ]
+  },
+  "Rune of Cracking": {
+    "title": "Rune of Cracking",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rune of Insanity": {
+    "title": "Rune of Insanity",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Luck of the Ancients": {
+    "title": "Luck of the Ancients",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Lucky Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cleansing Spirit": {
+    "title": "Cleansing Spirit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Bash</key>."
+      }
+    ]
+  },
+  "Giant Shadow": {
+    "title": "Giant Shadow",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18”, which get -1 to morale test rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Nightmare Spirit": {
+    "title": "Nightmare Spirit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits."
+      }
+    ]
+  },
+  "Shortling Courage": {
+    "title": "Shortling Courage",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Fearless</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Dark Forest Spirit": {
+    "title": "Dark Forest Spirit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+      }
+    ]
+  },
+  "Spider Might": {
+    "title": "Spider Might",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Mischievous Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Stinging Spider": {
+    "title": "Stinging Spider",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>Bane</key>."
+      }
+    ]
+  },
+  "Bat Thirst": {
+    "title": "Bat Thirst",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Pouncing Wolf": {
+    "title": "Pouncing Wolf",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Wolf Resiliance": {
+    "title": "Wolf Resiliance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get +1 to defense rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Biting Bat": {
+    "title": "Biting Bat",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Skewer</key>."
+      }
+    ]
+  },
+  "Shock Attack": {
+    "title": "Shock Attack",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Thunder Clap": {
+    "title": "Thunder Clap",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Smash</key>."
+      }
+    ]
+  },
+  "Star Strike": {
+    "title": "Star Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Unpredictable Fighter</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Heavy Storm": {
+    "title": "Heavy Storm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+      }
+    ]
+  },
+  "Warding Cloud": {
+    "title": "Warding Cloud",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Warden Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rune of Battle": {
+    "title": "Rune of Battle",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Rapid Charge</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rune of Breaking": {
+    "title": "Rune of Breaking",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy model within 18”, which takes 2 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Rune of Protection": {
+    "title": "Rune of Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Sturdy Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rune of Cleaving": {
+    "title": "Rune of Cleaving",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(1) and <key>Quake</key>."
+      }
+    ]
+  },
+  "Rune of Smiting": {
+    "title": "Rune of Smiting",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Rune of Spite": {
+    "title": "Rune of Spite",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which moves -2” when using Advance actions and -4” when using Rush/Charge actions once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Clearview Leaves": {
+    "title": "Clearview Leaves",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which friendly units get +6” range when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Explosive Concoction": {
+    "title": "Explosive Concoction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Decimate</key>."
+      }
+    ]
+  },
+  "Mesmer Oils": {
+    "title": "Mesmer Oils",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Steadfast</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Choking Fog": {
+    "title": "Choking Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+      }
+    ]
+  },
+  "Fury Herbs": {
+    "title": "Fury Herbs",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Vinci Tech Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Neurotoxin Gas": {
+    "title": "Neurotoxin Gas",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+      }
+    ]
+  },
+  "Spirit Wind": {
+    "title": "Spirit Wind",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Rapid Rush</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Dragon Fire": {
+    "title": "Dragon Fire",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 3 hits."
+      }
+    ]
+  },
+  "Astral Storm": {
+    "title": "Astral Storm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Jade Claws": {
+    "title": "Jade Claws",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get Royal Warrior Boost once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Ancestral Guidance": {
+    "title": "Ancestral Guidance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Indirect when Shooting</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Blazing Starlight": {
+    "title": "Blazing Starlight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy model within 24”, which takes 3 hits with <key>Splinter</key>."
+      }
+    ]
+  },
+  "High Tide": {
+    "title": "High Tide",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Stealth</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Erode Soul": {
+    "title": "Erode Soul",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy model within 24”, which takes 1 hit with <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Crushing Pressure": {
+    "title": "Crushing Pressure",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Power Wave": {
+    "title": "Power Wave",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Wave-Step Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Darkest Abyss": {
+    "title": "Darkest Abyss",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which get -1 to hit rolls when attacking once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Sea Storm": {
+    "title": "Sea Storm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Thrash</key>."
+      }
+    ]
+  },
+  "Dark Isle Spirit": {
+    "title": "Dark Isle Spirit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Harassing Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Blade Storm": {
+    "title": "Blade Storm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Lacerate</key>."
+      }
+    ]
+  },
+  "World of Pain": {
+    "title": "World of Pain",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Thrust</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Storm Wave": {
+    "title": "Storm Wave",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 18”, which takes 2 hits with <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Healing Winds": {
+    "title": "Healing Winds",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get Regeneration once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Black Bolt": {
+    "title": "Black Bolt",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+      }
+    ]
+  },
+  "Protection of the Huntress": {
+    "title": "Protection of the Huntress",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Fortified</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cleansing Light": {
+    "title": "Cleansing Light",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy model within 24”, which takes 1 hit with <key>Puncture</key>."
+      }
+    ]
+  },
+  "Great Hunt": {
+    "title": "Great Hunt",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Vale Formation Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Searing Gaze": {
+    "title": "Searing Gaze",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Bane</key>."
+      }
+    ]
+  },
+  "Curse of the Huntress": {
+    "title": "Curse of the Huntress",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Impact</key>(1) against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Wrath of the Huntress": {
+    "title": "Wrath of the Huntress",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Surge of Power": {
+    "title": "Surge of Power",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Bestial Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Flock Attack": {
+    "title": "Flock Attack",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Hunting Roar": {
+    "title": "Hunting Roar",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18”, which get -1 to morale test rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Ancestral Wrath": {
+    "title": "Ancestral Wrath",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy model within 24”, which takes 2 hits with <key>Tear</key>."
+      }
+    ]
+  },
+  "Spirit Mantle": {
+    "title": "Spirit Mantle",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get Regeneration once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Destructive Flame": {
+    "title": "Destructive Flame",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12”, which takes 9 hits."
+      }
+    ]
+  },
+  "Absorption Amplifier": {
+    "title": "Absorption Amplifier",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Ballistic Vest</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Advanced Sight": {
+    "title": "Advanced Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Ammo Boost": {
+    "title": "Ammo Boost",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Mischievous</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Animate Spirit": {
+    "title": "Animate Spirit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Hit & Run</key> Fighter</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Apparition of Doom": {
+    "title": "Apparition of Doom",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Quake</key>."
+      }
+    ]
+  },
+  "Armor Rune": {
+    "title": "Armor Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Sturdy</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Art of Pain": {
+    "title": "Art of Pain",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 6”, which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+      }
+    ]
+  },
+  "Asphyxiating Fog": {
+    "title": "Asphyxiating Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Counter</key>-Attack</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Assign Bounty": {
+    "title": "Assign Bounty",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which friendly units gets <key>Impact</key>(1) against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Aura of Peace": {
+    "title": "Aura of Peace",
+    "description": [
+      {
+        "system": "Rebel Guerrillas",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get +1 to morale test rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "DAO Union",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key>Fearless</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Bad Omen": {
+    "title": "Bad Omen",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which friendly units gets <key>Furious</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Badland Frenzy": {
+    "title": "Badland Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Badlands <key>Hunter</key></key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Banishing Sigil": {
+    "title": "Banishing Sigil",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which get -1 to defense rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Battle Rune": {
+    "title": "Battle Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get +6” range when shooting once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Berserker Frenzy": {
+    "title": "Berserker Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which friendly units gets <key>AP</key>(+1) when charging against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Bio-Displacer": {
+    "title": "Bio-Displacer",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Teleport</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Bio-Horror": {
+    "title": "Bio-Horror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Blades of Discord": {
+    "title": "Blades of Discord",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 6”, which takes 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3)."
+      }
+    ]
+  },
+  "Blessed Ammo": {
+    "title": "Blessed Ammo",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key>Shred</key> when shooting once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Blessing of Souls": {
+    "title": "Blessing of Souls",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key><key>Highborn</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Blood Dome": {
+    "title": "Blood Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Evasive</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Blood Sight": {
+    "title": "Blood Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Blood Trauma": {
+    "title": "Blood Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Smash</key>."
+      }
+    ]
+  },
+  "Blood Wound": {
+    "title": "Blood Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Demolish</key>."
+      }
+    ]
+  },
+  "Boom!": {
+    "title": "Boom!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which take 1 hit with <key>Blast</key>(3) each."
+      }
+    ]
+  },
+  "Brain Burst": {
+    "title": "Brain Burst",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 6”, which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+      }
+    ]
+  },
+  "Brain Infestation": {
+    "title": "Brain Infestation",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which get -1 to hit rolls when attacking once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Breaking Rune": {
+    "title": "Breaking Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy model within 24”, which takes 1 hit with <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Brute Guts": {
+    "title": "Brute Guts",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key>Fearless</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Burn the Heretic": {
+    "title": "Burn the Heretic",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18”, which gets -3 to casting rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Burst of Rage": {
+    "title": "Burst of Rage",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key>Furious</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Calculated Foresight": {
+    "title": "Calculated Foresight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Celestial Roar": {
+    "title": "Celestial Roar",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key><key>Primal</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cerebral Trauma": {
+    "title": "Cerebral Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Smash</key>."
+      }
+    ]
+  },
+  "Choking Gas": {
+    "title": "Choking Gas",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 6”, which take 3 hits with <key>Bane</key> each."
+      }
+    ]
+  },
+  "Choking Waste-Fog": {
+    "title": "Choking Waste-Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 3 hits each."
+      }
+    ]
+  },
+  "Clan Power": {
+    "title": "Clan Power",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Berserker</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cleaving Rune": {
+    "title": "Cleaving Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 18”, which take 1 hit with <key>Blast</key>(3) each."
+      }
+    ]
+  },
+  "Coordinated Aggression": {
+    "title": "Coordinated Aggression",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which friendly units gets <key>AP</key>(1) when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Corpo-Network Link": {
+    "title": "Corpo-Network Link",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key><key>Cyber-Eyes</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Corrode Weapons": {
+    "title": "Corrode Weapons",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which loses <key>AP</key>(1) when shooting once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cracking Blast": {
+    "title": "Cracking Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which get -1 to defense rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Crackling Bolt": {
+    "title": "Crackling Bolt",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 18”, which take 1 hit with <key>Blast</key>(3) each."
+      }
+    ]
+  },
+  "Creator of Illusions": {
+    "title": "Creator of Illusions",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which get <key>Unwieldy</key> in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Crush!": {
+    "title": "Crush!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which take 1 hit with <key>Blast</key>(3) each."
+      }
+    ]
+  },
+  "Crushing Force": {
+    "title": "Crushing Force",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Cyber-City Connection": {
+    "title": "Cyber-City Connection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Runner</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cyberspace Vision": {
+    "title": "Cyberspace Vision",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units get +6” range when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cyborg Assault": {
+    "title": "Cyborg Assault",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Hit & Run</key> Shooter</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Dark Assault": {
+    "title": "Dark Assault",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key>Shred</key> in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Dark Dome": {
+    "title": "Dark Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Evasive</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Dark Mist": {
+    "title": "Dark Mist",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which get -1 to hit rolls when attacking once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Dark Sight": {
+    "title": "Dark Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Dark Trauma": {
+    "title": "Dark Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Smash</key>."
+      }
+    ]
+  },
+  "Dark Wound": {
+    "title": "Dark Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Demolish</key>."
+      }
+    ]
+  },
+  "Deadly Surge": {
+    "title": "Deadly Surge",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 6”, which take 3 hits with <key>Bane</key> each."
+      }
+    ]
+  },
+  "Death Bolt": {
+    "title": "Death Bolt",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 6”, which takes 1 hit with <key>AP</key>(2) and <key>Impale</key>."
+      }
+    ]
+  },
+  "Deceleration Rune": {
+    "title": "Deceleration Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which moves -2” when using Advance actions and -4” when using Rush/Charge actions once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Deep Hypnosis": {
+    "title": "Deep Hypnosis",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which must take a morale test. If failed you may move it by up to 6” in a straight line in any direction."
+      }
+    ]
+  },
+  "Deep Meditation": {
+    "title": "Deep Meditation",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get +1 to hit rolls when shooting once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Destroy!": {
+    "title": "Destroy!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 6”, which take 1 hit with <key>AP</key>(2) and <key>Impale</key> each."
+      }
+    ]
+  },
+  "Devastating Strike": {
+    "title": "Devastating Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>Decimate</key> each."
+      }
+    ]
+  },
+  "Devour Essence": {
+    "title": "Devour Essence",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy model within 18”, which takes 2 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Disastrous Malfunction": {
+    "title": "Disastrous Malfunction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 18”, which take 2 hits each."
+      }
+    ]
+  },
+  "Dome of Doom": {
+    "title": "Dome of Doom",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 3 hits each."
+      }
+    ]
+  },
+  "Doom Strike": {
+    "title": "Doom Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 6”, which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+      }
+    ]
+  },
+  "Dragon Breath": {
+    "title": "Dragon Breath",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 3 hits each."
+      }
+    ]
+  },
+  "Dread Strike": {
+    "title": "Dread Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy models within 24”, which take 1 hit with <key>Tear</key> each."
+      }
+    ]
+  },
+  "Elder Protection": {
+    "title": "Elder Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key>Resistance</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Electric Bolt": {
+    "title": "Electric Bolt",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 6”, which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+      }
+    ]
+  },
+  "Electric Tempest": {
+    "title": "Electric Tempest",
+    "description": [
+      {
+        "system": "Human Defense Force",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Fracture</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "Human Inquisition",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Elemental Seeker": {
+    "title": "Elemental Seeker",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "EMP Blast": {
+    "title": "EMP Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Shred</key> each."
+      }
+    ]
+  },
+  "Energy Storm": {
+    "title": "Energy Storm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Crack</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Enhance Serum": {
+    "title": "Enhance Serum",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get Regeneration once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Eternal Flame": {
+    "title": "Eternal Flame",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Purge</key>."
+      }
+    ]
+  },
+  "Eternal Guidance": {
+    "title": "Eternal Guidance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which friendly units get +6” range when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Expel Threat": {
+    "title": "Expel Threat",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy models within 18”, which take 2 hits with <key>AP</key>(1) each."
+      }
+    ]
+  },
+  "Fade in the Dark": {
+    "title": "Fade in the Dark",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Stealth</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Fatal Sorrow": {
+    "title": "Fatal Sorrow",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 18”, which take 2 hits each."
+      }
+    ]
+  },
+  "Feral Strike": {
+    "title": "Feral Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 6”, which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+      }
+    ]
+  },
+  "Flame Bots": {
+    "title": "Flame Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 9”, which take 2 hits each."
+      }
+    ]
+  },
+  "Focused Defender": {
+    "title": "Focused Defender",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Unpredictable</key> Fighter</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Focused Shock": {
+    "title": "Focused Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Shred</key>."
+      }
+    ]
+  },
+  "Forge Protection": {
+    "title": "Forge Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get +1 to defense rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Gauss Bots": {
+    "title": "Gauss Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 6”, which take 3 hits with <key>Destructive</key> each. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Godly Thunder": {
+    "title": "Godly Thunder",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy models within 24”, which take 1 hit with <key>AP</key>(4) each."
+      }
+    ]
+  },
+  "Great Psy-Maw": {
+    "title": "Great Psy-Maw",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Guardian Protection": {
+    "title": "Guardian Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key><key>Guardian</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Havoc Boon": {
+    "title": "Havoc Boon",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key><key>Havocbound</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Havoc Fog": {
+    "title": "Havoc Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Slam</key> each."
+      }
+    ]
+  },
+  "Havoc Terror": {
+    "title": "Havoc Terror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 9”, which take 2 hits each."
+      }
+    ]
+  },
+  "Havoc Trauma": {
+    "title": "Havoc Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Head Bang": {
+    "title": "Head Bang",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which friendly units gets <key>Rending</key> in melee against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Heavenly Lance": {
+    "title": "Heavenly Lance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy models within 18”, which take 2 hits with <key>AP</key>(1) each."
+      }
+    ]
+  },
+  "Hidden Spirits": {
+    "title": "Hidden Spirits",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Unpredictable</key> Shooter</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Hive Shriek": {
+    "title": "Hive Shriek",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy models within 18”, which take 2 hits with <key>AP</key>(1) each."
+      }
+    ]
+  },
+  "Holistic Suffering": {
+    "title": "Holistic Suffering",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 3 hits each."
+      }
+    ]
+  },
+  "Holy Rage": {
+    "title": "Holy Rage",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Piercing <key>Hunter</key></key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Infuse Bloodthirst": {
+    "title": "Infuse Bloodthirst",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Hive Bond</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Insidious Protection": {
+    "title": "Insidious Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key>Grounded <key>Reinforcement</key></key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Inspiring Bots": {
+    "title": "Inspiring Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key>Rapid Advance</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Jaguar Blaze": {
+    "title": "Jaguar Blaze",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Shred</key> each."
+      }
+    ]
+  },
+  "Killing Blow": {
+    "title": "Killing Blow",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy model within 18”, which takes 2 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Knight Dome": {
+    "title": "Knight Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Evasive</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Knight Sight": {
+    "title": "Knight Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Knight Trauma": {
+    "title": "Knight Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Smash</key>."
+      }
+    ]
+  },
+  "Knight Wound": {
+    "title": "Knight Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Demolish</key>."
+      }
+    ]
+  },
+  "Light Fragments": {
+    "title": "Light Fragments",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Fragment</key> each."
+      }
+    ]
+  },
+  "Lightning Fog": {
+    "title": "Lightning Fog",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 9”, which take 2 hits each."
+      }
+    ]
+  },
+  "Litanies of War": {
+    "title": "Litanies of War",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Devout Boost</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Lore of Bravery": {
+    "title": "Lore of Bravery",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Fearless</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Lore of Protection": {
+    "title": "Lore of Protection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Safety Gear</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Lore of Terror": {
+    "title": "Lore of Terror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which get -1 to morale test rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Means of Destruction": {
+    "title": "Means of Destruction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Mending Bots": {
+    "title": "Mending Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key><key>Self-Repair</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Mind Breaker": {
+    "title": "Mind Breaker",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Mind Corruption": {
+    "title": "Mind Corruption",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Mind Gash": {
+    "title": "Mind Gash",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Shred</key> each."
+      }
+    ]
+  },
+  "Mind Shaper": {
+    "title": "Mind Shaper",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which get -1 to morale test rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Mind Vortex": {
+    "title": "Mind Vortex",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 12”, which take 1 hit with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Mind Wound": {
+    "title": "Mind Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Demolish</key>."
+      }
+    ]
+  },
+  "Mob Frenzy": {
+    "title": "Mob Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which friendly units gets <key>AP</key>(1) when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Neurotoxin Cloud": {
+    "title": "Neurotoxin Cloud",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 6”, which take 2 hits each."
+      }
+    ]
+  },
+  "Nightmare Vision": {
+    "title": "Nightmare Vision",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy model within 24”, which takes 1 hit with <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Nomad Strike": {
+    "title": "Nomad Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 1 hit with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Obscuring Energy": {
+    "title": "Obscuring Energy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Shadow Operative</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Overload Electronics": {
+    "title": "Overload Electronics",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Scratch</key>."
+      }
+    ]
+  },
+  "Overwhelming Strike": {
+    "title": "Overwhelming Strike",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Rupture</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Path of War": {
+    "title": "Path of War",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Ferocious</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Piercing Bots": {
+    "title": "Piercing Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(2)."
+      }
+    ]
+  },
+  "Piercing Pulse": {
+    "title": "Piercing Pulse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy models within 24”, which take 1 hit with <key>AP</key>(4) each."
+      }
+    ]
+  },
+  "Pike of Doom": {
+    "title": "Pike of Doom",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 6”, which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+      }
+    ]
+  },
+  "Piranha Curse": {
+    "title": "Piranha Curse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 9”, which take 2 hits each."
+      }
+    ]
+  },
+  "Pow!": {
+    "title": "Pow!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 6”, which take 1 hit with <key>AP</key>(2) and <key>Skewer</key> each."
+      }
+    ]
+  },
+  "Power Beam": {
+    "title": "Power Beam",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy model within 18”, which takes 2 hits with <key>AP</key>(1)."
+      }
+    ]
+  },
+  "Power Field": {
+    "title": "Power Field",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Shielded</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Power Maw": {
+    "title": "Power Maw",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 1 hit with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Power Surge": {
+    "title": "Power Surge",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy models within 12”, which take 2 hits with <key>Hazardous</key> each. Roll as many dice as hits to see if ”on rolls of 1” effects trigger."
+      }
+    ]
+  },
+  "Protective Dome": {
+    "title": "Protective Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Evasive</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psy-Adrenaline": {
+    "title": "Psy-Adrenaline",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Harassing</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psy-Cleansing": {
+    "title": "Psy-Cleansing",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>Disintegrate</key> each."
+      }
+    ]
+  },
+  "Psy-Destruction": {
+    "title": "Psy-Destruction",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy models within 24”, which take 1 hit with <key>AP</key>(4) each."
+      }
+    ]
+  },
+  "Psy-Emowerment": {
+    "title": "Psy-Emowerment",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key>AP</key>(1) when attacking once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psy-Flame": {
+    "title": "Psy-Flame",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Psy-Frenzy": {
+    "title": "Psy-Frenzy",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Psychotic</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psy-Hunter": {
+    "title": "Psy-Hunter",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Scrapper</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psy-Incense": {
+    "title": "Psy-Incense",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psy-Injected Courage": {
+    "title": "Psy-Injected Courage",
+    "description": [
+      {
+        "system": "Human Inquisition",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get +1 to morale test rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "Human Defense Force",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Hold the Line</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psy-Rapture": {
+    "title": "Psy-Rapture",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 18”, which take 2 hits each."
+      }
+    ]
+  },
+  "Psy-Strength": {
+    "title": "Psy-Strength",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get +1 to hit rolls in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psychic Blast": {
+    "title": "Psychic Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Psychic Chains": {
+    "title": "Psychic Chains",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which get <key>Unwieldy</key> in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psychic Feast": {
+    "title": "Psychic Feast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key>Resistance</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psychic Flurry": {
+    "title": "Psychic Flurry",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Melee <key>Slayer</key></key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psychic Onslaught": {
+    "title": "Psychic Onslaught",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>Reap</key> each."
+      }
+    ]
+  },
+  "Psychic Overload": {
+    "title": "Psychic Overload",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Fragment</key> each."
+      }
+    ]
+  },
+  "Psychic Smash": {
+    "title": "Psychic Smash",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 12”, which take 1 hit with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Psychic Stabilization": {
+    "title": "Psychic Stabilization",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Targeting Visor</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Psychic Terror": {
+    "title": "Psychic Terror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 6”, which take 3 hits with <key>Bane</key> each."
+      }
+    ]
+  },
+  "Psychic Vomit": {
+    "title": "Psychic Vomit",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 6”, which take 3 hits with <key>Bane</key> each."
+      }
+    ]
+  },
+  "Purge the Impure": {
+    "title": "Purge the Impure",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 12”, which take 1 hit with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Quill Blast": {
+    "title": "Quill Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>Scratch</key> each."
+      }
+    ]
+  },
+  "Raiding Drugs": {
+    "title": "Raiding Drugs",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rapid Mutation": {
+    "title": "Rapid Mutation",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get Regeneration once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Resonance Wave": {
+    "title": "Resonance Wave",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get Regeneration once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Righteous Fury": {
+    "title": "Righteous Fury",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key>Piercing Assault</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Righteous Wrath": {
+    "title": "Righteous Wrath",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy model within 24”, which takes 1 hit with <key>AP</key>(4)."
+      }
+    ]
+  },
+  "Running Shock": {
+    "title": "Running Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which friendly units gets <key>Thrust</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Searing Admonition": {
+    "title": "Searing Admonition",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Blast</key>(3)."
+      }
+    ]
+  },
+  "Searing Burst": {
+    "title": "Searing Burst",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 3 hits each."
+      }
+    ]
+  },
+  "Searing Shrapnel": {
+    "title": "Searing Shrapnel",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Wreck</key> each."
+      }
+    ]
+  },
+  "Serpent Comet": {
+    "title": "Serpent Comet",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Disintegrate</key>."
+      }
+    ]
+  },
+  "Shadow Blast": {
+    "title": "Shadow Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 12”, which take 1 hit with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Shadow Dance": {
+    "title": "Shadow Dance",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Rapid Blink</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Shattering Curse": {
+    "title": "Shattering Curse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Crack</key> each. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Shield Breaker": {
+    "title": "Shield Breaker",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Shred</key> each."
+      }
+    ]
+  },
+  "Shock Speed": {
+    "title": "Shock Speed",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which moves +2” when using Advance actions and +4” when using Rush/Charge actions once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Shroud Field": {
+    "title": "Shroud Field",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get +1 to defense rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Shrouding Incense": {
+    "title": "Shrouding Incense",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Machine-Fog</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Smash!": {
+    "title": "Smash!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>."
+      }
+    ]
+  },
+  "Smiting Rune": {
+    "title": "Smiting Rune",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Quake</key> each."
+      }
+    ]
+  },
+  "Snake Bite": {
+    "title": "Snake Bite",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Lacerate</key>."
+      }
+    ]
+  },
+  "Soul Spear": {
+    "title": "Soul Spear",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy model within 24”, which takes 1 hit with <key>Puncture</key>."
+      }
+    ]
+  },
+  "Spirit Power": {
+    "title": "Spirit Power",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key>Flying</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Spirit Resolve": {
+    "title": "Spirit Resolve",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key><key>Clan Warrior</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Spread Plague": {
+    "title": "Spread Plague",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which take 1 hit with <key>Bash</key> each."
+      }
+    ]
+  },
+  "Static Blast": {
+    "title": "Static Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which take 1 hit with <key>Blast</key>(3) each."
+      }
+    ]
+  },
+  "Stimulant Shock": {
+    "title": "Stimulant Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key>Steadfast</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Stinger Blast": {
+    "title": "Stinger Blast",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Smash</key>."
+      }
+    ]
+  },
+  "Storm of Power": {
+    "title": "Storm of Power",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Surge</key> each. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "System Takeover": {
+    "title": "System Takeover",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 3 hits each."
+      }
+    ]
+  },
+  "Targeting Signal": {
+    "title": "Targeting Signal",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key>Relentless</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Taser Shock": {
+    "title": "Taser Shock",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      }
+    ]
+  },
+  "Tech Zapper": {
+    "title": "Tech Zapper",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>Pulverize</key>."
+      }
+    ]
+  },
+  "Tech-Sickness": {
+    "title": "Tech-Sickness",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four enemy units within 18”, which get -1 to defense rolls once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Terror Seeker": {
+    "title": "Terror Seeker",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which friendly units gets <key><key>Unpredictable</key> Fighter</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "The Founder's Curse": {
+    "title": "The Founder's Curse",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Shred</key> when attacking against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Thunderous Mist": {
+    "title": "Thunderous Mist",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 18”, which takes 2 hits."
+      }
+    ]
+  },
+  "Toxin Mist": {
+    "title": "Toxin Mist",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Trampling Force": {
+    "title": "Trampling Force",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(1) and <key>Slam</key> each."
+      }
+    ]
+  },
+  "Triangulation Bots": {
+    "title": "Triangulation Bots",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Indirect</key> when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Union Propaganda": {
+    "title": "Union Propaganda",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to four friendly units within 12”, which get <key>Grounded Precision</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Veil of Madness": {
+    "title": "Veil of Madness",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six enemy units within 18”, which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Violent Onslaught": {
+    "title": "Violent Onslaught",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Infected</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Volatile Infection": {
+    "title": "Volatile Infection",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy units within 6”, which take 1 hit with <key>AP</key>(2) and <key>Deadly</key>(3) each."
+      }
+    ]
+  },
+  "Wasteland Storm": {
+    "title": "Wasteland Storm",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to three enemy models within 24”, which take 1 hit with <key>Tear</key> each."
+      }
+    ]
+  },
+  "Watch Dome": {
+    "title": "Watch Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Evasive</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Watch Sight": {
+    "title": "Watch Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Watch Trauma": {
+    "title": "Watch Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Smash</key>."
+      }
+    ]
+  },
+  "Watch Wound": {
+    "title": "Watch Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Demolish</key>."
+      }
+    ]
+  },
+  "Wave of Discord": {
+    "title": "Wave of Discord",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which take 1 hit with <key>Thrash</key> each."
+      }
+    ]
+  },
+  "Weapon Booster": {
+    "title": "Weapon Booster",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which get <key><key>Scurry</key> Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Wolf Dome": {
+    "title": "Wolf Dome",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to six friendly units within 12”, which get <key>Evasive</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Wolf Sight": {
+    "title": "Wolf Sight",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Wolf Trauma": {
+    "title": "Wolf Trauma",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Smash</key>."
+      }
+    ]
+  },
+  "Wolf Wound": {
+    "title": "Wolf Wound",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>Demolish</key>."
+      }
+    ]
+  },
+  "Worker's Uprising": {
+    "title": "Worker's Uprising",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick up to two friendly units within 12”, which moves +2” when using Advance actions and +4” when using Rush/Charge actions once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Zap!": {
+    "title": "Zap!",
+    "description": [
+      {
+        "system": "all",
+        "cost": 0,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge</key>."
+      }
+    ]
+  },
+  "Ethereal Warding": {
+    "title": "Ethereal Warding",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12”, which gets <key>Empyrean Spirit Boost</key> once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Dread Shriek": {
+    "title": "Dread Shriek",
+    "description": [
+      {
+        "system": "all",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Surge<Key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      }
+    ]
+  },
+  "Irresistible Grief": {
+    "title": "Irresistible Grief",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Reaping Terror": {
+    "title": "Reaping Terror",
+    "description": [
+      {
+        "system": "all",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>Reap</key>."
+      }
+    ]
+  },
+  "Vicious Spirits": {
+    "title": "Vicious Spirits",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get +1 to hit rolls in melee once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Eat Soul": {
+    "title": "Eat Soul",
+    "description": [
+      {
+        "system": "all",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      }
+    ]
+  }
+}

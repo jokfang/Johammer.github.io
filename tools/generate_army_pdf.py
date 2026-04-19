@@ -51,7 +51,7 @@ UNIT_TYPE_ORDER = [
 ]
 
 UNTYPED_UNIT_GROUP_LABEL = "Autres unités"
-COMMON_RULES_DICTIONARY_PATH = Path("public/locales/rules/common-rules.dictionary.ts")
+COMMON_RULES_DICTIONARY_PATH = Path("public/locales/rules/common-rules/index.json")
 _TRANSLATION_CACHE: dict[str, Any] = {}
 PRINT_FRIENDLY_FILL = (0.0, 0.0, 0.0)
 

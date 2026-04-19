@@ -43,8 +43,8 @@ def main() -> None:
     parser.add_argument(
         "--dictionary",
         type=Path,
-        default=Path("public/locales/rules/common-rules.dictionary.ts"),
-        help="Path to the common rules dictionary file.",
+        default=Path("public/locales/rules/common-rules/index.json"),
+        help="Path to the common rules dictionary manifest file.",
     )
     parser.add_argument(
         "--print-friendly",

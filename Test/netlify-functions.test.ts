@@ -82,6 +82,149 @@ describe("netlify get-army-book handler", () => {
   });
 });
 
+describe("netlify dictionary handler", () => {
+  beforeEach(() => {
+    vi.resetModules();
+  });
+
+  it("returns the common rules dictionary on GET", async () => {
+    const { handler } = await import("../netlify/functions/dictionary/dictionary");
+    const res = await handler({ httpMethod: "GET" } as any, {} as any);
+
+    expect(res.statusCode).toBe(200);
+    expect((res as any).headers["Content-Type"]).toContain("application/json");
+
+    const body = JSON.parse((res as any).body);
+    expect(body.commonRules.en.Hero.title).toBe("Hero");
+    expect(Object.keys(body.commonSpells.en).length).toBeGreaterThan(0);
+  });
+
+  it("rejects unsupported methods", async () => {
+    const { handler } = await import("../netlify/functions/dictionary/dictionary");
+    const res = await handler({ httpMethod: "POST" } as any, {} as any);
+
+    expect(res.statusCode).toBe(405);
+    expect(JSON.parse((res as any).body).error).toBe("Method not allowed");
+  });
+});
+
+describe("netlify dictionary-rules handler", () => {
+  beforeEach(() => {
+    vi.resetModules();
+  });
+
+  it("returns only RulesByLanguage on GET", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-rules/dictionary-rules"
+    );
+    const res = await handler({ httpMethod: "GET" } as any, {} as any);
+
+    expect(res.statusCode).toBe(200);
+    expect((res as any).headers["Content-Type"]).toContain("application/json");
+
+    const body = JSON.parse((res as any).body);
+    expect(body.en.Hero.title).toBe("Hero");
+    expect(body.commonRules).toBeUndefined();
+    expect(body.commonSpells).toBeUndefined();
+  });
+
+  it("rejects unsupported methods", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-rules/dictionary-rules"
+    );
+    const res = await handler({ httpMethod: "POST" } as any, {} as any);
+
+    expect(res.statusCode).toBe(405);
+    expect(JSON.parse((res as any).body).error).toBe("Method not allowed");
+  });
+});
+
+describe("netlify dictionary-spells handler", () => {
+  beforeEach(() => {
+    vi.resetModules();
+  });
+
+  it("returns only SpellsByLanguage on GET", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-spells/dictionary-spells"
+    );
+    const res = await handler({ httpMethod: "GET" } as any, {} as any);
+
+    expect(res.statusCode).toBe(200);
+    expect((res as any).headers["Content-Type"]).toContain("application/json");
+
+    const body = JSON.parse((res as any).body);
+    expect(body.en).toBeDefined();
+    expect(Object.keys(body.en).length).toBeGreaterThan(0);
+    expect(body.commonSpells).toBeUndefined();
+    expect(body.commonRules).toBeUndefined();
+  });
+
+  it("rejects unsupported methods", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-spells/dictionary-spells"
+    );
+    const res = await handler({ httpMethod: "POST" } as any, {} as any);
+
+    expect(res.statusCode).toBe(405);
+    expect(JSON.parse((res as any).body).error).toBe("Method not allowed");
+  });
+});
+
+describe("netlify dictionary-rules-language handler", () => {
+  beforeEach(() => {
+    vi.resetModules();
+  });
+
+  it("returns only the requested rules language and falls back to english", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-rules-language/dictionary-rules-language"
+    );
+
+    const frenchRes = await handler(
+      { httpMethod: "GET", queryStringParameters: { language: "fr-FR" } } as any,
+      {} as any
+    );
+    const frenchBody = JSON.parse((frenchRes as any).body);
+    expect(frenchRes.statusCode).toBe(200);
+    expect(frenchBody.Hero.title).not.toBe("Hero");
+
+    const fallbackRes = await handler(
+      { httpMethod: "GET", queryStringParameters: { language: "es-ES" } } as any,
+      {} as any
+    );
+    const fallbackBody = JSON.parse((fallbackRes as any).body);
+    expect(fallbackBody.Hero.title).toBe("Hero");
+  });
+});
+
+describe("netlify dictionary-spells-language handler", () => {
+  beforeEach(() => {
+    vi.resetModules();
+  });
+
+  it("returns only the requested spells language and falls back to english", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-spells-language/dictionary-spells-language"
+    );
+
+    const frenchRes = await handler(
+      { httpMethod: "GET", queryStringParameters: { language: "fr-FR" } } as any,
+      {} as any
+    );
+    const frenchBody = JSON.parse((frenchRes as any).body);
+    expect(frenchRes.statusCode).toBe(200);
+    expect(Object.keys(frenchBody).length).toBeGreaterThan(0);
+
+    const fallbackRes = await handler(
+      { httpMethod: "GET", queryStringParameters: { language: "es-ES" } } as any,
+      {} as any
+    );
+    const fallbackBody = JSON.parse((fallbackRes as any).body);
+    expect(Object.keys(fallbackBody).length).toBeGreaterThan(0);
+  });
+});
+
 describe("netlify save-list handler", () => {
   beforeEach(() => {
     vi.resetModules();

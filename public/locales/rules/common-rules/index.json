@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "en": "rules.en.json",
+    "fr": "rules.fr.json",
+    "pl": "rules.pl.json"
+  },
+  "spells": {
+    "en": "spells.en.json",
+    "fr": "spells.fr.json"
+  }
+}

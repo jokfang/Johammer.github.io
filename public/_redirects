@@ -1,1 +1,6 @@
+/api/dictionary/rules/:language /.netlify/functions/dictionary-rules-language?language=:language 200
+/api/dictionary/spells/:language /.netlify/functions/dictionary-spells-language?language=:language 200
+/api/dictionary/rules /.netlify/functions/dictionary-rules 200
+/api/dictionary/spells /.netlify/functions/dictionary-spells 200
+/api/dictionary /.netlify/functions/dictionary 200
 /* /index.html 200

@@ -5,6 +5,7 @@ import json
 import re
 import sys
 import unicodedata
+import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
@@ -44,7 +45,7 @@ UPGRADE_HEADING_RE = re.compile(r"^(Upgrade|Replace)\b")
 PRICED_OPTION_RE = re.compile(r"^(?P<text>.+?) (?P<cost>(?:\+\d+pts)|Free)$")
 SPELL_RE = re.compile(r"^(?P<name>.+?) \((?P<cost>\d+)\): (?P<description>.+)$")
 TS_STRING_RE = re.compile(r'"((?:\\.|[^"\\])*)"')
-DEFAULT_DICTIONARY_SOURCE = "https://raw.githubusercontent.com/jokfang/Johammer.github.io/refs/heads/main/public/locales/rules/common-rules.dictionary.ts"
+DEFAULT_DICTIONARY_SOURCE = "https://raw.githubusercontent.com/jokfang/Johammer.github.io/refs/heads/main/public/locales/rules/common-rules/index.json"
 
 
 @dataclass
@@ -406,24 +407,109 @@ def strip_translation_markup(value: str) -> str:
     return normalize_text(cleaned).strip()
 
 
-def read_dictionary_source(dictionary_source: str | Path) -> str:
-    if isinstance(dictionary_source, Path):
-        return dictionary_source.read_text(encoding="utf-8")
+def is_remote_source(source: str) -> bool:
+    return source.startswith(("http://", "https://"))
 
-    source = str(dictionary_source).strip()
-    if source.startswith(("http://", "https://")):
-        with urllib.request.urlopen(source) as response:
+
+def read_text_source(source: str | Path) -> str:
+    if isinstance(source, Path):
+        return source.read_text(encoding="utf-8")
+
+    source_text = str(source).strip()
+    if is_remote_source(source_text):
+        with urllib.request.urlopen(source_text) as response:
             return response.read().decode("utf-8")
 
-    return Path(source).read_text(encoding="utf-8")
+    return Path(source_text).read_text(encoding="utf-8")
+
+
+def resolve_dictionary_source(base_source: str | Path, relative_path: str) -> str | Path:
+    if isinstance(base_source, Path):
+        return (base_source.parent / relative_path).resolve()
+
+    base_text = str(base_source).strip()
+    if is_remote_source(base_text):
+        return urllib.parse.urljoin(base_text, relative_path)
+
+    return (Path(base_text).parent / relative_path).resolve()
+
+
+def read_json_source(source: str | Path) -> Any:
+    return json.loads(read_text_source(source))
+
+
+def parse_entry_descriptions(entry: dict[str, Any]) -> dict[str, str]:
+    descriptions: dict[str, str] = {}
+    for item in entry.get("description", []):
+        system = str(item.get("system", "")).lower()
+        text = str(item.get("text", ""))
+        if system and text:
+            descriptions[system] = text
+    return descriptions
+
+
+def build_translation_entries(entries: dict[str, Any]) -> dict[str, TranslationEntry]:
+    result: dict[str, TranslationEntry] = {}
+    for key, value in entries.items():
+        result[key] = TranslationEntry(
+            title=str(value.get("title", key)),
+            descriptions=parse_entry_descriptions(value),
+        )
+    return result
+
+
+def load_translation_dictionary_from_manifest(
+    dictionary_source: str | Path, language: str
+) -> TranslationDictionary:
+    manifest_source = dictionary_source
+    if isinstance(dictionary_source, Path) and dictionary_source.is_dir():
+        manifest_source = dictionary_source / "index.json"
+    elif not isinstance(dictionary_source, Path):
+        source_text = str(dictionary_source).strip()
+        if not is_remote_source(source_text) and Path(source_text).is_dir():
+            manifest_source = Path(source_text) / "index.json"
+
+    manifest = read_json_source(manifest_source)
+
+    rules_languages = manifest.get("rules", {})
+    spells_languages = manifest.get("spells", {})
+    normalized_language = language.lower()
+
+    rules_source = rules_languages.get(normalized_language) or rules_languages.get("en")
+    spells_source = spells_languages.get(normalized_language) or spells_languages.get("en")
+
+    if not rules_source or not spells_source:
+        raise ValueError("Translation manifest is missing rules or spells entries.")
+
+    rules_data = read_json_source(resolve_dictionary_source(manifest_source, rules_source))
+    spells_data = read_json_source(resolve_dictionary_source(manifest_source, spells_source))
+
+    return TranslationDictionary(
+        rules=build_translation_entries(rules_data),
+        spells=build_translation_entries(spells_data),
+        factions={},
+    )
 
 
 def load_translation_dictionary(dictionary_source: str | Path, language: str) -> TranslationDictionary:
-    content = read_dictionary_source(dictionary_source)
+    if isinstance(dictionary_source, Path):
+        if dictionary_source.is_dir() or dictionary_source.suffix == ".json":
+            return load_translation_dictionary_from_manifest(dictionary_source, language)
+    else:
+        source_text = str(dictionary_source).strip()
+        if source_text.endswith(".json"):
+            return load_translation_dictionary_from_manifest(source_text, language)
+
+    content = read_text_source(dictionary_source)
+    try:
+        factions = parse_faction_entries(content, language)
+    except ValueError:
+        factions = {}
+
     return TranslationDictionary(
         rules=parse_translation_entries(content, "commonRules", language),
         spells=parse_translation_entries(content, "commonSpells", language),
-        factions=parse_faction_entries(content, language),
+        factions=factions,
     )
 
 
@@ -685,7 +771,7 @@ def main() -> None:
     parser.add_argument(
         "--dictionary",
         default=DEFAULT_DICTIONARY_SOURCE,
-        help="Path or URL to the common rules dictionary file.",
+        help="Path or URL to the common rules dictionary manifest file.",
     )
     args = parser.parse_args()
 

@@ -4,9 +4,9 @@ import {
   RulesBook as SharedRulesBook,
 } from "../../shared/rulesbook";
 import {
-  commonRules,
   type RuleTranslationEntry,
-} from "../../public/locales/rules/common-rules.dictionary";
+  getCommonRuleTranslations,
+} from "./common-rules-api";
 
 type CommonRule = {
   id: number;
@@ -48,7 +48,7 @@ export class RulesBook extends SharedRulesBook {
   static async getCommonRulesForGameSystem(
     gameSystemInitials: eGameSystemInitials
   ): Promise<CommonRulesResponse> {
-    const englishRules = commonRules.en || {};
+    const englishRules = getCommonRuleTranslations("en");
 
     return {
       rules: Object.entries(englishRules).map(([name, entry], index) => ({
