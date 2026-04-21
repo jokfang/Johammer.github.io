@@ -1256,12 +1256,12 @@
     "description": [
       {
         "system": "all",
-        "text": "Les unités ennemies utilisant <key>Embuscade</key> doivent être placées a plus de 12” de l'unité de cette figurine."
+        "text": "Les unités ennemies utilisant la règle spéciale <key>Embuscade</key> doivent être placées à plus de 12\" de l'unité de cette figurine."
       }
     ]
   },
   "Ethereal": {
-    "title": "Ethéré",
+    "title": "Éthéré",
     "specialRule": [
       "zrj60Gptp4Ce",
       "x2_Lkyj0JPk2"
@@ -1269,7 +1269,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, avant d'attaquer, placez ce modele n'importe ou entierement a 6” ou moins de sa position. Cette figurine se deplace de -6” en déplacement et de -6” en Course/Charge."
+        "text": "Une fois par activation, avant d'attaquer, déplacez cette figurine n'importe où à 6\" ou moins de sa position. Cette figurine se déplace de -6\" lorsqu'elle Avance, et de -6\" lorsqu'elle Cours ou Charge."
       }
     ]
   },
@@ -1471,7 +1471,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, elle est ignorée. Si les blessures proviennent d'un sort, elles sont ignorées sur 2+ à la place."
+        "text": "Lorsqu'une unité dont toutes les figurines possèdent cette règle spéciale subit des blessures, lancez un dé pour chacune d'entre elles. Sur un résultat de 6+, la blessure est ignorée. Si les blessures proviennent d'un sort, elles sont alors ignorées sur un résultat de 2+ à la place."
       }
     ]
   },
@@ -1624,7 +1624,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Pour toutes les figurines disposant de cette régle, lors d'une attaque, 1D6: sur 1-3 ils gagnent <key>PA</key>(1), sur 4-6 ils gagnent +1 pour toucher."
+        "text": "Lors d'une attaque, lancez un dé et appliquez un effet à toutes les figurines dotées de cette règle : sur un résultat de 1 à 3, elles obtiennent <key>PA</key>(1), et sur un résultat de 4 à 6, elles obtiennent +1 aux jets d'attaque."
       }
     ]
   },
@@ -2245,7 +2245,7 @@
     ]
   },
   "No Retreat Aura": {
-    "title": "Aura de Sans retraite",
+    "title": "Aura Pas de retraite",
     "specialRule": [
       "f78kQxkgtIs1",
       "0zpUZx5GkSHb",
@@ -2256,7 +2256,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Sans retraite</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Pas de retraite</key>."
       }
     ]
   },
@@ -2361,7 +2361,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Éclaireur</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Éclaireur</key>."
       }
     ]
   },
@@ -2378,7 +2378,7 @@
     "description": [
       {
         "system": "all",
-        "text": "sur les résultats non modifiés de 6 pour toucher, cette arme inflige 1 touche supplémentaire (seule la touche initiale compte pour un 6 en regard des règles spéciales)."
+        "text": "Sur les résultats non modifiés de 6 pour toucher, cette arme inflige une touche supplémentaire (seul la touche initiale compte comme un 6 pour les règles spéciales)."
       }
     ]
   },
@@ -2463,7 +2463,7 @@
     ]
   },
   "No Retreat": {
-    "title": "Sans retraite",
+    "title": "Pas de retraite",
     "specialRule": [
       "f78kQxkgtIs1",
       "0zpUZx5GkSHb",
@@ -2474,7 +2474,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Lorsqu'une unité dont la majorite des modeles a cette règle echoue a un test de moral qui la rendrait Secouee ou Deroutee, le test est considere comme reussi a la place. Puis lancez autant de des que le nombre de blessures necessaires pour la detruire completement ; pour chaque resultat de 1-3, l'unité subit une blessure qui ne peut pas être ignoree."
+        "text": "Lorsqu'une unité dont la plupart des figurines possèdent cette règle spéciale échoue à un Test de Moral qui la rend Ébranlée ou En déroute, le test est considéré comme réussi. Lancez ensuite autant de dés que le nombre de blessures nécessaires pour la détruire entièrement, et pour chaque résultat de 1 à 3, l'unité subit une blessure qui ne peut être ignorée."
       }
     ]
   },
@@ -3016,7 +3016,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Blindé</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Blindé</key>."
       }
     ]
   },
@@ -3138,7 +3138,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Relentless</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Implacable</key>."
       }
     ]
   },
@@ -3556,11 +3556,11 @@
     ]
   },
   "Precision Feat": {
-    "title": "Exploit de Precision",
+    "title": "Précision extraordinaire",
     "description": [
       {
         "system": "all",
-        "text": "Une fois par partie, quand cette unité attaque et que tous ses modeles ont cette règle, vous pouvez utiliser cette règle pour obtenir +2 aux jets pour toucher."
+        "text": "Une fois par partie, lorsque cette unité attaque et que toutes ses figurines possèdent cette règle spéciale, vous pouvez l'utiliser pour qu'ils obtiennent un bonus de +2 aux jets pour toucher."
       }
     ],
     "specialRule": [
@@ -3594,11 +3594,11 @@
     ]
   },
   "Precision Feat Aura": {
-    "title": "Aura d'Exploit de Precision",
+    "title": "Aura de Précision extraordinaire",
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Exploit de Precision</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Exploit de Precision</key>."
       }
     ],
     "specialRule": [
@@ -4355,7 +4355,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Combattant Imprévisible</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Combattant Imprévisible</key>."
       }
     ],
     "specialRule": [
@@ -4783,11 +4783,11 @@
     ]
   },
   "Traversal": {
-    "title": "Traversee",
+    "title": "Transversant",
     "description": [
       {
         "system": "all",
-        "text": "Peut se deplacer a travers les unités alliées et ennemies."
+        "text": "Peut se déplacer à travers des unités amies ou ennemies."
       }
     ],
     "specialRule": [
@@ -4856,11 +4856,11 @@
     ]
   },
   "Crossing Attack": {
-    "title": "Attaque de Traversee",
+    "title": "Attaque croisée",
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, quand ce modele traverse des unités ennemies, choisissez-en une et lancez X des. Pour chaque 6+, elle subit 1 touche."
+        "text": "Une fois par activation, lorsque cette figurine traverse des unités ennemies, choisissez-en une et lancez X dés. Pour chaque 6+, elle subit une touche."
       }
     ],
     "specialRule": [
@@ -4868,11 +4868,11 @@
     ]
   },
   "Empyrean Spirit": {
-    "title": "Esprit Empyreen",
+    "title": "Esprit empyréen",
     "description": [
       {
         "system": "all",
-        "text": "Quand des unités dont tous les modeles ont cette règle sont prises pour cible par des tirs ou des charges a plus de 9”, les unités ennemies subissent -1 aux jets pour toucher."
+        "text": "Lorsque des unités dont toutes les figurines possèdent cette règle spéciales subissent des tirs ou sont chargées d'une distance supérieure à 9\", les unités ennemies subissent un malus de -1 aux jets pour toucher."
       }
     ],
     "specialRule": [
@@ -4880,11 +4880,11 @@
     ]
   },
   "Empyrean Spirit Boost Aura": {
-    "title": "Aura de Renforcement d'Esprit Empyreen",
+    "title": "Aura de Boost de l'Esprit empyréen",
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Renforcement d'Esprit Empyreen</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Boost de l'Esprit empyréen</key>."
       }
     ],
     "specialRule": [
@@ -4892,11 +4892,11 @@
     ]
   },
   "Reap": {
-    "title": "Moisson",
+    "title": "Fauchage",
     "description": [
       {
         "system": "all",
-        "text": "<key>Contre</key> les unités dont la majorite des modeles ont <key>Defense</key> 2+ a <key>Defense</key> 3+, cette arme gagne <key>AP</key>(+2)."
+        "text": "Contre les unités dont la plupart des figurines possèdent une <key>Defense</key> 2+ a <key>Defense</key> 3+, cette arme gagne <key>AP</key>(+2)."
       }
     ],
     "specialRule": [
@@ -4904,11 +4904,11 @@
     ]
   },
   "Bane Mark": {
-    "title": "Marque de Fleau",
+    "title": "Marque de Fléau",
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent Fleau lorsqu'elles l'attaquent une fois (la prochaine fois que l'effet s'appliquerait)."
+        "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins. Les unités alliées obtiennent la règle spéciale <key>Fléau</key> une seule fois lorsqu'elles l'attaquent (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4916,11 +4916,11 @@
     ]
   },
   "Empyrean Spirit Boost": {
-    "title": "Renforcement d'Esprit Empyreen",
+    "title": "Boost de l'Esprit empyréen",
     "description": [
       {
         "system": "all",
-        "text": "Si tous les modeles de cette unité ont <key>Esprit Empyreen</key>, les ennemis qui les attaquent subissent toujours -1 aux jets pour toucher grace a <key>Esprit Empyreen</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9”)."
+        "text": "Si toutes les figurines de cette unité possèdent la règle spéciale <key>Esprit empyréen</key>, les ennemis qui les attaquent subissent toujours un malus de -1 aux jets pour toucher à cause de la règle spéciale <key>Esprit empyréen</key> (au lieu de seulement lorsqu'ils lui tirent dessus ou la Chargent à plus de 9\")."
       }
     ],
     "specialRule": [

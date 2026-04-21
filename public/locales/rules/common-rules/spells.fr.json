@@ -4010,62 +4010,62 @@
     ]
   },
   "Ethereal Warding": {
-    "title": "Ethereal Warding",
+    "title": "Protection éthérée",
     "description": [
       {
         "system": "all",
         "cost": 1,
-        "text": "Choisissez une unité alliée a 12” ou moins, qui gagne <key>Renforcement d'Esprit Empyreen</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        "text": "Choisissez une unité alliée a 12” ou moins, qui bénéficie une seule fois de l'effet <key>Esprit empyréen</key> (la prochaine fois que cet effet s'appliquerait)."
       }
     ]
   },
   "Dread Shriek": {
-    "title": "Dread Shriek",
+    "title": "Cri terrifiant",
     "description": [
       {
         "system": "all",
         "cost": 1,
-        "text": "Choisissez une unité ennemie a 12” ou moins, qui subit 2 touches avec <key>PA</key>(1) et <key>Surcharge<Key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        "text": "Choisissez une unité ennemie a 12” ou moins, qui subit 2 touches avec <key>PA</key>(1) et <key>Surcharge<Key>. Lancez autant de dés que de touches pour voir si les effets « sur un résultat de 6 » se declenchent."
       }
     ]
   },
   "Irresistible Grief": {
-    "title": "Irresistible Grief",
+    "title": "Chagrin irrésistible",
     "description": [
       {
         "system": "all",
         "cost": 2,
-        "text": "Choisissez jusqu'à deux unités ennemies a 18”. Les unités alliées gagnent <key>Fléau</key> contre elle pour une attaque (la prochaine fois que l'effet s'appliquerait)."
+        "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre lesquelles les unités alliées obtiennent une seule fois la règle spéciale <key>Fléau</key> lorsqu'elles les attaquent (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
   "Reaping Terror": {
-    "title": "Reaping Terror",
+    "title": "Terreur faucheuse",
     "description": [
       {
         "system": "all",
         "cost": 2,
-        "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>Moisson</key>."
+        "text": "Choisissez une unité ennemie à 12” ou moins, qui subit quatre touches avec <key>Fauchage</key>."
       }
     ]
   },
   "Vicious Spirits": {
-    "title": "Vicious Spirits",
+    "title": "Esprits vicieux",
     "description": [
       {
         "system": "all",
         "cost": 3,
-        "text": "Choisissez jusqu'à trois unités alliées à 12” ou moins, qui obtiennent +1 à au jet de touche en mêlée (la prochaine fois que l'effet s'appliquerait)."
+        "text": "Choisissez jusqu'à trois unités amies à 12” ou moins, qui obtiennent un bonus de +1 aux jets pour toucher en mêlée une seule fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
   "Eat Soul": {
-    "title": "Eat Soul",
+    "title": "Mange-âmes",
     "description": [
       {
         "system": "all",
         "cost": 3,
-        "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+        "text": "Choisissez une unité ennemie à 18” ou moins, qui subit six touches."
       }
     ]
   }
