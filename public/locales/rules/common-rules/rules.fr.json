@@ -1157,7 +1157,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation de cette figurine, avant d'attaquer, lancez 1D6. Sur un résultat de 2+, une unité ennemie dans un rayon de 6” en ligne de vue subit 1 touche avec <key>Explosion</key>(3) et <key>PA</key>(1)."
+        "text": "Une fois par activation de cette figurine, avant d'attaquer, lancez 1D6. Sur un résultat de 2+, une unité ennemie dans un rayon de 6” en ligne de vue subit une touche avec <key>Explosion</key>(3) et <key>PA</key>(1)."
       }
     ]
   },
@@ -1232,7 +1232,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Compte comme ayant une Defense de X+."
+        "text": "Compte comme ayant une Défense de X+."
       }
     ]
   },
@@ -1296,7 +1296,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Les armes de mêlée de cette figurine gagnent <key>PA</key>(+2) contre les unités dont la majorité des figurines possèdent <key>Coriace</key>(3) ou plus."
+        "text": "Les armes de mêlée de cette figurine bénéficient d'un bonus de <key>PA</key>(+2) contre les unités dont la majorité des figurines possèdent <key>Coriace</key>(3) ou plus."
       }
     ]
   },
@@ -2015,7 +2015,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Furtif</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Furtif</key>."
       }
     ]
   },
@@ -3449,7 +3449,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Fléau au tir</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fléau au tir</key>."
       }
     ],
     "specialRule": [
@@ -4956,7 +4956,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Boost de Gardien</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Boost de Gardien</key>."
       }
     ],
     "specialRule": [
@@ -4968,7 +4968,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Ignore la Régénération et, contre les unités dont la majorité des figurines ont Défense de 5+ ou 6+, cette arme gagne <key>Explosion</key>(3)."
+        "text": "Ignore la règle spéciale Régénération et, contre les unités dont la plupart des figurines ont une Défense comprise entre 5+ et 6+, cette arme obtient <key>Explosion</key>(3)."
       }
     ],
     "specialRule": [
@@ -4992,7 +4992,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Si toutes les figurines de cette unité possèdent <key>Gardien</key>, les touches ennemies comptent toujours comme ayant <key>AP</key>(-1) grace à <key>Gardien</key> (au lieu de s'appliquer seulement contre les tirs/charges a plus de 9”)."
+        "text": "Si toutes les figurines de cette unité possèdent la règle spéciale <key>Gardien</key>, les tirs ennemis comptent toujours comme ayant <key>AP</key>(-1) grace à <key>Gardien</key> (au lieu de seulement lorsqu'ils sont chargés ou qu'on leur tire dessus à plus de 9”)."
       }
     ],
     "specialRule": [

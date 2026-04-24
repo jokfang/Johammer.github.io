@@ -920,7 +920,7 @@
       {
         "system": "Eternal Wardens",
         "cost": 3,
-        "text": "Choisissez une unité ennemie  à 12” ou moins, elle subira 6 touches avec <key>PA</key>(1) et <key>Lacération</key>."
+        "text": "Choisissez une unité ennemie  à 12” ou moins, qui subit six blessures avec <key>PA</key>(1) et <key>Lacération</key>."
       }
     ]
   },
@@ -1340,7 +1340,7 @@
       {
         "system": "all",
         "cost": 1,
-        "text": "Choisissez une unité ennemie à 18” ou moins, les unités alliée gagnent <key>Imparable</key> lors du prochain tir contre cette unité (la prochaine fois que l'effet s'appliquerait)."
+        "text": "Choisissez une unité ennemie à 18” ou moins, les unités alliée obtiennent la règle spéciale <key>Imparable</key> une seule fois lorsqu'elles tirent contre cette unité (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -1360,7 +1360,7 @@
       {
         "system": "all",
         "cost": 2,
-        "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, elles gagnent <key>Combattant imprévisible</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui obtiennent une seule fois la règle spéciale <key>Combattant imprévisible</key> (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -1370,7 +1370,7 @@
       {
         "system": "all",
         "cost": 2,
-        "text": "Choisissez jusqu'à deux unités ennemies a 9” ou moins, elles subissent 4 touches chacune."
+        "text": "Choisissez jusqu'à deux unités ennemies a 9” ou moins, qui subissent quatre blessures chacune."
       }
     ]
   },
@@ -1380,7 +1380,7 @@
       {
         "system": "all",
         "cost": 3,
-        "text": "Choisissez jusqu'à trois unités alliées a 12” ou moins, elles gagnent <key>Boost de Gardien</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        "text": "Choisissez jusqu'à trois unités alliées a 12” ou moins, qui bénéficient une seule fois de la règle spéciale <key>Boost de Gardien</key> (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
