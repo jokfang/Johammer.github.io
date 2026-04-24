@@ -1405,7 +1405,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Charge rapide</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Charge rapide</key>."
       }
     ]
   },
@@ -1573,7 +1573,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine se déplace de +6” lorsqu'elle utilise des actions de Course."
+        "text": "Cette figurine se déplace de +6” lorsqu'elle Court."
       }
     ]
   },
@@ -2560,7 +2560,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, avant d'attaquer, choisissez une figurine allie a 3” ou moins avec <key>Coriace</key> et retirez-lui 1D3 blessures."
+        "text": "Une fois par activation, avant d'attaquer, choisissez une figurine allie a 3” ou moins dotée de la caractéristique <key>Coriace</key> et retirez 1D3 blessures de celle-ci."
       }
     ]
   },
@@ -2606,14 +2606,14 @@
     ]
   },
   "Versatile Reach": {
-    "title": "Allonge polyvalente",
+    "title": "Portée polyvalente",
     "specialRule": [
       "Q7nWXE-8DEHN"
     ],
     "description": [
       {
         "system": "all",
-        "text": "Quand cette unité est activée, choisissez un effet : jusqu'à la fin de l'activation, toutes les figurines avec cette règle gagnent soit +4” de portée au tir, soit +2” de mouvement en charge."
+        "text": "Lorsque cette unité est activée, choisissez l'un des effets suivants : jusqu'à la fin de l'activation, toutes les figurines possédant cette règle spéciale bénéficient soit d'une portée accrue de +4” lorsqu'elles tirent, soit d'un bonus de mouvement de +2” lorsqu'elles Chargent."
       }
     ]
   },
@@ -3143,7 +3143,7 @@
     ]
   },
   "Regeneration Aura": {
-    "title": "Aura de Regeneration",
+    "title": "Aura de Régénération",
     "specialRule": [
       "tKa31SeqrzS1",
       "0zpUZx5GkSHb",
@@ -3154,7 +3154,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent la règle spéciale <key>Régénération</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Régénération</key>."
       }
     ]
   },
@@ -3462,7 +3462,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Fleau en mêlée</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fleau en mêlée</key>."
       }
     ],
     "specialRule": [
@@ -3659,7 +3659,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent <key>Voile de mêlée</key>."
+        "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Voile de mêlée</key>."
       }
     ],
     "specialRule": [
@@ -3759,7 +3759,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Les ennemis subissent -3” de mouvement lorsqu'ils tentent de charger des unités dont tous les modeles ont cette règle."
+        "text": "Les ennemis subissent une pénalité de -3” à leur mouvement lorsqu'ils tentent de Charger des unités dont toutes les figurines possèdent cette règle spéciale."
       }
     ],
     "specialRule": [
@@ -4010,11 +4010,11 @@
     ]
   },
   "Versatile Attack": {
-    "title": "Attaque versatile",
+    "title": "Attaque polyvalente",
     "description": [
       {
         "system": "all",
-        "text": "Quand cette unité est activée, choisissez un effet : jusqu'à la fin de l'activation, toutes les figurines de l'unité avec cette règle gagnent soit <key>PA</key>(+1), soit +1 aux jets pour toucher."
+        "text": "Lorsque cette unité est activée, choisissez un effet : jusqu'à la fin de l'activation, toutes les figurines bénéficiant de cette règle obtiennent soit <key>PA</key>(+1) lorsqu'elles attaquent, soit +1 aux jets pour toucher lorsqu'elles attaquent."
       }
     ],
     "specialRule": [
@@ -4153,7 +4153,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, choisissez une figurine alliée à 6” ou moins avec <key>Artillery</key>, elle pourra immédiatement se déplacer à 9” ou moins."
+        "text": "Une fois par activation, choisissez une figurine alliée à 6” et possédant la règle spéciale <key>Artillery</key> ; celle-ci peut alors se déplacer immédiatement jusqu'à 9”."
       }
     ],
     "specialRule": [
@@ -4944,7 +4944,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Une fois toutes les autres unités déployées (hors unités mises de côté), vous pouvez retirer jusqu'à deux unités alliées de la table et les redéployer. Les joueurs placeront les unités avec Redéploiement, en suivant l'ordre d'activation."
+        "text": "Une fois que toutes les autres unités ont été déployées (à l'exception de celles qui ont été mises de côté), vous pouvez retirer jusqu'à deux unités amies de la table et les redéployer."
       }
     ],
     "specialRule": [
@@ -4980,7 +4980,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a  18” ou moins, les unités alliées gagnent <key>Imparable</key> lors du prochain tir (la prochaine fois que l'effet s'appliquerait)."
+        "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie située à 18” ou moins, les unités alliées obtiennent une seule fois la règle spéciale <key>Imparable</key> lorsqu'elles lui tirent dessus.."
       }
     ],
     "specialRule": [
@@ -5618,7 +5618,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et son unité gagnent +1 aux Tests de Moral."
+        "text": "Cette figurine et son unité obtiennent un bonus de +1 à leurs Tests de Moral."
       }
     ],
     "specialRule": [
@@ -5740,11 +5740,11 @@
     ]
   },
   "Battleborn": {
-    "title": "Né pour la bataille",
+    "title": "Guerrier-né",
     "description": [
       {
         "system": "all",
-        "text": "Si une unité dont toutes les figurines ont cette règle est secouée au début du round, lancez un dé. Sur 4+, elle cesse d'être secouée."
+        "text": "Si une unité dont toutes les figurines possèdent cette règle spéciale est Ébranlée au début du tour, lancez un dé. Sur un résultat de 4+, elle cesse d'être Ébranlée."
       }
     ]
   },
@@ -6550,11 +6550,11 @@
     ]
   },
   "Versatile Reach Aura": {
-    "title": "Aura d'allonge polyvalente",
+    "title": "Aura de Portée polyvalente",
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Allonge polyvalente</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Portée polyvalente</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
       }
     ]
   },

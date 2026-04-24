@@ -1815,12 +1815,12 @@
     ]
   },
   "Advanced Sight": {
-    "title": "Advanced Sight",
+    "title": "Vision accrue",
     "description": [
       {
         "system": "all",
-        "cost": 0,
-        "text": "Choisissez jusqu'à deux unité ennemies a 18”, which les unités alliées gagnent Unstoppable when shooting against une fois (la prochaine fois que l'effet s'appliquerait)."
+        "cost": 1,
+        "text": "Choisissez une unité ennemie située à 18” ou moins; les unités alliées obtiennent la règle spéciale Imparable une fois lorsqu'elles lui tirent dessus."
       }
     ]
   },
@@ -1990,12 +1990,12 @@
     ]
   },
   "Blessed Ammo": {
-    "title": "Blessed Ammo",
+    "title": "Munitions bénies",
     "description": [
       {
         "system": "all",
-        "cost": 0,
-        "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Shred when shooting une fois (la prochaine fois que l'effet s'appliquerait)."
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies situées à 12\" ou moins ; celles-ci bénéficient de la règle spéciale <key>Lacération</key> lors d'un tir."
       }
     ]
   },
@@ -2140,12 +2140,12 @@
     ]
   },
   "Cerebral Trauma": {
-    "title": "Cerebral Trauma",
+    "title": "Traumatisme cérébral ",
     "description": [
       {
         "system": "all",
-        "cost": 0,
-        "text": "Choisissez une unité ennemie a 18”, qui subit 1 hit with Smash."
+        "cost": 1,
+        "text": "Choisissez une unité ennemie située à 18” ou moins, qui subit une touche avec <key>Fracas</key>."
       }
     ]
   },
@@ -2905,12 +2905,12 @@
     ]
   },
   "Lightning Fog": {
-    "title": "Lightning Fog",
+    "title": "Brouillard fulgurant",
     "description": [
       {
         "system": "all",
         "cost": 0,
-        "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+        "text": "Choisissez jusqu'à deux unités ennemies situées à 9” ou moins ; chacune subit quatre touches."
       }
     ]
   },
@@ -3410,12 +3410,12 @@
     ]
   },
   "Psychic Terror": {
-    "title": "Psychic Terror",
+    "title": "Terreur psychique",
     "description": [
       {
         "system": "all",
         "cost": 0,
-        "text": "Choisissez jusqu'à trois unité ennemies a 6”, qui subissent 3 touches with Bane each."
+        "text": "Choisissez une unité ennemie située à 6” ou moins, qui subit neuf touches avec <key>Fléau</key>."
       }
     ]
   },

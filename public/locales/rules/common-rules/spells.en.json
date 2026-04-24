@@ -1819,8 +1819,8 @@
     "description": [
       {
         "system": "all",
-        "cost": 0,
-        "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\", which friendly units gets<key>Unstoppable</key> when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -1994,8 +1994,8 @@
     "description": [
       {
         "system": "all",
-        "cost": 0,
-        "text": "Pick up to four friendly units within 12”, which get <key>Shred</key> when shooting once (next time the effect would apply)."
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12”, which get <key>Shred</key> when shooting once (next time the effect would apply)."
       }
     ]
   },
@@ -2144,7 +2144,7 @@
     "description": [
       {
         "system": "all",
-        "cost": 0,
+        "cost": 1,
         "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Smash</key>."
       }
     ]
@@ -2909,8 +2909,8 @@
     "description": [
       {
         "system": "all",
-        "cost": 0,
-        "text": "Pick up to four enemy units within 9”, which take 2 hits each."
+        "cost": 2,
+        "text": "Pick up to two enemy units within 9”, which take 2 hits each."
       }
     ]
   },
@@ -3209,8 +3209,8 @@
     "description": [
       {
         "system": "all",
-        "cost": 0,
-        "text": "Pick up to six friendly units within 12”, which get <key>Evasive</key> once (next time the effect would apply)."
+        "cost": 3,
+        "text": "Pick up to three friendly units within 12”, which get <key>Evasive</key> once (next time the effect would apply)."
       }
     ]
   },
@@ -3414,8 +3414,8 @@
     "description": [
       {
         "system": "all",
-        "cost": 0,
-        "text": "Pick up to three enemy units within 6”, which take 3 hits with <key>Bane</key> each."
+        "cost": 3,
+        "text": "Pick one enemy units within 6”, which take 3 hits with <key>Bane</key> each."
       }
     ]
   },
