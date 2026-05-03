@@ -586,7 +586,7 @@
     "description": [
       {
         "system": "all",
-        "text": "tire avec une Qualité de 2+, et chaque figurine possédant cette règle peut cibler n’importe quelle figurine dans l’unité ciblée comme si elle était seule, ce qui est résolu comme s’il s’agissait d’une unité d'une seule figurine. Les tirs avec Sniper doivent être résolus avant les autres armes."
+        "text": "Tire avec une Qualité de 2+, et chaque figurine possédant cette règle peut cibler n’importe quelle figurine dans l’unité ciblée comme si elle était seule, ce qui est résolu comme s’il s’agissait d’une unité d'une seule figurine. Les tirs avec Sniper doivent être résolus avant les autres armes."
       }
     ]
   },
@@ -6836,5 +6836,68 @@
         "text": "Une fois par partie, lorsque cette figurine tire, elle peut effectuer une attaque avec Qualité 2+, <key>PA</key>(2), <key>Mortel</key>(3) et <key>Exécution</key>."
       }
     ]
-  }
+  },
+  "Piercing Shooting Mark": {
+  "title": "Marquage perforant au tir",
+  "description": [
+    {
+      "system": "all",
+      "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins en ligne de vue. Les unités alliées gagnent <key>PA</key>(+1) lorsqu'elles tirent contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+    }
+  ]
+},
+"Piercing Debuff": {
+  "title": "Affaiblissement perforant",
+  "description": [
+    {
+      "system": "all",
+      "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins en ligne de vue. Elle perd <key>PA</key>(+1) lorsqu'elle attaque une fois (la prochaine fois que l'effet s'appliquerait)."
+    }
+  ]
+},
+"Rending Mark": {
+  "title": "Marquage perforant",
+  "description": [
+    {
+      "system": "all",
+      "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins en ligne de vue. Les unités alliées gagnent <key>Perforant</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+    }
+  ]
+},
+"Vale Oath": {
+  "title": "Serment du Val",
+  "description": [
+    {
+      "system": "all",
+      "text": "Si une unité dont toutes les figurines ont cette règle est Secouée au début du round, lancez un dé. Sur 4+, elle cesse d'être Secouée."
+    }
+  ]
+},
+"Vale Oath Boost": {
+  "title": "Boost du Serment du Val",
+  "description": [
+    {
+      "system": "all",
+      "text": "Si cette figurine a <key>Serment du Val</key>, elle cesse d'être Secouée sur 3+ grâce à <key>Serment du Val</key> au lieu de 4+."
+    }
+  ]
+},
+"Vale Oath Boost Aura": {
+  "title": "Aura de Boost du Serment du Val",
+  "description": [
+    {
+      "system": "all",
+      "text": "Cette figurine et son unité gagnent <key>Boost du Serment du Val</key>."
+    }
+  ]
+},
+"Piercing Fighter": {
+  "title": "Combattant perforant",
+  "description": [
+    {
+      "system": "all",
+      "text": "Cette figurine gagne <key>PA</key>(+1) en mêlée."
+    }
+  ]
+}
 }

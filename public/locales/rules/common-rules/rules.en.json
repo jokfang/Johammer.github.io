@@ -1535,6 +1535,15 @@
       "SshMejY9Kz7s"
     ]
   },
+  "Sniper": {
+    "title": "Sniper",
+    "description": [
+      {
+        "system": "all",
+        "text": "Shoots at Quality 2+, and each model with Sniper may pick any model in the target unit as its individual target, which is resolved as if it was a unit of 1. Sniper shooting must be resolved before other weapons."
+      }
+    ]
+  },
   "Sniper REMOVE": {
     "title": "Sniper REMOVE",
     "description": [
@@ -6834,6 +6843,69 @@
       {
         "system": "all",
         "text": "Once per game, when this model shoots, it may make one attack at Quality 2+ with <key>AP</key>(2), <key>Deadly</key>(3), and <key>Takedown</key>."
+      }
+    ]
+  },
+  "Piercing Shooting Mark": {
+    "title": "Piercing Shooting Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets <key>AP</key>(+1) when shooting against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Piercing Debuff": {
+    "title": "Piercing Debuff",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which loses <key>AP</key>(+1) when attacking once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Rending Mark": {
+    "title": "Rending Mark",
+    "description": [
+      {
+        "system": "all",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets <key>Rending</key> against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Vale Oath": {
+    "title": "Vale Oath",
+    "description": [
+      {
+        "system": "all",
+        "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+      }
+    ]
+  },
+  "Vale Oath Boost": {
+    "title": "Vale Oath Boost",
+    "description": [
+      {
+        "system": "all",
+        "text": "If this model has <key>Vale Oath</key>, it stops being Shaken on rolls of 3+ from <key>Vale Oath</key> (instead of only on 4+)."
+      }
+    ]
+  },
+  "Vale Oath Boost Aura": {
+    "title": "Vale Oath Boost Aura",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model and its unit get <key>Vale Oath Boost</key>."
+      }
+    ]
+  },
+  "Piercing Fighter": {
+    "title": "Piercing Fighter",
+    "description": [
+      {
+        "system": "all",
+        "text": "This model gets <key>AP</key>(+1) in melee."
       }
     ]
   }
