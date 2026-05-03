@@ -1690,7 +1690,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, avant d'attaquer, placez ce modèle n'importeoù, entièrement à 6” ou moins de sa position."
+        "text": "Lorsqu'elle utilise une action d'Avance ou de Charge, cette figurine peut être placée n'importe où entièrement à 3” ou moins de sa position. Lorsqu'elle utilise une action de Course, cette figurine peut être placée n'importe où entièrement à 6” ou moins de sa position."
       }
     ]
   },
@@ -3172,7 +3172,7 @@
     ]
   },
   "Fortified Growth": {
-    "title": "Croissance fortifiee",
+    "title": "Croissance fortifiée",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ"
@@ -3180,7 +3180,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Placez un marqueur sur cette unité a la fin de chaque round si elle est sur la table. Si tous ses modeles ont cette règle, pour chaque marqueur les ennemis qui les attaquent gagnent <key>AP</key>(-1), jusqu'à un minimum de <key>AP</key>(0) (max -2). Si cette unité est Secouee, elle perd tous ses marqueurs."
+        "text": "Si toutes les figurines de cette unité ont cette règle, placez un marqueur sur elle au début de chaque round si elle est sur la table et n'est pas Secouée, jusqu'à un maximum de quatre marqueurs. Pour chaque tranche de deux marqueurs, les ennemis qui attaquent cette unité gagnent <key>PA</key>(-1), jusqu'à un minimum de <key>PA</key>(0)."
       }
     ]
   },
@@ -3256,7 +3256,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Quand ce modele subit une blessure en mêlée, l'attaquant subit X touches."
+        "text": "Quand cette figurine subit des blessures en mêlée, l'attaquant subit X touches pour chaque blessure subie."
       }
     ],
     "specialRule": [
@@ -3290,11 +3290,11 @@
     ]
   },
   "Lustbound Boost": {
-    "title": "Renforcement Lie a la Luxure",
+    "title": "Lié à la Luxure amélioré",
     "description": [
       {
         "system": "all",
-        "text": "Si ce modele a <key>Lie a la Luxure</key>, il se deplace de +2” en Avance et +6” en Rush/Charge grace a cette règle (au lieu de seulement +1” et +3”)."
+        "text": "Si cette figurine a <key>Lié à la Luxure</key>, elle gagne +8” de portée lorsqu'elle tire et se déplace de +4” lorsqu'elle utilise une action de Charge grâce à <key>Lié à la Luxure</key> (au lieu de seulement +4” et +2”)."
       }
     ],
     "specialRule": [
@@ -3303,11 +3303,11 @@
     ]
   },
   "Lustbound": {
-    "title": "Lie a la Luxure",
+    "title": "Lié à la Luxure",
     "description": [
       {
         "system": "all",
-        "text": "Se deplace de +1” avec Avance, et de +3” avec Rush/Charge."
+        "text": "Cette figurine gagne +4” de portée lorsqu'elle tire et se déplace de +2” lorsqu'elle utilise une action de Charge."
       }
     ],
     "specialRule": [
@@ -3384,7 +3384,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Les Lanceurs de sorts situés à 12” appartenant à d'autres unités alliées peuvent lancer des sorts comme s'ils se trouvaient à la position de cette figurine, et bénéficient d'un bonus de +1 aux jets de lancement."
+        "text": "Si cette unité n'est pas Secouée, les Lanceurs de sorts situés à 12” ou moins appartenant à d'autres unités alliées peuvent lancer des sorts comme s'ils se trouvaient à la position de cette figurine, et bénéficient d'un bonus de +1 aux jets de lancement."
       }
     ],
     "specialRule": [
@@ -3545,7 +3545,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Recoit X jetons d'accumulation au debut de chaque round, sans pouvoir en conserver plus de 6 a la fois. Les Lanceurs d'autres unités alliées a 12” peuvent depenser les jetons d'accumulation de ce modele comme s'ils etaient leurs propres jetons de sort."
+        "text": "Reçoit X jetons d'accumulation au début de chaque round, sans pouvoir en conserver plus de 6 à la fois. Si cette unité n'est pas Secouée, les Lanceurs de sorts d'autres unités alliées à 12” ou moins peuvent dépenser les jetons d'accumulation de cette figurine comme s'il s'agissait de leurs propres jetons de sort."
       }
     ],
     "specialRule": [
@@ -3806,11 +3806,11 @@
     ]
   },
   "Royal Legion": {
-    "title": "Legion Royale",
+    "title": "Légion Royale",
     "description": [
       {
         "system": "all",
-        "text": "Ce modele gagne +3” de portee au tir et se deplace de +3” lorsqu'il utilise des actions de Charge."
+        "text": "Cette figurine gagne +4” de portée lorsqu'elle tire et se déplace de +2” lorsqu'elle utilise une action de Charge."
       }
     ],
     "specialRule": [
@@ -3875,7 +3875,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Compte comme ayant <key>Infiltrate</key>. Une fois déployée via cette règle, lancez X des ; pour chaque 4+, une unité ennemie a 3” subit 2 touches avec <key>AP</key>(1)."
+        "text": "Compte comme ayant <key>Infiltration</key>. La première fois que cette unité est activée après avoir été déployée via cette règle, lancez X dés ; pour chaque 4+, une unité ennemie à 6” ou moins et en ligne de vue subit 2 touches avec <key>PA</key>(1)."
       }
     ],
     "specialRule": [
@@ -3885,11 +3885,11 @@
     ]
   },
   "Royal Legion Boost": {
-    "title": "Renforcement de Legion Royale",
+    "title": "Légion Royale améliorée",
     "description": [
       {
         "system": "all",
-        "text": "Si ce modele a <key>Legion Royale</key>, il gagne +6” de portee au tir et se deplace de +6” lorsqu'il utilise des actions de Charge grace a <key>Legion Royale</key> (au lieu de seulement +3” et +3”)."
+        "text": "Si cette figurine a <key>Légion Royale</key>, elle gagne +8” de portée lorsqu'elle tire et se déplace de +4” lorsqu'elle utilise une action de Charge grâce à <key>Légion Royale</key> (au lieu de seulement +4” et +2”)."
       }
     ],
     "specialRule": [
@@ -3987,7 +3987,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Les armes de ce modele gagnent <key>AP</key>(+2) contre les unités dont la majorite des modeles ont <key>Tough</key>(3) ou plus."
+        "text": "Quand cette figurine tire sur des ennemis à plus de 9” de distance, ou lorsqu'elle charge, ses armes gagnent <key>PA</key>(+2) contre les unités dont la majorité des figurines ont <key>Coriace</key>(3) ou plus."
       }
     ],
     "specialRule": [
@@ -4642,7 +4642,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; elle doit immediatement effectuer un test de Terrain <key>Dangereux</key>."
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18” ou moins et en ligne de vue ; elles comptent comme étant en <key>Terrain dangereux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4975,12 +4975,12 @@
       "AxiZW7zj2hUK"
     ]
   },
-  "Unstoppable Shooting Mark": {
-    "title": "Marque de tir Imparable",
+  "Unstoppable Mark": {
+    "title": "Marque Imparable",
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie située à 18” ou moins, les unités alliées obtiennent une seule fois la règle spéciale <key>Imparable</key> lorsqu'elles lui tirent dessus.."
+        "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie située à 18” ou moins en ligne de vue, les unités alliées obtiennent une seule fois la règle spéciale <key>Imparable</key> lorsqu'elles lui tirent dessus.."
       }
     ],
     "specialRule": [
@@ -5374,11 +5374,11 @@
     ]
   },
   "Precision Growth": {
-    "title": "Croissance de Precision",
+    "title": "Croissance de Précision",
     "description": [
       {
         "system": "all",
-        "text": "Placez un marqueur sur cette unité a la fin de chaque round si elle est sur la table. Pour chaque marqueur, les modeles avec cette règle gagnent +1 aux jets pour toucher (maximum +2). Si cette unité est un jour Secouee, elle perd tous ses marqueurs."
+        "text": "Si toutes les figurines de cette unité ont cette règle, placez un marqueur sur elle au début de chaque round si elle est sur la table et n'est pas Secouée, jusqu'à un maximum de quatre marqueurs. Pour chaque tranche de deux marqueurs, les figurines de cette unité ayant cette règle gagnent +1 aux jets pour toucher."
       }
     ],
     "specialRule": [
@@ -5843,7 +5843,16 @@
     "description": [
       {
         "system": "all",
-        "text": "Cette figurine gagne +3” de portée lorsqu'elle tire et se déplace de +3” lorsqu'elle effectue une action de Charge."
+        "text": "Les ennemis subissent -4” de portée, jusqu'à un minimum de 6”, lorsqu'ils tentent de tirer sur une unité dont toutes les figurines ont cette règle, et -2” de mouvement, jusqu'à un minimum de 6”, lorsqu'ils tentent de charger une unité dont toutes les figurines ont cette règle."
+      }
+    ]
+  },
+  "Dash": {
+    "title": "Élan",
+    "description": [
+      {
+        "system": "all",
+        "text": "Une fois par round, à la fin de l'activation de cette unité, vous pouvez placer toutes les figurines de cette unité qui ont cette règle n'importe où entièrement à D3+1” ou moins de leur position."
       }
     ]
   },
@@ -5852,7 +5861,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Placez un marqueur sur cette unité à la fin de chaque round si elle est sur la table. Pour chaque marqueur, les figurines de cette unité ayant cette règle gagnent +1 aux jets de défense, jusqu'à un maximum de +2. Si cette unité devient secouée, elle perd tous ses marqueurs."
+        "text": "Si toutes les figurines de cette unité ont cette règle, placez un marqueur sur elle au début de chaque round si elle est sur la table et n'est pas Secouée, jusqu'à un maximum de quatre marqueurs. Pour chaque tranche de deux marqueurs, les figurines de cette unité ayant cette règle gagnent +1 aux jets de défense."
       }
     ]
   },
@@ -6167,7 +6176,7 @@
     "description": [
       {
         "system": "all",
-        "text": "Une fois par partie, si toutes les figurines de cette unité ont cette règle, elle peut être activée même si elle l'a déjà été ce round-ci, et elle cesse d'être fatiguée lors de cette seconde activation. Seule la moitié des unités de l'armée ayant cette règle au début de la partie, arrondie au supérieur, peut l'utiliser dans un même round."
+        "text": "Une fois par partie, si toutes les figurines de cette unité ont cette règle, elle peut être activée même si elle l'a déjà été ce round-ci, et elle cesse d'être fatiguée lors de cette seconde activation. Seul un tiers des unités de l'armée ayant cette règle au début de la partie, arrondi au supérieur, peut l'utiliser dans un même round."
       }
     ]
   },
@@ -6180,12 +6189,21 @@
       }
     ]
   },
+  "Piercing Frenzy": {
+    "title": "Frénésie perforante",
+    "description": [
+      {
+        "system": "all",
+        "text": "Placez un marqueur sur cette unité lorsqu'elle détruit entièrement une unité ennemie, jusqu'à un maximum de deux marqueurs. Pour chaque marqueur, toutes les figurines de cette unité ayant cette règle gagnent <key>PA</key>(+1) sur leurs armes lorsqu'elles attaquent, jusqu'à la fin de la partie."
+      }
+    ]
+  },
   "Piercing Growth": {
     "title": "Croissance perforante",
     "description": [
       {
         "system": "all",
-        "text": "Placez un marqueur sur cette unité à la fin de chaque round si elle est sur la table. Pour chaque marqueur, les figurines de cette unité ayant cette règle gagnent <key>PA</key>(+1), jusqu'à un maximum de +2. Si cette unité devient secouée, elle perd tous ses marqueurs."
+        "text": "Si toutes les figurines de cette unité ont cette règle, placez un marqueur sur elle au début de chaque round si elle est sur la table et n'est pas Secouée, jusqu'à un maximum de quatre marqueurs. Pour chaque tranche de deux marqueurs, les figurines de cette unité ayant cette règle gagnent <key>PA</key>(+1) sur leurs armes lorsqu'elles attaquent."
       }
     ]
   },
@@ -6198,12 +6216,12 @@
       }
     ]
   },
-  "Piercing Shooting Mark": {
-    "title": "Marquage perforant au tir",
+  "Unpredictable Shooter Mark": {
+    "title": "Marquage du Tir Imprévisible",
     "description": [
       {
         "system": "all",
-        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18”, contre lesquelles les unités alliées gagnent PA(+1) lorsqu'elles tirent une fois (la prochaine fois que l'effet s'appliquerait)."
+        "text": "Une fois par activation, avant d'attaquer, choisissez 1 ennemie à 18” en ligne de vue, contre lesquelles les unités alliées gagnent <key>Tir Imprévisible</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -6699,6 +6717,123 @@
       {
         "system": "all",
         "text": "Ce modèle et son unité gagnent <key>Guerrier royal amélioré</key>."
+      }
+    ]
+  },
+  "+1 to Defense": {
+    "title": "+1 en Défense",
+    "description": [
+      {
+        "system": "all",
+        "text": "Cette figurine gagne +1 aux jets de défense."
+      }
+    ]
+  },
+  "Ambushing Piercing Shot": {
+    "title": "Tir perforant d'embuscade",
+    "description": [
+      {
+        "system": "all",
+        "text": "Compte comme ayant <key>Embuscade</key>, et ses armes gagnent <key>PA</key>(+1) lorsqu'elle tire pendant le round où elle est déployée via cette règle."
+      }
+    ]
+  },
+  "Dash Aura": {
+    "title": "Aura d'Élan",
+    "description": [
+      {
+        "system": "all",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Élan</key>. Si cette figurine est tuée, les figurines choisies déjà déployées perdent cette règle."
+      }
+    ]
+  },
+  "Defensive Frenzy": {
+    "title": "Frénésie défensive",
+    "description": [
+      {
+        "system": "all",
+        "text": "Si toutes les figurines de cette unité ont cette règle, placez un marqueur sur cette unité lorsqu'elle détruit entièrement une unité ennemie, jusqu'à un maximum de deux marqueurs. Pour chaque marqueur, cette unité gagne +1 aux jets de défense jusqu'à la fin de la partie."
+      }
+    ]
+  },
+  "Piercing Fighting Mark": {
+    "title": "Marque de combat perforant",
+    "description": [
+      {
+        "system": "all",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18” ou moins et en ligne de vue ; les unités alliées gagnent <key>PA</key>(+1) en mêlée contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Precision Frenzy": {
+    "title": "Frénésie de précision",
+    "description": [
+      {
+        "system": "all",
+        "text": "Placez un marqueur sur cette unité lorsqu'elle détruit entièrement une unité ennemie, jusqu'à un maximum de deux marqueurs. Pour chaque marqueur, toutes les figurines de cette unité ayant cette règle gagnent +1 aux jets pour toucher jusqu'à la fin de la partie."
+      }
+    ]
+  },
+  "Predator": {
+    "title": "Prédateur",
+    "description": [
+      {
+        "system": "all",
+        "text": "Pour chaque résultat non modifié de 6 pour toucher lorsqu'elle attaque, cette figurine peut effectuer +1 attaque avec cette arme. Cette règle ne s'applique pas aux attaques nouvellement générées."
+      }
+    ]
+  },
+  "Predator Shooter": {
+    "title": "Tireur prédateur",
+    "description": [
+      {
+        "system": "all",
+        "text": "Pour chaque résultat non modifié de 6 pour toucher lorsqu'elle tire, cette figurine peut effectuer +1 attaque avec cette arme. Cette règle ne s'applique pas aux attaques nouvellement générées."
+      }
+    ]
+  },
+  "Predator Shooter Aura": {
+    "title": "Aura de Tireur prédateur",
+    "description": [
+      {
+        "system": "all",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tireur prédateur</key>. Si cette figurine est tuée, les figurines choisies déjà déployées perdent cette règle."
+      }
+    ]
+  },
+  "Primeborn": {
+    "title": "Primeborn",
+    "description": [
+      {
+        "system": "all",
+        "text": "Quand une unité dont toutes les figurines ont cette règle est touchée par un tir ou une charge depuis plus de 9” de distance, ces touches comptent comme ayant <key>PA</key>(-1), jusqu'à un minimum de <key>PA</key>(0)."
+      }
+    ]
+  },
+  "Rapid Charge Mark": {
+    "title": "Marque de Charge rapide",
+    "description": [
+      {
+        "system": "all",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18” ou moins et en ligne de vue ; les unités alliées gagnent <key>Charge rapide</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Surge Mark": {
+    "title": "Marque de Déferlement",
+    "description": [
+      {
+        "system": "all",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18” ou moins et en ligne de vue ; les unités alliées gagnent <key>Déferlement</key> lorsqu'elles attaquent contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
+      }
+    ]
+  },
+  "Takedown Shot": {
+    "title": "Tir d'exécution",
+    "description": [
+      {
+        "system": "all",
+        "text": "Une fois par partie, lorsque cette figurine tire, elle peut effectuer une attaque avec Qualité 2+, <key>PA</key>(2), <key>Mortel</key>(3) et <key>Exécution</key>."
       }
     ]
   }
