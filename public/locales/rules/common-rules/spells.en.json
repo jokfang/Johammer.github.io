@@ -895,7 +895,7 @@
       {
         "system": "all",
         "cost": 3,
-        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Perforate</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+        "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Destructive</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
       }
     ]
   },

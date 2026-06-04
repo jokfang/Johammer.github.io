@@ -895,7 +895,7 @@
       {
         "system": "all",
         "cost": 3,
-        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Perforation</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Destructeur</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
       }
     ]
   },
