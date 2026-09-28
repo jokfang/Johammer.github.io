@@ -99,6 +99,18 @@ describe("netlify dictionary handler", () => {
     expect(Object.keys(body.commonSpells.en).length).toBeGreaterThan(0);
   });
 
+  it("filters both dictionaries by system", async () => {
+    const { handler } = await import("../netlify/functions/dictionary/dictionary");
+    const res = await handler(
+      { httpMethod: "GET", queryStringParameters: { system: "unknown" } } as any,
+      {} as any
+    );
+    const body = JSON.parse((res as any).body);
+
+    expect(Object.keys(body.commonRules.en)).toHaveLength(0);
+    expect(Object.keys(body.commonSpells.en)).toHaveLength(0);
+  });
+
   it("rejects unsupported methods", async () => {
     const { handler } = await import("../netlify/functions/dictionary/dictionary");
     const res = await handler({ httpMethod: "POST" } as any, {} as any);
@@ -126,6 +138,18 @@ describe("netlify dictionary-rules handler", () => {
     expect(body.en.Hero.title).toBe("Hero");
     expect(body.commonRules).toBeUndefined();
     expect(body.commonSpells).toBeUndefined();
+  });
+
+  it("filters rules by system", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-rules/dictionary-rules"
+    );
+    const res = await handler(
+      { httpMethod: "GET", queryStringParameters: { system: "G" } } as any,
+      {} as any
+    );
+
+    expect(Object.keys(JSON.parse((res as any).body).en)).toHaveLength(0);
   });
 
   it("rejects unsupported methods", async () => {
@@ -158,6 +182,18 @@ describe("netlify dictionary-spells handler", () => {
     expect(Object.keys(body.en).length).toBeGreaterThan(0);
     expect(body.commonSpells).toBeUndefined();
     expect(body.commonRules).toBeUndefined();
+  });
+
+  it("filters spells by system", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-spells/dictionary-spells"
+    );
+    const res = await handler(
+      { httpMethod: "GET", queryStringParameters: { system: "GF" } } as any,
+      {} as any
+    );
+
+    expect(Object.keys(JSON.parse((res as any).body).en).length).toBeGreaterThan(0);
   });
 
   it("rejects unsupported methods", async () => {
@@ -196,6 +232,21 @@ describe("netlify dictionary-rules-language handler", () => {
     const fallbackBody = JSON.parse((fallbackRes as any).body);
     expect(fallbackBody.Hero.title).toBe("Hero");
   });
+
+  it("filters the requested rules language by system", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-rules-language/dictionary-rules-language"
+    );
+    const res = await handler(
+      {
+        httpMethod: "GET",
+        queryStringParameters: { language: "en", system: "unknown" },
+      } as any,
+      {} as any
+    );
+
+    expect(Object.keys(JSON.parse((res as any).body))).toHaveLength(0);
+  });
 });
 
 describe("netlify dictionary-spells-language handler", () => {
@@ -222,6 +273,21 @@ describe("netlify dictionary-spells-language handler", () => {
     );
     const fallbackBody = JSON.parse((fallbackRes as any).body);
     expect(Object.keys(fallbackBody).length).toBeGreaterThan(0);
+  });
+
+  it("filters the requested spells language by system", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-spells-language/dictionary-spells-language"
+    );
+    const res = await handler(
+      {
+        httpMethod: "GET",
+        queryStringParameters: { language: "en", system: "AOF" },
+      } as any,
+      {} as any
+    );
+
+    expect(Object.keys(JSON.parse((res as any).body)).length).toBeGreaterThan(0);
   });
 });
 

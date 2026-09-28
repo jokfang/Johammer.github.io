@@ -24,37 +24,77 @@ const commonSpellsDictionary: SpellsByLanguage = {
   fr: spellsFr,
 };
 
-export const getCommonRulesDictionary = (): RulesByLanguage =>
-  commonRulesDictionary;
+const filterTranslationsBySystem = <T extends { system: string }>(
+  translations: Record<string, T>,
+  system?: string
+): Record<string, T> => {
+  const normalizedSystem = system?.trim().toLowerCase();
+  if (!normalizedSystem) {
+    return translations;
+  }
 
-export const getCommonSpellsDictionary = (): SpellsByLanguage =>
-  commonSpellsDictionary;
+  return Object.fromEntries(
+    Object.entries(translations).filter(([, entry]) =>
+      entry.system
+        .split("/")
+        .some((tag) => tag.trim().toLowerCase() === normalizedSystem)
+    )
+  );
+};
+
+const filterDictionaryBySystem = <T extends { system: string }>(
+  dictionary: Record<string, Record<string, T>>,
+  system?: string
+): Record<string, Record<string, T>> => {
+  if (!system?.trim()) {
+    return dictionary;
+  }
+
+  return Object.fromEntries(
+    Object.entries(dictionary).map(([language, translations]) => [
+      language,
+      filterTranslationsBySystem(translations, system),
+    ])
+  );
+};
+
+export const getCommonRulesDictionary = (
+  system?: string
+): RulesByLanguage => filterDictionaryBySystem(commonRulesDictionary, system);
+
+export const getCommonSpellsDictionary = (
+  system?: string
+): SpellsByLanguage => filterDictionaryBySystem(commonSpellsDictionary, system);
 
 export const getCommonRuleTranslations = (
-  language: string
+  language: string,
+  system?: string
 ): Record<string, RuleTranslationEntry> => {
   const normalizedLanguage = normalizeLanguage(language);
-  return (
+  const translations =
     commonRulesDictionary[normalizedLanguage] || commonRulesDictionary.en || {}
-  );
+  return filterTranslationsBySystem(translations, system);
 };
 
 export const getCommonSpellTranslations = (
-  language: string
+  language: string,
+  system?: string
 ): Record<string, SpellTranslationEntry> => {
   const normalizedLanguage = normalizeLanguage(language);
-  return (
+  const translations =
     commonSpellsDictionary[normalizedLanguage] ||
     commonSpellsDictionary.en ||
-    {}
-  );
+    {};
+  return filterTranslationsBySystem(translations, system);
 };
 
-export const fetchCommonRulesDictionary = async (): Promise<RulesByLanguage> =>
-  getCommonRulesDictionary();
+export const fetchCommonRulesDictionary = async (
+  system?: string
+): Promise<RulesByLanguage> => getCommonRulesDictionary(system);
 
-export const fetchCommonSpellsDictionary = async (): Promise<SpellsByLanguage> =>
-  getCommonSpellsDictionary();
+export const fetchCommonSpellsDictionary = async (
+  system?: string
+): Promise<SpellsByLanguage> => getCommonSpellsDictionary(system);
 
 export type {
   RuleTranslationEntry,

@@ -17,5 +17,6 @@ export const handler: Handler = async (event) => {
   }
 
   const language = event.queryStringParameters?.language?.trim() || "en";
-  return jsonResponse(200, getCommonRuleTranslations(language));
+  const system = event.queryStringParameters?.system;
+  return jsonResponse(200, getCommonRuleTranslations(language, system));
 };

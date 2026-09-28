@@ -1,6 +1,7 @@
 {
   "Ambush Beacon": {
     "title": "Ambush Beacon",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -10,6 +11,7 @@
   },
   "Bad Shot": {
     "title": "Bad Shot",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -19,6 +21,7 @@
   },
   "Badlands Hunter": {
     "title": "Badlands Hunter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -28,6 +31,7 @@
   },
   "Badlands Hunter Boost": {
     "title": "Badlands Hunter Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -37,6 +41,7 @@
   },
   "Badlands Hunter Boost Aura": {
     "title": "Badlands Hunter Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -46,6 +51,7 @@
   },
   "Ballistic Vest": {
     "title": "Ballistic Vest",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -55,6 +61,7 @@
   },
   "Ballistic Vest Boost": {
     "title": "Ballistic Vest Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -64,6 +71,7 @@
   },
   "Ballistic Vest Boost Aura": {
     "title": "Ballistic Vest Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -73,6 +81,7 @@
   },
   "Bane in Melee Buff": {
     "title": "Bane in Melee Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -82,6 +91,7 @@
   },
   "Battle-Hardened": {
     "title": "Battle-Hardened",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -91,6 +101,7 @@
   },
   "Battleborn": {
     "title": "Battleborn",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -100,6 +111,7 @@
   },
   "Berserker Boost": {
     "title": "Berserker Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -109,6 +121,7 @@
   },
   "Berserker Boost Aura": {
     "title": "Berserker Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -118,6 +131,7 @@
   },
   "Bloodborn": {
     "title": "Bloodborn",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -127,6 +141,7 @@
   },
   "Brute Courage": {
     "title": "Brute Courage",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -136,6 +151,7 @@
   },
   "Clan Warrior": {
     "title": "Clan Warrior",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -145,6 +161,7 @@
   },
   "Clan Warrior Boost": {
     "title": "Clan Warrior Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -154,6 +171,7 @@
   },
   "Clan Warrior Boost Aura": {
     "title": "Clan Warrior Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -163,6 +181,7 @@
   },
   "Cyber-Eyes": {
     "title": "Cyber-Eyes",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -172,6 +191,7 @@
   },
   "Cyber-Eyes Boost": {
     "title": "Cyber-Eyes Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -181,6 +201,7 @@
   },
   "Cyber-Eyes Boost Aura": {
     "title": "Cyber-Eyes Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -190,6 +211,7 @@
   },
   "Darkborn": {
     "title": "Darkborn",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -199,6 +221,7 @@
   },
   "Dash": {
     "title": "Dash",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -208,6 +231,7 @@
   },
   "Defensive Growth": {
     "title": "Defensive Growth",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -217,6 +241,7 @@
   },
   "Defensive Growth Aura": {
     "title": "Defensive Growth Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -226,6 +251,7 @@
   },
   "Demolish": {
     "title": "Demolish",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -235,6 +261,7 @@
   },
   "Devout": {
     "title": "Devout",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -244,6 +271,7 @@
   },
   "Devout Boost": {
     "title": "Devout Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -253,6 +281,7 @@
   },
   "Devout Boost Aura": {
     "title": "Devout Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -262,6 +291,7 @@
   },
   "Entrenched Buff": {
     "title": "Entrenched Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -271,6 +301,7 @@
   },
   "Flying Aura": {
     "title": "Flying Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -280,6 +311,7 @@
   },
   "Grounded Precision": {
     "title": "Grounded Precision",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -289,6 +321,7 @@
   },
   "Grounded Precision Aura": {
     "title": "Grounded Precision Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -298,6 +331,7 @@
   },
   "Grounded Stealth": {
     "title": "Grounded Stealth",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -307,6 +341,7 @@
   },
   "Guardian": {
     "title": "Guardian",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -316,6 +351,7 @@
   },
   "Guardian Boost": {
     "title": "Guardian Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -325,6 +361,7 @@
   },
   "Guardian Boost Aura": {
     "title": "Guardian Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -334,6 +371,7 @@
   },
   "Guerrilla": {
     "title": "Guerrilla",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -343,6 +381,7 @@
   },
   "Guerrilla Boost": {
     "title": "Guerrilla Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -352,6 +391,7 @@
   },
   "Guerrilla Boost Aura": {
     "title": "Guerrilla Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -361,6 +401,7 @@
   },
   "Hive Bond": {
     "title": "Hive Bond",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -370,6 +411,7 @@
   },
   "Hive Bond Boost": {
     "title": "Hive Bond Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -379,6 +421,7 @@
   },
   "Hive Bond Boost Aura": {
     "title": "Hive Bond Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -388,6 +431,7 @@
   },
   "Hold the Line Boost Aura": {
     "title": "Hold the Line Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -397,6 +441,7 @@
   },
   "Ignores Cover Aura": {
     "title": "Ignores Cover Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -406,6 +451,7 @@
   },
   "Ignores Cover when Shooting": {
     "title": "Ignores Cover when Shooting",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -415,6 +461,7 @@
   },
   "Ignores Cover when Shooting Aura": {
     "title": "Ignores Cover when Shooting Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -424,6 +471,7 @@
   },
   "Ignores Regeneration in Melee": {
     "title": "Ignores Regeneration in Melee",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -433,6 +481,7 @@
   },
   "Indirect Mark": {
     "title": "Indirect Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -442,6 +491,7 @@
   },
   "Infected": {
     "title": "Infected",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -451,6 +501,7 @@
   },
   "Infected Boost": {
     "title": "Infected Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -460,6 +511,7 @@
   },
   "Infected Boost Aura": {
     "title": "Infected Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -469,6 +521,7 @@
   },
   "Infiltrate Aura": {
     "title": "Infiltrate Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -478,6 +531,7 @@
   },
   "Inquisitorial Agent": {
     "title": "Inquisitorial Agent",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -487,6 +541,7 @@
   },
   "Knightborn": {
     "title": "Knightborn",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -496,6 +551,7 @@
   },
   "Machine-Fog": {
     "title": "Machine-Fog",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -505,6 +561,7 @@
   },
   "Machine-Fog Boost": {
     "title": "Machine-Fog Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -514,6 +571,7 @@
   },
   "Machine-Fog Boost Aura": {
     "title": "Machine-Fog Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -523,6 +581,7 @@
   },
   "Martial Prowess": {
     "title": "Martial Prowess",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -532,6 +591,7 @@
   },
   "No Retreat Buff": {
     "title": "No Retreat Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -541,6 +601,7 @@
   },
   "Piercing Frenzy": {
     "title": "Piercing Frenzy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -550,6 +611,7 @@
   },
   "Piercing Growth": {
     "title": "Piercing Growth",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -559,6 +621,7 @@
   },
   "Piercing Shooting Debuff": {
     "title": "Piercing Shooting Debuff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -568,6 +631,7 @@
   },
   "Unpredictable Shooter Mark": {
     "title": "Unpredictable Shooter Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -577,6 +641,7 @@
   },
   "Point-Blank Piercing": {
     "title": "Point-Blank Piercing",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -586,6 +651,7 @@
   },
   "Point-Blank Piercing Aura": {
     "title": "Point-Blank Piercing Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -595,6 +661,7 @@
   },
   "Point-Blank Surge": {
     "title": "Point-Blank Surge",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -604,6 +671,7 @@
   },
   "Protected Aura": {
     "title": "Protected Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -613,6 +681,7 @@
   },
   "Protection Feat Aura": {
     "title": "Protection Feat Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -622,6 +691,7 @@
   },
   "Psychotic": {
     "title": "Psychotic",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -631,6 +701,7 @@
   },
   "Psychotic Boost": {
     "title": "Psychotic Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -640,6 +711,7 @@
   },
   "Psychotic Boost Aura": {
     "title": "Psychotic Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -649,6 +721,7 @@
   },
   "Quake when Shooting": {
     "title": "Quake when Shooting",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -658,6 +731,7 @@
   },
   "Rapid Advance Buff": {
     "title": "Rapid Advance Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -667,6 +741,7 @@
   },
   "Rapid Ambush": {
     "title": "Rapid Ambush",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -676,6 +751,7 @@
   },
   "Rapid Blink": {
     "title": "Rapid Blink",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -685,6 +761,7 @@
   },
   "Rapid Blink Boost": {
     "title": "Rapid Blink Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -694,6 +771,7 @@
   },
   "Rapid Blink Boost Aura": {
     "title": "Rapid Blink Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -703,6 +781,7 @@
   },
   "Reinforced": {
     "title": "Reinforced",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -712,6 +791,7 @@
   },
   "Runner Boost": {
     "title": "Runner Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -721,6 +801,7 @@
   },
   "Runner Boost Aura": {
     "title": "Runner Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -730,6 +811,7 @@
   },
   "Safety Gear": {
     "title": "Safety Gear",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -739,6 +821,7 @@
   },
   "Safety Gear Boost": {
     "title": "Safety Gear Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -748,6 +831,7 @@
   },
   "Safety Gear Boost Aura": {
     "title": "Safety Gear Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -757,6 +841,7 @@
   },
   "Scrapper": {
     "title": "Scrapper",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -766,6 +851,7 @@
   },
   "Scrapper Boost": {
     "title": "Scrapper Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -775,6 +861,7 @@
   },
   "Scrapper Boost Aura": {
     "title": "Scrapper Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -784,6 +871,7 @@
   },
   "Screened": {
     "title": "Screened",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -793,6 +881,7 @@
   },
   "Screened Aura": {
     "title": "Screened Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -802,6 +891,7 @@
   },
   "Self-Destruct": {
     "title": "Self-Destruct",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -811,6 +901,7 @@
   },
   "Self-Repair": {
     "title": "Self-Repair",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -820,6 +911,7 @@
   },
   "Self-Repair Boost": {
     "title": "Self-Repair Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -829,6 +921,7 @@
   },
   "Shadow Operative": {
     "title": "Shadow Operative",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -838,6 +931,7 @@
   },
   "Shadow Operative Boost": {
     "title": "Shadow Operative Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -847,6 +941,7 @@
   },
   "Shadow Operative Boost Aura": {
     "title": "Shadow Operative Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -856,6 +951,7 @@
   },
   "Shred when Shooting": {
     "title": "Shred when Shooting",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -865,6 +961,7 @@
   },
   "Surge when Shooting": {
     "title": "Surge when Shooting",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -874,6 +971,7 @@
   },
   "Surprise Piercing Shot": {
     "title": "Surprise Piercing Shot",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -883,6 +981,7 @@
   },
   "Targeting Visor": {
     "title": "Targeting Visor",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -892,6 +991,7 @@
   },
   "Targeting Visor Boost": {
     "title": "Targeting Visor Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -901,6 +1001,7 @@
   },
   "Targeting Visor Boost Aura": {
     "title": "Targeting Visor Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -910,6 +1011,7 @@
   },
   "Union Assault": {
     "title": "Union Assault",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -919,6 +1021,7 @@
   },
   "Versatile Reach Aura": {
     "title": "Versatile Reach Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -928,6 +1031,7 @@
   },
   "Watchborn": {
     "title": "Watchborn",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -937,6 +1041,7 @@
   },
   "Wolfborn": {
     "title": "Wolfborn",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -946,6 +1051,7 @@
   },
   "Wreck": {
     "title": "Wreck",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -955,6 +1061,7 @@
   },
   "Aircraft": {
     "title": "Aircraft",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -964,6 +1071,7 @@
   },
   "Ambush": {
     "title": "Ambush",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -999,6 +1107,7 @@
   },
   "AP": {
     "title": "AP",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1044,6 +1153,7 @@
   },
   "Artillery": {
     "title": "Artillery",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1059,6 +1169,7 @@
   },
   "Bane": {
     "title": "Bane",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1085,6 +1196,7 @@
   },
   "Banner": {
     "title": "Banner",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1106,6 +1218,7 @@
   },
   "Blast": {
     "title": "Blast",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1149,6 +1262,7 @@
   },
   "Caster": {
     "title": "Caster",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1177,6 +1291,7 @@
   },
   "Counter": {
     "title": "Counter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1197,6 +1312,7 @@
   },
   "Deadly": {
     "title": "Deadly",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1218,6 +1334,7 @@
   },
   "Entrenched": {
     "title": "Entrenched",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1227,6 +1344,7 @@
   },
   "Fast": {
     "title": "Fast",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1236,6 +1354,7 @@
   },
   "Fear": {
     "title": "Fear",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1263,6 +1382,7 @@
   },
   "Fearless": {
     "title": "Fearless",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1279,6 +1399,7 @@
   },
   "Flying": {
     "title": "Flying",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1303,6 +1424,7 @@
   },
   "Furious": {
     "title": "Furious",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1321,6 +1443,7 @@
   },
   "Hero": {
     "title": "Hero",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1345,6 +1468,7 @@
   },
   "Immobile": {
     "title": "Immobile",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1354,6 +1478,7 @@
   },
   "Impact": {
     "title": "Impact",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1374,6 +1499,7 @@
   },
   "Indirect": {
     "title": "Indirect",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1390,6 +1516,7 @@
   },
   "Limited": {
     "title": "Limited",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1399,6 +1526,7 @@
   },
   "Morale": {
     "title": "Morale",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1408,6 +1536,7 @@
   },
   "Musician": {
     "title": "Musician",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1429,6 +1558,7 @@
   },
   "Regeneration": {
     "title": "Regeneration",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1457,6 +1587,7 @@
   },
   "Relentless": {
     "title": "Relentless",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1475,6 +1606,7 @@
   },
   "Reliable": {
     "title": "Reliable",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1484,6 +1616,7 @@
   },
   "Rending": {
     "title": "Rending",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1502,6 +1635,7 @@
   },
   "Scout": {
     "title": "Scout",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1521,6 +1655,7 @@
   },
   "Slow": {
     "title": "Slow",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1537,6 +1672,7 @@
   },
   "Sniper": {
     "title": "Sniper",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1546,6 +1682,7 @@
   },
   "Sniper REMOVE": {
     "title": "Sniper REMOVE",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1555,6 +1692,7 @@
   },
   "Stealth": {
     "title": "Stealth",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1571,6 +1709,7 @@
   },
   "Strider": {
     "title": "Strider",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1597,6 +1736,7 @@
   },
   "Takedown": {
     "title": "Takedown",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1606,6 +1746,7 @@
   },
   "Thrust": {
     "title": "Thrust",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1619,6 +1760,7 @@
   },
   "Tough": {
     "title": "Tough",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1662,6 +1804,7 @@
   },
   "Transport": {
     "title": "Transport",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1671,6 +1814,7 @@
   },
   "Unstoppable": {
     "title": "Unstoppable",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1690,6 +1834,7 @@
   },
   "Suppressor": {
     "title": "Suppressor",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1699,6 +1844,7 @@
   },
   "Blinded Eye": {
     "title": "Blinded Eye",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1708,6 +1854,7 @@
   },
   "Natural Talent": {
     "title": "Natural Talent",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1717,6 +1864,7 @@
   },
   "Agile": {
     "title": "Agile",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1726,6 +1874,7 @@
   },
   "Berserker": {
     "title": "Berserker",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1735,6 +1884,7 @@
   },
   "Fast Learner": {
     "title": "Fast Learner",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1744,6 +1894,7 @@
   },
   "Bitter Rivalry": {
     "title": "Bitter Rivalry",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1753,6 +1904,7 @@
   },
   "Duellist": {
     "title": "Duellist",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1762,6 +1914,7 @@
   },
   "Climber": {
     "title": "Climber",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1771,6 +1924,7 @@
   },
   "Mastermind": {
     "title": "Mastermind",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1780,6 +1934,7 @@
   },
   "Tactician": {
     "title": "Tactician",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1789,6 +1944,7 @@
   },
   "Hunter": {
     "title": "Hunter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1798,6 +1954,7 @@
   },
   "Arm Injury": {
     "title": "Arm Injury",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1807,6 +1964,7 @@
   },
   "Leader": {
     "title": "Leader",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1816,6 +1974,7 @@
   },
   "Destroyer": {
     "title": "Destroyer",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1828,6 +1987,7 @@
   },
   "Herbalist": {
     "title": "Herbalist",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1837,6 +1997,7 @@
   },
   "Fanatic": {
     "title": "Fanatic",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1846,6 +2007,7 @@
   },
   "Vanguard": {
     "title": "Vanguard",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1855,6 +2017,7 @@
   },
   "Motivated": {
     "title": "Motivated",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1864,6 +2027,7 @@
   },
   "Resilient": {
     "title": "Resilient",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1873,6 +2037,7 @@
   },
   "Chemist": {
     "title": "Chemist",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1882,6 +2047,7 @@
   },
   "Warden": {
     "title": "Warden",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1894,6 +2060,7 @@
   },
   "Specialist": {
     "title": "Specialist",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1903,6 +2070,7 @@
   },
   "Instigator": {
     "title": "Instigator",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1912,6 +2080,7 @@
   },
   "Crazed": {
     "title": "Crazed",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1921,6 +2090,7 @@
   },
   "Headstrong": {
     "title": "Headstrong",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1930,6 +2100,7 @@
   },
   "Elite": {
     "title": "Elite",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1939,6 +2110,7 @@
   },
   "Toughened": {
     "title": "Toughened",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1948,6 +2120,7 @@
   },
   "Scavenger": {
     "title": "Scavenger",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1957,6 +2130,7 @@
   },
   "Dead": {
     "title": "Dead",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1966,6 +2140,7 @@
   },
   "Smashed Leg": {
     "title": "Smashed Leg",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1975,6 +2150,7 @@
   },
   "Horrible Scars": {
     "title": "Horrible Scars",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1984,6 +2160,7 @@
   },
   "Traumatized": {
     "title": "Traumatized",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1993,6 +2170,7 @@
   },
   "Prowler": {
     "title": "Prowler",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2002,6 +2180,7 @@
   },
   "Runner": {
     "title": "Runner",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2011,6 +2190,7 @@
   },
   "Chest Wound": {
     "title": "Chest Wound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2020,6 +2200,7 @@
   },
   "Fortified": {
     "title": "Fortified",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "iv1Jm6zZiZPJ",
@@ -2043,6 +2224,7 @@
   },
   "Sergeant": {
     "title": "Sergeant",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2087,6 +2269,7 @@
   },
   "Shadowborn Boost": {
     "title": "Shadowborn Boost",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce"
     ],
@@ -2099,6 +2282,7 @@
   },
   "Breath Attack": {
     "title": "Breath Attack",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2126,6 +2310,7 @@
   },
   "Unique": {
     "title": "Unique",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2149,6 +2334,7 @@
   },
   "Precision Target": {
     "title": "Precision Target",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "iv1Jm6zZiZPJ"
@@ -2162,6 +2348,7 @@
   },
   "Armor": {
     "title": "Armor",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2201,6 +2388,7 @@
   },
   "Repel Ambushers": {
     "title": "Repel Ambushers",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2225,6 +2413,7 @@
   },
   "Ethereal": {
     "title": "Ethereal",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "x2_Lkyj0JPk2"
@@ -2238,6 +2427,7 @@
   },
   "Melee Slayer": {
     "title": "Melee Slayer",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2265,6 +2455,7 @@
   },
   "Thrust in Melee Aura": {
     "title": "Thrust in Melee Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "GgMdmXsCVdK2"
@@ -2278,6 +2469,7 @@
   },
   "Melee Evasion": {
     "title": "Melee Evasion",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2302,6 +2494,7 @@
   },
   "Shadowborn": {
     "title": "Shadowborn",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce"
     ],
@@ -2314,6 +2507,7 @@
   },
   "Counter-Attack Aura": {
     "title": "Counter-Attack Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "Q7nWXE-8DEHN",
@@ -2330,6 +2524,7 @@
   },
   "Increased Shooting Range Aura": {
     "title": "Increased Shooting Range Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "ylxJ4fFb6cZf",
@@ -2344,6 +2539,7 @@
   },
   "Ravage": {
     "title": "Ravage",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "f78kQxkgtIs1",
@@ -2362,6 +2558,7 @@
   },
   "Rapid Rush Aura": {
     "title": "Rapid Rush Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce"
     ],
@@ -2374,6 +2571,7 @@
   },
   "Bane in Melee": {
     "title": "Bane in Melee",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "fLQMyzi3zbFI",
@@ -2388,6 +2586,7 @@
   },
   "Shadowborn Boost Aura": {
     "title": "Shadowborn Boost Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce"
     ],
@@ -2400,6 +2599,7 @@
   },
   "Unpredictable Fighter Mark": {
     "title": "Unpredictable Fighter Mark",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce"
     ],
@@ -2412,6 +2612,7 @@
   },
   "Resistance": {
     "title": "Resistance",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2440,6 +2641,7 @@
   },
   "Good Fighter": {
     "title": "Good Fighter",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "fLQMyzi3zbFI",
@@ -2454,6 +2656,7 @@
   },
   "Fragment": {
     "title": "Fragment",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce"
     ],
@@ -2466,6 +2669,7 @@
   },
   "Defense": {
     "title": "Defense",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2509,6 +2713,7 @@
   },
   "Counter-Attack": {
     "title": "Counter-Attack",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "Q7nWXE-8DEHN",
@@ -2527,6 +2732,7 @@
   },
   "Rapid Rush": {
     "title": "Rapid Rush",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "tKa31SeqrzS1",
@@ -2542,6 +2748,7 @@
   },
   "Unpredictable Fighter": {
     "title": "Unpredictable Fighter",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2572,6 +2779,7 @@
   },
   "Unpredictable": {
     "title": "Unpredictable",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "cJJJPqOuiHWx",
@@ -2593,6 +2801,7 @@
   },
   "Ignores Cover": {
     "title": "Ignores Cover",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "uAXC1RxdtELq",
@@ -2617,6 +2826,7 @@
   },
   "Evasive": {
     "title": "Evasive",
+    "system": "GF/AOF",
     "specialRule": [
       "zrj60Gptp4Ce",
       "iv1Jm6zZiZPJ",
@@ -2632,6 +2842,7 @@
   },
   "Grounded Protection Aura": {
     "title": "Grounded Protection Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "uAXC1RxdtELq"
@@ -2645,6 +2856,7 @@
   },
   "Teleport": {
     "title": "Teleport",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "f78kQxkgtIs1",
@@ -2659,6 +2871,7 @@
   },
   "Precise": {
     "title": "Precise",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "0zpUZx5GkSHb",
@@ -2674,6 +2887,7 @@
   },
   "Wild Veil": {
     "title": "Wild Veil",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx"
     ],
@@ -2686,6 +2900,7 @@
   },
   "Hit & Run Shooter": {
     "title": "Hit & Run Shooter",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "Q7nWXE-8DEHN",
@@ -2700,6 +2915,7 @@
   },
   "Piercing Assault Aura": {
     "title": "Piercing Assault Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "cyQpyja0EDRj",
@@ -2715,6 +2931,7 @@
   },
   "Grounded Protection": {
     "title": "Grounded Protection",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "uAXC1RxdtELq"
@@ -2728,6 +2945,7 @@
   },
   "Unpredictable Shooter Aura": {
     "title": "Unpredictable Shooter Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "dRAJ8qnYDOxm"
@@ -2741,6 +2959,7 @@
   },
   "Hit & Run Shooter Aura": {
     "title": "Hit & Run Shooter Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "Q7nWXE-8DEHN",
@@ -2755,6 +2974,7 @@
   },
   "Melee Evasion Aura": {
     "title": "Melee Evasion Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "GgMdmXsCVdK2",
@@ -2769,6 +2989,7 @@
   },
   "Wild Veil Boost": {
     "title": "Wild Veil Boost",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx"
     ],
@@ -2781,6 +3002,7 @@
   },
   "Quick Shot Mark": {
     "title": "Quick Shot Mark",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "cyQpyja0EDRj"
@@ -2794,6 +3016,7 @@
   },
   "Piercing Assault": {
     "title": "Piercing Assault",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "uAXC1RxdtELq",
@@ -2813,6 +3036,7 @@
   },
   "Wild Veil Boost Aura": {
     "title": "Wild Veil Boost Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx"
     ],
@@ -2825,6 +3049,7 @@
   },
   "Spawn": {
     "title": "Spawn",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "f78kQxkgtIs1",
@@ -2841,6 +3066,7 @@
   },
   "Pierce": {
     "title": "Pierce",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx"
     ],
@@ -2853,6 +3079,7 @@
   },
   "Rapid Advance Aura": {
     "title": "Rapid Advance Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "dRAJ8qnYDOxm"
@@ -2866,6 +3093,7 @@
   },
   "Speed Debuff": {
     "title": "Speed Debuff",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "SshMejY9Kz7s"
@@ -2879,6 +3107,7 @@
   },
   "Unpredictable Shooter": {
     "title": "Unpredictable Shooter",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "dRAJ8qnYDOxm"
@@ -2892,6 +3121,7 @@
   },
   "Hit & Run": {
     "title": "Hit & Run",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "Q7nWXE-8DEHN",
@@ -2908,6 +3138,7 @@
   },
   "Quick": {
     "title": "Quick",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "uAXC1RxdtELq",
@@ -2924,6 +3155,7 @@
   },
   "Quick Shot": {
     "title": "Quick Shot",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "uAXC1RxdtELq",
@@ -2943,6 +3175,7 @@
   },
   "Rapid Advance": {
     "title": "Rapid Advance",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "dRAJ8qnYDOxm"
@@ -2956,6 +3189,7 @@
   },
   "Grounded Reinforcement": {
     "title": "Grounded Reinforcement",
+    "system": "GF/AOF",
     "specialRule": [
       "cJJJPqOuiHWx",
       "uAXC1RxdtELq"
@@ -2969,6 +3203,7 @@
   },
   "Stealth Aura": {
     "title": "Stealth Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "f78kQxkgtIs1",
@@ -2984,6 +3219,7 @@
   },
   "Swift": {
     "title": "Swift",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "Q7nWXE-8DEHN",
@@ -3001,6 +3237,7 @@
   },
   "Takedown Strike": {
     "title": "Takedown Strike",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "ylxJ4fFb6cZf",
@@ -3019,6 +3256,7 @@
   },
   "Drakesworn": {
     "title": "Drakesworn",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq"
     ],
@@ -3031,6 +3269,7 @@
   },
   "Grounded Reinforcement Aura": {
     "title": "Grounded Reinforcement Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq"
     ],
@@ -3043,6 +3282,7 @@
   },
   "Grounded Speed": {
     "title": "Grounded Speed",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq"
     ],
@@ -3055,6 +3295,7 @@
   },
   "Shielded": {
     "title": "Shielded",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "vhKZ0CIT6dBt",
@@ -3073,6 +3314,7 @@
   },
   "Quick Shot Aura": {
     "title": "Quick Shot Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "GgMdmXsCVdK2",
@@ -3087,6 +3329,7 @@
   },
   "Swift Aura": {
     "title": "Swift Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "0zpUZx5GkSHb",
@@ -3102,6 +3345,7 @@
   },
   "Strider Aura": {
     "title": "Strider Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "cyQpyja0EDRj",
@@ -3116,6 +3360,7 @@
   },
   "Unstoppable in Melee Aura": {
     "title": "Unstoppable in Melee Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "xw2YHtZNkhIV",
@@ -3132,6 +3377,7 @@
   },
   "Pulverize": {
     "title": "Pulverize",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq"
     ],
@@ -3144,6 +3390,7 @@
   },
   "Piercing Assault Mark": {
     "title": "Piercing Assault Mark",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "GgMdmXsCVdK2"
@@ -3157,6 +3404,7 @@
   },
   "Reinforcement": {
     "title": "Reinforcement",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "ylxJ4fFb6cZf"
@@ -3170,6 +3418,7 @@
   },
   "Hit & Run Fighter": {
     "title": "Hit & Run Fighter",
+    "system": "GF/AOF",
     "specialRule": [
       "uAXC1RxdtELq",
       "cyQpyja0EDRj",
@@ -3184,6 +3433,7 @@
   },
   "Fast Aura": {
     "title": "Fast Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1"
     ],
@@ -3196,6 +3446,7 @@
   },
   "Instinctive": {
     "title": "Instinctive",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "GgMdmXsCVdK2"
@@ -3209,6 +3460,7 @@
   },
   "No Retreat Aura": {
     "title": "No Retreat Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "0zpUZx5GkSHb",
@@ -3225,6 +3477,7 @@
   },
   "Infiltrate": {
     "title": "Infiltrate",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "0zpUZx5GkSHb",
@@ -3243,6 +3496,7 @@
   },
   "Shred": {
     "title": "Shred",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "Q7nWXE-8DEHN",
@@ -3273,6 +3527,7 @@
   },
   "Piercing Hunter Aura": {
     "title": "Piercing Hunter Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "wLKHbRBBr4NI",
@@ -3287,6 +3542,7 @@
   },
   "Reanimation Aura": {
     "title": "Reanimation Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1"
     ],
@@ -3299,6 +3555,7 @@
   },
   "Cursed Undead": {
     "title": "Cursed Undead",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1"
     ],
@@ -3311,6 +3568,7 @@
   },
   "Scout Aura": {
     "title": "Scout Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "5xPzQn4Qdzz6",
@@ -3330,6 +3588,7 @@
   },
   "Surge": {
     "title": "Surge",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "cyQpyja0EDRj",
@@ -3347,6 +3606,7 @@
   },
   "Mind Control": {
     "title": "Mind Control",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "cyQpyja0EDRj",
@@ -3361,6 +3621,7 @@
   },
   "Morale Debuff": {
     "title": "Morale Debuff",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "cyQpyja0EDRj",
@@ -3377,6 +3638,7 @@
   },
   "Shred in Melee Aura": {
     "title": "Shred in Melee Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "Q7nWXE-8DEHN",
@@ -3391,6 +3653,7 @@
   },
   "Sever": {
     "title": "Sever",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1"
     ],
@@ -3403,6 +3666,7 @@
   },
   "Casting Buff": {
     "title": "Casting Buff",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1"
     ],
@@ -3415,6 +3679,7 @@
   },
   "Cursed Undead Boost Buff": {
     "title": "Cursed Undead Boost Buff",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1"
     ],
@@ -3427,6 +3692,7 @@
   },
   "No Retreat": {
     "title": "No Retreat",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "0zpUZx5GkSHb",
@@ -3443,6 +3709,7 @@
   },
   "Piercing Hunter": {
     "title": "Piercing Hunter",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1",
       "wLKHbRBBr4NI",
@@ -3458,6 +3725,7 @@
   },
   "Reanimation": {
     "title": "Reanimation",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1"
     ],
@@ -3470,6 +3738,7 @@
   },
   "Cursed Undead Boost": {
     "title": "Cursed Undead Boost",
+    "system": "GF/AOF",
     "specialRule": [
       "f78kQxkgtIs1"
     ],
@@ -3482,6 +3751,7 @@
   },
   "Buccaneer": {
     "title": "Buccaneer",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN"
     ],
@@ -3494,6 +3764,7 @@
   },
   "Crossing Barrage": {
     "title": "Crossing Barrage",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN",
       "iv1Jm6zZiZPJ",
@@ -3513,6 +3784,7 @@
   },
   "Mend": {
     "title": "Mend",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN",
       "iv1Jm6zZiZPJ",
@@ -3529,6 +3801,7 @@
   },
   "Rending when Shooting Aura": {
     "title": "Rending when Shooting Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN",
       "fLQMyzi3zbFI"
@@ -3542,6 +3815,7 @@
   },
   "Resistance Aura": {
     "title": "Resistance Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN",
       "5xPzQn4Qdzz6",
@@ -3558,6 +3832,7 @@
   },
   "Scratch": {
     "title": "Scratch",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN"
     ],
@@ -3570,6 +3845,7 @@
   },
   "Versatile Reach": {
     "title": "Versatile Reach",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN"
     ],
@@ -3582,6 +3858,7 @@
   },
   "Buccaneer Boost Aura": {
     "title": "Buccaneer Boost Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN"
     ],
@@ -3594,6 +3871,7 @@
   },
   "Casting Debuff": {
     "title": "Casting Debuff",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN",
       "xw2YHtZNkhIV",
@@ -3609,6 +3887,7 @@
   },
   "Buccaneer Boost": {
     "title": "Buccaneer Boost",
+    "system": "GF/AOF",
     "specialRule": [
       "Q7nWXE-8DEHN"
     ],
@@ -3621,6 +3900,7 @@
   },
   "Primal": {
     "title": "Primal",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ"
     ],
@@ -3633,6 +3913,7 @@
   },
   "Crossing Strike": {
     "title": "Crossing Strike",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ",
       "aHBBAhsdAqyz"
@@ -3646,6 +3927,7 @@
   },
   "Protection Feat": {
     "title": "Protection Feat",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ"
     ],
@@ -3658,6 +3940,7 @@
   },
   "Heavy Impact": {
     "title": "Heavy Impact",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ",
       "ylxJ4fFb6cZf",
@@ -3674,6 +3957,7 @@
   },
   "Good Shot": {
     "title": "Good Shot",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ"
     ],
@@ -3686,6 +3970,7 @@
   },
   "Rapid Charge Aura": {
     "title": "Rapid Charge Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ",
       "vhKZ0CIT6dBt",
@@ -3702,6 +3987,7 @@
   },
   "Rending in Melee Aura": {
     "title": "Rending in Melee Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ",
       "tKa31SeqrzS1",
@@ -3717,6 +4003,7 @@
   },
   "Bounding": {
     "title": "Bounding",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ",
       "voFsQwaDph1Y",
@@ -3735,6 +4022,7 @@
   },
   "Disintegrate": {
     "title": "Disintegrate",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ"
     ],
@@ -3747,6 +4035,7 @@
   },
   "Shred Mark": {
     "title": "Shred Mark",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ"
     ],
@@ -3759,6 +4048,7 @@
   },
   "Primal Boost Buff": {
     "title": "Primal Boost Buff",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ"
     ],
@@ -3771,6 +4061,7 @@
   },
   "Ignores Regeneration": {
     "title": "Ignores Regeneration",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ",
       "vhKZ0CIT6dBt",
@@ -3794,6 +4085,7 @@
   },
   "Primal Boost": {
     "title": "Primal Boost",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ"
     ],
@@ -3806,6 +4098,7 @@
   },
   "Steadfast": {
     "title": "Steadfast",
+    "system": "GF/AOF",
     "specialRule": [
       "iv1Jm6zZiZPJ",
       "tKa31SeqrzS1",
@@ -3826,6 +4119,7 @@
   },
   "Storm of War": {
     "title": "Storm of War",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -3839,6 +4133,7 @@
   },
   "Crush": {
     "title": "Crush",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-",
@@ -3853,6 +4148,7 @@
   },
   "Warbound Boost Aura": {
     "title": "Warbound Boost Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -3866,6 +4162,7 @@
   },
   "Warbound Boost": {
     "title": "Warbound Boost",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -3879,6 +4176,7 @@
   },
   "Ambush Aura": {
     "title": "Ambush Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "tKa31SeqrzS1",
@@ -3900,6 +4198,7 @@
   },
   "Warbound": {
     "title": "Warbound",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-",
@@ -3914,6 +4213,7 @@
   },
   "Destructive Frenzy": {
     "title": "Destructive Frenzy",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -3927,6 +4227,7 @@
   },
   "Piercing Shooter Aura": {
     "title": "Piercing Shooter Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -3940,6 +4241,7 @@
   },
   "Furious Aura": {
     "title": "Furious Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "aHBBAhsdAqyz",
@@ -3956,6 +4258,7 @@
   },
   "Rapid Charge": {
     "title": "Rapid Charge",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-",
@@ -3970,6 +4273,7 @@
   },
   "Shielded Aura": {
     "title": "Shielded Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "SY80P2vKJGrY",
@@ -3985,6 +4289,7 @@
   },
   "Piercing Fighter Aura": {
     "title": "Piercing Fighter Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -3998,6 +4303,7 @@
   },
   "Fatigue Debuff": {
     "title": "Fatigue Debuff",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -4011,6 +4317,7 @@
   },
   "Break": {
     "title": "Break",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -4024,6 +4331,7 @@
   },
   "Reckless Piercing Aura": {
     "title": "Reckless Piercing Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -4037,6 +4345,7 @@
   },
   "Reckless Piercing": {
     "title": "Reckless Piercing",
+    "system": "GF/AOF",
     "specialRule": [
       "vhKZ0CIT6dBt",
       "RMi35vAtYNb-"
@@ -4050,6 +4359,7 @@
   },
   "Storm of Plague": {
     "title": "Storm of Plague",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ"
@@ -4063,6 +4373,7 @@
   },
   "Plaguebound": {
     "title": "Plaguebound",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ",
@@ -4077,6 +4388,7 @@
   },
   "Plaguebound Boost": {
     "title": "Plaguebound Boost",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ"
@@ -4090,6 +4402,7 @@
   },
   "Relentless Aura": {
     "title": "Relentless Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "0zpUZx5GkSHb",
@@ -4107,6 +4420,7 @@
   },
   "Regeneration Aura": {
     "title": "Regeneration Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "0zpUZx5GkSHb",
@@ -4123,6 +4437,7 @@
   },
   "Precision Attacks Buff": {
     "title": "Precision Attacks Buff",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ"
@@ -4136,6 +4451,7 @@
   },
   "Fortified Growth": {
     "title": "Fortified Growth",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ"
@@ -4149,6 +4465,7 @@
   },
   "Steadfast Aura": {
     "title": "Steadfast Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ"
@@ -4162,6 +4479,7 @@
   },
   "Butcher": {
     "title": "Butcher",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ"
@@ -4175,6 +4493,7 @@
   },
   "Plaguebound Boost Aura": {
     "title": "Plaguebound Boost Aura",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ"
@@ -4188,6 +4507,7 @@
   },
   "Rending in Melee": {
     "title": "Rending in Melee",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "_k9nd29ZX-FQ",
@@ -4202,6 +4522,7 @@
   },
   "Difficult Terrain Debuff": {
     "title": "Difficult Terrain Debuff",
+    "system": "GF/AOF",
     "specialRule": [
       "tKa31SeqrzS1",
       "5xPzQn4Qdzz6",
@@ -4216,6 +4537,7 @@
   },
   "Retaliate": {
     "title": "Retaliate",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4229,6 +4551,7 @@
   },
   "Hit & Run Fighter Aura": {
     "title": "Hit & Run Fighter Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4242,6 +4565,7 @@
   },
   "Storm of Lust": {
     "title": "Storm of Lust",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4254,6 +4578,7 @@
   },
   "Lustbound Boost": {
     "title": "Lustbound Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4267,6 +4592,7 @@
   },
   "Lustbound": {
     "title": "Lustbound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4281,6 +4607,7 @@
   },
   "Shatter": {
     "title": "Shatter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4294,6 +4621,7 @@
   },
   "Unstoppable when Shooting Aura": {
     "title": "Unstoppable when Shooting Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4307,6 +4635,7 @@
   },
   "Lustbound Boost Aura": {
     "title": "Lustbound Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4320,6 +4649,7 @@
   },
   "Hazardous": {
     "title": "Hazardous",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4332,6 +4662,7 @@
   },
   "Quick Readjustment": {
     "title": "Quick Readjustment",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4344,6 +4675,7 @@
   },
   "Spell Conduit": {
     "title": "Spell Conduit",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4359,6 +4691,7 @@
   },
   "Precision Fighter Aura": {
     "title": "Precision Fighter Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4372,6 +4705,7 @@
   },
   "Evasive Aura": {
     "title": "Evasive Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4385,6 +4719,7 @@
   },
   "Scurry": {
     "title": "Scurry",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4397,6 +4732,7 @@
   },
   "Defense Debuff": {
     "title": "Defense Debuff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4409,6 +4745,7 @@
   },
   "Bane when Shooting Aura": {
     "title": "Bane when Shooting Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4422,6 +4759,7 @@
   },
   "Bane in Melee Aura": {
     "title": "Bane in Melee Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4437,6 +4775,7 @@
   },
   "Scurry Boost Aura": {
     "title": "Scurry Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4449,6 +4788,7 @@
   },
   "Precision Fighter Buff": {
     "title": "Precision Fighter Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4469,6 +4809,7 @@
   },
   "Scurry Boost": {
     "title": "Scurry Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4481,6 +4822,7 @@
   },
   "Ossified": {
     "title": "Ossified",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4493,6 +4835,7 @@
   },
   "Destructive": {
     "title": "Destructive",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4505,6 +4848,7 @@
   },
   "Spell Accumulator": {
     "title": "Spell Accumulator",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4520,6 +4864,7 @@
   },
   "Precision Feat": {
     "title": "Precision Feat",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4533,6 +4878,7 @@
   },
   "Mobile Artillery": {
     "title": "Mobile Artillery",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4545,6 +4891,7 @@
   },
   "Piercing Shooter": {
     "title": "Piercing Shooter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4558,6 +4905,7 @@
   },
   "Precision Feat Aura": {
     "title": "Precision Feat Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4571,6 +4919,7 @@
   },
   "Furious Mark": {
     "title": "Furious Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4583,6 +4932,7 @@
   },
   "Ossified Boost Aura": {
     "title": "Ossified Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4595,6 +4945,7 @@
   },
   "Regeneration Buff": {
     "title": "Regeneration Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4607,6 +4958,7 @@
   },
   "Ossified Boost": {
     "title": "Ossified Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4619,6 +4971,7 @@
   },
   "Melee Shrouding Aura": {
     "title": "Melee Shrouding Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4634,6 +4987,7 @@
   },
   "Ferocious": {
     "title": "Ferocious",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4646,6 +5000,7 @@
   },
   "Ferocious Boost Aura": {
     "title": "Ferocious Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4658,6 +5013,7 @@
   },
   "Ravage Aura": {
     "title": "Ravage Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4670,6 +5026,7 @@
   },
   "Speed Feat Aura": {
     "title": "Speed Feat Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4682,6 +5039,7 @@
   },
   "Impale": {
     "title": "Impale",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4694,6 +5052,7 @@
   },
   "Rending in Melee Mark": {
     "title": "Rending in Melee Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4706,6 +5065,7 @@
   },
   "Piercing Assault Buff": {
     "title": "Piercing Assault Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4719,6 +5079,7 @@
   },
   "Melee Shrouding": {
     "title": "Melee Shrouding",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4734,6 +5095,7 @@
   },
   "Ferocious Boost": {
     "title": "Ferocious Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4746,6 +5108,7 @@
   },
   "Speed Feat": {
     "title": "Speed Feat",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4758,6 +5121,7 @@
   },
   "Piercing Spotter": {
     "title": "Piercing Spotter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4770,6 +5134,7 @@
   },
   "Royal Legion": {
     "title": "Royal Legion",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4782,6 +5147,7 @@
   },
   "Perforate": {
     "title": "Perforate",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4794,6 +5160,7 @@
   },
   "Royal Legion Boost Aura": {
     "title": "Royal Legion Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4806,6 +5173,7 @@
   },
   "Fortified Aura": {
     "title": "Fortified Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4821,6 +5189,7 @@
   },
   "Indirect when Shooting Aura": {
     "title": "Indirect when Shooting Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4835,6 +5204,7 @@
   },
   "Surprise Attack": {
     "title": "Surprise Attack",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4849,6 +5219,7 @@
   },
   "Royal Legion Boost": {
     "title": "Royal Legion Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4861,6 +5232,7 @@
   },
   "Deathstrike": {
     "title": "Deathstrike",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4873,6 +5245,7 @@
   },
   "Angelic Blessing": {
     "title": "Angelic Blessing",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4885,6 +5258,7 @@
   },
   "Precision Debuff": {
     "title": "Precision Debuff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4899,6 +5273,7 @@
   },
   "Chop": {
     "title": "Chop",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4911,6 +5286,7 @@
   },
   "Slayer Mark": {
     "title": "Slayer Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4923,6 +5299,7 @@
   },
   "Angelic Blessing Boost Buff": {
     "title": "Angelic Blessing Boost Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4935,6 +5312,7 @@
   },
   "Versatile Attack Buff": {
     "title": "Versatile Attack Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4947,6 +5325,7 @@
   },
   "Slayer": {
     "title": "Slayer",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4962,6 +5341,7 @@
   },
   "Angelic Blessing Boost": {
     "title": "Angelic Blessing Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4974,6 +5354,7 @@
   },
   "Versatile Attack": {
     "title": "Versatile Attack",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4992,6 +5373,7 @@
   },
   "Defense Buff": {
     "title": "Defense Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5004,6 +5386,7 @@
   },
   "Coordinate": {
     "title": "Coordinate",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5016,6 +5399,7 @@
   },
   "Extended Buff Range": {
     "title": "Extended Buff Range",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5028,6 +5412,7 @@
   },
   "Hold the Line": {
     "title": "Hold the Line",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5040,6 +5425,7 @@
   },
   "Rapid Rush Buff": {
     "title": "Rapid Rush Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5052,6 +5438,7 @@
   },
   "Fracture": {
     "title": "Fracture",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5064,6 +5451,7 @@
   },
   "Precision Fighting Mark": {
     "title": "Precision Fighting Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5076,6 +5464,7 @@
   },
   "Precision Shooter Buff": {
     "title": "Precision Shooter Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5088,6 +5477,7 @@
   },
   "Hold the Line Boost Buff": {
     "title": "Hold the Line Boost Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5100,6 +5490,7 @@
   },
   "Furious Buff": {
     "title": "Furious Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5113,6 +5504,7 @@
   },
   "Re-Position Artillery": {
     "title": "Re-Position Artillery",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5128,6 +5520,7 @@
   },
   "Caster Group": {
     "title": "Caster Group",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5141,6 +5534,7 @@
   },
   "Hold the Line Boost": {
     "title": "Hold the Line Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5153,6 +5547,7 @@
   },
   "Piercing Tag": {
     "title": "Piercing Tag",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5165,6 +5560,7 @@
   },
   "Highborn": {
     "title": "Highborn",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5177,6 +5573,7 @@
   },
   "Fearless Aura": {
     "title": "Fearless Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5192,6 +5589,7 @@
   },
   "Indirect when Shooting": {
     "title": "Indirect when Shooting",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5204,6 +5602,7 @@
   },
   "Precision Shooting Mark": {
     "title": "Precision Shooting Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5217,6 +5616,7 @@
   },
   "Crack": {
     "title": "Crack",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5229,6 +5629,7 @@
   },
   "Highborn Boost Aura": {
     "title": "Highborn Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5241,6 +5642,7 @@
   },
   "Highborn Boost": {
     "title": "Highborn Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5253,6 +5655,7 @@
   },
   "Bloodthirsty Fighter": {
     "title": "Bloodthirsty Fighter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5265,6 +5668,7 @@
   },
   "Slam": {
     "title": "Slam",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5281,6 +5685,7 @@
   },
   "Versatile Defense Aura": {
     "title": "Versatile Defense Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5298,6 +5703,7 @@
   },
   "Shred when Shooting Aura": {
     "title": "Shred when Shooting Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5315,6 +5721,7 @@
   },
   "Unpredictable Fighter Aura": {
     "title": "Unpredictable Fighter Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5333,6 +5740,7 @@
   },
   "Ranged Shrouding Aura": {
     "title": "Ranged Shrouding Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5350,6 +5758,7 @@
   },
   "Shred in Melee": {
     "title": "Shred in Melee",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5368,6 +5777,7 @@
   },
   "Steadfast Buff": {
     "title": "Steadfast Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5385,6 +5795,7 @@
   },
   "Versatile Defense": {
     "title": "Versatile Defense",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5402,6 +5813,7 @@
   },
   "Ranged Shrouding": {
     "title": "Ranged Shrouding",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5419,6 +5831,7 @@
   },
   "Great Sergeant": {
     "title": "Great Sergeant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5432,6 +5845,7 @@
   },
   "Great Musician": {
     "title": "Great Musician",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5445,6 +5859,7 @@
   },
   "Great Banner": {
     "title": "Great Banner",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5458,6 +5873,7 @@
   },
   "Changebound": {
     "title": "Changebound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5472,6 +5888,7 @@
   },
   "Changebound Boost Aura": {
     "title": "Changebound Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5485,6 +5902,7 @@
   },
   "Changebound Boost": {
     "title": "Changebound Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5498,6 +5916,7 @@
   },
   "Slash": {
     "title": "Slash",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5511,6 +5930,7 @@
   },
   "Bane when Shooting": {
     "title": "Bane when Shooting",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5524,6 +5944,7 @@
   },
   "Storm of Change": {
     "title": "Storm of Change",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5537,6 +5958,7 @@
   },
   "Unstoppable in Melee": {
     "title": "Unstoppable in Melee",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5550,6 +5972,7 @@
   },
   "Split": {
     "title": "Split",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5563,6 +5986,7 @@
   },
   "Bounding Aura": {
     "title": "Bounding Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5576,6 +6000,7 @@
   },
   "Havocbound Boost Aura": {
     "title": "Havocbound Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5589,6 +6014,7 @@
   },
   "Havocbound": {
     "title": "Havocbound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5602,6 +6028,7 @@
   },
   "Dangerous Terrain Debuff": {
     "title": "Dangerous Terrain Debuff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5614,6 +6041,7 @@
   },
   "Havocbound Boost": {
     "title": "Havocbound Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5627,6 +6055,7 @@
   },
   "Melee Slayer Aura": {
     "title": "Melee Slayer Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5639,6 +6068,7 @@
   },
   "Relentless Mark": {
     "title": "Relentless Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5651,6 +6081,7 @@
   },
   "Purge": {
     "title": "Purge",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5663,6 +6094,7 @@
   },
   "Lucky": {
     "title": "Lucky",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5675,6 +6107,7 @@
   },
   "Teleport Aura": {
     "title": "Teleport Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5687,6 +6120,7 @@
   },
   "Lucky Boost Aura": {
     "title": "Lucky Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5699,6 +6133,7 @@
   },
   "Vengeance": {
     "title": "Vengeance",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5711,6 +6146,7 @@
   },
   "Bash": {
     "title": "Bash",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5723,6 +6159,7 @@
   },
   "Lucky Boost": {
     "title": "Lucky Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5735,6 +6172,7 @@
   },
   "Mischievous": {
     "title": "Mischievous",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5747,6 +6185,7 @@
   },
   "Traversal": {
     "title": "Traversal",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5760,6 +6199,7 @@
   },
   "Mischievous Boost Aura": {
     "title": "Mischievous Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5772,6 +6212,7 @@
   },
   "Skewer": {
     "title": "Skewer",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5784,6 +6225,7 @@
   },
   "Mischievous Boost": {
     "title": "Mischievous Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5796,6 +6238,7 @@
   },
   "Unmovable": {
     "title": "Unmovable",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5808,6 +6251,7 @@
   },
   "Delayed Action": {
     "title": "Delayed Action",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5820,6 +6264,7 @@
   },
   "Crossing Attack": {
     "title": "Crossing Attack",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5832,6 +6277,7 @@
   },
   "Empyrean Spirit": {
     "title": "Empyrean Spirit",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5844,6 +6290,7 @@
   },
   "Empyrean Spirit Boost Aura": {
     "title": "Empyrean Spirit Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5856,6 +6303,7 @@
   },
   "Reap": {
     "title": "Reap",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5868,6 +6316,7 @@
   },
   "Bane Mark": {
     "title": "Bane Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5880,6 +6329,7 @@
   },
   "Empyrean Spirit Boost": {
     "title": "Empyrean Spirit Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5892,6 +6342,7 @@
   },
   "Piercing Target": {
     "title": "Piercing Target",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5904,6 +6355,7 @@
   },
   "Re-Deployment": {
     "title": "Re-Deployment",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5916,6 +6368,7 @@
   },
   "Warden Boost Aura": {
     "title": "Warden Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5928,6 +6381,7 @@
   },
   "Smash": {
     "title": "Smash",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5940,6 +6394,7 @@
   },
   "Unstoppable Mark": {
     "title": "Unstoppable Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5952,6 +6407,7 @@
   },
   "Warden Boost": {
     "title": "Warden Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5964,6 +6420,7 @@
   },
   "Sturdy": {
     "title": "Sturdy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5976,6 +6433,7 @@
   },
   "Quake": {
     "title": "Quake",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -5988,6 +6446,7 @@
   },
   "Devastating Frenzy": {
     "title": "Devastating Frenzy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6000,6 +6459,7 @@
   },
   "Precision Charge Aura": {
     "title": "Precision Charge Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6012,6 +6472,7 @@
   },
   "Sturdy Boost Aura": {
     "title": "Sturdy Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6024,6 +6485,7 @@
   },
   "Sturdy Boost": {
     "title": "Sturdy Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6036,6 +6498,7 @@
   },
   "Vinci Tech": {
     "title": "Vinci Tech",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6048,6 +6511,7 @@
   },
   "Protected": {
     "title": "Protected",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6060,6 +6524,7 @@
   },
   "Ranged Slayer Aura": {
     "title": "Ranged Slayer Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6073,6 +6538,7 @@
   },
   "Decimate": {
     "title": "Decimate",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6085,6 +6551,7 @@
   },
   "Vinci Tech Boost Aura": {
     "title": "Vinci Tech Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6097,6 +6564,7 @@
   },
   "Increased Shooting Range Mark": {
     "title": "Increased Shooting Range Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6109,6 +6577,7 @@
   },
   "Precision Spotter": {
     "title": "Precision Spotter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6121,6 +6590,7 @@
   },
   "Ranged Slayer": {
     "title": "Ranged Slayer",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6134,6 +6604,7 @@
   },
   "Vinci Tech Boost": {
     "title": "Vinci Tech Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6146,6 +6617,7 @@
   },
   "Wave-Step": {
     "title": "Wave-Step",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6158,6 +6630,7 @@
   },
   "Guarded": {
     "title": "Guarded",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6170,6 +6643,7 @@
   },
   "Stealth Buff": {
     "title": "Stealth Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6182,6 +6656,7 @@
   },
   "Thrash": {
     "title": "Thrash",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6194,6 +6669,7 @@
   },
   "Wave-Step Boost Aura": {
     "title": "Wave-Step Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6206,6 +6682,7 @@
   },
   "Ambush Re-Deployment": {
     "title": "Ambush Re-Deployment",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6218,6 +6695,7 @@
   },
   "Wave-Step Boost": {
     "title": "Wave-Step Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6230,6 +6708,7 @@
   },
   "Harassing": {
     "title": "Harassing",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6242,6 +6721,7 @@
   },
   "Retreating Strike": {
     "title": "Retreating Strike",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6254,6 +6734,7 @@
   },
   "Regenerative Strength": {
     "title": "Regenerative Strength",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6266,6 +6747,7 @@
   },
   "Predator Fighter": {
     "title": "Predator Fighter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6278,6 +6760,7 @@
   },
   "Ruinous Frenzy": {
     "title": "Ruinous Frenzy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6290,6 +6773,7 @@
   },
   "Lacerate": {
     "title": "Lacerate",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6302,6 +6786,7 @@
   },
   "Harassing Boost Aura": {
     "title": "Harassing Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6314,6 +6799,7 @@
   },
   "Thrust Mark": {
     "title": "Thrust Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6326,6 +6812,7 @@
   },
   "Harassing Boost": {
     "title": "Harassing Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6338,6 +6825,7 @@
   },
   "Precision Growth": {
     "title": "Precision Growth",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6350,6 +6838,7 @@
   },
   "Vale Formation": {
     "title": "Vale Formation",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6362,6 +6851,7 @@
   },
   "Courage Buff": {
     "title": "Courage Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6374,6 +6864,7 @@
   },
   "Counter in Melee": {
     "title": "Counter in Melee",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6386,6 +6877,7 @@
   },
   "Puncture": {
     "title": "Puncture",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6398,6 +6890,7 @@
   },
   "Vale Formation Boost Aura": {
     "title": "Vale Formation Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6410,6 +6903,7 @@
   },
   "Impact Mark": {
     "title": "Impact Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6422,6 +6916,7 @@
   },
   "Vale Formation Boost": {
     "title": "Vale Formation Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6434,6 +6929,7 @@
   },
   "Precision Shooter Aura": {
     "title": "Precision Shooter Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6446,6 +6942,7 @@
   },
   "Bestial": {
     "title": "Bestial",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6458,6 +6955,7 @@
   },
   "Tear": {
     "title": "Tear",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6470,6 +6968,7 @@
   },
   "Bestial Boost Aura": {
     "title": "Bestial Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6482,6 +6981,7 @@
   },
   "Precision Tag": {
     "title": "Precision Tag",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6494,6 +6994,7 @@
   },
   "Bestial Boost": {
     "title": "Bestial Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6506,6 +7007,7 @@
   },
   "Destroyer Boost Aura": {
     "title": "Destroyer Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6518,6 +7020,7 @@
   },
   "Piercing Feat": {
     "title": "Piercing Feat",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6530,6 +7033,7 @@
   },
   "Piercing Feat Aura": {
     "title": "Piercing Feat Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6542,6 +7046,7 @@
   },
   "Rupture": {
     "title": "Rupture",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6554,6 +7059,7 @@
   },
   "Melee Evasion Buff": {
     "title": "Melee Evasion Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6566,6 +7072,7 @@
   },
   "Unwieldy Debuff": {
     "title": "Unwieldy Debuff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6578,6 +7085,7 @@
   },
   "Courage Aura": {
     "title": "Courage Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6590,6 +7098,7 @@
   },
   "Destroyer Boost": {
     "title": "Destroyer Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6602,6 +7111,7 @@
   },
   "Unwieldy": {
     "title": "Unwieldy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6614,6 +7124,7 @@
   },
   "Strafing": {
     "title": "Strafing",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6623,6 +7134,7 @@
   },
   "Increased Shooting Range": {
     "title": "Increased Shooting Range",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6632,6 +7144,7 @@
   },
   "Guarded Buff": {
     "title": "Guarded Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6641,6 +7154,7 @@
   },
   "Brutal Fighter": {
     "title": "Brutal Fighter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6650,6 +7164,7 @@
   },
   "Swift Buff": {
     "title": "Swift Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6659,6 +7174,7 @@
   },
   "Self-Repair Boost Buff": {
     "title": "Self-Repair Boost Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6668,6 +7184,7 @@
   },
   "Increased Shooting Range Buff": {
     "title": "Increased Shooting Range Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6677,6 +7194,7 @@
   },
   "Speed Buff": {
     "title": "Speed Buff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6686,6 +7204,7 @@
   },
   "Honor Code": {
     "title": "Honor Code",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6695,6 +7214,7 @@
   },
   "Royal Warrior": {
     "title": "Royal Warrior",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6704,6 +7224,7 @@
   },
   "Splinter": {
     "title": "Splinter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6713,6 +7234,7 @@
   },
   "Royal Warrior Boost": {
     "title": "Royal Warrior Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6722,6 +7244,7 @@
   },
   "Royal Warrior Boost Aura": {
     "title": "Royal Warrior Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6731,6 +7254,7 @@
   },
   "+1 to Defense": {
     "title": "+1 to Defense",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6740,6 +7264,7 @@
   },
   "Ambushing Piercing Shot": {
     "title": "Ambushing Piercing Shot",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6749,6 +7274,7 @@
   },
   "Dash Aura": {
     "title": "Dash Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6758,6 +7284,7 @@
   },
   "Defensive Frenzy": {
     "title": "Defensive Frenzy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6767,6 +7294,7 @@
   },
   "Piercing Fighting Mark": {
     "title": "Piercing Fighting Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6776,6 +7304,7 @@
   },
   "Precision Frenzy": {
     "title": "Precision Frenzy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6785,6 +7314,7 @@
   },
   "Predator": {
     "title": "Predator",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6794,6 +7324,7 @@
   },
   "Predator Shooter": {
     "title": "Predator Shooter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6803,6 +7334,7 @@
   },
   "Predator Shooter Aura": {
     "title": "Predator Shooter Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6812,6 +7344,7 @@
   },
   "Primeborn": {
     "title": "Primeborn",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6821,6 +7354,7 @@
   },
   "Rapid Charge Mark": {
     "title": "Rapid Charge Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6830,6 +7364,7 @@
   },
   "Surge Mark": {
     "title": "Surge Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6839,6 +7374,7 @@
   },
   "Takedown Shot": {
     "title": "Takedown Shot",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6848,6 +7384,7 @@
   },
   "Piercing Shooting Mark": {
     "title": "Piercing Shooting Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6857,6 +7394,7 @@
   },
   "Piercing Debuff": {
     "title": "Piercing Debuff",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6866,6 +7404,7 @@
   },
   "Rending Mark": {
     "title": "Rending Mark",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6875,6 +7414,7 @@
   },
   "Vale Oath": {
     "title": "Vale Oath",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6884,6 +7424,7 @@
   },
   "Vale Oath Boost": {
     "title": "Vale Oath Boost",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6893,6 +7434,7 @@
   },
   "Vale Oath Boost Aura": {
     "title": "Vale Oath Boost Aura",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -6902,6 +7444,7 @@
   },
   "Piercing Fighter": {
     "title": "Piercing Fighter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",

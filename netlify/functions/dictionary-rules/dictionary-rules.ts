@@ -16,5 +16,6 @@ export const handler: Handler = async (event) => {
     });
   }
 
-  return jsonResponse(200, getCommonRulesDictionary());
+  const system = event.queryStringParameters?.system;
+  return jsonResponse(200, getCommonRulesDictionary(system));
 };

@@ -1,6 +1,7 @@
 {
   "Labyrinthian Sparkle": {
     "title": "Scintillement Labyrinthique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -11,6 +12,7 @@
   },
   "Maze Vines": {
     "title": "Vignes du Labyrinthe",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -21,6 +23,7 @@
   },
   "Dream Haunter": {
     "title": "Hanteur de Rêves",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -31,6 +34,7 @@
   },
   "Chill of Death": {
     "title": "Frisson de Mort",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -41,6 +45,7 @@
   },
   "Combat Possession": {
     "title": "Possession de Combat",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -51,6 +56,7 @@
   },
   "Spectral Light": {
     "title": "Lumière Spectrale",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -61,6 +67,7 @@
   },
   "Hunter's Strike": {
     "title": "Frappe du Chasseur",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -71,6 +78,7 @@
   },
   "Spirit Vines": {
     "title": "Vignes Spirituelles",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -81,6 +89,7 @@
   },
   "Natural Harmony": {
     "title": "Harmonie Naturelle",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -91,6 +100,7 @@
   },
   "Tree Stomp": {
     "title": "Pietinement d'Arbre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -101,6 +111,7 @@
   },
   "Tree-Bark Growth": {
     "title": "Croissance d'Ecorce",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -111,6 +122,7 @@
   },
   "Insect Attack": {
     "title": "Attaque d'Insectes",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -121,6 +133,7 @@
   },
   "Searing Heat": {
     "title": "Chaleur Brulante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -131,6 +144,7 @@
   },
   "Lava Bolts": {
     "title": "Projectiles de Lave",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -141,6 +155,7 @@
   },
   "Auric Fury": {
     "title": "Fureur Aurique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -151,6 +166,7 @@
   },
   "Suffocating Ashes": {
     "title": "Cendres Suffocantes",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -161,6 +177,7 @@
   },
   "Seismic Shift": {
     "title": "Deplacement Sismique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -171,6 +188,7 @@
   },
   "Fire Storm": {
     "title": "Tempete de Feu",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -181,6 +199,7 @@
   },
   "Vigorous Return": {
     "title": "Retour Vigoureux",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -191,6 +210,7 @@
   },
   "Cursed Strike": {
     "title": "Frappe Maudite",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -201,6 +221,7 @@
   },
   "Seductive Invocation": {
     "title": "Invocation Seduisante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -211,6 +232,7 @@
   },
   "Spectral Wind": {
     "title": "Vent Spectral",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -221,6 +243,7 @@
   },
   "Dance of Death": {
     "title": "Danse de la Mort",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -231,6 +254,7 @@
   },
   "Deadly Gaze": {
     "title": "Regard Mortel",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -241,6 +265,7 @@
   },
   "Aether-Cloud Rune": {
     "title": "Rune de Nuage d'Aether",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -251,6 +276,7 @@
   },
   "Aether Shock": {
     "title": "Choc d'Aether",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -261,6 +287,7 @@
   },
   "Wind Rune": {
     "title": "Rune du Vent",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -271,6 +298,7 @@
   },
   "Lightning Shock": {
     "title": "Choc de Foudre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -281,6 +309,7 @@
   },
   "Tinkering Rune": {
     "title": "Rune de Bricolage",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -291,6 +320,7 @@
   },
   "Thunder Shock": {
     "title": "Choc de Tonnerre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -301,6 +331,7 @@
   },
   "Poison Mist": {
     "title": "Brume Empoisonnée",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -311,6 +342,7 @@
   },
   "Piranha Swarm": {
     "title": "Nuée de piranhas",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -321,6 +353,7 @@
   },
   "Fateful Guidance": {
     "title": "Guide providentiel",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -331,6 +364,7 @@
   },
   "Jaguar Pounce": {
     "title": "Jaguar bondissant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -341,6 +375,7 @@
   },
   "Primordial Roar": {
     "title": "Rugissement Primordial",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -351,6 +386,7 @@
   },
   "Serpent Egg": {
     "title": "Œuf de Serpent",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -361,6 +397,7 @@
   },
   "Terrifying Fury": {
     "title": "Fureur terrifiante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -371,6 +408,7 @@
   },
   "Flame of Destruction": {
     "title": "Flamme de la destruction",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -381,6 +419,7 @@
   },
   "Fiery Protection": {
     "title": "Protection Ardente",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -391,6 +430,7 @@
   },
   "Brutal Massacre": {
     "title": "Massacre Brutal",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -401,6 +441,7 @@
   },
   "War Boon": {
     "title": "Bénédiction guerrière",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -411,6 +452,7 @@
   },
   "Headtaker Strike": {
     "title": "Décapitation",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -421,6 +463,7 @@
   },
   "Aura of Pestilence": {
     "title": "Aura de Pestilence",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -431,6 +474,7 @@
   },
   "Rapid Putrefaction": {
     "title": "Putrefaction Rapide",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -441,6 +485,7 @@
   },
   "Blessed Virus": {
     "title": "Virus Beni",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -451,6 +496,7 @@
   },
   "Plague Malediction": {
     "title": "Malediction de la Peste",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -461,6 +507,7 @@
   },
   "Plague Boon": {
     "title": "Don de la Peste",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -471,6 +518,7 @@
   },
   "Rot Wave": {
     "title": "Vague de Putrefaction",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -481,6 +529,7 @@
   },
   "Combat Ecstasy": {
     "title": "Extase de Combat",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -491,6 +540,7 @@
   },
   "Beautiful Pain": {
     "title": "Belle Douleur",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -501,6 +551,7 @@
   },
   "Blissful Dance": {
     "title": "Danse Extatique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -511,6 +562,7 @@
   },
   "Total Seizure": {
     "title": "Paralysie Totale",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -521,6 +573,7 @@
   },
   "Lust Boon": {
     "title": "Don de la Luxure",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -531,6 +584,7 @@
   },
   "Overpowering Lash": {
     "title": "Fouet Ecrasant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -541,6 +595,7 @@
   },
   "Shifting Form": {
     "title": "Forme Changeante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -551,6 +606,7 @@
   },
   "Sky Blaze": {
     "title": "Brasier Celeste",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -561,6 +617,7 @@
   },
   "Breath of Change": {
     "title": "Souffle du Changement",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -571,6 +628,7 @@
   },
   "Mutating Inferno": {
     "title": "Inferno Mutant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -581,6 +639,7 @@
   },
   "Change Boon": {
     "title": "Don du Changement",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -591,6 +650,7 @@
   },
   "Power Bolt": {
     "title": "Eclair de Puissance",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -601,6 +661,7 @@
   },
   "Magic Skitter-Step": {
     "title": "Pas-Fourbe Magique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -611,6 +672,7 @@
   },
   "Heavenly Strike": {
     "title": "Frappe Celeste",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -621,6 +683,7 @@
   },
   "God-Mother's Frenzy": {
     "title": "Frenesie de la Deesse-Mere",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -631,6 +694,7 @@
   },
   "Choking Censer-Fog": {
     "title": "Brouillard d'Encensoir Suffocant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -641,6 +705,7 @@
   },
   "Cracking Bell-Chime": {
     "title": "Carillon de Cloche Fissuree",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -651,6 +716,7 @@
   },
   "Lightning Blast": {
     "title": "Explosion Foudroyante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -661,6 +727,7 @@
   },
   "Drain Spirit": {
     "title": "Drain d'Esprit",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -671,6 +738,7 @@
   },
   "Deep Fracture": {
     "title": "Fracture Profonde",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -681,6 +749,7 @@
   },
   "Rapid Ossification": {
     "title": "Ossification Rapide",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -691,6 +760,7 @@
   },
   "Shattering Blast": {
     "title": "Explosion Brisante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -701,6 +771,7 @@
   },
   "Soul Enslaver": {
     "title": "Asservisseur d'Ames",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -711,6 +782,7 @@
   },
   "Bone Breaker": {
     "title": "Briseur d'Os",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -721,6 +793,7 @@
   },
   "Evil Gaze": {
     "title": "Mauvais Oeil",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -731,6 +804,7 @@
   },
   "Godly Smash": {
     "title": "Fracassement Divin",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -741,6 +815,7 @@
   },
   "Way-Clan Chant": {
     "title": "Chant de la Voie-Clan",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -751,6 +826,7 @@
   },
   "Bone Strike": {
     "title": "Frappe d'Os",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -761,6 +837,7 @@
   },
   "Magic Fists": {
     "title": "Poings Magiques",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -771,6 +848,7 @@
   },
   "Iron Burst": {
     "title": "Explosion de Fer",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -781,6 +859,7 @@
   },
   "Battle Guts": {
     "title": "Tripes de Bataille",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -791,6 +870,7 @@
   },
   "Gobble Up": {
     "title": "Gober",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -801,6 +881,7 @@
   },
   "Gorging Feast": {
     "title": "Festin Vorace",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -811,6 +892,7 @@
   },
   "Great Trampling": {
     "title": "Grand Pietinement",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -821,6 +903,7 @@
   },
   "Crack Spirits": {
     "title": "Brise-Esprits",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -831,6 +914,7 @@
   },
   "Ice Maw": {
     "title": "Gueule de Glace",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -841,6 +925,7 @@
   },
   "Desert Storm": {
     "title": "Tempete du Desert",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -851,6 +936,7 @@
   },
   "Storm of Skulls": {
     "title": "Tempete de Cranes",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -861,6 +947,7 @@
   },
   "Cursed Arrows": {
     "title": "Fleches Maudites",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -871,6 +958,7 @@
   },
   "Rapid Desiccation": {
     "title": "Dessechement Rapide",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -881,6 +969,7 @@
   },
   "Tomb Queen's Guidance": {
     "title": "Guide de la Reine des Tombes",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -891,6 +980,7 @@
   },
   "Tomb Queen's Vengeance": {
     "title": "Vengeance de la Reine des Tombes",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -901,6 +991,7 @@
   },
   "Heavenly Guidance": {
     "title": "Guidance Celeste",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -911,6 +1002,7 @@
   },
   "Lightning Bolt": {
     "title": "Éclair",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "Kingdom of Angels",
@@ -926,6 +1018,7 @@
   },
   "Star Blessing": {
     "title": "Benediction Stellaire",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -936,6 +1029,7 @@
   },
   "Angelic Storm": {
     "title": "Tempete Angelique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -946,6 +1040,7 @@
   },
   "Shock Energy": {
     "title": "Energie de Choc",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -956,6 +1051,7 @@
   },
   "Thunder Strike": {
     "title": "Frappe de Tonnerre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -966,6 +1062,7 @@
   },
   "Aura of Heroism": {
     "title": "Aura d'Heroisme",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "Human Empire",
@@ -981,6 +1078,7 @@
   },
   "Fire Ball": {
     "title": "Boule de Feu",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "Human Empire",
@@ -996,6 +1094,7 @@
   },
   "Magic Targeting": {
     "title": "Ciblage Magique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1006,6 +1105,7 @@
   },
   "Blood Hex": {
     "title": "Malefice de Sang",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1016,6 +1116,7 @@
   },
   "Elemental Form": {
     "title": "Forme Elementaire",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1026,6 +1127,7 @@
   },
   "Spirit Leech": {
     "title": "Siphon d'Esprit",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1036,6 +1138,7 @@
   },
   "Eagle-Eyed Focus": {
     "title": "Concentration de l'Oeil d'Aigle",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1046,6 +1149,7 @@
   },
   "Arcane Blast": {
     "title": "Explosion Arcanique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1056,6 +1160,7 @@
   },
   "Magical Surge": {
     "title": "Poussee Magique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1066,6 +1171,7 @@
   },
   "High Tempest": {
     "title": "Haute Tempete",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1076,6 +1182,7 @@
   },
   "Path to Glory": {
     "title": "Voie vers la Gloire",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1086,6 +1193,7 @@
   },
   "Magic Arrows": {
     "title": "Fleches Magiques",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1096,6 +1204,7 @@
   },
   "Barbed Chains": {
     "title": "Chaines Barbelees",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1106,6 +1215,7 @@
   },
   "Cursed Stride": {
     "title": "Foulee Maudite",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1116,6 +1226,7 @@
   },
   "Havoc Boost": {
     "title": "Renforcement du Chaos",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1126,6 +1237,7 @@
   },
   "Impaling Spike": {
     "title": "Pointe Empalante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1136,6 +1248,7 @@
   },
   "Dark Shielding": {
     "title": "Protection Sombre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1146,6 +1259,7 @@
   },
   "Thorn Field": {
     "title": "Champ d'Epines",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1156,6 +1270,7 @@
   },
   "Rune of Piercing": {
     "title": "Rune de Percage",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1166,6 +1281,7 @@
   },
   "Rune of Lightning": {
     "title": "Rune de Foudre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1176,6 +1292,7 @@
   },
   "Rune of Ashes": {
     "title": "Rune de Cendres",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1186,6 +1303,7 @@
   },
   "Rune of Darkness": {
     "title": "Rune des Tenebres",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1196,6 +1314,7 @@
   },
   "Rune of Cracking": {
     "title": "Rune de Fissuration",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1206,6 +1325,7 @@
   },
   "Rune of Insanity": {
     "title": "Rune de Folie",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1216,6 +1336,7 @@
   },
   "Luck of the Ancients": {
     "title": "Chance des Anciens",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1226,6 +1347,7 @@
   },
   "Cleansing Spirit": {
     "title": "Esprit Purificateur",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1236,6 +1358,7 @@
   },
   "Giant Shadow": {
     "title": "Ombre Geante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1246,6 +1369,7 @@
   },
   "Nightmare Spirit": {
     "title": "Esprit de Cauchemar",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1256,6 +1380,7 @@
   },
   "Shortling Courage": {
     "title": "Courage des Petits",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1266,6 +1391,7 @@
   },
   "Dark Forest Spirit": {
     "title": "Esprit de la Foret Sombre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1276,6 +1402,7 @@
   },
   "Spider Might": {
     "title": "Puissance de l'Araignee",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1286,6 +1413,7 @@
   },
   "Stinging Spider": {
     "title": "Araignee Piquante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1296,6 +1424,7 @@
   },
   "Bat Thirst": {
     "title": "Soif de Chauve-Souris",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1306,6 +1435,7 @@
   },
   "Pouncing Wolf": {
     "title": "Loup Bondissant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1316,6 +1446,7 @@
   },
   "Wolf Resiliance": {
     "title": "Resilience du Loup",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1326,6 +1457,7 @@
   },
   "Biting Bat": {
     "title": "Chauve-Souris Mordeuse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1336,6 +1468,7 @@
   },
   "Shock Attack": {
     "title": "Attaque de Choc",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1346,6 +1479,7 @@
   },
   "Thunder Clap": {
     "title": "Coup de Tonnerre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1356,6 +1490,7 @@
   },
   "Star Strike": {
     "title": "Frappe Stellaire",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1366,6 +1501,7 @@
   },
   "Heavy Storm": {
     "title": "Violente tempête",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1376,6 +1512,7 @@
   },
   "Warding Cloud": {
     "title": "Nuage Protecteur",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1386,6 +1523,7 @@
   },
   "Rune of Battle": {
     "title": "Rune de Bataille",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1396,6 +1534,7 @@
   },
   "Rune of Breaking": {
     "title": "Rune de Brisure",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1406,6 +1545,7 @@
   },
   "Rune of Protection": {
     "title": "Rune de Protection",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1416,6 +1556,7 @@
   },
   "Rune of Cleaving": {
     "title": "Rune de Fendage",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1426,6 +1567,7 @@
   },
   "Rune of Smiting": {
     "title": "Rune de Chatiment",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1436,6 +1578,7 @@
   },
   "Rune of Spite": {
     "title": "Rune de Spite",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1446,6 +1589,7 @@
   },
   "Clearview Leaves": {
     "title": "Feuilles Clairevue",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1456,6 +1600,7 @@
   },
   "Explosive Concoction": {
     "title": "Concoction Explosive",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1466,6 +1611,7 @@
   },
   "Mesmer Oils": {
     "title": "Huiles Mesmeriques",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1476,6 +1622,7 @@
   },
   "Choking Fog": {
     "title": "Brouillard Etouffant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1486,6 +1633,7 @@
   },
   "Fury Herbs": {
     "title": "Herbes de Fureur",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1496,6 +1644,7 @@
   },
   "Neurotoxin Gas": {
     "title": "Gaz Neurotoxique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1506,6 +1655,7 @@
   },
   "Spirit Wind": {
     "title": "Vent Spirituel",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1516,6 +1666,7 @@
   },
   "Dragon Fire": {
     "title": "Feu Draconique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1526,6 +1677,7 @@
   },
   "Astral Storm": {
     "title": "Tempete Astrale",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1536,6 +1688,7 @@
   },
   "Jade Claws": {
     "title": "Griffes de Jade",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1546,6 +1699,7 @@
   },
   "Ancestral Guidance": {
     "title": "Guidance Ancestrale",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1556,6 +1710,7 @@
   },
   "Blazing Starlight": {
     "title": "Lueur Stellaire Ardente",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1566,6 +1721,7 @@
   },
   "High Tide": {
     "title": "Maree Haute",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1576,6 +1732,7 @@
   },
   "Erode Soul": {
     "title": "Erosion de l'Ame",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1586,6 +1743,7 @@
   },
   "Crushing Pressure": {
     "title": "Pression Ecrasante",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1596,6 +1754,7 @@
   },
   "Power Wave": {
     "title": "Vague de Puissance",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1606,6 +1765,7 @@
   },
   "Darkest Abyss": {
     "title": "Abime le Plus Sombre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1616,6 +1776,7 @@
   },
   "Sea Storm": {
     "title": "Tempete Marine",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1626,6 +1787,7 @@
   },
   "Dark Isle Spirit": {
     "title": "Esprit de l'Ile Sombre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1636,6 +1798,7 @@
   },
   "Blade Storm": {
     "title": "Tempete de Lames",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1646,6 +1809,7 @@
   },
   "World of Pain": {
     "title": "Monde de Douleur",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1656,6 +1820,7 @@
   },
   "Storm Wave": {
     "title": "Vague de Tempete",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1666,6 +1831,7 @@
   },
   "Healing Winds": {
     "title": "Vents Guerisseurs",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1676,6 +1842,7 @@
   },
   "Black Bolt": {
     "title": "Eclair Noir",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1686,6 +1853,7 @@
   },
   "Protection of the Huntress": {
     "title": "Protection de la Chasseresse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1696,6 +1864,7 @@
   },
   "Cleansing Light": {
     "title": "Lumiere Purificatrice",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1706,6 +1875,7 @@
   },
   "Great Hunt": {
     "title": "Grande Chasse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1716,6 +1886,7 @@
   },
   "Searing Gaze": {
     "title": "Regard Brulant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1726,6 +1897,7 @@
   },
   "Curse of the Huntress": {
     "title": "Malediction de la Chasseresse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1736,6 +1908,7 @@
   },
   "Wrath of the Huntress": {
     "title": "Colere de la Chasseresse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1746,6 +1919,7 @@
   },
   "Surge of Power": {
     "title": "Deferlante de Puissance",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1756,6 +1930,7 @@
   },
   "Flock Attack": {
     "title": "Attaque de Nuée",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1766,6 +1941,7 @@
   },
   "Hunting Roar": {
     "title": "Rugissement de Chasse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1776,6 +1952,7 @@
   },
   "Ancestral Wrath": {
     "title": "Colere Ancestrale",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1786,6 +1963,7 @@
   },
   "Spirit Mantle": {
     "title": "Manteau Spirituel",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1796,6 +1974,7 @@
   },
   "Destructive Flame": {
     "title": "Flamme Destructrice",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1806,6 +1985,7 @@
   },
   "Absorption Amplifier": {
     "title": "Absorption Amplifier",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1816,6 +1996,7 @@
   },
   "Advanced Sight": {
     "title": "Vision accrue",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1826,6 +2007,7 @@
   },
   "Ammo Boost": {
     "title": "Ammo Renforcement",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1836,6 +2018,7 @@
   },
   "Animate Spirit": {
     "title": "Animate Esprit",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1846,6 +2029,7 @@
   },
   "Apparition of Doom": {
     "title": "Apparition of Doom",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1856,6 +2040,7 @@
   },
   "Armor Rune": {
     "title": "Armor Rune",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1866,6 +2051,7 @@
   },
   "Art of Pain": {
     "title": "Art of Pain",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1876,6 +2062,7 @@
   },
   "Asphyxiating Fog": {
     "title": "Asphyxiating Fog",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1886,6 +2073,7 @@
   },
   "Assign Bounty": {
     "title": "Assign Bounty",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1896,6 +2084,7 @@
   },
   "Aura of Peace": {
     "title": "Aura of Paix",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "Rebel Guerrillas",
@@ -1911,6 +2100,7 @@
   },
   "Bad Omen": {
     "title": "Bad Omen",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1921,6 +2111,7 @@
   },
   "Badland Frenzy": {
     "title": "Badland Frenzy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1931,6 +2122,7 @@
   },
   "Banishing Sigil": {
     "title": "Banishing Sigil",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1941,6 +2133,7 @@
   },
   "Battle Rune": {
     "title": "Battle Rune",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1951,6 +2144,7 @@
   },
   "Berserker Frenzy": {
     "title": "Berserker Frenzy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1961,6 +2155,7 @@
   },
   "Bio-Displacer": {
     "title": "Bio-Displacer",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1971,6 +2166,7 @@
   },
   "Bio-Horror": {
     "title": "Bio-Horror",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1981,6 +2177,7 @@
   },
   "Blades of Discord": {
     "title": "Blades of Discord",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -1991,6 +2188,7 @@
   },
   "Blessed Ammo": {
     "title": "Munitions bénies",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2001,6 +2199,7 @@
   },
   "Blessing of Souls": {
     "title": "Blessing of Souls",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2011,6 +2210,7 @@
   },
   "Blood Dome": {
     "title": "Sang Dome",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2021,6 +2221,7 @@
   },
   "Blood Sight": {
     "title": "Sang Sight",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2031,6 +2232,7 @@
   },
   "Blood Trauma": {
     "title": "Sang Trauma",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2041,6 +2243,7 @@
   },
   "Blood Wound": {
     "title": "Sang Wound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2051,6 +2254,7 @@
   },
   "Boom!": {
     "title": "Boom!",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2061,6 +2265,7 @@
   },
   "Brain Burst": {
     "title": "Brain Burst",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2071,6 +2276,7 @@
   },
   "Brain Infestation": {
     "title": "Brain Infestation",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2081,6 +2287,7 @@
   },
   "Breaking Rune": {
     "title": "Breaking Rune",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2091,6 +2298,7 @@
   },
   "Brute Guts": {
     "title": "Brute Guts",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2101,6 +2309,7 @@
   },
   "Burn the Heretic": {
     "title": "Brulez les hérétiques",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2111,6 +2320,7 @@
   },
   "Burst of Rage": {
     "title": "Burst of Rage",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2121,6 +2331,7 @@
   },
   "Calculated Foresight": {
     "title": "Calculated Foresight",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2131,6 +2342,7 @@
   },
   "Celestial Roar": {
     "title": "Celestial Roar",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2141,6 +2353,7 @@
   },
   "Cerebral Trauma": {
     "title": "Traumatisme cérébral ",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2151,6 +2364,7 @@
   },
   "Choking Gas": {
     "title": "Choking Gas",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2161,6 +2375,7 @@
   },
   "Choking Waste-Fog": {
     "title": "Choking Waste-Fog",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2171,6 +2386,7 @@
   },
   "Clan Power": {
     "title": "Clan Power",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2181,6 +2397,7 @@
   },
   "Cleaving Rune": {
     "title": "Cleaving Rune",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2191,6 +2408,7 @@
   },
   "Coordinated Aggression": {
     "title": "Coordinated Aggression",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2201,6 +2419,7 @@
   },
   "Corpo-Network Link": {
     "title": "Corpo-Network Link",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2211,6 +2430,7 @@
   },
   "Corrode Weapons": {
     "title": "Corrode Weapons",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2221,6 +2441,7 @@
   },
   "Cracking Blast": {
     "title": "Cracking Explosion",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2231,6 +2452,7 @@
   },
   "Crackling Bolt": {
     "title": "Crackling Eclair",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2241,6 +2463,7 @@
   },
   "Creator of Illusions": {
     "title": "Creator of Illusions",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2251,6 +2474,7 @@
   },
   "Crush!": {
     "title": "Crush!",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2261,6 +2485,7 @@
   },
   "Crushing Force": {
     "title": "Crushing Force",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2271,6 +2496,7 @@
   },
   "Cyber-City Connection": {
     "title": "Cyber-City Connection",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2281,6 +2507,7 @@
   },
   "Cyberspace Vision": {
     "title": "Cyberspace Vision",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2291,6 +2518,7 @@
   },
   "Cyborg Assault": {
     "title": "Cyborg Assault",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2301,6 +2529,7 @@
   },
   "Dark Assault": {
     "title": "Sombre Assault",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2311,6 +2540,7 @@
   },
   "Dark Dome": {
     "title": "Sombre Dome",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2321,6 +2551,7 @@
   },
   "Dark Mist": {
     "title": "Sombre Mist",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2331,6 +2562,7 @@
   },
   "Dark Sight": {
     "title": "Sombre Sight",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2341,6 +2573,7 @@
   },
   "Dark Trauma": {
     "title": "Sombre Trauma",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2351,6 +2584,7 @@
   },
   "Dark Wound": {
     "title": "Sombre Wound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2361,6 +2595,7 @@
   },
   "Deadly Surge": {
     "title": "Deadly Surge",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2371,6 +2606,7 @@
   },
   "Death Bolt": {
     "title": "Death Eclair",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2381,6 +2617,7 @@
   },
   "Deceleration Rune": {
     "title": "Deceleration Rune",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2391,6 +2628,7 @@
   },
   "Deep Hypnosis": {
     "title": "Deep Hypnosis",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2401,6 +2639,7 @@
   },
   "Deep Meditation": {
     "title": "Deep Meditation",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2411,6 +2650,7 @@
   },
   "Destroy!": {
     "title": "Destroy!",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2421,6 +2661,7 @@
   },
   "Devastating Strike": {
     "title": "Devastating Frappe",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2431,6 +2672,7 @@
   },
   "Devour Essence": {
     "title": "Devour Essence",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2441,6 +2683,7 @@
   },
   "Disastrous Malfunction": {
     "title": "Disastrous Malfunction",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2451,6 +2694,7 @@
   },
   "Dome of Doom": {
     "title": "Dome of Doom",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2461,6 +2705,7 @@
   },
   "Doom Strike": {
     "title": "Doom Frappe",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2471,6 +2716,7 @@
   },
   "Dragon Breath": {
     "title": "Dragon Breath",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2481,6 +2727,7 @@
   },
   "Dread Strike": {
     "title": "Dread Frappe",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2491,6 +2738,7 @@
   },
   "Elder Protection": {
     "title": "Elder Protection",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2501,6 +2749,7 @@
   },
   "Electric Bolt": {
     "title": "Electric Eclair",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2511,6 +2760,7 @@
   },
   "Electric Tempest": {
     "title": "Electric Tempest",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "Human Defense Force",
@@ -2526,6 +2776,7 @@
   },
   "Elemental Seeker": {
     "title": "Elemental Seeker",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2536,6 +2787,7 @@
   },
   "EMP Blast": {
     "title": "EMP Explosion",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2546,6 +2798,7 @@
   },
   "Energy Storm": {
     "title": "Energy Tempete",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2556,6 +2809,7 @@
   },
   "Enhance Serum": {
     "title": "Enhance Serum",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2566,6 +2820,7 @@
   },
   "Eternal Flame": {
     "title": "Flamme éternelle",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2576,6 +2831,7 @@
   },
   "Eternal Guidance": {
     "title": "Eternal Guidance",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2586,6 +2842,7 @@
   },
   "Expel Threat": {
     "title": "Expel Threat",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2596,6 +2853,7 @@
   },
   "Fade in the Dark": {
     "title": "Fade in the Sombre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2606,6 +2864,7 @@
   },
   "Fatal Sorrow": {
     "title": "Fatal Sorrow",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2616,6 +2875,7 @@
   },
   "Feral Strike": {
     "title": "Feral Frappe",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2626,6 +2886,7 @@
   },
   "Flame Bots": {
     "title": "Flame Bots",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2636,6 +2897,7 @@
   },
   "Focused Defender": {
     "title": "Focused Defender",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2646,6 +2908,7 @@
   },
   "Focused Shock": {
     "title": "Focused Shock",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2656,6 +2919,7 @@
   },
   "Forge Protection": {
     "title": "Forge Protection",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2666,6 +2930,7 @@
   },
   "Gauss Bots": {
     "title": "Gauss Bots",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2676,6 +2941,7 @@
   },
   "Godly Thunder": {
     "title": "Godly Thunder",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2686,6 +2952,7 @@
   },
   "Great Psy-Maw": {
     "title": "Great Psy-Maw",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2696,6 +2963,7 @@
   },
   "Guardian Protection": {
     "title": "Guardian Protection",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2706,6 +2974,7 @@
   },
   "Havoc Boon": {
     "title": "Havoc Boon",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2716,6 +2985,7 @@
   },
   "Havoc Fog": {
     "title": "Havoc Fog",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2726,6 +2996,7 @@
   },
   "Havoc Terror": {
     "title": "Havoc Terror",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2736,6 +3007,7 @@
   },
   "Havoc Trauma": {
     "title": "Havoc Trauma",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2746,6 +3018,7 @@
   },
   "Head Bang": {
     "title": "Head Bang",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2756,6 +3029,7 @@
   },
   "Heavenly Lance": {
     "title": "Heavenly Lance",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2766,6 +3040,7 @@
   },
   "Hidden Spirits": {
     "title": "Hidden Esprits",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2776,6 +3051,7 @@
   },
   "Hive Shriek": {
     "title": "Hive Shriek",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2786,6 +3062,7 @@
   },
   "Holistic Suffering": {
     "title": "Holistic Suffering",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2796,6 +3073,7 @@
   },
   "Holy Rage": {
     "title": "Sainte colère",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2806,6 +3084,7 @@
   },
   "Infuse Bloodthirst": {
     "title": "Infuse Sangthirst",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2816,6 +3095,7 @@
   },
   "Insidious Protection": {
     "title": "Insidious Protection",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2826,6 +3106,7 @@
   },
   "Inspiring Bots": {
     "title": "Inspiring Bots",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2836,6 +3117,7 @@
   },
   "Jaguar Blaze": {
     "title": "Jaguar Blaze",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2846,6 +3128,7 @@
   },
   "Killing Blow": {
     "title": "Killing Blow",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2856,6 +3139,7 @@
   },
   "Knight Dome": {
     "title": "Knight Dome",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2866,6 +3150,7 @@
   },
   "Knight Sight": {
     "title": "Knight Sight",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2876,6 +3161,7 @@
   },
   "Knight Trauma": {
     "title": "Knight Trauma",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2886,6 +3172,7 @@
   },
   "Knight Wound": {
     "title": "Knight Wound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2896,6 +3183,7 @@
   },
   "Light Fragments": {
     "title": "Light Fragments",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2906,6 +3194,7 @@
   },
   "Lightning Fog": {
     "title": "Brouillard fulgurant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2916,6 +3205,7 @@
   },
   "Litanies of War": {
     "title": "Litanies de guerre",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2926,6 +3216,7 @@
   },
   "Lore of Bravery": {
     "title": "Lore of Bravery",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2936,6 +3227,7 @@
   },
   "Lore of Protection": {
     "title": "Lore of Protection",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2946,6 +3238,7 @@
   },
   "Lore of Terror": {
     "title": "Lore of Terror",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2956,6 +3249,7 @@
   },
   "Means of Destruction": {
     "title": "Means of Destruction",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2966,6 +3260,7 @@
   },
   "Mending Bots": {
     "title": "Mending Bots",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2976,6 +3271,7 @@
   },
   "Mind Breaker": {
     "title": "Mind Breaker",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2986,6 +3282,7 @@
   },
   "Mind Corruption": {
     "title": "Mind Corruption",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -2996,6 +3293,7 @@
   },
   "Mind Gash": {
     "title": "Mind Gash",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3006,6 +3304,7 @@
   },
   "Mind Shaper": {
     "title": "Mind Shaper",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3016,6 +3315,7 @@
   },
   "Mind Vortex": {
     "title": "Mind Vortex",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3026,6 +3326,7 @@
   },
   "Mind Wound": {
     "title": "Mind Wound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3036,6 +3337,7 @@
   },
   "Mob Frenzy": {
     "title": "Mob Frenzy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3046,6 +3348,7 @@
   },
   "Neurotoxin Cloud": {
     "title": "Neurotoxin Cloud",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3056,6 +3359,7 @@
   },
   "Nightmare Vision": {
     "title": "Nightmare Vision",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3066,6 +3370,7 @@
   },
   "Nomad Strike": {
     "title": "Nomad Frappe",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3076,6 +3381,7 @@
   },
   "Obscuring Energy": {
     "title": "Obscuring Energy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3086,6 +3392,7 @@
   },
   "Overload Electronics": {
     "title": "Overload Electronics",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3096,6 +3403,7 @@
   },
   "Overwhelming Strike": {
     "title": "Overwhelming Frappe",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3106,6 +3414,7 @@
   },
   "Path of War": {
     "title": "Path of War",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3116,6 +3425,7 @@
   },
   "Piercing Bots": {
     "title": "Piercing Bots",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3126,6 +3436,7 @@
   },
   "Piercing Pulse": {
     "title": "Piercing Pulse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3136,6 +3447,7 @@
   },
   "Pike of Doom": {
     "title": "Pike of Doom",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3146,6 +3458,7 @@
   },
   "Piranha Curse": {
     "title": "Piranha Curse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3156,6 +3469,7 @@
   },
   "Pow!": {
     "title": "Pow!",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3166,6 +3480,7 @@
   },
   "Power Beam": {
     "title": "Power Beam",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3176,6 +3491,7 @@
   },
   "Power Field": {
     "title": "Power Field",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3186,6 +3502,7 @@
   },
   "Power Maw": {
     "title": "Power Maw",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3196,6 +3513,7 @@
   },
   "Power Surge": {
     "title": "Power Surge",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3206,6 +3524,7 @@
   },
   "Protective Dome": {
     "title": "Protective Dome",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3216,6 +3535,7 @@
   },
   "Psy-Adrenaline": {
     "title": "Psy-Adrenaline",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3226,6 +3546,7 @@
   },
   "Psy-Cleansing": {
     "title": "Psy-Cleansing",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3236,6 +3557,7 @@
   },
   "Psy-Destruction": {
     "title": "Psy-Destruction",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3246,6 +3568,7 @@
   },
   "Psy-Emowerment": {
     "title": "Psy-Emowerment",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3256,6 +3579,7 @@
   },
   "Psy-Flame": {
     "title": "Psy-Flame",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3266,6 +3590,7 @@
   },
   "Psy-Frenzy": {
     "title": "Psy-Frenzy",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3276,6 +3601,7 @@
   },
   "Psy-Hunter": {
     "title": "Psy-Hunter",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3286,6 +3612,7 @@
   },
   "Psy-Incense": {
     "title": "Psy-Incense",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3296,6 +3623,7 @@
   },
   "Psy-Injected Courage": {
     "title": "Psy-Injected Courage",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "Human Inquisition",
@@ -3311,6 +3639,7 @@
   },
   "Psy-Rapture": {
     "title": "Psy-Rapture",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3321,6 +3650,7 @@
   },
   "Psy-Strength": {
     "title": "Psy-Strength",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3331,6 +3661,7 @@
   },
   "Psychic Blast": {
     "title": "Psychic Explosion",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3341,6 +3672,7 @@
   },
   "Psychic Chains": {
     "title": "Psychic Chains",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3351,6 +3683,7 @@
   },
   "Psychic Feast": {
     "title": "Psychic Feast",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3361,6 +3694,7 @@
   },
   "Psychic Flurry": {
     "title": "Psychic Flurry",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3371,6 +3705,7 @@
   },
   "Psychic Onslaught": {
     "title": "Psychic Onslaught",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3381,6 +3716,7 @@
   },
   "Psychic Overload": {
     "title": "Psychic Overload",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3391,6 +3727,7 @@
   },
   "Psychic Smash": {
     "title": "Psychic Smash",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3401,6 +3738,7 @@
   },
   "Psychic Stabilization": {
     "title": "Psychic Stabilization",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3411,6 +3749,7 @@
   },
   "Psychic Terror": {
     "title": "Terreur psychique",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3421,6 +3760,7 @@
   },
   "Psychic Vomit": {
     "title": "Psychic Vomit",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3431,6 +3771,7 @@
   },
   "Purge the Impure": {
     "title": "Purge the Impure",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3441,6 +3782,7 @@
   },
   "Quill Blast": {
     "title": "Quill Explosion",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3451,6 +3793,7 @@
   },
   "Raiding Drugs": {
     "title": "Raiding Drugs",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3461,6 +3804,7 @@
   },
   "Rapid Mutation": {
     "title": "Rapid Mutation",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3471,6 +3815,7 @@
   },
   "Resonance Wave": {
     "title": "Resonance Wave",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3481,6 +3826,7 @@
   },
   "Righteous Fury": {
     "title": "Righteous Fury",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3491,6 +3837,7 @@
   },
   "Righteous Wrath": {
     "title": "Colère vertueuse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3501,6 +3848,7 @@
   },
   "Running Shock": {
     "title": "Running Shock",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3511,6 +3859,7 @@
   },
   "Searing Admonition": {
     "title": "Sermon brûlant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3521,6 +3870,7 @@
   },
   "Searing Burst": {
     "title": "Searing Burst",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3531,6 +3881,7 @@
   },
   "Searing Shrapnel": {
     "title": "Searing Shrapnel",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3541,6 +3892,7 @@
   },
   "Serpent Comet": {
     "title": "Serpent Comet",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3551,6 +3903,7 @@
   },
   "Shadow Blast": {
     "title": "Shadow Explosion",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3561,6 +3914,7 @@
   },
   "Shadow Dance": {
     "title": "Shadow Dance",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3571,6 +3925,7 @@
   },
   "Shattering Curse": {
     "title": "Shattering Curse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3581,6 +3936,7 @@
   },
   "Shield Breaker": {
     "title": "Shield Breaker",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3591,6 +3947,7 @@
   },
   "Shock Speed": {
     "title": "Shock Speed",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3601,6 +3958,7 @@
   },
   "Shroud Field": {
     "title": "Shroud Field",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3611,6 +3969,7 @@
   },
   "Shrouding Incense": {
     "title": "Shrouding Incense",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3621,6 +3980,7 @@
   },
   "Smash!": {
     "title": "Smash!",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3631,6 +3991,7 @@
   },
   "Smiting Rune": {
     "title": "Smiting Rune",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3641,6 +4002,7 @@
   },
   "Snake Bite": {
     "title": "Snake Bite",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3651,6 +4013,7 @@
   },
   "Soul Spear": {
     "title": "Soul Spear",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3661,6 +4024,7 @@
   },
   "Spirit Power": {
     "title": "Esprit Power",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3671,6 +4035,7 @@
   },
   "Spirit Resolve": {
     "title": "Esprit Resolve",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3681,6 +4046,7 @@
   },
   "Spread Plague": {
     "title": "Spread Plague",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3691,6 +4057,7 @@
   },
   "Static Blast": {
     "title": "Static Explosion",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3701,6 +4068,7 @@
   },
   "Stimulant Shock": {
     "title": "Stimulant Shock",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3711,6 +4079,7 @@
   },
   "Stinger Blast": {
     "title": "Stinger Explosion",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3721,6 +4090,7 @@
   },
   "Storm of Power": {
     "title": "Tempete of Power",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3731,6 +4101,7 @@
   },
   "System Takeover": {
     "title": "System Takeover",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3741,6 +4112,7 @@
   },
   "Targeting Signal": {
     "title": "Targeting Signal",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3751,6 +4123,7 @@
   },
   "Taser Shock": {
     "title": "Taser Shock",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3761,6 +4134,7 @@
   },
   "Tech Zapper": {
     "title": "Tech Zapper",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3771,6 +4145,7 @@
   },
   "Tech-Sickness": {
     "title": "Tech-Sickness",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3781,6 +4156,7 @@
   },
   "Terror Seeker": {
     "title": "Terror Seeker",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3791,6 +4167,7 @@
   },
   "The Founder's Curse": {
     "title": "The Founder's Curse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3801,6 +4178,7 @@
   },
   "Thunderous Mist": {
     "title": "Thunderous Mist",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3811,6 +4189,7 @@
   },
   "Toxin Mist": {
     "title": "Toxin Mist",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3821,6 +4200,7 @@
   },
   "Trampling Force": {
     "title": "Trampling Force",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3831,6 +4211,7 @@
   },
   "Triangulation Bots": {
     "title": "Triangulation Bots",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3841,6 +4222,7 @@
   },
   "Union Propaganda": {
     "title": "Union Propaganda",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3851,6 +4233,7 @@
   },
   "Veil of Madness": {
     "title": "Veil of Madness",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3861,6 +4244,7 @@
   },
   "Violent Onslaught": {
     "title": "Violent Onslaught",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3871,6 +4255,7 @@
   },
   "Volatile Infection": {
     "title": "Volatile Infection",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3881,6 +4266,7 @@
   },
   "Wasteland Storm": {
     "title": "Wasteland Tempete",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3891,6 +4277,7 @@
   },
   "Watch Dome": {
     "title": "Watch Dome",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3901,6 +4288,7 @@
   },
   "Watch Sight": {
     "title": "Watch Sight",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3911,6 +4299,7 @@
   },
   "Watch Trauma": {
     "title": "Watch Trauma",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3921,6 +4310,7 @@
   },
   "Watch Wound": {
     "title": "Watch Wound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3931,6 +4321,7 @@
   },
   "Wave of Discord": {
     "title": "Wave of Discord",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3941,6 +4332,7 @@
   },
   "Weapon Booster": {
     "title": "Weapon Renforcementer",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3951,6 +4343,7 @@
   },
   "Wolf Dome": {
     "title": "Wolf Dome",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3961,6 +4354,7 @@
   },
   "Wolf Sight": {
     "title": "Wolf Sight",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3971,6 +4365,7 @@
   },
   "Wolf Trauma": {
     "title": "Wolf Trauma",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3981,6 +4376,7 @@
   },
   "Wolf Wound": {
     "title": "Wolf Wound",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -3991,6 +4387,7 @@
   },
   "Worker's Uprising": {
     "title": "Worker's Uprising",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4001,6 +4398,7 @@
   },
   "Zap!": {
     "title": "Zap!",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4011,6 +4409,7 @@
   },
   "Ethereal Warding": {
     "title": "Protection éthérée",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4021,6 +4420,7 @@
   },
   "Dread Shriek": {
     "title": "Cri terrifiant",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4031,6 +4431,7 @@
   },
   "Irresistible Grief": {
     "title": "Chagrin irrésistible",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4041,6 +4442,7 @@
   },
   "Reaping Terror": {
     "title": "Terreur faucheuse",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4051,6 +4453,7 @@
   },
   "Vicious Spirits": {
     "title": "Esprits vicieux",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",
@@ -4061,6 +4464,7 @@
   },
   "Eat Soul": {
     "title": "Mange-âmes",
+    "system": "GF/AOF",
     "description": [
       {
         "system": "all",

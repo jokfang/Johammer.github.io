@@ -51,12 +51,14 @@ export type SpecialRuleIdValue = `${SpecialRuleId}`;
 
 export type RuleTranslationEntry = {
   title: string;
+  system: string;
   specialRule?: string[];
   description: RuleDescription[];
 };
 
 export type SpellTranslationEntry = {
   title: string;
+  system: string;
   specialRule?: string[];
   description: SpellDescription[];
 };

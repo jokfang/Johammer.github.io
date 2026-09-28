@@ -19,8 +19,9 @@ export const handler: Handler = async (event) => {
     });
   }
 
+  const system = event.queryStringParameters?.system;
   return jsonResponse(200, {
-    commonRules: getCommonRulesDictionary(),
-    commonSpells: getCommonSpellsDictionary(),
+    commonRules: getCommonRulesDictionary(system),
+    commonSpells: getCommonSpellsDictionary(system),
   });
 };
