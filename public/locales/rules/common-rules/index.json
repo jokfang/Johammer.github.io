@@ -7,5 +7,9 @@
   "spells": {
     "en": "spells.en.json",
     "fr": "spells.fr.json"
+  },
+  "factions": {
+    "en": "factions.en.json",
+    "fr": "factions.fr.json"
   }
 }

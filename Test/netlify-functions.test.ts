@@ -97,6 +97,7 @@ describe("netlify dictionary handler", () => {
     const body = JSON.parse((res as any).body);
     expect(body.commonRules.en.Hero.title).toBe("Hero");
     expect(Object.keys(body.commonSpells.en).length).toBeGreaterThan(0);
+    expect(body.factionData.en.length).toBeGreaterThan(0);
   });
 
   it("filters both dictionaries by system", async () => {
@@ -109,6 +110,20 @@ describe("netlify dictionary handler", () => {
 
     expect(Object.keys(body.commonRules.en)).toHaveLength(0);
     expect(Object.keys(body.commonSpells.en)).toHaveLength(0);
+    expect(body.factionData.en).toHaveLength(0);
+  });
+
+  it("returns AOFS rules, spells and factions", async () => {
+    const { handler } = await import("../netlify/functions/dictionary/dictionary");
+    const res = await handler(
+      { httpMethod: "GET", queryStringParameters: { system: "AOFS" } } as any,
+      {} as any
+    );
+    const body = JSON.parse((res as any).body);
+
+    expect(body.commonRules.en.Courageous).toBeDefined();
+    expect(body.commonSpells.en["Clan Spirit"]).toBeDefined();
+    expect(body.factionData.en.some((entry: any) => entry.armyName === "Beastmen")).toBe(true);
   });
 
   it("rejects unsupported methods", async () => {

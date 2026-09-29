@@ -2,6 +2,7 @@ import { Handler } from "@netlify/functions";
 import {
   getCommonRulesDictionary,
   getCommonSpellsDictionary,
+  getFactionData,
 } from "../../../src/services/common-rules-api";
 
 const jsonResponse = (statusCode: number, body: unknown) => ({
@@ -23,5 +24,6 @@ export const handler: Handler = async (event) => {
   return jsonResponse(200, {
     commonRules: getCommonRulesDictionary(system),
     commonSpells: getCommonSpellsDictionary(system),
+    factionData: getFactionData(system),
   });
 };

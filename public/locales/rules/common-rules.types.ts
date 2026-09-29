@@ -63,5 +63,13 @@ export type SpellTranslationEntry = {
   description: SpellDescription[];
 };
 
+export type FactionData = {
+  systemCode: string;
+  armyName: string;
+  introduction: string;
+  backgroundStory: string;
+};
+
 export type RulesByLanguage = Record<string, Record<string, RuleTranslationEntry>>;
 export type SpellsByLanguage = Record<string, Record<string, SpellTranslationEntry>>;
+export type FactionDataByLanguage = Record<string, FactionData[]>;

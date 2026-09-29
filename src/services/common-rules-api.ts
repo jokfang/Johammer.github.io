@@ -3,7 +3,11 @@ import rulesFr from "../../public/locales/rules/common-rules/rules.fr.json";
 import rulesPl from "../../public/locales/rules/common-rules/rules.pl.json";
 import spellsEn from "../../public/locales/rules/common-rules/spells.en.json";
 import spellsFr from "../../public/locales/rules/common-rules/spells.fr.json";
+import factionsEn from "../../public/locales/rules/common-rules/factions.en.json";
+import factionsFr from "../../public/locales/rules/common-rules/factions.fr.json";
 import type {
+  FactionData,
+  FactionDataByLanguage,
   RuleTranslationEntry,
   RulesByLanguage,
   SpellTranslationEntry,
@@ -24,6 +28,16 @@ const commonSpellsDictionary: SpellsByLanguage = {
   fr: spellsFr,
 };
 
+const factionData: FactionDataByLanguage = {
+  en: factionsEn,
+  fr: factionsFr,
+};
+
+const containsSystemTag = (value: string, normalizedSystem: string) =>
+  value
+    .split("/")
+    .some((tag) => tag.trim().toLowerCase() === normalizedSystem);
+
 const filterTranslationsBySystem = <T extends { system: string }>(
   translations: Record<string, T>,
   system?: string
@@ -35,9 +49,7 @@ const filterTranslationsBySystem = <T extends { system: string }>(
 
   return Object.fromEntries(
     Object.entries(translations).filter(([, entry]) =>
-      entry.system
-        .split("/")
-        .some((tag) => tag.trim().toLowerCase() === normalizedSystem)
+      containsSystemTag(entry.system, normalizedSystem)
     )
   );
 };
@@ -65,6 +77,22 @@ export const getCommonRulesDictionary = (
 export const getCommonSpellsDictionary = (
   system?: string
 ): SpellsByLanguage => filterDictionaryBySystem(commonSpellsDictionary, system);
+
+export const getFactionData = (system?: string): FactionDataByLanguage => {
+  const normalizedSystem = system?.trim().toLowerCase();
+  if (!normalizedSystem) {
+    return factionData;
+  }
+
+  return Object.fromEntries(
+    Object.entries(factionData).map(([language, entries]) => [
+      language,
+      entries.filter((entry) =>
+        containsSystemTag(entry.systemCode, normalizedSystem)
+      ),
+    ])
+  );
+};
 
 export const getCommonRuleTranslations = (
   language: string,
@@ -97,6 +125,8 @@ export const fetchCommonSpellsDictionary = async (
 ): Promise<SpellsByLanguage> => getCommonSpellsDictionary(system);
 
 export type {
+  FactionData,
+  FactionDataByLanguage,
   RuleTranslationEntry,
   RulesByLanguage,
   SpellTranslationEntry,

@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   fetchCommonRulesDictionary,
+  getFactionData,
   getCommonRuleTranslations,
   getCommonRulesDictionary,
   getCommonSpellTranslations,
@@ -26,9 +27,24 @@ describe("common-rules-api", () => {
     const filteredRules = getCommonRulesDictionary(" gf ");
     const filteredSpells = getCommonSpellTranslations("en", "AoF");
 
-    expect(Object.keys(filteredRules.en)).toHaveLength(Object.keys(rules.en).length);
-    expect(Object.keys(filteredSpells)).toHaveLength(Object.keys(spells.en).length);
+    expect(Object.keys(filteredRules.en).length).toBeGreaterThan(0);
+    expect(Object.keys(filteredRules.en).length).toBeLessThan(Object.keys(rules.en).length);
+    expect(Object.keys(filteredSpells).length).toBeGreaterThan(0);
+    expect(Object.keys(filteredSpells).length).toBeLessThan(Object.keys(spells.en).length);
     expect(Object.keys(getCommonRulesDictionary("G").en)).toHaveLength(0);
     expect(Object.keys(getCommonSpellTranslations("en", "unknown"))).toHaveLength(0);
+  });
+
+  it("includes the missing AOFS translations and faction data", () => {
+    const rules = getCommonRulesDictionary("AOFS");
+    const spells = getCommonSpellsDictionary("AOFS");
+    const factions = getFactionData("AOFS");
+
+    expect(rules.en.Courageous.title).toBe("Courageous");
+    expect(rules.fr.Courageous.title).toBe("Courageux");
+    expect(spells.en["Clan Spirit"].description[0].cost).toBe(1);
+    expect(spells.fr["Clan Spirit"].title).toBe("Esprit du Clan");
+    expect(factions.en.some((entry) => entry.armyName === "Beastmen")).toBe(true);
+    expect(factions.en.some((entry) => entry.armyName === "Brute Clans")).toBe(true);
   });
 });

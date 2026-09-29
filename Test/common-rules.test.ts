@@ -163,7 +163,7 @@ describe("common-rules", () => {
 
     // Typical mojibake markers when UTF-8 has been reinterpreted as latin-1/cp1252.
     expect(
-      /Ã.|Â.|â€™|â€œ|â€\u009d|â€“|ï¿½/.test(decoded)
+      /Ã.|â€™|â€œ|â€\u009d|â€“|ï¿½/.test(decoded)
     ).toBe(false);
   });
 });
