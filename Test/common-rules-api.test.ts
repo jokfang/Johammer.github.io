@@ -33,6 +33,26 @@ describe("common-rules-api", () => {
     expect(Object.keys(filteredSpells).length).toBeLessThan(Object.keys(spells.en).length);
     expect(Object.keys(getCommonRulesDictionary("G").en)).toHaveLength(0);
     expect(Object.keys(getCommonSpellTranslations("en", "unknown"))).toHaveLength(0);
+    expect(filteredRules.en["Hive Bond"].description[0].system).toBe("gf");
+    expect(filteredSpells["Animate Spirit"].description[0].system).toBe("AoF");
+    expect(
+      Object.values(filteredRules.en).every((entry) =>
+        entry.description.some((description) =>
+          description.system
+            .split("/")
+            .some((tag) => tag.trim().toLowerCase() === "gf")
+        )
+      )
+    ).toBe(true);
+    expect(
+      Object.values(filteredSpells).every((entry) =>
+        entry.description.some((description) =>
+          description.system
+            .split("/")
+            .some((tag) => tag.trim().toLowerCase() === "aof")
+        )
+      )
+    ).toBe(true);
   });
 
   it("includes the missing AOFS translations and faction data", () => {

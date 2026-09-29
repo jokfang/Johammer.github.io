@@ -167,6 +167,19 @@ describe("netlify dictionary-rules handler", () => {
     expect(Object.keys(JSON.parse((res as any).body).en)).toHaveLength(0);
   });
 
+  it("scopes generic rule descriptions to the requested system", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-rules/dictionary-rules"
+    );
+    const res = await handler(
+      { httpMethod: "GET", queryStringParameters: { system: "GF" } } as any,
+      {} as any
+    );
+    const body = JSON.parse((res as any).body);
+
+    expect(body.en["Hive Bond"].description[0].system).toBe("GF");
+  });
+
   it("rejects unsupported methods", async () => {
     const { handler } = await import(
       "../netlify/functions/dictionary-rules/dictionary-rules"
@@ -209,6 +222,20 @@ describe("netlify dictionary-spells handler", () => {
     );
 
     expect(Object.keys(JSON.parse((res as any).body).en).length).toBeGreaterThan(0);
+  });
+
+  it("scopes generic spell descriptions to the requested system", async () => {
+    const { handler } = await import(
+      "../netlify/functions/dictionary-spells/dictionary-spells"
+    );
+    const res = await handler(
+      { httpMethod: "GET", queryStringParameters: { system: "AOF" } } as any,
+      {} as any
+    );
+    const body = JSON.parse((res as any).body);
+
+    expect(body.en["Animate Spirit"].description[0].system).toBe("AOF");
+    expect(body.en["Lightning Bolt"].description[0].system).toBe("AOF");
   });
 
   it("rejects unsupported methods", async () => {

@@ -38,7 +38,12 @@ const containsSystemTag = (value: string, normalizedSystem: string) =>
     .split("/")
     .some((tag) => tag.trim().toLowerCase() === normalizedSystem);
 
-const filterTranslationsBySystem = <T extends { system: string }>(
+type SystemScopedTranslation = {
+  system: string;
+  description: Array<{ system: string }>;
+};
+
+const filterTranslationsBySystem = <T extends SystemScopedTranslation>(
   translations: Record<string, T>,
   system?: string
 ): Record<string, T> => {
@@ -47,14 +52,41 @@ const filterTranslationsBySystem = <T extends { system: string }>(
     return translations;
   }
 
+  const responseSystem = system?.trim() || normalizedSystem;
   return Object.fromEntries(
-    Object.entries(translations).filter(([, entry]) =>
-      containsSystemTag(entry.system, normalizedSystem)
-    )
-  );
+    Object.entries(translations)
+      .filter(([, entry]) => containsSystemTag(entry.system, normalizedSystem))
+      .map(([key, entry]) => [
+        key,
+        {
+          ...entry,
+          description: (() => {
+            const descriptions = entry.description.map((description) =>
+              description.system.trim().toLowerCase() === "all"
+                ? { ...description, system: responseSystem }
+                : description
+            );
+
+            if (
+              descriptions.length > 0 &&
+              !descriptions.some((description) =>
+                containsSystemTag(description.system, normalizedSystem)
+              )
+            ) {
+              descriptions[0] = {
+                ...descriptions[0],
+                system: responseSystem,
+              };
+            }
+
+            return descriptions;
+          })(),
+        },
+      ])
+  ) as Record<string, T>;
 };
 
-const filterDictionaryBySystem = <T extends { system: string }>(
+const filterDictionaryBySystem = <T extends SystemScopedTranslation>(
   dictionary: Record<string, Record<string, T>>,
   system?: string
 ): Record<string, Record<string, T>> => {
