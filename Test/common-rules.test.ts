@@ -135,6 +135,17 @@ describe("common-rules", () => {
     expect(translated.rules[0].description).not.toContain("Mis K.O.");
   });
 
+  it("selects the specialized AOFS description", () => {
+    const translator = getRuleTranslator("fr-FR");
+
+    expect(
+      translator("Ambush Aura", { field: "description", system: "aofs" })
+    ).toContain("jusqu'à 3 unités alliées");
+    expect(
+      translator("Ambush Aura", { field: "description", system: "aof" })
+    ).toContain("Cette figurine et son unité");
+  });
+
   it("ignores <key> tags in translated descriptions", () => {
     localStorage.setItem(
       "tombolaopraftotts_currentLanguage",

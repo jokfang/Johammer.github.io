@@ -67,4 +67,62 @@ describe("common-rules-api", () => {
     expect(factions.en.some((entry) => entry.armyName === "Beastmen")).toBe(true);
     expect(factions.en.some((entry) => entry.armyName === "Brute Clans")).toBe(true);
   });
+
+  it("keeps distinct AOFS rule and spell descriptions", () => {
+    const rules = getCommonRulesDictionary("AOFS");
+    const spells = getCommonSpellsDictionary("AOFS");
+    const allRules = getCommonRulesDictionary();
+    const allSpells = getCommonSpellsDictionary();
+
+    const ambushAuraEn = rules.en["Ambush Aura"].description.find(
+      (description) => description.system === "AOFS"
+    );
+    const ambushAuraFr = rules.fr["Ambush Aura"].description.find(
+      (description) => description.system === "AOFS"
+    );
+    const surgeOfPowerEn = spells.en["Surge of Power"].description.find(
+      (description) => description.system === "AOFS"
+    );
+    const surgeOfPowerFr = spells.fr["Surge of Power"].description.find(
+      (description) => description.system === "AOFS"
+    );
+
+    expect(ambushAuraEn?.text).toContain("up to 3 friendly units");
+    expect(ambushAuraFr?.text).toContain("jusqu'à 3 unités alliées");
+    expect(surgeOfPowerEn?.text).toContain("up to two friendly units");
+    expect(surgeOfPowerFr?.text).toContain("jusqu'à deux unités alliées");
+
+    expect(
+      Object.values(allRules.en).filter((entry) =>
+        entry.description.some((description) => description.system === "AOFS")
+      )
+    ).toHaveLength(139);
+    expect(
+      Object.values(allSpells.en).filter((entry) =>
+        entry.description.some((description) => description.system === "AOFS")
+      )
+    ).toHaveLength(213);
+  });
+
+  it("leaves the four ambiguous AOFS spells for faction-specific handling", () => {
+    const spells = getCommonSpellsDictionary();
+
+    for (const name of [
+      "Spirit Wind",
+      "Lightning Bolt",
+      "Aura of Heroism",
+      "Fire Ball",
+    ]) {
+      expect(
+        spells.en[name].description.some(
+          (description) => description.system === "AOFS"
+        )
+      ).toBe(false);
+      expect(
+        spells.fr[name].description.some(
+          (description) => description.system === "AOFS"
+        )
+      ).toBe(false);
+    }
+  });
 });

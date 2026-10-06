@@ -324,8 +324,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and up to 3 friendly units picked before the start of the game get <key>Grounded Precision</key>. If this model is killed, picked models that are deployed lose the rule."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Grounded Precision. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -364,8 +368,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Guardian</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Guardian Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -684,8 +692,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and up to 3 friendly units picked before the start of the game get <key>Protection Feat</key>. If this model is killed, picked models that are deployed lose the rule."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Protection Feat. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2462,8 +2474,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Thrust</key> in melee."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Thrust in melee. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2517,8 +2533,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Counter-Attack</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Counter-Attack. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2532,8 +2552,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get +6” range when shooting."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get +6\" range when shooting. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2564,8 +2588,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Rapid Rush</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Rapid Rush. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2592,8 +2620,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Shadowborn Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Shadowborn Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2605,8 +2637,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Unpredictable Fighter</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
       }
     ]
   },
@@ -2849,8 +2885,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Grounded Protection</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Grounded Protection. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2924,8 +2964,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Piercing Assault</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Piercing Assault. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2952,8 +2996,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Unpredictable Shooter</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Unpredictable Shooter. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2967,8 +3015,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Hit & Run Shooter</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Hit & Run Shooter. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -2982,8 +3034,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Melee Evasion</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Melee Evasion. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3009,8 +3065,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets Quick Shot against once (next time the effect would apply)."
       }
     ]
   },
@@ -3042,8 +3102,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Wild Veil Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Wild Veil Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3086,8 +3150,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Rapid Advance</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Rapid Advance. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3100,8 +3168,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which moves -2” when using Advance actions and -4” when using Rush/Charge actions once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once (next time the effect would apply)."
       }
     ]
   },
@@ -3168,7 +3240,11 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
+        "text": "This model may shoot after using Rush actions."
+      },
+      {
+        "system": "AOFS",
         "text": "This model may shoot after using Rush actions."
       }
     ]
@@ -3212,8 +3288,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Stealth</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Stealth. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3275,8 +3355,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Grounded Reinforcement</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Grounded Reinforcement. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3322,8 +3406,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Quick Shot</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Quick Shot. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3338,8 +3426,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Swift</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Swift. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3353,8 +3445,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Strider</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Strider. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3370,8 +3466,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Unstoppable</key> in melee."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Unstoppable in melee. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3439,8 +3539,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit moves +2” when using Advance actions and +4” when using Rush/Charge actions."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game moves +2\" when using Advance actions and +4\" when using Rush/Charge actions. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3470,8 +3574,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>No Retreat</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get No Retreat. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3489,8 +3597,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Counts as having <key>Ambush</key>, but may be deployed up to 1” away from enemy units."
+      },
+      {
+        "system": "AOFS",
+        "text": "Counts as having Ambush, but may be deployed anywhere over 3\" away from enemy unit."
       }
     ]
   },
@@ -3535,8 +3647,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Piercing Hunter</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Piercing Hunter. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3548,8 +3664,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Reanimation</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Reanimation. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3581,8 +3701,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Scout</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Scout. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3614,8 +3738,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which must take a morale test. If failed you may move it by up to 6” in a straight line in any direction."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
       }
     ]
   },
@@ -3631,8 +3759,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to morale test rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which gets -1 to morale test rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -3646,8 +3778,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Shred</key> in melee."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Shred in melee. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3685,8 +3821,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Cursed Undead Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Cursed Undead Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -3702,8 +3842,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "When a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored."
+      },
+      {
+        "system": "AOFS",
+        "text": "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored."
       }
     ]
   },
@@ -3808,8 +3952,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Rending</key> when shooting."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Rending when shooting. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3825,8 +3973,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Resistance</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Resistance. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3864,8 +4016,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Buccaneer Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Buccaneer Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3980,8 +4136,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit moves +4” when using Charge actions."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game moves +4\" when using Charge actions. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -3996,8 +4156,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Rending</key> in melee."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Rending in melee. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4054,8 +4218,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Primal Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Primal Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -4155,8 +4323,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Warbound Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Warbound Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4191,8 +4363,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Ambush</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Ambush. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4234,8 +4410,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>AP</key>(+1) when shooting."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get AP(+1) when shooting. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4251,8 +4431,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Furious</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Furious. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4282,8 +4466,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Shielded</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Shielded. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4296,8 +4484,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>AP</key>(+1) in melee."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get AP(+1) in melee. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4338,8 +4530,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Reckless Piercing</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Reckless Piercing. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4413,8 +4609,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Relentless</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Relentless. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4430,8 +4630,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Regeneration</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Regeneration. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4444,8 +4648,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls when attacking once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit rolls when attacking once (next time the effect would apply)."
       }
     ]
   },
@@ -4472,8 +4680,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Steadfast</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Steadfast. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4500,8 +4712,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Plaguebound Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Plaguebound Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -4554,8 +4770,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Hit & Run Fighter</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Hit & Run Fighter. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -4610,8 +4830,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+2)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Against non-Hero units with Tough(3) or more, this weapon gets AP(+2)."
       }
     ],
     "specialRule": [
@@ -4624,8 +4848,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Unstoppable</key> when shooting."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Unstoppable when shooting. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -4638,8 +4866,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Lustbound Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Lustbound Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -4694,8 +4926,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get +1 to hit rolls in melee."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get +1 to hit rolls in melee. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -4708,8 +4944,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Evasive</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Evasive. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -4735,8 +4975,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to defense rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which gets -1 to defense rolls once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -4748,8 +4992,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Bane</key> when shooting."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Bane when shooting. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -4762,8 +5010,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Bane</key> in melee."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Bane in melee. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -4778,8 +5030,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Scurry Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Scurry Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -4791,8 +5047,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls in melee once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit rolls in melee once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -4935,8 +5195,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Ossified Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Ossified Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -4974,8 +5238,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Melee Shrouding</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Melee Shrouding. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5003,8 +5271,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Ferocious Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Ferocious Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5016,8 +5288,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Ravage</key>(+1)."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Ravage(+1). If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5029,8 +5305,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Speed Feat</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Speed Feat. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5163,8 +5443,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Royal Legion Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Royal Legion Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5176,8 +5460,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Fortified</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Fortified. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5192,8 +5480,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Indirect</key> when shooting."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Indirect when shooting. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5207,8 +5499,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Counts as having <key>Infiltrate</key>. The first time this unit is activated after being deployed via this rule, roll X dice, for each 4+ one enemy unit within 6” and line of sight takes 2 hits with <key>AP</key>(1)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Counts as having Infiltrate. The first time this unit is activated, pick one enemy unit within 6\" in line of sight, and roll X dice. For each 2+ it takes one hit with AP(1)."
       }
     ],
     "specialRule": [
@@ -5261,8 +5557,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to hit rolls when attacking once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which gets -1 to hit rolls when attacking once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5289,8 +5589,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets Slayer against once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5302,8 +5606,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Angelic Blessing Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Angelic Blessing Boost once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5315,8 +5623,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Versatile Attack</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Versatile Attack once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5402,8 +5714,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "If this unit is within 24” of another friendly unit with this rule that has a <key>Hero</key> in it, then that <key>Hero</key> may use special rules that allow it to pick friendly units within 12” (except for spells) on this unit as if it was in range."
+      },
+      {
+        "system": "AOFS",
+        "text": "If this unit is within 24\" of another friendly unit with this rule that is within 6\" of a friendly Hero, then that Hero may use special rules that allow it to pick friendly units within 12\" (except for spells) on this unit as if it was in range."
       }
     ],
     "specialRule": [
@@ -5415,7 +5731,11 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
+        "text": "Units where all models have this rule get +1 to morale test rolls."
+      },
+      {
+        "system": "AOFS",
         "text": "Units where all models have this rule get +1 to morale test rolls."
       }
     ],
@@ -5428,8 +5748,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Rapid Rush</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Rapid Rush once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5454,8 +5778,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5467,8 +5795,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls when shooting once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit rolls when shooting once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5480,8 +5812,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Hold the Line Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Hold the Line Boost once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5493,8 +5829,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Furious</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Furious once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5523,8 +5863,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Pick one model with this rule in this unit to have <key>Caster</key>(X), where X is the total number of models with this rule in this unit. If the model is killed, pick another to be the new caster, and transfer all spell tokens to it. The caster loses all unspent spell tokens at the end of the round."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model counts as having Caster(1)."
       }
     ],
     "specialRule": [
@@ -5576,8 +5920,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Fearless</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Fearless. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5605,8 +5953,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5632,8 +5984,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Highborn Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Highborn Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5688,8 +6044,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Versatile Defense</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Versatile Defense. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5706,8 +6066,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Shred</key> when shooting."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Shred when shooting. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5724,8 +6088,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Unpredictable Fighter</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Unpredictable Fighter. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5743,8 +6111,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Ranged Shrouding</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Ranged Shrouding. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5780,8 +6152,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Steadfast</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Steadfast once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -5891,8 +6267,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Changebound Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Changebound Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -5989,8 +6369,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Bounding</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Bounding. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6003,8 +6387,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Havocbound Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Havocbound Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6031,8 +6419,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick up to 4 enemy units within 18” in line of sight, which counts as being in <key>Dangerous Terrain</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which counts as being in Dangerous Terrain once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -6058,8 +6450,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Melee Slayer</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Melee Slayer. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6071,8 +6467,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets Relentless against once (next time the effect would apply)."
       }
     ],
     "specialRule": [
@@ -6110,8 +6510,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Teleport</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Teleport. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6123,8 +6527,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Lucky Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Lucky Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6202,8 +6610,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Mischievous Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Mischievous Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6293,8 +6705,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Empyrean Spirit Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Empyrean Spirit Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6371,8 +6787,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Warden Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Warden Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6462,8 +6882,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get +1 to hit rolls when charging."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get +1 to hit rolls when charging. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6475,8 +6899,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Sturdy Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Sturdy Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6527,8 +6955,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Ranged Slayer</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Ranged Slayer. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6554,8 +6986,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Vinci Tech Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Vinci Tech Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6672,8 +7108,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Wave-Step Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Wave-Step Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6789,8 +7229,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Harassing Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Harassing Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6932,8 +7376,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get +1 to hit rolls when shooting."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get +1 to hit rolls when shooting. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -6958,8 +7406,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+4)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Against non-Hero units with Tough(3) or more, this weapon gets AP(+4)."
       }
     ],
     "specialRule": [
@@ -6971,8 +7423,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Bestial Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Bestial Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -7010,8 +7466,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Destroyer Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Destroyer Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -7088,8 +7548,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get +1 to morale test rolls."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get +1 to morale test rolls. If this model is killed, picked models that are deployed lose the rule."
       }
     ],
     "specialRule": [
@@ -7247,8 +7711,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get Royal Warrior Boost."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Royal Warrior Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },
@@ -7387,8 +7855,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets <key>AP</key>(+1) when shooting against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets AP(+1) when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -7437,8 +7909,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "This model and its unit get <key>Vale Oath Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "This model and up to 3 friendly units picked before the start of the game get Vale Oath Boost. If this model is killed, picked models that are deployed lose the rule."
       }
     ]
   },

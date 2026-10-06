@@ -1392,8 +1392,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Percée</key> en mêlée."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Percée</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1447,8 +1451,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Contre-attaque</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Contre-attaque</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1462,8 +1470,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent un bonus de +6” de portée lorsqu'elles tirent."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +6” de portée au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1494,8 +1506,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Charge rapide</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Charge rapide</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1522,8 +1538,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Boost de l'Origine Ombreuse</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de l'Origine Ombreuse</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1535,8 +1555,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18”. Les unités alliées gagnent <key>Combattant imprévisible</key> contre elle (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>Combattant imprévisible</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -1779,8 +1803,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Protection ancrée</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection ancrée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1854,8 +1882,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Assaut perforant</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Assaut perforant</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1882,8 +1914,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Tireur imprévisible</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tireur imprevisible</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1897,8 +1933,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Tir en mouvement</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tir en mouvement</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1912,8 +1952,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Esquive en mêlée</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Esquive en mêlée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -1939,8 +1983,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Les unités alliées gagnent <key>Tir rapide</key> contre elle une fois, lors de la prochaine application de cet effet."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -1972,8 +2020,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Boost du Voile sauvage</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost  du Voile sauvage</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2016,8 +2068,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Avance rapide</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Avance rapide</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2030,8 +2086,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Elle se déplace de -2” lors d'une action d'Avancée et de -4” lors d'une action de Course/Charge une fois, lors de la prochaine application de cet effet."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui se déplacent de -2” lors des actions d'Avancée et de -4” lors des actions de Course/Charge une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -2098,8 +2158,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Ce modele peut tirer apres avoir utilise une action Rush."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine peut tirer après avoir effectué une action de Course."
       }
     ]
   },
@@ -2142,8 +2206,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Furtif</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Furtif</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2205,8 +2273,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement ancrée</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement ancrée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2252,8 +2324,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Tir rapide</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tir rapide</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2268,8 +2344,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Vif</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Vif</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2283,8 +2363,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Marcheur</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Arpenteur</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2300,8 +2384,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Imparable</key> en mêlée."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Inarrêtable</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2369,8 +2457,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagne un bonus de +2” lorsqu'elles Avancent et +4” lorsqu'elles Courent ou Chargent."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie se déplacent de +2” lors des actions d'Avancée et +4” lors des actions de Course/Charge. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2400,8 +2492,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Pas de retraite</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Pas de retraite</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2419,8 +2515,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Compte comme ayant <key>Embuscade</key>, mais peut être déployée jusqu'à 1” des unités ennemies."
+      },
+      {
+        "system": "AOFS",
+        "text": "Compte comme possédant <key>Embuscade</key>, mais peut être déployée n'importe où à plus de 3” d'une unité ennemie."
       }
     ]
   },
@@ -2465,8 +2565,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Chasseur perforant</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Chasseur perforant</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2478,8 +2582,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Réanimation</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Reanimation</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2511,8 +2619,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Éclaireur</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Éclaireur</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2544,8 +2656,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Elle doit faire un test de moral. En cas d'échec, vous pouvez la déplacer de jusqu'à 6” en ligne droite dans n'importe quelle direction."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui doivent effectuer un test de moral. En cas d'échec, vous pouvez les déplacer jusqu'à 6” en ligne droite dans n'importe quelle direction."
       }
     ]
   },
@@ -2561,8 +2677,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Elle subit -1 à son prochain test de moral, lors de la prochaine application de cet effet."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui subissent -1 aux jets de moral une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -2576,8 +2696,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagne la règle spéciale <key>Lacération</key> en mêlée."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Lacération</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2615,8 +2739,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins. Elle gagne <key>Boost de la Malédiction Mort-vivante</key> une fois, lors de la prochaine application de cet effet."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Boost de la Malédiction Mort-vivante</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -2632,8 +2760,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Lorsqu'une unité dont la plupart des figurines possèdent cette règle spéciale échoue à un Test de Moral qui la rend Ébranlée ou En déroute, le test est considéré comme réussi. Lancez ensuite autant de dés que le nombre de blessures nécessaires pour la détruire entièrement, et pour chaque résultat de 1 à 3, l'unité subit une blessure qui ne peut être ignorée."
+      },
+      {
+        "system": "AOFS",
+        "text": "Lorsqu'une unité dont la majorité des figurines possède cette règle échoue à un test de moral qui la rendrait Ébranlée ou en Déroute, le test est considéré comme réussi. Lancez ensuite autant de dés que le nombre de blessures nécessaires pour effectuer un jet d'effet de blessure (lancez toujours au moins 1 dé) ; pour chaque résultat de 1 à 3, l'unité subit une blessure qui ne peut pas être ignorée."
       }
     ]
   },
@@ -2738,8 +2870,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Perforant</key> au tir."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Perforant</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2755,8 +2891,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Résistance</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Résistance</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2794,8 +2934,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Boost du boucanier</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du boucanier</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2910,8 +3054,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent +4” lorsqu’elles Chargent."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie se déplacent de +4” lors des actions de Charge. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2926,8 +3074,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Perforant</key> en mêlée."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Perforant</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -2984,8 +3136,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins. Elle gagne <key>Boost de Primal</key> une fois, lors de la prochaine application de cet effet."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Boost de Primal</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -3085,8 +3241,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Boost du Guerrier-né</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Guerrier-né</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3121,8 +3281,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Embuscade</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Embuscade</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3164,8 +3328,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>AP</key>(+1) en tir."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>PA</key>(+1) au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3181,8 +3349,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Furious</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Furieux</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3212,8 +3384,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Blindé</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Blindé</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3226,8 +3402,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>AP</key>(+1) en mêlée."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>PA</key>(+1) en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3268,8 +3448,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Reckless Piercing</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Percee temeraire</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3343,8 +3527,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Implacable</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Implacable</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3360,8 +3548,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Régénération</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Régénération</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3374,8 +3566,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliee a 12” ; elle gagne +1 pour toucher lorsqu'elle attaque une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent +1 aux jets pour toucher en attaquant une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -3402,8 +3598,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Inébranlable</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Inébranlable</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3430,8 +3630,12 @@
     ],
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Plaguebound Boost</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Amplification Lie a la peste</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -3484,8 +3688,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent Combattant Eclair."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Combattant Frappe et Repli</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3540,8 +3748,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Ignore la Régénération et, contre les unités dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+2)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Contre les unités non-<key>Héros</key> avec <key>Robuste</key>(3) ou plus, cette arme gagne <key>PA</key>(+2)."
       }
     ],
     "specialRule": [
@@ -3554,8 +3766,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent Inarretable au tir."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Inarrêtable</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3568,8 +3784,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Lie a la Luxure</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Lié à la Luxure amélioré</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3624,8 +3844,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent +1 aux jets pour toucher en mêlée."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +1 aux jets pour toucher en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3638,8 +3862,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Esquive</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Esquive</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3665,8 +3893,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18”; elle subit -1 aux jets de defense une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui subissent -1 aux jets de défense une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -3678,8 +3910,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fléau au tir</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Fléau</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3692,8 +3928,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fleau en mêlée</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Fléau</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3708,8 +3948,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement de Detale</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement de Detale</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3721,8 +3965,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins, qui obtient un bonus de +1 aux jets pour toucher en mêlée une seule fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent +1 aux jets pour toucher en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -3865,8 +4113,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Ossifie</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Ossifie</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3904,8 +4156,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Voile de mêlée</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Voile de mêlée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3933,8 +4189,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Ferocite</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Ferocite</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3946,8 +4206,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent Saccage(+1)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Ravage</key>(+1). Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -3959,8 +4223,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Exploit de Vitesse</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Exploit de Vitesse</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4093,8 +4361,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement de Legion Royale</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Légion Royale améliorée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4106,8 +4378,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent la règle spéciale <key>Renforcé</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcé</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4122,8 +4398,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Indirect</key> au tir."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Indirect</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4137,8 +4417,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Compte comme ayant <key>Infiltration</key>. La première fois que cette unité est activée après avoir été déployée via cette règle, lancez X dés ; pour chaque 4+, une unité ennemie à 6” ou moins et en ligne de vue subit 2 touches avec <key>PA</key>(1)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Compte comme possédant <key>Infiltration</key>. La première fois que cette unité est activée, choisissez une unité ennemie en ligne de vue à 6” ou moins et lancez X dés. Pour chaque résultat de 2+, elle subit une touche avec <key>PA</key>(1)."
       }
     ],
     "specialRule": [
@@ -4191,8 +4475,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; elle subit -1 aux jets pour toucher lors d'une attaque une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui subissent -1 aux jets pour toucher en attaquant une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4219,8 +4507,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent <key>Tueur</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>Tueur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4232,8 +4524,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Renforcement de Benediction Angelique</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Renforcement de Benediction Angelique</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4245,8 +4541,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Attaque Polyvalente</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Attaque polyvalente</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4332,8 +4632,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Si cette unité est a 24” d'une autre unité alliée avec cette règle contenant un <key>Hero</key>, alors ce <key>Hero</key> peut utiliser ses règles speciales qui ciblent des unités alliées a 12” (sauf les sorts) sur cette unité comme si elle etait a portee."
+      },
+      {
+        "system": "AOFS",
+        "text": "Si cette unité se trouve à 24” ou moins d'une autre unité alliée possédant cette règle et située à 6” ou moins d'un <key>Héros</key> allié, alors ce Héros peut utiliser sur cette unité les règles spéciales lui permettant de choisir des unités alliées à 12” ou moins (à l'exception des sorts), comme si elle était à portée."
       }
     ],
     "specialRule": [
@@ -4345,8 +4649,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Les unités dont tous les modeles ont cette règle gagnent +1 aux tests de moral."
+      },
+      {
+        "system": "AOFS",
+        "text": "Les unités dont toutes les figurines possèdent cette règle gagnent +1 aux jets de moral."
       }
     ],
     "specialRule": [
@@ -4358,8 +4666,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne Rush <key>Rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4384,8 +4696,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent +1 aux jets pour toucher en mêlée contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent +1 aux jets pour toucher en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4397,8 +4713,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins qui gagne un bonus de +1 aux jets pour toucher lorsqu'elle tire, une seule fois (l'effet s'appliquera la prochaine fois qu'elle devrait tirer)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent +1 aux jets pour toucher au tir une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4410,8 +4730,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Renforcement Tenir la Ligne</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Renforcement Tenir la Ligne</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4423,8 +4747,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Furieux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Furieux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4453,8 +4781,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Choisissez un modele avec cette règle dans cette unité pour avoir <key>Caster</key>(X), ou X est le nombre total de modeles avec cette règle dans cette unité. Si Cette figurine est tue, choisissez-en un autre comme nouveau lanceur et transferez-lui tous les jetons de sort. Le lanceur perd tous ses jetons de sort non depenses a la fin du round."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine compte comme possédant <key>Lanceur de Sorts</key>(1)."
       }
     ],
     "specialRule": [
@@ -4506,8 +4838,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Fearless</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Sans peur</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4535,8 +4871,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent +1 aux jets pour toucher au tir contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent +1 aux jets pour toucher au tir une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4562,8 +4902,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Noble</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Noble</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4618,8 +4962,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Défense versatile</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Défense versatile</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4636,8 +4984,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent Dechiquetage au tir."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Lacération</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4654,8 +5006,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Combattant Imprévisible</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Combattant imprévisible</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4673,8 +5029,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Voile fluctuant</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Voile fluctuant</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4710,8 +5070,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a  12” ou moins, elle gagne <key>Inébranlable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Inébranlable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4821,8 +5185,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Lie au Changement</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Lie au Changement</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4919,8 +5287,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Bond</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Bond</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4933,8 +5305,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Lie au Chaos</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Lie au Chaos</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -4961,8 +5337,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18” ou moins et en ligne de vue ; elles comptent comme étant en <key>Terrain dangereux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui comptent comme étant en Dangerous Terrain une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -4988,8 +5368,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Tueur</key> en mêlée."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tueur en mêlée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5001,8 +5385,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent <key>Implacable</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>Implacable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ],
     "specialRule": [
@@ -5040,8 +5428,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Teleport</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Téléportation</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5053,8 +5445,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Chanceux</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Chanceux</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5132,8 +5528,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Malicieux</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Malicieux</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5223,8 +5623,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Boost de l'Esprit empyréen</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de l'Esprit empyréen</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5301,8 +5705,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Boost de Gardien</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Gardien</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5392,8 +5800,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent +1 aux jets pour toucher lorsqu'ils chargent."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +1 aux jets pour toucher when charging. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5405,8 +5817,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Coriace</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Coriace</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5457,8 +5873,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Tueur a Distance</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tueur a Distance</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5484,8 +5904,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Tech Vinci</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Tech Vinci</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5602,8 +6026,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement de Pas Ondulatoire</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement de Pas Ondulatoire</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5719,8 +6147,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement de Harcelement</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement de Harcelement</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5862,8 +6294,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent +1 aux jets pour toucher au tir."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +1 aux jets pour toucher au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5888,8 +6324,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "<key>Contre</key> les unités dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+4)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Contre les unités non-<key>Héros</key> avec <key>Robuste</key>(3) ou plus, cette arme gagne <key>PA</key>(+4)."
       }
     ],
     "specialRule": [
@@ -5901,8 +6341,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Bestial</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Bestial</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -5940,8 +6384,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Renforcement Destructeur</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Destructeur</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -6018,8 +6466,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité obtiennent un bonus de +1 à leurs Tests de Moral."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +1 aux jets de moral. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ],
     "specialRule": [
@@ -6377,8 +6829,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Précision ancrée</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Précision ancrée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -6417,8 +6873,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Gardien</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Gardien</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -6737,8 +7197,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection mutuelle</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection mutuelle</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -7237,8 +7701,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Ce modèle et son unité gagnent <key>Guerrier royal amélioré</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Guerrier royal amélioré</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },
@@ -7377,8 +7845,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins en ligne de vue. Les unités alliées gagnent <key>PA</key>(+1) lorsqu'elles tirent contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "AOFS",
+        "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>PA</key>(+1) au tir une fois (la prochaine fois que l'effet s'appliquerait)."
       }
     ]
   },
@@ -7427,8 +7899,12 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "text": "Cette figurine et son unité gagnent <key>Boost du Serment du Val</key>."
+      },
+      {
+        "system": "AOFS",
+        "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du Serment du Val</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
       }
     ]
   },

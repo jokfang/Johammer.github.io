@@ -4,9 +4,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Evasive</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Evasive once (next time the effect would apply)."
       }
     ]
   },
@@ -26,9 +31,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unpredictable Fighter</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 18\", which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
       }
     ]
   },
@@ -37,9 +47,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 6 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 3 hits each."
       }
     ]
   },
@@ -48,9 +63,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which moves +2” when using Advance actions and +4” when using Rush/Charge actions once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
       }
     ]
   },
@@ -59,9 +79,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
       }
     ]
   },
@@ -70,9 +95,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which friendly units gets Quick Shot against once (next time the effect would apply)."
       }
     ]
   },
@@ -92,9 +122,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Resistance</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Resistance once (next time the effect would apply)."
       }
     ]
   },
@@ -103,9 +138,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -114,9 +154,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Grounded Reinforcement</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Grounded Reinforcement once (next time the effect would apply)."
       }
     ]
   },
@@ -125,9 +170,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18\", which take 2 hits each."
       }
     ]
   },
@@ -136,9 +186,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which must take a morale test. If failed, it becomes fatigued."
       }
     ]
   },
@@ -158,9 +213,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Hit & Run Fighter</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Hit & Run Fighter once (next time the effect would apply)."
       }
     ]
   },
@@ -169,9 +229,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 12”, which take 4 hits each."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 12\", which take 2 hits each."
       }
     ]
   },
@@ -180,9 +245,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Grounded Protection</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Grounded Protection once (next time the effect would apply)."
       }
     ]
   },
@@ -191,9 +261,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 6”, which takes 9 hits with <key>Pulverize</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 6\", which take 3 hits with Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -202,9 +277,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Cursed Undead Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Cursed Undead Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -224,9 +304,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 18”, which must take a morale test. If failed you may move it by up to 6” in a straight line in any direction."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 18\", which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
       }
     ]
   },
@@ -235,9 +320,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(2)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(2) each."
       }
     ]
   },
@@ -246,9 +336,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Teleport</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Teleport once (next time the effect would apply)."
       }
     ]
   },
@@ -257,9 +352,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
       }
     ]
   },
@@ -268,9 +368,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which gets -3 to casting rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which get -3 to casting rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -290,9 +395,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Swift</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Swift once (next time the effect would apply)."
       }
     ]
   },
@@ -301,9 +411,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 12\", which take 1 hit with AP(2) each."
       }
     ]
   },
@@ -312,9 +427,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Buccaneer Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Buccaneer Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -323,9 +443,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>Shred</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with Shred each."
       }
     ]
   },
@@ -334,9 +459,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which friendly units gets <key>Shred</key> when attacking against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which friendly units gets Shred when attacking against once (next time the effect would apply)."
       }
     ]
   },
@@ -356,9 +486,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Steadfast</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Steadfast once (next time the effect would apply)."
       }
     ]
   },
@@ -367,9 +502,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -378,9 +518,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Primal Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Primal Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -389,9 +534,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 6”, which takes 9 hits with <key>Bane</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 6\", which take 3 hits with Bane each."
       }
     ]
   },
@@ -400,9 +550,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which must take a morale test. If failed, it becomes fatigued."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which must take a morale test. If failed, it becomes fatigued."
       }
     ]
   },
@@ -411,9 +566,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Blast</key>(3)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3)."
       }
     ]
   },
@@ -422,9 +582,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Melee Evasion once (next time the effect would apply)."
       }
     ]
   },
@@ -433,9 +598,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Break</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 6\", which take 3 hits with Crack each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -444,9 +614,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Warbound Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Warbound Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -455,9 +630,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to two enemy units within 12”, which take 3 hits with <key>AP</key>(2) each."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 12\", which take 1 hit with AP(2) each."
       }
     ]
   },
@@ -466,9 +646,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which counts as being in Difficult Terrain once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which counts as being in Difficult Terrain once (next time the effect would apply)."
       }
     ]
   },
@@ -477,9 +662,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Butcher</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -488,9 +678,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Rapid Rush</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Rapid Rush once (next time the effect would apply)."
       }
     ]
   },
@@ -499,9 +694,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -510,9 +710,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Plaguebound Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Plaguebound Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -521,9 +726,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18\", which take 2 hits each."
       }
     ]
   },
@@ -532,9 +742,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which friendly units gets Quick Shot against once (next time the effect would apply)."
       }
     ]
   },
@@ -554,9 +769,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Melee Evasion once (next time the effect would apply)."
       }
     ]
   },
@@ -565,9 +785,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -576,9 +801,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Lustbound Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Lustbound Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -587,9 +817,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
       }
     ]
   },
@@ -598,9 +833,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which gets -3 to casting rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which get -3 to casting rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -620,9 +860,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Bane when Shooting</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Bane when Shooting once (next time the effect would apply)."
       }
     ]
   },
@@ -631,9 +876,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 9\", which take 2 hits each."
       }
     ]
   },
@@ -642,9 +892,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Changebound Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Changebound Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -653,9 +908,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
       }
     ]
   },
@@ -664,9 +924,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Scurry Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Scurry Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -686,9 +951,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Melee Slayer</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Melee Slayer once (next time the effect would apply)."
       }
     ]
   },
@@ -697,9 +967,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 6 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 3 hits each."
       }
     ]
   },
@@ -708,9 +983,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which get -1 to defense rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which get -1 to defense rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -719,9 +999,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy model within 12”, which takes 6 hits with <key>Hazardous</key>. Roll as many dice as hits to see if ”on rolls of 1” effects trigger."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy models within 12\", which take 2 hits with Hazardous each. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -730,9 +1015,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Unstoppable</key> in melee once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Unstoppable in melee once (next time the effect would apply)."
       }
     ]
   },
@@ -752,9 +1042,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Ossified Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Ossified Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -763,9 +1058,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Destructive</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 6\", which take 3 hits with Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -774,9 +1074,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Furious</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which friendly units gets Furious against once (next time the effect would apply)."
       }
     ]
   },
@@ -785,9 +1090,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18\", which take 2 hits each."
       }
     ]
   },
@@ -796,9 +1106,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Counter-Attack</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Counter-Attack once (next time the effect would apply)."
       }
     ]
   },
@@ -818,9 +1133,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Ferocious Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Ferocious Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -829,9 +1149,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Bane</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 6\", which take 3 hits with Bane each."
       }
     ]
   },
@@ -840,9 +1165,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Rending</key> in melee against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which friendly units gets Rending in melee against once (next time the effect would apply)."
       }
     ]
   },
@@ -851,9 +1181,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
       }
     ]
   },
@@ -862,9 +1197,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Resistance</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Resistance once (next time the effect would apply)."
       }
     ]
   },
@@ -884,9 +1224,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Destroyer Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Destroyer Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -895,9 +1240,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(1) and <key>Rupture</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -906,9 +1256,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which get <key>Unwieldy</key> in melee once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which get Unwieldy in melee once (next time the effect would apply)."
       }
     ]
   },
@@ -917,9 +1272,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
       }
     ]
   },
@@ -928,9 +1288,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which counts as being in Difficult Terrain once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which counts as being in Difficult Terrain once (next time the effect would apply)."
       }
     ]
   },
@@ -950,9 +1315,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Shred</key> when shooting once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Shred when shooting once (next time the effect would apply)."
       }
     ]
   },
@@ -961,9 +1331,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -972,9 +1347,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Royal Legion Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Royal Legion Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -983,9 +1363,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Destructive</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -994,9 +1379,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Flying</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Flying once (next time the effect would apply)."
       }
     ]
   },
@@ -1021,9 +1411,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Angelic Blessing Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Angelic Blessing Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1032,9 +1427,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 12\", which take 1 hit with AP(2) each."
       }
     ]
   },
@@ -1043,9 +1443,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which friendly units gets Slayer against once (next time the effect would apply)."
       }
     ]
   },
@@ -1054,9 +1459,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18\", which take 2 hits each."
       }
     ]
   },
@@ -1097,9 +1507,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 18”, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 18\", which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
       }
     ]
   },
@@ -1108,9 +1523,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 6 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 3 hits each."
       }
     ]
   },
@@ -1119,9 +1539,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>AP</key>(+1) in melee once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get AP(+1) in melee once (next time the effect would apply)."
       }
     ]
   },
@@ -1130,9 +1555,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy model within 18”, which takes 6 hits with <key>AP</key>(1)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -1141,9 +1571,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -1163,9 +1598,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Bane</key> in melee once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Bane in melee once (next time the effect would apply)."
       }
     ]
   },
@@ -1174,9 +1614,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 9\", which take 2 hits each."
       }
     ]
   },
@@ -1185,9 +1630,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Highborn Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Highborn Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1196,9 +1646,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Crack</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Crack each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -1218,9 +1673,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which counts as being in Dangerous Terrain once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which counts as being in Dangerous Terrain once (next time the effect would apply)."
       }
     ]
   },
@@ -1229,9 +1689,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Havocbound Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Havocbound Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1240,9 +1705,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -1251,9 +1721,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Fortified</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Fortified once (next time the effect would apply)."
       }
     ]
   },
@@ -1262,9 +1737,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Slam</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
       }
     ]
   },
@@ -1273,9 +1753,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Piercing Hunter</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Piercing Hunter once (next time the effect would apply)."
       }
     ]
   },
@@ -1295,9 +1780,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Havocbound Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Havocbound Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1306,9 +1796,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Purge</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 6\", which take 3 hits with Disintegrate each."
       }
     ]
   },
@@ -1317,9 +1812,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which friendly units gets Relentless against once (next time the effect would apply)."
       }
     ]
   },
@@ -1328,9 +1828,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Blast</key>(3)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
       }
     ]
   },
@@ -1339,9 +1844,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Lucky Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Lucky Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1361,9 +1871,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 18”, which get -1 to morale test rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 18\", which get -1 to morale test rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -1372,9 +1887,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 6 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 3 hits each."
       }
     ]
   },
@@ -1383,9 +1903,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Fearless</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Fearless once (next time the effect would apply)."
       }
     ]
   },
@@ -1394,9 +1919,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
       }
     ]
   },
@@ -1405,9 +1935,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Mischievous Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Mischievous Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1427,9 +1962,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 18\", which friendly units gets Piercing Fighter against once (next time the effect would apply)."
       }
     ]
   },
@@ -1438,9 +1978,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(2)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(2) each."
       }
     ]
   },
@@ -1449,9 +1994,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get +1 to defense rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get +1 to defense rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -1460,9 +2010,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Skewer</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 6\", which take 1 hit with Deadly(3) and Tear each."
       }
     ]
   },
@@ -1471,9 +2026,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -1493,9 +2053,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Unpredictable Fighter</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Unpredictable Fighter once (next time the effect would apply)."
       }
     ]
   },
@@ -1504,9 +2069,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 9\", which take 2 hits each."
       }
     ]
   },
@@ -1515,9 +2085,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Warden Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Warden Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1526,9 +2101,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Rapid Charge</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Rapid Charge once (next time the effect would apply)."
       }
     ]
   },
@@ -1548,9 +2128,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Sturdy Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Sturdy Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1559,9 +2144,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(1) and <key>Quake</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Shred each."
       }
     ]
   },
@@ -1570,9 +2160,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Blast</key>(3)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
       }
     ]
   },
@@ -1581,9 +2176,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which moves -2” when using Advance actions and -4” when using Rush/Charge actions once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once (next time the effect would apply)."
       }
     ]
   },
@@ -1592,9 +2192,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which friendly units get +6” range when shooting against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two enemy units within 18\", which friendly units get +6\" range when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -1614,9 +2219,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Steadfast</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Steadfast once (next time the effect would apply)."
       }
     ]
   },
@@ -1625,9 +2235,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 9\", which take 2 hits each."
       }
     ]
   },
@@ -1636,9 +2251,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Vinci Tech Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Vinci Tech Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1647,9 +2267,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
       }
     ]
   },
@@ -1680,9 +2305,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Surge each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -1691,9 +2321,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get Royal Warrior Boost once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Royal Warrior Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1702,9 +2337,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Indirect when Shooting</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which friendly units gets Indirect when Shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -1713,9 +2353,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy model within 24”, which takes 3 hits with <key>Splinter</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy models within 24\", which take 1 hit with Tear each. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -1724,9 +2369,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Stealth</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Stealth once (next time the effect would apply)."
       }
     ]
   },
@@ -1746,9 +2396,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 12\", which take 1 hit with AP(2) each."
       }
     ]
   },
@@ -1757,9 +2412,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Wave-Step Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Wave-Step Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1768,9 +2428,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which get -1 to hit rolls when attacking once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which get -1 to hit rolls when attacking once (next time the effect would apply)."
       }
     ]
   },
@@ -1779,9 +2444,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Thrash</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) and Lacerate each."
       }
     ]
   },
@@ -1790,9 +2460,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Harassing Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Harassing Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1812,9 +2487,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Thrust</key> against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 18\", which friendly units gets Rapid Charge against once (next time the effect would apply)."
       }
     ]
   },
@@ -1823,9 +2503,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 18”, which takes 2 hits with <key>Blast</key>(3)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\", which take 1 hit with Blast(3) each."
       }
     ]
   },
@@ -1834,9 +2519,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get Regeneration once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Regeneration once (next time the effect would apply)."
       }
     ]
   },
@@ -1845,9 +2535,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
       }
     ]
   },
@@ -1856,9 +2551,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Fortified</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Fortified once (next time the effect would apply)."
       }
     ]
   },
@@ -1878,9 +2578,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Vale Formation Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four friendly units within 12\", which get Vale Oath Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1889,9 +2594,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Bane</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 6\", which take 3 hits with Bane each."
       }
     ]
   },
@@ -1900,9 +2610,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Impact</key>(1) against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six enemy units within 18\", which friendly units gets Surge against once (next time the effect would apply)."
       }
     ]
   },
@@ -1911,9 +2626,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
       }
     ]
   },
@@ -1922,9 +2642,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Bestial Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Bestial Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -1944,9 +2669,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 18”, which get -1 to morale test rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 18\", which get -1 to morale test rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -1955,9 +2685,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy model within 24”, which takes 2 hits with <key>Tear</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy models within 24\", which take 1 hit with Tear each. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -1966,9 +2701,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get Regeneration once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get Regeneration once (next time the effect would apply)."
       }
     ]
   },
@@ -1977,9 +2717,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 9 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 12\", which take 3 hits each."
       }
     ]
   },
@@ -4412,9 +5157,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 1,
         "text": "Pick one friendly unit within 12”, which gets <key>Empyrean Spirit Boost</key> once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 1,
+        "text": "Pick up to two friendly units within 12\", which get Empyrean Spirit Boost once (next time the effect would apply)."
       }
     ]
   },
@@ -4434,9 +5184,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to four enemy units within 18\", which friendly units gets Bane when attacking against once (next time the effect would apply)."
       }
     ]
   },
@@ -4445,9 +5200,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>Reap</key>."
+      },
+      {
+        "system": "AOFS",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 12\", which take 2 hits with Disintegrate each."
       }
     ]
   },
@@ -4456,9 +5216,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get +1 to hit rolls in melee once (next time the effect would apply)."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to six friendly units within 12\", which get +1 to hit rolls in melee once (next time the effect would apply)."
       }
     ]
   },
@@ -4467,9 +5232,14 @@
     "system": "GF/AOF/AOFS",
     "description": [
       {
-        "system": "all",
+        "system": "GF/AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 18”, which takes 6 hits."
+      },
+      {
+        "system": "AOFS",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 18\", which take 2 hits each."
       }
     ]
   },

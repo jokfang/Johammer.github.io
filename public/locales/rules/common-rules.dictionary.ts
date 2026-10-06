@@ -393,8 +393,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and up to 3 friendly units picked before the start of the game get <key>Grounded Precision</key>. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Grounded Precision. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -433,8 +437,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and up to 3 friendly units picked before the start of the game get <key><key>Guardian</key> Boost</key>. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Guardian Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -753,8 +761,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and up to 3 friendly units picked before the start of the game get <key>Protection Feat</key>. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Protection Feat. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -2531,8 +2543,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Thrust</key> in melee."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Thrust in melee. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -2586,8 +2602,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Counter-Attack</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Counter-Attack. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -2601,8 +2621,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get +6” range when shooting."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get +6\" range when shooting. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -2633,8 +2657,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Rapid Rush</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Rapid Rush. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -2661,8 +2689,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Shadowborn Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Shadowborn Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -2674,8 +2706,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Unpredictable Fighter</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
         }
       ]
     },
@@ -2918,8 +2954,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Grounded Protection</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Grounded Protection. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -2993,8 +3033,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Piercing Assault</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Piercing Assault. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3021,8 +3065,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Unpredictable Shooter</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Unpredictable Shooter. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3036,8 +3084,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Hit & Run Shooter</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Hit & Run Shooter. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3051,8 +3103,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Melee Evasion</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Melee Evasion. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3078,8 +3134,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets Quick Shot against once (next time the effect would apply)."
         }
       ]
     },
@@ -3111,8 +3171,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Wild Veil Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Wild Veil Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3155,8 +3219,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Rapid Advance</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Rapid Advance. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3169,8 +3237,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which moves -2” when using Advance actions and -4” when using Rush/Charge actions once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once (next time the effect would apply)."
         }
       ]
     },
@@ -3237,7 +3309,11 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
+          "text": "This model may shoot after using Rush actions."
+        },
+        {
+          "system": "AOFS",
           "text": "This model may shoot after using Rush actions."
         }
       ]
@@ -3281,8 +3357,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Stealth</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Stealth. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3344,8 +3424,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Grounded Reinforcement</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Grounded Reinforcement. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3391,8 +3475,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Quick Shot</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Quick Shot. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3407,8 +3495,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Swift</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Swift. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3422,8 +3514,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Strider</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Strider. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3439,8 +3535,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Unstoppable</key> in melee."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Unstoppable in melee. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3508,8 +3608,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit moves +2” when using Advance actions and +4” when using Rush/Charge actions."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game moves +2\" when using Advance actions and +4\" when using Rush/Charge actions. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3539,8 +3643,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>No Retreat</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get No Retreat. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3558,8 +3666,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Counts as having <key>Ambush</key>, but may be deployed up to 1” away from enemy units."
+        },
+        {
+          "system": "AOFS",
+          "text": "Counts as having Ambush, but may be deployed anywhere over 3\" away from enemy unit."
         }
       ]
     },
@@ -3604,8 +3716,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Piercing Hunter</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Piercing Hunter. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3617,8 +3733,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Reanimation</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Reanimation. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3650,8 +3770,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Scout</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Scout. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3683,8 +3807,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which must take a morale test. If failed you may move it by up to 6” in a straight line in any direction."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
         }
       ]
     },
@@ -3700,8 +3828,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to morale test rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which gets -1 to morale test rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -3715,8 +3847,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Shred</key> in melee."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Shred in melee. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3754,8 +3890,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Cursed Undead Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Cursed Undead Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -3771,8 +3911,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "When a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored."
+        },
+        {
+          "system": "AOFS",
+          "text": "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored."
         }
       ]
     },
@@ -3877,8 +4021,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Rending</key> when shooting."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Rending when shooting. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3894,8 +4042,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Resistance</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Resistance. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -3933,8 +4085,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Buccaneer Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Buccaneer Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4049,8 +4205,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit moves +4” when using Charge actions."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game moves +4\" when using Charge actions. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4065,8 +4225,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Rending</key> in melee."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Rending in melee. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4123,8 +4287,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Primal Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Primal Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -4224,8 +4392,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Warbound Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Warbound Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4260,8 +4432,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Ambush</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Ambush. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4303,8 +4479,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>AP</key>(+1) when shooting."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get AP(+1) when shooting. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4320,8 +4500,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Furious</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Furious. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4351,8 +4535,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Shielded</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Shielded. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4365,8 +4553,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>AP</key>(+1) in melee."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get AP(+1) in melee. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4407,8 +4599,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Reckless Piercing</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Reckless Piercing. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4482,8 +4678,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Relentless</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Relentless. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4499,8 +4699,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Regeneration</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Regeneration. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4513,8 +4717,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls when attacking once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit rolls when attacking once (next time the effect would apply)."
         }
       ]
     },
@@ -4541,8 +4749,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Steadfast</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Steadfast. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4569,8 +4781,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Plaguebound Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Plaguebound Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -4623,8 +4839,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Hit & Run Fighter</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Hit & Run Fighter. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -4679,8 +4899,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+2)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Against non-Hero units with Tough(3) or more, this weapon gets AP(+2)."
         }
       ],
       "specialRule": [
@@ -4693,8 +4917,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Unstoppable</key> when shooting."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Unstoppable when shooting. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -4707,8 +4935,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Lustbound Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Lustbound Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -4763,8 +4995,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get +1 to hit rolls in melee."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get +1 to hit rolls in melee. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -4777,8 +5013,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Evasive</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Evasive. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -4804,8 +5044,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to defense rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which gets -1 to defense rolls once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -4817,8 +5061,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Bane</key> when shooting."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Bane when shooting. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -4831,8 +5079,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Bane</key> in melee."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Bane in melee. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -4847,8 +5099,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Scurry Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Scurry Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -4860,8 +5116,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls in melee once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit rolls in melee once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5004,8 +5264,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Ossified Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Ossified Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5043,8 +5307,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Melee Shrouding</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Melee Shrouding. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5072,8 +5340,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Ferocious Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Ferocious Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5085,8 +5357,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Ravage</key>(+1)."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Ravage(+1). If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5098,8 +5374,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Speed Feat</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Speed Feat. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5232,8 +5512,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Royal Legion Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Royal Legion Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5245,8 +5529,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Fortified</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Fortified. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5261,8 +5549,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Indirect</key> when shooting."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Indirect when shooting. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5276,8 +5568,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Counts as having <key>Infiltrate</key>. The first time this unit is activated after being deployed via this rule, roll X dice, for each 4+ one enemy unit within 6” and line of sight takes 2 hits with <key>AP</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Counts as having Infiltrate. The first time this unit is activated, pick one enemy unit within 6\" in line of sight, and roll X dice. For each 2+ it takes one hit with AP(1)."
         }
       ],
       "specialRule": [
@@ -5330,8 +5626,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to hit rolls when attacking once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which gets -1 to hit rolls when attacking once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5358,8 +5658,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets Slayer against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5371,8 +5675,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Angelic Blessing Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Angelic Blessing Boost once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5384,8 +5692,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Versatile Attack</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Versatile Attack once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5471,8 +5783,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "If this unit is within 24” of another friendly unit with this rule that has a <key>Hero</key> in it, then that <key>Hero</key> may use special rules that allow it to pick friendly units within 12” (except for spells) on this unit as if it was in range."
+        },
+        {
+          "system": "AOFS",
+          "text": "If this unit is within 24\" of another friendly unit with this rule that is within 6\" of a friendly Hero, then that Hero may use special rules that allow it to pick friendly units within 12\" (except for spells) on this unit as if it was in range."
         }
       ],
       "specialRule": [
@@ -5484,7 +5800,11 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
+          "text": "Units where all models have this rule get +1 to morale test rolls."
+        },
+        {
+          "system": "AOFS",
           "text": "Units where all models have this rule get +1 to morale test rolls."
         }
       ],
@@ -5497,8 +5817,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Rapid Rush</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Rapid Rush once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5523,8 +5847,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5536,8 +5864,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls when shooting once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit rolls when shooting once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5549,8 +5881,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Hold the Line Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Hold the Line Boost once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5562,8 +5898,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Furious</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Furious once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5592,8 +5932,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Pick one model with this rule in this unit to have <key>Caster</key>(X), where X is the total number of models with this rule in this unit. If the model is killed, pick another to be the new caster, and transfer all spell tokens to it. The caster loses all unspent spell tokens at the end of the round."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model counts as having Caster(1)."
         }
       ],
       "specialRule": [
@@ -5645,8 +5989,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Fearless</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Fearless. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5674,8 +6022,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5701,8 +6053,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Highborn Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Highborn Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5757,8 +6113,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Versatile Defense</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Versatile Defense. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5775,8 +6135,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Shred</key> when shooting."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Shred when shooting. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5793,8 +6157,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Unpredictable Fighter</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Unpredictable Fighter. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5812,8 +6180,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Ranged Shrouding</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Ranged Shrouding. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -5849,8 +6221,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Steadfast</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Steadfast once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -5960,8 +6336,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Changebound Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Changebound Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6058,8 +6438,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Bounding</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Bounding. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6072,8 +6456,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Havocbound Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Havocbound Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6100,8 +6488,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick up to 4 enemy units within 18” in line of sight, which counts as being in <key>Dangerous Terrain</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which counts as being in Dangerous Terrain once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -6127,8 +6519,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Melee Slayer</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Melee Slayer. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6140,8 +6536,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets Relentless against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -6179,8 +6579,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Teleport</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Teleport. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6192,8 +6596,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Lucky Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Lucky Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6271,8 +6679,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Mischievous Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Mischievous Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6362,8 +6774,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Empyrean Spirit Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Empyrean Spirit Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6440,8 +6856,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Warden Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Warden Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6531,8 +6951,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get +1 to hit rolls when charging."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get +1 to hit rolls when charging. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6544,8 +6968,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Sturdy Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Sturdy Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6596,8 +7024,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Ranged Slayer</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Ranged Slayer. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6623,8 +7055,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Vinci Tech Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Vinci Tech Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6741,8 +7177,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Wave-Step Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Wave-Step Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -6858,8 +7298,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Harassing Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Harassing Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -7001,8 +7445,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get +1 to hit rolls when shooting."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get +1 to hit rolls when shooting. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -7027,8 +7475,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+4)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Against non-Hero units with Tough(3) or more, this weapon gets AP(+4)."
         }
       ],
       "specialRule": [
@@ -7040,8 +7492,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Bestial Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Bestial Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -7079,8 +7535,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Destroyer Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Destroyer Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -7157,8 +7617,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get +1 to morale test rolls."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get +1 to morale test rolls. If this model is killed, picked models that are deployed lose the rule."
         }
       ],
       "specialRule": [
@@ -7316,8 +7780,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get Royal Warrior Boost."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Royal Warrior Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -7456,8 +7924,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets <key>AP</key>(+1) when shooting against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets AP(+1) when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -7506,8 +7978,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "This model and its unit get <key>Vale Oath Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "This model and up to 3 friendly units picked before the start of the game get Vale Oath Boost. If this model is killed, picked models that are deployed lose the rule."
         }
       ]
     },
@@ -7826,6 +8302,7 @@ export const commonRules: RulesByLanguage = {
       ]
     }
   },
+  "pl": {},
   "fr": {
     "Aircraft": {
       "title": "Aéronef",
@@ -9220,8 +9697,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Percée</key> en mêlée."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Percée</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9275,8 +9756,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Contre-attaque</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Contre-attaque</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9290,8 +9775,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent un bonus de +6” de portée lorsqu'elles tirent."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +6” de portée au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9322,8 +9811,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Charge rapide</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Charge rapide</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9350,8 +9843,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Boost de l'Origine Ombreuse</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de l'Origine Ombreuse</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9363,8 +9860,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18”. Les unités alliées gagnent <key>Combattant imprévisible</key> contre elle (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>Combattant imprévisible</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -9607,8 +10108,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Protection ancrée</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection ancrée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9682,8 +10187,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Assaut perforant</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Assaut perforant</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9710,8 +10219,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Tireur imprévisible</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tireur imprevisible</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9725,8 +10238,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Tir en mouvement</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tir en mouvement</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9740,8 +10257,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Esquive en mêlée</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Esquive en mêlée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9767,8 +10288,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Les unités alliées gagnent <key>Tir rapide</key> contre elle une fois, lors de la prochaine application de cet effet."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -9800,8 +10325,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Boost du Voile sauvage</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost  du Voile sauvage</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9844,8 +10373,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Avance rapide</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Avance rapide</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -9858,8 +10391,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Elle se déplace de -2” lors d'une action d'Avancée et de -4” lors d'une action de Course/Charge une fois, lors de la prochaine application de cet effet."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui se déplacent de -2” lors des actions d'Avancée et de -4” lors des actions de Course/Charge une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -9926,8 +10463,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Ce modele peut tirer apres avoir utilise une action Rush."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine peut tirer après avoir effectué une action de Course."
         }
       ]
     },
@@ -9970,8 +10511,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Furtif</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Furtif</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10033,8 +10578,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement ancrée</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement ancrée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10080,8 +10629,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Tir rapide</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tir rapide</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10096,8 +10649,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Vif</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Vif</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10111,8 +10668,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Marcheur</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Arpenteur</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10128,8 +10689,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Imparable</key> en mêlée."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Inarrêtable</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10197,8 +10762,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagne un bonus de +2” lorsqu'elles Avancent et +4” lorsqu'elles Courent ou Chargent."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie se déplacent de +2” lors des actions d'Avancée et +4” lors des actions de Course/Charge. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10228,8 +10797,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Pas de retraite</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Pas de retraite</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10247,8 +10820,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Compte comme ayant <key>Embuscade</key>, mais peut être déployée jusqu'à 1” des unités ennemies."
+        },
+        {
+          "system": "AOFS",
+          "text": "Compte comme possédant <key>Embuscade</key>, mais peut être déployée n'importe où à plus de 3” d'une unité ennemie."
         }
       ]
     },
@@ -10293,8 +10870,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Chasseur perforant</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Chasseur perforant</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10306,8 +10887,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Réanimation</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Reanimation</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10339,8 +10924,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Éclaireur</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Éclaireur</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10372,8 +10961,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Elle doit faire un test de moral. En cas d'échec, vous pouvez la déplacer de jusqu'à 6” en ligne droite dans n'importe quelle direction."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui doivent effectuer un test de moral. En cas d'échec, vous pouvez les déplacer jusqu'à 6” en ligne droite dans n'importe quelle direction."
         }
       ]
     },
@@ -10389,8 +10982,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Elle subit -1 à son prochain test de moral, lors de la prochaine application de cet effet."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui subissent -1 aux jets de moral une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -10404,8 +11001,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagne la règle spéciale <key>Lacération</key> en mêlée."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Lacération</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10443,8 +11044,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins. Elle gagne <key>Boost de la Malédiction Mort-vivante</key> une fois, lors de la prochaine application de cet effet."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Boost de la Malédiction Mort-vivante</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -10460,8 +11065,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Lorsqu'une unité dont la plupart des figurines possèdent cette règle spéciale échoue à un Test de Moral qui la rend Ébranlée ou En déroute, le test est considéré comme réussi. Lancez ensuite autant de dés que le nombre de blessures nécessaires pour la détruire entièrement, et pour chaque résultat de 1 à 3, l'unité subit une blessure qui ne peut être ignorée."
+        },
+        {
+          "system": "AOFS",
+          "text": "Lorsqu'une unité dont la majorité des figurines possède cette règle échoue à un test de moral qui la rendrait Ébranlée ou en Déroute, le test est considéré comme réussi. Lancez ensuite autant de dés que le nombre de blessures nécessaires pour effectuer un jet d'effet de blessure (lancez toujours au moins 1 dé) ; pour chaque résultat de 1 à 3, l'unité subit une blessure qui ne peut pas être ignorée."
         }
       ]
     },
@@ -10566,8 +11175,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Perforant</key> au tir."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Perforant</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10583,8 +11196,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Résistance</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Résistance</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10622,8 +11239,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Boost du boucanier</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du boucanier</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10738,8 +11359,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent +4” lorsqu’elles Chargent."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie se déplacent de +4” lors des actions de Charge. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10754,8 +11379,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Perforant</key> en mêlée."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Perforant</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10812,8 +11441,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins. Elle gagne <key>Boost de Primal</key> une fois, lors de la prochaine application de cet effet."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Boost de Primal</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -10913,8 +11546,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Boost du Guerrier-né</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Guerrier-né</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10949,8 +11586,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Embuscade</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Embuscade</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -10992,8 +11633,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>AP</key>(+1) en tir."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>PA</key>(+1) au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -11009,8 +11654,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Furious</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Furieux</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -11040,8 +11689,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Blindé</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Blindé</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -11054,8 +11707,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>AP</key>(+1) en mêlée."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>PA</key>(+1) en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -11096,8 +11753,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Reckless Piercing</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Percee temeraire</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -11171,8 +11832,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Implacable</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Implacable</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -11188,8 +11853,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Régénération</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Régénération</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -11202,8 +11871,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliee a 12” ; elle gagne +1 pour toucher lorsqu'elle attaque une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent +1 aux jets pour toucher en attaquant une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -11230,8 +11903,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Inébranlable</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Inébranlable</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -11258,8 +11935,12 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Plaguebound Boost</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Amplification Lie a la peste</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -11312,8 +11993,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent Combattant Eclair."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Combattant Frappe et Repli</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11368,8 +12053,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Ignore la Régénération et, contre les unités dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+2)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Contre les unités non-<key>Héros</key> avec <key>Robuste</key>(3) ou plus, cette arme gagne <key>PA</key>(+2)."
         }
       ],
       "specialRule": [
@@ -11382,8 +12071,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent Inarretable au tir."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Inarrêtable</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11396,8 +12089,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Lie a la Luxure</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Lié à la Luxure amélioré</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11452,8 +12149,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent +1 aux jets pour toucher en mêlée."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +1 aux jets pour toucher en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11466,8 +12167,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Esquive</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Esquive</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11493,8 +12198,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18”; elle subit -1 aux jets de defense une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui subissent -1 aux jets de défense une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -11506,8 +12215,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fléau au tir</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Fléau</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11520,8 +12233,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fleau en mêlée</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Fléau</key> en mêlée. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11536,8 +12253,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement de Detale</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement de Detale</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11549,8 +12270,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins, qui obtient un bonus de +1 aux jets pour toucher en mêlée une seule fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent +1 aux jets pour toucher en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -11693,8 +12418,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Ossifie</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Ossifie</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11732,8 +12461,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Voile de mêlée</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Voile de mêlée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11761,8 +12494,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Ferocite</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Ferocite</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11774,8 +12511,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent Saccage(+1)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Ravage</key>(+1). Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11787,8 +12528,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Exploit de Vitesse</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Exploit de Vitesse</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11921,8 +12666,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement de Legion Royale</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Légion Royale améliorée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11934,8 +12683,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent la règle spéciale <key>Renforcé</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcé</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11950,8 +12703,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Indirect</key> au tir."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Indirect</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -11965,8 +12722,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Compte comme ayant <key>Infiltration</key>. La première fois que cette unité est activée après avoir été déployée via cette règle, lancez X dés ; pour chaque 4+, une unité ennemie à 6” ou moins et en ligne de vue subit 2 touches avec <key>PA</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Compte comme possédant <key>Infiltration</key>. La première fois que cette unité est activée, choisissez une unité ennemie en ligne de vue à 6” ou moins et lancez X dés. Pour chaque résultat de 2+, elle subit une touche avec <key>PA</key>(1)."
         }
       ],
       "specialRule": [
@@ -12019,8 +12780,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; elle subit -1 aux jets pour toucher lors d'une attaque une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui subissent -1 aux jets pour toucher en attaquant une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12047,8 +12812,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent <key>Tueur</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>Tueur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12060,8 +12829,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Renforcement de Benediction Angelique</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Renforcement de Benediction Angelique</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12073,8 +12846,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Attaque Polyvalente</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Attaque polyvalente</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12160,8 +12937,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Si cette unité est a 24” d'une autre unité alliée avec cette règle contenant un <key>Hero</key>, alors ce <key>Hero</key> peut utiliser ses règles speciales qui ciblent des unités alliées a 12” (sauf les sorts) sur cette unité comme si elle etait a portee."
+        },
+        {
+          "system": "AOFS",
+          "text": "Si cette unité se trouve à 24” ou moins d'une autre unité alliée possédant cette règle et située à 6” ou moins d'un <key>Héros</key> allié, alors ce Héros peut utiliser sur cette unité les règles spéciales lui permettant de choisir des unités alliées à 12” ou moins (à l'exception des sorts), comme si elle était à portée."
         }
       ],
       "specialRule": [
@@ -12173,8 +12954,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Les unités dont tous les modeles ont cette règle gagnent +1 aux tests de moral."
+        },
+        {
+          "system": "AOFS",
+          "text": "Les unités dont toutes les figurines possèdent cette règle gagnent +1 aux jets de moral."
         }
       ],
       "specialRule": [
@@ -12186,8 +12971,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne Rush <key>Rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12212,8 +13001,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent +1 aux jets pour toucher en mêlée contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent +1 aux jets pour toucher en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12225,8 +13018,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins qui gagne un bonus de +1 aux jets pour toucher lorsqu'elle tire, une seule fois (l'effet s'appliquera la prochaine fois qu'elle devrait tirer)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent +1 aux jets pour toucher au tir une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12238,8 +13035,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Renforcement Tenir la Ligne</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Renforcement Tenir la Ligne</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12251,8 +13052,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Furieux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Furieux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12281,8 +13086,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Choisissez un modele avec cette règle dans cette unité pour avoir <key>Caster</key>(X), ou X est le nombre total de modeles avec cette règle dans cette unité. Si Cette figurine est tue, choisissez-en un autre comme nouveau lanceur et transferez-lui tous les jetons de sort. Le lanceur perd tous ses jetons de sort non depenses a la fin du round."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine compte comme possédant <key>Lanceur de Sorts</key>(1)."
         }
       ],
       "specialRule": [
@@ -12334,8 +13143,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Fearless</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Sans peur</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12363,8 +13176,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent +1 aux jets pour toucher au tir contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent +1 aux jets pour toucher au tir une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12390,8 +13207,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Noble</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Noble</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12446,8 +13267,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Défense versatile</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Défense versatile</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12464,8 +13289,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent Dechiquetage au tir."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Lacération</key> au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12482,8 +13311,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Combattant Imprévisible</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Combattant imprévisible</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12501,8 +13334,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Voile fluctuant</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Voile fluctuant</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12538,8 +13375,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a  12” ou moins, elle gagne <key>Inébranlable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12” ou moins, qui gagnent <key>Inébranlable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12649,8 +13490,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Lie au Changement</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Lie au Changement</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12747,8 +13592,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Bond</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Bond</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12761,8 +13610,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Lie au Chaos</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Lie au Chaos</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12789,8 +13642,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18” ou moins et en ligne de vue ; elles comptent comme étant en <key>Terrain dangereux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, qui comptent comme étant en Dangerous Terrain une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12816,8 +13673,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Tueur</key> en mêlée."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tueur en mêlée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12829,8 +13690,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent <key>Implacable</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>Implacable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -12868,8 +13733,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Teleport</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Téléportation</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12881,8 +13750,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Chanceux</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Chanceux</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -12960,8 +13833,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Malicieux</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Malicieux</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13051,8 +13928,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Boost de l'Esprit empyréen</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de l'Esprit empyréen</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13129,8 +14010,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Boost de Gardien</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Gardien</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13220,8 +14105,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent +1 aux jets pour toucher lorsqu'ils chargent."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +1 aux jets pour toucher when charging. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13233,8 +14122,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Coriace</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Coriace</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13285,8 +14178,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Tueur a Distance</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tueur a Distance</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13312,8 +14209,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Tech Vinci</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Tech Vinci</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13430,8 +14331,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement de Pas Ondulatoire</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement de Pas Ondulatoire</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13547,8 +14452,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement de Harcelement</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement de Harcelement</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13690,8 +14599,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent +1 aux jets pour toucher au tir."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +1 aux jets pour toucher au tir. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13716,8 +14629,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "<key>Contre</key> les unités dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+4)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Contre les unités non-<key>Héros</key> avec <key>Robuste</key>(3) ou plus, cette arme gagne <key>PA</key>(+4)."
         }
       ],
       "specialRule": [
@@ -13729,8 +14646,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Bestial</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Bestial</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13768,8 +14689,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Renforcement Destructeur</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Renforcement Destructeur</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -13846,8 +14771,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité obtiennent un bonus de +1 à leurs Tests de Moral."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent +1 aux jets de moral. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ],
       "specialRule": [
@@ -14205,8 +15134,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Précision ancrée</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Précision ancrée</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -14245,8 +15178,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Gardien</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost de Gardien</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -14565,8 +15502,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection mutuelle</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection mutuelle</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -15065,8 +16006,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Ce modèle et son unité gagnent <key>Guerrier royal amélioré</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Guerrier royal amélioré</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -15205,8 +16150,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins en ligne de vue. Les unités alliées gagnent <key>PA</key>(+1) lorsqu'elles tirent contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>PA</key>(+1) au tir une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -15255,8 +16204,12 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "text": "Cette figurine et son unité gagnent <key>Boost du Serment du Val</key>."
+        },
+        {
+          "system": "AOFS",
+          "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Boost du Serment du Val</key>. Si cette figurine est tuée, les unités choisies qui sont déployées perdent cette règle."
         }
       ]
     },
@@ -15574,8 +16527,7 @@ export const commonRules: RulesByLanguage = {
         }
       ]
     }
-  },
-  "pl": {}
+  }
 };
 
 export const commonSpells: SpellsByLanguage = {
@@ -15585,9 +16537,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Evasive</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Evasive once (next time the effect would apply)."
         }
       ]
     },
@@ -15607,9 +16564,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Unpredictable Fighter</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
         }
       ]
     },
@@ -15618,9 +16580,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 6 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 3 hits each."
         }
       ]
     },
@@ -15629,9 +16596,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which moves +2” when using Advance actions and +4” when using Rush/Charge actions once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
         }
       ]
     },
@@ -15640,9 +16612,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
         }
       ]
     },
@@ -15651,9 +16628,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets Quick Shot against once (next time the effect would apply)."
         }
       ]
     },
@@ -15673,9 +16655,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Resistance</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Resistance once (next time the effect would apply)."
         }
       ]
     },
@@ -15684,9 +16671,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -15695,9 +16687,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Grounded Reinforcement</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Grounded Reinforcement once (next time the effect would apply)."
         }
       ]
     },
@@ -15706,9 +16703,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 18”, which takes 6 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which take 2 hits each."
         }
       ]
     },
@@ -15717,9 +16719,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which must take a morale test. If failed, it becomes fatigued."
         }
       ]
     },
@@ -15739,9 +16746,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Hit & Run Fighter</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Hit & Run Fighter once (next time the effect would apply)."
         }
       ]
     },
@@ -15750,9 +16762,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 12”, which take 4 hits each."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 12\", which take 2 hits each."
         }
       ]
     },
@@ -15761,9 +16778,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Grounded Protection</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Grounded Protection once (next time the effect would apply)."
         }
       ]
     },
@@ -15772,9 +16794,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 6”, which takes 9 hits with <key>Pulverize</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 6\", which take 3 hits with Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -15783,9 +16810,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Cursed Undead Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Cursed Undead Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -15805,9 +16837,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 18”, which must take a morale test. If failed you may move it by up to 6” in a straight line in any direction."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 18\", which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
         }
       ]
     },
@@ -15816,9 +16853,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(2) each."
         }
       ]
     },
@@ -15827,9 +16869,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Teleport</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Teleport once (next time the effect would apply)."
         }
       ]
     },
@@ -15838,9 +16885,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
         }
       ]
     },
@@ -15849,9 +16901,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which gets -3 to casting rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which get -3 to casting rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -15871,9 +16928,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Swift</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Swift once (next time the effect would apply)."
         }
       ]
     },
@@ -15882,9 +16944,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 12\", which take 1 hit with AP(2) each."
         }
       ]
     },
@@ -15893,9 +16960,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Buccaneer Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Buccaneer Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -15904,9 +16976,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>Shred</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with Shred each."
         }
       ]
     },
@@ -15915,9 +16992,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which friendly units gets <key>Shred</key> when attacking against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets Shred when attacking against once (next time the effect would apply)."
         }
       ]
     },
@@ -15937,9 +17019,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Steadfast</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Steadfast once (next time the effect would apply)."
         }
       ]
     },
@@ -15948,9 +17035,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -15959,9 +17051,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Primal Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Primal Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -15970,9 +17067,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 6”, which takes 9 hits with <key>Bane</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 6\", which take 3 hits with Bane each."
         }
       ]
     },
@@ -15981,9 +17083,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which must take a morale test. If failed, it becomes fatigued."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which must take a morale test. If failed, it becomes fatigued."
         }
       ]
     },
@@ -15992,9 +17099,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Blast</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3)."
         }
       ]
     },
@@ -16003,9 +17115,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Melee Evasion once (next time the effect would apply)."
         }
       ]
     },
@@ -16014,9 +17131,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Break</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 6\", which take 3 hits with Crack each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -16025,9 +17147,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Warbound Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Warbound Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16036,9 +17163,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to two enemy units within 12”, which take 3 hits with <key>AP</key>(2) each."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 12\", which take 1 hit with AP(2) each."
         }
       ]
     },
@@ -16047,9 +17179,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which counts as being in Difficult Terrain once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which counts as being in Difficult Terrain once (next time the effect would apply)."
         }
       ]
     },
@@ -16058,9 +17195,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Butcher</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -16069,9 +17211,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Rapid Rush</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Rapid Rush once (next time the effect would apply)."
         }
       ]
     },
@@ -16080,9 +17227,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -16091,9 +17243,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Plaguebound Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Plaguebound Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16102,9 +17259,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 18”, which takes 6 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which take 2 hits each."
         }
       ]
     },
@@ -16113,9 +17275,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets Quick Shot against once (next time the effect would apply)."
         }
       ]
     },
@@ -16135,9 +17302,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Melee Evasion once (next time the effect would apply)."
         }
       ]
     },
@@ -16146,9 +17318,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -16157,9 +17334,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Lustbound Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Lustbound Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16168,9 +17350,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
         }
       ]
     },
@@ -16179,9 +17366,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which gets -3 to casting rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which get -3 to casting rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -16201,9 +17393,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Bane when Shooting</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Bane when Shooting once (next time the effect would apply)."
         }
       ]
     },
@@ -16212,9 +17409,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 9\", which take 2 hits each."
         }
       ]
     },
@@ -16223,9 +17425,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Changebound Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Changebound Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16234,9 +17441,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
         }
       ]
     },
@@ -16245,9 +17457,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Scurry Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Scurry Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16267,9 +17484,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Melee Slayer</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Melee Slayer once (next time the effect would apply)."
         }
       ]
     },
@@ -16278,9 +17500,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 6 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 3 hits each."
         }
       ]
     },
@@ -16289,9 +17516,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which get -1 to defense rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which get -1 to defense rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -16300,9 +17532,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy model within 12”, which takes 6 hits with <key>Hazardous</key>. Roll as many dice as hits to see if ”on rolls of 1” effects trigger."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy models within 12\", which take 2 hits with Hazardous each. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -16311,9 +17548,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Unstoppable</key> in melee once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Unstoppable in melee once (next time the effect would apply)."
         }
       ]
     },
@@ -16333,9 +17575,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Ossified Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Ossified Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16344,9 +17591,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Destructive</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 6\", which take 3 hits with Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -16355,9 +17607,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Furious</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets Furious against once (next time the effect would apply)."
         }
       ]
     },
@@ -16366,9 +17623,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 18”, which takes 6 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which take 2 hits each."
         }
       ]
     },
@@ -16377,9 +17639,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Counter-Attack</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Counter-Attack once (next time the effect would apply)."
         }
       ]
     },
@@ -16399,9 +17666,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Ferocious Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Ferocious Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16410,9 +17682,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Bane</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 6\", which take 3 hits with Bane each."
         }
       ]
     },
@@ -16421,9 +17698,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Rending</key> in melee against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets Rending in melee against once (next time the effect would apply)."
         }
       ]
     },
@@ -16432,9 +17714,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
         }
       ]
     },
@@ -16443,9 +17730,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Resistance</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Resistance once (next time the effect would apply)."
         }
       ]
     },
@@ -16465,9 +17757,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Destroyer Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Destroyer Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16476,9 +17773,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(1) and <key>Rupture</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -16487,9 +17789,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which get <key>Unwieldy</key> in melee once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which get Unwieldy in melee once (next time the effect would apply)."
         }
       ]
     },
@@ -16498,9 +17805,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
         }
       ]
     },
@@ -16509,9 +17821,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which counts as being in Difficult Terrain once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which counts as being in Difficult Terrain once (next time the effect would apply)."
         }
       ]
     },
@@ -16531,9 +17848,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Shred</key> when shooting once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Shred when shooting once (next time the effect would apply)."
         }
       ]
     },
@@ -16542,9 +17864,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -16553,9 +17880,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Royal Legion Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Royal Legion Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16564,9 +17896,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Destructive</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -16575,9 +17912,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Flying</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Flying once (next time the effect would apply)."
         }
       ]
     },
@@ -16602,9 +17944,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Angelic Blessing Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Angelic Blessing Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16613,9 +17960,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 12\", which take 1 hit with AP(2) each."
         }
       ]
     },
@@ -16624,9 +17976,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets Slayer against once (next time the effect would apply)."
         }
       ]
     },
@@ -16635,9 +17992,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 18”, which takes 6 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which take 2 hits each."
         }
       ]
     },
@@ -16678,9 +18040,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 18”, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 18\", which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
         }
       ]
     },
@@ -16689,9 +18056,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 6 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 3 hits each."
         }
       ]
     },
@@ -16700,9 +18072,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>AP</key>(+1) in melee once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get AP(+1) in melee once (next time the effect would apply)."
         }
       ]
     },
@@ -16711,9 +18088,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy model within 18”, which takes 6 hits with <key>AP</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -16722,9 +18104,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -16744,9 +18131,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Bane</key> in melee once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Bane in melee once (next time the effect would apply)."
         }
       ]
     },
@@ -16755,9 +18147,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 9\", which take 2 hits each."
         }
       ]
     },
@@ -16766,9 +18163,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Highborn Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Highborn Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16777,9 +18179,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Crack</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Crack each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -16799,9 +18206,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which counts as being in Dangerous Terrain once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which counts as being in Dangerous Terrain once (next time the effect would apply)."
         }
       ]
     },
@@ -16810,9 +18222,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Havocbound Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Havocbound Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16821,9 +18238,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -16832,9 +18254,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Fortified</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Fortified once (next time the effect would apply)."
         }
       ]
     },
@@ -16843,9 +18270,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Slam</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
         }
       ]
     },
@@ -16854,9 +18286,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Piercing Hunter</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Piercing Hunter once (next time the effect would apply)."
         }
       ]
     },
@@ -16876,9 +18313,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Havocbound Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Havocbound Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16887,9 +18329,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Purge</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 6\", which take 3 hits with Disintegrate each."
         }
       ]
     },
@@ -16898,9 +18345,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets Relentless against once (next time the effect would apply)."
         }
       ]
     },
@@ -16909,9 +18361,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Blast</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
         }
       ]
     },
@@ -16920,9 +18377,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Lucky Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Lucky Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -16942,9 +18404,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 18”, which get -1 to morale test rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 18\", which get -1 to morale test rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -16953,9 +18420,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 6 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 3 hits each."
         }
       ]
     },
@@ -16964,9 +18436,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Fearless</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Fearless once (next time the effect would apply)."
         }
       ]
     },
@@ -16975,9 +18452,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
         }
       ]
     },
@@ -16986,9 +18468,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Mischievous Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Mischievous Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -17008,9 +18495,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Piercing Assault</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets Piercing Fighter against once (next time the effect would apply)."
         }
       ]
     },
@@ -17019,9 +18511,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(2) each."
         }
       ]
     },
@@ -17030,9 +18527,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get +1 to defense rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get +1 to defense rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -17041,9 +18543,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Skewer</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with Deadly(3) and Tear each."
         }
       ]
     },
@@ -17052,9 +18559,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which friendly units gets <key>Unstoppable</key> when shooting against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -17074,9 +18586,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Unpredictable Fighter</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Unpredictable Fighter once (next time the effect would apply)."
         }
       ]
     },
@@ -17085,9 +18602,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 9\", which take 2 hits each."
         }
       ]
     },
@@ -17096,9 +18618,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Warden Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Warden Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -17107,9 +18634,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Rapid Charge</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Rapid Charge once (next time the effect would apply)."
         }
       ]
     },
@@ -17129,9 +18661,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Sturdy Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Sturdy Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -17140,9 +18677,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(1) and <key>Quake</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Shred each."
         }
       ]
     },
@@ -17151,9 +18693,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Blast</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
         }
       ]
     },
@@ -17162,9 +18709,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which moves -2” when using Advance actions and -4” when using Rush/Charge actions once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once (next time the effect would apply)."
         }
       ]
     },
@@ -17173,9 +18725,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which friendly units get +6” range when shooting against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two enemy units within 18\", which friendly units get +6\" range when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -17195,9 +18752,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Steadfast</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Steadfast once (next time the effect would apply)."
         }
       ]
     },
@@ -17206,9 +18768,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 9”, which take 4 hits each."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 9\", which take 2 hits each."
         }
       ]
     },
@@ -17217,9 +18784,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Vinci Tech Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Vinci Tech Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -17228,9 +18800,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
         }
       ]
     },
@@ -17261,9 +18838,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>AP</key>(1) and <key>Surge</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Surge each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -17272,9 +18854,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get Royal Warrior Boost once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Royal Warrior Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -17283,9 +18870,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Indirect when Shooting</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets Indirect when Shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -17294,9 +18886,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy model within 24”, which takes 3 hits with <key>Splinter</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy models within 24\", which take 1 hit with Tear each. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -17305,9 +18902,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Stealth</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Stealth once (next time the effect would apply)."
         }
       ]
     },
@@ -17327,9 +18929,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 12”, which take 2 hits with <key>AP</key>(2) each."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 12\", which take 1 hit with AP(2) each."
         }
       ]
     },
@@ -17338,9 +18945,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Wave-Step Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Wave-Step Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -17349,9 +18961,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which get -1 to hit rolls when attacking once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which get -1 to hit rolls when attacking once (next time the effect would apply)."
         }
       ]
     },
@@ -17360,9 +18977,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 18”, which takes 3 hits with <key>Thrash</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) and Lacerate each."
         }
       ]
     },
@@ -17371,9 +18993,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Harassing Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Harassing Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -17393,9 +19020,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Thrust</key> against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets Rapid Charge against once (next time the effect would apply)."
         }
       ]
     },
@@ -17404,9 +19036,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 18”, which takes 2 hits with <key>Blast</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\", which take 1 hit with Blast(3) each."
         }
       ]
     },
@@ -17415,9 +19052,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get Regeneration once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Regeneration once (next time the effect would apply)."
         }
       ]
     },
@@ -17426,9 +19068,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 6”, which takes 3 hits with <key>AP</key>(2) and <key>Deadly</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
         }
       ]
     },
@@ -17437,9 +19084,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Fortified</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Fortified once (next time the effect would apply)."
         }
       ]
     },
@@ -17459,9 +19111,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Vale Formation Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four friendly units within 12\", which get Vale Oath Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -17470,9 +19127,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Bane</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 6\", which take 3 hits with Bane each."
         }
       ]
     },
@@ -17481,9 +19143,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18”, which friendly units gets <key>Impact</key>(1) against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six enemy units within 18\", which friendly units gets Surge against once (next time the effect would apply)."
         }
       ]
     },
@@ -17492,9 +19159,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
         }
       ]
     },
@@ -17503,9 +19175,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Bestial Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Bestial Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -17525,9 +19202,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 18”, which get -1 to morale test rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 18\", which get -1 to morale test rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -17536,9 +19218,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy model within 24”, which takes 2 hits with <key>Tear</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy models within 24\", which take 1 hit with Tear each. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -17547,9 +19234,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get Regeneration once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get Regeneration once (next time the effect would apply)."
         }
       ]
     },
@@ -17558,9 +19250,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 9 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 12\", which take 3 hits each."
         }
       ]
     },
@@ -19993,9 +21690,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Pick one friendly unit within 12”, which gets <key>Empyrean Spirit Boost</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Pick up to two friendly units within 12\", which get Empyrean Spirit Boost once (next time the effect would apply)."
         }
       ]
     },
@@ -20015,9 +21717,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 18”, which friendly units gets <key>Bane</key> when attacking against once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to four enemy units within 18\", which friendly units gets Bane when attacking against once (next time the effect would apply)."
         }
       ]
     },
@@ -20026,9 +21733,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 12”, which takes 4 hits with <key>Reap</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 12\", which take 2 hits with Disintegrate each."
         }
       ]
     },
@@ -20037,9 +21749,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get +1 to hit rolls in melee once (next time the effect would apply)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to six friendly units within 12\", which get +1 to hit rolls in melee once (next time the effect would apply)."
         }
       ]
     },
@@ -20048,9 +21765,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 18”, which takes 6 hits."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 18\", which take 2 hits each."
         }
       ]
     },
@@ -20710,9 +22432,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12” ou moins, qui gagne <key>Evasif</key>(la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20732,9 +22459,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 18”. Les unités alliées gagnent <key>Combattant imprévisible</key> contre elles (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Combattant imprévisible</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20743,9 +22475,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 12” ou moins, qui subit 6 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 3 touches chacune."
         }
       ]
     },
@@ -20754,9 +22491,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12” ou moins, qui se deplacent de +2” avec les actions Déplacement et de +4” avec les actions Course/Charge (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui se déplacent de +2” lors des actions d'Avancée et +4” lors des actions de Course/Charge une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20765,9 +22507,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Selectionnez une unité ennemie a 6”, qui subit 3 touches avec <key>PA</key>(2) et <key>Mortel</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 touche avec <key>PA</key>(2) et <key>Mortel</key>(3) chacune."
         }
       ]
     },
@@ -20776,9 +22523,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Tir rapide</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20798,9 +22550,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Resistance</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Résistance</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20809,9 +22566,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>AP</key>(4)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux figurines ennemies à 24” ou moins, qui subissent 1 touche avec <key>PA</key>(4) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -20820,9 +22582,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement ancre</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Renforcement ancrée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20831,9 +22598,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -20842,9 +22614,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Assaut perforant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui doivent effectuer un test de moral. En cas d'échec, elles deviennent Fatiguées."
         }
       ]
     },
@@ -20864,9 +22641,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Combattant Frappe et Repli</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Combattant Frappe et Repli</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20875,9 +22657,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subissent chacune 4 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 12” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -20886,9 +22673,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Protection ancree</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Protection ancrée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20897,9 +22689,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 6”, qui subit 9 touches avec <key>Pulverisation</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 3 touches avec <key>Destructeur</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
         }
       ]
     },
@@ -20908,9 +22705,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Boost de la Malédiction Mort-Vivante</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Boost de la Malédiction Mort-vivante</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20930,9 +22732,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 18”, qui doivent faire un test de moral. En cas d'echec, vous pouvez la deplacer de jusqu'à 6” en ligne droite dans n'importe quelle direction."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui doivent effectuer un test de moral. En cas d'échec, vous pouvez les déplacer jusqu'à 6” en ligne droite dans n'importe quelle direction."
         }
       ]
     },
@@ -20941,9 +22748,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -20952,9 +22764,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Teleportation</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Téléportation</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20963,9 +22780,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 touche avec <key>PA</key>(2) et <key>Mortel</key>(3) chacune."
         }
       ]
     },
@@ -20974,9 +22796,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent -3 aux jets d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -20996,9 +22823,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Vif</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Vif</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21007,9 +22839,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subissent chacune 2 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 12” ou moins, qui subissent 1 touche avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -21018,9 +22855,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Amplification Boucanier</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Boost du boucanier</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21029,9 +22871,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>Laceration</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>Lacération</key> chacune."
         }
       ]
     },
@@ -21040,9 +22887,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 18\" ou moins. Les unités amies bénéficient de la règle spéciale <key>Lacération</key> une seule fois lorsqu'elles l'attaquent (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Lacération</key> en attaquant contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21062,9 +22914,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisisser jusqu'à deux unités alliées à 12” ou moins, qui obtiennent une seule fois la règle spéciale <key>Inébranlable</key> (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Inébranlable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21073,9 +22930,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisisser une figurine ennemi à 18” ou moins, qui subit 4 touches avec <key>PA</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux figurines ennemies à 18” ou moins, qui subissent 2 touches avec <key>PA</key>(1) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -21084,9 +22946,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisisser jusqu'à trois unités alliées à 12” ou moins, qui bénéficient de la règle spéciale <key>Boost de Primal</key> une seule fois (la prochaine fois que cet effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Boost de Primal</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21095,9 +22962,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisisser une unité ennemie à 6” ou moins, qui subit 9 touches avec <key>Fléau</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 3 touches avec <key>Fléau</key> chacune."
         }
       ]
     },
@@ -21106,9 +22978,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui devra faire un test de moral. En cas d'echec, elle sera fatiguée."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui doivent effectuer un test de moral. En cas d'échec, elles deviennent Fatiguées."
         }
       ]
     },
@@ -21117,9 +22994,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 touche avec <key>Explosion</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à 18” ou moins, qui subissent 1 touche avec <key>Explosion</key>(3)."
         }
       ]
     },
@@ -21128,9 +23010,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12” ou moins, qui gagneront <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21139,9 +23026,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 6” ou moins, qui subira 6 touches avec <key>Dislocation</key>. Lancez autant de dés que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 3 touches avec <key>Fissure</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
         }
       ]
     },
@@ -21150,9 +23042,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagneront <key>Boost de Guerrier-né</key> une fois (la prochaine fois que l'effet s'appliquera)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Boost de Guerrier-né</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21161,9 +23058,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subiront chacune 3 touches avec <key>PA</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 12” ou moins, qui subissent 1 touche avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -21172,9 +23074,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui comptent comme étant en Difficult Terrain une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21183,9 +23090,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Boucher</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Surcharge</key>. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
         }
       ]
     },
@@ -21194,9 +23106,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21205,9 +23122,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>AP</key>(4)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux figurines ennemies à 24” ou moins, qui subissent 1 touche avec <key>PA</key>(4) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -21216,9 +23138,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Amplification Lie a la peste</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Amplification Lie a la peste</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21227,9 +23154,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -21238,9 +23170,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Tir rapide</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21260,9 +23197,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21271,9 +23213,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez un modele ennemi a 18”, qui subit 4 touches avec <key>AP</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux figurines ennemies à 18” ou moins, qui subissent 2 touches avec <key>PA</key>(1) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -21282,9 +23229,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie a la Luxure</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Lié à la Luxure amélioré</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21293,9 +23245,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Lacération</key> chacune."
         }
       ]
     },
@@ -21304,9 +23261,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent -3 aux jets d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21326,9 +23288,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Fleau au Tir</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Fleau au Tir</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21337,9 +23304,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 9” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -21348,9 +23320,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie au Changement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Renforcement Lie au Changement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21359,9 +23336,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -21370,9 +23352,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Renforcement de Detale</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Renforcement de Detale</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21392,9 +23379,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Tueur de mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Tueur en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21403,9 +23395,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 3 touches chacune."
         }
       ]
     },
@@ -21414,9 +23411,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, qui subissent -1 a leurs jets de defense une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui subissent -1 aux jets de défense une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21425,9 +23427,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez un modele ennemi a 12”, qui subit 6 touches avec <key>Dangereux</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 1” se declenchent."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois figurines ennemies à 12” ou moins, qui subissent 2 touches avec <key>Dangereux</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 1 » se déclenchent. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -21436,9 +23443,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne Inarretable en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Inarrêtable</key> en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21458,9 +23470,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Ossifie</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Renforcement Ossifie</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21469,9 +23486,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 6”, qui subit 6 touches avec <key>Destructeur</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 3 touches avec <key>Destructeur</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
         }
       ]
     },
@@ -21480,9 +23502,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Furieux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Furieux</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21491,9 +23518,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -21502,9 +23534,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Contre-attaque</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Contre-attaque</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21524,9 +23561,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Ferocite</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Renforcement Ferocite</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21535,9 +23577,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 6”, qui subit 6 touches avec Fleau."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 3 touches avec <key>Fléau</key> chacune."
         }
       ]
     },
@@ -21546,9 +23593,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Perforant en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Perforant</key> en mêlée contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21557,9 +23609,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -21568,9 +23625,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Resistance</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Résistance</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21590,9 +23652,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Destructeur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Renforcement Destructeur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21601,9 +23668,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(1) et <key>Rupture</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Destructeur</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
         }
       ]
     },
@@ -21612,9 +23684,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, qui gagnent <key>Encombrant</key> en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui gagnent <key>Encombrant</key> en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21623,9 +23700,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -21634,9 +23716,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui comptent comme étant en Difficult Terrain une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21656,9 +23743,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent Dechiquetage au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Lacération</key> au tir une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21667,9 +23759,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>AP</key>(4)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux figurines ennemies à 24” ou moins, qui subissent 1 touche avec <key>PA</key>(4) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -21678,9 +23775,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement de Legion Royale</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Légion Royale améliorée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21689,9 +23791,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Destructeur</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Destructeur</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
         }
       ]
     },
@@ -21700,9 +23807,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Volant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Volant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21727,9 +23839,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement de Benediction Angelique</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Renforcement de Benediction Angelique</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21738,9 +23855,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subissent chacune 2 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 12” ou moins, qui subissent 1 touche avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -21749,9 +23871,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Tueur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Tueur</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21760,9 +23887,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -21803,9 +23935,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 18”, contre lesquelles les unités alliées gagnent +1 aux jets pour toucher en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner +1 aux jets pour toucher en mêlée contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21814,9 +23951,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 3 touches chacune."
         }
       ]
     },
@@ -21825,9 +23967,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>AP</key>(+1) en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>PA</key>(+1) en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21836,9 +23983,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez un modele ennemi a 18”, qui subit 6 touches avec <key>AP</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois figurines ennemies à 18” ou moins, qui subissent 2 touches avec <key>PA</key>(1) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -21847,9 +23999,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent +1 aux jets pour toucher au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner +1 aux jets pour toucher au tir contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21869,9 +24026,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Bane</key> en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Fléau</key> en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21880,9 +24042,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 9” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -21891,9 +24058,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Noble</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Renforcement Noble</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21902,9 +24074,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Fissure</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Fissure</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
         }
       ]
     },
@@ -21924,9 +24101,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain dangereux une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui comptent comme étant en Dangerous Terrain une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21935,9 +24117,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Lie au Chaos</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Renforcement Lie au Chaos</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21946,9 +24133,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez un modele ennemi a 18”, qui subit 4 touches avec <key>AP</key>(1)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux figurines ennemies à 18” ou moins, qui subissent 2 touches avec <key>PA</key>(1) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -21957,9 +24149,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcé</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Renforcé</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -21968,9 +24165,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Percussion</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Lacération</key> chacune."
         }
       ]
     },
@@ -21979,9 +24181,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Chasseur perforant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Chasseur perforant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22001,9 +24208,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Lie au Chaos</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Renforcement Lie au Chaos</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22012,9 +24224,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 6”, qui subit 6 touches avec <key>Purge</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 3 touches avec <key>Désintegration</key> chacune."
         }
       ]
     },
@@ -22023,9 +24240,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Implacable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Implacable</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22034,9 +24256,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 18”, qui subit 3 touches avec <key>Blast</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 1 touche avec <key>Explosion</key>(3) chacune."
         }
       ]
     },
@@ -22045,9 +24272,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Renforcement Chanceux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Renforcement Chanceux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22067,9 +24299,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 18”, qui subissent -1 a leurs jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui subissent -1 aux jets de moral une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22078,9 +24315,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 3 touches chacune."
         }
       ]
     },
@@ -22089,9 +24331,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Sans peur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Sans peur</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22100,9 +24347,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 touche avec <key>PA</key>(2) et <key>Mortel</key>(3) chacune."
         }
       ]
     },
@@ -22111,9 +24363,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne Renforcement Espiegle une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Renforcement Malicieux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22133,9 +24390,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Assaut perforant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Combattant perforant</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22144,9 +24406,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -22155,9 +24422,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent +1 aux jets de defense une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent +1 aux jets de défense une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22166,9 +24438,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>AP</key>(2) et Embrocher."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 touche avec <key>Mortel</key>(3) et <key>Dechirure</key> chacune."
         }
       ]
     },
@@ -22177,9 +24454,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 18” ou moins, les unités alliée obtiennent la règle spéciale <key>Imparable</key> une seule fois lorsqu'elles tirent contre cette unité (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Inarrêtable</key> au tir contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22199,9 +24481,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui obtiennent une seule fois la règle spéciale <key>Combattant imprévisible</key> (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Combattant imprévisible</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22210,9 +24497,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 9” ou moins, qui subissent quatre blessures chacune."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 9” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -22221,9 +24513,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12” ou moins, qui bénéficient une seule fois de la règle spéciale <key>Boost de Gardien</key> (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Boost de Gardien</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22232,9 +24529,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22254,9 +24556,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement Coriace</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Renforcement Coriace</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22265,9 +24572,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(1) et <key>Secousse</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Lacération</key> chacune."
         }
       ]
     },
@@ -22276,9 +24588,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 18”, qui subit 3 touches avec <key>Blast</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 1 touche avec <key>Explosion</key>(3) chacune."
         }
       ]
     },
@@ -22287,9 +24604,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, qui se deplacent de -2” avec les actions Avance et de -4” avec les actions Rush/Charge une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui se déplacent de -2” lors des actions d'Avancée et -4” lors des actions de Course/Charge une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22298,9 +24620,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent +6” de portee au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner +6” de portée au tir contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22320,9 +24647,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Inebranlable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Inébranlable</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22331,9 +24663,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 9” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -22342,9 +24679,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Tech Vinci</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Renforcement Tech Vinci</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22353,9 +24695,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Lacération</key> chacune."
         }
       ]
     },
@@ -22386,9 +24733,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 12”, qui subit 4 touches avec <key>AP</key>(1) et <key>Deferlante</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Surcharge</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
         }
       ]
     },
@@ -22397,9 +24749,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent Renforcement Guerrier Royal une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Guerrier royal amélioré</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22408,9 +24765,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Indirect au Tir</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Indirect au Tir</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22419,9 +24781,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez un modele ennemi a 24”, qui subit 3 touches avec <key>Échardage</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois figurines ennemies à 24” ou moins, qui subissent 1 touche avec <key>Dechirure</key> chacune. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -22430,9 +24797,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Furtif</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Furtif</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22452,9 +24824,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subissent chacune 2 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 12” ou moins, qui subissent 1 touche avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -22463,9 +24840,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement de Pas Ondulatoire</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Renforcement de Pas Ondulatoire</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22474,9 +24856,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, qui subissent -1 aux jets pour toucher en attaquant une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui subissent -1 aux jets pour toucher en attaquant une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22485,9 +24872,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 18”, qui subit 3 touches avec <key>Fracas</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 1 touche avec <key>Explosion</key>(3) et <key>Laceration</key> chacune."
         }
       ]
     },
@@ -22496,9 +24888,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Renforcement de Harcelement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Renforcement de Harcelement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22518,9 +24915,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 18”, contre lesquelles les unités alliées gagnent Percee une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Charge rapide</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22529,9 +24931,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 18”, qui subit 2 touches avec <key>Blast</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent 1 touche avec <key>Explosion</key>(3) chacune."
         }
       ]
     },
@@ -22540,9 +24947,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent Régénération une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Régénération</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22551,9 +24963,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 6”, qui subit 3 touches avec <key>AP</key>(2) et <key>Mortel</key>(3)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 touche avec <key>PA</key>(2) et <key>Mortel</key>(3) chacune."
         }
       ]
     },
@@ -22562,9 +24979,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Fortifie</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Renforcé</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22584,9 +25006,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Renforcement de Formation du Val</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Boost du Serment du Val</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22595,9 +25022,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 6”, qui subit 6 touches avec <key>Bane</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 3 touches avec <key>Fléau</key> chacune."
         }
       ]
     },
@@ -22606,9 +25038,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies a 18”, contre lesquelles les unités alliées gagnent <key>Impact</key>(1) une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Surcharge</key> contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22617,9 +25054,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(2) chacune."
         }
       ]
     },
@@ -22628,9 +25070,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12”, qui gagne <key>Renforcement Bestial</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Renforcement Bestial</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22650,9 +25097,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 18”, qui subissent -1 a leurs jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui subissent -1 aux jets de moral une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22661,9 +25113,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>Dechirure</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux figurines ennemies à 24” ou moins, qui subissent 1 touche avec <key>Dechirure</key> chacune. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -22672,9 +25129,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent Régénération une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent <key>Régénération</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -22683,9 +25145,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 9 touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 3 touches chacune."
         }
       ]
     },
@@ -25118,9 +27585,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 1,
           "text": "Choisissez une unité alliée a 12” ou moins, qui bénéficie une seule fois de l'effet <key>Esprit empyréen</key> (la prochaine fois que cet effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 1,
+          "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent <key>Boost de l'Esprit empyréen</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -25140,9 +27612,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre lesquelles les unités alliées obtiennent une seule fois la règle spéciale <key>Fléau</key> lorsqu'elles les attaquent (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui permettent aux unités alliées de gagner <key>Fléau</key> en attaquant contre elles une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -25151,9 +27628,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit quatre touches avec <key>Fauchage</key>."
+        },
+        {
+          "system": "AOFS",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>Désintegration</key> chacune."
         }
       ]
     },
@@ -25162,9 +27644,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités amies à 12” ou moins, qui obtiennent un bonus de +1 aux jets pour toucher en mêlée une seule fois (la prochaine fois, l'effet s'appliquerait)."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent +1 aux jets pour toucher en mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
         }
       ]
     },
@@ -25173,9 +27660,14 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "all",
+          "system": "GF/AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit six touches."
+        },
+        {
+          "system": "AOFS",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 2 touches chacune."
         }
       ]
     },
@@ -25830,15 +28322,6 @@ export const commonSpells: SpellsByLanguage = {
     }
   }
 };
-
-export type FactionData = {
-  systemCode: string;
-  armyName: string;
-  introduction: string;
-  backgroundStory: string;
-};
-
-export type FactionDataByLanguage = Record<string, FactionData[]>;
 
 export const factionData: FactionDataByLanguage = {
   "en": [
