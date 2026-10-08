@@ -1,10 +1,12 @@
 export type RuleDescription = {
   system: string;
+  faction?: string;
   text: string;
 };
 
 export type SpellDescription = {
   system: string;
+  faction?: string;
   cost: number;
   text: string;
 };

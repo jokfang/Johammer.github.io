@@ -40,7 +40,67 @@ const containsSystemTag = (value: string, normalizedSystem: string) =>
 
 type SystemScopedTranslation = {
   system: string;
-  description: Array<{ system: string }>;
+  description: Array<{ system: string; faction?: string; text?: string }>;
+};
+
+const normalizeFaction = (value?: string) => (value || "").trim().toLowerCase();
+
+export const pickTranslationDescription = <
+  T extends { system: string; faction?: string; text?: string }
+>(
+  descriptions: T[] | undefined,
+  system?: string,
+  faction?: string
+): T | undefined => {
+  if (!descriptions?.length) {
+    return undefined;
+  }
+
+  const normalizedSystem = system?.trim().toLowerCase() || "";
+  const normalizedFaction = normalizeFaction(faction);
+  const matchesSystem = (description: T, expected: string) =>
+    containsSystemTag(description.system, expected);
+  const matchesFaction = (description: T) =>
+    normalizeFaction(description.faction) === normalizedFaction;
+  const hasNoFaction = (description: T) => !normalizeFaction(description.faction);
+
+  if (normalizedSystem && normalizedFaction) {
+    const scopedToFaction = descriptions.find(
+      (description) =>
+        matchesSystem(description, normalizedSystem) && matchesFaction(description)
+    );
+    if (scopedToFaction?.text) {
+      return scopedToFaction;
+    }
+  }
+
+  if (normalizedSystem) {
+    const scopedToSystem = descriptions.find(
+      (description) =>
+        matchesSystem(description, normalizedSystem) && hasNoFaction(description)
+    );
+    if (scopedToSystem?.text) {
+      return scopedToSystem;
+    }
+  }
+
+  if (normalizedFaction) {
+    const genericForFaction = descriptions.find(
+      (description) =>
+        description.system.trim().toLowerCase() === "all" &&
+        matchesFaction(description)
+    );
+    if (genericForFaction?.text) {
+      return genericForFaction;
+    }
+  }
+
+  const generic = descriptions.find(
+    (description) =>
+      description.system.trim().toLowerCase() === "all" &&
+      hasNoFaction(description)
+  );
+  return generic?.text ? generic : descriptions[0];
 };
 
 const filterTranslationsBySystem = <T extends SystemScopedTranslation>(
@@ -61,25 +121,19 @@ const filterTranslationsBySystem = <T extends SystemScopedTranslation>(
         {
           ...entry,
           description: (() => {
-            const descriptions = entry.description.map((description) =>
-              description.system.trim().toLowerCase() === "all"
-                ? { ...description, system: responseSystem }
-                : description
-            );
-
-            if (
-              descriptions.length > 0 &&
-              !descriptions.some((description) =>
+            const matchingDescriptions = entry.description.filter(
+              (description) =>
+                description.system.trim().toLowerCase() === "all" ||
                 containsSystemTag(description.system, normalizedSystem)
-              )
-            ) {
-              descriptions[0] = {
-                ...descriptions[0],
-                system: responseSystem,
-              };
-            }
-
-            return descriptions;
+            );
+            const descriptions =
+              matchingDescriptions.length > 0
+                ? matchingDescriptions
+                : entry.description.slice(0, 1);
+            return descriptions.map((description) => ({
+              ...description,
+              system: responseSystem,
+            }));
           })(),
         },
       ])

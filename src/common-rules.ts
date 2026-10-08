@@ -2,16 +2,17 @@ import {
   type RuleTranslationEntry,
   type RulesByLanguage,
   getCommonRulesDictionary,
+  pickTranslationDescription,
 } from "./services/common-rules-api";
 type TranslateField = "title" | "description";
 type TranslateOptions = {
   field?: TranslateField;
   system?: string;
+  faction?: string;
 };
 
 const translations: RulesByLanguage = getCommonRulesDictionary();
 
-const normalizeSystem = (value?: string) => (value || "").toLowerCase();
 const stripKeyTags = (value: string) => value.replace(/<\/?key>/g, "");
 const repairFrenchEncoding = (value: string) =>
   value
@@ -21,31 +22,14 @@ const repairFrenchEncoding = (value: string) =>
 
 const pickDescriptionForSystem = (
   entry: RuleTranslationEntry | undefined,
-  system?: string
+  system?: string,
+  faction?: string
 ) => {
   if (!entry || entry.description.length === 0) {
     return undefined;
   }
 
-  const normalizedSystem = normalizeSystem(system);
-
-  if (normalizedSystem) {
-    const exact = entry.description.find(
-      (d) => normalizeSystem(d.system) === normalizedSystem
-    );
-    if (exact?.text) {
-      return exact.text;
-    }
-  }
-
-  const allSystems = entry.description.find(
-    (d) => normalizeSystem(d.system) === "all"
-  );
-  if (allSystems?.text) {
-    return allSystems.text;
-  }
-
-  return entry.description[0].text;
+  return pickTranslationDescription(entry.description, system, faction)?.text;
 };
 
 /**
@@ -72,7 +56,11 @@ export const getRuleTranslator = (lang: string) => {
     }
 
     if (requestedField === "description") {
-      const desc = pickDescriptionForSystem(ruleEntry, options?.system);
+      const desc = pickDescriptionForSystem(
+        ruleEntry,
+        options?.system,
+        options?.faction
+      );
       return desc || key;
     }
 
@@ -109,12 +97,14 @@ export const TranslateRules = (dictionaryName: string, data: any) => {
 
   const translator = getRuleTranslator(lang);
   const dataSystem = data?.gameSystem || data?.system;
+  const dataFaction = data?.sourceArmyName || data?.armyName || data?.faction;
 
   const translatedRules = data.rules.map((rule: any) => {
     const translatedName = translator(rule.name, { field: "title" });
     const translatedDescription = translator(rule.name, {
       field: "description",
       system: rule?.system || rule?.gameSystem || dataSystem,
+      faction: rule?.faction || dataFaction,
     });
 
     const originalDescription = rule.description || rule.definition;

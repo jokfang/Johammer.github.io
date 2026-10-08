@@ -335,13 +335,16 @@ def resolve_section_item_description(item: dict[str, Any], data: dict[str, Any],
     translations = get_translation_dictionary("fr")
     dictionary = translations.spells if is_spell else translations.rules
     system_code = str(data.get("systemCode", ""))
+    source_army_name = str(data.get("sourceArmyName") or data.get("armyName", ""))
     resolved_parts: list[str] = []
 
     for keyword in keywords:
         translation = dictionary.get(keyword)
         if not translation:
             continue
-        description = pick_translation_description(translation.descriptions, system_code)
+        description = pick_translation_description(
+            translation.descriptions, system_code, source_army_name
+        )
         if description:
             resolved_parts.append(strip_translation_markup(description))
 

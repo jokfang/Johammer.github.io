@@ -55,9 +55,16 @@ class PdfPage:
 
 
 @dataclass
+class TranslationDescription:
+    system: str
+    text: str
+    faction: str = ""
+
+
+@dataclass
 class TranslationEntry:
     title: str
-    descriptions: dict[str, str]
+    descriptions: list[TranslationDescription]
 
 
 @dataclass
@@ -314,8 +321,8 @@ def parse_top_level_entries(object_content: str) -> dict[str, str]:
     return entries
 
 
-def parse_description_map(entry_block: str) -> dict[str, str]:
-    descriptions: dict[str, str] = {}
+def parse_description_map(entry_block: str) -> list[TranslationDescription]:
+    descriptions: list[TranslationDescription] = []
     description_match = re.search(r'"description"\s*:\s*\[(.*?)\]', entry_block, re.DOTALL)
     if not description_match:
         return descriptions
@@ -323,12 +330,17 @@ def parse_description_map(entry_block: str) -> dict[str, str]:
     for item_match in re.finditer(r"\{(.*?)\}", description_match.group(1), re.DOTALL):
         item_block = item_match.group(1)
         system_match = re.search(r'"system"\s*:\s*"((?:\\.|[^"\\])*)"', item_block)
+        faction_match = re.search(r'"faction"\s*:\s*"((?:\\.|[^"\\])*)"', item_block)
         text_match = re.search(r'"text"\s*:\s*"((?:\\.|[^"\\])*)"', item_block)
         if not system_match or not text_match:
             continue
-        system = parse_ts_string(system_match.group(1)).lower()
-        text = parse_ts_string(text_match.group(1))
-        descriptions[system] = text
+        descriptions.append(
+            TranslationDescription(
+                system=parse_ts_string(system_match.group(1)),
+                faction=parse_ts_string(faction_match.group(1)) if faction_match else "",
+                text=parse_ts_string(text_match.group(1)),
+            )
+        )
 
     return descriptions
 
@@ -438,13 +450,19 @@ def read_json_source(source: str | Path) -> Any:
     return json.loads(read_text_source(source))
 
 
-def parse_entry_descriptions(entry: dict[str, Any]) -> dict[str, str]:
-    descriptions: dict[str, str] = {}
+def parse_entry_descriptions(entry: dict[str, Any]) -> list[TranslationDescription]:
+    descriptions: list[TranslationDescription] = []
     for item in entry.get("description", []):
-        system = str(item.get("system", "")).lower()
+        system = str(item.get("system", ""))
         text = str(item.get("text", ""))
         if system and text:
-            descriptions[system] = text
+            descriptions.append(
+                TranslationDescription(
+                    system=system,
+                    faction=str(item.get("faction", "")),
+                    text=text,
+                )
+            )
     return descriptions
 
 
@@ -513,9 +531,66 @@ def load_translation_dictionary(dictionary_source: str | Path, language: str) ->
     )
 
 
-def pick_translation_description(descriptions: dict[str, str], system_code: str) -> str:
-    normalized_system = system_code.lower()
-    return descriptions.get(normalized_system) or descriptions.get("all") or next(iter(descriptions.values()), "")
+def pick_translation_description(
+    descriptions: list[TranslationDescription],
+    system_code: str,
+    faction: str = "",
+) -> str:
+    normalized_system = system_code.strip().lower()
+    normalized_faction = faction.strip().lower()
+
+    def matches_system(description: TranslationDescription) -> bool:
+        return normalized_system in {
+            tag.strip().lower() for tag in description.system.split("/")
+        }
+
+    if normalized_faction:
+        match = next(
+            (
+                description
+                for description in descriptions
+                if matches_system(description)
+                and description.faction.strip().lower() == normalized_faction
+            ),
+            None,
+        )
+        if match:
+            return match.text
+
+    match = next(
+        (
+            description
+            for description in descriptions
+            if matches_system(description) and not description.faction.strip()
+        ),
+        None,
+    )
+    if match:
+        return match.text
+
+    if normalized_faction:
+        match = next(
+            (
+                description
+                for description in descriptions
+                if description.system.strip().lower() == "all"
+                and description.faction.strip().lower() == normalized_faction
+            ),
+            None,
+        )
+        if match:
+            return match.text
+
+    match = next(
+        (
+            description
+            for description in descriptions
+            if description.system.strip().lower() == "all"
+            and not description.faction.strip()
+        ),
+        None,
+    )
+    return match.text if match else (descriptions[0].text if descriptions else "")
 
 
 def translate_rule_name(value: str, title_map: dict[str, str]) -> str:
@@ -533,7 +608,8 @@ def apply_translations(data: dict[str, Any], translations: TranslationDictionary
         **{key: entry.title for key, entry in translations.spells.items()},
     }
     system_code = str(data.get("systemCode", ""))
-    faction_translation = translations.factions.get((system_code.upper(), str(data.get("armyName", ""))))
+    source_army_name = str(data.get("sourceArmyName") or data.get("armyName", ""))
+    faction_translation = translations.factions.get((system_code.upper(), source_army_name))
 
     if faction_translation:
         for field_name in ("armyName", "introduction", "backgroundStory"):
@@ -549,7 +625,9 @@ def apply_translations(data: dict[str, Any], translations: TranslationDictionary
             if not translation:
                 continue
             item["name"] = strip_translation_markup(translation.title)
-            description = pick_translation_description(translation.descriptions, system_code)
+            description = pick_translation_description(
+                translation.descriptions, system_code, source_army_name
+            )
             if description:
                 item.pop("description", None)
             elif item.get("description"):
@@ -563,7 +641,9 @@ def apply_translations(data: dict[str, Any], translations: TranslationDictionary
             if not translation:
                 continue
             item["name"] = strip_translation_markup(translation.title)
-            description = pick_translation_description(translation.descriptions, system_code)
+            description = pick_translation_description(
+                translation.descriptions, system_code, source_army_name
+            )
             if description:
                 item.pop("description", None)
             elif item.get("description"):

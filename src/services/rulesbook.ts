@@ -6,6 +6,7 @@ import {
 import {
   type RuleTranslationEntry,
   getCommonRuleTranslations,
+  pickTranslationDescription,
 } from "./common-rules-api";
 
 type CommonRule = {
@@ -26,22 +27,7 @@ const pickDescriptionForSystem = (
     return "";
   }
 
-  const normalizedSystem = `${system}`.toLowerCase();
-  const exact = entry.description.find(
-    (d) => `${d.system || ""}`.toLowerCase() === normalizedSystem
-  );
-  if (exact?.text) {
-    return exact.text;
-  }
-
-  const allSystems = entry.description.find(
-    (d) => `${d.system || ""}`.toLowerCase() === "all"
-  );
-  if (allSystems?.text) {
-    return allSystems.text;
-  }
-
-  return entry.description[0]?.text || "";
+  return pickTranslationDescription(entry.description, system)?.text || "";
 };
 
 export class RulesBook extends SharedRulesBook {

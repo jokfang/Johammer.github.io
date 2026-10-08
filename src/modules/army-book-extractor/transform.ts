@@ -1,6 +1,7 @@
 import {
   getCommonRuleTranslations,
   getCommonSpellTranslations,
+  pickTranslationDescription,
   type RuleTranslationEntry,
   type SpellTranslationEntry,
 } from "../../services/common-rules-api";
@@ -107,6 +108,7 @@ export type ParsedArmyBookUrl = {
 export type ExtractedArmyBook = {
   sourceUrl: string;
   sourceBookUid: string;
+  sourceArmyName: string;
   systemCode: string;
   systemName: string;
   armyName: string;
@@ -201,28 +203,18 @@ const normalizeText = (value: string) => {
 
 const pickDescriptionForSystem = (
   entry: TranslationEntry | undefined,
-  systemCode: string
+  systemCode: string,
+  faction?: string
 ) => {
   if (!entry?.description?.length) {
     return "";
   }
 
-  const normalizedSystem = systemCode.toLowerCase();
-  const exact = entry.description.find(
-    (item) => `${item.system || ""}`.toLowerCase() === normalizedSystem
-  );
-  if (exact?.text) {
-    return exact.text;
-  }
-
-  const all = entry.description.find(
-    (item) => `${item.system || ""}`.toLowerCase() === "all"
-  );
-  if (all?.text) {
-    return all.text;
-  }
-
-  return entry.description[0]?.text || "";
+  return pickTranslationDescription(
+    entry.description,
+    systemCode,
+    faction
+  )?.text || "";
 };
 
 const translateLabel = (
@@ -247,14 +239,15 @@ const translateDescription = (
   description: string,
   dictionary: Record<string, TranslationEntry>,
   systemCode: string,
-  language: string
+  language: string,
+  faction?: string
 ) => {
   if (language === "en") {
     return normalizeText(description);
   }
 
   const translation = dictionary[name];
-  const translated = pickDescriptionForSystem(translation, systemCode);
+  const translated = pickDescriptionForSystem(translation, systemCode, faction);
   return normalizeText(translated || description);
 };
 
@@ -429,7 +422,8 @@ export const extractArmyBookData = (
       rule.description || "",
       rulesDictionary,
       systemCode,
-      normalizedLanguage
+      normalizedLanguage,
+      source.name
     ),
   });
 
@@ -464,6 +458,7 @@ export const extractArmyBookData = (
   return {
     sourceUrl: parsedUrl.sourceUrl,
     sourceBookUid: source.uid,
+    sourceArmyName: source.name,
     systemCode,
     systemName,
     armyName: source.name,
@@ -481,7 +476,8 @@ export const extractArmyBookData = (
         spell.effect,
         spellsDictionary,
         systemCode,
-        normalizedLanguage
+        normalizedLanguage,
+        source.name
       ),
     })),
     units: (source.units || []).map((unit) => {

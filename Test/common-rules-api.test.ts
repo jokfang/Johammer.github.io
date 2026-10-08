@@ -6,6 +6,7 @@ import {
   getCommonRulesDictionary,
   getCommonSpellTranslations,
   getCommonSpellsDictionary,
+  pickTranslationDescription,
 } from "../src/services/common-rules-api";
 
 describe("common-rules-api", () => {
@@ -101,28 +102,64 @@ describe("common-rules-api", () => {
       Object.values(allSpells.en).filter((entry) =>
         entry.description.some((description) => description.system === "AOFS")
       )
-    ).toHaveLength(213);
+    ).toHaveLength(217);
   });
 
-  it("leaves the four ambiguous AOFS spells for faction-specific handling", () => {
-    const spells = getCommonSpellsDictionary();
+  it("selects ambiguous AOFS spells by faction", () => {
+    const spells = getCommonSpellsDictionary("AOFS");
 
-    for (const name of [
-      "Spirit Wind",
-      "Lightning Bolt",
-      "Aura of Heroism",
-      "Fire Ball",
-    ]) {
-      expect(
-        spells.en[name].description.some(
-          (description) => description.system === "AOFS"
-        )
-      ).toBe(false);
-      expect(
-        spells.fr[name].description.some(
-          (description) => description.system === "AOFS"
-        )
-      ).toBe(false);
-    }
+    const kingdomBolt = pickTranslationDescription(
+      spells.en["Lightning Bolt"].description,
+      "AOFS",
+      "Kingdom of Angels"
+    );
+    const wardensBolt = pickTranslationDescription(
+      spells.en["Lightning Bolt"].description,
+      "aofs",
+      "eternal wardens"
+    );
+    const dragonWind = pickTranslationDescription(
+      spells.en["Spirit Wind"].description,
+      "AOFS",
+      "Dragon Empire"
+    );
+    const shortlingWind = pickTranslationDescription(
+      spells.en["Spirit Wind"].description,
+      "AOFS",
+      "Shortling Alliances"
+    );
+    const humanFireBall = pickTranslationDescription(
+      spells.fr["Fire Ball"].description,
+      "AOFS",
+      "Human Empire"
+    );
+    const mercenaryFireBall = pickTranslationDescription(
+      spells.fr["Fire Ball"].description,
+      "AOFS",
+      "Mercenaries"
+    );
+    const humanAura = pickTranslationDescription(
+      spells.fr["Aura of Heroism"].description,
+      "AOFS",
+      "Human Empire"
+    );
+    const mercenaryAura = pickTranslationDescription(
+      spells.fr["Aura of Heroism"].description,
+      "AOFS",
+      "Mercenaries"
+    );
+
+    expect(kingdomBolt?.cost).toBe(1);
+    expect(kingdomBolt?.text).toContain("Deadly(3)");
+    expect(wardensBolt?.cost).toBe(3);
+    expect(wardensBolt?.text).toContain("Blast(3)");
+    expect(dragonWind?.cost).toBe(1);
+    expect(dragonWind?.text).toContain("up to two friendly units");
+    expect(shortlingWind?.cost).toBe(2);
+    expect(shortlingWind?.text).toContain("up to four friendly units");
+    expect(humanFireBall?.text).toContain("Fissure");
+    expect(mercenaryFireBall?.text).toContain("Surcharge");
+    expect(humanAura?.text).toContain("Renforcement Tenir la Ligne");
+    expect(mercenaryAura?.text).toContain("+1 aux jets de moral");
   });
 });

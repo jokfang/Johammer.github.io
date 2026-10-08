@@ -264,6 +264,7 @@ def extract_army_book_to_data(source_url: str, source: dict[str, Any]) -> dict[s
         "sourcePdf": source_url,
         "sourceUrl": source_url,
         "sourceBookUid": source.get("uid", ""),
+        "sourceArmyName": normalize_text(source.get("name", "")),
         "systemCode": system_code,
         "systemName": system_name,
         "armyName": normalize_text(source.get("name", "")),
