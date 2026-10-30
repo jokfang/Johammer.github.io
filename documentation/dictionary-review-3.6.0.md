@@ -1,0 +1,546 @@
+# Éléments du dictionnaire GF à revoir
+
+Liste simplifiée et dédupliquée à partir du journal du 30 octobre 2026.
+
+| Priorité | Catégorie | Entrées distinctes |
+|---|---|---:|
+| Haute | Factions absentes | 6 |
+| Haute | Règles sans traduction | 118 |
+| Haute | Sorts sans traduction | 9 |
+| Haute | Descriptions de règles réellement différentes | 166 |
+| Haute | Descriptions de sorts réellement différentes | 179 |
+| Basse | Écarts typographiques uniquement | 30 |
+
+> Les répétitions entre armées ont été fusionnées. Le nombre d’armées est indiqué lorsqu’une même entrée apparaît plusieurs fois.
+>
+> `Versatile Defense` reste en priorité haute : les cinq alertes correspondantes sont tronquées avant la description en ligne dans le journal source.
+
+## Factions absentes (6)
+
+- [ ] Daemons of Change
+- [ ] Daemons of Lust
+- [ ] Daemons of Plague
+- [ ] Daemons of War
+- [ ] Saurian Starhosts
+- [ ] Voidspace Stalkers
+
+## Règles sans traduction (118)
+
+- [ ] Anti-Cover — 41 armées
+- [ ] Anti-Cover Aura
+- [ ] Anti-Cover when Shooting
+- [ ] Anti-Cover when Shooting Aura
+- [ ] Anti-Regen — 17 armées
+- [ ] Bravery Aura — 17 armées
+- [ ] Bravery Buff — 2 armées
+- [ ] Counter in Melee Aura — 4 armées
+- [ ] Counter in Melee Buff
+- [ ] Cumbersome — 18 armées
+- [ ] Dodge — 4 armées
+- [ ] Enhanced Agile — 3 armées
+- [ ] Enhanced Bloodborn — 2 armées
+- [ ] Enhanced Bloodborn Aura — 2 armées
+- [ ] Enhanced Brutal — 2 armées
+- [ ] Enhanced Brutal Aura
+- [ ] Enhanced Changebound — 2 armées
+- [ ] Enhanced Changebound Aura — 2 armées
+- [ ] Enhanced Clan Warrior
+- [ ] Enhanced Clan Warrior Aura
+- [ ] Enhanced Darkborn — 2 armées
+- [ ] Enhanced Darkborn Aura — 2 armées
+- [ ] Enhanced Devout
+- [ ] Enhanced Devout Aura
+- [ ] Enhanced Extra Reach
+- [ ] Enhanced Ferocious
+- [ ] Enhanced Ferocious Aura
+- [ ] Enhanced Fortified
+- [ ] Enhanced Guarded
+- [ ] Enhanced Guardian
+- [ ] Enhanced Guardian Aura
+- [ ] Enhanced Guerrilla
+- [ ] Enhanced Guerrilla Aura
+- [ ] Enhanced Harassing
+- [ ] Enhanced Harassing Aura
+- [ ] Enhanced Havocbound
+- [ ] Enhanced Havocbound Aura
+- [ ] Enhanced Highborn
+- [ ] Enhanced Highborn Aura
+- [ ] Enhanced Hit & Run
+- [ ] Enhanced Hive Bond
+- [ ] Enhanced Hive Bond Aura
+- [ ] Enhanced Hold the Line
+- [ ] Enhanced Hold the Line Aura
+- [ ] Enhanced Infected
+- [ ] Enhanced Infected Aura
+- [ ] Enhanced Knightborn — 2 armées
+- [ ] Enhanced Knightborn Aura — 2 armées
+- [ ] Enhanced Lustbound — 2 armées
+- [ ] Enhanced Lustbound Aura — 2 armées
+- [ ] Enhanced Machine-Fog
+- [ ] Enhanced Machine-Fog Aura
+- [ ] Enhanced Mischievous
+- [ ] Enhanced Mischievous Aura
+- [ ] Enhanced Nimble — 3 armées
+- [ ] Enhanced Piercing Warrior
+- [ ] Enhanced Plaguebound — 2 armées
+- [ ] Enhanced Plaguebound Aura — 2 armées
+- [ ] Enhanced Precision Marksman
+- [ ] Enhanced Predator — 4 armées
+- [ ] Enhanced Primal
+- [ ] Enhanced Primal Buff
+- [ ] Enhanced Protected — 3 armées
+- [ ] Enhanced Rapid Blink
+- [ ] Enhanced Rapid Blink Aura
+- [ ] Enhanced Scrapper
+- [ ] Enhanced Scrapper Aura
+- [ ] Enhanced Screened — 3 armées
+- [ ] Enhanced Scurry
+- [ ] Enhanced Scurry Aura
+- [ ] Enhanced Self-Repair
+- [ ] Enhanced Self-Repair Buff
+- [ ] Enhanced Shadowborn
+- [ ] Enhanced Shadowborn Aura
+- [ ] Enhanced Shadowborn Buff
+- [ ] Enhanced Shrouded — 3 armées
+- [ ] Enhanced Sturdy
+- [ ] Enhanced Sturdy Aura
+- [ ] Enhanced Targeting Visor
+- [ ] Enhanced Targeting Visor Aura
+- [ ] Enhanced Valiant — 2 armées
+- [ ] Enhanced Versatile Warrior — 2 armées
+- [ ] Enhanced Vicious — 2 armées
+- [ ] Enhanced Violent — 3 armées
+- [ ] Enhanced Warbound — 2 armées
+- [ ] Enhanced Warbound Aura — 2 armées
+- [ ] Enhanced Warding — 2 armées
+- [ ] Enhanced Watchborn — 2 armées
+- [ ] Enhanced Watchborn Aura — 2 armées
+- [ ] Enhanced Wolfborn — 2 armées
+- [ ] Enhanced Wolfborn Aura — 2 armées
+- [ ] Extra Reach
+- [ ] Grounded Defense
+- [ ] Grounded Defense Aura
+- [ ] Grounded Evasion
+- [ ] Imprecise — 4 armées
+- [ ] Infiltrating Precision Strike
+- [ ] Obliterate — 2 armées
+- [ ] Piercing Charge — 5 armées
+- [ ] Piercing Charge Aura — 3 armées
+- [ ] Piercing Marksman — 3 armées
+- [ ] Piercing Marksman Aura — 3 armées
+- [ ] Precision Charge
+- [ ] Precision Fighter
+- [ ] Precision Marksman
+- [ ] Predator Aura
+- [ ] Quick Throw — 2 armées
+- [ ] Scourge — 6 armées
+- [ ] Spell Drain — 3 armées
+- [ ] Spell Resistance — 13 armées
+- [ ] Spell Resistance Aura — 8 armées
+- [ ] Thrust in Melee
+- [ ] Thrust in Melee Buff
+- [ ] Unique Hero — 14 armées
+- [ ] Unstoppable when Shooting
+- [ ] Valiant — 2 armées
+- [ ] Versatile Expert — 17 armées
+- [ ] Versatile Warrior — 3 armées
+
+## Sorts sans traduction (9)
+
+- [ ] Adrenal Booster
+- [ ] Blessed Shroud — 2 armées
+- [ ] Combat Psychosis
+- [ ] Cyber Shock
+- [ ] Enhanced Serum
+- [ ] Optical Malfunction
+- [ ] Overheat Internals
+- [ ] Synaptic Stims
+- [ ] System Collapse
+
+## Descriptions de règles à mettre à jour (166)
+
+- [ ] Agile — 8 armées
+- [ ] Bane in Melee Aura — 12 armées
+- [ ] Bane in Melee Buff
+- [ ] Bane Mark
+- [ ] Bane when Shooting — 2 armées
+- [ ] Bane when Shooting Aura — 13 armées
+- [ ] Battleborn
+- [ ] Bounding — 11 armées
+- [ ] Brutal — 2 armées
+- [ ] Changebound — 2 armées
+- [ ] Counter in Melee — 4 armées
+- [ ] Crossing Attack — 4 armées
+- [ ] Crossing Strike — 13 armées
+- [ ] Dangerous Terrain Debuff — 6 armées
+- [ ] Darkborn — 2 armées
+- [ ] Dash
+- [ ] Dash Aura
+- [ ] Decimate — 3 armées
+- [ ] Defense Debuff
+- [ ] Defensive Frenzy
+- [ ] Defensive Growth
+- [ ] Defensive Growth Aura
+- [ ] Demolish — 2 armées
+- [ ] Destructive — 2 armées
+- [ ] Devout
+- [ ] Difficult Terrain Debuff
+- [ ] Disintegrate — 2 armées
+- [ ] Entrenched
+- [ ] Entrenched Buff
+- [ ] Evasive — 16 armées
+- [ ] Fanatic
+- [ ] Fatigue Debuff
+- [ ] Ferocious
+- [ ] Fortified — 15 armées
+- [ ] Fortified Growth
+- [ ] Fracture — 2 armées
+- [ ] Fragment
+- [ ] Furious Mark
+- [ ] Grounded Precision
+- [ ] Grounded Precision Aura
+- [ ] Guarded — 2 armées
+- [ ] Guardian
+- [ ] Guerrilla
+- [ ] Harassing
+- [ ] Havocbound
+- [ ] Hazardous — 2 armées
+- [ ] Highborn
+- [ ] Hit & Run — 8 armées
+- [ ] Hit & Run Fighter — 3 armées
+- [ ] Hit & Run Shooter — 5 armées
+- [ ] Hive Bond
+- [ ] Hold the Line
+- [ ] Honor Code
+- [ ] Increased Shooting Range
+- [ ] Increased Shooting Range Aura — 5 armées
+- [ ] Increased Shooting Range Buff — 2 armées
+- [ ] Increased Shooting Range Mark
+- [ ] Indirect Mark
+- [ ] Indirect when Shooting Aura
+- [ ] Infected
+- [ ] Infiltrate — 6 armées
+- [ ] Infiltrate Aura
+- [ ] Inquisitorial Agent
+- [ ] Knightborn — 2 armées
+- [ ] Lustbound — 2 armées
+- [ ] Machine-Fog
+- [ ] Martial Prowess — 2 armées
+- [ ] Melee Evasion — 6 armées
+- [ ] Melee Shrouding — 15 armées
+- [ ] Melee Slayer — 12 armées
+- [ ] Mind Control — 3 armées
+- [ ] Morale Debuff — 2 armées
+- [ ] Nimble — 3 armées
+- [ ] No Retreat Buff
+- [ ] Pierce — 7 armées
+- [ ] Piercing Debuff
+- [ ] Piercing Fighter Aura — 2 armées
+- [ ] Piercing Frenzy
+- [ ] Piercing Growth
+- [ ] Piercing Shooter Aura
+- [ ] Piercing Shooting Mark
+- [ ] Piercing Spotter
+- [ ] Piercing Tag — 2 armées
+- [ ] Piercing Target — 2 armées
+- [ ] Piercing Warrior
+- [ ] Plaguebound — 2 armées
+- [ ] Precision Debuff — 2 armées
+- [ ] Precision Fighting Mark
+- [ ] Precision Frenzy
+- [ ] Precision Growth
+- [ ] Precision Shooting Mark
+- [ ] Precision Spotter
+- [ ] Precision Tag
+- [ ] Precision Target — 3 armées
+- [ ] Predator Shooter Aura
+- [ ] Primeborn — 2 armées
+- [ ] Protected — 6 armées
+- [ ] Protected Aura
+- [ ] Protection Feat — 2 armées
+- [ ] Protection Feat Aura
+- [ ] Puncture — 2 armées
+- [ ] Purge — 3 armées
+- [ ] Quick Shot Mark
+- [ ] Ranged Shrouding — 3 armées
+- [ ] Ranged Slayer
+- [ ] Rapid Advance Buff
+- [ ] Rapid Blink
+- [ ] Ravage — 13 armées
+- [ ] Reap — 2 armées
+- [ ] Regenerative Strength — 2 armées
+- [ ] Reinforcement
+- [ ] Relentless Mark
+- [ ] Rending in Melee — 2 armées
+- [ ] Rending in Melee Aura — 2 armées
+- [ ] Rending Mark
+- [ ] Rending when Shooting Aura — 2 armées
+- [ ] Retaliate — 9 armées
+- [ ] Screened — 4 armées
+- [ ] Screened Aura
+- [ ] Scurry
+- [ ] Self-Repair
+- [ ] Sergeant — 4 armées
+- [ ] Shadowborn
+- [ ] Shatter — 2 armées
+- [ ] Shielded — 4 armées
+- [ ] Shred in Melee
+- [ ] Shred in Melee Aura — 3 armées
+- [ ] Shred Mark
+- [ ] Shred when Shooting
+- [ ] Shred when Shooting Aura — 2 armées
+- [ ] Shrouded — 3 armées
+- [ ] Slayer — 3 armées
+- [ ] Slayer Mark
+- [ ] Smash — 6 armées
+- [ ] Spawn — 5 armées
+- [ ] Speed Debuff
+- [ ] Speed Feat
+- [ ] Spell Accumulator — 2 armées
+- [ ] Spell Conduit — 6 armées
+- [ ] Split
+- [ ] Steadfast — 9 armées
+- [ ] Sturdy
+- [ ] Surprise Attack — 2 armées
+- [ ] Takedown Shot — 3 armées
+- [ ] Takedown Strike — 5 armées
+- [ ] Targeting Visor
+- [ ] Teleport — 9 armées
+- [ ] Thrust in Melee Aura
+- [ ] Unpredictable Fighter Mark — 2 armées
+- [ ] Unpredictable Shooter Mark
+- [ ] Unstoppable — 43 armées
+- [ ] Unstoppable in Melee — 2 armées
+- [ ] Unstoppable in Melee Aura — 2 armées
+- [ ] Unstoppable Mark — 12 armées
+- [ ] Unstoppable when Shooting Aura — 2 armées
+- [ ] Unwieldy Debuff
+- [ ] Vanguard — 18 armées
+- [ ] Vengeance
+- [ ] Versatile Defense — 5 armées
+- [ ] Versatile Reach — 12 armées
+- [ ] Versatile Reach Aura — 12 armées
+- [ ] Violent — 3 armées
+- [ ] Warbound — 2 armées
+- [ ] Warding — 2 armées
+- [ ] Watchborn — 2 armées
+- [ ] Wolfborn — 2 armées
+
+## Descriptions de sorts à mettre à jour (179)
+
+- [ ] Advanced Sight — 2 armées
+- [ ] Ammo Boost
+- [ ] Animate Spirit
+- [ ] Armor Rune
+- [ ] Art of Pain
+- [ ] Asphyxiating Fog
+- [ ] Aura of Peace — 2 armées
+- [ ] Aura of Pestilence — 2 armées
+- [ ] Bad Omen
+- [ ] Banishing Sigil — 2 armées
+- [ ] Battle Rune
+- [ ] Beautiful Pain — 2 armées
+- [ ] Bio-Displacer
+- [ ] Bio-Horror
+- [ ] Blessed Ammo — 4 armées
+- [ ] Blessing of Souls
+- [ ] Blissful Dance — 2 armées
+- [ ] Blood Dome — 2 armées
+- [ ] Blood Sight — 2 armées
+- [ ] Blood Trauma
+- [ ] Blood Wound
+- [ ] Boom!
+- [ ] Brain Burst
+- [ ] Brain Infestation
+- [ ] Breaking Rune
+- [ ] Brutal Massacre — 2 armées
+- [ ] Burn the Heretic
+- [ ] Burst of Rage — 2 armées
+- [ ] Calculated Foresight — 3 armées
+- [ ] Celestial Roar
+- [ ] Cerebral Trauma
+- [ ] Change Boon — 2 armées
+- [ ] Cleaving Rune
+- [ ] Combat Ecstasy — 2 armées
+- [ ] Coordinated Aggression
+- [ ] Corrode Weapons
+- [ ] Crackling Bolt
+- [ ] Creator of Illusions
+- [ ] Crushing Force
+- [ ] Cursed Stride
+- [ ] Cyborg Assault
+- [ ] Dark Assault
+- [ ] Dark Dome — 2 armées
+- [ ] Dark Sight — 2 armées
+- [ ] Dark Trauma
+- [ ] Dark Wound
+- [ ] Deadly Surge
+- [ ] Death Bolt
+- [ ] Deceleration Rune
+- [ ] Deep Hypnosis
+- [ ] Deep Meditation
+- [ ] Devastating Strike
+- [ ] Doom Strike — 2 armées
+- [ ] Dragon Breath
+- [ ] Dread Strike
+- [ ] Elder Protection
+- [ ] Electric Tempest — 3 armées
+- [ ] Elemental Seeker
+- [ ] Eternal Flame
+- [ ] Eternal Guidance
+- [ ] Expel Threat — 3 armées
+- [ ] Fade in the Dark
+- [ ] Fatal Sorrow
+- [ ] Fateful Guidance
+- [ ] Feral Strike
+- [ ] Flame Bots
+- [ ] Flame of Destruction — 2 armées
+- [ ] Focused Defender
+- [ ] Focused Shock
+- [ ] Gauss Bots
+- [ ] Godly Thunder — 2 armées
+- [ ] Guardian Protection
+- [ ] Havoc Boon
+- [ ] Havoc Fog
+- [ ] Havoc Terror
+- [ ] Havoc Trauma
+- [ ] Head Bang
+- [ ] Headtaker Strike — 2 armées
+- [ ] Heavenly Lance — 2 armées
+- [ ] Hidden Spirits
+- [ ] Hive Shriek
+- [ ] Holistic Suffering
+- [ ] Holy Rage
+- [ ] Infuse Bloodthirst
+- [ ] Insidious Protection
+- [ ] Inspiring Bots
+- [ ] Jaguar Blaze
+- [ ] Killing Blow
+- [ ] Knight Dome — 2 armées
+- [ ] Knight Sight — 2 armées
+- [ ] Knight Trauma
+- [ ] Knight Wound
+- [ ] Light Fragments
+- [ ] Lightning Fog — 6 armées
+- [ ] Litanies of War
+- [ ] Lust Boon — 2 armées
+- [ ] Mending Bots
+- [ ] Mind Breaker
+- [ ] Mind Corruption
+- [ ] Mind Gash
+- [ ] Mind Shaper
+- [ ] Mind Vortex
+- [ ] Mind Wound
+- [ ] Mob Frenzy
+- [ ] Mutating Inferno — 2 armées
+- [ ] Overpowering Lash — 2 armées
+- [ ] Overwhelming Strike
+- [ ] Path of War
+- [ ] Piercing Bots
+- [ ] Piercing Pulse
+- [ ] Piranha Curse
+- [ ] Plague Boon — 2 armées
+- [ ] Plague Malediction — 2 armées
+- [ ] Pow!
+- [ ] Power Beam
+- [ ] Power Bolt — 2 armées
+- [ ] Power Field
+- [ ] Power Maw
+- [ ] Power Surge
+- [ ] Protective Dome — 2 armées
+- [ ] Psy-Adrenaline
+- [ ] Psychic Blast
+- [ ] Psychic Onslaught
+- [ ] Psychic Stabilization
+- [ ] Psychic Terror — 6 armées
+- [ ] Psychic Vomit
+- [ ] Psy-Destruction
+- [ ] Psy-Hunter
+- [ ] Psy-Injected Courage — 3 armées
+- [ ] Purge the Impure — 2 armées
+- [ ] Quill Blast
+- [ ] Raiding Drugs
+- [ ] Rapid Mutation
+- [ ] Rapid Putrefaction — 2 armées
+- [ ] Righteous Fury — 2 armées
+- [ ] Righteous Wrath
+- [ ] Rot Wave — 2 armées
+- [ ] Searing Admonition
+- [ ] Searing Burst — 3 armées
+- [ ] Searing Shrapnel
+- [ ] Serpent Comet
+- [ ] Shadow Dance
+- [ ] Shattering Curse
+- [ ] Shield Breaker — 2 armées
+- [ ] Shifting Form — 2 armées
+- [ ] Shock Speed — 3 armées
+- [ ] Shroud Field
+- [ ] Shrouding Incense
+- [ ] Sky Blaze — 2 armées
+- [ ] Smiting Rune
+- [ ] Snake Bite
+- [ ] Soul Spear
+- [ ] Spirit Power
+- [ ] Spirit Resolve
+- [ ] Spread Plague
+- [ ] Storm of Power — 2 armées
+- [ ] System Takeover
+- [ ] Tech-Sickness
+- [ ] Terrifying Fury — 2 armées
+- [ ] Terror Seeker
+- [ ] The Founder's Curse
+- [ ] Thunderous Mist
+- [ ] Total Seizure — 2 armées
+- [ ] Toxin Mist
+- [ ] Triangulation Bots
+- [ ] Veil of Madness
+- [ ] Violent Onslaught
+- [ ] Volatile Infection
+- [ ] War Boon — 2 armées
+- [ ] Watch Dome — 2 armées
+- [ ] Watch Sight — 2 armées
+- [ ] Watch Trauma
+- [ ] Watch Wound
+- [ ] Wave of Discord
+- [ ] Wolf Dome — 2 armées
+- [ ] Wolf Sight — 2 armées
+- [ ] Wolf Trauma
+- [ ] Wolf Wound
+- [ ] Zap!
+
+## Écarts typographiques de règles — priorité basse (26)
+
+- [ ] Ambush Beacon — 2 armées
+- [ ] Ambush Re-Deployment
+- [ ] Casting Buff — 2 armées
+- [ ] Coordinate
+- [ ] Defense — 44 armées
+- [ ] Extended Buff Range — 2 armées
+- [ ] Fast Aura — 2 armées
+- [ ] Furious Buff
+- [ ] Guarded Buff
+- [ ] Lacerate — 3 armées
+- [ ] Mend — 21 armées
+- [ ] No Retreat — 5 armées
+- [ ] Precision Attacks Buff
+- [ ] Precision Fighter Buff
+- [ ] Precision Shooter Buff — 2 armées
+- [ ] Quick — 3 armées
+- [ ] Rapid Advance — 3 armées
+- [ ] Rapid Charge — 2 armées
+- [ ] Rapid Charge Aura — 4 armées
+- [ ] Rapid Rush — 15 armées
+- [ ] Rapid Rush Buff
+- [ ] Regeneration Buff — 3 armées
+- [ ] Repel Ambushers — 10 armées
+- [ ] Speed Buff
+- [ ] Stealth Buff — 3 armées
+- [ ] Swift Buff
+
+## Écarts typographiques de sorts — priorité basse (4)
+
+- [ ] Blades of Discord
+- [ ] Blessed Virus — 2 armées
+- [ ] Breath of Change — 2 armées
+- [ ] Fiery Protection — 2 armées
+

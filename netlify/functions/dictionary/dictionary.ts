@@ -1,9 +1,10 @@
 import { Handler } from "@netlify/functions";
 import {
-  getCommonRulesDictionary,
-  getCommonSpellsDictionary,
-  getFactionData,
-} from "../../../src/services/common-rules-api";
+  getVersionedCommonRulesDictionary,
+  getVersionedCommonSpellsDictionary,
+  getVersionedFactionData,
+  isDictionaryVersionSupported,
+} from "../shared/versioned-dictionary";
 
 const jsonResponse = (statusCode: number, body: unknown) => ({
   statusCode,
@@ -21,9 +22,14 @@ export const handler: Handler = async (event) => {
   }
 
   const system = event.queryStringParameters?.system;
+  const version = event.queryStringParameters?.version;
+  if (!isDictionaryVersionSupported(version)) {
+    return jsonResponse(400, { error: `Unsupported dictionary version: ${version}` });
+  }
+
   return jsonResponse(200, {
-    commonRules: getCommonRulesDictionary(system),
-    commonSpells: getCommonSpellsDictionary(system),
-    factionData: getFactionData(system),
+    commonRules: getVersionedCommonRulesDictionary(system, version),
+    commonSpells: getVersionedCommonSpellsDictionary(system, version),
+    factionData: getVersionedFactionData(system, version),
   });
 };

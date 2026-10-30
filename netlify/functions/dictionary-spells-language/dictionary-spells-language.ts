@@ -1,5 +1,8 @@
 import { Handler } from "@netlify/functions";
-import { getCommonSpellTranslations } from "../../../src/services/common-rules-api";
+import {
+  getVersionedCommonSpellTranslations,
+  isDictionaryVersionSupported,
+} from "../shared/versioned-dictionary";
 
 const jsonResponse = (statusCode: number, body: unknown) => ({
   statusCode,
@@ -18,5 +21,13 @@ export const handler: Handler = async (event) => {
 
   const language = event.queryStringParameters?.language?.trim() || "en";
   const system = event.queryStringParameters?.system;
-  return jsonResponse(200, getCommonSpellTranslations(language, system));
+  const version = event.queryStringParameters?.version;
+  if (!isDictionaryVersionSupported(version)) {
+    return jsonResponse(400, { error: `Unsupported dictionary version: ${version}` });
+  }
+
+  return jsonResponse(
+    200,
+    getVersionedCommonSpellTranslations(language, system, version)
+  );
 };

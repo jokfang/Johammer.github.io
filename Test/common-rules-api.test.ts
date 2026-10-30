@@ -69,6 +69,40 @@ describe("common-rules-api", () => {
     expect(factions.en.some((entry) => entry.armyName === "Brute Clans")).toBe(true);
   });
 
+  it("includes complete lore translations for the new GFF and AOFR factions", () => {
+    const factions = getFactionData();
+    const expectedFactions = [
+      ["GFF", "Badland Nomads"],
+      ["GFF", "Berserker Clans"],
+      ["GFF", "Brute Coalitions"],
+      ["GFF", "City Runners"],
+      ["GFF", "Gangs of New Eden"],
+      ["GFF", "Mega-Corps"],
+      ["GFF", "Psycho Cults"],
+      ["GFF", "Security Forces"],
+      ["GFF", "Shadow Leagues"],
+      ["GFF", "Shortling Federations"],
+      ["GFF", "Worker Unions"],
+      ["GFF", "Wormhole Daemons"],
+      ["AOFR", "Giant Tribes Change Disciples"],
+      ["AOFR", "Giant Tribes Lust Disciples"],
+      ["AOFR", "Giant Tribes Plague Disciples"],
+      ["AOFR", "Giant Tribes War Disciples"],
+      ["AOFR", "Rift Daemons"],
+    ];
+
+    for (const [systemCode, armyName] of expectedFactions) {
+      const index = factions.en.findIndex(
+        (entry) => entry.systemCode === systemCode && entry.armyName === armyName
+      );
+      expect(index, `${systemCode}/${armyName}`).toBeGreaterThanOrEqual(0);
+      expect(factions.en[index].introduction.trim()).not.toBe("");
+      expect(factions.en[index].backgroundStory.trim()).not.toBe("");
+      expect(factions.fr[index].introduction.trim()).not.toBe("");
+      expect(factions.fr[index].backgroundStory.trim()).not.toBe("");
+    }
+  });
+
   it("keeps distinct AOFS rule and spell descriptions", () => {
     const rules = getCommonRulesDictionary("AOFS");
     const spells = getCommonSpellsDictionary("AOFS");

@@ -1,4 +1,8 @@
 {
+  "version": "3.6.0",
+  "archives": {
+    "3.5.3": "3.5.3/index.json"
+  },
   "rules": {
     "en": "rules.en.json",
     "fr": "rules.fr.json",

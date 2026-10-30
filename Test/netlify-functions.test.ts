@@ -126,6 +126,28 @@ describe("netlify dictionary handler", () => {
     expect(body.factionData.en.some((entry: any) => entry.armyName === "Beastmen")).toBe(true);
   });
 
+  it("serves archived dictionaries by version and rejects unknown versions", async () => {
+    const { handler } = await import("../netlify/functions/dictionary/dictionary");
+    const archivedRes = await handler(
+      { httpMethod: "GET", queryStringParameters: { version: "3.5.3" } } as any,
+      {} as any
+    );
+    const archivedBody = JSON.parse((archivedRes as any).body);
+    const badlandNomads = archivedBody.factionData.en.find(
+      (entry: any) => entry.systemCode === "GFF" && entry.armyName === "Badland Nomads"
+    );
+
+    expect(archivedRes.statusCode).toBe(200);
+    expect(badlandNomads.introduction).toBe("");
+
+    const unsupportedRes = await handler(
+      { httpMethod: "GET", queryStringParameters: { version: "3.5.2" } } as any,
+      {} as any
+    );
+    expect(unsupportedRes.statusCode).toBe(400);
+    expect(JSON.parse((unsupportedRes as any).body).error).toContain("3.5.2");
+  });
+
   it("rejects unsupported methods", async () => {
     const { handler } = await import("../netlify/functions/dictionary/dictionary");
     const res = await handler({ httpMethod: "POST" } as any, {} as any);

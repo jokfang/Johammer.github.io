@@ -14,7 +14,7 @@ import type {
   SpellsByLanguage,
 } from "../../public/locales/rules/common-rules.types";
 
-const normalizeLanguage = (language?: string) =>
+export const normalizeLanguage = (language?: string) =>
   (language || "en").slice(0, 2).toLowerCase();
 
 const commonRulesDictionary: RulesByLanguage = {
@@ -33,12 +33,12 @@ const factionData: FactionDataByLanguage = {
   fr: factionsFr,
 };
 
-const containsSystemTag = (value: string, normalizedSystem: string) =>
+export const containsSystemTag = (value: string, normalizedSystem: string) =>
   value
     .split("/")
     .some((tag) => tag.trim().toLowerCase() === normalizedSystem);
 
-type SystemScopedTranslation = {
+export type SystemScopedTranslation = {
   system: string;
   description: Array<{ system: string; faction?: string; text?: string }>;
 };
@@ -103,7 +103,7 @@ export const pickTranslationDescription = <
   return generic?.text ? generic : descriptions[0];
 };
 
-const filterTranslationsBySystem = <T extends SystemScopedTranslation>(
+export const filterTranslationsBySystem = <T extends SystemScopedTranslation>(
   translations: Record<string, T>,
   system?: string
 ): Record<string, T> => {
@@ -140,7 +140,7 @@ const filterTranslationsBySystem = <T extends SystemScopedTranslation>(
   ) as Record<string, T>;
 };
 
-const filterDictionaryBySystem = <T extends SystemScopedTranslation>(
+export const filterDictionaryBySystem = <T extends SystemScopedTranslation>(
   dictionary: Record<string, Record<string, T>>,
   system?: string
 ): Record<string, Record<string, T>> => {

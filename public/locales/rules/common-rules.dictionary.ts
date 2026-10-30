@@ -38976,8 +38976,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Badland Nomads",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
@@ -38988,8 +38988,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Berserker Clans",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
@@ -39012,8 +39012,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Brute Coalitions",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
@@ -39024,8 +39024,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "City Runners",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
@@ -39078,8 +39078,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Gangs of New Eden",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
@@ -39150,8 +39150,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Mega-Corps",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
@@ -39180,8 +39180,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Psycho Cults",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
@@ -39210,20 +39210,20 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Security Forces",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
       "armyName": "Shadow Leagues",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
       "armyName": "Shortling Federations",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
@@ -39264,14 +39264,14 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Worker Unions",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Gangs of New Eden are various factions of violent and deranged outlaws that wage eternal gang wars on the streets of New Eden. These gangs are joined by mercenaries which are not bound to any particular gang, and which fight for anyone that can provide riches or a worthy cause.",
+      "backgroundStory": "More coming soon..."
     },
     {
       "systemCode": "GFF",
       "armyName": "Wormhole Daemons",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Wormhole Daemons are monstrous servants of the Havoc Gods who emerge from a different dimension throughout the galaxy. Their forms vary greatly, depending on which god they serve.\n\nWormhole Daemons are cast offs of dying gods who desperately hope to buy more time for themselves. These Daemons emerge suddenly from wormholes throughout the galaxy, to serve the eldritch will of their gods, only to disappear just as quickly once they have achieved their ends. Their gods are ready to leave nothing but havoc in their wake, just in hopes of extending their own lives for a little longer.",
+      "backgroundStory": "For aeons, powerful beings resided in a place beyond space, between the wormholes. Pure psychic entities, they lacked physical form and lived without fear of pain or death. Little can be said for certain about these beings or their origins, as their existence predates the records of even the oldest known civilizations in the galaxy. They observed passively, watching the galaxy progress, but rarely interacted with the species that lived within.\n\nThis changed suddenly, when one of their species died. Many have speculated about the cause of this death, but so far the matter remains a mystery. This was the first time one of their kind had experienced death, and others reacted first with curiosity, followed by horror. The horror only grew worse as death began to spread. The deaths started to mount and the rest began to recognize the signs of entropy and decay in themselves.\n\nEach entity would react in their own way, but most would eventually succumb with few exceptions. The being now known as Lust sought to cut away at itself, slicing any signs of imperfection and weakness. Another known as Change, sought to accumulate knowledge more quickly than it could decay. Plague found salvation in physical form, using its power to spread itself and re-assimilate any that it infected. Finally, War learned to draw strength from those it slew.\n\nSoon, these beings turned their attention outwards, hoping that the material world might allow them to stall their demise for a time longer. Anguished to survive, they sought out followers from the lost and desperate and offered them power in exchange for their service and worship. Those who rejected these gods came to know them as Havoc Gods due to the zealotry of their followers and the unrest that they caused.\n\nThese Gods are able to manifest their will in the physical world through aspects, fragments of their power and minds, which most refer to as their Daemons. Once manifested, these aspects are mortal, and vulnerable to death and harm, needing food to survive, and which can even adapt and change with experience. Gods must sacrifice a portion of their power to create Daemons, with greater Daemons requiring more of their essence to be contributed. As such, each Havoc God can only manifest so many Daemons at once, and must lose a portion of their power to do so, claiming it back when a Daemon dies.\n\nWhen they are not carrying out the will of their gods, the Daemons often dwell within a strange space between Wormholes. Their control over these wormholes allows them to appear and disappear within physical space rapidly, allowing them to carry out their God's will without fear of reprisal.\n\nHow will you serve the will of your god'"
     },
     {
       "systemCode": "GFF",
@@ -39366,26 +39366,26 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "AOFR",
       "armyName": "Giant Tribes Change Disciples",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Giant Tribes are made up of massive humanoids who vary in size from simply giant to gargantuan. Often employed as mercenaries, Giants rely on their strength and durability to make up for their lack of numbers.\n\nGiants are usually created through magical means, and many tribes trace their origin to the Havoc Wars, where the Empire used this magic extensively. As the wars ended, most Giants were cast out of human lands, with the survivors forming into tribes, where they work together to adapt to their new lives.",
+      "backgroundStory": "Ogre Alchemists first developed magic which allowed creatures to grow to gigantic sizes using potions. Gradually, these Ogre Alchemists fell out of favour and were displaced from the royal courts of their homeland. The Alchemists and their followers left their homelands in massive caravans, travelling further east in search of a better life. \n\nEven after the Alchemists and their knowledge died out, early Giants persisted in legends throughout the Great Steppes and beyond. However, over centuries, lost alchemical potions would be discovered in crypts and caches throughout the Steppe. These potions were sought out and studied by the Wizarding Guild of the Empire, who hoped to recreate the magic themselves. \n\n‍\n\nAt first, the study and use of these potions were slow and controlled, but this changed when the Havoc Wars began. The Empire recruited wizards to use this magic in order to create giant warriors who could fight Greater Daemons. In the beginning, the volunteers were chosen from veterans with proven skill and valour. As the war dragged on, however, the Empire took anyone willing to volunteer. Then, when the Empire's most powerful wizards sacrificed themselves to seal Havoc, the Giants were left without a means of returning to their former size. \n\nToo large to return to their old home, most Giants were left to fend for themselves. Some Giants, bitter about their situation, turned to extorting or robbing villages. This quickly led to towns viewing Giants with fear and hatred and made them a target for questing knights, so most Giants began to move away from the cities of the Empire towards the Great Steppes. \n\nGiant Tribes often seek out friendships and alliances with other species who can help keep them fed and supply them with cloth and other goods. It is said that if Giants see potential in someone, they may even offer them some of these ancient potions, allowing them to join their ranks. The Giants have only a limited supply of these potions, however, and are constantly seeking more. \n\nHow will you carve out a place for your tribe'"
     },
     {
       "systemCode": "AOFR",
       "armyName": "Giant Tribes Lust Disciples",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Giant Tribes are made up of massive humanoids who vary in size from simply giant to gargantuan. Often employed as mercenaries, Giants rely on their strength and durability to make up for their lack of numbers.\n\nGiants are usually created through magical means, and many tribes trace their origin to the Havoc Wars, where the Empire used this magic extensively. As the wars ended, most Giants were cast out of human lands, with the survivors forming into tribes, where they work together to adapt to their new lives.",
+      "backgroundStory": "Ogre Alchemists first developed magic which allowed creatures to grow to gigantic sizes using potions. Gradually, these Ogre Alchemists fell out of favour and were displaced from the royal courts of their homeland. The Alchemists and their followers left their homelands in massive caravans, travelling further east in search of a better life. \n\nEven after the Alchemists and their knowledge died out, early Giants persisted in legends throughout the Great Steppes and beyond. However, over centuries, lost alchemical potions would be discovered in crypts and caches throughout the Steppe. These potions were sought out and studied by the Wizarding Guild of the Empire, who hoped to recreate the magic themselves. \n\n‍\n\nAt first, the study and use of these potions were slow and controlled, but this changed when the Havoc Wars began. The Empire recruited wizards to use this magic in order to create giant warriors who could fight Greater Daemons. In the beginning, the volunteers were chosen from veterans with proven skill and valour. As the war dragged on, however, the Empire took anyone willing to volunteer. Then, when the Empire's most powerful wizards sacrificed themselves to seal Havoc, the Giants were left without a means of returning to their former size. \n\nToo large to return to their old home, most Giants were left to fend for themselves. Some Giants, bitter about their situation, turned to extorting or robbing villages. This quickly led to towns viewing Giants with fear and hatred and made them a target for questing knights, so most Giants began to move away from the cities of the Empire towards the Great Steppes. \n\nGiant Tribes often seek out friendships and alliances with other species who can help keep them fed and supply them with cloth and other goods. It is said that if Giants see potential in someone, they may even offer them some of these ancient potions, allowing them to join their ranks. The Giants have only a limited supply of these potions, however, and are constantly seeking more. \n\nHow will you carve out a place for your tribe'"
     },
     {
       "systemCode": "AOFR",
       "armyName": "Giant Tribes Plague Disciples",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Giant Tribes are made up of massive humanoids who vary in size from simply giant to gargantuan. Often employed as mercenaries, Giants rely on their strength and durability to make up for their lack of numbers.\n\nGiants are usually created through magical means, and many tribes trace their origin to the Havoc Wars, where the Empire used this magic extensively. As the wars ended, most Giants were cast out of human lands, with the survivors forming into tribes, where they work together to adapt to their new lives.",
+      "backgroundStory": "Ogre Alchemists first developed magic which allowed creatures to grow to gigantic sizes using potions. Gradually, these Ogre Alchemists fell out of favour and were displaced from the royal courts of their homeland. The Alchemists and their followers left their homelands in massive caravans, travelling further east in search of a better life. \n\nEven after the Alchemists and their knowledge died out, early Giants persisted in legends throughout the Great Steppes and beyond. However, over centuries, lost alchemical potions would be discovered in crypts and caches throughout the Steppe. These potions were sought out and studied by the Wizarding Guild of the Empire, who hoped to recreate the magic themselves. \n\n‍\n\nAt first, the study and use of these potions were slow and controlled, but this changed when the Havoc Wars began. The Empire recruited wizards to use this magic in order to create giant warriors who could fight Greater Daemons. In the beginning, the volunteers were chosen from veterans with proven skill and valour. As the war dragged on, however, the Empire took anyone willing to volunteer. Then, when the Empire's most powerful wizards sacrificed themselves to seal Havoc, the Giants were left without a means of returning to their former size. \n\nToo large to return to their old home, most Giants were left to fend for themselves. Some Giants, bitter about their situation, turned to extorting or robbing villages. This quickly led to towns viewing Giants with fear and hatred and made them a target for questing knights, so most Giants began to move away from the cities of the Empire towards the Great Steppes. \n\nGiant Tribes often seek out friendships and alliances with other species who can help keep them fed and supply them with cloth and other goods. It is said that if Giants see potential in someone, they may even offer them some of these ancient potions, allowing them to join their ranks. The Giants have only a limited supply of these potions, however, and are constantly seeking more. \n\nHow will you carve out a place for your tribe'"
     },
     {
       "systemCode": "AOFR",
       "armyName": "Giant Tribes War Disciples",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Giant Tribes are made up of massive humanoids who vary in size from simply giant to gargantuan. Often employed as mercenaries, Giants rely on their strength and durability to make up for their lack of numbers.\n\nGiants are usually created through magical means, and many tribes trace their origin to the Havoc Wars, where the Empire used this magic extensively. As the wars ended, most Giants were cast out of human lands, with the survivors forming into tribes, where they work together to adapt to their new lives.",
+      "backgroundStory": "Ogre Alchemists first developed magic which allowed creatures to grow to gigantic sizes using potions. Gradually, these Ogre Alchemists fell out of favour and were displaced from the royal courts of their homeland. The Alchemists and their followers left their homelands in massive caravans, travelling further east in search of a better life. \n\nEven after the Alchemists and their knowledge died out, early Giants persisted in legends throughout the Great Steppes and beyond. However, over centuries, lost alchemical potions would be discovered in crypts and caches throughout the Steppe. These potions were sought out and studied by the Wizarding Guild of the Empire, who hoped to recreate the magic themselves. \n\n‍\n\nAt first, the study and use of these potions were slow and controlled, but this changed when the Havoc Wars began. The Empire recruited wizards to use this magic in order to create giant warriors who could fight Greater Daemons. In the beginning, the volunteers were chosen from veterans with proven skill and valour. As the war dragged on, however, the Empire took anyone willing to volunteer. Then, when the Empire's most powerful wizards sacrificed themselves to seal Havoc, the Giants were left without a means of returning to their former size. \n\nToo large to return to their old home, most Giants were left to fend for themselves. Some Giants, bitter about their situation, turned to extorting or robbing villages. This quickly led to towns viewing Giants with fear and hatred and made them a target for questing knights, so most Giants began to move away from the cities of the Empire towards the Great Steppes. \n\nGiant Tribes often seek out friendships and alliances with other species who can help keep them fed and supply them with cloth and other goods. It is said that if Giants see potential in someone, they may even offer them some of these ancient potions, allowing them to join their ranks. The Giants have only a limited supply of these potions, however, and are constantly seeking more. \n\nHow will you carve out a place for your tribe'"
     },
     {
       "systemCode": "AOFR",
@@ -39474,8 +39474,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "AOFR",
       "armyName": "Rift Daemons",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "The Rift Daemons are monstrous servants of the Havoc Gods, who emerge from beneath the surface of Tyria. Their forms vary greatly, depending on which god they serve, and they are accompanied by a variety of daemonic beasts. \n\nDaemons serve the strange and alien wills of their gods, emerging from the Great Rift and sewing Havoc throughout Tyria. The Daemons are cast offs of dying gods who desperately hope to buy more time for themselves, ready to leave nothing but havoc in their wake, just in hopes of extending their own lives for a little longer.",
+      "backgroundStory": "Rift Daemons are born from the last survivors of a pantheon of dying gods, known to Tyria as the Havoc Gods. Desperate to survive, these gods sought out followers from the lost and desperate, and offered them power in exchange for worship. Those who rejected these gods came to know them as Havoc Gods due to the zealotry of their followers and the unrest that they caused. \n\nThe Havoc Gods came to Tyria soon after Voidgates had been discovered. As mages and adventurers activated Voidgates throughout the land, the influence of Havoc began to spread. The Havoc Gods saw Tyria as a fascinating plane due to the diversity of its peoples, where they could find all sorts of different new followers. \n\nDaemons were sent into Tyria by their gods, spreading throughout the plane. They sought out followers for their Gods, either through promises of power, or shows of force. They found followers throughout Tyria, whom they guided to conquer others. Treachery, war, and bloodshed became commonplace as the Havoc Wars began. Daemons were seen throughout the continent, fighting alone or alongside mortal allies, as they and their masters threatened to overrun the plane.\n\nThe Havoc Gods were on the verge of victory when they fell into a desperate trap set by their enemies. The most powerful mages of Tyria gave their lives in a ritual that managed to seal the Havoc Gods into the Orb of Fate. Suddenly severed from their creators, the forces of Havoc were defeated. The surviving Daemons fled and hid throughout Tyria, escaping wherever they could, while their foes enjoyed an era of peace and prosperity. \n\nThis peace was brought to an abrupt end when, centuries later, the orb was broken by the heirs of the most powerful Human Empire in Tyria. The Havoc Gods were freed, and the power unleashed by the broken orb tore through the heart of Tyria, scarring the land and opening a massive fissure, cutting through much of the plane. This great scar became known as the Rift, and from it, the Daemons began to emerge once more into Tyria. \n\nThe Rift Daemons are eager to return to their masters and avenge their defeat. They have already spread throughout many corners of Tyria, and their hordes grow steadily with each passing day. With their old foes complacent and divided, there are few who can stand against them while they are ready to once more bend Tyria to the will of their gods. \n\nHow will you bring glory to your god'"
     },
     {
       "systemCode": "AOFR",
@@ -40304,8 +40304,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Nomades des Terres Désolées",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
@@ -40316,8 +40316,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Clans Berserkers",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
@@ -40340,8 +40340,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Coalitions de Brutes",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
@@ -40352,8 +40352,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Coureurs des Cités",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
@@ -40406,8 +40406,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Gangs du Nouvel Éden",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
@@ -40478,8 +40478,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Méga-Corporations",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
@@ -40508,8 +40508,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Cultes Psychotiques",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
@@ -40538,20 +40538,20 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Forces de Sécurité",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
       "armyName": "Ligues de l'Ombre",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
       "armyName": "Fédérations Halfelines",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
@@ -40592,14 +40592,14 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "GFF",
       "armyName": "Syndicats Ouvriers",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Gangs du Nouvel Éden regroupent diverses factions de hors-la-loi violents et dérangés qui se livrent à d'éternelles guerres de gangs dans les rues du Nouvel Éden. Ces gangs sont rejoints par des mercenaires qui ne sont liés à aucun gang particulier et combattent pour quiconque peut leur offrir des richesses ou une cause digne d'intérêt.",
+      "backgroundStory": "Plus d'informations prochainement..."
     },
     {
       "systemCode": "GFF",
       "armyName": "Démons du Trou de Ver",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Démons de Trou de Ver sont les monstrueux serviteurs des Dieux du Havoc qui surgissent d'une autre dimension à travers toute la galaxie. Leurs formes varient énormément selon le dieu qu'ils servent.\n\nLes Démons de Trou de Ver sont les rejetons de dieux mourants qui espèrent désespérément gagner encore un peu de temps. Ils émergent brusquement des trous de ver disséminés dans la galaxie pour accomplir la volonté eldritch de leurs maîtres, puis disparaissent tout aussi vite une fois leur tâche terminée. Leurs dieux sont prêts à ne laisser derrière eux que havoc et destruction dans l'espoir de prolonger leur existence un peu plus longtemps.",
+      "backgroundStory": "Durant des éons, de puissantes entités résidèrent dans un lieu au-delà de l'espace, entre les trous de ver. Pures consciences psychiques, elles étaient dépourvues de forme physique et vivaient sans connaître la douleur ni la mort. On ne peut rien affirmer avec certitude sur ces êtres ou sur leurs origines, tant leur existence précède même les archives des plus anciennes civilisations connues de la galaxie. Elles observaient passivement le développement de la galaxie, n'intervenant que rarement auprès des espèces qui y vivaient.\n\nTout changea soudainement lorsque l'une des leurs mourut. Beaucoup ont spéculé sur la cause de cette mort, mais le mystère demeure entier. C'était la première fois qu'un membre de leur espèce faisait l'expérience de la mort, et les autres réagirent d'abord avec curiosité, puis avec horreur. Cette horreur ne fit que croître à mesure que la mort se propageait. Les disparitions se multiplièrent, et les survivants commencèrent à reconnaître en eux-mêmes les signes de l'entropie et de la décrépitude.\n\nChaque entité réagit à sa manière, mais la plupart finirent par succomber, à quelques exceptions près. Celle que l'on connaît désormais sous le nom de Luxure chercha à se retrancher d'elle-même, coupant tout signe d'imperfection ou de faiblesse. Une autre, appelée Changement, chercha à accumuler le savoir plus vite qu'il ne pouvait se perdre. La Peste trouva son salut dans la forme physique, utilisant son pouvoir pour se répandre et réassimiler tout ce qu'elle infectait. Enfin, la Guerre apprit à tirer sa force de ceux qu'elle abattait.\n\nBientôt, ces êtres tournèrent leur attention vers le monde matériel, espérant y retarder un peu leur fin. Désespérés de survivre, ils cherchèrent des fidèles parmi les perdus et les désespérés, leur offrant du pouvoir en échange de leur service et de leur adoration. Ceux qui rejetèrent ces dieux finirent par les appeler Dieux du Havoc, à cause du fanatisme de leurs fidèles et du chaos qu'ils répandaient.\n\nCes dieux peuvent manifester leur volonté dans le monde physique par l'intermédiaire d'aspects, fragments de leur puissance et de leur conscience, que la plupart désignent comme leurs Démons. Une fois manifestés, ces aspects sont mortels, vulnérables à la douleur et à la mort, ont besoin de se nourrir pour survivre, et peuvent même évoluer avec l'expérience. Les dieux doivent sacrifier une part de leur propre pouvoir pour créer ces Démons, les plus puissants exigeant une plus grande portion de leur essence. Ainsi, chaque Dieu du Havoc ne peut manifester qu'un nombre limité de Démons à la fois, et doit abandonner une fraction de sa puissance pour le faire, qu'il ne récupère qu'à la mort de ceux-ci.\n\nLorsqu'ils ne mettent pas en œuvre la volonté de leurs dieux, les Démons demeurent souvent dans un étrange espace entre les trous de ver. Leur maîtrise de ces passages leur permet d'apparaître et de disparaître rapidement dans l'espace physique, exécutant ainsi les desseins de leur dieu sans craindre de représailles.\n\nComment serviras-tu la volonté de ton dieu ?"
     },
     {
       "systemCode": "GFF",
@@ -40694,26 +40694,26 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "AOFR",
       "armyName": "Tribus de Géants Disciples du Changement",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Tribus de Géants sont composées d'humanoïdes massifs dont la taille va de simplement gigantesque à véritablement gargantuesque. Souvent employés comme mercenaires, les Géants compensent leur faible nombre par leur force brute et leur incroyable endurance.\n\nLes Géants sont généralement créés par des moyens magiques, et nombre de tribus font remonter leur origine aux Guerres du Havoc, époque durant laquelle l'Empire utilisa largement cette magie. Lorsque la guerre prit fin, la plupart des Géants furent chassés des terres humaines, et les survivants se regroupèrent en tribus pour apprendre à vivre ensemble dans leur nouvelle condition.",
+      "backgroundStory": "Les alchimistes ogres furent les premiers à développer une magie capable de faire croître les créatures jusqu'à des tailles gigantesques grâce à des potions. Peu à peu, ces alchimistes tombèrent en disgrâce et furent écartés des cours royales de leur patrie. Eux et leurs disciples quittèrent alors leur terre natale au sein d'immenses caravanes, voyageant toujours plus à l'est dans l'espoir de trouver une vie meilleure.\n\nMême après la disparition des alchimistes et de leur savoir, les premiers Géants subsistèrent dans les légendes de la Grande Steppe et d'au-delà. Au fil des siècles, d'anciennes potions alchimiques perdues furent retrouvées dans des cryptes et des caches disséminées dans la steppe. La Guilde des Magiciens de l'Empire s'intéressa à ces concoctions, espérant recréer elle-même cette magie.\n\nAu début, l'étude et l'utilisation de ces potions restèrent lentes et étroitement contrôlées, mais la situation changea lorsque les Guerres du Havoc éclatèrent. L'Empire recruta des sorciers pour utiliser cette magie et créer des guerriers géants capables d'affronter les Démons Majeurs. D'abord, les volontaires étaient choisis parmi les vétérans les plus valeureux. Mais à mesure que la guerre s'enlisait, l'Empire accepta quiconque se déclarait prêt à se porter volontaire. Puis, lorsque les plus puissants magiciens de l'Empire sacrifièrent leur vie pour enfermer le Havoc, les Géants furent privés de tout moyen de retrouver leur taille originelle.\n\nTrop grands pour revenir à leur ancienne existence, la plupart durent se débrouiller seuls. Certains, remplis d'amertume, se mirent à rançonner ou piller les villages. Cela amena rapidement les cités à considérer les Géants avec peur et haine, faisant d'eux des proies pour les chevaliers en quête d'exploits. La plupart commencèrent alors à s'éloigner des villes impériales pour gagner la Grande Steppe.\n\nLes Tribus de Géants cherchent souvent à nouer des amitiés et des alliances avec d'autres espèces capables de les nourrir et de leur fournir tissu, outils et autres biens essentiels. On raconte même que, lorsqu'un Géant voit du potentiel chez quelqu'un, il peut lui offrir l'une de ces anciennes potions afin qu'il rejoigne ses rangs. Mais leur réserve de potions demeure très limitée, et les Géants sont constamment en quête de nouvelles fioles oubliées.\n\nComment tailleras-tu une place pour ta tribu '"
     },
     {
       "systemCode": "AOFR",
       "armyName": "Tribus de Géants Disciples de la Luxure",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Tribus de Géants sont composées d'humanoïdes massifs dont la taille va de simplement gigantesque à véritablement gargantuesque. Souvent employés comme mercenaires, les Géants compensent leur faible nombre par leur force brute et leur incroyable endurance.\n\nLes Géants sont généralement créés par des moyens magiques, et nombre de tribus font remonter leur origine aux Guerres du Havoc, époque durant laquelle l'Empire utilisa largement cette magie. Lorsque la guerre prit fin, la plupart des Géants furent chassés des terres humaines, et les survivants se regroupèrent en tribus pour apprendre à vivre ensemble dans leur nouvelle condition.",
+      "backgroundStory": "Les alchimistes ogres furent les premiers à développer une magie capable de faire croître les créatures jusqu'à des tailles gigantesques grâce à des potions. Peu à peu, ces alchimistes tombèrent en disgrâce et furent écartés des cours royales de leur patrie. Eux et leurs disciples quittèrent alors leur terre natale au sein d'immenses caravanes, voyageant toujours plus à l'est dans l'espoir de trouver une vie meilleure.\n\nMême après la disparition des alchimistes et de leur savoir, les premiers Géants subsistèrent dans les légendes de la Grande Steppe et d'au-delà. Au fil des siècles, d'anciennes potions alchimiques perdues furent retrouvées dans des cryptes et des caches disséminées dans la steppe. La Guilde des Magiciens de l'Empire s'intéressa à ces concoctions, espérant recréer elle-même cette magie.\n\nAu début, l'étude et l'utilisation de ces potions restèrent lentes et étroitement contrôlées, mais la situation changea lorsque les Guerres du Havoc éclatèrent. L'Empire recruta des sorciers pour utiliser cette magie et créer des guerriers géants capables d'affronter les Démons Majeurs. D'abord, les volontaires étaient choisis parmi les vétérans les plus valeureux. Mais à mesure que la guerre s'enlisait, l'Empire accepta quiconque se déclarait prêt à se porter volontaire. Puis, lorsque les plus puissants magiciens de l'Empire sacrifièrent leur vie pour enfermer le Havoc, les Géants furent privés de tout moyen de retrouver leur taille originelle.\n\nTrop grands pour revenir à leur ancienne existence, la plupart durent se débrouiller seuls. Certains, remplis d'amertume, se mirent à rançonner ou piller les villages. Cela amena rapidement les cités à considérer les Géants avec peur et haine, faisant d'eux des proies pour les chevaliers en quête d'exploits. La plupart commencèrent alors à s'éloigner des villes impériales pour gagner la Grande Steppe.\n\nLes Tribus de Géants cherchent souvent à nouer des amitiés et des alliances avec d'autres espèces capables de les nourrir et de leur fournir tissu, outils et autres biens essentiels. On raconte même que, lorsqu'un Géant voit du potentiel chez quelqu'un, il peut lui offrir l'une de ces anciennes potions afin qu'il rejoigne ses rangs. Mais leur réserve de potions demeure très limitée, et les Géants sont constamment en quête de nouvelles fioles oubliées.\n\nComment tailleras-tu une place pour ta tribu '"
     },
     {
       "systemCode": "AOFR",
       "armyName": "Tribus de Géants Disciples de la Peste",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Tribus de Géants sont composées d'humanoïdes massifs dont la taille va de simplement gigantesque à véritablement gargantuesque. Souvent employés comme mercenaires, les Géants compensent leur faible nombre par leur force brute et leur incroyable endurance.\n\nLes Géants sont généralement créés par des moyens magiques, et nombre de tribus font remonter leur origine aux Guerres du Havoc, époque durant laquelle l'Empire utilisa largement cette magie. Lorsque la guerre prit fin, la plupart des Géants furent chassés des terres humaines, et les survivants se regroupèrent en tribus pour apprendre à vivre ensemble dans leur nouvelle condition.",
+      "backgroundStory": "Les alchimistes ogres furent les premiers à développer une magie capable de faire croître les créatures jusqu'à des tailles gigantesques grâce à des potions. Peu à peu, ces alchimistes tombèrent en disgrâce et furent écartés des cours royales de leur patrie. Eux et leurs disciples quittèrent alors leur terre natale au sein d'immenses caravanes, voyageant toujours plus à l'est dans l'espoir de trouver une vie meilleure.\n\nMême après la disparition des alchimistes et de leur savoir, les premiers Géants subsistèrent dans les légendes de la Grande Steppe et d'au-delà. Au fil des siècles, d'anciennes potions alchimiques perdues furent retrouvées dans des cryptes et des caches disséminées dans la steppe. La Guilde des Magiciens de l'Empire s'intéressa à ces concoctions, espérant recréer elle-même cette magie.\n\nAu début, l'étude et l'utilisation de ces potions restèrent lentes et étroitement contrôlées, mais la situation changea lorsque les Guerres du Havoc éclatèrent. L'Empire recruta des sorciers pour utiliser cette magie et créer des guerriers géants capables d'affronter les Démons Majeurs. D'abord, les volontaires étaient choisis parmi les vétérans les plus valeureux. Mais à mesure que la guerre s'enlisait, l'Empire accepta quiconque se déclarait prêt à se porter volontaire. Puis, lorsque les plus puissants magiciens de l'Empire sacrifièrent leur vie pour enfermer le Havoc, les Géants furent privés de tout moyen de retrouver leur taille originelle.\n\nTrop grands pour revenir à leur ancienne existence, la plupart durent se débrouiller seuls. Certains, remplis d'amertume, se mirent à rançonner ou piller les villages. Cela amena rapidement les cités à considérer les Géants avec peur et haine, faisant d'eux des proies pour les chevaliers en quête d'exploits. La plupart commencèrent alors à s'éloigner des villes impériales pour gagner la Grande Steppe.\n\nLes Tribus de Géants cherchent souvent à nouer des amitiés et des alliances avec d'autres espèces capables de les nourrir et de leur fournir tissu, outils et autres biens essentiels. On raconte même que, lorsqu'un Géant voit du potentiel chez quelqu'un, il peut lui offrir l'une de ces anciennes potions afin qu'il rejoigne ses rangs. Mais leur réserve de potions demeure très limitée, et les Géants sont constamment en quête de nouvelles fioles oubliées.\n\nComment tailleras-tu une place pour ta tribu '"
     },
     {
       "systemCode": "AOFR",
       "armyName": "Tribus de Géants Disciples de la Guerre",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Tribus de Géants sont composées d'humanoïdes massifs dont la taille va de simplement gigantesque à véritablement gargantuesque. Souvent employés comme mercenaires, les Géants compensent leur faible nombre par leur force brute et leur incroyable endurance.\n\nLes Géants sont généralement créés par des moyens magiques, et nombre de tribus font remonter leur origine aux Guerres du Havoc, époque durant laquelle l'Empire utilisa largement cette magie. Lorsque la guerre prit fin, la plupart des Géants furent chassés des terres humaines, et les survivants se regroupèrent en tribus pour apprendre à vivre ensemble dans leur nouvelle condition.",
+      "backgroundStory": "Les alchimistes ogres furent les premiers à développer une magie capable de faire croître les créatures jusqu'à des tailles gigantesques grâce à des potions. Peu à peu, ces alchimistes tombèrent en disgrâce et furent écartés des cours royales de leur patrie. Eux et leurs disciples quittèrent alors leur terre natale au sein d'immenses caravanes, voyageant toujours plus à l'est dans l'espoir de trouver une vie meilleure.\n\nMême après la disparition des alchimistes et de leur savoir, les premiers Géants subsistèrent dans les légendes de la Grande Steppe et d'au-delà. Au fil des siècles, d'anciennes potions alchimiques perdues furent retrouvées dans des cryptes et des caches disséminées dans la steppe. La Guilde des Magiciens de l'Empire s'intéressa à ces concoctions, espérant recréer elle-même cette magie.\n\nAu début, l'étude et l'utilisation de ces potions restèrent lentes et étroitement contrôlées, mais la situation changea lorsque les Guerres du Havoc éclatèrent. L'Empire recruta des sorciers pour utiliser cette magie et créer des guerriers géants capables d'affronter les Démons Majeurs. D'abord, les volontaires étaient choisis parmi les vétérans les plus valeureux. Mais à mesure que la guerre s'enlisait, l'Empire accepta quiconque se déclarait prêt à se porter volontaire. Puis, lorsque les plus puissants magiciens de l'Empire sacrifièrent leur vie pour enfermer le Havoc, les Géants furent privés de tout moyen de retrouver leur taille originelle.\n\nTrop grands pour revenir à leur ancienne existence, la plupart durent se débrouiller seuls. Certains, remplis d'amertume, se mirent à rançonner ou piller les villages. Cela amena rapidement les cités à considérer les Géants avec peur et haine, faisant d'eux des proies pour les chevaliers en quête d'exploits. La plupart commencèrent alors à s'éloigner des villes impériales pour gagner la Grande Steppe.\n\nLes Tribus de Géants cherchent souvent à nouer des amitiés et des alliances avec d'autres espèces capables de les nourrir et de leur fournir tissu, outils et autres biens essentiels. On raconte même que, lorsqu'un Géant voit du potentiel chez quelqu'un, il peut lui offrir l'une de ces anciennes potions afin qu'il rejoigne ses rangs. Mais leur réserve de potions demeure très limitée, et les Géants sont constamment en quête de nouvelles fioles oubliées.\n\nComment tailleras-tu une place pour ta tribu '"
     },
     {
       "systemCode": "AOFR",
@@ -40802,8 +40802,8 @@ export const factionData: FactionDataByLanguage = {
     {
       "systemCode": "AOFR",
       "armyName": "Démons de la Faille",
-      "introduction": "",
-      "backgroundStory": ""
+      "introduction": "Les Démons de la Faille sont les monstrueux serviteurs des Dieux du Havoc, qui émergent des profondeurs mêmes de Tyria. Leurs formes varient énormément selon le dieu qu'ils servent, et ils sont accompagnés d'une grande variété de bêtes démoniaques.\n\nLes Démons obéissent aux volontés étranges et étrangères de leurs dieux, surgissant de la Grande Faille pour répandre le Havoc à travers Tyria. Ils sont les rejetons de dieux mourants qui cherchent désespérément à gagner encore un peu de temps, prêts à ne laisser derrière eux que chaos et destruction dans l'espoir de prolonger leur propre existence.",
+      "backgroundStory": "Les Démons de la Faille sont issus des derniers survivants d'un panthéon de dieux mourants, connus en Tyria sous le nom de Dieux du Havoc. Désespérés à l'idée de périr, ces dieux cherchèrent des fidèles parmi les perdus et les désespérés, leur offrant pouvoir et salut en échange de leur adoration. Ceux qui les rejetèrent en vinrent à les nommer Dieux du Havoc à cause du fanatisme de leurs adorateurs et du désordre qu'ils semaient.\n\nLes Dieux du Havoc arrivèrent en Tyria peu après la découverte des Portails du Vide. À mesure que mages et aventuriers les activaient à travers le monde, l'influence du Havoc se propagea. Les Dieux du Havoc virent Tyria comme un plan fascinant, riche de peuples variés parmi lesquels ils pouvaient recruter d'innombrables nouveaux adeptes.\n\nLes Démons furent envoyés en Tyria par leurs dieux et se répandirent dans tout le plan. Ils cherchaient à attirer des fidèles à leur maître, soit par des promesses de pouvoir, soit par des démonstrations de force. Ils trouvèrent partout des adeptes qu'ils guidèrent dans la conquête d'autrui. Trahison, guerre et massacres devinrent monnaie courante lorsque commencèrent les Guerres du Havoc. On vit des Démons à travers tout le continent, combattant seuls ou aux côtés d'alliés mortels, tandis qu'eux et leurs dieux menaçaient d'engloutir tout le monde connu.\n\nLes Dieux du Havoc étaient sur le point de triompher lorsqu'ils tombèrent dans un piège désespéré tendu par leurs ennemis. Les plus grands mages de Tyria sacrifièrent leur vie dans un rituel qui permit d'enfermer les Dieux du Havoc dans l'Orbe du Destin. Brutalement coupées de leurs créateurs, les forces du Havoc furent vaincues. Les Démons survivants fuirent et se cachèrent à travers Tyria, tandis que leurs ennemis connaissaient une longue ère de paix et de prospérité.\n\nCette paix prit fin brutalement lorsque, des siècles plus tard, l'Orbe fut brisée par les héritiers du plus puissant Empire humain de Tyria. Les Dieux du Havoc furent libérés, et la puissance déchaînée par la rupture de l'Orbe éventra le coeur de Tyria, scarifia la terre et ouvrit une immense fissure qui traversa une grande partie du plan. Cette cicatrice prit le nom de Faille, et c'est d'elle que les Démons recommencèrent à surgir.\n\nLes Démons de la Faille brûlent de retrouver leurs maîtres et de venger leur défaite. Ils se sont déjà répandus dans de nombreuses régions de Tyria, et leurs hordes grossissent chaque jour. Face à d'anciens ennemis complaisants et divisés, peu sont encore capables de leur résister alors qu'ils s'apprêtent à plier une fois de plus Tyria à la volonté de leurs dieux.\n\nComment apporteras-tu la gloire à ton dieu ?"
     },
     {
       "systemCode": "AOFR",
