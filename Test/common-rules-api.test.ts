@@ -69,6 +69,50 @@ describe("common-rules-api", () => {
     expect(factions.en.some((entry) => entry.armyName === "Brute Clans")).toBe(true);
   });
 
+  it("serves the reviewed GF 3.6.0 rules, spells and faction variants", () => {
+    const rules = getCommonRulesDictionary("GF");
+    const spells = getCommonSpellsDictionary("GF");
+    const factions = getFactionData("GF");
+
+    expect(rules.en["Hive Bond"].description[0].text).toContain(
+      "shot/charged from over 9\"/6\" away"
+    );
+    expect(rules.en["Anti-Cover"].description[0].text).toBe(
+      "This weapon ignores Cover."
+    );
+    expect(rules.fr["Anti-Cover"].description[0].text).toBe(
+      "Cette arme ignore le couvert."
+    );
+    expect(spells.en["Deceleration Rune"].description[0].cost).toBe(1);
+
+    const battleBrothersAmmo = pickTranslationDescription(
+      spells.en["Blessed Ammo"].description,
+      "GF",
+      "Battle Brothers"
+    );
+    const watchBrothersAmmo = pickTranslationDescription(
+      spells.en["Blessed Ammo"].description,
+      "GF",
+      "Watch Brothers"
+    );
+    expect(battleBrothersAmmo?.text).toContain("Shred");
+    expect(watchBrothersAmmo?.text).toContain("Enhanced Watchborn");
+
+    for (const armyName of [
+      "Daemons of Change",
+      "Daemons of Lust",
+      "Daemons of Plague",
+      "Daemons of War",
+      "Saurian Starhosts",
+      "Voidspace Stalkers",
+    ]) {
+      expect(
+        factions.en.some((entry) => entry.armyName === armyName),
+        armyName
+      ).toBe(true);
+    }
+  });
+
   it("includes complete lore translations for the new GFF and AOFR factions", () => {
     const factions = getFactionData();
     const expectedFactions = [

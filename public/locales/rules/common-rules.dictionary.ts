@@ -81,6 +81,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Friendly units using Ambush may ignore distance restrictions from enemies if they are deployed within 6\" of this model."
+        },
+        {
+          "system": "GF",
+          "text": "Friendly units using Ambush may ignore distance restrictions from enemies if they are deployed within 6\" of this model."
         }
       ]
     },
@@ -193,6 +197,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Bane in melee once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Bane on its weapons in melee once (next time the effect would apply)."
         }
       ]
     },
@@ -221,6 +229,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+        },
+        {
+          "system": "GF",
+          "text": "If a unit where most models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
         }
       ]
     },
@@ -375,6 +387,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Enemies get -4\" range to a min. of 6\" when trying to shoot at units where all models have this rule, and -2\" movement to a min. of 6\" when trying to charge units where all models have this rule."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule is targeted by an enemy unit for shooting/charging, that enemy unit gets -4\"/-2\" range to a min. of 6\"."
         }
       ]
     },
@@ -389,6 +405,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Once per round, at the end of this unit's activation, you may place all models with this rule in it anywhere fully within D3+1\" of their position."
+        },
+        {
+          "system": "GF",
+          "text": "Once per round, at the end of this unit's activation, you may move all models with this rule in it by up to D3+1\"."
         }
       ]
     },
@@ -403,6 +423,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "If all models in this unit have this rule, place one marker on it at the beginning of each round if it's on the table and isn't Shaken, up to a max. of four markers. For every two markers, models with this rule in this unit get +1 to Defense rolls."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule,  place one token on it at the beginning of each round if it's on the table and isn't Shaken, up to a max. of four tokens. For every two tokens, this unit gets +1 to Defense rolls."
         }
       ]
     },
@@ -417,6 +441,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model and up to 3 friendly units picked before the start of the game get Defensive Growth. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Defensive Growth."
         }
       ]
     },
@@ -427,6 +455,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "<key>Ignores Cover</key>, and against non-<key>Hero</key> units with <key>Tough</key>(3) or more, this weapon gets <key>AP</key>(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "Ignores Cover, and when attacking units with most models within 1\" of terrain, this weapon gets AP(+1)."
         }
       ]
     },
@@ -441,6 +473,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit(only the original hit counts as a 6 for special rules)."
+        },
+        {
+          "system": "GF",
+          "text": "When this model shoots/charges enemies over 9\"/6\" away, unmodified result of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
         }
       ]
     },
@@ -483,6 +519,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Entrenched once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Entrenched once (next time the effect would apply)."
         }
       ]
     },
@@ -511,6 +551,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "If a unit where all models have this rule has most of them within 1\" of terrain, they get +1 to hit rolls when attacking."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit are within 1\" of terrain, this model gets +1 to hit rolls when attacking."
         }
       ]
     },
@@ -519,7 +563,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and up to 3 friendly units picked before the start of the game get <key>Grounded Precision</key>. If this model is killed, picked models that are deployed lose the rule."
         },
         {
@@ -529,6 +573,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model and up to 3 friendly units picked before the start of the game get Grounded Precision. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Grounded Precision."
         }
       ]
     },
@@ -557,6 +605,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When units where all models have this rule are shot or charged from over 9\" away and take hits, those hits count as having AP(-1), to a min. of AP(0)."
+        },
+        {
+          "system": "GF",
+          "text": "When units where most models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0)."
         }
       ]
     },
@@ -603,6 +655,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Once per round, units where all models have this rule may move by up to 3\" after shooting or being in melee."
+        },
+        {
+          "system": "GF",
+          "text": "Once per round, this model may move by up to 3\" after shooting or being in melee."
         }
       ]
     },
@@ -645,6 +701,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Units where all models have this rule get +1 to morale test rolls."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, they get +1 to Morale Test rolls when shot/charged from over 9\"/6\" away."
         }
       ]
     },
@@ -757,6 +817,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Indirect against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Indirect on their weapons against once (next time the effect would apply)."
         }
       ]
     },
@@ -771,6 +835,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+        },
+        {
+          "system": "GF",
+          "text": "When this model shoots/charges enemies over 9\"/6\" away, unmodified results of 1 to block hits from weapons deal 1 extra wound."
         }
       ]
     },
@@ -813,6 +881,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model and up to 3 friendly units picked before the start of the game get Infiltrate. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Infiltrate."
         }
       ]
     },
@@ -827,6 +899,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Once per game, if all models in this unit have this rule, it may be activated even if it had already activated this round(stops being fatigued when activated for the second time). Only up to one third of the units in the army with this rule at the beginning of the game(rounding up) may use it in a single round."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, if all models in this unit have this rule, it may be activated even if it had already activated this round (stops being Fatigued when activated again). Only up to one third of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
         }
       ]
     },
@@ -841,6 +917,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 4+ instead."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule takes wounds, roll one die for each. If the wound was from a spell, then it is ignored on a 2+. If the wound was not from a spell, and the unit was shot/charged from over 9\"/6\" away, then it is ignored on a 6+ instead."
         }
       ]
     },
@@ -855,6 +935,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When units where all models have this rule are shot or charged from over 9\" away, enemy units get -1 to hit rolls."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, enemy units shooting/charging them from over 9\"/6\" away get -1 to hit rolls ."
         }
       ]
     },
@@ -897,6 +981,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Once per game, if all models in this unit have this rule, it may be activated even if it had already activated this round(stops being fatigued when activated for the second time). Only up to one third of the units in the army with this rule at the beginning of the game(rounding up) may use it in a single round."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, if all models in this unit have this rule, it may be activated even if it had already activated this round (stops being Fatigued when activated again). Only up to one third of the units in the army with this rule at the beginning of the game (rounding up) may use it in a single round."
         }
       ]
     },
@@ -911,6 +999,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets No Retreat once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets No Retreat once (next time the effect would apply)."
         }
       ]
     },
@@ -929,6 +1021,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Place one marker on this unit when it fully destroys an enemy unit, up to a max. of two markers. For each marker all models with this rule in this unit get AP(+1) on their weapons when attacking until the end of the game."
+        },
+        {
+          "system": "GF",
+          "text": "Place one token on this unit when it fully destroys an enemy unit, up to a max. of two tokens. For each token all models with this rule in this unit get AP(+1) on their weapons when attacking until the end of the game."
         }
       ]
     },
@@ -943,6 +1039,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Place one marker on this unit at the beginning of each round if it's on the table and isn't Shaken, up to a max. of four markers. For every two markers, models with this rule in this unit get AP(+1) on their weapons."
+        },
+        {
+          "system": "GF",
+          "text": "Place one token on this unit at the beginning of each round if it's on the table and isn't Shaken, up to a max. of four tokens. For every two tokens, models with this rule in this unit get AP(+1) on their weapons."
         }
       ]
     },
@@ -963,6 +1063,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Once per activation, before attacking, pick one enemy unit within 18” in line of sight, which friendly units gets <key>Unpredictable Shooter</key>(+1) against once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Unpredictable Shooter against once (next time the effect would apply)."
         }
       ]
     },
@@ -1019,6 +1123,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model and up to 3 friendly units picked before the start of the game get Protected. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Protected."
         }
       ]
     },
@@ -1027,7 +1135,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and up to 3 friendly units picked before the start of the game get <key>Protection Feat</key>. If this model is killed, picked models that are deployed lose the rule."
         },
         {
@@ -1037,6 +1145,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model and up to 3 friendly units picked before the start of the game get Protection Feat. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Protection Feat."
         }
       ]
     },
@@ -1103,6 +1215,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Rapid Advance once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Rapid Advance once (next time the effect would apply)."
         }
       ]
     },
@@ -1131,6 +1247,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within D3\" of their position."
+        },
+        {
+          "system": "GF",
+          "text": "When this unit is activated, you may move all models with this rule in it by up to D3\"."
         }
       ]
     },
@@ -1307,6 +1427,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When units where all models have this rule are shot or charged from over 9\" away, enemy units get -1 to hit rolls."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, enemy units shooting/charging them from over 9\"/6\" away get -1 to hit rolls ."
         }
       ]
     },
@@ -1321,6 +1445,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model and up to 3 friendly units picked before the start of the game get Screened. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Screened."
         }
       ]
     },
@@ -1349,6 +1477,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
         }
       ]
     },
@@ -1419,6 +1551,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model gets Shred when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets Shred on its weapons when shooting."
         }
       ]
     },
@@ -1457,6 +1593,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When this model shoots at enemies over 9\" away, it gets +1 to hit rolls."
+        },
+        {
+          "system": "GF",
+          "text": "When shooting at enemies over 9\" away, this model gets +1 to hit rolls."
         }
       ]
     },
@@ -1513,6 +1653,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model and up to 3 friendly units picked before the start of the game get Versatile Reach. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Versatile Reach."
         }
       ]
     },
@@ -1527,6 +1671,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When this unit is activated, pick one effect: until the end of the activation, when shooting or charging enemies over 9\" away, all models with this rule in this unit either get AP(+1) or get +1 to hit rolls."
+        },
+        {
+          "system": "GF",
+          "text": "When this unit is activated, pick one effect: until the end of the activation, when shooting/charging enemies over 9\"/6\" away, all models with this rule in it either get AP(+1) or get +1 to hit rolls."
         }
       ]
     },
@@ -1541,6 +1689,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within D3\" of their position."
+        },
+        {
+          "system": "GF",
+          "text": "When this unit is activated, you may move all models with this rule in it by up to D3\"."
         }
       ]
     },
@@ -1834,6 +1986,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "As long as a unit where all models have this rule hasn't moved during the round, enemy units shooting at it from over 9” away get -2 to hit rolls."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, as long as they haven't moved during this round, enemy units shooting at them from over 12” away get -1 to hit rolls."
         }
       ]
     },
@@ -2314,6 +2470,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignores Regeneration, and ignores all negative modifiers to this weapon."
+        },
+        {
+          "system": "GF",
+          "text": "This weapon ignores Regeneration, and ignores all negative modifiers which are not from this model's special rules."
         }
       ],
       "specialRule": [
@@ -2371,6 +2531,10 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "AOFR",
+          "text": "Moves +1\" when using Advance, and +2\" when using Rush/Charge."
+        },
+        {
+          "system": "GF",
           "text": "Moves +1\" when using Advance, and +2\" when using Rush/Charge."
         }
       ]
@@ -2517,6 +2681,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "After this model is deployed, it may be placed anywhere fully within 9\" of its position."
+        },
+        {
+          "system": "GF",
+          "text": "After this model is deployed, it may be placed anywhere fully within 9\" of its position, over 9\" away from non-Vanguard enemy units."
         }
       ]
     },
@@ -2535,6 +2703,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "After this model is deployed, it may be placed anywhere fully within 9\" of its position."
+        },
+        {
+          "system": "GF",
+          "text": "After this model is deployed, it may be placed anywhere fully within 9\" of its position, over 9\" away from non-Vanguard enemy units."
         }
       ]
     },
@@ -2758,6 +2930,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0)."
+        },
+        {
+          "system": "GF",
+          "text": "When units where most models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0)."
         }
       ]
     },
@@ -2811,6 +2987,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this model attacks, unmodified results of 6 to hit deal 1 extra hit(only the original hit counts as a 6 for special rules)."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets AP(+1) when attacking."
         }
       ]
     },
@@ -2918,6 +3098,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per game, during this model's activation, pick one enemy unit within 18\" and in line of sight of it, and place X markers on it. Friendly units get +X to hit rolls when attacking it."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, during this model's activation, before attacking, pick X enemy units within 18\" and in line of sight of it, and place one token on them. Friendly units get +1 to hit rolls when attacking them."
         }
       ]
     },
@@ -2999,6 +3183,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Enemy units using Ambush must be set up over 12\" away from this model's unit."
+        },
+        {
+          "system": "GF",
+          "text": "Enemy units using Ambush must be set up over 12\" away from this model's unit."
         }
       ]
     },
@@ -3053,6 +3241,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this model charges, its weapons get AP(+2) if most models in the target have Tough(3) or higher."
+        },
+        {
+          "system": "GF",
+          "text": "When charging, this model's weapons get AP(+2) if most models in the target have Tough(3) or higher."
         }
       ]
     },
@@ -3065,7 +3257,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Thrust</key> in melee."
         },
         {
@@ -3079,6 +3271,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Thrust in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Thrust on its weapons in melee."
         }
       ]
     },
@@ -3112,6 +3308,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Enemies get -1 to hit rolls in melee when attacking units where all models have this rule."
+        },
+        {
+          "system": "GF",
+          "text": "Enemies get -1 to hit rolls in melee when attacking units where most models have this rule."
         }
       ]
     },
@@ -3129,6 +3329,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Enemies get -4\" range to a min. of 6\" when trying to shoot at units where all models have this rule, and -2\" movement to a min. of 6\" when trying to charge units where all models have this rule."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule is targeted by an enemy unit for shooting/charging, that enemy unit gets -4\"/-2\" range to a min. of 6\"."
         }
       ]
     },
@@ -3171,7 +3375,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get +6” range when shooting."
         },
         {
@@ -3185,6 +3389,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get +6\" range when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get +6\" range on its weapons when shooting."
         }
       ]
     },
@@ -3212,6 +3420,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When it's this model's turn to attack in melee, roll X dice. For each 6+ the target takes one wound."
+        },
+        {
+          "system": "GF",
+          "text": "Once per round, when it’s this model’s turn to strike in melee, roll X dice before attacking, unless this unit is Fatigued. For each 6+ the target takes one wound."
         }
       ]
     },
@@ -3292,7 +3504,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Unpredictable Fighter</key> against once (next time the effect would apply)."
         },
         {
@@ -3302,6 +3514,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Unpredictable Fighter against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
         }
       ]
     },
@@ -3371,6 +3587,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "<key>Ignores Cover</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
+        },
+        {
+          "system": "GF",
+          "text": "When attacking units where most models have Defense 5+ to Defense 6+, the target must re-roll successful unmodified Defense results of 5-6."
         }
       ]
     },
@@ -3423,6 +3643,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model gets +X to defense rolls."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets +X to Defense rolls."
         }
       ]
     },
@@ -3473,6 +3697,10 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "AOFR",
+          "text": "This model moves +6\" when using Rush actions."
+        },
+        {
+          "system": "GF",
           "text": "This model moves +6\" when using Rush actions."
         }
       ]
@@ -3600,6 +3828,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Enemies get -1 to hit rolls when attacking units where all models have this rule."
+        },
+        {
+          "system": "GF",
+          "text": "Enemies get -1 to hit rolls when attacking units where most models have this rule."
         }
       ]
     },
@@ -3644,6 +3876,10 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "AOFR",
+          "text": "Once per activation, before attacking, you may place this model anywhere fully within 3\" of its position when using Advance/Charge actions, or fully within 6\" of its position when using Rush actions."
+        },
+        {
+          "system": "GF",
           "text": "Once per activation, before attacking, you may place this model anywhere fully within 3\" of its position when using Advance/Charge actions, or fully within 6\" of its position when using Rush actions."
         }
       ]
@@ -3709,6 +3945,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per round, units where all models have this rule may move by up to 3\" after shooting."
+        },
+        {
+          "system": "GF",
+          "text": "Once per round, this model may move by up to 3\" after shooting."
         }
       ]
     },
@@ -3864,7 +4104,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
         },
         {
@@ -3874,6 +4114,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Quick Shot against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Quick Shot against once (next time the effect would apply)."
         }
       ]
     },
@@ -3948,6 +4192,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per game, when this model is activated, you may place a new unit of X fully within 6\" of it."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, when this model is activated, you may place a new unit of X fully within 6\" of it. Units placed via Spawn can’t seize or contest objectives on the round they are placed."
         }
       ]
     },
@@ -3961,6 +4209,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "On unmodified results of 6 to hit that aren't blocked, this weapon deals 1 extra wound."
+        },
+        {
+          "system": "GF",
+          "text": "Ignores all positive Defense modifiers on the target, and when attacking units over half of this weapon's range away, this weapon gets AP(+1)."
         }
       ]
     },
@@ -3999,7 +4251,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which moves -2” when using Advance actions and -4” when using Rush/Charge actions once (next time the effect would apply)."
         },
         {
@@ -4009,6 +4261,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy model within 18\" in line of sight, which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once (next time the effect would apply)."
         }
       ]
     },
@@ -4056,6 +4312,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per round, units where all models have this rule may move by up to 3\" after shooting or being in melee."
+        },
+        {
+          "system": "GF",
+          "text": "Once per round, this model may move by up to 3\" after shooting or being in melee."
         }
       ]
     },
@@ -4080,6 +4340,10 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "AOFR",
+          "text": "Moves +2\" when using Advance, and +2\" when using Rush/Charge."
+        },
+        {
+          "system": "GF",
           "text": "Moves +2\" when using Advance, and +2\" when using Rush/Charge."
         }
       ]
@@ -4134,6 +4398,10 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "AOFR",
+          "text": "This model moves +4\" when using Advance actions."
+        },
+        {
+          "system": "GF",
           "text": "This model moves +4\" when using Advance actions."
         }
       ]
@@ -4238,6 +4506,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per game, when it's this model's turn to attack in melee, it may make one attack at Quality 2+ with AP(2), Deadly(3), and Takedown."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, when it's this model's turn to strike in melee, it may make X attacks at Quality 2+ with AP(2), Deadly(3), and Takedown."
         }
       ]
     },
@@ -4324,6 +4596,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Units where all models have this rule get +1 to defense rolls against hits that are not from spells."
+        },
+        {
+          "system": "GF",
+          "text": "Units where most models have this rule get +1 to Defense rolls against hits that are not from spells."
         }
       ]
     },
@@ -4421,7 +4697,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Unstoppable</key> in melee."
         },
         {
@@ -4435,6 +4711,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Unstoppable in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Unstoppable on its weapons in melee."
         }
       ]
     },
@@ -4484,6 +4764,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When a unit where all models have this rule is Shaken or fully destroyed, you may remove it from the table as destroyed and place a new copy of it fully within 12\" of any table edge at the beginning of the next round after Ambushers have been deployed. Units that deploy via Reinforcement can't seize or contest objectives on the round they deploy, and this rule doesn't apply to the new copy of the unit."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where all models have this rule is Shaken, you may remove it from the table as destroyed. At the beginning of the next round after a unit where all models have this rule is destroyed, after Ambushers have been deployed, you may place a new copy of it fully within 9\" of any table edge, over 9\" away from enemy units. Units that deploy via Reinforcement can’t seize or contest objectives on the round they deploy, and this rule doesn’t apply to the new copy of the unit."
         }
       ]
     },
@@ -4507,6 +4791,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per round, units where all models have this rule may move by up to 3\" after being in melee."
+        },
+        {
+          "system": "GF",
+          "text": "Once per round, this model may move by up to 3\" after being in melee."
         }
       ]
     },
@@ -4518,7 +4806,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit moves +2” when using Advance actions and +4” when using Rush/Charge actions."
         },
         {
@@ -4531,6 +4819,10 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "AOFR",
+          "text": "This model and its unit moves +2\" when using Advance actions and +4\" when using Rush/Charge actions."
+        },
+        {
+          "system": "GF",
           "text": "This model and its unit moves +2\" when using Advance actions and +4\" when using Rush/Charge actions."
         }
       ]
@@ -4600,7 +4892,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Counts as having <key>Ambush</key>, but may be deployed up to 1” away from enemy units."
         },
         {
@@ -4614,6 +4906,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model counts as having Ambush, and may be deployed fully within 12\" of any table edge, over 9\" away from enemy units."
+        },
+        {
+          "system": "GF",
+          "text": "Counts as having Ambush, but may be deployed anywhere over 3\" away from enemy unit."
         }
       ]
     },
@@ -4793,7 +5089,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which must take a morale test. If failed you may move it by up to 6” in a straight line in any direction."
         },
         {
@@ -4807,6 +5103,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Units may only be moved once per round in this way."
         }
       ]
     },
@@ -4822,7 +5122,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to morale test rolls once (next time the effect would apply)."
         },
         {
@@ -4836,6 +5136,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which gets -1 to morale test rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which gets -1 to Morale Test rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -4849,7 +5153,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Shred</key> in melee."
         },
         {
@@ -4863,6 +5167,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Shred in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Shred on its weapons in melee."
         }
       ]
     },
@@ -4897,6 +5205,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one friendly model within 12\" with Caster, which gets +1 to casting rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly model within 12\" with Caster, which gets +1 to casting rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -4933,7 +5245,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "When a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored."
         },
         {
@@ -4947,6 +5259,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule fails a Morale Test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored."
         }
       ]
     },
@@ -5071,6 +5387,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one friendly model within 3\" with Tough, and remove D3 wounds from it."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly model within 3\" with Tough, and remove D3 wounds from it."
         }
       ]
     },
@@ -5083,7 +5403,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Rending</key> when shooting."
         },
         {
@@ -5097,6 +5417,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Rending when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Rending on its weapons when shooting."
         }
       ]
     },
@@ -5160,6 +5484,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get +4\" range when shooting, or move +2\" when charging."
+        },
+        {
+          "system": "GF",
+          "text": "When this unit is activated, pick one effect: until the end of the activation, all models with this rule in this unit either get +4\" range when shooting or move +2\" when charging."
         }
       ]
     },
@@ -5257,6 +5585,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Once per game, once during its activation when this model moves through enemy units, pick one of them, and roll X dice. For each 4+ it takes 3 hits with <key>AP</key>(1)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, when this model moves through enemy units, pick one of them and attack it with this weapon as if it was shooting. This weapon may only be used in this way."
         }
       ]
     },
@@ -5278,6 +5610,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per game, when this unit takes wounds and all its models have this rule, you may use this rule and roll one die per wound, and on a 5+ it is ignored."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, when this unit takes wounds and most of its models have this rule, you may use this rule and roll one die per wound, and on a 5+ it is ignored."
         }
       ]
     },
@@ -5339,7 +5675,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit moves +4” when using Charge actions."
         },
         {
@@ -5352,6 +5688,10 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "AOFR",
+          "text": "This model and its unit moves +4\" when using Charge actions."
+        },
+        {
+          "system": "GF",
           "text": "This model and its unit moves +4\" when using Charge actions."
         }
       ]
@@ -5367,7 +5707,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Rending</key> in melee."
         },
         {
@@ -5381,6 +5721,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Rending in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Rending on its weapons in melee."
         }
       ]
     },
@@ -5408,6 +5752,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within D3+1\" of their position."
+        },
+        {
+          "system": "GF",
+          "text": "When this unit is activated, you may move all models with this rule in it by up to D3+1\"."
         }
       ]
     },
@@ -5429,6 +5777,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ignores Regeneration, and against units where most models have Defense 2+ to Defense 3+, this weapon gets AP(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "Ignores Regeneration, and when attacking units where most models have Tough(3) or higher, this weapon gets AP(+2)."
         }
       ]
     },
@@ -5446,6 +5798,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Shred when attacking against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Shred on their weapons when attacking against once (next time the effect would apply)."
         }
       ]
     },
@@ -5553,6 +5909,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+        },
+        {
+          "system": "GF",
+          "text": "If a unit where most models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
         }
       ]
     },
@@ -5691,6 +6051,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+        },
+        {
+          "system": "GF",
+          "text": "When this model shoots/charges enemies over 9\"/6\" away, unmodified results of 1 to block hits from weapons deal 1 extra wound."
         }
       ]
     },
@@ -5717,7 +6081,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>AP</key>(+1) when shooting."
         },
         {
@@ -5731,6 +6095,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get AP(+1) when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get AP(+1) on its weapons when shooting."
         }
       ]
     },
@@ -5783,6 +6151,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model moves +4\" when using Charge actions."
+        },
+        {
+          "system": "GF",
+          "text": "This model moves +4\" when using Charge actions."
         }
       ]
     },
@@ -5823,7 +6195,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>AP</key>(+1) in melee."
         },
         {
@@ -5837,6 +6209,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get AP(+1) in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get AP(+1) on its weapons in melee."
         }
       ]
     },
@@ -5855,6 +6231,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which must take a morale test. If failed, it becomes fatigued."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which must take a Morale Test. If failed, it becomes Fatigued."
         }
       ]
     },
@@ -5950,6 +6330,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
         }
       ]
     },
@@ -6043,7 +6427,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls when attacking once (next time the effect would apply)."
         },
         {
@@ -6057,6 +6441,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit rolls when attacking once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit rolls when attacking once (next time the effect would apply)."
         }
       ]
     },
@@ -6079,6 +6467,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "If all models in this unit have this rule, place one marker on it at the beginning of each round if it's on the table and isn't Shaken, up to a max. of four markers. For every two markers, enemies attacking this unit get AP(-1) to a min. of AP(0)."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule,  place one token on it at the beginning of each round if it's on the table and isn't Shaken, up to a max. of four tokens. For every two tokens, enemies attacking this unit get AP(-1) to a min. of AP(0)."
         }
       ]
     },
@@ -6168,6 +6560,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model gets Rending in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets Rending on its weapons in melee."
         }
       ]
     },
@@ -6187,6 +6583,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which counts as being in Difficult Terrain once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which counts as being in Difficult terrain once (next time the effect would apply)."
         }
       ]
     },
@@ -6204,6 +6604,10 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "AOFR",
+          "text": "When this model takes wounds in melee, the attacker takes X hits per wound taken."
+        },
+        {
+          "system": "GF",
           "text": "When this model takes wounds in melee, the attacker takes X hits per wound taken."
         }
       ],
@@ -6296,6 +6700,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model gets +4\" range when shooting and moves +2\" when using Charge actions."
+        },
+        {
+          "system": "GF",
+          "text": "Moves +1\" when using Advance, and +2\" when using Rush/Charge."
         }
       ],
       "specialRule": [
@@ -6309,7 +6717,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+2)."
         },
         {
@@ -6323,6 +6731,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Against units where most models have Tough(3) or higher, this weapon gets AP(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "For each unmodified result of 6 to hit, those hits get AP(+3)."
         }
       ],
       "specialRule": [
@@ -6335,7 +6747,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Unstoppable</key> when shooting."
         },
         {
@@ -6349,6 +6761,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Unstoppable when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Unstoppable on its weapons when shooting."
         }
       ],
       "specialRule": [
@@ -6397,6 +6813,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Gets AP(4), but this model's unit takes one wound on unmodified rolls of 1 to hit."
+        },
+        {
+          "system": "GF",
+          "text": "Gets AP(4), but on unmodified results of 1 to hit this model takes one wound, or X wounds if this weapon has the Blast(X)/Deadly(X) rule."
         }
       ],
       "specialRule": [
@@ -6438,6 +6858,10 @@ export const commonRules: RulesByLanguage = {
         },
         {
           "system": "AOFR",
+          "text": "Casters within 12\" that are from other friendly units may cast spells as if they were in this model's position, and get +1 to casting rolls when doing so. Friendly casters may only use this rule if this unit isn't Shaken."
+        },
+        {
+          "system": "GF",
           "text": "Casters within 12\" that are from other friendly units may cast spells as if they were in this model's position, and get +1 to casting rolls when doing so. Friendly casters may only use this rule if this unit isn't Shaken."
         }
       ],
@@ -6515,6 +6939,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Moves +2\" when using Advance, and +2\" when using Rush/Charge."
+        },
+        {
+          "system": "GF",
+          "text": "Moves +1\" when using Advance, and +2\" when using Rush/Charge."
         }
       ],
       "specialRule": [
@@ -6526,7 +6954,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to defense rolls once (next time the effect would apply)."
         },
         {
@@ -6540,6 +6968,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which gets -1 to defense rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which gets -1 to Defense rolls once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -6551,7 +6983,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Bane</key> when shooting."
         },
         {
@@ -6565,6 +6997,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Bane when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Bane on its weapons when shooting."
         }
       ],
       "specialRule": [
@@ -6577,7 +7013,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Bane</key> in melee."
         },
         {
@@ -6591,6 +7027,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Bane in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Bane on its weapons in melee."
         }
       ],
       "specialRule": [
@@ -6630,7 +7070,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls in melee once (next time the effect would apply)."
         },
         {
@@ -6640,6 +7080,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit rolls in melee once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit rolls in melee once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -6707,6 +7151,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "On unmodified results of 6 to hit, those hits get AP(+4)."
+        },
+        {
+          "system": "GF",
+          "text": "When attacking units with more than half of their total size or Tough value (for single-model units), those hits get AP(+1)."
         }
       ],
       "specialRule": [
@@ -6728,6 +7176,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Gets X accumulator tokens at the start of each round, but can't hold more than 6 tokens at once. Casters from other friendly units within 12\" may spend this model's accumulator tokens as if they were their own spell tokens. Friendly casters may only use this rule if this unit isn't Shaken."
+        },
+        {
+          "system": "GF",
+          "text": "Gets X accumulator tokens at the start of each round, but can’t hold more than 6 tokens at once. Casters from other friendly units within 12\" may spend this model's accumulator tokens as if they were their own spell tokens. Friendly casters may only use this rule if this unit isn't Shaken."
         }
       ],
       "specialRule": [
@@ -6815,6 +7267,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Furious against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Furious against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -6853,6 +7309,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Regeneration once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Regeneration once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -6919,6 +7379,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit(only the original hit counts as a 6 for special rules)."
+        },
+        {
+          "system": "GF",
+          "text": "When this model shoots/charges enemies over 9\"/6\" away, unmodified result of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
         }
       ],
       "specialRule": [
@@ -7055,6 +7519,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Enemies get -3\" movement to a min. of 6\" when trying to charge units where all models have this rule."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule is targeted by an enemy unit for charging, that enemy unit gets -2\" range to a min. of 6\"."
         }
       ],
       "specialRule": [
@@ -7100,6 +7568,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per game, when this unit moves and all its models have this rule, you may use this rule so that they move +2\" when using Advance actions and +4\" when using Rush/Charge actions."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, when this unit moves, you may use this rule so that all models with this rule in it move +2\" when using Advance actions and +4\" when using Rush/Charge actions."
         }
       ],
       "specialRule": [
@@ -7121,6 +7593,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, pick one enemy unit within 30\" and in line of sight of this model and roll one die, on a 4+ place a marker on it. When attacking, friendly units may remove markers from their target before rolling to block to get +AP(X) on their weapons, where X is the number of removed markers."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 30\" and in line of sight of this model and roll one die, on a 4+ place a token on it. When attacking, friendly units may remove tokens from their target before rolling to block to get +AP(X) on their weapons, where X is the number of removed tokens."
         }
       ],
       "specialRule": [
@@ -7211,7 +7687,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Indirect</key> when shooting."
         },
         {
@@ -7225,6 +7701,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Indirect when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Indirect on its weapons when shooting."
         }
       ],
       "specialRule": [
@@ -7238,7 +7718,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Counts as having <key>Infiltrate</key>. The first time this unit is activated after being deployed via this rule, roll X dice, for each 4+ one enemy unit within 6” and line of sight takes 2 hits with <key>AP</key>(1)."
         },
         {
@@ -7252,6 +7732,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units(instead of over 9\" away). Once deployed, roll X dice. For each 2+ one enemy unit within 3\" takes 2 hits with AP(1)."
+        },
+        {
+          "system": "GF",
+          "text": "Counts as having Infiltrate. The first time this unit is activated, pick one enemy unit within 6\" in line of sight, and roll X dice. For each 2+ it takes one hit with AP(1)."
         }
       ],
       "specialRule": [
@@ -7320,7 +7804,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which gets -1 to hit rolls when attacking once (next time the effect would apply)."
         },
         {
@@ -7334,6 +7818,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which gets -1 to hit rolls when attacking once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which gets -1 to hit rolls when attacking once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -7360,7 +7848,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Slayer</key> against once (next time the effect would apply)."
         },
         {
@@ -7374,6 +7862,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Slayer against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Slayer against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -7437,6 +7929,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this model shoots at enemies over 9\" away, or when it charges, its weapons get AP(+2) if most models in the target have Tough(3) or higher."
+        },
+        {
+          "system": "GF",
+          "text": "When using Hold actions and shooting, or when charging, this model's weapons get AP(+2) if most models in the target have Tough(3) or higher."
         }
       ],
       "specialRule": [
@@ -7522,6 +8018,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "At the end of this unit's activation, another friendly unit within 12\" that hasn't activated yet may be activated immediately. May not be used if this unit was activated via Coordinate."
+        },
+        {
+          "system": "GF",
+          "text": "At the end of this unit's activation, another friendly unit within 12\" that hasn't activated yet may be activated immediately. May not be used if this unit was activated via Coordinate."
         }
       ],
       "specialRule": [
@@ -7533,7 +8033,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "If this unit is within 24” of another friendly unit with this rule that has a <key>Hero</key> in it, then that <key>Hero</key> may use special rules that allow it to pick friendly units within 12” (except for spells) on this unit as if it was in range."
         },
         {
@@ -7547,6 +8047,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "If this unit is within 24\" of another friendly unit with this rule that has a Hero in it, then that Hero may use special rules that allow it to pick friendly units within 12\"(except for spells) on this unit as if it was in range."
+        },
+        {
+          "system": "GF",
+          "text": "If this unit is within 24\" of another friendly unit with this rule that has a Hero in it, then that Hero may use special rules that allow it to pick friendly units within 12\" (except for spells) on this unit as if it was in range."
         }
       ],
       "specialRule": [
@@ -7558,7 +8062,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Units where all models have this rule get +1 to morale test rolls."
         },
         {
@@ -7572,6 +8076,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Units where all models have this rule get +1 to morale test rolls triggered by shooting/melee."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, they get +1 to Morale Test rolls when shot/charged from over 9\"/6\" away."
         }
       ],
       "specialRule": [
@@ -7583,7 +8091,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Rapid Rush</key> once (next time the effect would apply)."
         },
         {
@@ -7593,6 +8101,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Rapid Rush once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Rapid Rush once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -7606,6 +8118,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "<key>Ignores Cover</key>, and on unmodified results of 6 to hit, those hits get <key>AP</key>(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "For each unmodified result of 6 to hit, those hits get AP(+2)."
         }
       ],
       "specialRule": [
@@ -7617,7 +8133,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
         },
         {
@@ -7627,6 +8143,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units get +1 to hit rolls in melee against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -7638,7 +8158,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +1 to hit rolls when shooting once (next time the effect would apply)."
         },
         {
@@ -7652,6 +8172,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit rolls when shooting once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit rolls when shooting once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -7684,7 +8208,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Furious</key> once (next time the effect would apply)."
         },
         {
@@ -7694,6 +8218,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Furious once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Furious once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -7783,6 +8311,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per game, during this model's activation, pick one enemy unit within 24\" and in line of sight of it, and place X markers on it. When attacking, friendly units may remove markers from their target before rolling to block to get +AP(Y) on their weapons, where Y is the number of removed markers."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, during this model's activation, before attacking, place X tokens on one enemy unit within 24\" and in line of sight, or one token on X enemy units within 24\" and in line of sight. When attacking, friendly units may remove one token from their target before rolling to block to get AP(+1) on their weapons."
         }
       ],
       "specialRule": [
@@ -7804,6 +8336,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Moves +2\" when using Advance, and +2\" when using Rush/Charge."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets +4\"/+2\" range when shooting/charging."
         }
       ],
       "specialRule": [
@@ -7860,7 +8396,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
         },
         {
@@ -7870,6 +8406,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units get +1 to hit rolls when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units get +1 to hit rolls when shooting against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -8013,7 +8553,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "This model and its unit get <key>Shred</key> when shooting."
         },
         {
@@ -8027,6 +8567,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model and its unit get Shred when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Shred on its weapons when shooting."
         }
       ],
       "specialRule": [
@@ -8110,6 +8654,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model gets Shred in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets Shred on its weapons in melee."
         }
       ],
       "specialRule": [
@@ -8163,6 +8711,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When a unit where all models have this rule is deployed or activated, pick one effect: when shot or charged from over 9\" away, the unit either gets +1 to defense rolls, or enemy units get -1 to hit rolls against it. This effect lasts until the units' next activation."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule is shot/charged from over 9\"/6\" away, pick one effect: the unit either gets +1 to Defense rolls, or enemy units get -1 to hit rolls against it. Note that you may pick a different effect each time the unit is attacked."
         }
       ],
       "specialRule": [
@@ -8189,6 +8741,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Enemies get -6\" range to a min. of 6\" when trying to shoot units where all models have this rule."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule is targeted by an enemy unit for shooting, that enemy unit gets -4\" range to a min. of 6\"."
         }
       ],
       "specialRule": [
@@ -8269,6 +8825,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When units where all models have this rule are shot or charged from over 9\" away, enemy units get -1 to hit rolls."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, enemy units shooting/charging them from over 9\"/6\" away get -1 to hit rolls ."
         }
       ],
       "specialRule": [
@@ -8354,6 +8914,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model gets Bane when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets Bane on its weapons when shooting."
         }
       ],
       "specialRule": [
@@ -8390,6 +8954,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model gets Unstoppable in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets Unstoppable on its weapons in melee."
         }
       ],
       "specialRule": [
@@ -8412,6 +8980,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this unit is fully destroyed, you may place a new unit of X fully within 6\" of it before removing the last model."
+        },
+        {
+          "system": "GF",
+          "text": "When this unit is fully destroyed, you may place a new unit of X fully within 6\" of it before removing the last model. Units placed via Split can’t seize or contest objectives on the round they are placed."
         }
       ],
       "specialRule": [
@@ -8486,6 +9058,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this model shoots at enemies over 9\" away, or when it charges, its weapons get AP(+1)."
+        },
+        {
+          "system": "GF",
+          "text": "When this model shoots/charges enemies over 9\"/6\" away, its weapons get AP(+1)."
         }
       ],
       "specialRule": [
@@ -8498,7 +9074,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick up to 4 enemy units within 18” in line of sight, which counts as being in <key>Dangerous Terrain</key> once (next time the effect would apply)."
         },
         {
@@ -8512,6 +9088,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which counts as being in Dangerous Terrain once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which counts as being in Dangerous terrain once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -8570,7 +9150,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18”, which friendly units gets <key>Relentless</key> against once (next time the effect would apply)."
         },
         {
@@ -8580,6 +9160,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Relentless against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Relentless against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -8593,6 +9177,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignores Regeneration, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 4+, this weapon gets <key>AP</key>(+1)."
+        },
+        {
+          "system": "GF",
+          "text": "When attacking units that are Shaken or Fatigued, this weapon gets AP(+2)."
         }
       ],
       "specialRule": [
@@ -8677,6 +9265,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this unit is fully destroyed, place as many Vengeance markers on the unit that destroyed it as models with this rule in this unit at the beginning of the game. Friendly units get +X to hit rolls when attacking that unit, where X is the number of markers on it."
+        },
+        {
+          "system": "GF",
+          "text": "When this unit is fully destroyed, place as many Vengeance tokens on the unit that destroyed it as models with this rule in this unit at the beginning of the game. Friendly units get +X to hit rolls when attacking that unit, where X is the number of tokens on it."
         }
       ],
       "specialRule": [
@@ -8864,6 +9456,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, when this model moves through enemy units, pick one of them and roll X dice. For each 6+ the target takes one wound."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, when this model moves through enemy units, pick one of them and roll X dice. For each 6+ the target takes one wound."
         }
       ],
       "specialRule": [
@@ -8915,6 +9511,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "When attacking units that are Shaken or Fatigued, the target must re-roll successful unmodified Defense results of 5-6."
         }
       ],
       "specialRule": [
@@ -8936,6 +9536,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Bane when attacking against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Bane on their weapons when attacking against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -8974,6 +9578,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per game, during this model's activation, pick one enemy unit within 18\" and in line of sight of it, and place X markers on it. Friendly units get +AP(X) on their weapons when attacking it."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, during this model's activation, before attacking, pick X enemy units within 18\" and in line of sight of it, and place one token on them. Friendly units get AP(+1) on their weapons when attacking them."
         }
       ],
       "specialRule": [
@@ -9029,6 +9637,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignores Regeneration, and against units where most models have <key>Defense</key> 5+ to <key>Defense</key> 6+, this weapon gets <key>Blast</key>(+3)."
+        },
+        {
+          "system": "GF",
+          "text": "When attacking units over half of this weapon's range away, the target must re-roll unmodified Defense results of 6."
         }
       ],
       "specialRule": [
@@ -9046,6 +9658,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Unstoppable against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Unstoppable on their weapons against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -9084,6 +9700,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When units where all models have this rule are shot or charged from over 9\" away, they get +1 to defense rolls."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, they get +1 to Defense rolls when shot/charged from over 9\"/6\" away."
         }
       ],
       "specialRule": [
@@ -9219,6 +9839,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored."
         }
       ],
       "specialRule": [
@@ -9258,6 +9882,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "<key>Ignores Cover</key>, and against units where most models have <key>Defense</key> 2+ to <key>Defense</key> 3+, this weapon gets <key>AP</key>(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "When attacking units with more than half of their total size or Tough value (for single-model units), the target must re-roll unmodified Defense results of 6."
         }
       ],
       "specialRule": [
@@ -9300,6 +9928,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units get +6\" range when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units get +6\" range on their weapons when shooting against once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -9321,6 +9953,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, pick one enemy unit within 30\" and in line of sight of this model and roll one die, on a 4+ place a marker on it. Friendly units may remove markers from their target before rolling to hit to get +X to hit rolls when attacking, where X is the number of removed markers."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 30\" and in line of sight of this model and roll one die, on a 4+ place a token on it. Friendly units may remove tokens from their target before rolling to hit to get +X to hit rolls when attacking, where X is the number of removed tokens."
         }
       ],
       "specialRule": [
@@ -9342,6 +9978,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this model shoots at enemies over 9\" away, its weapons get AP(+2) if most models in the target have Tough(3) or higher."
+        },
+        {
+          "system": "GF",
+          "text": "When using Hold actions and shooting, this model's weapons get AP(+2) if most models in the target have Tough(3) or higher."
         }
       ],
       "specialRule": [
@@ -9398,6 +10038,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When units where all models have this rule are shot or charged from over 9\" away, they get +1 to defense rolls."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, they get +1 to Defense rolls when shot/charged from over 9\"/6\" away."
         }
       ],
       "specialRule": [
@@ -9419,6 +10063,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Stealth once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Stealth once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -9474,6 +10122,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per game, when a unit where all models have this rule ends its activation, you may immediately remove it from the table(dropping any objectives it might hold within 1\"), and deploy it as if it had Ambush at the beginning of the next round."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, when a unit where all models have this rule ends its activation, you may immediately remove it from the table (dropping any objectives it might hold within 1\"), and deploy it as if it had Ambush at the beginning of the next round."
         }
       ],
       "specialRule": [
@@ -9512,6 +10164,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per round, units where all models have this rule may move by up to 3\" after shooting or being in melee."
+        },
+        {
+          "system": "GF",
+          "text": "Once per round, this model may move by up to 3\" after shooting or being in melee."
         }
       ],
       "specialRule": [
@@ -9546,6 +10202,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Place one marker on this model when it ignores a wound. When in melee, pick one of its weapons to get +X attacks, where X is the number of markers on it."
+        },
+        {
+          "system": "GF",
+          "text": "Place one token on this model when it ignores a wound. Once per round, when it’s this model’s turn to strike in melee, roll as many dice as tokens on it before attacking, unless this unit is Fatigued. For each 4+ the target takes one wound."
         }
       ],
       "specialRule": [
@@ -9601,6 +10261,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When attacking the target must re-roll unmodified Defense results of 6."
+        },
+        {
+          "system": "GF",
+          "text": "When attacking, the target must re-roll unmodified Defense results of 6."
         }
       ],
       "specialRule": [
@@ -9681,6 +10345,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Place one marker on this unit at the beginning of each round if it's on the table and isn't Shaken, up to a max. of four markers. For every two markers, models with this rule in this unit get +1 to hit rolls."
+        },
+        {
+          "system": "GF",
+          "text": "Place one token on this unit at the beginning of each round if it's on the table and isn't Shaken, up to a max. of four tokens. For every two tokens, models with this rule in this unit get +1 to hit rolls."
         }
       ],
       "specialRule": [
@@ -9728,6 +10396,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "This model gets Counter in melee."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets Counter on its weapons in melee."
         }
       ],
       "specialRule": [
@@ -9741,6 +10413,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignores Regeneration, and against units where most models have <key>Tough</key>(3) to <key>Tough</key>(9), this weapon gets <key>AP</key>(+4)."
+        },
+        {
+          "system": "GF",
+          "text": "Ignores Regeneration, and when attacking units where most models have Defense 2+ to Defense 3+, this weapon gets AP(+2)."
         }
       ],
       "specialRule": [
@@ -9889,6 +10565,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per game, during this model's activation, pick one enemy unit within 24\" and in line of sight of it, and place X markers on it. When attacking, friendly units may remove markers from their target before rolling to hit to get +Y to hit rolls, where Y is the number of removed markers."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, during this model's activation, before attacking, place X tokens on one enemy unit within 24\" and in line of sight, or one token on X enemy units within 24\" and in line of sight. When attacking, friendly units may remove one token from their target before rolling to hit to get +1 to hit rolls."
         }
       ],
       "specialRule": [
@@ -10008,6 +10688,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which gets Unwieldy in melee once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which gets Unwieldy on its weapons in melee once (next time the effect would apply)."
         }
       ],
       "specialRule": [
@@ -10102,6 +10786,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "This model gets +6” range when shooting."
+        },
+        {
+          "system": "GF",
+          "text": "This model gets +6\" range on its weapons when shooting."
         }
       ]
     },
@@ -10112,6 +10800,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Guarded</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Guarded once (next time the effect would apply)."
         }
       ]
     },
@@ -10136,6 +10828,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets <key>Swift</key> once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Swift once (next time the effect would apply)."
         }
       ]
     },
@@ -10156,6 +10852,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which gets +6” range when shooting once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets +6\" range on its weapons when shooting once (next time the effect would apply)."
         }
       ]
     },
@@ -10166,6 +10866,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Once per activation, before attacking, pick one friendly unit within 12”, which moves +2” when using Advance actions and +4” when using Rush/Charge actions once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
         }
       ]
     },
@@ -10176,6 +10880,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
+        },
+        {
+          "system": "GF",
+          "text": "If a unit where most models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken."
         }
       ]
     },
@@ -10278,6 +10986,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model and up to 3 friendly units picked before the start of the game get Dash. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Dash."
         }
       ]
     },
@@ -10296,6 +11008,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "If all models in this unit have this rule, place one marker on this unit when it fully destroys an enemy unit, up to a max. of two markers. For each marker this unit gets +1 to Defense rolls until the end of the game."
+        },
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, place one token on this unit when it fully destroys an enemy unit, up to a max. of two tokens. For each token this unit gets +1 to Defense rolls until the end of the game."
         }
       ]
     },
@@ -10332,6 +11048,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Place one marker on this unit when it fully destroys an enemy unit, up to a max. of two markers. For each marker all models with this rule in this unit get +1 to hit rolls until the end of the game."
+        },
+        {
+          "system": "GF",
+          "text": "Place one token on this unit when it fully destroys an enemy unit, up to a max. of two tokens. For each token all models with this rule in this unit get +1 to hit rolls until the end of the game."
         }
       ]
     },
@@ -10378,6 +11098,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "This model and up to 3 friendly units picked before the start of the game get Predator Shooter. If this model is killed, picked models that are deployed lose the rule."
+        },
+        {
+          "system": "GF",
+          "text": "This model and its unit get Predator Shooter."
         }
       ]
     },
@@ -10392,6 +11116,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "When units where all models have this rule are shot or charged from over 9\" away and take hits, those hits count as having AP(-1), to a min. of AP(0)."
+        },
+        {
+          "system": "GF",
+          "text": "When units where most models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0)."
         }
       ]
     },
@@ -10442,6 +11170,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Once per game, when this model shoots, it may make one extra attack against the target at Quality 2+ with AP(2), Deadly(3), and Takedown."
+        },
+        {
+          "system": "GF",
+          "text": "Once per game, when this model shoots, it may make X extra attacks against the target at Quality 2+ with AP(2), Deadly(3), and Takedown."
         }
       ]
     },
@@ -10450,12 +11182,16 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets <key>AP</key>(+1) when shooting against once (next time the effect would apply)."
         },
         {
           "system": "AOFS",
           "text": "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which friendly units gets AP(+1) when shooting against once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets AP(+1) on their weapons when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -10466,6 +11202,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which loses <key>AP</key>(+1) when attacking once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which loses AP(1) on its weapons when attacking once (next time the effect would apply)."
         }
       ]
     },
@@ -10480,6 +11220,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Rending against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Rending on their weapons against once (next time the effect would apply)."
         }
       ]
     },
@@ -10570,7 +11314,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "Enemies get -4\" range to a min. of 6\" when trying to shoot at units where all models have this rule, and -2\" movement to a min. of 6\" when trying to charge units where all models have this rule."
         },
         {
@@ -10580,6 +11324,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Enemies get -4\" range to a min. of 6\" when trying to shoot at units where all models have this rule, and -2\" movement to a min. of 6\" when trying to charge units where all models have this rule."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule is targeted by an enemy unit for shooting/charging, that enemy unit gets -4\"/-2\" range to a min. of 6\"."
         }
       ]
     },
@@ -10588,7 +11336,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 4+ instead."
         },
         {
@@ -10598,6 +11346,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 4+ instead."
+        },
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule takes wounds, roll one die for each. If the wound was from a spell, then it is ignored on a 2+. If the wound was not from a spell, and the unit was shot/charged from over 9\"/6\" away, then it is ignored on a 6+ instead."
         }
       ]
     },
@@ -10606,7 +11358,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within D3\" of their position."
         },
         {
@@ -10616,6 +11368,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this unit is activated, you may place all models with this rule in it anywhere fully within D3\" of their position."
+        },
+        {
+          "system": "GF",
+          "text": "When this unit is activated, you may move all models with this rule in it by up to D3\"."
         }
       ]
     },
@@ -10624,7 +11380,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
         },
         {
@@ -10634,6 +11390,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When attacking, unmodified results of 6 to hit deal 1 extra hit(only the original hit counts as a 6 for special rules)."
+        },
+        {
+          "system": "GF",
+          "text": "When this model shoots/charges enemies over 9\"/6\" away, unmodified result of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules)."
         }
       ]
     },
@@ -10678,7 +11438,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "When this model shoots at enemies over 9\" away, or when it charges, its weapons get AP (+1)."
         },
         {
@@ -10688,6 +11448,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "When this model shoots at enemies over 9\" away, or when it charges, its weapons get AP(+1)."
+        },
+        {
+          "system": "GF",
+          "text": "When this model shoots/charges enemies over 9\"/6\" away, its weapons get AP(+1)."
         }
       ]
     },
@@ -10714,7 +11478,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll."
         },
         {
@@ -10724,6 +11488,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll."
+        },
+        {
+          "system": "GF",
+          "text": "When this model shoots/charges enemies over 9\"/6\" away, unmodified results of 1 to block hits from weapons deal 1 extra wound."
         }
       ]
     },
@@ -10928,6 +11696,1186 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFS",
           "text": "This model and up to 3 friendly units picked before the start of the game get Exotic Gear Boost. If this model is killed, picked models that are deployed lose the rule."
+        }
+      ]
+    },
+    "Imprecise": {
+      "title": "Imprecise",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Gets -1 to hit when attacking."
+        }
+      ]
+    },
+    "Unique Hero": {
+      "title": "Unique Hero",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Counts as having Hero, and this model may only be taken once per army."
+        }
+      ]
+    },
+    "Enhanced Hive Bond": {
+      "title": "Enhanced Hive Bond",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Hive Bond, they always get +1 to Morale Test rolls from Hive Bond (instead of only when shot/charged from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Anti-Cover": {
+      "title": "Anti-Cover",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This weapon ignores Cover."
+        }
+      ]
+    },
+    "Spell Resistance": {
+      "title": "Spell Resistance",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "When a unit where most models have this rule takes wounds, roll one die for each. If the wound was from a spell, then it is ignored on a 2+. If the wound was not from a spell, then it is ignored on a 6+ instead."
+        }
+      ]
+    },
+    "Cumbersome": {
+      "title": "Cumbersome",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "May only use Hold or Advance actions, but can’t shoot when moving."
+        }
+      ]
+    },
+    "Anti-Regen": {
+      "title": "Anti-Regen",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This weapon ignores Regeneration."
+        }
+      ]
+    },
+    "Valiant": {
+      "title": "Valiant",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, they get +1 to Morale Test rolls when shot/charged from over 9\"/6\" away."
+        }
+      ]
+    },
+    "Enhanced Valiant": {
+      "title": "Enhanced Valiant",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Valiant, they always get +1 to Morale Test rolls from Valiant (instead of only when shot/charged from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Predator Aura": {
+      "title": "Predator Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Predator."
+        }
+      ]
+    },
+    "Enhanced Hive Bond Aura": {
+      "title": "Enhanced Hive Bond Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Hive Bond."
+        }
+      ]
+    },
+    "Versatile Expert": {
+      "title": "Versatile Expert",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "When this unit is activated, pick one effect: until the end of the activation all models with this rule in this unit either get AP(+1) when attacking, or get +1 to hit rolls when attacking."
+        }
+      ]
+    },
+    "Bravery Aura": {
+      "title": "Bravery Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get +1 to Morale Test rolls."
+        }
+      ]
+    },
+    "Enhanced Bloodborn": {
+      "title": "Enhanced Bloodborn",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Bloodborn, it gets extra attacks on successful unmodified hit results of 5-6 from Bloodborn (instead of only on 6)."
+        }
+      ]
+    },
+    "Enhanced Predator": {
+      "title": "Enhanced Predator",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Predator, it gets extra attacks on successful unmodified hit results of 5-6 from Predator (instead of only on 6)."
+        }
+      ]
+    },
+    "Enhanced Bloodborn Aura": {
+      "title": "Enhanced Bloodborn Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Bloodborn."
+        }
+      ]
+    },
+    "Enhanced Darkborn": {
+      "title": "Enhanced Darkborn",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Darkborn, enemy units shooting/charging it get -8\"/-4\" range to a min. of 6\" from Darkborn (instead of only -4\"/-2\")."
+        }
+      ]
+    },
+    "Enhanced Shrouded": {
+      "title": "Enhanced Shrouded",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Shrouded, enemy units shooting/charging it get -8\"/-4\" range to a min. of 6\" from Shrouded (instead of only -4\"/-2\")."
+        }
+      ]
+    },
+    "Enhanced Darkborn Aura": {
+      "title": "Enhanced Darkborn Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Darkborn."
+        }
+      ]
+    },
+    "Enhanced Knightborn": {
+      "title": "Enhanced Knightborn",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Knightborn, they always ignore shooting/charging wounds on rolls of 6+ from Knightborn (instead of only when shot/charged from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Warding": {
+      "title": "Enhanced Warding",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Warding, they always ignore shooting/charging wounds on rolls of 6+ from Warding (instead of only when shot/charged from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Knightborn Aura": {
+      "title": "Enhanced Knightborn Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Knightborn."
+        }
+      ]
+    },
+    "Enhanced Watchborn": {
+      "title": "Enhanced Watchborn",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Versatile Attack, it always gets either AP(+1) or +1 to hit rolls from Versatile Attack (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Versatile Warrior": {
+      "title": "Versatile Warrior",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "When this unit is activated, pick one effect: until the end of the activation, when shooting/charging enemies over 9\"/6\" away, all models with this rule in it either get AP(+1) or get +1 to hit rolls."
+        }
+      ]
+    },
+    "Enhanced Versatile Warrior": {
+      "title": "Enhanced Versatile Warrior",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Versatile Attack, it always gets either AP(+1) or +1 to hit rolls from Versatile Attack (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Watchborn Aura": {
+      "title": "Enhanced Watchborn Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Watchborn."
+        }
+      ]
+    },
+    "Enhanced Wolfborn": {
+      "title": "Enhanced Wolfborn",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Wolfborn, it may move by up to 2D3\" from Wolfborn (instead of only D3\")."
+        }
+      ]
+    },
+    "Enhanced Nimble": {
+      "title": "Enhanced Nimble",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Nimble, it may move by up to 2D3\" from Nimble (instead of only D3\")."
+        }
+      ]
+    },
+    "Enhanced Wolfborn Aura": {
+      "title": "Enhanced Wolfborn Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Wolfborn."
+        }
+      ]
+    },
+    "Piercing Charge": {
+      "title": "Piercing Charge",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model gets AP(+1) on its weapons when charging."
+        }
+      ]
+    },
+    "Piercing Marksman": {
+      "title": "Piercing Marksman",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "When shooting at enemies over 9\" away, this model's weapons get AP(+1)."
+        }
+      ]
+    },
+    "Enhanced Devout": {
+      "title": "Enhanced Devout",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Devout, the target always takes hits on unmodified hit results of 6 from Devout (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Bravery Buff": {
+      "title": "Bravery Buff",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to Morale Test rolls once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Spell Drain": {
+      "title": "Spell Drain",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy model within 18\" in line of sight, which must take a Morale Test. If failed, it loses 2 spell tokens."
+        }
+      ]
+    },
+    "Enhanced Brutal": {
+      "title": "Enhanced Brutal",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Brutal, the target always takes hits on unmodified hit results of 6 from Brutal (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Piercing Marksman Aura": {
+      "title": "Piercing Marksman Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Piercing Marksman."
+        }
+      ]
+    },
+    "Enhanced Devout Aura": {
+      "title": "Enhanced Devout Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Devout."
+        }
+      ]
+    },
+    "Enhanced Guardian": {
+      "title": "Enhanced Guardian",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Guardian, hits they take count as having AP(-2) from Guardian (instead of only AP(-1))."
+        }
+      ]
+    },
+    "Dodge": {
+      "title": "Dodge",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have this rule, as long as they aren't Fatigued, enemy units get -1 to hit rolls in melee against them."
+        }
+      ]
+    },
+    "Enhanced Fortified": {
+      "title": "Enhanced Fortified",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Fortified, hits they take count as having AP(-2) from Fortified (instead of only AP(-1))."
+        }
+      ]
+    },
+    "Enhanced Guardian Aura": {
+      "title": "Enhanced Guardian Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Guardian."
+        }
+      ]
+    },
+    "Enhanced Targeting Visor": {
+      "title": "Enhanced Targeting Visor",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Targeting Visor, it always gets +1 to hit rolls from Targeting Visor (instead of only when shooting over 9\" away)."
+        }
+      ]
+    },
+    "Precision Marksman": {
+      "title": "Precision Marksman",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "When shooting at enemies over 9\" away, this model gets +1 to hit rolls."
+        }
+      ]
+    },
+    "Enhanced Precision Marksman": {
+      "title": "Enhanced Precision Marksman",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Precision Marksman, it always gets +1 to hit rolls from Precision Marksman (instead of only when shooting over 9\" away)."
+        }
+      ]
+    },
+    "Counter in Melee Aura": {
+      "title": "Counter in Melee Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Counter on its weapons in melee."
+        }
+      ]
+    },
+    "Enhanced Targeting Visor Aura": {
+      "title": "Enhanced Targeting Visor Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Targeting Visor."
+        }
+      ]
+    },
+    "Enhanced Harassing": {
+      "title": "Enhanced Harassing",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Harassing, they may move by up to 6\" from Harassing (instead of only 3\")."
+        }
+      ]
+    },
+    "Enhanced Hit & Run": {
+      "title": "Enhanced Hit & Run",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Hit & Run, they may move by up to 6\" from Hit & Run (instead of only 3\")."
+        }
+      ]
+    },
+    "Enhanced Harassing Aura": {
+      "title": "Enhanced Harassing Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Harassing."
+        }
+      ]
+    },
+    "Enhanced Sturdy": {
+      "title": "Enhanced Sturdy",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Sturdy, they always get +1 to Defense rolls from Sturdy (instead of only when shot/charged from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Anti-Cover when Shooting": {
+      "title": "Anti-Cover when Shooting",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model gets Anti-Cover on its weapons when shooting."
+        }
+      ]
+    },
+    "Scourge": {
+      "title": "Scourge",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "For each unmodified result of 1 to block hits, enemies count as having taken 2 extra wounds when checking who won melee, or if shooting wounds would trigger Morale Tests."
+        }
+      ]
+    },
+    "Enhanced Guarded": {
+      "title": "Enhanced Guarded",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Guarded, they always get +1 to Defense rolls from Guarded (instead of only when shot/charged from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Sturdy Aura": {
+      "title": "Enhanced Sturdy Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Sturdy."
+        }
+      ]
+    },
+    "Anti-Cover when Shooting Aura": {
+      "title": "Anti-Cover when Shooting Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Anti-Cover on its weapons when shooting."
+        }
+      ]
+    },
+    "Enhanced Rapid Blink": {
+      "title": "Enhanced Rapid Blink",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Rapid Blink, it may move by up to 2D3\" from Rapid Blink (instead of only D3\")."
+        }
+      ]
+    },
+    "Infiltrating Precision Strike": {
+      "title": "Infiltrating Precision Strike",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Counts as having Infiltrate, and gets +1 to hit rolls in melee on the round in which it deploys via this rule."
+        }
+      ]
+    },
+    "Enhanced Rapid Blink Aura": {
+      "title": "Enhanced Rapid Blink Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Rapid Blink."
+        }
+      ]
+    },
+    "Enhanced Clan Warrior": {
+      "title": "Enhanced Clan Warrior",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Clan Warrior, it gets extra attacks on successful unmodified hit results of 5-6 from Clan Warrior (instead of only on 6)."
+        }
+      ]
+    },
+    "Precision Fighter": {
+      "title": "Precision Fighter",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model gets +1 to hit rolls in melee."
+        }
+      ]
+    },
+    "Enhanced Clan Warrior Aura": {
+      "title": "Enhanced Clan Warrior Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Clan Warrior."
+        }
+      ]
+    },
+    "Anti-Cover Aura": {
+      "title": "Anti-Cover Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Anti-Cover on its weapons when shooting."
+        }
+      ]
+    },
+    "Enhanced Mischievous": {
+      "title": "Enhanced Mischievous",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Mischievous, enemies taking hits from it must re-roll successful unmodified Defense results of 5-6 from Mischievous (instead of only results of 6)."
+        }
+      ]
+    },
+    "Enhanced Vicious": {
+      "title": "Enhanced Vicious",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Vicious, enemies taking hits from it must re-roll successful unmodified Defense results of 5-6 from Vicious (instead of only results of 6)."
+        }
+      ]
+    },
+    "Enhanced Mischievous Aura": {
+      "title": "Enhanced Mischievous Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Mischievous."
+        }
+      ]
+    },
+    "Enhanced Havocbound": {
+      "title": "Enhanced Havocbound",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Havocbound, it always gets AP(+1) from Havocbound (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Piercing Warrior": {
+      "title": "Enhanced Piercing Warrior",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Piercing Warrior, it always gets AP(+1) from Piercing Warrior (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Havocbound Aura": {
+      "title": "Enhanced Havocbound Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Havocbound."
+        }
+      ]
+    },
+    "Spell Resistance Aura": {
+      "title": "Spell Resistance Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Spell Resistance."
+        }
+      ]
+    },
+    "Enhanced Changebound": {
+      "title": "Enhanced Changebound",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Changebound, enemies attacking them always get -1 to hit rolls from Changebound (instead of only when shooting/charging from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Screened": {
+      "title": "Enhanced Screened",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Screened, enemies attacking them always get -1 to hit rolls from Screened (instead of only when shooting/charging from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Changebound Aura": {
+      "title": "Enhanced Changebound Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Changebound."
+        }
+      ]
+    },
+    "Enhanced Lustbound": {
+      "title": "Enhanced Lustbound",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Lustbound, it moves +2\" on Advance and +4\" on Rush/Charge from Lustbound (instead of only +1\" and +2\")."
+        }
+      ]
+    },
+    "Obliterate": {
+      "title": "Obliterate",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ignores Regeneration, and when attacking units where most models have Tough(3) or higher, the target must re-roll successful unmodified Defense results of 5-6."
+        }
+      ]
+    },
+    "Enhanced Agile": {
+      "title": "Enhanced Agile",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Agile, it moves +2\" on Advance and +4\" on Rush/Charge from Agile (instead of only +1\" and +2\")."
+        }
+      ]
+    },
+    "Enhanced Lustbound Aura": {
+      "title": "Enhanced Lustbound Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Lustbound."
+        }
+      ]
+    },
+    "Enhanced Plaguebound": {
+      "title": "Enhanced Plaguebound",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Plaguebound, they ignore wounds on rolls of 5-6 from Plaguebound (instead of only on 6+)."
+        }
+      ]
+    },
+    "Enhanced Protected": {
+      "title": "Enhanced Protected",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Protected, they ignore wounds on rolls of 5-6 from Protected (instead of only on 6+)."
+        }
+      ]
+    },
+    "Enhanced Plaguebound Aura": {
+      "title": "Enhanced Plaguebound Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Plaguebound."
+        }
+      ]
+    },
+    "Enhanced Warbound": {
+      "title": "Enhanced Warbound",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Warbound, enemies always take wounds on unmodified results of 1 to block from Warbound (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Violent": {
+      "title": "Enhanced Violent",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Violent, enemies always take wounds on unmodified results of 1 to block from Violent (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Warbound Aura": {
+      "title": "Enhanced Warbound Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Warbound."
+        }
+      ]
+    },
+    "Enhanced Highborn": {
+      "title": "Enhanced Highborn",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Highborn, it gets +8\"/+4\" range when shooting/charging from Highborn (instead of only +4\"/+2\")."
+        }
+      ]
+    },
+    "Extra Reach": {
+      "title": "Extra Reach",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model gets +4\"/+2\" range when shooting/charging."
+        }
+      ]
+    },
+    "Enhanced Extra Reach": {
+      "title": "Enhanced Extra Reach",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Extra Reach, it gets +8\"/+4\" range when shooting/charging from Extra Reach (instead of only +4\"/+2\")."
+        }
+      ]
+    },
+    "Enhanced Highborn Aura": {
+      "title": "Enhanced Highborn Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Highborn."
+        }
+      ]
+    },
+    "Enhanced Hold the Line": {
+      "title": "Enhanced Hold the Line",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Hold the Line, they always get +1 to Morale Test rolls from Hold the Line (instead of only when shot/charged from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Hold the Line Aura": {
+      "title": "Enhanced Hold the Line Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Hold the Line."
+        }
+      ]
+    },
+    "Quick Throw": {
+      "title": "Quick Throw",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model may always target enemies that are not in line of sight when shooting with Indirect weapons (instead of only when using Hold actions)."
+        }
+      ]
+    },
+    "Enhanced Infected": {
+      "title": "Enhanced Infected",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Infected, enemies always take wounds on unmodified results of 1 to block from Infected (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Infected Aura": {
+      "title": "Enhanced Infected Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Infected."
+        }
+      ]
+    },
+    "Enhanced Scrapper": {
+      "title": "Enhanced Scrapper",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Scrapper, enemies taking hits from it must re-roll successful unmodified Defense results of 5-6 from Scrapper (instead of only results of 6)."
+        }
+      ]
+    },
+    "Enhanced Scrapper Aura": {
+      "title": "Enhanced Scrapper Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Scrapper."
+        }
+      ]
+    },
+    "Grounded Evasion": {
+      "title": "Grounded Evasion",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If a unit where most models have this rule has most of them within 1\" of terrain, enemies get -1 to hit rolls when attacking them."
+        }
+      ]
+    },
+    "Enhanced Machine-Fog": {
+      "title": "Enhanced Machine-Fog",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Machine-Fog, enemies attacking them always get -1 to hit rolls from Machine-Fog (instead of only when shooting/charging from over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Enhanced Machine-Fog Aura": {
+      "title": "Enhanced Machine-Fog Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Machine-Fog."
+        }
+      ]
+    },
+    "Enhanced Ferocious": {
+      "title": "Enhanced Ferocious",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Ferocious, the target always takes hits on unmodified hit results of 6 from Ferocious (instead of only when shooting/charging enemies over 9\"/6\" away)."
+        }
+      ]
+    },
+    "Precision Charge": {
+      "title": "Precision Charge",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model gets +1 to hit rolls when charging."
+        }
+      ]
+    },
+    "Enhanced Ferocious Aura": {
+      "title": "Enhanced Ferocious Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit Enhanced Ferocious."
+        }
+      ]
+    },
+    "Enhanced Brutal Aura": {
+      "title": "Enhanced Brutal Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit Enhanced Brutal."
+        }
+      ]
+    },
+    "Enhanced Scurry": {
+      "title": "Enhanced Scurry",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Scurry, it moves +2\" on Advance and +4\" on Rush/Charge from Scurry (instead of only +1\" and +2\")."
+        }
+      ]
+    },
+    "Piercing Charge Aura": {
+      "title": "Piercing Charge Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Piercing Charge."
+        }
+      ]
+    },
+    "Enhanced Scurry Aura": {
+      "title": "Enhanced Scurry Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Scurry."
+        }
+      ]
+    },
+    "Enhanced Guerrilla": {
+      "title": "Enhanced Guerrilla",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Guerrilla, they may move by up to 6\" from Guerrilla (instead of only 3\")."
+        }
+      ]
+    },
+    "Enhanced Guerrilla Aura": {
+      "title": "Enhanced Guerrilla Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Guerrilla."
+        }
+      ]
+    },
+    "Unstoppable when Shooting": {
+      "title": "Unstoppable when Shooting",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model gets Unstoppable on its weapons when shooting."
+        }
+      ]
+    },
+    "Enhanced Self-Repair": {
+      "title": "Enhanced Self-Repair",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Self-Repair, they ignore wounds on rolls of 5-6 from Self-Repair (instead of only on 6+)."
+        }
+      ]
+    },
+    "Enhanced Self-Repair Buff": {
+      "title": "Enhanced Self-Repair Buff",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Enhanced Self-Repair once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Enhanced Primal Buff": {
+      "title": "Enhanced Primal Buff",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Enhanced Primal once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Enhanced Primal": {
+      "title": "Enhanced Primal",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If this model has Primal, it gets extra attacks on successful unmodified hit results of 5-6 from Primal (instead of only on 6)."
+        }
+      ]
+    },
+    "Grounded Defense": {
+      "title": "Grounded Defense",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If a unit where most models have this rule has most of them within 1\" of terrain, they get +1 to Defense rolls."
+        }
+      ]
+    },
+    "Grounded Defense Aura": {
+      "title": "Grounded Defense Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Grounded Defense."
+        }
+      ]
+    },
+    "Enhanced Shadowborn": {
+      "title": "Enhanced Shadowborn",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "If most models in this unit have Shadowborn, enemy units shooting/charging it get -8\"/-4\" range to a min. of 6\" from Shadowborn (instead of only -4\"/-2\")."
+        }
+      ]
+    },
+    "Enhanced Shadowborn Buff": {
+      "title": "Enhanced Shadowborn Buff",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Enhanced Shadowborn once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Thrust in Melee Buff": {
+      "title": "Thrust in Melee Buff",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Thrust in Melee once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Counter in Melee Buff": {
+      "title": "Counter in Melee Buff",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one friendly unit within 12\", which gets Counter in Melee."
+        }
+      ]
+    },
+    "Thrust in Melee": {
+      "title": "Thrust in Melee",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model gets Thrust on its weapons in melee."
+        }
+      ]
+    },
+    "Enhanced Shadowborn Aura": {
+      "title": "Enhanced Shadowborn Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "This model and its unit get Enhanced Shadowborn."
         }
       ]
     }
@@ -11214,6 +13162,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": " les ennemis ont -2 pour toucher lorsqu'ils tirent sur cette figurine à plus de 9” de distance, tant que celle-ci n'a pas bougé depuis le début de sa dernière activation."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, tant qu'elles n'ont pas bougé pendant ce tour, les unités ennemies qui leur tirent dessus à plus de 12\" subissent -1 aux jets de touche."
         }
       ]
     },
@@ -11684,6 +13636,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignore la Régénération et tous les modificateurs négatifs appliqués à cette arme."
+        },
+        {
+          "system": "GF",
+          "text": "Cette arme ignore Régénération ignore tous les modificateurs négatifs qui ne relèvent pas des règles spéciales de ce modèle."
         }
       ],
       "specialRule": [
@@ -11742,6 +13698,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Moves +1\" lors d'actions de Avancée, et +2\" lors d'actions de Course/Charge."
+        },
+        {
+          "system": "GF",
+          "text": "Se déplace de +1\" lors de l'utilisation d'Avance et de +2\" lors de l'utilisation de Course/Charge."
         }
       ]
     },
@@ -11887,6 +13847,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Apres le deploiement de ce modele, il peut être place n'importe ou entierement dans un rayon de 9” de sa position."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois cette figurine déployée, elle peut être placée n'importe où à moins de 9\" de sa position, à plus de 9\" des unités ennemies non-Avant-garde."
         }
       ]
     },
@@ -11905,6 +13869,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Apres le deploiement de ce modele, il peut être place n'importe ou entierement dans un rayon de 9” de sa position."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois cette figurine déployée, elle peut être placée n'importe où à moins de 9\" de sa position, à plus de 9\" des unités ennemies non-Avant-garde."
         }
       ]
     },
@@ -12128,6 +14096,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque des unités dont toutes les figurines possèdent cette règle subissent des blessures, ces blessures comptent comme ayant une <key>PA</key>(-1), jusqu'à un minimum de </key>PA<key>(0)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque les unités où la plupart des figurines ont cette règle subissent des touches, ces touches comptent comme ayant PA(-1), jusqu'à un min. de PA(0)."
         }
       ]
     },
@@ -12181,6 +14153,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "lorsque cette figurine attaque, les résultats non modifiés de 6 pour toucher infligent 1 touche supplémentaire (seule la touche initiale compte pour un 6 en regard des règles spéciales)."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine obtient PA(+1) lorsqu'elle attaque."
         }
       ]
     },
@@ -12288,6 +14264,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par partie, pendant de cette figurine activation, choisissez une unité ennemie à 18” ou moins et en ligne de vue de elle, et placez X marqueurs sur elle. Les unités alliées gagnent +X à jets de touche lors d'une attaque elle."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lors de l'activation de cette figurine, avant d'attaquer, choisissez X unités ennemies à 18\" ou moins et en ligne de vue d'elle, et placez un jeton sur elles. Les unités amies obtiennent +1 aux jets de touche lorsqu'elles les attaquent."
         }
       ]
     },
@@ -12369,6 +14349,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les unités ennemies utilisant la règle spéciale <key>Embuscade</key> doivent être placées à plus de 12\" de l'unité de cette figurine."
+        },
+        {
+          "system": "GF",
+          "text": "Les unités ennemies utilisant Embuscade doivent être placées à plus de 12\" de l'unité de cette figurine."
         }
       ]
     },
@@ -12423,6 +14407,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette figurine charge, ses armes gagnent PA(+2) si la majorité des figurines dans la cible ont Coriace(3) ou plus."
+        },
+        {
+          "system": "GF",
+          "text": "Lors du chargement, les armes de cette figurine obtiennent PA(+2) si la plupart des figurines de la cible ont Coriace(3) ou supérieure."
         }
       ]
     },
@@ -12435,7 +14423,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent <key>Percée</key> en mêlée."
         },
         {
@@ -12449,6 +14437,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent <key>Percée</key> en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Percée sur leurs armes en mêlée."
         }
       ]
     },
@@ -12482,6 +14474,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les ennemis subissent un malus de -1 pour toucher en mêlée lorsqu'ils attaquent une unité où toutes les figurines possèdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Les ennemis ont -1 aux jets de touche en mêlée lorsqu'ils attaquent des unités pour lesquelles la plupart des figurines ont cette règle."
         }
       ]
     },
@@ -12499,6 +14495,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les ennemis subissent -4″ de portée, jusqu'à un minimum de 6″, lorsqu'ils tentent de tirer sur une unité dont toutes les figurines possèdent cette règle, et -2″ de mouvement, jusqu'à un minimum de 6″, lorsqu'ils tentent de la charger."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'une unité dont la plupart des figurines ont cette règle est ciblée par une unité ennemie pour tirer/charger, cette unité ennemie a une portée de -4\"/-2\" à un minimum de 6\"."
         }
       ]
     },
@@ -12541,7 +14541,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent un bonus de +6” de portée lorsqu'elles tirent."
         },
         {
@@ -12555,6 +14555,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent un bonus de +6” de portée lorsqu'elles tirent."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité bénéficient d'une portée de +6\" sur leurs armes lors du tir."
         }
       ]
     },
@@ -12582,6 +14586,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette figurine attaque au corps à corps, lancez X dés. Pour chaque résultat de 6+, la cible subit une blessure."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par tour, lorsque c'est le tour de cette figurine de frapper au corps à corps, lancez X dés avant d'attaquer, sauf si cette unité est fatiguée. Pour chaque 6+, la cible subit une blessure."
         }
       ]
     },
@@ -12662,7 +14670,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18”. Les unités alliées gagnent <key>Combattant imprévisible</key> contre elle (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -12672,6 +14680,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnents Combattant imprévisible contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies recevront Combattant imprévisible une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -12741,6 +14753,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignore le couvert, et contre les unités où la majorité des figurines ont une <key>Défense</key> de 2+ a 4+, cette arme gagne <key>AP</key>(+1)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'elle attaque des unités dont la plupart des figurines ont Défense 5+ à Défense 6+, la cible doit relancer les résultats Défense non modifiés réussis de 5-6."
         }
       ]
     },
@@ -12793,6 +14809,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ce modele gagne +X a ses jets de <key>Defense</key>."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle obtient +X aux jets de Défense."
         }
       ]
     },
@@ -12844,6 +14864,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine se déplace de +6” lorsqu'elle Court."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine se déplace de +6\" lorsqu'elle utilise les actions de Course."
         }
       ]
     },
@@ -12970,6 +14994,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les ennemis subissent -1 pour toucher lorsqu'ils attaquent une unité où toutes les figurines ont cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Les ennemis ont -1 aux jets de touche lorsqu'ils attaquent des unités pour lesquelles la plupart des figurines ont cette règle."
         }
       ]
     },
@@ -13015,6 +15043,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, vous peut placez cette figurine n'importe où entièrement à 3” ou moins de ses position lors d'actions de Avancée/Charge actions, ou entièrement à 6” ou moins de ses position lors d'actions de Course actions."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, vous pouvez placer cette figurine n'importe où à 3\" maximum de sa position lorsque vous utilisez des actions d'Avancée/Charger, ou à 6\" maximum de sa position lorsque vous utilisez des actions de Course."
         }
       ]
     },
@@ -13079,6 +15111,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par round, les unités dont toutes les figurines ont cette règle peuvent se déplacer de jusqu'à 3” après avoir tiré."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par tour, cette figurine peut se déplacer jusqu'à 3\" après le tir."
         }
       ]
     },
@@ -13234,7 +15270,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Les unités alliées gagnent <key>Tir rapide</key> contre elle une fois, lors de la prochaine application de cet effet."
         },
         {
@@ -13244,6 +15280,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnents Tir rapide contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies recevront Tir rapide une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -13318,6 +15358,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par partie, lorsque cette figurine est activée, vous pouvez placer une nouvelle unité de X entièrement a 6” ou moins d’elle."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lorsque cette figurine est activée, vous pouvez placer une nouvelle unité de X entièrement à 6\" ou moins de celle-ci. Les unités placées via Génération ne peuvent pas capturer ou contester d'objectifs lors du tour où elles sont placées."
         }
       ]
     },
@@ -13331,6 +15375,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Sur des resultats non modifiés de 6 pour toucher qui ne sont pas bloques, cette arme inflige 1 blessure supplementaire."
+        },
+        {
+          "system": "GF",
+          "text": "Ignore tous les modificateurs Défense positifs sur la cible, et lors de l'attaque d'unités à plus de la moitié de la portée de cette arme, cette arme obtient PA(+1)."
         }
       ]
     },
@@ -13369,7 +15417,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Elle se déplace de -2” lors d'une action d'Avancée et de -4” lors d'une action de Course/Charge une fois, lors de la prochaine application de cet effet."
         },
         {
@@ -13379,6 +15427,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, qui se déplacez -2\" lors d'actions de Avancée actions et -4\" lors d'actions de Course/Charge actions une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une figurine ennemie à moins de 18\" en ligne de vue, qui se déplace de -2\" lors de l'utilisation des actions d'Avancée et de -4\" lors de l'utilisation des actions de Course/Charge une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -13426,6 +15478,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par round, les unités dont toutes les figurines possèdent cette règle peuvent se déplacer jusqu'à 3” après avoir tiré ou avoir été en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par tour, cette figurine peut se déplacer de 3\" maximum après avoir tiré ou été en mêlée."
         }
       ]
     },
@@ -13451,6 +15507,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Se deplace de +2” en action Advance, et de +2” en action Rush/Charge."
+        },
+        {
+          "system": "GF",
+          "text": "Se déplace de +2\" lors de l'utilisation d'Avance et de +2\" lors de l'utilisation de Course/Charge."
         }
       ]
     },
@@ -13505,6 +15565,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ce modele se deplace de +4” lorsqu'il utilise une action Advance."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine se déplace de +4\" lorsqu'elle utilise les actions d'Avancée."
         }
       ]
     },
@@ -13608,6 +15672,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par partie, lorsque elle's de cette figurine tour à attaque au corps à corps, elle peut effectuer un attaque à Qualité 2+ avec PA(2), Mortel(3), et Élimination."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lorsque c'est au tour de cette figurine de frapper en mêlée, elle peut effectuer X attaques de qualité 2+ avec PA(2), Mortel(3) et Élimination."
         }
       ]
     },
@@ -13694,6 +15762,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les unités dont toutes les figurines possèdent cette règle spéciale obtiennent un bonus de +1 aux jets de Défense contre les touches qui ne proviennent pas de sorts."
+        },
+        {
+          "system": "GF",
+          "text": "Les unités où la plupart des figurines ont cette règle obtiennent des jets +1 en Défense contre les coups qui ne proviennent pas de sorts."
         }
       ]
     },
@@ -13791,7 +15863,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent <key>Imparable</key> en mêlée."
         },
         {
@@ -13805,6 +15877,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent <key>Imparable</key> en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Inarrêtable sur leurs armes en mêlée."
         }
       ]
     },
@@ -13854,6 +15930,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsqu'une unité dont toutes les figurines ont cette règle est secouée ou entièrement détruite, vous pouvez la retirer de la table comme détruite et placer une nouvelle copie entièrement à 12” ou moins de n'importe quel bord de table au début du round suivant, après le déploiement des unités en Embuscade. Les unités déployées via <key>Renfort</key> ne peuvent pas saisir ni contester des objectifs pendant le round où elles sont déployées, et cette règle ne s'applique pas à la nouvelle copie de l'unité."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'une unité dont toutes les figurines ont cette règle est secouée, vous pouvez la retirer de la table comme détruite. Au début du tour suivant, après la destruction d'une unité dont toutes les figurines ont cette règle, après que les Embuscades aient été déployées, vous pouvez en placer une nouvelle copie entièrement à 9\" ou moins de n'importe quel bord de table, à plus de 9\" des unités ennemies. Les unités qui se déploient via Renfort ne peuvent pas capturer ou contester les objectifs lors du round de déploiement, et cette règle ne s'applique pas à la nouvelle copie de l'unité."
         }
       ]
     },
@@ -13877,6 +15957,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par round, les unités dont toutes les figurines ont cette règle peuvent se déplacer de jusqu'à 3” après avoir combattu en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par tour, cette figurine peut se déplacer de 3\" maximum après avoir été en mêlée."
         }
       ]
     },
@@ -13888,7 +15972,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagne un bonus de +2” lorsqu'elles Avancent et +4” lorsqu'elles Courent ou Chargent."
         },
         {
@@ -13902,6 +15986,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagne un bonus de +2” lorsqu'elles Avancent et +4” lorsqu'elles Courent ou Chargent."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité se déplacent de +2\" lorsqu'elles utilisent les actions d'Avancée et de +4\" lorsqu'elles utilisent les actions de Course/Charge."
         }
       ]
     },
@@ -13970,7 +16058,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Compte comme ayant <key>Embuscade</key>, mais peut être déployée jusqu'à 1” des unités ennemies."
         },
         {
@@ -13984,6 +16072,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine compte comme ayant Embuscade, et peut être déployée entièrement à 12” ou moins de n'importe quel bord de table, à plus de 9” grâce à unités ennemies."
+        },
+        {
+          "system": "GF",
+          "text": "Compte comme ayant Embuscade, mais peut être déployé n'importe où à plus de 3\" de l'unité ennemie."
         }
       ]
     },
@@ -14163,7 +16255,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Elle doit faire un test de moral. En cas d'échec, vous pouvez la déplacer de jusqu'à 6” en ligne droite dans n'importe quelle direction."
         },
         {
@@ -14177,6 +16269,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, qui doit effectuer a test de moral. En cas d'échec vous peut se déplacer elle jusqu'à 6” dans a ligne droite dans n'importe quelle direction."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" de ligne de vue, qui doit passer un test de moral. En cas d'échec, vous pouvez la déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Les unités ne peuvent être déplacées de cette manière qu'une fois par tour."
         }
       ]
     },
@@ -14192,7 +16288,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins. Elle subit -1 à son prochain test de moral, lors de la prochaine application de cet effet."
         },
         {
@@ -14206,6 +16302,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, qui gagne -1 à jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui obtient -1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -14219,7 +16319,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagne la règle spéciale <key>Lacération</key> en mêlée."
         },
         {
@@ -14233,6 +16333,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagne la règle spéciale <key>Lacération</key> en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Lacération sur leurs armes en mêlée."
         }
       ]
     },
@@ -14267,6 +16371,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez un modele allie a 12” avec <key>Lanceur de sorts</key> ; il gagne +1 a son prochain jet d'incantation (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une figurine amie dans un rayon de 12\" avec Lanceur de sorts, qui obtient +1 aux jets de lancement une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -14303,7 +16411,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Lorsqu'une unité dont la plupart des figurines possèdent cette règle spéciale échoue à un Test de Moral qui la rend Ébranlée ou En déroute, le test est considéré comme réussi. Lancez ensuite autant de dés que le nombre de blessures nécessaires pour la détruire entièrement, et pour chaque résultat de 1 à 3, l'unité subit une blessure qui ne peut être ignorée."
         },
         {
@@ -14317,6 +16425,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsqu'une unité dont la plupart des figurines possèdent cette règle spéciale échoue à un Test de Moral qui la rend Ébranlée ou En déroute, le test est considéré comme réussi. Lancez ensuite autant de dés que le nombre de blessures nécessaires pour la détruire entièrement, et pour chaque résultat de 1 à 3, l'unité subit une blessure qui ne peut être ignorée."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'une unité dont la plupart des figurines ont cette règle échoue à un test de moral qui la fait être secouée ou mise en déroute, le test est considéré comme réussi à la place. Ensuite, lancez autant de dés que le nombre de blessures qu'il faudrait pour la détruire complètement, et pour chaque résultat de 1 à 3, l'unité subit une blessure, qui ne peut être ignorée."
         }
       ]
     },
@@ -14441,6 +16553,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une figurine allie a 3” ou moins dotée de la caractéristique <key>Coriace</key> et retirez 1D3 blessures de celle-ci."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une figurine amie à moins de 3\" avec Coriace, et retirez-lui D3 blessures."
         }
       ]
     },
@@ -14453,7 +16569,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent <key>Perforant</key> au tir."
         },
         {
@@ -14467,6 +16583,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent <key>Perforant</key> au tir."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Perforant sur leurs armes lors du tir."
         }
       ]
     },
@@ -14530,6 +16650,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette unité est activée, choisissez l'un des effets suivants : jusqu'à la fin de l'activation, toutes les figurines possédant cette règle spéciale bénéficient soit d'une portée accrue de +4” lorsqu'elles tirent, soit d'un bonus de mouvement de +2” lorsqu'elles Chargent."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est activée, choisissez un effet: jusqu'à la fin de l'activation, toutes les figurines avec cette règle dans cette unité bénéficient soit de +4\" de portée lors du tir, soit de +2\" lors de la charge."
         }
       ]
     },
@@ -14627,6 +16751,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Une fois par partie, lors de son activation, lorsque cette figurine traverse des unités ennemies, choisissez-en une et lancez X dés. Pour chaque résultat de 4+, elle inflige trois blessures avec <key>PA</key>(1)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, lorsque cette figurine traverse des unités ennemies, choisissez-en une et attaquez-la avec cette arme comme si elle tirait. Cette arme ne peut être utilisée que de cette manière."
         }
       ]
     },
@@ -14648,6 +16776,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par partie, lorsque cette unité subit des blessures et toutes ses figurines ont cette règle, vous peut utiliser cette règle et jet un dé par blessure, et sur 5+ elle est ignorée."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lorsque cette unité subit des blessures et que la plupart de ses figurines ont cette règle, vous pouvez utiliser cette règle et lancer un dé par blessure, et sur 5+, elle est ignorée."
         }
       ]
     },
@@ -14709,7 +16841,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent +4” lorsqu’elles Chargent."
         },
         {
@@ -14723,6 +16855,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent +4” lorsqu’elles Chargent."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité se déplacent de +4\" lorsqu'elles utilisent des actions Charge."
         }
       ]
     },
@@ -14737,7 +16873,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Perforant</key> en mêlée."
         },
         {
@@ -14751,6 +16887,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Perforant</key> en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Perforant sur leurs armes en mêlée."
         }
       ]
     },
@@ -14778,6 +16918,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette unité est activée, vous pouvez placer toutes les figurines possédant cette règle spéciale n'importe où dans un rayon de D3+1” autour de leur position."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est activée, vous pouvez déplacer toutes les figurines avec cette règle jusqu'à D3+1\"."
         }
       ]
     },
@@ -14799,6 +16943,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ignore la règle spéciale <key>Régénération</key>, et contre les unités dont la plupart des figurines possèdent une <key>Défense</key> 2+ ou <key>Défense</key> 3+, cette arme gagne <key>PA</key>(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "Ignore Régénération, et lors de l'attaque d'unités dont la plupart des figurines ont Coriace(3) ou supérieur, cette arme obtient PA(+2)."
         }
       ]
     },
@@ -14816,6 +16964,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnents Lacération lors d'une attaque contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, quelles unités amies recevront Lacération sur leurs armes lorsqu'elles attaqueront une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -14923,6 +17075,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Si une unité où toutes les figurines possèdent cette règle est <key>Ébranlée</key> au debut du round, 1D6: Sur 4+, elle cesse d'être <key>Ébranlée</key>."
+        },
+        {
+          "system": "GF",
+          "text": "Si une unité dont la plupart des figurines ont cette règle est secouée au début du tour, lancez un dé. Sur 4+, il cesse d'être secoué."
         }
       ]
     },
@@ -15061,6 +17217,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "les ennemis qui lancent les dés pour bloquer les touches infligées par les armes de cette figurine subissent une blessure supplémentaire pour chaque résultat non modifié de 1 obtenu."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette figurine tire/charge des ennemis à plus de 9\"/6\", les résultats non modifiés de 1 pour bloquer les coups des armes infligent 1 blessure supplémentaire."
         }
       ]
     },
@@ -15087,7 +17247,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent <key>AP</key>(+1) en tir."
         },
         {
@@ -15101,6 +17261,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent <key>AP</key>(+1) en tir."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent PA(+1) sur leurs armes lors du tir."
         }
       ]
     },
@@ -15153,6 +17317,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ce modele se deplace de +4” lorsqu'il utilise des actions Charge."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine se déplace de +4\" lorsqu’elle utilise les actions Charge."
         }
       ]
     },
@@ -15193,7 +17361,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent <key>AP</key>(+1) en mêlée."
         },
         {
@@ -15207,6 +17375,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent <key>AP</key>(+1) en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité obtiennent PA(+1) sur ses armes en mêlée."
         }
       ]
     },
@@ -15225,6 +17397,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, qui doit effectuer a test de moral. En cas d'échec, elle devient fatiguée."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, qui doit passer un test de moral. En cas d'échec, elle devient Fatiguée."
         }
       ]
     },
@@ -15320,6 +17496,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsqu'une unité dont tous les modeles ont cette règle subit des blessures, lancez un de pour chacune. Sur 6+, elle est ignoree."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu’une unité où la plupart des figurines possèdent cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, il est ignoré."
         }
       ]
     },
@@ -15413,7 +17593,7 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliee a 12” ; elle gagne +1 pour toucher lorsqu'elle attaque une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -15427,6 +17607,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliee a 12” ; elle gagne +1 pour toucher lorsqu'elle attaque une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à moins de 12\", qui obtient +1 aux jets de touche lors d'une attaque une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -15449,6 +17633,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Si toutes les figurines dans cette unité ont cette règle, placez un marqueurs sur elle au début de chacune round si elle est sur la table et n'est pas Ébranlée, jusqu'à un maximum de quatre marqueurs. Pour chaque paire de marqueurs, les ennemis attaquant cette unité gagnent PA(-1) jusqu'à un minimum de PA(0)."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, placez un jeton dessus au début de chaque tour s'il est sur la table et n'est pas Secoué, jusqu'à un maximum. de quatre jetons. Pour deux jetons, les ennemis attaquant cette unité obtiennent PA(-1) à un min. de PA(0)."
         }
       ]
     },
@@ -15538,6 +17726,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ce modele gagne <key>Perforant</key> en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle reçoit Perforant sur ses armes en mêlée."
         }
       ]
     },
@@ -15557,6 +17749,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, qui est considérée comme étant en terrain difficile une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" de ligne de vue, ce qui compte une fois comme étant en terrain difficile (la prochaine fois, l'effet s'appliquera)."
         }
       ]
     },
@@ -15575,6 +17771,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette figurine subit des blessures au corps à corps, l'attaquant subit X touches par blessure subie."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette figurine subit des blessures au corps à corps, l'attaquant subit X coups par blessure subie."
         }
       ],
       "specialRule": [
@@ -15666,6 +17866,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine gagne +4” de portée lorsqu'elle tire et se déplace de +2” lorsqu'elle utilise une action de Charge."
+        },
+        {
+          "system": "GF",
+          "text": "Se déplace de +1\" lors de l'utilisation d'Avance et de +2\" lors de l'utilisation de Course/Charge."
         }
       ],
       "specialRule": [
@@ -15679,7 +17883,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Ignore la Régénération et, contre les unités dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+2)."
         },
         {
@@ -15693,6 +17897,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Contre unités dont la majorité des figurines ont Coriace(3) ou plus, cette arme gagne PA(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "Pour chaque résultat non modifié de 6 à toucher, ces succès obtiennent PA(+3)."
         }
       ],
       "specialRule": [
@@ -15705,7 +17913,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent Inarretable au tir."
         },
         {
@@ -15719,6 +17927,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent Inarretable au tir."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Inarrêtable sur leurs armes lors du tir."
         }
       ],
       "specialRule": [
@@ -15767,6 +17979,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Obtient <key>AP</key>(4), mais l'unité de ce modele subit une blessure sur un resultat non modifié de 1 pour toucher."
+        },
+        {
+          "system": "GF",
+          "text": "Obtient PA(4), mais sur des résultats non modifiés de 1 pour toucher, cette figurine subit une blessure, ou X blessures si cette arme a la règle Explosion(X)/Mortel(X)."
         }
       ],
       "specialRule": [
@@ -15809,6 +18025,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les lanceurs de sorts à 12” ou moins qui sont grâce à autres unités alliées peuvent lancer des sorts comme si elles étaient dans de cette figurine position, et gagnent +1 aux jets de lancement lorsque ce faisant. Les lanceurs de sorts alliés peut seulement utiliser cette règle si cette unité n'est pas Ébranlée."
+        },
+        {
+          "system": "GF",
+          "text": "Les lanceurs de sorts à 12\" ou moins qui appartiennent à d'autres unités amies peuvent lancer des sorts comme s'ils étaient dans la position de cette figurine, et obtiennent alors +1 aux jets de lancement. Les lanceurs de sorts amis ne peuvent utiliser cette règle que si cette unité n'est pas Secouée."
         }
       ],
       "specialRule": [
@@ -15885,6 +18105,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Se deplace de +2” avec Avance, et de +2” avec Rush/Charge."
+        },
+        {
+          "system": "GF",
+          "text": "Se déplace de +1\" lors de l'utilisation d'Avance et de +2\" lors de l'utilisation de Course/Charge."
         }
       ],
       "specialRule": [
@@ -15896,7 +18120,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18”; elle subit -1 aux jets de defense une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -15910,6 +18134,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, qui gagne -1 à jets de défense une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui obtient -1 aux jets de Défense une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -15921,7 +18149,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fléau au tir</key>."
         },
         {
@@ -15935,6 +18163,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fléau au tir</key>."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Fléau sur leurs armes lors du tir."
         }
       ],
       "specialRule": [
@@ -15947,7 +18179,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fleau en mêlée</key>."
         },
         {
@@ -15961,6 +18193,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité obtiennent la règle spéciale <key>Fleau en mêlée</key>."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Fléau sur leurs armes en mêlée."
         }
       ],
       "specialRule": [
@@ -16000,7 +18236,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins, qui obtient un bonus de +1 aux jets pour toucher en mêlée une seule fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -16010,6 +18246,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins, qui obtient un bonus de +1 aux jets pour toucher en mêlée une seule fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient +1 aux jets de touche en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -16077,6 +18317,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Sur des resultats non modifiés de 6 pour toucher, ces touches gagnent <key>AP</key>(+4)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque vous attaquez des unités avec plus de la moitié de leur taille totale ou de la valeur Coriace (pour les unités à modèle unique), ces coups obtiennent PA(+1)."
         }
       ],
       "specialRule": [
@@ -16098,6 +18342,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Gagne X jetons d'accumulateur à le début de chacune round, mais ne peut pas conserver plus de 6 jetons à la fois. Les lanceurs de sorts grâce à autres unités alliées à 12” ou moins peut dépenser de cette figurine jetons d'accumulateur comme si elles étaient leurs propres jetons de sort. Les lanceurs de sorts alliés peut seulement utiliser cette règle si cette unité n'est pas Ébranlée."
+        },
+        {
+          "system": "GF",
+          "text": "Obtient X jetons accumulateurs au début de chaque tour, mais ne peut pas contenir plus de 6 jetons à la fois. Les lanceurs d'autres unités amies dans un rayon de 12\" peuvent dépenser les jetons Accumulateur de cette figurine comme s'il s'agissait de leurs propres jetons Sort. Les lanceurs amis ne peuvent utiliser cette règle que si cette unité n'est pas Secouée."
         }
       ],
       "specialRule": [
@@ -16185,6 +18433,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnents Furieux contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies recevront Furieux une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -16223,6 +18475,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne Régénération une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Régénération une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -16289,6 +18545,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsqu'il attaque, un resultat non modifié de 6 pour toucher inflige 1 touche supplementaire (seule la touche d'origine compte comme un 6 pour les règles speciales)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette figurine tire/charge des ennemis à plus de 9\"/6\", le résultat non modifié de 6 pour toucher inflige 1 coup supplémentaire (seul le coup original compte pour un 6 pour les règles spéciales)."
         }
       ],
       "specialRule": [
@@ -16425,6 +18685,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les ennemis gagnent -3” de mouvement jusqu'à un minimum de 6\" lorsqu'ils tentent de charger unités dont toutes les figurines ont cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'une unité dont la plupart des figurines ont cette règle est ciblée par une unité ennemie pour charger, cette unité ennemie obtient une portée de -2\" jusqu'à un minimum de 6\"."
         }
       ],
       "specialRule": [
@@ -16470,6 +18734,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par partie, lorsque cette unité se déplace et toutes ses figurines ont cette règle, vous peut utiliser cette règle afin qu' elles se déplacent de +2” lors d'actions de Avancée actions et +4\" lors d'actions de Course/Charge actions."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lorsque cette unité se déplace, vous pouvez utiliser cette règle pour que toutes les figurines avec cette règle se déplacent de +2\" lors de l'utilisation des actions d'Avancée et de +4\" lors de l'utilisation des actions de Course/Charge."
         }
       ],
       "specialRule": [
@@ -16491,6 +18759,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, choisissez une unité ennemie à 30” ou moins et en ligne de vue de cette figurine et jet un dé, sur 4+ placez a marqueurs sur elle. Lorsque attaquant, unités alliées peut retirer des marqueurs grâce à leur cible avant effectuer les jets de blocage à gagnent +PA(X) sur leurs armes, où X est le nombre de marqueurs retirés."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 30\" ou moins et en ligne de vue de cette figurine et lancez un dé, sur 4+ placez un jeton dessus. Lorsqu'elles attaquent, les unités amies peuvent retirer des jetons de leur cible avant de lancer un jet de blocage pour obtenir +PA(X) sur leurs armes, où X est le nombre de jetons retirés."
         }
       ],
       "specialRule": [
@@ -16581,7 +18853,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent <key>Indirect</key> au tir."
         },
         {
@@ -16595,6 +18867,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent <key>Indirect</key> au tir."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Indirect sur leurs armes lors du tir."
         }
       ],
       "specialRule": [
@@ -16608,7 +18884,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Compte comme ayant <key>Infiltration</key>. La première fois que cette unité est activée après avoir été déployée via cette règle, lancez X dés ; pour chaque 4+, une unité ennemie à 6” ou moins et en ligne de vue subit 2 touches avec <key>PA</key>(1)."
         },
         {
@@ -16622,6 +18898,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine compte comme ayant Embuscade, et peut être déployée up à 1\" de distance grâce à unités ennemies(à la place de à plus de 9”). Une fois déployée, jet X dés. Pour chacune 2+ un unité ennemie à 3” ou moins subit 2 touches avec PA(1)."
+        },
+        {
+          "system": "GF",
+          "text": "Compte comme ayant Infiltration. La première fois que cette unité est activée, choisissez une unité ennemie à moins de 6\" en ligne de vue et lancez X dés. Pour chaque 2+, elle subit un coup avec PA(1)."
         }
       ],
       "specialRule": [
@@ -16690,7 +18970,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; elle subit -1 aux jets pour toucher lors d'une attaque une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -16704,6 +18984,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, qui gagne -1 à jets de touche lors d'une attaque une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, qui obtient -1 aux jets de touche lors d'une attaque une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -16730,7 +19014,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent <key>Tueur</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -16744,6 +19028,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnents Tueur contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies recevront Tueur une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -16807,6 +19095,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette figurine tire à les ennemis à plus de 9”, ou lorsqu'elle charge, ses armes gagnent PA(+2) si la majorité des figurines dans la cible ont Coriace(3) ou plus."
+        },
+        {
+          "system": "GF",
+          "text": "Lors de l'utilisation des actions Immobile et du tir, ou lors du chargement, les armes de cette figurine obtiennent PA(+2) si la plupart des figurines de la cible ont Coriace(3) ou supérieure."
         }
       ],
       "specialRule": [
@@ -16892,6 +19184,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "A la fin de l'activation de cette unité, une autre unité alliée a 12” qui n'a pas encore ete activée peut être activée immediatement. Ne peut pas être utilise si cette unité a ete activée via <key>Coordination</key>."
+        },
+        {
+          "system": "GF",
+          "text": "A la fin de l'activation de cette unité, une autre unité amie dans un rayon de 12\" qui n'a pas encore été activée peut être activée immédiatement. Ne peut pas être utilisée si cette unité a été activée via Coordination."
         }
       ],
       "specialRule": [
@@ -16903,7 +19199,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Si cette unité est a 24” d'une autre unité alliée avec cette règle contenant un <key>Hero</key>, alors ce <key>Hero</key> peut utiliser ses règles speciales qui ciblent des unités alliées a 12” (sauf les sorts) sur cette unité comme si elle etait a portee."
         },
         {
@@ -16917,6 +19213,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Si cette unité est a 24” d'une autre unité alliée avec cette règle contenant un <key>Héros</key>, alors ce <key>Héros</key> peut utiliser ses règles speciales qui ciblent des unités alliées a 12” (sauf les sorts) sur cette unité comme si elle etait a portee."
+        },
+        {
+          "system": "GF",
+          "text": "Si cette unité est à 24\" ou moins d'une autre unité amie avec cette règle qui possède un Héros, alors cette Héros peut utiliser des règles spéciales qui lui permettent de choisir des unités amies à moins de 12\" (sauf pour les sorts) sur cette unité comme si elle était à portée."
         }
       ],
       "specialRule": [
@@ -16928,7 +19228,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Les unités dont tous les modeles ont cette règle gagnent +1 aux tests de moral."
         },
         {
@@ -16942,6 +19242,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les unités dont toutes les figurines possèdent cette règle gagnent +1 aux jets de moral déclenchés par le tir ou la mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, elles obtiennent +1 aux jets de moral lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\"."
         }
       ],
       "specialRule": [
@@ -16953,7 +19257,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne Rush <key>Rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -16963,6 +19267,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne Rush <key>Rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Charge rapide une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -16976,6 +19284,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignore Couvert et, sur des resultats non modifiés de 6 pour toucher, ces touches gagnent <key>AP</key>(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "Pour chaque résultat non modifié de 6 à toucher, ces succès obtiennent PA(+2)."
         }
       ],
       "specialRule": [
@@ -16987,7 +19299,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent +1 aux jets pour toucher en mêlée contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -16997,6 +19309,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnent +1 à jets de touche au corps à corps contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies obtiennent +1 aux jets de touche en mêlée (la prochaine fois, l'effet s'appliquera)."
         }
       ],
       "specialRule": [
@@ -17008,7 +19324,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins qui gagne un bonus de +1 aux jets pour toucher lorsqu'elle tire, une seule fois (l'effet s'appliquera la prochaine fois qu'elle devrait tirer)."
         },
         {
@@ -17022,6 +19338,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée à 12” ou moins qui gagne un bonus de +1 aux jets pour toucher lorsqu'elle tire, une seule fois (l'effet s'appliquera la prochaine fois qu'elle devrait tirer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient +1 aux jets de touche en tirant une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -17054,7 +19374,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Furieux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -17064,6 +19384,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne <key>Furieux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Furieux une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -17153,6 +19477,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par partie, pendant de cette figurine activation, choisissez une unité ennemie à 24” ou moins et en ligne de vue de elle, et placez X marqueurs sur elle. Lorsque attaquant, unités alliées peut retirer des marqueurs grâce à leur cible avant effectuer les jets de blocage à gagnent +PA(Y) sur leurs armes, où Y est le nombre de marqueurs retirés."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lors de l'activation de cette figurine, avant d'attaquer, placez X jetons sur une unité ennemie à 24\" et en ligne de vue, ou un jeton sur X unités ennemies à 24\" et en ligne de vue. Lors d'une attaque, les unités amies peuvent retirer un jeton de leur cible avant de lancer un jet de blocage pour obtenir PA(+1) sur leurs armes."
         }
       ],
       "specialRule": [
@@ -17174,6 +19502,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Se deplace de +2” avec Avance, et de +2” avec Rush/Charge."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle bénéficie d'une portée de +4\"/+2\" lors de la prise de vue/chargement."
         }
       ],
       "specialRule": [
@@ -17230,7 +19562,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent +1 aux jets pour toucher au tir contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -17240,6 +19572,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnent +1 à jets de touche lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, quelles unités amies obtiennent +1 aux jets de touche lorsqu'elles tirent une fois contre (la prochaine fois, l'effet s'appliquera)."
         }
       ],
       "specialRule": [
@@ -17383,7 +19719,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et son unité gagnent Dechiquetage au tir."
         },
         {
@@ -17397,6 +19733,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Cette figurine et son unité gagnent Dechiquetage au tir."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Lacération sur leurs armes lors du tir."
         }
       ],
       "specialRule": [
@@ -17480,6 +19820,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ce modele gagne Dechiquetage en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle reçoit Lacération sur ses armes en mêlée."
         }
       ],
       "specialRule": [
@@ -17533,6 +19877,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Quand une unité où toutes les figurines possèdent cette règle est déployée ou activée, choisissez un effet jusqu'à la prochaine activation: lorsqu'elle est prise pour cible par un tir ou une charge a plus de 9”, l'unité gagne soit +1 aux jets de défense, soit les unités ennemies subissent -1 aux tests de touche contre elle."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'une unité dont la plupart des figurines ont cette règle est prise pour cible par un tir/une charge à plus de 9\"/6\", choisissez un effet: soit l'unité obtient des jets de +1 en Défense, soit les unités ennemies ont -1 aux jets de touche contre elle. Notez que vous pouvez choisir un effet différent à chaque fois que l'unité est attaquée."
         }
       ],
       "specialRule": [
@@ -17559,6 +19907,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les ennemis gagnent -6” de portée jusqu'à un minimum de 6\" lorsqu'ils tentent de tirer sur unités dont toutes les figurines ont cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'une unité dont la plupart des figurines ont cette règle est ciblée par une unité ennemie pour tirer, cette unité ennemie a une portée de -4\" jusqu'à un minimum de 6\"."
         }
       ],
       "specialRule": [
@@ -17639,6 +19991,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Quand des unités dont tous les modeles ont cette règle sont prises pour cible par des tirs ou des charges a plus de 9”, les unités ennemies subissent -1 aux jets pour toucher."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, les unités ennemies qui les tirent/les chargent à plus de 9\"/6\" obtiennent -1 aux jets de touche."
         }
       ],
       "specialRule": [
@@ -17724,6 +20080,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ce modele gagne Fleau au tir."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle reçoit Fléau sur ses armes lors du tir."
         }
       ],
       "specialRule": [
@@ -17760,6 +20120,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ce modele gagne Inarretable en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle reçoit Inarrêtable sur ses armes en mêlée."
         }
       ],
       "specialRule": [
@@ -17782,6 +20146,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Quand cette unité est entierement detruite, vous pouvez placer une nouvelle unité de X entierement a 6” avant de retirer le dernier modele."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est entièrement détruite, vous pouvez placer une nouvelle unité de X entièrement à 6\" ou moins d'elle avant de retirer la dernière figurine. Les unités placées via Scission ne peuvent pas capturer ou contester d'objectifs lors du tour où elles sont placées."
         }
       ],
       "specialRule": [
@@ -17856,6 +20224,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Quand ce modele tire sur des ennemis a plus de 9” ou lorsqu'il charge, ses armes gagnent <key>AP</key>(+1)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette figurine tire/charge des ennemis à plus de 9\"/6\", ses armes obtiennent PA(+1)."
         }
       ],
       "specialRule": [
@@ -17868,7 +20240,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies à 18” ou moins et en ligne de vue ; elles comptent comme étant en <key>Terrain dangereux</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -17882,6 +20254,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, qui est considérée comme étant en terrain dangereux une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" de ligne de vue, ce qui compte une fois comme étant en terrain dangereux (la prochaine fois, l'effet s'appliquera)."
         }
       ],
       "specialRule": [
@@ -17940,7 +20316,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie a 18” ; les unités alliées gagnent <key>Implacable</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
@@ -17950,6 +20326,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnents Implacable contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies recevront Implacable une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -17963,6 +20343,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignore la Régénération, et contre les unités dont la plupart des figurines possèdent une Défense comprise entre 2+ et 4+, cette arme gagne un bonus de <key>AP</key>(+1)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque vous attaquez des unités secouées ou fatiguées, cette arme obtient PA(+2)."
         }
       ],
       "specialRule": [
@@ -18047,6 +20431,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette unité est entièrement détruite, placez as many Vengeance marqueurs sur l'unité qui détruite elle as les figurines avec cette règle dans cette unité au début de la partie. Les unités alliées gagnent +X à jets de touche lors d'une attaque qui unit, dont X est le nombre de marqueurs sur elle."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est entièrement détruite, placez autant de jetons Vengeance sur l'unité qui l'a détruite que de figurines avec cette règle dans cette unité au début de la partie. Les unités amies obtiennent +X aux jets de touche lorsqu'elles attaquent cette unité, X étant le nombre de jetons sur elle."
         }
       ],
       "specialRule": [
@@ -18234,6 +20622,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, lorsque cette figurine se déplace through unités ennemies, choisissez une de elles et jet X dés. Pour chacune 6+ la cible subit une blessure."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, lorsque cette figurine traverse des unités ennemies, choisissez-en une et lancez X dés. Pour chaque 6+, la cible subit une blessure."
         }
       ],
       "specialRule": [
@@ -18285,6 +20677,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Contre les unités dont la plupart des figurines possèdent une <key>Defense</key> 2+ a <key>Defense</key> 3+, cette arme gagne <key>AP</key>(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'elle attaque des unités secouées ou fatiguées, la cible doit relancer les résultats Défense non modifiés réussis de 5-6."
         }
       ],
       "specialRule": [
@@ -18306,6 +20702,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnents Fléau lors d'une attaque contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, quelles unités amies recevront Fléau sur leurs armes lorsqu'elles attaqueront une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -18344,6 +20744,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par partie, pendant de cette figurine activation, choisissez une unité ennemie à 18” ou moins et en ligne de vue de elle, et placez X marqueurs sur elle. Les unités alliées gagnent +PA(X) sur leurs armes lors d'une attaque elle."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lors de l'activation de cette figurine, avant d'attaquer, choisissez X unités ennemies à 18\" ou moins et en ligne de vue d'elle, et placez un jeton sur elles. Les unités amies obtiennent PA(+1) sur leurs armes lorsqu'elles les attaquent."
         }
       ],
       "specialRule": [
@@ -18399,6 +20803,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignore la règle spéciale Régénération et, contre les unités dont la plupart des figurines ont une Défense comprise entre 5+ et 6+, cette arme obtient <key>Explosion</key>(3)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'elle attaque des unités à plus de la moitié de la portée de cette arme, la cible doit relancer les résultats Défense non modifiés de 6."
         }
       ],
       "specialRule": [
@@ -18416,6 +20824,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnents Inarrêtable contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies recevront Inarrêtable sur leurs armes une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -18454,6 +20866,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Quand des unités dont tous les modeles ont cette règle sont prises pour cible par des tirs ou des charges a plus de 9”, elles gagnent +1 aux jets de defense."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, elles obtiennent des jets de +1 en Défense lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\"."
         }
       ],
       "specialRule": [
@@ -18589,6 +21005,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Quand une unité dont tous les modeles ont cette règle subit des blessures, lancez un de par blessure. Sur 6+, elle est ignoree."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu’une unité où la plupart des figurines possèdent cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, il est ignoré."
         }
       ],
       "specialRule": [
@@ -18628,6 +21048,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignore Couvert et, contre les unités dont la majorite des modeles ont <key>Defense</key> 2+ a <key>Defense</key> 3+, cette arme gagne <key>AP</key>(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'elle attaque des unités avec plus de la moitié de leur taille totale ou de la valeur Coriace (pour les unités à modèle unique), la cible doit relancer les résultats Défense non modifiés de 6."
         }
       ],
       "specialRule": [
@@ -18670,6 +21094,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnent +6” de portée lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, les unités amies bénéficiant d'une portée de +6\" sur leurs armes lorsqu'elles tirent une fois contre elles (la prochaine fois, l'effet s'appliquerait)."
         }
       ],
       "specialRule": [
@@ -18691,6 +21119,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, choisissez une unité ennemie à 30” ou moins et en ligne de vue de cette figurine et jet un dé, sur 4+ placez a marqueurs sur elle. Les unités alliées peut retirer des marqueurs grâce à leur cible avant effectuer les jets de touche à gagnent +X à jets de touche lors d'une attaque, où X est le nombre de marqueurs retirés."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 30\" ou moins et en ligne de vue de cette figurine et lancez un dé, sur 4+, placez un jeton dessus. Les unités amies peuvent retirer des jetons de leur cible avant de lancer pour toucher pour obtenir +X pour toucher lors de l'attaque, où X est le nombre de jetons retirés."
         }
       ],
       "specialRule": [
@@ -18712,6 +21144,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette figurine tire à les ennemis à plus de 9”, ses armes gagnent PA(+2) si la majorité des figurines dans la cible ont Coriace(3) ou plus."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque vous utilisez les actions Immobile et le tir, les armes de cette figurine obtiennent PA(+2) si la plupart des figurines de la cible ont Coriace(3) ou supérieure."
         }
       ],
       "specialRule": [
@@ -18768,6 +21204,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque des unités dont toutes les figurines possèdent cette règle subissent des tirs ou sont chargées à plus de 9”, elles obtiennent un bonus de +1 aux jets de Défense."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, elles obtiennent des jets de +1 en Défense lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\"."
         }
       ],
       "specialRule": [
@@ -18789,6 +21229,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité alliée a 12” ; elle gagne Furtivite une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Furtif une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ],
       "specialRule": [
@@ -18844,6 +21288,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par partie, quand une unité dont tous les modeles ont cette règle termine son activation, vous pouvez immediatement la retirer de la table (en lachant tous les objectifs qu'elle pourrait tenir a 1”), puis la deployer comme si elle avait <key>Embuscade</key> au debut du round suivant."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lorsqu'une unité dont toutes les figurines ont cette règle termine son activation, vous pouvez immédiatement la retirer de la table (en laissant tomber tous les objectifs qu'elle pourrait détenir dans un rayon de 1\"), et la déployer comme si elle possédait Embuscade au début du tour suivant."
         }
       ],
       "specialRule": [
@@ -18882,6 +21330,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par round, les unités dont tous les modeles ont cette règle peuvent se deplacer de jusqu'à 3” apres avoir tire ou combattu en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par tour, cette figurine peut se déplacer de 3\" maximum après avoir tiré ou été en mêlée."
         }
       ],
       "specialRule": [
@@ -18916,6 +21368,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Placez un marqueur sur ce modele lorsqu'il ignore une blessure. En mêlée, choisissez une de ses armes pour obtenir +X attaques, ou X est le nombre de marqueurs sur lui."
+        },
+        {
+          "system": "GF",
+          "text": "Placez un jeton sur cette figurine lorsqu'elle ignore une blessure. Une fois par tour, lorsque c'est le tour de cette figurine de frapper au corps à corps, lancez autant de dés que de jetons sur elle avant d'attaquer, sauf si cette unité est fatiguée. Pour chaque 4+, la cible subit une blessure."
         }
       ],
       "specialRule": [
@@ -18971,6 +21427,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lors d'une attaque, la cible doit relancer les resultats de <key>Defense</key> non modifiés de 6."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'elle attaque, la cible doit relancer les résultats Défense non modifiés de 6."
         }
       ],
       "specialRule": [
@@ -19051,6 +21511,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Place un marqueur sur cette unité au début de chacune round si elle est sur la table et n'est pas Ébranlée, jusqu'à un maximum de quatre marqueurs. Pour chaque paire de marqueurs, les figurines avec cette règle dans cette unité gagnent +1 aux jets de touche."
+        },
+        {
+          "system": "GF",
+          "text": "Placez un jeton sur cette unité au début de chaque tour s'il est sur la table et n'est pas secoué, jusqu'à un maximum. de quatre jetons. Pour deux jetons, les figurines avec cette règle dans cette unité obtiennent +1 aux jets de touche."
         }
       ],
       "specialRule": [
@@ -19098,6 +21562,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Ce modele gagne <key>Riposte</key> en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle reçoit Contre-charge sur ses armes en mêlée."
         }
       ],
       "specialRule": [
@@ -19111,6 +21579,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignore la Régénération et, contre les unités dont la majorite des modeles ont <key>Tough</key>(3) a <key>Tough</key>(9), cette arme gagne <key>AP</key>(+4)."
+        },
+        {
+          "system": "GF",
+          "text": "Ignore Régénération, et lors de l'attaque d'unités dont la plupart des figurines ont Défense 2+ à Défense 3+, cette arme obtient PA(+2)."
         }
       ],
       "specialRule": [
@@ -19259,6 +21731,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par partie, pendant de cette figurine activation, choisissez une unité ennemie à 24” ou moins et en ligne de vue de elle, et placez X marqueurs sur elle. Lorsque attaquant, unités alliées peut retirer des marqueurs grâce à leur cible avant effectuer les jets de touche à gagnent +Y à jets de touche, où Y est le nombre de marqueurs retirés."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lors de l'activation de cette figurine, avant d'attaquer, placez X jetons sur une unité ennemie à 24\" et en ligne de vue, ou un jeton sur X unités ennemies à 24\" et en ligne de vue. Lorsqu'elles attaquent, les unités amies peuvent retirer un jeton de leur cible avant de lancer pour toucher pour obtenir +1 aux jets de touche."
         }
       ],
       "specialRule": [
@@ -19378,6 +21854,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, qui gagne Encombrant au corps à corps une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, qui obtient une fois Encombrant sur ses armes en mêlée (la prochaine fois, l'effet s'appliquera)."
         }
       ],
       "specialRule": [
@@ -19458,6 +21938,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Les unités alliées utilisant <key>Embuscade</key> peuvent ignorer les restrictions de distance des ennemis si elles sont déployées entièrement à 6” ou moins de ce modèle."
+        },
+        {
+          "system": "GF",
+          "text": "Les unités amies utilisant Embuscade peuvent ignorer les restrictions de distance des ennemis si elles sont déployées à moins de 6\" de cette figurine."
         }
       ]
     },
@@ -19570,6 +22054,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12”, qui gagnent <key>Fléau en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient une fois Fléau sur ses armes en mêlée (la prochaine fois, l'effet s'appliquera)."
         }
       ]
     },
@@ -19598,6 +22086,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Si une unité dont toutes les figurines possèdent cette règle spéciale est Ébranlée au début du tour, lancez un dé. Sur un résultat de 4+, elle cesse d'être Ébranlée."
+        },
+        {
+          "system": "GF",
+          "text": "Si une unité dont la plupart des figurines ont cette règle est secouée au début du tour, lancez un dé. Sur 4+, il cesse d'être secoué."
         }
       ]
     },
@@ -19752,6 +22244,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Les ennemis subissent -4″ de portée, jusqu'à un minimum de 6″, lorsqu'ils tentent de tirer sur une unité dont toutes les figurines possèdent cette règle, et -2″ de mouvement, jusqu'à un minimum de 6″, lorsqu'ils tentent de la charger."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'une unité dont la plupart des figurines ont cette règle est ciblée par une unité ennemie pour tirer/charger, cette unité ennemie a une portée de -4\"/-2\" à un minimum de 6\"."
         }
       ]
     },
@@ -19766,6 +22262,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Une fois par round, à la fin de l'activation de cette unité, vous pouvez placer toutes les figurines de cette unité qui ont cette règle n'importe où entièrement à D3+1” ou moins de leur position."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par tour, à la fin de l'activation de cette unité, vous pouvez déplacer toutes les figurines comportant cette règle d'un maximum de D3+1\"."
         }
       ]
     },
@@ -19780,6 +22280,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Si toutes les figurines dans cette unité ont cette règle, placez un marqueurs sur elle au début de chacune round si elle est sur la table et n'est pas Ébranlée, jusqu'à un maximum de quatre marqueurs. Pour chaque paire de marqueurs, les figurines avec cette règle dans cette unité gagnent +1 en Défense jets."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, placez un jeton dessus au début de chaque tour s'il est sur la table et n'est pas Secoué, jusqu'à un maximum. de quatre jetons. Pour deux jetons, cette unité obtient des jets +1 en Défense."
         }
       ]
     },
@@ -19794,6 +22298,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Croissance défensive</key>. Si ce modèle est tué, les unités choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Croissance défensive."
         }
       ]
     },
@@ -19804,6 +22312,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ignore le couvert et, contre les unités non-Héros avec <key>Coriace</key>(3) ou plus, cette arme gagne <key>PA</key>(+2)."
+        },
+        {
+          "system": "GF",
+          "text": "Ignore le couvert, et lorsque vous attaquez des unités dont la plupart des figurines se trouvent à moins de 1\" du terrain, cette arme obtient PA(+1)."
         }
       ]
     },
@@ -19818,6 +22330,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Lors d'une attaque, les résultats non modifiés de 6 pour toucher infligent une touche supplémentaire (seule la touche initiale compte comme un 6 pour les règles spéciales)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette figurine tire/charge des ennemis à plus de 9\"/6\", le résultat non modifié de 6 pour toucher inflige 1 coup supplémentaire (seul le coup original compte pour un 6 pour les règles spéciales)."
         }
       ]
     },
@@ -19860,6 +22376,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12”, qui gagnent <key>Retranché</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Retranché une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -19888,6 +22408,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Si une unité dont toutes les figurines ont cette règle en a la majorité à 1” ou moins d'un terrain, elle obtient +1 aux jets pour toucher lorsqu'elle attaque."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité sont à 1\" ou moins du terrain, cette figurine gagne +1 aux jets de touche lorsqu’elle attaque."
         }
       ]
     },
@@ -19896,7 +22420,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Précision ancrée</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
         },
         {
@@ -19906,6 +22430,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Précision ancrée</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Précision ancrée."
         }
       ]
     },
@@ -19934,6 +22462,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des tirs ou une charge depuis plus de 9” et encaisse des touches, ces touches comptent comme ayant PA(-1), jusqu'à un minimum de PA(0)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque les unités où la plupart des figurines ont cette règle subissent des touches, ces touches comptent comme ayant PA(-1), jusqu'à un min. de PA(0)."
         }
       ]
     },
@@ -19980,6 +22512,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Une fois par round, les unités dont toutes les figurines ont cette règle peuvent se déplacer de jusqu'à 3” après avoir tiré ou combattu en mêlée."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par tour, cette figurine peut se déplacer de 3\" maximum après avoir tiré ou été en mêlée."
         }
       ]
     },
@@ -20022,6 +22558,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Les unités dont toutes les figurines ont cette règle obtiennent +1 aux jets de test de moral."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, elles obtiennent +1 aux jets de moral lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\"."
         }
       ]
     },
@@ -20134,6 +22674,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18” ou moins en ligne de vue, contre laquelle les unités alliées gagnents Indirect contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies recevront Indirect sur leurs armes une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -20148,6 +22692,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Les ennemis qui effectuent des jets de défense contre les touches des armes de cette figurine subissent 1 blessure supplémentaire pour chaque résultat non modifié de 1 obtenu."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette figurine tire/charge des ennemis à plus de 9\"/6\", les résultats non modifiés de 1 pour bloquer les coups des armes infligent 1 blessure supplémentaire."
         }
       ]
     },
@@ -20190,6 +22738,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Ce modèle et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Infiltration</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Infiltration."
         }
       ]
     },
@@ -20204,6 +22756,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Une fois par partie, si toutes les figurines de cette unité ont cette règle, elle peut être activée même si elle l'a déjà été ce round-ci, et elle cesse d'être fatiguée lors de cette seconde activation. Seul un tiers des unités de l'armée ayant cette règle au début de la partie, arrondi au supérieur, peut l'utiliser dans un même round."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, si toutes les figurines de cette unité ont cette règle, elle peut être activée même si elle l'avait déjà activé ce tour (elle cesse d'être Fatiguée lorsqu'elle est réactivée). Seul un tiers des unités de l'armée soumises à cette règle au début du jeu (arrondi au supérieur) peuvent l'utiliser au cours d'un seul tour."
         }
       ]
     },
@@ -20218,6 +22774,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, elle est ignorée. Si les blessures proviennent d'un sort, elles sont ignorées sur 4+ à la place."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu’une unité où la plupart des figurines possèdent cette règle subit des blessures, lancez un dé pour chacune. Si la blessure provient d'un sort, alors elle est ignorée sur 2+. Si la blessure ne provient pas d'un sort et que l'unité a été tirée/chargée à plus de 9\"/6\", alors elle est ignorée sur 6+ à la place."
         }
       ]
     },
@@ -20232,6 +22792,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des tirs ou une charge depuis plus de 9”, les unités ennemies subissent -1 aux jets pour toucher."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, les unités ennemies qui les tirent/les chargent à plus de 9\"/6\" obtiennent -1 aux jets de touche."
         }
       ]
     },
@@ -20274,6 +22838,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Une fois par partie, si toutes les figurines de cette unité ont cette règle, elle peut être activée même si elle l'a déjà été ce round-ci, et elle cesse d'être fatiguée lors de cette seconde activation. Seul un tiers des unités de l'armée ayant cette règle au début de la partie, arrondi au supérieur, peut l'utiliser dans un même round."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, si toutes les figurines de cette unité ont cette règle, elle peut être activée même si elle l'avait déjà activé ce tour (elle cesse d'être Fatiguée lorsqu'elle est réactivée). Seul un tiers des unités de l'armée soumises à cette règle au début du jeu (arrondi au supérieur) peuvent l'utiliser au cours d'un seul tour."
         }
       ]
     },
@@ -20288,6 +22856,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12”, qui gagnent <key>Sans retraite</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Pas de retraite une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -20306,6 +22878,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Placez un marqueur sur cette unité lorsqu'elle détruit entièrement une unité ennemie, jusqu'à un maximum de deux marqueurs. Pour chaque marqueur, toutes les figurines de cette unité ayant cette règle gagnent <key>PA</key>(+1) sur leurs armes lorsqu'elles attaquent, jusqu'à la fin de la partie."
+        },
+        {
+          "system": "GF",
+          "text": "Placez un jeton sur cette unité lorsqu'elle détruit complètement une unité ennemie, jusqu'à un maximum. de deux jetons. Pour chaque jeton, toutes les figurines avec cette règle dans cette unité obtiennent PA(+1) sur leurs armes lorsqu'elles attaquent jusqu'à la fin de la partie."
         }
       ]
     },
@@ -20320,6 +22896,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Place un marqueur sur cette unité au début de chacune round si elle est sur la table et n'est pas Ébranlée, jusqu'à un maximum de quatre marqueurs. Pour chaque paire de marqueurs, les figurines avec cette règle dans cette unité gagnent PA(+1) sur leurs armes."
+        },
+        {
+          "system": "GF",
+          "text": "Placez un jeton sur cette unité au début de chaque tour s'il est sur la table et n'est pas secoué, jusqu'à un maximum. de quatre jetons. Pour deux jetons, les figurines avec cette règle dans cette unité obtiennent PA(+1) sur leurs armes."
         }
       ]
     },
@@ -20340,6 +22920,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Une fois par activation, avant d'attaquer, choisissez 1 ennemie à 18” en ligne de vue, contre lesquelles les unités alliées gagnent <key>Tir Imprévisible</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies recevront Tireur imprevisible une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -20396,6 +22980,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Protege."
         }
       ]
     },
@@ -20404,7 +22992,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection mutuelle</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
         },
         {
@@ -20414,6 +23002,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Protection mutuelle</key>. Si cette figurine est tué, les unités choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Protection mutuelle."
         }
       ]
     },
@@ -20480,6 +23072,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités alliées à 12”, qui gagnent Avance rapide une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Avance rapide une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -20508,6 +23104,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Lorsque cette unité est activée, vous pouvez placer toutes les figurines qui possèdent cette règle n'importe où entièrement à D3″ de leur position."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est activée, vous pouvez déplacer toutes les figurines avec cette règle jusqu'à D3\"."
         }
       ]
     },
@@ -20684,6 +23284,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque une unité où toutes les figurines possèdant cette règle subit des tirs ou est chargée depuis plus de 9”, les unités ennemies gagnent -1 aux jets pour toucher."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, les unités ennemies qui les tirent/les chargent à plus de 9\"/6\" obtiennent -1 aux jets de touche."
         }
       ]
     },
@@ -20698,6 +23302,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Projection</key>. Si ce modèle est tué les unités choisies déjà déloyées perdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Projection."
         }
       ]
     },
@@ -20726,6 +23334,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Lorsqu'une unité dont toutes les figurines ont cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, elle est ignorée."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu’une unité où la plupart des figurines possèdent cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, il est ignoré."
         }
       ]
     },
@@ -20796,6 +23408,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Cette figurine gagne <key>Déchiquetage au tir</key>."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle reçoit Lacération sur ses armes lors du tir."
         }
       ]
     },
@@ -20834,6 +23450,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Lorsdque cette figurine tire sur un ennemi à plus de 9”, il obtient +1 aux jets pour toucher."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu’elle tire sur des ennemis à plus de 9\" de distance, cette figurine obtient +1 aux jets de touche."
         }
       ]
     },
@@ -20890,6 +23510,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Portée polyvalente</key>. Si cette figurine est tuée, les unités choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Portée polyvalente."
         }
       ]
     },
@@ -20904,6 +23528,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Lorsque cette unité est activée, choisissez un effet : jusqu'à la fin de l'activation, lorsqu'elles tirent sur des ennemis situés à plus de 9″ ou les chargent, toutes les figurines de cette unité possédant cette règle gagnent PA (+1) ou +1 aux jets pour toucher."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est activée, choisissez un effet: jusqu'à la fin de l'activation, lorsque vous tirez/chargez des ennemis à plus de 9\"/6\", toutes les figurines avec cette règle obtiennent soit PA(+1) soit +1 aux jets de touche."
         }
       ]
     },
@@ -20918,6 +23546,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Lorsque cette unité est activée, vous pouvez placer toutes les figurines qui possèdent cette règle n'importe où entièrement à D3″ de leur position."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est activée, vous pouvez déplacer toutes les figurines avec cette règle jusqu'à D3\"."
         }
       ]
     },
@@ -20956,6 +23588,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Ce modèle gagne +6” de portée lorsqu'il tire."
+        },
+        {
+          "system": "GF",
+          "text": "Cette figurine bénéficie d'une portée de +6\" sur ses armes lors du tir."
         }
       ]
     },
@@ -20966,6 +23602,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12” ou moins qui bénéficie de la règle spéciale <key>Protégé</key> une seule fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Protégé une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -20990,6 +23630,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12” ou moins ; elle gagne <key>Vif</key> une fois, lors de la prochaine application de cet effet."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Vif une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -21010,6 +23654,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12” ou moins ; elle gagne +6” de portée lorsqu'elle tire une fois, lors de la prochaine application de cet effet."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient +6\" de portée sur ses armes en tirant une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -21020,6 +23668,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie à 12” ou moins ; elle se déplace de +2” lors d'une action Advance et de +4” lors d'une action Rush ou Charge une fois, lors de la prochaine application de cet effet."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui se déplace de +2\" lors de l'utilisation des actions d'Avancée et de +4\" lors de l'utilisation des actions de Course/Charge une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -21030,6 +23682,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Si une unité dont tous les modèles possèdent cette règle est Shaken au début du round, lancez un dé. Sur 4+, elle cesse d'être Shaken."
+        },
+        {
+          "system": "GF",
+          "text": "Si une unité dont la plupart des figurines ont cette règle est secouée au début du tour, lancez un dé. Sur 4+, il cesse d'être secoué."
         }
       ]
     },
@@ -21132,6 +23788,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Élan</key>. Si cette figurine est tuée, les figurines choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Élan."
         }
       ]
     },
@@ -21150,6 +23810,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Si toutes les figurines dans cette unité ont cette règle, placez un marqueurs sur cette unité lorsque elle entièrement détruit une unité ennemie, up à a max. de deux marqueurs. Pour chacune marqueur cette unité gagne +1 en Défense jets jusqu'à la fin de la partie."
+        },
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent cette règle, placez un jeton sur cette unité lorsqu'elle détruit complètement une unité ennemie, jusqu'à un maximum de 1 000 unités. de deux jetons. Pour chaque jeton, cette unité obtient des jets +1 en Défense jusqu'à la fin de la partie."
         }
       ]
     },
@@ -21186,6 +23850,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Placez un marqueur sur cette unité lorsqu'elle détruit entièrement une unité ennemie, jusqu'à un maximum de deux marqueurs. Pour chaque marqueur, toutes les figurines de cette unité ayant cette règle gagnent +1 aux jets pour toucher jusqu'à la fin de la partie."
+        },
+        {
+          "system": "GF",
+          "text": "Placez un jeton sur cette unité lorsqu'elle détruit complètement une unité ennemie, jusqu'à un maximum. de deux jetons. Pour chaque jeton, toutes les figurines avec cette règle dans cette unité reçoivent +1 aux jets de touche jusqu'à la fin de la partie."
         }
       ]
     },
@@ -21232,6 +23900,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent <key>Tireur prédateur</key>. Si cette figurine est tuée, les figurines choisies déjà déployées perdent cette règle."
+        },
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Tireur prédateur."
         }
       ]
     },
@@ -21246,6 +23918,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Quand une unité dont toutes les figurines ont cette règle est touchée par un tir ou une charge depuis plus de 9” de distance, ces touches comptent comme ayant <key>PA</key>(-1), jusqu'à un minimum de <key>PA</key>(0)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque les unités où la plupart des figurines ont cette règle subissent des touches, ces touches comptent comme ayant PA(-1), jusqu'à un min. de PA(0)."
         }
       ]
     },
@@ -21296,6 +23972,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "GFF",
           "text": "Une fois par partie, lorsque cette figurine tire, elle peut effectuer un supplémentaires attaque contre la cible à Qualité 2+ avec PA(2), Mortel(3), et Élimination."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par partie, lorsque cette figurine tire, elle peut effectuer X attaques supplémentaires contre la cible de qualité 2+ avec PA(2), Mortel(3) et Élimination."
         }
       ]
     },
@@ -21304,12 +23984,16 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins en ligne de vue. Les unités alliées gagnent <key>PA</key>(+1) lorsqu'elles tirent contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
         },
         {
           "system": "AOFS",
           "text": "Une fois par activation, avant d'attaquer, choisissez jusqu'à 4 unités ennemies en ligne de vue à 18” ou moins, contre lesquelles les unités alliées gagnent <key>PA</key>(+1) au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, laquelle unité amie obtient PA(+1) sur ses armes lorsqu'elle tire une fois contre (la prochaine fois, l'effet s'appliquera)."
         }
       ]
     },
@@ -21320,6 +24004,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins en ligne de vue. Elle perd <key>PA</key>(+1) lorsqu'elle attaque une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, qui perd PA(1) sur ses armes en attaquant une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -21334,6 +24022,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à 18\" ou moins en ligne de vue. Les unités alliées gagnent <key>Perforant</key> contre elle une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" en ligne de vue, contre laquelle les unités amies recevront Perforant sur leurs armes une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -21424,7 +24116,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "Les ennemis subissent -4″ de portée, jusqu'à un minimum de 6″, lorsqu'ils tentent de tirer sur une unité dont toutes les figurines possèdent cette règle, et -2″ de mouvement, jusqu'à un minimum de 6″, lorsqu'ils tentent de la charger."
         },
         {
@@ -21434,6 +24126,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les ennemis subissent -4″ de portée, jusqu'à un minimum de 6″, lorsqu'ils tentent de tirer sur une unité dont toutes les figurines possèdent cette règle, et -2″ de mouvement, jusqu'à un minimum de 6″, lorsqu'ils tentent de la charger."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu'une unité dont la plupart des figurines ont cette règle est ciblée par une unité ennemie pour tirer/charger, cette unité ennemie a une portée de -4\"/-2\" à un minimum de 6\"."
         }
       ]
     },
@@ -21442,7 +24138,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "Lorsqu'une unité dont toutes les figurines possèdent cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, elle est ignorée. Si la blessure provient d'un sort, elle est ignorée sur 4+ à la place."
         },
         {
@@ -21452,6 +24148,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsqu'une unité dont toutes les figurines possèdent cette règle subit des blessures, lancez un dé pour chacune. Sur 6+, elle est ignorée. Si la blessure provient d'un sort, elle est ignorée sur 4+ à la place."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsqu’une unité où la plupart des figurines possèdent cette règle subit des blessures, lancez un dé pour chacune. Si la blessure provient d'un sort, alors elle est ignorée sur 2+. Si la blessure ne provient pas d'un sort et que l'unité a été tirée/chargée à plus de 9\"/6\", alors elle est ignorée sur 6+ à la place."
         }
       ]
     },
@@ -21460,7 +24160,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "Lorsque cette unité est activée, vous pouvez placer toutes les figurines qui possèdent cette règle n'importe où entièrement à D3″ de leur position."
         },
         {
@@ -21470,6 +24170,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette unité est activée, vous pouvez placer toutes les figurines qui possèdent cette règle n'importe où entièrement à D3″ de leur position."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est activée, vous pouvez déplacer toutes les figurines avec cette règle jusqu'à D3\"."
         }
       ]
     },
@@ -21478,7 +24182,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "Lors d'une attaque, chaque résultat naturel de 6 pour toucher inflige une touche supplémentaire (seule la touche d'origine compte comme un 6 pour les règles spéciales)."
         },
         {
@@ -21488,6 +24192,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lors d'une attaque, chaque résultat naturel de 6 pour toucher inflige une touche supplémentaire (seule la touche d'origine compte comme un 6 pour les règles spéciales)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette figurine tire/charge des ennemis à plus de 9\"/6\", le résultat non modifié de 6 pour toucher inflige 1 coup supplémentaire (seul le coup original compte pour un 6 pour les règles spéciales)."
         }
       ]
     },
@@ -21532,7 +24240,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "Lorsque cette figurine tire sur des ennemis situés à plus de 9″ ou lorsqu'elle charge, ses armes gagnent PA (+1)."
         },
         {
@@ -21542,6 +24250,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Lorsque cette figurine tire sur des ennemis situés à plus de 9″ ou lorsqu'elle charge, ses armes gagnent PA (+1)."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette figurine tire/charge des ennemis à plus de 9\"/6\", ses armes obtiennent PA(+1)."
         }
       ]
     },
@@ -21568,7 +24280,7 @@ export const commonRules: RulesByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF/AOFS",
+          "system": "AOF/AOFS",
           "text": "Les ennemis qui tentent de bloquer les touches infligées par les armes de cette figurine subissent 1 blessure supplémentaire pour chaque résultat naturel de 1 obtenu."
         },
         {
@@ -21578,6 +24290,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFR",
           "text": "Les ennemis qui tentent de bloquer les touches infligées par les armes de cette figurine subissent 1 blessure supplémentaire pour chaque résultat naturel de 1 obtenu."
+        },
+        {
+          "system": "GF",
+          "text": "Lorsque cette figurine tire/charge des ennemis à plus de 9\"/6\", les résultats non modifiés de 1 pour bloquer les coups des armes infligent 1 blessure supplémentaire."
         }
       ]
     },
@@ -21782,6 +24498,1186 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFS",
           "text": "Cette figurine et jusqu'à 3 unités alliées choisies avant le début de la partie gagnent Boost d'Équipement exotique. Si cette figurine est tuée, les figurines choisies qui sont déployées perdent cette règle."
+        }
+      ]
+    },
+    "Imprecise": {
+      "title": "Imprécis",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Obtient -1 pour toucher lors de l'attaque."
+        }
+      ]
+    },
+    "Unique Hero": {
+      "title": "Héros unique",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Compte comme ayant Héros, et cette figurine ne peut être prise qu'une seule fois par armée."
+        }
+      ]
+    },
+    "Enhanced Hive Bond": {
+      "title": "Lien de ruche amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Lien de ruche, elles obtiennent toujours +1 aux jets de moral de Lien de ruche (au lieu de seulement lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Anti-Cover": {
+      "title": "Anti-couverture",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Cette arme ignore le couvert."
+        }
+      ]
+    },
+    "Spell Resistance": {
+      "title": "Résistance aux sorts",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Lorsqu’une unité où la plupart des figurines possèdent cette règle subit des blessures, lancez un dé pour chacune. Si la blessure provient d'un sort, alors elle est ignorée sur 2+. Si la blessure ne provient pas d’un sort, alors elle est ignorée sur 6+."
+        }
+      ]
+    },
+    "Cumbersome": {
+      "title": "Lourd",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ne peut utiliser que les actions Immobile ou Avancée, mais ne peut pas tirer en se déplaçant."
+        }
+      ]
+    },
+    "Anti-Regen": {
+      "title": "Anti-régénération",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Cette arme ignore Régénération."
+        }
+      ]
+    },
+    "Valiant": {
+      "title": "Vaillant",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, elles obtiennent +1 aux jets de moral lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\"."
+        }
+      ]
+    },
+    "Enhanced Valiant": {
+      "title": "Vaillant amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Vaillant, elles obtiennent toujours +1 aux jets de moral de Vaillant (au lieu de seulement lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Predator Aura": {
+      "title": "Aura du prédateur",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Prédateur."
+        }
+      ]
+    },
+    "Enhanced Hive Bond Aura": {
+      "title": "Aura de lien de ruche améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Lien de ruche amélioré."
+        }
+      ]
+    },
+    "Versatile Expert": {
+      "title": "Expert polyvalent",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est activée, choisissez un effet: jusqu'à la fin de l'activation, toutes les figurines avec cette règle dans cette unité obtiennent soit PA(+1) lorsqu'elles attaquent, soit +1 aux jets de touche lorsqu'elles attaquent."
+        }
+      ]
+    },
+    "Bravery Aura": {
+      "title": "Aura de bravoure",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité obtiennent +1 aux jets de moral."
+        }
+      ]
+    },
+    "Enhanced Bloodborn": {
+      "title": "Bloodborn amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Né du sang, elle obtient des attaques supplémentaires sur les résultats de coups non modifiés réussis de 5-6 de Né du sang (au lieu de seulement sur 6)."
+        }
+      ]
+    },
+    "Enhanced Predator": {
+      "title": "Prédateur amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Prédateur, elle obtient des attaques supplémentaires sur les résultats de coups non modifiés réussis de 5-6 de Prédateur (au lieu de seulement sur 6)."
+        }
+      ]
+    },
+    "Enhanced Bloodborn Aura": {
+      "title": "Aura sanguine améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Bloodborn amélioré."
+        }
+      ]
+    },
+    "Enhanced Darkborn": {
+      "title": "Darkborn amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent un Né de l'Ombre, les unités ennemies qui tirent/chargent sur cette unité ont une portée de -8\"/-4\" à un minimum de 6\" de Né de l'Ombre (au lieu de seulement -4\"/-2\")."
+        }
+      ]
+    },
+    "Enhanced Shrouded": {
+      "title": "Enveloppé amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent un Voilé, les unités ennemies qui tirent/chargent sur cette unité ont une portée de -8\"/-4\" à un minimum de 6\" de Voilé (au lieu de seulement -4\"/-2\")."
+        }
+      ]
+    },
+    "Enhanced Darkborn Aura": {
+      "title": "Aura de Darkborn améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Darkborn amélioré."
+        }
+      ]
+    },
+    "Enhanced Knightborn": {
+      "title": "Chevalier-né amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Né chevalier, elles ignorent toujours les blessures tirées/chargées sur les jets de 6+ de Né chevalier (au lieu de seulement lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Warding": {
+      "title": "Protection améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Protection mystique, elles ignorent toujours les blessures tirées/chargées sur les jets de 6+ de Protection mystique (au lieu de seulement lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Knightborn Aura": {
+      "title": "Aura de chevalier améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Chevalier-né amélioré."
+        }
+      ]
+    },
+    "Enhanced Watchborn": {
+      "title": "Watchborn amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Attaque polyvalente, elle obtient toujours soit PA(+1) soit +1 aux jets de touche de Attaque polyvalente (au lieu de seulement lorsqu'elle tire/charge des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Versatile Warrior": {
+      "title": "Guerrier polyvalent",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Lorsque cette unité est activée, choisissez un effet: jusqu'à la fin de l'activation, lorsque vous tirez/chargez des ennemis à plus de 9\"/6\", toutes les figurines avec cette règle obtiennent soit PA(+1) soit +1 aux jets de touche."
+        }
+      ]
+    },
+    "Enhanced Versatile Warrior": {
+      "title": "Guerrier polyvalent amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Attaque polyvalente, elle obtient toujours soit PA(+1) soit +1 aux jets de touche de Attaque polyvalente (au lieu de seulement lorsqu'elle tire/charge des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Watchborn Aura": {
+      "title": "Aura de Watchborn améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Watchborn amélioré."
+        }
+      ]
+    },
+    "Enhanced Wolfborn": {
+      "title": "Wolfborn amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si ce modèle possède Né du loup, il peut se déplacer jusqu'à 2D3\" par rapport à Né du loup (au lieu de seulement D3\")."
+        }
+      ]
+    },
+    "Enhanced Nimble": {
+      "title": "Agile améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si ce modèle possède Agile, il peut se déplacer jusqu'à 2D3\" par rapport à Agile (au lieu de seulement D3\")."
+        }
+      ]
+    },
+    "Enhanced Wolfborn Aura": {
+      "title": "Aura de Wolfborn améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Wolfborn amélioré."
+        }
+      ]
+    },
+    "Piercing Charge": {
+      "title": "Charge perçante",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle obtient PA(+1) sur ses armes lors du chargement."
+        }
+      ]
+    },
+    "Piercing Marksman": {
+      "title": "Tireur d'élite perçant",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Lorsque vous tirez sur des ennemis à plus de 9\" de distance, les armes de cette figurine obtiennent PA(+1)."
+        }
+      ]
+    },
+    "Enhanced Devout": {
+      "title": "Dévot amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Dévotion, la cible subit toujours des coups sur des résultats de frappe non modifiés de 6 de Dévotion (au lieu de seulement lorsqu'elle tire/charge des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Bravery Buff": {
+      "title": "Buff de bravoure",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", ce qui obtient +1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Spell Drain": {
+      "title": "Drain de sorts",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une figurine ennemie à moins de 18\" en ligne de vue, qui doit passer un Test Moral. En cas d'échec, elle perd 2 jetons de sort."
+        }
+      ]
+    },
+    "Enhanced Brutal": {
+      "title": "Brutal amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Brutal, la cible subit toujours des coups sur des résultats de frappe non modifiés de 6 de Brutal (au lieu de seulement lorsqu'elle tire/charge des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Piercing Marksman Aura": {
+      "title": "Aura de tireur d'élite perçante",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Tireur d'élite perçant."
+        }
+      ]
+    },
+    "Enhanced Devout Aura": {
+      "title": "Aura de dévot améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Dévot amélioré."
+        }
+      ]
+    },
+    "Enhanced Guardian": {
+      "title": "Gardien amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des modèles de cette unité ont Gardien, les coups qu'ils prennent comptent comme ayant PA(-2) de Gardien (au lieu de seulement PA(-1))."
+        }
+      ]
+    },
+    "Dodge": {
+      "title": "Esquiver",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité ont cette règle, tant qu'elles ne sont pas fatiguées, les unités ennemies ont -1 aux jets de touche en mêlée contre elles."
+        }
+      ]
+    },
+    "Enhanced Fortified": {
+      "title": "Fortifié amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des modèles de cette unité ont Renforcé, les coups qu'ils prennent comptent comme ayant PA(-2) de Renforcé (au lieu de seulement PA(-1))."
+        }
+      ]
+    },
+    "Enhanced Guardian Aura": {
+      "title": "Aura de gardien améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Gardien amélioré."
+        }
+      ]
+    },
+    "Enhanced Targeting Visor": {
+      "title": "Visière de ciblage améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Viseur de ciblage, elle obtient toujours +1 aux jets de touche de Viseur de ciblage (au lieu de seulement lorsqu'elle tire à plus de 9\" de distance)."
+        }
+      ]
+    },
+    "Precision Marksman": {
+      "title": "Tireur d'élite de précision",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Lorsqu’elle tire sur des ennemis à plus de 9\" de distance, cette figurine obtient +1 aux jets de touche."
+        }
+      ]
+    },
+    "Enhanced Precision Marksman": {
+      "title": "Tireur d'élite de précision amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Tireur d'élite de précision, elle obtient toujours +1 aux jets de touche de Tireur d'élite de précision (au lieu de seulement lorsqu'elle tire à plus de 9\" de distance)."
+        }
+      ]
+    },
+    "Counter in Melee Aura": {
+      "title": "Compteur dans Aura de mêlée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Contre-charge sur leurs armes en mêlée."
+        }
+      ]
+    },
+    "Enhanced Targeting Visor Aura": {
+      "title": "Aura de visière de ciblage améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Visière de ciblage améliorée."
+        }
+      ]
+    },
+    "Enhanced Harassing": {
+      "title": "Harcèlement amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des modèles de cette unité sont équipés de Harcelement, ils peuvent se déplacer jusqu'à 6\" par rapport à Harcelement (au lieu de seulement 3\")."
+        }
+      ]
+    },
+    "Enhanced Hit & Run": {
+      "title": "Hit & Run amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des modèles de cette unité sont équipés de Frappe en mouvement, ils peuvent se déplacer jusqu'à 6\" par rapport à Frappe en mouvement (au lieu de seulement 3\")."
+        }
+      ]
+    },
+    "Enhanced Harassing Aura": {
+      "title": "Aura de harcèlement améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Harcèlement amélioré."
+        }
+      ]
+    },
+    "Enhanced Sturdy": {
+      "title": "Robustesse améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des modèles de cette unité ont Coriace, ils obtiennent toujours des rouleaux +1 en Défense de Coriace (au lieu de seulement lorsqu'ils sont tirés/chargés à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Anti-Cover when Shooting": {
+      "title": "Anti-couverture lors de la prise de vue",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle reçoit Anti-couverture sur ses armes lors du tir."
+        }
+      ]
+    },
+    "Scourge": {
+      "title": "Fléau",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Pour chaque résultat non modifié de 1 pour bloquer les coups, les ennemis comptent comme ayant subi 2 blessures supplémentaires lors de la vérification du vainqueur en mêlée, ou si les blessures par tir déclencheraient des tests Moral."
+        }
+      ]
+    },
+    "Enhanced Guarded": {
+      "title": "Gardé amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des modèles de cette unité ont Protégé, ils obtiennent toujours des rouleaux +1 en Défense de Protégé (au lieu de seulement lorsqu'ils sont tirés/chargés à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Sturdy Aura": {
+      "title": "Aura robuste améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Robustesse améliorée."
+        }
+      ]
+    },
+    "Anti-Cover when Shooting Aura": {
+      "title": "Anti-couverture lors de la prise de vue d'Aura",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Anti-couverture sur leurs armes lors du tir."
+        }
+      ]
+    },
+    "Enhanced Rapid Blink": {
+      "title": "Clignotement rapide amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si ce modèle possède Téléportation rapide, il peut se déplacer jusqu'à 2D3\" par rapport à Téléportation rapide (au lieu de seulement D3\")."
+        }
+      ]
+    },
+    "Infiltrating Precision Strike": {
+      "title": "Frappe de précision infiltrante",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Compte comme ayant Infiltration et obtient +1 aux jets de touche en mêlée lors du round au cours duquel il se déploie via cette règle."
+        }
+      ]
+    },
+    "Enhanced Rapid Blink Aura": {
+      "title": "Aura de clignotement rapide améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Clignotement rapide amélioré."
+        }
+      ]
+    },
+    "Enhanced Clan Warrior": {
+      "title": "Guerrier de clan amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Guerrier de clan, elle obtient des attaques supplémentaires sur les résultats de coups non modifiés réussis de 5-6 de Guerrier de clan (au lieu de seulement sur 6)."
+        }
+      ]
+    },
+    "Precision Fighter": {
+      "title": "Chasseur de précision",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Cette figurine obtient +1 aux jets de touche en mêlée."
+        }
+      ]
+    },
+    "Enhanced Clan Warrior Aura": {
+      "title": "Aura de guerrier de clan améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Guerrier de clan amélioré."
+        }
+      ]
+    },
+    "Anti-Cover Aura": {
+      "title": "Aura anti-couverture",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Cette figurine et son unité reçoivent Anti-couverture sur leurs armes lors du tir."
+        }
+      ]
+    },
+    "Enhanced Mischievous": {
+      "title": "Espiègle amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Malicieux, les ennemis qui en subissent des coups doivent relancer les dés avec des résultats Défense non modifiés de 5 à 6 de Malicieux (au lieu de seulement des résultats de 6)."
+        }
+      ]
+    },
+    "Enhanced Vicious": {
+      "title": "Vicieux amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Vicieux, les ennemis qui en subissent des coups doivent relancer les dés avec des résultats Défense non modifiés de 5 à 6 de Vicieux (au lieu de seulement des résultats de 6)."
+        }
+      ]
+    },
+    "Enhanced Mischievous Aura": {
+      "title": "Aura espiègle améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Espiègle amélioré."
+        }
+      ]
+    },
+    "Enhanced Havocbound": {
+      "title": "Havocbound amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si ce modèle possède Lie au Chaos, il obtient toujours PA(+1) de Lie au Chaos (au lieu de seulement lorsque vous tirez/chargez des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Piercing Warrior": {
+      "title": "Guerrier perçant amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si ce modèle possède Guerrier perforant, il obtient toujours PA(+1) de Guerrier perforant (au lieu de seulement lorsque vous tirez/chargez des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Havocbound Aura": {
+      "title": "Aura dévastatrice améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Havocbound amélioré."
+        }
+      ]
+    },
+    "Spell Resistance Aura": {
+      "title": "Aura de résistance aux sorts",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Résistance aux sorts."
+        }
+      ]
+    },
+    "Enhanced Changebound": {
+      "title": "Modification améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Lie au Changement, les ennemis qui les attaquent ont toujours -1 aux jets de touche de Lie au Changement (au lieu de seulement lorsqu'ils tirent/chargent à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Screened": {
+      "title": "Écran amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Projection, les ennemis qui les attaquent ont toujours -1 aux jets de touche de Projection (au lieu de seulement lorsqu'ils tirent/chargent à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Changebound Aura": {
+      "title": "Aura de changement améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Modification améliorée."
+        }
+      ]
+    },
+    "Enhanced Lustbound": {
+      "title": "Lustbound amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Lié à la Luxure, elle se déplace de +2\" en Avancée et de +4\" en Course/Charge depuis Lié à la Luxure (au lieu de seulement +1\" et +2\")."
+        }
+      ]
+    },
+    "Obliterate": {
+      "title": "Effacer",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ignore Régénération, et lors de l'attaque d'unités dont la plupart des figurines ont Coriace(3) ou supérieur, la cible doit relancer les résultats Défense non modifiés réussis de 5-6."
+        }
+      ]
+    },
+    "Enhanced Agile": {
+      "title": "Agile améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Agile, elle se déplace de +2\" en Avancée et de +4\" en Course/Charge depuis Agile (au lieu de seulement +1\" et +2\")."
+        }
+      ]
+    },
+    "Enhanced Lustbound Aura": {
+      "title": "Aura de luxure améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Lustbound amélioré."
+        }
+      ]
+    },
+    "Enhanced Plaguebound": {
+      "title": "Plaguebound amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Lie a la peste, elles ignorent les blessures sur les jets de 5-6 de Lie a la peste (au lieu de seulement sur 6+)."
+        }
+      ]
+    },
+    "Enhanced Protected": {
+      "title": "Protection améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Protege, elles ignorent les blessures sur les jets de 5-6 de Protege (au lieu de seulement sur 6+)."
+        }
+      ]
+    },
+    "Enhanced Plaguebound Aura": {
+      "title": "Aura pestilentielle améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Plaguebound amélioré."
+        }
+      ]
+    },
+    "Enhanced Warbound": {
+      "title": "Warbound amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Guerrier-né, les ennemis subissent toujours des blessures sur des résultats non modifiés de 1 pour bloquer de Guerrier-né (au lieu de seulement lorsqu'ils tirent/chargent sur des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Violent": {
+      "title": "Violence améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Violent, les ennemis subissent toujours des blessures sur des résultats non modifiés de 1 pour bloquer de Violent (au lieu de seulement lorsqu'ils tirent/chargent sur des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Warbound Aura": {
+      "title": "Aura de guerre améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Warbound amélioré."
+        }
+      ]
+    },
+    "Enhanced Highborn": {
+      "title": "Bien-né amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si ce modèle est équipé du Noble, il obtient une portée de +8\"/+4\" lors de la prise de vue/chargement à partir du Noble (au lieu de seulement +4\"/+2\")."
+        }
+      ]
+    },
+    "Extra Reach": {
+      "title": "Portée supplémentaire",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle bénéficie d'une portée de +4\"/+2\" lors de la prise de vue/chargement."
+        }
+      ]
+    },
+    "Enhanced Extra Reach": {
+      "title": "Portée supplémentaire améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si ce modèle est équipé du Portée supplémentaire, il obtient une portée de +8\"/+4\" lors de la prise de vue/chargement à partir du Portée supplémentaire (au lieu de seulement +4\"/+2\")."
+        }
+      ]
+    },
+    "Enhanced Highborn Aura": {
+      "title": "Aura de noble-né améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Bien-né amélioré."
+        }
+      ]
+    },
+    "Enhanced Hold the Line": {
+      "title": "Maintien de la ligne amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Tenir la Ligne, elles obtiennent toujours +1 aux jets de moral de Tenir la Ligne (au lieu de seulement lorsqu'elles sont prises pour cible par un tir/une charge à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Hold the Line Aura": {
+      "title": "Aura de maintien de la ligne améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Maintien de la ligne amélioré."
+        }
+      ]
+    },
+    "Quick Throw": {
+      "title": "Lancer rapide",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Cette figurine peut toujours cibler les ennemis qui ne sont pas en ligne de vue lorsqu'elle tire avec des armes Indirect (au lieu de seulement lorsqu'elle utilise des actions Immobile)."
+        }
+      ]
+    },
+    "Enhanced Infected": {
+      "title": "Infecté amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Infecté, les ennemis subissent toujours des blessures sur des résultats non modifiés de 1 pour bloquer de Infecté (au lieu de seulement lorsqu'ils tirent/chargent sur des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Infected Aura": {
+      "title": "Aura infectée améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Infecté amélioré."
+        }
+      ]
+    },
+    "Enhanced Scrapper": {
+      "title": "Scrapper amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Ferrailleur, les ennemis qui en subissent des coups doivent relancer les dés avec des résultats Défense non modifiés de 5 à 6 de Ferrailleur (au lieu de seulement des résultats de 6)."
+        }
+      ]
+    },
+    "Enhanced Scrapper Aura": {
+      "title": "Aura de Scrapper améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Scrapper amélioré."
+        }
+      ]
+    },
+    "Grounded Evasion": {
+      "title": "Évasion au sol",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si une unité dont la plupart des figurines ont cette règle a la plupart d’entre elles à moins de 1\" du terrain, les ennemis ont -1 aux jets de touche lorsqu’ils les attaquent."
+        }
+      ]
+    },
+    "Enhanced Machine-Fog": {
+      "title": "Brouillard de machine amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Brouillard-machine, les ennemis qui les attaquent ont toujours -1 aux jets de touche de Brouillard-machine (au lieu de seulement lorsqu'ils tirent/chargent à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Enhanced Machine-Fog Aura": {
+      "title": "Aura de brouillard machine améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Brouillard de machine amélioré."
+        }
+      ]
+    },
+    "Enhanced Ferocious": {
+      "title": "Féroce amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Ferocite, la cible subit toujours des coups sur des résultats de frappe non modifiés de 6 de Ferocite (au lieu de seulement lorsqu'elle tire/charge des ennemis à plus de 9\"/6\")."
+        }
+      ]
+    },
+    "Precision Charge": {
+      "title": "Charge de précision",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle obtient +1 aux jets de frappe lors de la charge."
+        }
+      ]
+    },
+    "Enhanced Ferocious Aura": {
+      "title": "Aura féroce améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité Féroce amélioré."
+        }
+      ]
+    },
+    "Enhanced Brutal Aura": {
+      "title": "Aura brutale améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité Brutal amélioré."
+        }
+      ]
+    },
+    "Enhanced Scurry": {
+      "title": "Déplacement amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Detale, elle se déplace de +2\" en Avancée et de +4\" en Course/Charge depuis Detale (au lieu de seulement +1\" et +2\")."
+        }
+      ]
+    },
+    "Piercing Charge Aura": {
+      "title": "Aura de charge perçante",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Charge perçante."
+        }
+      ]
+    },
+    "Enhanced Scurry Aura": {
+      "title": "Aura de course améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Déplacement amélioré."
+        }
+      ]
+    },
+    "Enhanced Guerrilla": {
+      "title": "Guérilla améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des modèles de cette unité sont équipés de Guerrilla, ils peuvent se déplacer jusqu'à 6\" par rapport à Guerrilla (au lieu de seulement 3\")."
+        }
+      ]
+    },
+    "Enhanced Guerrilla Aura": {
+      "title": "Aura de guérilla améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Guérilla améliorée."
+        }
+      ]
+    },
+    "Unstoppable when Shooting": {
+      "title": "Inarrêtable lors du tournage",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle reçoit Inarrêtable sur ses armes lors du tir."
+        }
+      ]
+    },
+    "Enhanced Self-Repair": {
+      "title": "Auto-réparation améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent Auto-réparation, elles ignorent les blessures sur les jets de 5-6 de Auto-réparation (au lieu de seulement sur 6+)."
+        }
+      ]
+    },
+    "Enhanced Self-Repair Buff": {
+      "title": "Buff d'auto-réparation amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Auto-réparation améliorée une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Enhanced Primal Buff": {
+      "title": "Buff primordial amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Primaire amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Enhanced Primal": {
+      "title": "Primaire amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si cette figurine possède Primal, elle obtient des attaques supplémentaires sur les résultats de coups non modifiés réussis de 5-6 de Primal (au lieu de seulement sur 6)."
+        }
+      ]
+    },
+    "Grounded Defense": {
+      "title": "Défense au sol",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si une unité dont la plupart des figurines ont cette règle en a la plupart à moins de 1\" du terrain, elle obtient un jet de +1 en Défense."
+        }
+      ]
+    },
+    "Grounded Defense Aura": {
+      "title": "Aura de défense au sol",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Défense au sol."
+        }
+      ]
+    },
+    "Enhanced Shadowborn": {
+      "title": "Né de l'Ombre amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Si la plupart des figurines de cette unité possèdent un Origine Ombreuse, les unités ennemies qui tirent/chargent sur cette unité ont une portée de -8\"/-4\" à un minimum de 6\" de Origine Ombreuse (au lieu de seulement -4\"/-2\")."
+        }
+      ]
+    },
+    "Enhanced Shadowborn Buff": {
+      "title": "Buff Shadowborn amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Né de l'Ombre amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Thrust in Melee Buff": {
+      "title": "Poussée en mêlée Buff",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", qui obtient Poussée en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Counter in Melee Buff": {
+      "title": "Compteur en mêlée Buff",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité amie dans un rayon de 12\", ce qui obtient Riposte en mêlée."
+        }
+      ]
+    },
+    "Thrust in Melee": {
+      "title": "Poussée en mêlée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle reçoit Percée sur ses armes en mêlée."
+        }
+      ]
+    },
+    "Enhanced Shadowborn Aura": {
+      "title": "Aura de Né de l'Ombre améliorée",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "text": "Ce modèle et son unité reçoivent Né de l'Ombre amélioré."
         }
       ]
     }
@@ -22437,7 +26333,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Steadfast</key> once (next time the effect would apply)."
         },
@@ -22455,6 +26351,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Pick up to two friendly units within 12\", which get Steadfast once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Furious once (next time the effect would apply)."
         }
       ]
     },
@@ -22526,7 +26427,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which must take a morale test. If failed, it becomes fatigued."
         },
@@ -22544,6 +26445,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Pick one enemy unit within 18\", which must take a morale test. If failed, it becomes fatigued."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which must take a morale test. If failed, it becomes Fatigued."
         }
       ]
     },
@@ -22552,7 +26458,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Blast</key>(3)."
         },
@@ -22583,6 +26489,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "War Disciples",
           "cost": 1,
           "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 24\" in line of sight, which takes 3 hits with Blast(3)."
         }
       ]
     },
@@ -22591,7 +26502,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
         },
@@ -22609,6 +26520,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Pick up to two friendly units within 12\", which get Melee Evasion once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Melee Evasion once (next time the effect would apply)."
         }
       ]
     },
@@ -22617,7 +26533,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Break</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
         },
@@ -22648,6 +26564,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "War Disciples",
           "cost": 2,
           "text": "Pick one enemy unit within 6\", which takes 6 hits with Crack. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with AP(1) and Purge."
         }
       ]
     },
@@ -22656,7 +26577,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Warbound Boost</key> once (next time the effect would apply)."
         },
@@ -22674,6 +26595,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Pick up to three friendly units within 12\", which get Warbound Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Warbound once (next time the effect would apply)."
         }
       ]
     },
@@ -22682,7 +26608,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Pick up to two enemy units within 12”, which take 3 hits with <key>AP</key>(2) each."
         },
@@ -22713,6 +26639,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "War Disciples",
           "cost": 3,
           "text": "Pick up to two enemy units within 12\", which take 3 hits with AP(2) each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 6\", which take 4 hits with AP(2) each."
         }
       ]
     },
@@ -22721,7 +26652,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which counts as being in Difficult Terrain once (next time the effect would apply)."
         },
@@ -22739,6 +26670,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Pick one enemy unit within 18\", which counts as being in Difficult Terrain once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which counts as being in Difficult Terrain once (next time the effect would apply)."
         }
       ]
     },
@@ -22747,7 +26683,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Butcher</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
         },
@@ -22778,6 +26714,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Rift Daemons of Plague",
           "cost": 1,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 2 hits with AP(1) and Decimate."
         }
       ]
     },
@@ -22786,7 +26727,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Rapid Rush</key> once (next time the effect would apply)."
         },
@@ -22804,6 +26745,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Pick up to two friendly units within 12\", which get Rapid Rush once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Rapid Rush once (next time the effect would apply)."
         }
       ]
     },
@@ -22812,7 +26758,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
         },
@@ -22830,6 +26776,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Pick one enemy model within 24\", which takes 2 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -22838,7 +26789,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Plaguebound Boost</key> once (next time the effect would apply)."
         },
@@ -22856,6 +26807,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Pick up to three friendly units within 12\", which get Plaguebound Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Plaguebound once (next time the effect would apply)."
         }
       ]
     },
@@ -22864,7 +26820,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 18”, which takes 6 hits."
         },
@@ -22882,6 +26838,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Pick one enemy unit within 18\", which takes 6 hits."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits."
         }
       ]
     },
@@ -22890,7 +26851,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
         },
@@ -22908,6 +26869,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Pick one enemy unit within 18\", which friendly units gets Quick Shot against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which friendly units gets Quick Shot against once (next time the effect would apply)."
         }
       ]
     },
@@ -22929,6 +26895,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Obliterate."
         }
       ]
     },
@@ -22937,7 +26908,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
         },
@@ -22955,6 +26926,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Pick up to two friendly units within 12\", which get Melee Evasion once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Melee Evasion once (next time the effect would apply)."
         }
       ]
     },
@@ -22963,7 +26939,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
         },
@@ -22981,6 +26957,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Pick one enemy model within 18\", which takes 4 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -22989,7 +26970,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Lustbound Boost</key> once (next time the effect would apply)."
         },
@@ -23007,6 +26988,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Pick up to three friendly units within 12\", which get Lustbound Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Enhanced Lustbound once (next time the effect would apply)."
         }
       ]
     },
@@ -23015,7 +27001,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
         },
@@ -23033,6 +27019,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Pick one enemy unit within 12\", which takes 6 hits with AP(1) and Shred."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Shred."
         }
       ]
     },
@@ -23041,7 +27032,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which gets -3 to casting rolls once (next time the effect would apply)."
         },
@@ -23059,6 +27050,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Pick one enemy unit within 18\", which gets -3 to casting rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which loses 2 spell tokens. Note that the target may not spend those spell tokens to prevent this effect."
         }
       ]
     },
@@ -23080,6 +27076,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 3 hits with Lacerate."
         }
       ]
     },
@@ -23088,7 +27089,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Pick up to two friendly units within 12”, which get <key>Bane when Shooting</key> once (next time the effect would apply)."
         },
@@ -23106,6 +27107,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Pick up to two friendly units within 12\", which get Bane when Shooting once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Bane when Shooting once (next time the effect would apply)."
         }
       ]
     },
@@ -23114,7 +27120,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Pick up to two enemy units within 9”, which take 4 hits each."
         },
@@ -23132,6 +27138,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Pick up to two enemy units within 9\", which take 4 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to two enemy units within 24\" in line of sight, which take 3 hits each."
         }
       ]
     },
@@ -23140,7 +27151,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Pick up to three friendly units within 12”, which get <key>Changebound Boost</key> once (next time the effect would apply)."
         },
@@ -23158,6 +27169,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Pick up to three friendly units within 12\", which get Changebound Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Changebound once (next time the effect would apply)."
         }
       ]
     },
@@ -23166,7 +27182,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
         },
@@ -23184,6 +27200,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Pick one enemy unit within 12\", which takes 6 hits with AP(2)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with AP(2)."
         }
       ]
     },
@@ -24249,7 +28270,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Pick one enemy unit within 18”, which counts as being in Dangerous Terrain once (next time the effect would apply)."
         },
@@ -24267,6 +28288,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Pick one enemy unit within 18\", which counts as being in Dangerous Terrain once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which counts as being in Dangerous Terrain once (next time the effect would apply)."
         }
       ]
     },
@@ -25700,6 +29726,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 1,
           "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -25716,6 +29747,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Mischievous Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Mischievous once (next time the effect would apply)."
         }
       ]
     },
@@ -25732,6 +29768,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Hit & Run Fighter once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Enhanced Hive Bond once (next time the effect would apply)."
         }
       ]
     },
@@ -25764,6 +29805,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Sturdy Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Sturdy once (next time the effect would apply)."
         }
       ]
     },
@@ -25780,6 +29826,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
         }
       ]
     },
@@ -25796,6 +29847,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Counter-Attack once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Counter in Melee once (next time the effect would apply)."
         }
       ]
     },
@@ -25840,6 +29896,18 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Rebel Guerrillas",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get +1 to morale test rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "faction": "DAO Union",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Fearless once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "faction": "Rebel Guerrillas",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets +1 to Morale Test rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -25856,6 +29924,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 18\", which friendly units gets Furious against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Furious against once (next time the effect would apply)."
         }
       ]
     },
@@ -25888,6 +29961,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 18\", which get -1 to defense rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Knightborn once (next time the effect would apply)."
         }
       ]
     },
@@ -25904,6 +29982,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get +6\" range when shooting once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get +6\" range on its weapons when shooting once (next time the effect would apply)."
         }
       ]
     },
@@ -25936,6 +30019,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Teleport once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Teleport once (next time the effect would apply)."
         }
       ]
     },
@@ -25952,6 +30040,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -25967,6 +30060,11 @@ export const commonSpells: SpellsByLanguage = {
         {
           "system": "GFF",
           "cost": 0,
+          "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
           "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
         }
       ]
@@ -25984,6 +30082,30 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 2,
           "text": "Pick up to four friendly units within 12\", which get Shred when shooting once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "faction": "Battle Brothers",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Shred on its weapons when shooting once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "faction": "Prime Brothers",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Shred on its weapons when shooting once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "faction": "Watch Brothers",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Watchborn once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "faction": "Watch Prime Brothers",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Watchborn once (next time the effect would apply)."
         }
       ]
     },
@@ -26000,6 +30122,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Highborn Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Enhanced Highborn once (next time the effect would apply)."
         }
       ]
     },
@@ -26016,6 +30143,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
         }
       ]
     },
@@ -26032,6 +30164,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -26048,6 +30185,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 18\", which takes 1 hit with Lacerate."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
         }
       ]
     },
@@ -26064,6 +30206,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
         }
       ]
     },
@@ -26080,6 +30227,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which take 1 hit with Blast(3) each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3)."
         }
       ]
     },
@@ -26096,6 +30248,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 6\", which takes 2 hits with AP(2) and Deadly(3)."
         }
       ]
     },
@@ -26112,6 +30269,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 18\", which get -1 to hit rolls when attacking once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which gets -1 to hit rolls when attacking once (next time the effect would apply)."
         }
       ]
     },
@@ -26128,6 +30290,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy model within 24\", which takes 1 hit with AP(4). This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -26160,6 +30327,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 1,
           "text": "Pick up to two enemy units within 18\", which get -3 to casting rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which loses 2 spell tokens. Note that the target may not spend those spell tokens to prevent this effect."
         }
       ]
     },
@@ -26176,6 +30348,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Furious once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Bloodborn once (next time the effect would apply)."
         }
       ]
     },
@@ -26192,6 +30369,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 18\", which friendly units gets Relentless against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Relentless against once (next time the effect would apply)."
         }
       ]
     },
@@ -26208,6 +30390,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Primal Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Primal once (next time the effect would apply)."
         }
       ]
     },
@@ -26224,6 +30411,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 1,
           "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
         }
       ]
     },
@@ -26288,6 +30480,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3)."
         }
       ]
     },
@@ -26304,6 +30501,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six enemy units within 18\", which friendly units gets AP(1) when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets AP(1) on their weapons when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -26336,6 +30538,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six enemy units within 18\", which loses AP(1) when shooting once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which loses AP(1) on its weapons when shooting once (next time the effect would apply)."
         }
       ]
     },
@@ -26368,6 +30575,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3)."
         }
       ]
     },
@@ -26384,6 +30596,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which get Unwieldy in melee once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which gets Unwieldy on its weapons in melee once (next time the effect would apply)."
         }
       ]
     },
@@ -26416,6 +30633,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(2)."
         }
       ]
     },
@@ -26464,6 +30686,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Hit & Run Shooter once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Hit & Run Shooter once (next time the effect would apply)."
         }
       ]
     },
@@ -26480,6 +30707,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Shred in melee once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Shred on its weapons in melee once (next time the effect would apply)."
         }
       ]
     },
@@ -26496,6 +30728,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
         }
       ]
     },
@@ -26528,6 +30765,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -26544,6 +30786,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
         }
       ]
     },
@@ -26560,6 +30807,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
         }
       ]
     },
@@ -26576,6 +30828,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 6\", which take 3 hits with Bane each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 9 hits with Bane."
         }
       ]
     },
@@ -26592,6 +30849,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 6\", which takes 1 hit with Deadly(3) and Tear."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with AP(1) and Pierce."
         }
       ]
     },
@@ -26608,6 +30870,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six enemy units within 18\", which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once (next time the effect would apply)."
         }
       ]
     },
@@ -26624,6 +30891,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 18\", which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Units may only be moved once per round in this way."
         }
       ]
     },
@@ -26640,6 +30912,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get +1 to hit rolls when shooting once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get +1 to hit rolls when shooting once (next time the effect would apply)."
         }
       ]
     },
@@ -26672,6 +30949,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 2 hits with Disintegrate each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Puncture."
         }
       ]
     },
@@ -26736,6 +31018,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
         }
       ]
     },
@@ -26752,6 +31039,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 3 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 3 hits."
         }
       ]
     },
@@ -26768,6 +31060,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy models within 24\", which take 1 hit with Tear each. This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\" in line of sight, which takes 1 hit with AP(2) and Disintegrate. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -26784,6 +31081,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Resistance once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Spell Resistance once (next time the effect would apply)."
         }
       ]
     },
@@ -26834,6 +31136,24 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Mercenaries",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "faction": "Human Defense Force",
+          "cost": 2,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Fracture. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "faction": "Human Inquisition",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "faction": "Titan Lords",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -26850,6 +31170,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3)."
         }
       ]
     },
@@ -26914,6 +31239,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 2,
           "text": "Pick up to two enemy units within 6\", which take 3 hits with Disintegrate each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 3 hits with Purge."
         }
       ]
     },
@@ -26930,6 +31260,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six enemy units within 18\", which friendly units get +6\" range when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units get +6\" range on their weapons when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -26946,6 +31281,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -26962,6 +31302,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Stealth once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Stealth once (next time the effect would apply)."
         }
       ]
     },
@@ -26978,6 +31323,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 18\", which take 2 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits."
         }
       ]
     },
@@ -26994,6 +31344,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
         }
       ]
     },
@@ -27010,6 +31365,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 9\", which take 4 hits each."
         }
       ]
     },
@@ -27026,6 +31386,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Unpredictable Fighter once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Unpredictable Fighter once (next time the effect would apply)."
         }
       ]
     },
@@ -27042,6 +31407,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Shred."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Shred."
         }
       ]
     },
@@ -27074,6 +31444,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 6\", which take 3 hits with Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with AP(1) and Shatter. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -27090,6 +31465,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\" in line of sight, which takes 1 hit with AP(4). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -27122,6 +31502,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Guardian Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Enhanced Guardian once (next time the effect would apply)."
         }
       ]
     },
@@ -27138,6 +31523,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Havocbound Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Havocbound once (next time the effect would apply)."
         }
       ]
     },
@@ -27154,6 +31544,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with Scourge."
         }
       ]
     },
@@ -27170,6 +31565,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 9\", which take 4 hits each."
         }
       ]
     },
@@ -27186,6 +31586,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(2)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(2)."
         }
       ]
     },
@@ -27202,6 +31607,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six enemy units within 18\", which friendly units gets Rending in melee against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Rending on their weapons in melee against once (next time the effect would apply)."
         }
       ]
     },
@@ -27218,6 +31628,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -27234,6 +31649,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Unpredictable Shooter once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Unpredictable Shooter once (next time the effect would apply)."
         }
       ]
     },
@@ -27250,6 +31670,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -27266,6 +31691,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 3 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 9 hits."
         }
       ]
     },
@@ -27282,6 +31712,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 2,
           "text": "Pick up to four friendly units within 12\", which get Piercing Hunter once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Piercing Marksman once (next time the effect would apply)."
         }
       ]
     },
@@ -27298,6 +31733,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Hive Bond Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three enemy units within 24\" in line of sight, which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
         }
       ]
     },
@@ -27314,6 +31754,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Grounded Reinforcement once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Grounded Defense once (next time the effect would apply)."
         }
       ]
     },
@@ -27330,6 +31775,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Rapid Advance once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Rapid Advance once (next time the effect would apply)."
         }
       ]
     },
@@ -27346,6 +31796,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Shred."
         }
       ]
     },
@@ -27362,6 +31817,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy model within 18\", which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -27378,6 +31838,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
         }
       ]
     },
@@ -27394,6 +31859,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -27410,6 +31880,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
         }
       ]
     },
@@ -27426,6 +31901,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
         }
       ]
     },
@@ -27442,6 +31922,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Disintegrate each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 6 hits with Destructive."
         }
       ]
     },
@@ -27458,6 +31943,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 2,
           "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 9\", which take 4 hits each."
         }
       ]
     },
@@ -27474,6 +31964,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 3,
           "text": "Pick up to six friendly units within 12\", which get Devout Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Devout once (next time the effect would apply)."
         }
       ]
     },
@@ -27554,6 +32049,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Self-Repair Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Self-Repair once (next time the effect would apply)."
         }
       ]
     },
@@ -27570,6 +32070,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -27586,6 +32091,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -27602,6 +32112,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Shred."
         }
       ]
     },
@@ -27618,6 +32133,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 18\", which get -1 to morale test rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which gets -1 to Morale Test rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -27634,6 +32154,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 12\", which take 1 hit with AP(2) each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 6\", which take 4 hits with AP(2) each."
         }
       ]
     },
@@ -27650,6 +32175,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
         }
       ]
     },
@@ -27666,6 +32196,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 18\", which friendly units gets Unpredictable Shooter against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unpredictable Shooter against once (next time the effect would apply)."
         }
       ]
     },
@@ -27762,6 +32297,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Destructive. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Fragment."
         }
       ]
     },
@@ -27778,6 +32318,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Ferocious Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Ferocious once (next time the effect would apply)."
         }
       ]
     },
@@ -27794,6 +32339,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(2)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(2)."
         }
       ]
     },
@@ -27810,6 +32360,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -27842,6 +32397,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 9\", which take 4 hits each."
         }
       ]
     },
@@ -27858,6 +32418,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 6\", which take 1 hit with Deadly(3) and Tear each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Hazardous. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger."
         }
       ]
     },
@@ -27874,6 +32439,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy model within 18\", which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -27890,6 +32460,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Shielded once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Shielded once (next time the effect would apply)."
         }
       ]
     },
@@ -27906,6 +32481,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 12\", which take 1 hit with AP(2) each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 6\", which take 4 hits with AP(2) each."
         }
       ]
     },
@@ -27922,6 +32502,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy models within 12\", which take 2 hits with Hazardous each. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger. This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with Hazardous. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -27938,6 +32523,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 3,
           "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
         }
       ]
     },
@@ -27954,6 +32544,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Harassing Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Enhanced Harassing once (next time the effect would apply)."
         }
       ]
     },
@@ -27986,6 +32581,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -28050,6 +32650,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Scrapper Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Scrapper once (next time the effect would apply)."
         }
       ]
     },
@@ -28100,6 +32705,24 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Mercenaries",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get +1 to morale test rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "faction": "Human Defense Force",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Hold the Line once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "faction": "Human Inquisition",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get +1 to Morale Test rolls once (next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "faction": "Titan Lords",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get +1 to Morale Test rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -28148,6 +32771,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(2) each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(2)."
         }
       ]
     },
@@ -28212,6 +32840,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 12\", which take 2 hits with Disintegrate each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with AP(1) and Reap. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -28260,6 +32893,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Targeting Visor Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Targeting Visor once (next time the effect would apply)."
         }
       ]
     },
@@ -28276,6 +32914,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 3,
           "text": "Pick up to three enemy units within 6\", which take 3 hits with Bane each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with Bane."
         }
       ]
     },
@@ -28292,6 +32935,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 6\", which take 3 hits with Bane each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 12\", which takes 9 hits with Bane."
         }
       ]
     },
@@ -28308,6 +32956,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six enemy units within 12\", which take 1 hit with AP(2) each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 6\", which take 4 hits with AP(2) each."
         }
       ]
     },
@@ -28324,6 +32977,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 12\", which take 2 hits with Shatter each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Disintegrate."
         }
       ]
     },
@@ -28340,6 +32998,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 18\", which friendly units get +1 to hit rolls in melee against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
         }
       ]
     },
@@ -28356,6 +33019,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Regeneration once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which get Regeneration once (next time the effect would apply)."
         }
       ]
     },
@@ -28388,6 +33056,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Piercing Assault once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Wolfborn once (next time the effect would apply)."
         }
       ]
     },
@@ -28404,6 +33077,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 1,
           "text": "Pick one enemy model within 24\", which takes 1 hit with AP(4). This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -28436,6 +33114,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 3,
           "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 2 hits with Blast(3)."
         }
       ]
     },
@@ -28452,6 +33135,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 12\", which take 3 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 9 hits."
         }
       ]
     },
@@ -28468,6 +33156,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Lacerate each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Demolish."
         }
       ]
     },
@@ -28484,6 +33177,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with Disintegrate."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 2 hits with Puncture."
         }
       ]
     },
@@ -28516,6 +33214,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Rapid Blink Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Rapid Blink once (next time the effect would apply)."
         }
       ]
     },
@@ -28532,6 +33235,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Crack each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Fracture. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -28555,6 +33263,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Blood Prime Brothers",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Shred."
         }
       ]
     },
@@ -28571,6 +33284,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
         }
       ]
     },
@@ -28587,6 +33305,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get +1 to defense rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets +1 to Defense rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -28603,6 +33326,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Machine-Fog Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Machine-Fog once (next time the effect would apply)."
         }
       ]
     },
@@ -28635,6 +33363,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Scourge."
         }
       ]
     },
@@ -28651,6 +33384,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Lacerate."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Lacerate."
         }
       ]
     },
@@ -28667,6 +33405,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy model within 24\", which takes 1 hit with Tear. This effect is resolved as if the target was a unit of [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy model within 30\" in line of sight, which takes 3 hits with AP(3) and Destructive. This effect is resolved as if the target was a unit of [1]."
         }
       ]
     },
@@ -28683,6 +33426,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Flying once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Flying once (next time the effect would apply)."
         }
       ]
     },
@@ -28699,6 +33447,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four friendly units within 12\", which get Clan Warrior Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Clan Warrior once (next time the effect would apply)."
         }
       ]
     },
@@ -28715,6 +33468,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which take 1 hit with Blast(3) and Lacerate each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3) and Decimate."
         }
       ]
     },
@@ -28779,6 +33537,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Surge each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -28795,6 +33558,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 12\", which take 3 hits each."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 9 hits."
         }
       ]
     },
@@ -28859,6 +33627,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to four enemy units within 18\", which get -1 to defense rolls once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which get -1 to Defense rolls once (next time the effect would apply)."
         }
       ]
     },
@@ -28875,6 +33648,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six enemy units within 18\", which friendly units gets Unpredictable Fighter against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Hit & Run Fighter once (next time the effect would apply)."
         }
       ]
     },
@@ -28891,6 +33669,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which friendly units gets Shred when attacking against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Shred on their weapons when attacking against once (next time the effect would apply)."
         }
       ]
     },
@@ -28907,6 +33690,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 18\", which takes 2 hits."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits."
         }
       ]
     },
@@ -28923,6 +33711,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which friendly units gets Bane when attacking against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which friendly units gets Bane on their weapons when attacking against once (next time the effect would apply)."
         }
       ]
     },
@@ -28955,6 +33748,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which friendly units gets Indirect when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which friendly units gets Indirect on their weapons against once (next time the effect would apply)."
         }
       ]
     },
@@ -28987,6 +33785,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six enemy units within 18\", which friendly units gets Slayer against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Slayer against once (next time the effect would apply)."
         }
       ]
     },
@@ -29003,6 +33806,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two friendly units within 12\", which get Infected Boost once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Infected once (next time the effect would apply)."
         }
       ]
     },
@@ -29019,6 +33827,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 6\", which takes 2 hits with AP(2) and Deadly(3)."
         }
       ]
     },
@@ -29051,6 +33864,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
         }
       ]
     },
@@ -29067,6 +33885,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -29083,6 +33906,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
         }
       ]
     },
@@ -29099,6 +33927,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
         }
       ]
     },
@@ -29115,6 +33948,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which take 1 hit with Blast(3) and Lacerate each."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 3 hits with AP(1) and Reap. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -29147,6 +33985,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
         }
       ]
     },
@@ -29163,6 +34006,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
         }
       ]
     },
@@ -29179,6 +34027,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
         }
       ]
     },
@@ -29195,6 +34048,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
         }
       ]
     },
@@ -29227,6 +34085,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
         }
       ]
     },
@@ -29999,6 +34862,105 @@ export const commonSpells: SpellsByLanguage = {
           "cost": 3
         }
       ]
+    },
+    "Blessed Shroud": {
+      "title": "Blessed Shroud",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Darkborn once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Adrenal Booster": {
+      "title": "Adrenal Booster",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one friendly unit within 12\", which gets Enhanced Scurry once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Enhanced Serum": {
+      "title": "Enhanced Serum",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Regeneration once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Combat Psychosis": {
+      "title": "Combat Psychosis",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 18\" in line of sight, which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Cyber Shock": {
+      "title": "Cyber Shock",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
+        }
+      ]
+    },
+    "Synaptic Stims": {
+      "title": "Synaptic Stims",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick up to two friendly units within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
+        }
+      ]
+    },
+    "Overheat Internals": {
+      "title": "Overheat Internals",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Demolish."
+        }
+      ]
+    },
+    "Optical Malfunction": {
+      "title": "Optical Malfunction",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick up to three friendly units within 18\", which get Enhanced Shadowborn once (next time the effect would apply)."
+        }
+      ]
+    },
+    "System Collapse": {
+      "title": "System Collapse",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Pick one enemy unit within 18\" in line of sight, which takes 9 hits."
+        }
+      ]
     }
   },
   "fr": {
@@ -30649,7 +35611,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Choisisser jusqu'à deux unités alliées à 12” ou moins, qui obtiennent une seule fois la règle spéciale <key>Inébranlable</key> (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -30667,6 +35629,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Choisisser jusqu'à deux unités alliées à 12” ou moins, qui obtiennent une seule fois la règle spéciale <key>Inébranlable</key> (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Furieux une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -30738,7 +35705,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui devra faire un test de moral. En cas d'echec, elle sera fatiguée."
         },
@@ -30756,6 +35723,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui devra faire un test de moral. En cas d'echec, elle sera fatiguée."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui doit passer un test de moral. En cas d'échec, elle devient Fatiguée."
         }
       ]
     },
@@ -30764,7 +35736,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 touche avec <key>Explosion</key>(3)."
         },
@@ -30795,6 +35767,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "War Disciples",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 touche avec <key>Explosion</key>(3)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 coups avec Explosion(3)."
         }
       ]
     },
@@ -30803,7 +35780,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12” ou moins, qui gagneront <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -30821,6 +35798,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12” ou moins, qui gagneront <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Esquive en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -30829,7 +35811,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Choisissez une unité ennemie a 6” ou moins, qui subira 6 touches avec <key>Dislocation</key>. Lancez autant de dés que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
         },
@@ -30860,6 +35842,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "War Disciples",
           "cost": 2,
           "text": "Choisissez une unité ennemie à 6” ou moins, qui subit 6 touches avec Fissure. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 3 coups avec PA(1) et Purge."
         }
       ]
     },
@@ -30868,7 +35855,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagneront <key>Boost de Guerrier-né</key> une fois (la prochaine fois que l'effet s'appliquera)."
         },
@@ -30886,6 +35873,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagneront <key>Boost de Guerrier-né</key> une fois (la prochaine fois que l'effet s'appliquera)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Warbound amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -30894,7 +35886,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subiront chacune 3 touches avec <key>PA</key>(2)."
         },
@@ -30925,6 +35917,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "War Disciples",
           "cost": 3,
           "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subiront chacune 3 touches avec <key>PA</key>(2)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 6\", qui subissent chacune 4 coups avec PA(2)."
         }
       ]
     },
@@ -30933,7 +35930,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -30951,6 +35948,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, ce qui compte une fois comme étant en terrain difficile (la prochaine fois, l'effet s'appliquera)."
         }
       ]
     },
@@ -30959,7 +35961,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Boucher</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
         },
@@ -30990,6 +35992,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Rift Daemons of Plague",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Surcharge</key>. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 2 coups avec PA(1) et Decimation."
         }
       ]
     },
@@ -30998,7 +36005,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -31016,6 +36023,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Charge rapide une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -31024,7 +36036,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>AP</key>(4)."
         },
@@ -31042,6 +36054,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Choisissez une figurine ennemie à 24” ou moins, qui subit 2 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -31050,7 +36067,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Amplification Lie a la peste</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -31068,6 +36085,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Amplification Lie a la peste</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Plaguebound amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -31076,7 +36098,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
         },
@@ -31094,6 +36116,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 4 coups."
         }
       ]
     },
@@ -31102,7 +36129,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -31120,6 +36147,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, contre laquelle les unités amies recevront Tir rapide une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -31141,6 +36173,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Effacer."
         }
       ]
     },
@@ -31149,7 +36186,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -31167,6 +36204,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Esquive en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -31175,7 +36217,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Choisissez un modele ennemi a 18”, qui subit 4 touches avec <key>AP</key>(1)."
         },
@@ -31193,6 +36235,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Choisissez une figurine ennemie à 18” ou moins, qui subit 4 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -31201,7 +36248,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie a la Luxure</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -31219,6 +36266,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie a la Luxure</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Lustbound amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -31227,7 +36279,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
         },
@@ -31245,6 +36297,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, qui subit 6 coups avec Lacération."
         }
       ]
     },
@@ -31253,7 +36310,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -31271,6 +36328,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui perd 2 jetons de sort. Notez que la cible ne peut pas dépenser ces jetons de sort pour empêcher cet effet."
         }
       ]
     },
@@ -31292,6 +36354,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 12″ ou moins, qui subit 2 touches avec PA (1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 3 coups avec Laceration."
         }
       ]
     },
@@ -31300,7 +36367,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Fleau au Tir</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -31318,6 +36385,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Fleau au Tir</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Fleau au Tir une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -31326,7 +36398,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
         },
@@ -31344,6 +36416,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 24\" en ligne de mire, qui subissent chacune 3 coups."
         }
       ]
     },
@@ -31352,7 +36429,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie au Changement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -31370,6 +36447,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie au Changement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Modification améliorée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -31378,7 +36460,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
         },
@@ -31396,6 +36478,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 3,
           "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec PA(2)."
         }
       ]
     },
@@ -32461,7 +37548,7 @@ export const commonSpells: SpellsByLanguage = {
       "system": "GF/AOF/AOFS/GFF/AOFR",
       "description": [
         {
-          "system": "GF/AOF",
+          "system": "AOF",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain dangereux une fois (la prochaine fois que l'effet s'appliquerait)."
         },
@@ -32479,6 +37566,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFR",
           "cost": 1,
           "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain dangereux une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, ce qui compte une fois comme étant en terrain dangereux (la prochaine fois, l'effet s'appliquera)."
         }
       ]
     },
@@ -33912,6 +39004,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 1,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -33928,6 +39025,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Renforcement Malicieux une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Espiègle amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -33944,6 +39046,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Combattant Frappe et Repli une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Lien de ruche amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -33976,6 +39083,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Renforcement Coriace une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Robustesse améliorée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -33992,6 +39104,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
         }
       ]
     },
@@ -34008,6 +39125,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Contre-attaque une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Riposte en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34052,6 +39174,18 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Rebel Guerrillas",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent +1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "faction": "DAO Union",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Sans peur une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "faction": "Rebel Guerrillas",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient +1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34068,6 +39202,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Furieux contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Furieux une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -34100,6 +39239,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Chevalier-né amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34116,6 +39260,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent +6” de portée lors d'un tir une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiennent une portée de +6\" sur leurs armes en tirant une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -34148,6 +39297,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Téléportation une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Téléportation une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34164,6 +39318,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -34180,6 +39339,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 6” ou moins, qui subit 1 hit avec PA(2) et Mortel(3)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
         }
       ]
     },
@@ -34196,6 +39360,30 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 2,
           "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Lacération</key> au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "faction": "Battle Brothers",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent Lacération sur leurs armes en tirant une fois (la prochaine fois, l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "faction": "Prime Brothers",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent Lacération sur leurs armes en tirant une fois (la prochaine fois, l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "faction": "Watch Brothers",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Watchborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "faction": "Watch Prime Brothers",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Watchborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34212,6 +39400,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Renforcement Noble une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Bien-né amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34228,6 +39421,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34244,6 +39442,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -34260,6 +39463,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Laceration."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
         }
       ]
     },
@@ -34276,6 +39484,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
         }
       ]
     },
@@ -34292,6 +39505,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3)."
         }
       ]
     },
@@ -34308,6 +39526,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 2 coups avec PA(2) et Mortel(3)."
         }
       ]
     },
@@ -34324,6 +39547,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui gagnent -1 à jets de touche lors d'une attaque une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui obtient -1 aux jets de touche lors d'une attaque une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34340,6 +39568,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une figurine ennemie à 24″ ou moins, qui subit 1 touche avec PA (4). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -34372,6 +39605,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 1,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent -3 aux jets d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui perd 2 jetons de sort. Notez que la cible ne peut pas dépenser ces jetons de sort pour empêcher cet effet."
         }
       ]
     },
@@ -34388,6 +39626,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Furieux une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Bloodborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34404,6 +39647,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Implacable contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Implacable une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -34420,6 +39668,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12” ou moins, qui gagnent <key>Boost de Primal</key> (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Primaire amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34436,6 +39689,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 1,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
         }
       ]
     },
@@ -34500,6 +39758,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3)."
         }
       ]
     },
@@ -34516,6 +39779,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents PA(1) lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront PA(1) sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -34548,6 +39816,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui perd PA(1) lors d'un tir une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de mire, ce qui perd PA(1) sur ses armes en tirant une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34580,6 +39853,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3)."
         }
       ]
     },
@@ -34596,6 +39874,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité ennemies a 18”, qui gagnent Encombrant in mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, qui aura Encombrant sur ses armes en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34628,6 +39911,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(2) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 6 coups avec PA(2)."
         }
       ]
     },
@@ -34676,6 +39964,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent <key>Tir en mouvement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Tir en mouvement une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34692,6 +39985,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Lacération in mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiennent une fois Lacération sur leurs armes en mêlée (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -34708,6 +40006,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34740,6 +40043,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -34756,6 +40064,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
         }
       ]
     },
@@ -34772,6 +40085,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
         }
       ]
     },
@@ -34788,6 +40106,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 3 touches avec Fléau chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 12\", ce qui prend 9 coups avec Fléau."
         }
       ]
     },
@@ -34804,6 +40127,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 6” ou moins, qui subit 1 touche avec <key>Mortel</key>(3) et <key>Dechirure</key>."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec PA(1) et Perce."
         }
       ]
     },
@@ -34820,6 +40148,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui se déplacez -2\" lors d'actions de Avancée actions et -4\" lors d'actions de Course/Charge actions une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, qui se déplace de -2\" lors de l'utilisation des actions d'Avancée et de -4\" lors de l'utilisation des actions de Course/Charge une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34836,6 +40169,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui doit effectuer a test de moral. En cas d'échec vous peut se déplacer elle jusqu'à 6” dans a ligne droite dans n'importe quelle direction."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui doit passer un test de moral. En cas d'échec, vous pouvez la déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Les unités ne peuvent être déplacées de cette manière qu'une fois par tour."
         }
       ]
     },
@@ -34852,6 +40190,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent +1 à jets de touche lors d'un tir une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent +1 aux jets de touche en tirant une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -34884,6 +40227,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec Désintegration chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Perforation."
         }
       ]
     },
@@ -34948,6 +40296,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
         }
       ]
     },
@@ -34964,6 +40317,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 3 touches chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 12\" en ligne de mire, ce qui subit 3 coups."
         }
       ]
     },
@@ -34980,6 +40338,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux figurines ennemies à 24” ou moins, qui subissent 1 touche avec <key>Dechirure</key> chacune. Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie dans un rayon de 18\" en ligne de vue, qui subit 1 coup avec PA(2) et Désintegration. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -34996,6 +40359,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Résistance une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Résistance aux sorts une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35046,6 +40414,24 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Mercenaries",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "faction": "Human Defense Force",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 4 coups avec Fracture. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
+        },
+        {
+          "system": "GF",
+          "faction": "Human Inquisition",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
+        },
+        {
+          "system": "GF",
+          "faction": "Titan Lords",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -35062,6 +40448,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3)."
         }
       ]
     },
@@ -35126,6 +40517,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 2,
           "text": "Choisissez jusqu'à deux unités ennemies à 6″ ou moins, qui subissent chacune 3 touches avec Désintégration."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 3 coups avec Purge."
         }
       ]
     },
@@ -35142,6 +40538,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnent +6” de portée lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, les unités amies bénéficiant d'une portée de +6\" sur leurs armes lorsqu'elles tirent une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -35158,6 +40559,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois figurines ennemies à 18″ ou moins, qui subissent chacune 2 touches avec PA (1). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -35174,6 +40580,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Furtif une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Furtif une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35190,6 +40601,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unité ennemies a 18”, qui subissent 2 touches chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, ce qui subit 6 coups."
         }
       ]
     },
@@ -35206,6 +40622,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
         }
       ]
     },
@@ -35222,6 +40643,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 9\", qui subissent chacune 4 coups."
         }
       ]
     },
@@ -35238,6 +40664,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Combattant imprévisible une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Combattant imprévisible une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35254,6 +40685,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Lacération."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Lacération."
         }
       ]
     },
@@ -35286,6 +40722,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 3 touches avec Destructeur chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 6\", qui subit 3 coups avec PA(1) et Fracasse. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -35302,6 +40743,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux figurines ennemies à 24″ ou moins, qui subissent chacune 1 touche avec PA (4). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 1 coup avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -35334,6 +40780,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Boost de Gardien une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Gardien amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35350,6 +40801,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Renforcement Lie au Chaos une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Havocbound amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35366,6 +40822,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 12″ ou moins, qui subissent chacune 2 touches avec PA (1) et Lacération."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 3 coups avec Fléau."
         }
       ]
     },
@@ -35382,6 +40843,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 9\", qui subissent chacune 4 coups."
         }
       ]
     },
@@ -35398,6 +40864,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(2)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 6 coups avec PA(2)."
         }
       ]
     },
@@ -35414,6 +40885,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Perforant au corps à corps contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Perforant sur leurs armes en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35430,6 +40906,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux figurines ennemies à 18” ou moins, qui subissent 2 touches avec <key>PA</key>(1) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -35446,6 +40927,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Tireur imprevisible une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Tireur imprevisible une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35462,6 +40948,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois figurines ennemies à 18″ ou moins, qui subissent chacune 2 touches avec PA (1). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -35478,6 +40969,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 3 touches chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, ce qui subit 9 coups."
         }
       ]
     },
@@ -35494,6 +40990,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 2,
           "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent Chasseur perforant une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Tireur d'élite perçant une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35510,6 +41011,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost du Lien de ruche une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités ennemies dans un rayon de 24\" en ligne de vue, contre lesquelles les unités amies recevront Combattant imprévisible une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -35526,6 +41032,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Renforcement ancrée une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Défense au sol une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35542,6 +41053,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Avance rapide une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Avance rapide une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35558,6 +41074,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Lacération chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, qui subit 6 coups avec Lacération."
         }
       ]
     },
@@ -35574,6 +41095,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une figurine ennemie à 18” ou moins, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -35590,6 +41116,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35606,6 +41137,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -35622,6 +41158,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
         }
       ]
     },
@@ -35638,6 +41179,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
         }
       ]
     },
@@ -35654,6 +41200,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 12″ ou moins, qui subissent chacune 2 touches avec PA (1) et Désintégration."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie dans un rayon de 12\" en ligne de mire, qui subit 6 coups avec Destructeur."
         }
       ]
     },
@@ -35670,6 +41221,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 2,
           "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 9\", qui subissent chacune 4 coups."
         }
       ]
     },
@@ -35686,6 +41242,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 3,
           "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent Boost de Dévotion une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Dévot amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35766,6 +41327,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Boost d'Auto-réparation une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Auto-réparation améliorée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35782,6 +41348,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -35798,6 +41369,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -35814,6 +41390,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Lacération chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, qui subit 6 coups avec Lacération."
         }
       ]
     },
@@ -35830,6 +41411,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, ce qui obtient -1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -35846,6 +41432,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unités ennemies à 12” ou moins, qui subissent 1 hit avec PA(2) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 6\", qui subissent chacune 4 coups avec PA(2)."
         }
       ]
     },
@@ -35862,6 +41453,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
         }
       ]
     },
@@ -35878,6 +41474,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Tireur imprevisible contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Tireur imprevisible une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -35974,6 +41575,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Destructeur. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Fragment."
         }
       ]
     },
@@ -35990,6 +41596,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Renforcement Ferocite une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Féroce amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36006,6 +41617,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(2)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 6 coups avec PA(2)."
         }
       ]
     },
@@ -36022,6 +41638,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois figurines ennemies à 24” ou moins, qui subissent 1 hit avec PA(4) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -36054,6 +41675,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 9\", qui subissent chacune 4 coups."
         }
       ]
     },
@@ -36070,6 +41696,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 6″ ou moins, qui subissent chacune 1 touche avec Mortel (3) et Déchirure."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec Dangereux. Lancez autant de dés que de coups pour voir si les effets \"sur 1\" se déclenchent."
         }
       ]
     },
@@ -36086,6 +41717,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une figurine ennemie à 18” ou moins, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -36102,6 +41738,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Blindé</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Blindé une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36118,6 +41759,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 1 hit avec PA(2) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 6\", qui subissent chacune 4 coups avec PA(2)."
         }
       ]
     },
@@ -36134,6 +41780,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois figurines ennemies à 12” ou moins, qui subissent 2 touches avec <key>Dangereux</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 1 » se déclenchent. Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec Dangereux. Lancez autant de dés que de touches pour voir si les effets \"sur 1\" se déclenchent. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -36150,6 +41801,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 3,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36166,6 +41822,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Renforcement de Harcelement une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Harcèlement amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36198,6 +41859,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux figurines ennemies à 24″ ou moins, qui subissent chacune 1 touche avec PA (4). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -36262,6 +41928,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Boost de Ferrailleur une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Scrapper amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36312,6 +41983,24 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Mercenaries",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent +1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "faction": "Human Defense Force",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Maintien de la ligne amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "faction": "Human Inquisition",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent +1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "faction": "Titan Lords",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent +1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36360,6 +42049,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(2) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 6 coups avec PA(2)."
         }
       ]
     },
@@ -36424,6 +42118,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>Désintegration</key> chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 6\", qui subit 3 coups avec PA(1) et Fauchage. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -36472,6 +42171,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost du Viseur de ciblage une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Visière de ciblage améliorée une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36488,6 +42192,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 3 touches avec <key>Fléau</key> chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 3 coups avec Fléau."
         }
       ]
     },
@@ -36504,6 +42213,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 3 touches avec Fléau chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 12\", ce qui prend 9 coups avec Fléau."
         }
       ]
     },
@@ -36520,6 +42234,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités ennemies à 12” ou moins, qui subissent 1 hit avec PA(2) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 6\", qui subissent chacune 4 coups avec PA(2)."
         }
       ]
     },
@@ -36536,6 +42255,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec Fracasse chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, qui subit 6 coups avec Désintegration."
         }
       ]
     },
@@ -36552,6 +42276,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnent +1 à jets de touche au corps à corps contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies obtiennent +1 aux jets de touche en mêlée (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -36568,6 +42297,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Régénération une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Régénération une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36600,6 +42334,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent <key>Assaut tranchant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Wolfborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36616,6 +42355,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 1,
           "text": "Choisissez une figurine ennemie à 24″ ou moins, qui subit 1 touche avec PA (4). Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -36648,6 +42392,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies à 18″ ou moins, qui subissent chacune 1 touche avec Explosion (3)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 2 coups avec Explosion(3)."
         }
       ]
     },
@@ -36664,6 +42413,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 3 touches chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, ce qui subit 9 coups."
         }
       ]
     },
@@ -36680,6 +42434,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Laceration chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de mire, qui subit 4 coups avec Démolition."
         }
       ]
     },
@@ -36696,6 +42455,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec Désintegration."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 2 coups avec Perforation."
         }
       ]
     },
@@ -36728,6 +42492,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost de la téléportation rapide une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Clignotement rapide amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36744,6 +42513,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Fissure chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 4 coups avec Fracture. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -36767,6 +42541,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Blood Prime Brothers",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Lacération chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Lacération."
         }
       ]
     },
@@ -36783,6 +42562,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui se déplacez +2\" lors d'actions de Avancée actions et +4\" lors d'actions de Course/Charge actions une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui se déplace de +2\" lors de l'utilisation des actions d'Avancée et de +4\" lors de l'utilisation des actions de Course/Charge une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36799,6 +42583,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent +1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient un jet de +1 en Défense une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36815,6 +42604,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost du Brouillard-machine une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Brouillard de machine amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36847,6 +42641,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 12″ ou moins, qui subissent chacune 2 touches avec PA (1) et Lacération."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Fléau."
         }
       ]
     },
@@ -36863,6 +42662,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Laceration."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de mire, qui subit 4 coups avec Laceration."
         }
       ]
     },
@@ -36879,6 +42683,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une figurine ennemie à 24” ou moins, qui subit 1 hit avec Dechirure. Cet effet est résolu comme si la cible était une unité de [1]."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une figurine ennemie à moins de 30\" de ligne de vue, qui subit 3 coups avec PA(3) et Destructeur. Cet effet est résolu comme si la cible était une unité de [1]."
         }
       ]
     },
@@ -36895,6 +42704,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Volant une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Volant une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36911,6 +42725,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost de Guerrier de clan une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Guerrier de clan amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -36927,6 +42746,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) et Laceration chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3) et Decimation."
         }
       ]
     },
@@ -36991,6 +42815,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Surcharge chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -37007,6 +42836,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 3 touches chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, ce qui subit 9 coups."
         }
       ]
     },
@@ -37071,6 +42905,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, qui subissent un -1 aux jets de Défense une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -37087,6 +42926,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Combattant imprévisible contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Combattant Frappe et Repli une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -37103,6 +42947,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Lacération lors d'une attaque contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Lacération sur leurs armes lorsqu'elles attaqueront une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -37119,6 +42968,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie a 18”, qui subit 2 touches."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 4 coups."
         }
       ]
     },
@@ -37135,6 +42989,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Fléau lors d'une attaque contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, laquelle unité amie recevra Fléau sur ses armes lorsqu'elle attaquera une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -37167,6 +43026,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Indirect lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, contre laquelle les unités amies recevront Indirect sur leurs armes une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -37199,6 +43063,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Tueur contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Tueur une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -37215,6 +43084,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Boost d'Infecté une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Infecté amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -37231,6 +43105,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 2 coups avec PA(2) et Mortel(3)."
         }
       ]
     },
@@ -37263,6 +43142,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -37279,6 +43163,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -37295,6 +43184,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
         }
       ]
     },
@@ -37311,6 +43205,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
         }
       ]
     },
@@ -37327,6 +43226,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) et Laceration chacune."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 6\", qui subit 3 coups avec PA(1) et Fauchage. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -37359,6 +43263,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+        },
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
         }
       ]
     },
@@ -37375,6 +43284,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
         }
       ]
     },
@@ -37391,6 +43305,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
         }
       ]
     },
@@ -37407,6 +43326,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+        },
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
         }
       ]
     },
@@ -37439,6 +43363,11 @@ export const commonSpells: SpellsByLanguage = {
           "system": "GFF",
           "cost": 0,
           "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge."
+        },
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
         }
       ]
     },
@@ -38209,6 +44138,105 @@ export const commonSpells: SpellsByLanguage = {
           "system": "AOFS",
           "cost": 3,
           "text": "Choisissez jusqu'à trois unités ennemies à 12″ ou moins, qui subissent chacune 3 touches."
+        }
+      ]
+    },
+    "Blessed Shroud": {
+      "title": "Linceul béni",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Darkborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Adrenal Booster": {
+      "title": "Booster surrénalien",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Déplacement amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Enhanced Serum": {
+      "title": "Sérum amélioré",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Régénération une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Combat Psychosis": {
+      "title": "Combattre la psychose",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, contre laquelle les unités amies recevront Combattant imprévisible une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Cyber Shock": {
+      "title": "Cyber-choc",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
+        }
+      ]
+    },
+    "Synaptic Stims": {
+      "title": "Stimulations synaptiques",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui se déplacent de +2\" lors de l'utilisation des actions d'Avancée et de +4\" lors de l'utilisation des actions de Course/Charge une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "Overheat Internals": {
+      "title": "Surchauffe des composants internes",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 2,
+          "text": "Choisissez une unité ennemie à moins de 18\" en ligne de mire, qui subit 4 coups avec Démolition."
+        }
+      ]
+    },
+    "Optical Malfunction": {
+      "title": "Dysfonctionnement optique",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Né de l'Ombre amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+        }
+      ]
+    },
+    "System Collapse": {
+      "title": "Effondrement du système",
+      "system": "GF",
+      "description": [
+        {
+          "system": "GF",
+          "cost": 3,
+          "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, ce qui subit 9 coups."
         }
       ]
     }
@@ -39542,6 +45570,42 @@ export const factionData: FactionDataByLanguage = {
       "armyName": "Wood Elves",
       "introduction": "Wood Elves are Elves who live in harmony with the forest and the magical beings within. Although lightly armoured, they are able to move quickly and strike at foes from far away, while relying on the trees themselves to slow their enemies. \n\nOver the centuries, Wood Elves have been betrayed by outsiders and even their own kin who have cut away at the edges of the forest. Now, they look on both outsiders and new ideas with suspicion, unwilling to bend in their traditions, even as their forests continue to shrink and the world threatens to leave them behind.",
       "backgroundStory": "The ancestors of the Wood Elves migrated to the Heartwoods to find a new home, as human tribes had begun to encroach on their ancestral lands. Here, they met the Treelords, powerful beings who dwelt in the Heartwoods, and the two forged a pact. The Elves would protect and nurture the forest, never harming it without need, and in exchange, the Treelords would protect and provide for them. \n\nWhen Humans arrived at the edge of the forest, they cleared land for farming and cut trees for fuel. Together, the Elves and Treelords drove the humans back, though the humans held onto the land which they had cleared. While many Elves viewed the humans and their ways with distrust, others learned from their foe, taking metal weapons and tools from them, and they even began trading with them. They called themselves High Elves, as they built stone towers and carved out Kingdoms in the Heartwoods, claiming the forest lands for themselves. The remaining Wood Elves and their allied Treelords fought back against their former kin.\n\nThe Wood Elves won a costly victory, exiling the High Elves, and leaving their old towers to fall to ruin. The Wood Elves renewed their pacts and clung closely to their traditions, distrusting any who strayed from them. So it was that the Wood Elves remained in isolation for centuries, maintaining their old ways of life until the Havoc Gods arrived.\n\nThe followers of the Havoc Gods raided the forests, taking lumber for their weapons of war, and burning what they did not need. The Wood Elves fought desperately to drive them back, but it was soon clear that their enemies were too many. So, when the High Elves offered an alliance, the Wood Elves reluctantly accepted it. This alliance quickly grew, and the Wood Elves conceded large parts of their forest to give their allies lumber for weapons, ships, and fortifications. \n\nYet when victory came, the Wood Elves had little to show for it, as their former allies claimed the land where the woods had once been, and some even sought to encroach further. Now, the Wood Elves fiercely guard what remains, but the forest continues to shrink with each passing year. Even some Treelords believe that their days are numbered as the forest continues to shrink. \n\nHow will you uphold the ancient pacts of your people'"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Daemons of Change",
+      "introduction": "The Wormhole Daemons are monstrous servants of the Havoc Gods who emerge from a different dimension throughout the galaxy. Their forms vary greatly, depending on which god they serve.\n\nWormhole Daemons are cast offs of dying gods who desperately hope to buy more time for themselves. These Daemons emerge suddenly from wormholes throughout the galaxy, to serve the eldritch will of their gods, only to disappear just as quickly once they have achieved their ends. Their gods are ready to leave nothing but havoc in their wake, just in hopes of extending their own lives for a little longer.",
+      "backgroundStory": "For aeons, powerful beings resided in a place beyond space, between the wormholes. Pure psychic entities, they lacked physical form and lived without fear of pain or death. Little can be said for certain about these beings or their origins, as their existence predates the records of even the oldest known civilizations in the galaxy. They observed passively, watching the galaxy progress, but rarely interacted with the species that lived within.\n\nThis changed suddenly, when one of their species died. Many have speculated about the cause of this death, but so far the matter remains a mystery. This was the first time one of their kind had experienced death, and others reacted first with curiosity, followed by horror. The horror only grew worse as death began to spread. The deaths started to mount and the rest began to recognize the signs of entropy and decay in themselves.\n\nEach entity would react in their own way, but most would eventually succumb with few exceptions. The being now known as Lust sought to cut away at itself, slicing any signs of imperfection and weakness. Another known as Change, sought to accumulate knowledge more quickly than it could decay. Plague found salvation in physical form, using its power to spread itself and re-assimilate any that it infected. Finally, War learned to draw strength from those it slew.\n\nSoon, these beings turned their attention outwards, hoping that the material world might allow them to stall their demise for a time longer. Anguished to survive, they sought out followers from the lost and desperate and offered them power in exchange for their service and worship. Those who rejected these gods came to know them as Havoc Gods due to the zealotry of their followers and the unrest that they caused.\n\nThese Gods are able to manifest their will in the physical world through aspects, fragments of their power and minds, which most refer to as their Daemons. Once manifested, these aspects are mortal, and vulnerable to death and harm, needing food to survive, and which can even adapt and change with experience. Gods must sacrifice a portion of their power to create Daemons, with greater Daemons requiring more of their essence to be contributed. As such, each Havoc God can only manifest so many Daemons at once, and must lose a portion of their power to do so, claiming it back when a Daemon dies.\n\nWhen they are not carrying out the will of their gods, the Daemons often dwell within a strange space between Wormholes. Their control over these wormholes allows them to appear and disappear within physical space rapidly, allowing them to carry out their God’s will without fear of reprisal.\n\nHow will you serve the will of your god?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Daemons of Lust",
+      "introduction": "The Wormhole Daemons are monstrous servants of the Havoc Gods who emerge from a different dimension throughout the galaxy. Their forms vary greatly, depending on which god they serve.\n\nWormhole Daemons are cast offs of dying gods who desperately hope to buy more time for themselves. These Daemons emerge suddenly from wormholes throughout the galaxy, to serve the eldritch will of their gods, only to disappear just as quickly once they have achieved their ends. Their gods are ready to leave nothing but havoc in their wake, just in hopes of extending their own lives for a little longer.",
+      "backgroundStory": "For aeons, powerful beings resided in a place beyond space, between the wormholes. Pure psychic entities, they lacked physical form and lived without fear of pain or death. Little can be said for certain about these beings or their origins, as their existence predates the records of even the oldest known civilizations in the galaxy. They observed passively, watching the galaxy progress, but rarely interacted with the species that lived within.\n\nThis changed suddenly, when one of their species died. Many have speculated about the cause of this death, but so far the matter remains a mystery. This was the first time one of their kind had experienced death, and others reacted first with curiosity, followed by horror. The horror only grew worse as death began to spread. The deaths started to mount and the rest began to recognize the signs of entropy and decay in themselves.\n\nEach entity would react in their own way, but most would eventually succumb with few exceptions. The being now known as Lust sought to cut away at itself, slicing any signs of imperfection and weakness. Another known as Change, sought to accumulate knowledge more quickly than it could decay. Plague found salvation in physical form, using its power to spread itself and re-assimilate any that it infected. Finally, War learned to draw strength from those it slew.\n\nSoon, these beings turned their attention outwards, hoping that the material world might allow them to stall their demise for a time longer. Anguished to survive, they sought out followers from the lost and desperate and offered them power in exchange for their service and worship. Those who rejected these gods came to know them as Havoc Gods due to the zealotry of their followers and the unrest that they caused.\n\nThese Gods are able to manifest their will in the physical world through aspects, fragments of their power and minds, which most refer to as their Daemons. Once manifested, these aspects are mortal, and vulnerable to death and harm, needing food to survive, and which can even adapt and change with experience. Gods must sacrifice a portion of their power to create Daemons, with greater Daemons requiring more of their essence to be contributed. As such, each Havoc God can only manifest so many Daemons at once, and must lose a portion of their power to do so, claiming it back when a Daemon dies.\n\nWhen they are not carrying out the will of their gods, the Daemons often dwell within a strange space between Wormholes. Their control over these wormholes allows them to appear and disappear within physical space rapidly, allowing them to carry out their God’s will without fear of reprisal.\n\nHow will you serve the will of your god?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Daemons of Plague",
+      "introduction": "The Wormhole Daemons are monstrous servants of the Havoc Gods who emerge from a different dimension throughout the galaxy. Their forms vary greatly, depending on which god they serve.\n\nWormhole Daemons are cast offs of dying gods who desperately hope to buy more time for themselves. These Daemons emerge suddenly from wormholes throughout the galaxy, to serve the eldritch will of their gods, only to disappear just as quickly once they have achieved their ends. Their gods are ready to leave nothing but havoc in their wake, just in hopes of extending their own lives for a little longer.",
+      "backgroundStory": "For aeons, powerful beings resided in a place beyond space, between the wormholes. Pure psychic entities, they lacked physical form and lived without fear of pain or death. Little can be said for certain about these beings or their origins, as their existence predates the records of even the oldest known civilizations in the galaxy. They observed passively, watching the galaxy progress, but rarely interacted with the species that lived within.\n\nThis changed suddenly, when one of their species died. Many have speculated about the cause of this death, but so far the matter remains a mystery. This was the first time one of their kind had experienced death, and others reacted first with curiosity, followed by horror. The horror only grew worse as death began to spread. The deaths started to mount and the rest began to recognize the signs of entropy and decay in themselves.\n\nEach entity would react in their own way, but most would eventually succumb with few exceptions. The being now known as Lust sought to cut away at itself, slicing any signs of imperfection and weakness. Another known as Change, sought to accumulate knowledge more quickly than it could decay. Plague found salvation in physical form, using its power to spread itself and re-assimilate any that it infected. Finally, War learned to draw strength from those it slew.\n\nSoon, these beings turned their attention outwards, hoping that the material world might allow them to stall their demise for a time longer. Anguished to survive, they sought out followers from the lost and desperate and offered them power in exchange for their service and worship. Those who rejected these gods came to know them as Havoc Gods due to the zealotry of their followers and the unrest that they caused.\n\nThese Gods are able to manifest their will in the physical world through aspects, fragments of their power and minds, which most refer to as their Daemons. Once manifested, these aspects are mortal, and vulnerable to death and harm, needing food to survive, and which can even adapt and change with experience. Gods must sacrifice a portion of their power to create Daemons, with greater Daemons requiring more of their essence to be contributed. As such, each Havoc God can only manifest so many Daemons at once, and must lose a portion of their power to do so, claiming it back when a Daemon dies.\n\nWhen they are not carrying out the will of their gods, the Daemons often dwell within a strange space between Wormholes. Their control over these wormholes allows them to appear and disappear within physical space rapidly, allowing them to carry out their God’s will without fear of reprisal.\n\nHow will you serve the will of your god?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Daemons of War",
+      "introduction": "The Wormhole Daemons are monstrous servants of the Havoc Gods who emerge from a different dimension throughout the galaxy. Their forms vary greatly, depending on which god they serve.\n\nWormhole Daemons are cast offs of dying gods who desperately hope to buy more time for themselves. These Daemons emerge suddenly from wormholes throughout the galaxy, to serve the eldritch will of their gods, only to disappear just as quickly once they have achieved their ends. Their gods are ready to leave nothing but havoc in their wake, just in hopes of extending their own lives for a little longer.",
+      "backgroundStory": "For aeons, powerful beings resided in a place beyond space, between the wormholes. Pure psychic entities, they lacked physical form and lived without fear of pain or death. Little can be said for certain about these beings or their origins, as their existence predates the records of even the oldest known civilizations in the galaxy. They observed passively, watching the galaxy progress, but rarely interacted with the species that lived within.\n\nThis changed suddenly, when one of their species died. Many have speculated about the cause of this death, but so far the matter remains a mystery. This was the first time one of their kind had experienced death, and others reacted first with curiosity, followed by horror. The horror only grew worse as death began to spread. The deaths started to mount and the rest began to recognize the signs of entropy and decay in themselves.\n\nEach entity would react in their own way, but most would eventually succumb with few exceptions. The being now known as Lust sought to cut away at itself, slicing any signs of imperfection and weakness. Another known as Change, sought to accumulate knowledge more quickly than it could decay. Plague found salvation in physical form, using its power to spread itself and re-assimilate any that it infected. Finally, War learned to draw strength from those it slew.\n\nSoon, these beings turned their attention outwards, hoping that the material world might allow them to stall their demise for a time longer. Anguished to survive, they sought out followers from the lost and desperate and offered them power in exchange for their service and worship. Those who rejected these gods came to know them as Havoc Gods due to the zealotry of their followers and the unrest that they caused.\n\nThese Gods are able to manifest their will in the physical world through aspects, fragments of their power and minds, which most refer to as their Daemons. Once manifested, these aspects are mortal, and vulnerable to death and harm, needing food to survive, and which can even adapt and change with experience. Gods must sacrifice a portion of their power to create Daemons, with greater Daemons requiring more of their essence to be contributed. As such, each Havoc God can only manifest so many Daemons at once, and must lose a portion of their power to do so, claiming it back when a Daemon dies.\n\nWhen they are not carrying out the will of their gods, the Daemons often dwell within a strange space between Wormholes. Their control over these wormholes allows them to appear and disappear within physical space rapidly, allowing them to carry out their God’s will without fear of reprisal.\n\nHow will you serve the will of your god?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Saurian Starhosts",
+      "introduction": "Saurian Starhosts are an ancient coalition of humanoid reptiles led by giant Frog Mages. Their armies combine advanced technology with genetically modified predators to make them fearsome foes.\n\nThe Saurians are perhaps the most ancient race in the galaxy, but most of their species lie dormant in cyro-pyramids. The Saurians seek to awaken their host to prevent a prophesied disaster, however many of their pyramids have been lost or destroyed, and some have begun to fear that they have already failed their mission.",
+      "backgroundStory": "Saurians claim that the Frog-Mages who created them existed before time began. Their Mages teach them that their purpose is to fulfill a great prophecy which they have held from the beginning: in time, the fabric of reality would break, and their fate would be to save it. The Frog-Mages created cryo-pyramids and scattered themselves through the galaxy to ensure that they would be ready to fulfill their purpose when their time came.\n \nIn their absence, a number of new species began to explore and settle throughout the galaxy. This led to a surge of psychic power which awoke one of the dormant Frog-Mages, who was now alone in the galaxy. The lone Frog-Mage found a galaxy at war, and fearing that this was the beginning of the end, he hoped to awaken his fellow Mages before it was too late.\n\nThe Frog-Mage gathered a conclave of helpers, but it was soon clear that they would not be able to succeed alone. The Mages used their vast knowledge of genetic engineering and psychic abilities to create new allies, in order to seek out the rest of their kind. Together, they created the first Starhost. Each member of a Starhost has their fate defined by the Frog-Mages at birth, and they are created to fulfill this single mission in order to help the Frog-Mages complete the prophecy. These missions define much of the culture of the various species in each Starhost.\n\nThe first Starhost began to seek out and awaken other Mages. The newly awakened Mages would create additional Starhosts in order to fulfill their purpose, who would then create their own Starhosts in order to seek out more of their kind throughout the galaxy, including in the Sirius Sector.  Much has changed in the galaxy since the Saurians first entered the cyro-pyramids however, and rediscovering the pyramids has proven a more difficult task than expected. Some cryo-pyramids have been destroyed by exploding stars or marauding treasure hunters, others have been buried beneath deserts, oceans or even cities. Worse still, some have begun to fail on their own, leaving the Frog-Mages inside to die. \n\nThese setbacks have cast doubt on the reliability of the Frog-Mages and their prophecies, while others are beginning to fear that the Frog-Mages have already failed in their great prophecy.\n\nHow will you face your destiny?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Voidspace Stalkers",
+      "introduction": "More coming soon...",
+      "backgroundStory": "More coming soon..."
     }
   ],
   "fr": [
@@ -40870,6 +46934,42 @@ export const factionData: FactionDataByLanguage = {
       "armyName": "Elfes des Bois",
       "introduction": "Les Elfes des Bois vivent en harmonie avec la forêt et avec les êtres magiques qui l'habitent. Bien que légèrement protégés, ils sont capables de se déplacer rapidement et de frapper leurs ennemis de loin, tout en comptant sur les arbres eux-mêmes pour ralentir l'avance adverse.\n\nAu fil des siècles, les Elfes des Bois ont été trahis par les étrangers et même par leurs propres cousins, qui ont grignoté les lisières de la forêt. Ils regardent désormais les étrangers comme les idées nouvelles avec méfiance, refusant de céder sur leurs traditions, alors même que leurs bois rétrécissent et que le monde menace de les laisser derrière lui.",
       "backgroundStory": "Les ancêtres des Elfes des Bois migrèrent vers les Bois du Cœur pour y trouver un nouveau foyer, alors que des tribus humaines commençaient à empiéter sur leurs terres ancestrales. Là, ils rencontrèrent les Seigneurs des Arbres, de puissants êtres vivant au cœur de la forêt, et les deux peuples conclurent un pacte. Les Elfes protégeraient et nourriraient la forêt, ne lui portant jamais atteinte sans nécessité, et en échange, les Seigneurs des Arbres les protégeraient et subviendraient à leurs besoins.\n\nLorsque les Humains arrivèrent aux abords de la forêt, ils défrichèrent des terres pour l'agriculture et abattirent des arbres pour le combustible. Ensemble, les Elfes et les Seigneurs des Arbres les repoussèrent, même si les Humains conservèrent les terres qu'ils avaient défrichées. Tandis que beaucoup d'Elfes regardaient les Humains et leurs coutumes avec défiance, d'autres apprirent de leurs ennemis, adoptant armes et outils de métal, et allant même jusqu'à commercer avec eux. Ils prirent le nom de Hauts Elfes, construisirent des tours de pierre et taillèrent leurs royaumes au cœur des Bois du Cœur, revendiquant la forêt pour eux-mêmes. Les Elfes des Bois restés fidèles à l'ancien pacte et leurs alliés Seigneurs des Arbres se dressèrent contre eux.\n\nLes Elfes des Bois remportèrent une victoire coûteuse, bannissant les Hauts Elfes et laissant leurs anciennes tours tomber en ruine. Ils renouvelèrent alors leurs pactes et s'attachèrent étroitement à leurs traditions, se méfiant de quiconque s'en éloignait. C'est ainsi qu'ils vécurent isolés durant des siècles, préservant leurs anciens modes de vie jusqu'à l'arrivée des Dieux du Havoc.\n\nLes fidèles du Havoc pillèrent les forêts, prenant le bois pour leurs armes de guerre et brûlant ce dont ils n'avaient pas besoin. Les Elfes des Bois se battirent désespérément pour les repousser, mais il devint vite évident que leurs ennemis étaient trop nombreux. Aussi, lorsque les Hauts Elfes leur proposèrent une alliance, ils l'acceptèrent à contrecœur. Cette alliance ne tarda pas à se renforcer, et les Elfes des Bois concédèrent une large part de leurs forêts afin de fournir à leurs alliés le bois nécessaire à leurs armes, leurs navires et leurs fortifications.\n\nMais lorsque la victoire arriva, les Elfes des Bois n'avaient que peu à en retirer, car leurs anciens alliés revendiquèrent les terres où s'étendaient jadis les forêts, et certains cherchèrent même à empiéter plus encore. Désormais, les Elfes des Bois défendent farouchement ce qu'il en reste, mais la forêt continue de reculer année après année. Même certains Seigneurs des Arbres pensent que leurs jours sont comptés, tant les bois se réduisent.\n\nComment préserveras-tu les anciens pactes de ton peuple ?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Démons du changement",
+      "introduction": "Les Démons Wormhole sont de monstrueux serviteurs des Dieux du Havoc qui émergent d'une dimension différente à travers la galaxie. Leurs formes varient considérablement selon le dieu qu'ils servent.\n\nLes démons Wormhole sont des rejetons de dieux mourants qui espèrent désespérément gagner plus de temps pour eux-mêmes. Ces démons émergent soudainement des trous de ver à travers la galaxie, pour servir la volonté surnaturelle de leurs dieux, pour ensuite disparaître tout aussi rapidement une fois qu'ils ont atteint leurs objectifs. Leurs dieux sont prêts à ne laisser que des ravages sur leur passage, dans l’espoir de prolonger un peu plus leur vie.",
+      "backgroundStory": "Pendant des éternités, des êtres puissants ont résidé dans un endroit au-delà de l'espace, entre les trous de ver. Entités psychiques pures, elles manquaient de forme physique et vivaient sans Effrayant de douleur ou de mort. On ne peut rien dire avec certitude sur ces êtres ou sur leurs origines, car leur existence est antérieure aux archives des civilisations connues les plus anciennes de la galaxie. Ils observaient passivement, observant la progression de la galaxie, mais interagissaient rarement avec les espèces qui y vivaient.\n\nCela a changé soudainement, lorsqu'un membre de leur espèce est mort. Beaucoup ont spéculé sur la cause de ce décès, mais jusqu’à présent, l’affaire reste un mystère. C’était la première fois qu’un membre de leur espèce faisait l’expérience de la mort, et d’autres réagissaient d’abord avec curiosité, puis avec horreur. L’horreur n’a fait qu’empirer à mesure que la mort commençait à se propager. Les décès ont commencé à augmenter et les autres ont commencé à reconnaître les signes d’entropie et de décadence en eux-mêmes.\n\nChaque entité réagirait à sa manière, mais la plupart finiraient par succomber, à quelques exceptions près. L'être maintenant connu sous le nom de Lust cherchait à se couper lui-même, éliminant tout signe d'imperfection et de faiblesse. Un autre, connu sous le nom de Changement, cherchait à accumuler des connaissances plus rapidement qu'elles ne pourraient se dégrader. La peste a trouvé le salut sous forme physique, utilisant son pouvoir pour se propager et réassimiler tout ce qui se trouvait sur elle. Finalement, la guerre a appris à tirer sa force de ceux qu’elle tuait.\n\nBientôt, ces êtres tournèrent leur attention vers l’extérieur, espérant que le monde matériel leur permettrait de retarder leur disparition plus longtemps. Angoissés de survivre, ils recherchaient des adeptes parmi les perdus et les désespérés et leur offraient du pouvoir en échange de leur service et de leur culte. Ceux qui ont rejeté ces dieux les ont connus comme des dieux du chaos en raison du fanatisme de leurs adeptes et des troubles qu'ils ont provoqués.\n\nCes dieux sont capables de manifester leur volonté dans le monde physique à travers des aspects, des fragments de leur pouvoir et de leur esprit, que la plupart appellent leurs démons. Une fois manifestés, ces aspects sont mortels et vulnérables à la mort et au mal, ayant besoin de nourriture pour survivre et qui peuvent même s'adapter et changer avec l'expérience. Les dieux doivent sacrifier une partie de leur pouvoir pour créer des démons, les démons plus grands nécessitant une plus grande contribution de leur essence. En tant que tel, chaque Dieu du Havoc ne peut manifester qu'un nombre limité de Démons à la fois et doit perdre une partie de son pouvoir pour ce faire, le récupérant lorsqu'un Démon meurt.\n\nLorsqu'ils n'exécutent pas la volonté de leurs dieux, les Démons habitent souvent dans un espace étrange entre les Trous de Ver. Leur contrôle sur ces trous de ver leur permet d’apparaître et de disparaître rapidement dans l’espace physique, leur permettant d’accomplir la volonté de Dieu sans Effrayant de représailles.\n\nComment allez-vous servir la volonté de votre dieu?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Démons de la luxure",
+      "introduction": "Les Démons Wormhole sont de monstrueux serviteurs des Dieux du Havoc qui émergent d'une dimension différente à travers la galaxie. Leurs formes varient considérablement selon le dieu qu'ils servent.\n\nLes démons Wormhole sont des rejetons de dieux mourants qui espèrent désespérément gagner plus de temps pour eux-mêmes. Ces démons émergent soudainement des trous de ver à travers la galaxie, pour servir la volonté surnaturelle de leurs dieux, pour ensuite disparaître tout aussi rapidement une fois qu'ils ont atteint leurs objectifs. Leurs dieux sont prêts à ne laisser que des ravages sur leur passage, dans l’espoir de prolonger un peu plus leur vie.",
+      "backgroundStory": "Pendant des éternités, des êtres puissants ont résidé dans un endroit au-delà de l'espace, entre les trous de ver. Entités psychiques pures, elles manquaient de forme physique et vivaient sans Effrayant de douleur ou de mort. On ne peut rien dire avec certitude sur ces êtres ou sur leurs origines, car leur existence est antérieure aux archives des civilisations connues les plus anciennes de la galaxie. Ils observaient passivement, observant la progression de la galaxie, mais interagissaient rarement avec les espèces qui y vivaient.\n\nCela a changé soudainement, lorsqu'un membre de leur espèce est mort. Beaucoup ont spéculé sur la cause de ce décès, mais jusqu’à présent, l’affaire reste un mystère. C’était la première fois qu’un membre de leur espèce faisait l’expérience de la mort, et d’autres réagissaient d’abord avec curiosité, puis avec horreur. L’horreur n’a fait qu’empirer à mesure que la mort commençait à se propager. Les décès ont commencé à augmenter et les autres ont commencé à reconnaître les signes d’entropie et de décadence en eux-mêmes.\n\nChaque entité réagirait à sa manière, mais la plupart finiraient par succomber, à quelques exceptions près. L'être maintenant connu sous le nom de Lust cherchait à se couper lui-même, éliminant tout signe d'imperfection et de faiblesse. Un autre, connu sous le nom de Changement, cherchait à accumuler des connaissances plus rapidement qu'elles ne pourraient se dégrader. La peste a trouvé le salut sous forme physique, utilisant son pouvoir pour se propager et réassimiler tout ce qui se trouvait sur elle. Finalement, la guerre a appris à tirer sa force de ceux qu’elle tuait.\n\nBientôt, ces êtres tournèrent leur attention vers l’extérieur, espérant que le monde matériel leur permettrait de retarder leur disparition plus longtemps. Angoissés de survivre, ils recherchaient des adeptes parmi les perdus et les désespérés et leur offraient du pouvoir en échange de leur service et de leur culte. Ceux qui ont rejeté ces dieux les ont connus comme des dieux du chaos en raison du fanatisme de leurs adeptes et des troubles qu'ils ont provoqués.\n\nCes dieux sont capables de manifester leur volonté dans le monde physique à travers des aspects, des fragments de leur pouvoir et de leur esprit, que la plupart appellent leurs démons. Une fois manifestés, ces aspects sont mortels et vulnérables à la mort et au mal, ayant besoin de nourriture pour survivre et qui peuvent même s'adapter et changer avec l'expérience. Les dieux doivent sacrifier une partie de leur pouvoir pour créer des démons, les démons plus grands nécessitant une plus grande contribution de leur essence. En tant que tel, chaque Dieu du Havoc ne peut manifester qu'un nombre limité de Démons à la fois et doit perdre une partie de son pouvoir pour ce faire, le récupérant lorsqu'un Démon meurt.\n\nLorsqu'ils n'exécutent pas la volonté de leurs dieux, les Démons habitent souvent dans un espace étrange entre les Trous de Ver. Leur contrôle sur ces trous de ver leur permet d’apparaître et de disparaître rapidement dans l’espace physique, leur permettant d’accomplir la volonté de Dieu sans Effrayant de représailles.\n\nComment allez-vous servir la volonté de votre dieu?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Démons de la peste",
+      "introduction": "Les Démons Wormhole sont de monstrueux serviteurs des Dieux du Havoc qui émergent d'une dimension différente à travers la galaxie. Leurs formes varient considérablement selon le dieu qu'ils servent.\n\nLes démons Wormhole sont des rejetons de dieux mourants qui espèrent désespérément gagner plus de temps pour eux-mêmes. Ces démons émergent soudainement des trous de ver à travers la galaxie, pour servir la volonté surnaturelle de leurs dieux, pour ensuite disparaître tout aussi rapidement une fois qu'ils ont atteint leurs objectifs. Leurs dieux sont prêts à ne laisser que des ravages sur leur passage, dans l’espoir de prolonger un peu plus leur vie.",
+      "backgroundStory": "Pendant des éternités, des êtres puissants ont résidé dans un endroit au-delà de l'espace, entre les trous de ver. Entités psychiques pures, elles manquaient de forme physique et vivaient sans Effrayant de douleur ou de mort. On ne peut rien dire avec certitude sur ces êtres ou sur leurs origines, car leur existence est antérieure aux archives des civilisations connues les plus anciennes de la galaxie. Ils observaient passivement, observant la progression de la galaxie, mais interagissaient rarement avec les espèces qui y vivaient.\n\nCela a changé soudainement, lorsqu'un membre de leur espèce est mort. Beaucoup ont spéculé sur la cause de ce décès, mais jusqu’à présent, l’affaire reste un mystère. C’était la première fois qu’un membre de leur espèce faisait l’expérience de la mort, et d’autres réagissaient d’abord avec curiosité, puis avec horreur. L’horreur n’a fait qu’empirer à mesure que la mort commençait à se propager. Les décès ont commencé à augmenter et les autres ont commencé à reconnaître les signes d’entropie et de décadence en eux-mêmes.\n\nChaque entité réagirait à sa manière, mais la plupart finiraient par succomber, à quelques exceptions près. L'être maintenant connu sous le nom de Lust cherchait à se couper lui-même, éliminant tout signe d'imperfection et de faiblesse. Un autre, connu sous le nom de Changement, cherchait à accumuler des connaissances plus rapidement qu'elles ne pourraient se dégrader. La peste a trouvé le salut sous forme physique, utilisant son pouvoir pour se propager et réassimiler tout ce qui se trouvait sur elle. Finalement, la guerre a appris à tirer sa force de ceux qu’elle tuait.\n\nBientôt, ces êtres tournèrent leur attention vers l’extérieur, espérant que le monde matériel leur permettrait de retarder leur disparition plus longtemps. Angoissés de survivre, ils recherchaient des adeptes parmi les perdus et les désespérés et leur offraient du pouvoir en échange de leur service et de leur culte. Ceux qui ont rejeté ces dieux les ont connus comme des dieux du chaos en raison du fanatisme de leurs adeptes et des troubles qu'ils ont provoqués.\n\nCes dieux sont capables de manifester leur volonté dans le monde physique à travers des aspects, des fragments de leur pouvoir et de leur esprit, que la plupart appellent leurs démons. Une fois manifestés, ces aspects sont mortels et vulnérables à la mort et au mal, ayant besoin de nourriture pour survivre et qui peuvent même s'adapter et changer avec l'expérience. Les dieux doivent sacrifier une partie de leur pouvoir pour créer des démons, les démons plus grands nécessitant une plus grande contribution de leur essence. En tant que tel, chaque Dieu du Havoc ne peut manifester qu'un nombre limité de Démons à la fois et doit perdre une partie de son pouvoir pour ce faire, le récupérant lorsqu'un Démon meurt.\n\nLorsqu'ils n'exécutent pas la volonté de leurs dieux, les Démons habitent souvent dans un espace étrange entre les Trous de Ver. Leur contrôle sur ces trous de ver leur permet d’apparaître et de disparaître rapidement dans l’espace physique, leur permettant d’accomplir la volonté de Dieu sans Effrayant de représailles.\n\nComment allez-vous servir la volonté de votre dieu?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Démons de guerre",
+      "introduction": "Les Démons Wormhole sont de monstrueux serviteurs des Dieux du Havoc qui émergent d'une dimension différente à travers la galaxie. Leurs formes varient considérablement selon le dieu qu'ils servent.\n\nLes démons Wormhole sont des rejetons de dieux mourants qui espèrent désespérément gagner plus de temps pour eux-mêmes. Ces démons émergent soudainement des trous de ver à travers la galaxie, pour servir la volonté surnaturelle de leurs dieux, pour ensuite disparaître tout aussi rapidement une fois qu'ils ont atteint leurs objectifs. Leurs dieux sont prêts à ne laisser que des ravages sur leur passage, dans l’espoir de prolonger un peu plus leur vie.",
+      "backgroundStory": "Pendant des éternités, des êtres puissants ont résidé dans un endroit au-delà de l'espace, entre les trous de ver. Entités psychiques pures, elles manquaient de forme physique et vivaient sans Effrayant de douleur ou de mort. On ne peut rien dire avec certitude sur ces êtres ou sur leurs origines, car leur existence est antérieure aux archives des civilisations connues les plus anciennes de la galaxie. Ils observaient passivement, observant la progression de la galaxie, mais interagissaient rarement avec les espèces qui y vivaient.\n\nCela a changé soudainement, lorsqu'un membre de leur espèce est mort. Beaucoup ont spéculé sur la cause de ce décès, mais jusqu’à présent, l’affaire reste un mystère. C’était la première fois qu’un membre de leur espèce faisait l’expérience de la mort, et d’autres réagissaient d’abord avec curiosité, puis avec horreur. L’horreur n’a fait qu’empirer à mesure que la mort commençait à se propager. Les décès ont commencé à augmenter et les autres ont commencé à reconnaître les signes d’entropie et de décadence en eux-mêmes.\n\nChaque entité réagirait à sa manière, mais la plupart finiraient par succomber, à quelques exceptions près. L'être maintenant connu sous le nom de Lust cherchait à se couper lui-même, éliminant tout signe d'imperfection et de faiblesse. Un autre, connu sous le nom de Changement, cherchait à accumuler des connaissances plus rapidement qu'elles ne pourraient se dégrader. La peste a trouvé le salut sous forme physique, utilisant son pouvoir pour se propager et réassimiler tout ce qui se trouvait sur elle. Finalement, la guerre a appris à tirer sa force de ceux qu’elle tuait.\n\nBientôt, ces êtres tournèrent leur attention vers l’extérieur, espérant que le monde matériel leur permettrait de retarder leur disparition plus longtemps. Angoissés de survivre, ils recherchaient des adeptes parmi les perdus et les désespérés et leur offraient du pouvoir en échange de leur service et de leur culte. Ceux qui ont rejeté ces dieux les ont connus comme des dieux du chaos en raison du fanatisme de leurs adeptes et des troubles qu'ils ont provoqués.\n\nCes dieux sont capables de manifester leur volonté dans le monde physique à travers des aspects, des fragments de leur pouvoir et de leur esprit, que la plupart appellent leurs démons. Une fois manifestés, ces aspects sont mortels et vulnérables à la mort et au mal, ayant besoin de nourriture pour survivre et qui peuvent même s'adapter et changer avec l'expérience. Les dieux doivent sacrifier une partie de leur pouvoir pour créer des démons, les démons plus grands nécessitant une plus grande contribution de leur essence. En tant que tel, chaque Dieu du Havoc ne peut manifester qu'un nombre limité de Démons à la fois et doit perdre une partie de son pouvoir pour ce faire, le récupérant lorsqu'un Démon meurt.\n\nLorsqu'ils n'exécutent pas la volonté de leurs dieux, les Démons habitent souvent dans un espace étrange entre les Trous de Ver. Leur contrôle sur ces trous de ver leur permet d’apparaître et de disparaître rapidement dans l’espace physique, leur permettant d’accomplir la volonté de Dieu sans Effrayant de représailles.\n\nComment allez-vous servir la volonté de votre dieu?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Hôtes stellaires sauriens",
+      "introduction": "Hôtes stellaires sauriens est une ancienne coalition de reptiles humanoïdes dirigée par des mages grenouilles géantes. Leurs armées combinent une technologie de pointe avec des prédateurs génétiquement modifiés pour en faire des ennemis redoutables.\n\nLes Sauriens sont peut-être la race la plus ancienne de la galaxie, mais la plupart de leurs espèces dorment dans les cyro-pyramides. Les Sauriens cherchent à réveiller leur hôte pour éviter un désastre prophétisé, mais nombre de leurs pyramides ont été perdues ou détruites, et certaines ont commencé à penser qu'elles avaient déjà échoué dans leur mission.",
+      "backgroundStory": "Les Sauriens prétendent que les Grenouilles-Mages qui les ont créés existaient avant la nuit des temps. Leurs mages leur enseignent que leur but est d'accomplir une grande prophétie qu'ils ont tenue depuis le début: avec le temps, le tissu de la réalité deviendrait Dislocation, et leur destin serait de le sauver. Les Grenouilles-Mages ont créé des cryo-pyramides et se sont dispersés à travers la galaxie pour s'assurer qu'ils seraient prêts à remplir leur objectif le moment venu.\n \nEn leur absence, un certain nombre de nouvelles espèces ont commencé à explorer et à s'installer dans toute la galaxie. Cela a conduit à un Surcharge de pouvoir psychique qui a réveillé l'un des Grenouilles-Mages endormis, qui était maintenant seul dans la galaxie. Le Mage Grenouille solitaire trouva une galaxie en guerre, et craignant que ce ne soit le début de la fin, il espéra réveiller ses camarades Mages avant qu'il ne soit trop tard.\n\nLa Grenouille-Mage rassembla un conclave d'assistants, mais il devint vite clair qu'ils ne pourraient pas réussir seuls. Les Mages ont utilisé leurs vastes connaissances en matière de génie génétique et de capacités psychiques pour créer de nouveaux alliés, afin de rechercher le reste de leur espèce. Ensemble, ils ont créé le premier Starhost. Chaque membre d'un Starhost a son destin défini par les Frog-Mages à la naissance, et ils sont créés pour remplir cette unique mission afin d'aider les Frog-Mages à accomplir la prophétie. Ces missions définissent une grande partie de la culture des différentes espèces de chaque Starhost.\n\nLe premier Starhost commença à rechercher et à réveiller d'autres mages. Les Mages nouvellement réveillés créeraient des Starhosts supplémentaires afin de remplir leur objectif, qui créeraient ensuite leurs propres Starhosts afin de rechercher davantage de semblables dans toute la galaxie, y compris dans le secteur Sirius.  Cependant, beaucoup de choses ont changé dans la galaxie depuis que les Sauriens sont entrés pour la première fois dans les cyro-pyramides, et la redécouverte des pyramides s'est avérée une tâche plus difficile que prévu. Certaines cryopyramides ont été détruites par l'explosion d'étoiles ou par des chasseurs de trésors en maraude, d'autres ont été enfouies sous les déserts, les océans ou même les villes. Pire encore, certains ont commencé à échouer d'eux-mêmes, laissant mourir les Grenouilles-Mages à l'intérieur. \n\nCes revers ont semé le doute sur la fiabilité des Grenouilles-Mages et de leurs prophéties, tandis que d'autres commencent à penser que les Grenouilles-Mages ont déjà échoué dans leur grande prophétie.\n\nComment allez-vous affronter votre destin?"
+    },
+    {
+      "systemCode": "GF",
+      "armyName": "Traqueurs de l'espace vide",
+      "introduction": "Plus à venir bientôt...",
+      "backgroundStory": "Plus à venir bientôt..."
     }
   ]
 };

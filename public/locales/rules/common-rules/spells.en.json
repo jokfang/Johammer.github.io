@@ -646,7 +646,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Steadfast</key> once (next time the effect would apply)."
       },
@@ -664,6 +664,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Pick up to two friendly units within 12\", which get Steadfast once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Furious once (next time the effect would apply)."
       }
     ]
   },
@@ -735,7 +740,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which must take a morale test. If failed, it becomes fatigued."
       },
@@ -753,6 +758,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Pick one enemy unit within 18\", which must take a morale test. If failed, it becomes fatigued."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which must take a morale test. If failed, it becomes Fatigued."
       }
     ]
   },
@@ -761,7 +771,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which takes 1 hit with <key>Blast</key>(3)."
       },
@@ -792,6 +802,11 @@
         "faction": "War Disciples",
         "cost": 1,
         "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 24\" in line of sight, which takes 3 hits with Blast(3)."
       }
     ]
   },
@@ -800,7 +815,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
       },
@@ -818,6 +833,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Pick up to two friendly units within 12\", which get Melee Evasion once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Melee Evasion once (next time the effect would apply)."
       }
     ]
   },
@@ -826,7 +846,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Pick one enemy unit within 6”, which takes 6 hits with <key>Break</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
       },
@@ -857,6 +877,11 @@
         "faction": "War Disciples",
         "cost": 2,
         "text": "Pick one enemy unit within 6\", which takes 6 hits with Crack. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 3 hits with AP(1) and Purge."
       }
     ]
   },
@@ -865,7 +890,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Warbound Boost</key> once (next time the effect would apply)."
       },
@@ -883,6 +908,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Pick up to three friendly units within 12\", which get Warbound Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Warbound once (next time the effect would apply)."
       }
     ]
   },
@@ -891,7 +921,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Pick up to two enemy units within 12”, which take 3 hits with <key>AP</key>(2) each."
       },
@@ -922,6 +952,11 @@
         "faction": "War Disciples",
         "cost": 3,
         "text": "Pick up to two enemy units within 12\", which take 3 hits with AP(2) each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 6\", which take 4 hits with AP(2) each."
       }
     ]
   },
@@ -930,7 +965,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which counts as being in Difficult Terrain once (next time the effect would apply)."
       },
@@ -948,6 +983,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Pick one enemy unit within 18\", which counts as being in Difficult Terrain once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which counts as being in Difficult Terrain once (next time the effect would apply)."
       }
     ]
   },
@@ -956,7 +996,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 12”, which takes 2 hits with <key>AP</key>(1) and <key>Butcher</key>. Roll as many dice as hits to see if ”on rolls of 6” effects trigger."
       },
@@ -987,6 +1027,11 @@
         "faction": "Rift Daemons of Plague",
         "cost": 1,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 2 hits with AP(1) and Decimate."
       }
     ]
   },
@@ -995,7 +1040,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Rapid Rush</key> once (next time the effect would apply)."
       },
@@ -1013,6 +1058,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Pick up to two friendly units within 12\", which get Rapid Rush once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Rapid Rush once (next time the effect would apply)."
       }
     ]
   },
@@ -1021,7 +1071,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Pick one enemy model within 24”, which takes 2 hits with <key>AP</key>(4)."
       },
@@ -1039,6 +1089,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Pick one enemy model within 24\", which takes 2 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -1047,7 +1102,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Plaguebound Boost</key> once (next time the effect would apply)."
       },
@@ -1065,6 +1120,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Pick up to three friendly units within 12\", which get Plaguebound Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Plaguebound once (next time the effect would apply)."
       }
     ]
   },
@@ -1073,7 +1133,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 18”, which takes 6 hits."
       },
@@ -1091,6 +1151,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Pick one enemy unit within 18\", which takes 6 hits."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits."
       }
     ]
   },
@@ -1099,7 +1164,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which friendly units gets <key>Quick Shot</key> against once (next time the effect would apply)."
       },
@@ -1117,6 +1182,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Pick one enemy unit within 18\", which friendly units gets Quick Shot against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which friendly units gets Quick Shot against once (next time the effect would apply)."
       }
     ]
   },
@@ -1138,6 +1208,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Obliterate."
       }
     ]
   },
@@ -1146,7 +1221,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Melee Evasion</key> once (next time the effect would apply)."
       },
@@ -1164,6 +1239,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Pick up to two friendly units within 12\", which get Melee Evasion once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Melee Evasion once (next time the effect would apply)."
       }
     ]
   },
@@ -1172,7 +1252,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Pick one enemy model within 18”, which takes 4 hits with <key>AP</key>(1)."
       },
@@ -1190,6 +1270,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Pick one enemy model within 18\", which takes 4 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -1198,7 +1283,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Lustbound Boost</key> once (next time the effect would apply)."
       },
@@ -1216,6 +1301,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Pick up to three friendly units within 12\", which get Lustbound Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Enhanced Lustbound once (next time the effect would apply)."
       }
     ]
   },
@@ -1224,7 +1314,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(1) and <key>Shred</key>."
       },
@@ -1242,6 +1332,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Pick one enemy unit within 12\", which takes 6 hits with AP(1) and Shred."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Shred."
       }
     ]
   },
@@ -1250,7 +1345,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which gets -3 to casting rolls once (next time the effect would apply)."
       },
@@ -1268,6 +1363,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Pick one enemy unit within 18\", which gets -3 to casting rolls once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which loses 2 spell tokens. Note that the target may not spend those spell tokens to prevent this effect."
       }
     ]
   },
@@ -1289,6 +1389,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 3 hits with Lacerate."
       }
     ]
   },
@@ -1297,7 +1402,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Pick up to two friendly units within 12”, which get <key>Bane when Shooting</key> once (next time the effect would apply)."
       },
@@ -1315,6 +1420,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Pick up to two friendly units within 12\", which get Bane when Shooting once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Bane when Shooting once (next time the effect would apply)."
       }
     ]
   },
@@ -1323,7 +1433,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Pick up to two enemy units within 9”, which take 4 hits each."
       },
@@ -1341,6 +1451,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Pick up to two enemy units within 9\", which take 4 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to two enemy units within 24\" in line of sight, which take 3 hits each."
       }
     ]
   },
@@ -1349,7 +1464,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Pick up to three friendly units within 12”, which get <key>Changebound Boost</key> once (next time the effect would apply)."
       },
@@ -1367,6 +1482,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Pick up to three friendly units within 12\", which get Changebound Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Changebound once (next time the effect would apply)."
       }
     ]
   },
@@ -1375,7 +1495,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Pick one enemy unit within 12”, which takes 6 hits with <key>AP</key>(2)."
       },
@@ -1393,6 +1513,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Pick one enemy unit within 12\", which takes 6 hits with AP(2)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with AP(2)."
       }
     ]
   },
@@ -2458,7 +2583,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Pick one enemy unit within 18”, which counts as being in Dangerous Terrain once (next time the effect would apply)."
       },
@@ -2476,6 +2601,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Pick one enemy unit within 18\", which counts as being in Dangerous Terrain once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which counts as being in Dangerous Terrain once (next time the effect would apply)."
       }
     ]
   },
@@ -3909,6 +4039,11 @@
         "system": "GFF",
         "cost": 1,
         "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -3925,6 +4060,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Mischievous Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Mischievous once (next time the effect would apply)."
       }
     ]
   },
@@ -3941,6 +4081,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Hit & Run Fighter once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Enhanced Hive Bond once (next time the effect would apply)."
       }
     ]
   },
@@ -3973,6 +4118,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Sturdy Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Sturdy once (next time the effect would apply)."
       }
     ]
   },
@@ -3989,6 +4139,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
       }
     ]
   },
@@ -4005,6 +4160,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Counter-Attack once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Counter in Melee once (next time the effect would apply)."
       }
     ]
   },
@@ -4049,6 +4209,18 @@
         "faction": "Rebel Guerrillas",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get +1 to morale test rolls once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "faction": "DAO Union",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Fearless once (next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "faction": "Rebel Guerrillas",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets +1 to Morale Test rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -4065,6 +4237,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 18\", which friendly units gets Furious against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Furious against once (next time the effect would apply)."
       }
     ]
   },
@@ -4097,6 +4274,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 18\", which get -1 to defense rolls once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Knightborn once (next time the effect would apply)."
       }
     ]
   },
@@ -4113,6 +4295,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get +6\" range when shooting once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get +6\" range on its weapons when shooting once (next time the effect would apply)."
       }
     ]
   },
@@ -4145,6 +4332,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Teleport once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Teleport once (next time the effect would apply)."
       }
     ]
   },
@@ -4161,6 +4353,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -4176,6 +4373,11 @@
       {
         "system": "GFF",
         "cost": 0,
+        "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
         "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
       }
     ]
@@ -4193,6 +4395,30 @@
         "system": "GFF",
         "cost": 2,
         "text": "Pick up to four friendly units within 12\", which get Shred when shooting once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "faction": "Battle Brothers",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Shred on its weapons when shooting once (next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "faction": "Prime Brothers",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Shred on its weapons when shooting once (next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "faction": "Watch Brothers",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Watchborn once (next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "faction": "Watch Prime Brothers",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Watchborn once (next time the effect would apply)."
       }
     ]
   },
@@ -4209,6 +4435,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Highborn Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Enhanced Highborn once (next time the effect would apply)."
       }
     ]
   },
@@ -4225,6 +4456,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
       }
     ]
   },
@@ -4241,6 +4477,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -4257,6 +4498,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 18\", which takes 1 hit with Lacerate."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
       }
     ]
   },
@@ -4273,6 +4519,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
       }
     ]
   },
@@ -4289,6 +4540,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which take 1 hit with Blast(3) each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3)."
       }
     ]
   },
@@ -4305,6 +4561,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 6\", which takes 2 hits with AP(2) and Deadly(3)."
       }
     ]
   },
@@ -4321,6 +4582,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 18\", which get -1 to hit rolls when attacking once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which gets -1 to hit rolls when attacking once (next time the effect would apply)."
       }
     ]
   },
@@ -4337,6 +4603,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy model within 24\", which takes 1 hit with AP(4). This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -4369,6 +4640,11 @@
         "system": "GFF",
         "cost": 1,
         "text": "Pick up to two enemy units within 18\", which get -3 to casting rolls once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which loses 2 spell tokens. Note that the target may not spend those spell tokens to prevent this effect."
       }
     ]
   },
@@ -4385,6 +4661,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Furious once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Bloodborn once (next time the effect would apply)."
       }
     ]
   },
@@ -4401,6 +4682,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 18\", which friendly units gets Relentless against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Relentless against once (next time the effect would apply)."
       }
     ]
   },
@@ -4417,6 +4703,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Primal Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Primal once (next time the effect would apply)."
       }
     ]
   },
@@ -4433,6 +4724,11 @@
         "system": "GFF",
         "cost": 1,
         "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
       }
     ]
   },
@@ -4497,6 +4793,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3)."
       }
     ]
   },
@@ -4513,6 +4814,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six enemy units within 18\", which friendly units gets AP(1) when shooting against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets AP(1) on their weapons when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -4545,6 +4851,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six enemy units within 18\", which loses AP(1) when shooting once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which loses AP(1) on its weapons when shooting once (next time the effect would apply)."
       }
     ]
   },
@@ -4577,6 +4888,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3)."
       }
     ]
   },
@@ -4593,6 +4909,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which get Unwieldy in melee once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which gets Unwieldy on its weapons in melee once (next time the effect would apply)."
       }
     ]
   },
@@ -4625,6 +4946,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(2) each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(2)."
       }
     ]
   },
@@ -4673,6 +4999,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Hit & Run Shooter once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Hit & Run Shooter once (next time the effect would apply)."
       }
     ]
   },
@@ -4689,6 +5020,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Shred in melee once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Shred on its weapons in melee once (next time the effect would apply)."
       }
     ]
   },
@@ -4705,6 +5041,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
       }
     ]
   },
@@ -4737,6 +5078,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -4753,6 +5099,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
       }
     ]
   },
@@ -4769,6 +5120,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
       }
     ]
   },
@@ -4785,6 +5141,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 6\", which take 3 hits with Bane each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12\", which takes 9 hits with Bane."
       }
     ]
   },
@@ -4801,6 +5162,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 6\", which takes 1 hit with Deadly(3) and Tear."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with AP(1) and Pierce."
       }
     ]
   },
@@ -4817,6 +5183,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six enemy units within 18\", which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which moves -2\" when using Advance actions and -4\" when using Rush/Charge actions once (next time the effect would apply)."
       }
     ]
   },
@@ -4833,6 +5204,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 18\", which must take a morale test. If failed you may move it by up to 6\" in a straight line in any direction."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Units may only be moved once per round in this way."
       }
     ]
   },
@@ -4849,6 +5225,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get +1 to hit rolls when shooting once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get +1 to hit rolls when shooting once (next time the effect would apply)."
       }
     ]
   },
@@ -4881,6 +5262,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 2 hits with Disintegrate each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Puncture."
       }
     ]
   },
@@ -4945,6 +5331,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
       }
     ]
   },
@@ -4961,6 +5352,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 3 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 3 hits."
       }
     ]
   },
@@ -4977,6 +5373,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy models within 24\", which take 1 hit with Tear each. This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy model within 18\" in line of sight, which takes 1 hit with AP(2) and Disintegrate. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -4993,6 +5394,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Resistance once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Spell Resistance once (next time the effect would apply)."
       }
     ]
   },
@@ -5043,6 +5449,24 @@
         "faction": "Mercenaries",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "faction": "Human Defense Force",
+        "cost": 2,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Fracture. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "faction": "Human Inquisition",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "faction": "Titan Lords",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -5059,6 +5483,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3)."
       }
     ]
   },
@@ -5123,6 +5552,11 @@
         "system": "GFF",
         "cost": 2,
         "text": "Pick up to two enemy units within 6\", which take 3 hits with Disintegrate each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 3 hits with Purge."
       }
     ]
   },
@@ -5139,6 +5573,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six enemy units within 18\", which friendly units get +6\" range when shooting against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units get +6\" range on their weapons when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -5155,6 +5594,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -5171,6 +5615,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Stealth once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Stealth once (next time the effect would apply)."
       }
     ]
   },
@@ -5187,6 +5636,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 18\", which take 2 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits."
       }
     ]
   },
@@ -5203,6 +5657,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
       }
     ]
   },
@@ -5219,6 +5678,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 9\", which take 4 hits each."
       }
     ]
   },
@@ -5235,6 +5699,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Unpredictable Fighter once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Unpredictable Fighter once (next time the effect would apply)."
       }
     ]
   },
@@ -5251,6 +5720,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Shred."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Shred."
       }
     ]
   },
@@ -5283,6 +5757,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 6\", which take 3 hits with Destructive each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 3 hits with AP(1) and Shatter. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -5299,6 +5778,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy model within 18\" in line of sight, which takes 1 hit with AP(4). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -5331,6 +5815,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Guardian Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Enhanced Guardian once (next time the effect would apply)."
       }
     ]
   },
@@ -5347,6 +5836,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Havocbound Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Havocbound once (next time the effect would apply)."
       }
     ]
   },
@@ -5363,6 +5857,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 3 hits with Scourge."
       }
     ]
   },
@@ -5379,6 +5878,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 9\", which take 4 hits each."
       }
     ]
   },
@@ -5395,6 +5899,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(2)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(2)."
       }
     ]
   },
@@ -5411,6 +5920,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six enemy units within 18\", which friendly units gets Rending in melee against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Rending on their weapons in melee against once (next time the effect would apply)."
       }
     ]
   },
@@ -5427,6 +5941,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -5443,6 +5962,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Unpredictable Shooter once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Unpredictable Shooter once (next time the effect would apply)."
       }
     ]
   },
@@ -5459,6 +5983,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy models within 18\", which take 2 hits with AP(1) each. This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -5475,6 +6004,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 3 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 9 hits."
       }
     ]
   },
@@ -5491,6 +6025,11 @@
         "system": "GFF",
         "cost": 2,
         "text": "Pick up to four friendly units within 12\", which get Piercing Hunter once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Piercing Marksman once (next time the effect would apply)."
       }
     ]
   },
@@ -5507,6 +6046,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Hive Bond Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three enemy units within 24\" in line of sight, which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
       }
     ]
   },
@@ -5523,6 +6067,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Grounded Reinforcement once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Grounded Defense once (next time the effect would apply)."
       }
     ]
   },
@@ -5539,6 +6088,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Rapid Advance once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Rapid Advance once (next time the effect would apply)."
       }
     ]
   },
@@ -5555,6 +6109,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Shred."
       }
     ]
   },
@@ -5571,6 +6130,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy model within 18\", which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -5587,6 +6151,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
       }
     ]
   },
@@ -5603,6 +6172,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -5619,6 +6193,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
       }
     ]
   },
@@ -5635,6 +6214,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
       }
     ]
   },
@@ -5651,6 +6235,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Disintegrate each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 6 hits with Destructive."
       }
     ]
   },
@@ -5667,6 +6256,11 @@
         "system": "GFF",
         "cost": 2,
         "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 9\", which take 4 hits each."
       }
     ]
   },
@@ -5683,6 +6277,11 @@
         "system": "GFF",
         "cost": 3,
         "text": "Pick up to six friendly units within 12\", which get Devout Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Devout once (next time the effect would apply)."
       }
     ]
   },
@@ -5763,6 +6362,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Self-Repair Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Self-Repair once (next time the effect would apply)."
       }
     ]
   },
@@ -5779,6 +6383,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -5795,6 +6404,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -5811,6 +6425,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Shred."
       }
     ]
   },
@@ -5827,6 +6446,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 18\", which get -1 to morale test rolls once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which gets -1 to Morale Test rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -5843,6 +6467,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 12\", which take 1 hit with AP(2) each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 6\", which take 4 hits with AP(2) each."
       }
     ]
   },
@@ -5859,6 +6488,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
       }
     ]
   },
@@ -5875,6 +6509,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 18\", which friendly units gets Unpredictable Shooter against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unpredictable Shooter against once (next time the effect would apply)."
       }
     ]
   },
@@ -5971,6 +6610,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Destructive. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Fragment."
       }
     ]
   },
@@ -5987,6 +6631,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Ferocious Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Ferocious once (next time the effect would apply)."
       }
     ]
   },
@@ -6003,6 +6652,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(2)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(2)."
       }
     ]
   },
@@ -6019,6 +6673,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -6051,6 +6710,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 9\", which take 2 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 9\", which take 4 hits each."
       }
     ]
   },
@@ -6067,6 +6731,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 6\", which take 1 hit with Deadly(3) and Tear each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Hazardous. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger."
       }
     ]
   },
@@ -6083,6 +6752,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy model within 18\", which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with AP(1). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -6099,6 +6773,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Shielded once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Shielded once (next time the effect would apply)."
       }
     ]
   },
@@ -6115,6 +6794,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 12\", which take 1 hit with AP(2) each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 6\", which take 4 hits with AP(2) each."
       }
     ]
   },
@@ -6131,6 +6815,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy models within 12\", which take 2 hits with Hazardous each. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger. This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy model within 18\" in line of sight, which takes 2 hits with Hazardous. Roll as many dice as hits to see if \"on rolls of 1\" effects trigger. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -6147,6 +6836,11 @@
         "system": "GFF",
         "cost": 3,
         "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
       }
     ]
   },
@@ -6163,6 +6857,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Harassing Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Enhanced Harassing once (next time the effect would apply)."
       }
     ]
   },
@@ -6195,6 +6894,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy models within 24\", which take 1 hit with AP(4) each. This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -6259,6 +6963,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Scrapper Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Scrapper once (next time the effect would apply)."
       }
     ]
   },
@@ -6309,6 +7018,24 @@
         "faction": "Mercenaries",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get +1 to morale test rolls once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "faction": "Human Defense Force",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Hold the Line once (next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "faction": "Human Inquisition",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get +1 to Morale Test rolls once (next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "faction": "Titan Lords",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get +1 to Morale Test rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -6357,6 +7084,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(2) each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(2)."
       }
     ]
   },
@@ -6421,6 +7153,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 12\", which take 2 hits with Disintegrate each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 3 hits with AP(1) and Reap. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -6469,6 +7206,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Targeting Visor Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Targeting Visor once (next time the effect would apply)."
       }
     ]
   },
@@ -6485,6 +7227,11 @@
         "system": "GFF",
         "cost": 3,
         "text": "Pick up to three enemy units within 6\", which take 3 hits with Bane each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 3 hits with Bane."
       }
     ]
   },
@@ -6501,6 +7248,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 6\", which take 3 hits with Bane each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 12\", which takes 9 hits with Bane."
       }
     ]
   },
@@ -6517,6 +7269,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six enemy units within 12\", which take 1 hit with AP(2) each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 6\", which take 4 hits with AP(2) each."
       }
     ]
   },
@@ -6533,6 +7290,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 12\", which take 2 hits with Shatter each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with Disintegrate."
       }
     ]
   },
@@ -6549,6 +7311,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 18\", which friendly units get +1 to hit rolls in melee against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units get +1 to hit rolls in melee against once (next time the effect would apply)."
       }
     ]
   },
@@ -6565,6 +7332,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Regeneration once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which get Regeneration once (next time the effect would apply)."
       }
     ]
   },
@@ -6597,6 +7369,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Piercing Assault once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Wolfborn once (next time the effect would apply)."
       }
     ]
   },
@@ -6613,6 +7390,11 @@
         "system": "GFF",
         "cost": 1,
         "text": "Pick one enemy model within 24\", which takes 1 hit with AP(4). This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy model within 24\" in line of sight, which takes 3 hits with AP(4). This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -6645,6 +7427,11 @@
         "system": "GFF",
         "cost": 3,
         "text": "Pick up to three enemy units within 18\", which take 1 hit with Blast(3) each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 2 hits with Blast(3)."
       }
     ]
   },
@@ -6661,6 +7448,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 12\", which take 3 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 9 hits."
       }
     ]
   },
@@ -6677,6 +7469,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Lacerate each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Demolish."
       }
     ]
   },
@@ -6693,6 +7490,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with Disintegrate."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 2 hits with Puncture."
       }
     ]
   },
@@ -6725,6 +7527,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Rapid Blink Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Rapid Blink once (next time the effect would apply)."
       }
     ]
   },
@@ -6741,6 +7548,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Crack each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Fracture. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -6764,6 +7576,11 @@
         "faction": "Blood Prime Brothers",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Shred."
       }
     ]
   },
@@ -6780,6 +7597,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
       }
     ]
   },
@@ -6796,6 +7618,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get +1 to defense rolls once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets +1 to Defense rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -6812,6 +7639,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Machine-Fog Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Machine-Fog once (next time the effect would apply)."
       }
     ]
   },
@@ -6844,6 +7676,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 12\", which take 2 hits with AP(1) and Shred each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Scourge."
       }
     ]
   },
@@ -6860,6 +7697,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Lacerate."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Lacerate."
       }
     ]
   },
@@ -6876,6 +7718,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy model within 24\", which takes 1 hit with Tear. This effect is resolved as if the target was a unit of [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy model within 30\" in line of sight, which takes 3 hits with AP(3) and Destructive. This effect is resolved as if the target was a unit of [1]."
       }
     ]
   },
@@ -6892,6 +7739,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Flying once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Flying once (next time the effect would apply)."
       }
     ]
   },
@@ -6908,6 +7760,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four friendly units within 12\", which get Clan Warrior Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Clan Warrior once (next time the effect would apply)."
       }
     ]
   },
@@ -6924,6 +7781,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which take 1 hit with Blast(3) and Lacerate each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 1 hit with Blast(3) and Decimate."
       }
     ]
   },
@@ -6988,6 +7850,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 12\", which take 2 hits with AP(1) and Surge each. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -7004,6 +7871,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 12\", which take 3 hits each."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 9 hits."
       }
     ]
   },
@@ -7068,6 +7940,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to four enemy units within 18\", which get -1 to defense rolls once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which get -1 to Defense rolls once (next time the effect would apply)."
       }
     ]
   },
@@ -7084,6 +7961,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six enemy units within 18\", which friendly units gets Unpredictable Fighter against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Hit & Run Fighter once (next time the effect would apply)."
       }
     ]
   },
@@ -7100,6 +7982,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which friendly units gets Shred when attacking against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Shred on their weapons when attacking against once (next time the effect would apply)."
       }
     ]
   },
@@ -7116,6 +8003,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 18\", which takes 2 hits."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits."
       }
     ]
   },
@@ -7132,6 +8024,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which friendly units gets Bane when attacking against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which friendly units gets Bane on their weapons when attacking against once (next time the effect would apply)."
       }
     ]
   },
@@ -7164,6 +8061,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which friendly units gets Indirect when shooting against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which friendly units gets Indirect on their weapons against once (next time the effect would apply)."
       }
     ]
   },
@@ -7196,6 +8098,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six enemy units within 18\", which friendly units gets Slayer against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Slayer against once (next time the effect would apply)."
       }
     ]
   },
@@ -7212,6 +8119,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two friendly units within 12\", which get Infected Boost once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Infected once (next time the effect would apply)."
       }
     ]
   },
@@ -7228,6 +8140,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to three enemy units within 6\", which take 1 hit with AP(2) and Deadly(3) each."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 6\", which takes 2 hits with AP(2) and Deadly(3)."
       }
     ]
   },
@@ -7260,6 +8177,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
       }
     ]
   },
@@ -7276,6 +8198,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -7292,6 +8219,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
       }
     ]
   },
@@ -7308,6 +8240,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
       }
     ]
   },
@@ -7324,6 +8261,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which take 1 hit with Blast(3) and Lacerate each."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 3 hits with AP(1) and Reap. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -7356,6 +8298,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to six friendly units within 12\", which get Evasive once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Evasive once (next time the effect would apply)."
       }
     ]
   },
@@ -7372,6 +8319,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick up to two enemy units within 18\", which friendly units gets Unstoppable when shooting against once(next time the effect would apply)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two enemy units within 18\" in line of sight, which friendly units gets Unstoppable on their weapons when shooting against once (next time the effect would apply)."
       }
     ]
   },
@@ -7388,6 +8340,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 18\", which takes 1 hit with Blast(3) and Lacerate."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 24\" in line of sight, which takes 6 hits with AP(1) and Smash."
       }
     ]
   },
@@ -7404,6 +8361,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with Shatter."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 6 hits with AP(1) and Pierce."
       }
     ]
   },
@@ -7436,6 +8398,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Pick one enemy unit within 12\", which takes 2 hits with AP(1) and Surge."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 12\" in line of sight, which takes 4 hits with Surge. Roll as many dice as hits to see if \"on rolls of 6\" effects trigger."
       }
     ]
   },
@@ -8206,6 +9173,105 @@
         "system": "AOFS",
         "text": "Pick up to three enemy units within 12\", which take 3 hits each.",
         "cost": 3
+      }
+    ]
+  },
+  "Blessed Shroud": {
+    "title": "Blessed Shroud",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Darkborn once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Adrenal Booster": {
+    "title": "Adrenal Booster",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one friendly unit within 12\", which gets Enhanced Scurry once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Enhanced Serum": {
+    "title": "Enhanced Serum",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Regeneration once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Combat Psychosis": {
+    "title": "Combat Psychosis",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 18\" in line of sight, which friendly units gets Unpredictable Fighter against once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Cyber Shock": {
+    "title": "Cyber Shock",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Pick one enemy unit within 6\", which takes 1 hit with AP(2) and Deadly(3)."
+      }
+    ]
+  },
+  "Synaptic Stims": {
+    "title": "Synaptic Stims",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick up to two friendly units within 12\", which moves +2\" when using Advance actions and +4\" when using Rush/Charge actions once (next time the effect would apply)."
+      }
+    ]
+  },
+  "Overheat Internals": {
+    "title": "Overheat Internals",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 4 hits with Demolish."
+      }
+    ]
+  },
+  "Optical Malfunction": {
+    "title": "Optical Malfunction",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick up to three friendly units within 18\", which get Enhanced Shadowborn once (next time the effect would apply)."
+      }
+    ]
+  },
+  "System Collapse": {
+    "title": "System Collapse",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Pick one enemy unit within 18\" in line of sight, which takes 9 hits."
       }
     ]
   }

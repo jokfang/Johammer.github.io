@@ -121,11 +121,16 @@ export const filterTranslationsBySystem = <T extends SystemScopedTranslation>(
         {
           ...entry,
           description: (() => {
-            const matchingDescriptions = entry.description.filter(
-              (description) =>
-                description.system.trim().toLowerCase() === "all" ||
-                containsSystemTag(description.system, normalizedSystem)
+            const systemDescriptions = entry.description.filter((description) =>
+              containsSystemTag(description.system, normalizedSystem)
             );
+            const genericDescriptions = entry.description.filter(
+              (description) => description.system.trim().toLowerCase() === "all"
+            );
+            const matchingDescriptions = [
+              ...systemDescriptions,
+              ...genericDescriptions,
+            ];
             const descriptions =
               matchingDescriptions.length > 0
                 ? matchingDescriptions

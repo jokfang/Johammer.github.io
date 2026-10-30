@@ -2,6 +2,8 @@
 
 Liste simplifiée et dédupliquée à partir du journal du 30 octobre 2026.
 
+> **Migration appliquée :** les 1 002 variantes de règles, 264 variantes de sorts et 6 factions ont été intégrées au dictionnaire courant. Les cases restent disponibles pour une éventuelle relecture linguistique manuelle du français.
+
 | Priorité | Catégorie | Entrées distinctes |
 |---|---|---:|
 | Haute | Factions absentes | 6 |

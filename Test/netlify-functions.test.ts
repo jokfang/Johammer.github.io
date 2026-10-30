@@ -138,7 +138,7 @@ describe("netlify dictionary handler", () => {
     );
 
     expect(archivedRes.statusCode).toBe(200);
-    expect(badlandNomads.introduction).toBe("");
+    expect(badlandNomads.introduction).toContain("Gangs of New Eden");
 
     const unsupportedRes = await handler(
       { httpMethod: "GET", queryStringParameters: { version: "3.5.2" } } as any,

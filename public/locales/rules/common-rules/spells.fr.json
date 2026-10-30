@@ -646,7 +646,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Choisisser jusqu'à deux unités alliées à 12” ou moins, qui obtiennent une seule fois la règle spéciale <key>Inébranlable</key> (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -664,6 +664,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Choisisser jusqu'à deux unités alliées à 12” ou moins, qui obtiennent une seule fois la règle spéciale <key>Inébranlable</key> (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Furieux une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -735,7 +740,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui devra faire un test de moral. En cas d'echec, elle sera fatiguée."
       },
@@ -753,6 +758,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui devra faire un test de moral. En cas d'echec, elle sera fatiguée."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui doit passer un test de moral. En cas d'échec, elle devient Fatiguée."
       }
     ]
   },
@@ -761,7 +771,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 touche avec <key>Explosion</key>(3)."
       },
@@ -792,6 +802,11 @@
         "faction": "War Disciples",
         "cost": 1,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 touche avec <key>Explosion</key>(3)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 coups avec Explosion(3)."
       }
     ]
   },
@@ -800,7 +815,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités alliées a 12” ou moins, qui gagneront <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -818,6 +833,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités alliées a 12” ou moins, qui gagneront <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Esquive en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -826,7 +846,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Choisissez une unité ennemie a 6” ou moins, qui subira 6 touches avec <key>Dislocation</key>. Lancez autant de dés que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
       },
@@ -857,6 +877,11 @@
         "faction": "War Disciples",
         "cost": 2,
         "text": "Choisissez une unité ennemie à 6” ou moins, qui subit 6 touches avec Fissure. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 3 coups avec PA(1) et Purge."
       }
     ]
   },
@@ -865,7 +890,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagneront <key>Boost de Guerrier-né</key> une fois (la prochaine fois que l'effet s'appliquera)."
       },
@@ -883,6 +908,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagneront <key>Boost de Guerrier-né</key> une fois (la prochaine fois que l'effet s'appliquera)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Warbound amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -891,7 +921,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subiront chacune 3 touches avec <key>PA</key>(2)."
       },
@@ -922,6 +952,11 @@
         "faction": "War Disciples",
         "cost": 3,
         "text": "Choisissez jusqu'à deux unités ennemies a 12”, qui subiront chacune 3 touches avec <key>PA</key>(2)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 6\", qui subissent chacune 4 coups avec PA(2)."
       }
     ]
   },
@@ -930,7 +965,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -948,6 +983,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain difficile une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, ce qui compte une fois comme étant en terrain difficile (la prochaine fois, l'effet s'appliquera)."
       }
     ]
   },
@@ -956,7 +996,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>AP</key>(1) et <key>Boucher</key>. Lancez autant de des que de touches pour voir si les effets ”sur des resultats de 6” se declenchent."
       },
@@ -987,6 +1027,11 @@
         "faction": "Rift Daemons of Plague",
         "cost": 1,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subissent 2 touches avec <key>PA</key>(1) et <key>Surcharge</key>. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 2 coups avec PA(1) et Decimation."
       }
     ]
   },
@@ -995,7 +1040,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -1013,6 +1058,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Charge rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Charge rapide une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -1021,7 +1071,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Choisissez un modele ennemi a 24”, qui subit 2 touches avec <key>AP</key>(4)."
       },
@@ -1039,6 +1089,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Choisissez une figurine ennemie à 24” ou moins, qui subit 2 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -1047,7 +1102,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Amplification Lie a la peste</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -1065,6 +1120,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Amplification Lie a la peste</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Plaguebound amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -1073,7 +1133,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
       },
@@ -1091,6 +1151,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Choisissez une unité ennemie a 18”, qui subit 6 touches."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 4 coups."
       }
     ]
   },
@@ -1099,7 +1164,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -1117,6 +1182,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 18”, contre laquelle les unités alliées gagnent <key>Tir rapide</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, contre laquelle les unités amies recevront Tir rapide une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -1138,6 +1208,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Effacer."
       }
     ]
   },
@@ -1146,7 +1221,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -1164,6 +1239,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Esquive en mêlée</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Esquive en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -1172,7 +1252,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Choisissez un modele ennemi a 18”, qui subit 4 touches avec <key>AP</key>(1)."
       },
@@ -1190,6 +1270,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Choisissez une figurine ennemie à 18” ou moins, qui subit 4 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -1198,7 +1283,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie a la Luxure</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -1216,6 +1301,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie a la Luxure</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Lustbound amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -1224,7 +1314,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
       },
@@ -1242,6 +1332,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(1) et <key>Laceration</key>."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, qui subit 6 coups avec Lacération."
       }
     ]
   },
@@ -1250,7 +1345,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 18”, qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -1268,6 +1363,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 18”, qui subit -3 a son prochain jet d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui perd 2 jetons de sort. Notez que la cible ne peut pas dépenser ces jetons de sort pour empêcher cet effet."
       }
     ]
   },
@@ -1289,6 +1389,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Choisissez une unité ennemie à 12″ ou moins, qui subit 2 touches avec PA (1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 3 coups avec Laceration."
       }
     ]
   },
@@ -1297,7 +1402,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Fleau au Tir</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -1315,6 +1420,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités alliées a 12”, qui gagnent <key>Fleau au Tir</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Fleau au Tir une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -1323,7 +1433,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
       },
@@ -1341,6 +1451,11 @@
         "system": "AOFR",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités ennemies a 9”, qui subissent chacune 4 touches."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 24\" en ligne de mire, qui subissent chacune 3 coups."
       }
     ]
   },
@@ -1349,7 +1464,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie au Changement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -1367,6 +1482,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités alliées a 12”, qui gagnent <key>Renforcement Lie au Changement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Modification améliorée une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -1375,7 +1495,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 3,
         "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
       },
@@ -1393,6 +1513,11 @@
         "system": "AOFR",
         "cost": 3,
         "text": "Choisissez une unité ennemie a 12”, qui subit 6 touches avec <key>AP</key>(2)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec PA(2)."
       }
     ]
   },
@@ -2458,7 +2583,7 @@
     "system": "GF/AOF/AOFS/GFF/AOFR",
     "description": [
       {
-        "system": "GF/AOF",
+        "system": "AOF",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain dangereux une fois (la prochaine fois que l'effet s'appliquerait)."
       },
@@ -2476,6 +2601,11 @@
         "system": "AOFR",
         "cost": 1,
         "text": "Choisissez une unité ennemie a 18”, qui compte comme etant en terrain dangereux une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, ce qui compte une fois comme étant en terrain dangereux (la prochaine fois, l'effet s'appliquera)."
       }
     ]
   },
@@ -3909,6 +4039,11 @@
         "system": "GFF",
         "cost": 1,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -3925,6 +4060,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Renforcement Malicieux une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Espiègle amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -3941,6 +4081,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Combattant Frappe et Repli une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Lien de ruche amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -3973,6 +4118,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Renforcement Coriace une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Robustesse améliorée une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -3989,6 +4139,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
       }
     ]
   },
@@ -4005,6 +4160,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Contre-attaque une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Riposte en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4049,6 +4209,18 @@
         "faction": "Rebel Guerrillas",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent +1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "faction": "DAO Union",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Sans peur une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "faction": "Rebel Guerrillas",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient +1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4065,6 +4237,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Furieux contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Furieux une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -4097,6 +4274,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Chevalier-né amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4113,6 +4295,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités alliées à 12” ou moins, qui gagnent +6” de portée lors d'un tir une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiennent une portée de +6\" sur leurs armes en tirant une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -4145,6 +4332,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Téléportation une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Téléportation une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4161,6 +4353,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -4177,6 +4374,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 6” ou moins, qui subit 1 hit avec PA(2) et Mortel(3)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
       }
     ]
   },
@@ -4193,6 +4395,30 @@
         "system": "GFF",
         "cost": 2,
         "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent <key>Lacération</key> au tir une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "faction": "Battle Brothers",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent Lacération sur leurs armes en tirant une fois (la prochaine fois, l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "faction": "Prime Brothers",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent Lacération sur leurs armes en tirant une fois (la prochaine fois, l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "faction": "Watch Brothers",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Watchborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "faction": "Watch Prime Brothers",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Watchborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4209,6 +4435,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Renforcement Noble une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Bien-né amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4225,6 +4456,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4241,6 +4477,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -4257,6 +4498,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Laceration."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
       }
     ]
   },
@@ -4273,6 +4519,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
       }
     ]
   },
@@ -4289,6 +4540,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3)."
       }
     ]
   },
@@ -4305,6 +4561,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 2 coups avec PA(2) et Mortel(3)."
       }
     ]
   },
@@ -4321,6 +4582,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui gagnent -1 à jets de touche lors d'une attaque une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui obtient -1 aux jets de touche lors d'une attaque une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4337,6 +4603,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une figurine ennemie à 24″ ou moins, qui subit 1 touche avec PA (4). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -4369,6 +4640,11 @@
         "system": "GFF",
         "cost": 1,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent -3 aux jets d'incantation une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui perd 2 jetons de sort. Notez que la cible ne peut pas dépenser ces jetons de sort pour empêcher cet effet."
       }
     ]
   },
@@ -4385,6 +4661,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Furieux une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Bloodborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4401,6 +4682,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Implacable contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Implacable une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -4417,6 +4703,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12” ou moins, qui gagnent <key>Boost de Primal</key> (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Primaire amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4433,6 +4724,11 @@
         "system": "GFF",
         "cost": 1,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
       }
     ]
   },
@@ -4497,6 +4793,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3)."
       }
     ]
   },
@@ -4513,6 +4814,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents PA(1) lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront PA(1) sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -4545,6 +4851,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui perd PA(1) lors d'un tir une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de mire, ce qui perd PA(1) sur ses armes en tirant une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4577,6 +4888,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3)."
       }
     ]
   },
@@ -4593,6 +4909,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité ennemies a 18”, qui gagnent Encombrant in mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, qui aura Encombrant sur ses armes en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4625,6 +4946,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(2) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 6 coups avec PA(2)."
       }
     ]
   },
@@ -4673,6 +4999,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent <key>Tir en mouvement</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Tir en mouvement une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4689,6 +5020,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Lacération in mêlée une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiennent une fois Lacération sur leurs armes en mêlée (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -4705,6 +5041,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4737,6 +5078,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -4753,6 +5099,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
       }
     ]
   },
@@ -4769,6 +5120,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
       }
     ]
   },
@@ -4785,6 +5141,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 3 touches avec Fléau chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 12\", ce qui prend 9 coups avec Fléau."
       }
     ]
   },
@@ -4801,6 +5162,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 6” ou moins, qui subit 1 touche avec <key>Mortel</key>(3) et <key>Dechirure</key>."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec PA(1) et Perce."
       }
     ]
   },
@@ -4817,6 +5183,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, qui se déplacez -2\" lors d'actions de Avancée actions et -4\" lors d'actions de Course/Charge actions une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, qui se déplace de -2\" lors de l'utilisation des actions d'Avancée et de -4\" lors de l'utilisation des actions de Course/Charge une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4833,6 +5204,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, qui doit effectuer a test de moral. En cas d'échec vous peut se déplacer elle jusqu'à 6” dans a ligne droite dans n'importe quelle direction."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, qui doit passer un test de moral. En cas d'échec, vous pouvez la déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Les unités ne peuvent être déplacées de cette manière qu'une fois par tour."
       }
     ]
   },
@@ -4849,6 +5225,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent +1 à jets de touche lors d'un tir une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent +1 aux jets de touche en tirant une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -4881,6 +5262,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec Désintegration chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Perforation."
       }
     ]
   },
@@ -4945,6 +5331,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
       }
     ]
   },
@@ -4961,6 +5352,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 3 touches chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 12\" en ligne de mire, ce qui subit 3 coups."
       }
     ]
   },
@@ -4977,6 +5373,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux figurines ennemies à 24” ou moins, qui subissent 1 touche avec <key>Dechirure</key> chacune. Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie dans un rayon de 18\" en ligne de vue, qui subit 1 coup avec PA(2) et Désintegration. Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -4993,6 +5394,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Résistance une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Résistance aux sorts une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5043,6 +5449,24 @@
         "faction": "Mercenaries",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "faction": "Human Defense Force",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 4 coups avec Fracture. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
+      },
+      {
+        "system": "GF",
+        "faction": "Human Inquisition",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
+      },
+      {
+        "system": "GF",
+        "faction": "Titan Lords",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -5059,6 +5483,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3)."
       }
     ]
   },
@@ -5123,6 +5552,11 @@
         "system": "GFF",
         "cost": 2,
         "text": "Choisissez jusqu'à deux unités ennemies à 6″ ou moins, qui subissent chacune 3 touches avec Désintégration."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 3 coups avec Purge."
       }
     ]
   },
@@ -5139,6 +5573,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnent +6” de portée lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, les unités amies bénéficiant d'une portée de +6\" sur leurs armes lorsqu'elles tirent une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -5155,6 +5594,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois figurines ennemies à 18″ ou moins, qui subissent chacune 2 touches avec PA (1). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -5171,6 +5615,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Furtif une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Furtif une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5187,6 +5636,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unité ennemies a 18”, qui subissent 2 touches chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, ce qui subit 6 coups."
       }
     ]
   },
@@ -5203,6 +5657,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
       }
     ]
   },
@@ -5219,6 +5678,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 9\", qui subissent chacune 4 coups."
       }
     ]
   },
@@ -5235,6 +5699,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Combattant imprévisible une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Combattant imprévisible une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5251,6 +5720,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Lacération."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Lacération."
       }
     ]
   },
@@ -5283,6 +5757,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 3 touches avec Destructeur chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 6\", qui subit 3 coups avec PA(1) et Fracasse. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -5299,6 +5778,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux figurines ennemies à 24″ ou moins, qui subissent chacune 1 touche avec PA (4). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 1 coup avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -5331,6 +5815,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Boost de Gardien une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Gardien amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5347,6 +5836,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Renforcement Lie au Chaos une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Havocbound amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5363,6 +5857,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 12″ ou moins, qui subissent chacune 2 touches avec PA (1) et Lacération."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 3 coups avec Fléau."
       }
     ]
   },
@@ -5379,6 +5878,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 9\", qui subissent chacune 4 coups."
       }
     ]
   },
@@ -5395,6 +5899,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(2)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 6 coups avec PA(2)."
       }
     ]
   },
@@ -5411,6 +5920,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Perforant au corps à corps contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Perforant sur leurs armes en mêlée une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5427,6 +5941,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux figurines ennemies à 18” ou moins, qui subissent 2 touches avec <key>PA</key>(1) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -5443,6 +5962,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Tireur imprevisible une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Tireur imprevisible une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5459,6 +5983,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois figurines ennemies à 18″ ou moins, qui subissent chacune 2 touches avec PA (1). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -5475,6 +6004,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unité ennemies a 12”, qui subissent 3 touches chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, ce qui subit 9 coups."
       }
     ]
   },
@@ -5491,6 +6025,11 @@
         "system": "GFF",
         "cost": 2,
         "text": "Choisissez jusqu'à quatre unités alliées à 12” ou moins, qui gagnent Chasseur perforant une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Tireur d'élite perçant une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5507,6 +6046,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost du Lien de ruche une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités ennemies dans un rayon de 24\" en ligne de vue, contre lesquelles les unités amies recevront Combattant imprévisible une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -5523,6 +6067,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Renforcement ancrée une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Défense au sol une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5539,6 +6088,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Avance rapide une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Avance rapide une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5555,6 +6109,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Lacération chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, qui subit 6 coups avec Lacération."
       }
     ]
   },
@@ -5571,6 +6130,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une figurine ennemie à 18” ou moins, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -5587,6 +6151,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5603,6 +6172,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -5619,6 +6193,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
       }
     ]
   },
@@ -5635,6 +6214,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
       }
     ]
   },
@@ -5651,6 +6235,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 12″ ou moins, qui subissent chacune 2 touches avec PA (1) et Désintégration."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie dans un rayon de 12\" en ligne de mire, qui subit 6 coups avec Destructeur."
       }
     ]
   },
@@ -5667,6 +6256,11 @@
         "system": "GFF",
         "cost": 2,
         "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 9\", qui subissent chacune 4 coups."
       }
     ]
   },
@@ -5683,6 +6277,11 @@
         "system": "GFF",
         "cost": 3,
         "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui gagnent Boost de Dévotion une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Dévot amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5763,6 +6362,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Boost d'Auto-réparation une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Auto-réparation améliorée une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5779,6 +6383,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -5795,6 +6404,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -5811,6 +6425,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Lacération chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, qui subit 6 coups avec Lacération."
       }
     ]
   },
@@ -5827,6 +6446,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" de ligne de vue, ce qui obtient -1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -5843,6 +6467,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unités ennemies à 12” ou moins, qui subissent 1 hit avec PA(2) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 6\", qui subissent chacune 4 coups avec PA(2)."
       }
     ]
   },
@@ -5859,6 +6488,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
       }
     ]
   },
@@ -5875,6 +6509,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Tireur imprevisible contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Tireur imprevisible une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -5971,6 +6610,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Destructeur. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Fragment."
       }
     ]
   },
@@ -5987,6 +6631,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Renforcement Ferocite une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Féroce amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6003,6 +6652,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(2)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 6 coups avec PA(2)."
       }
     ]
   },
@@ -6019,6 +6673,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois figurines ennemies à 24” ou moins, qui subissent 1 hit avec PA(4) chacune. Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -6051,6 +6710,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité ennemies a 9”, qui subissent 2 touches chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 9\", qui subissent chacune 4 coups."
       }
     ]
   },
@@ -6067,6 +6731,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 6″ ou moins, qui subissent chacune 1 touche avec Mortel (3) et Déchirure."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec Dangereux. Lancez autant de dés que de coups pour voir si les effets \"sur 1\" se déclenchent."
       }
     ]
   },
@@ -6083,6 +6752,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une figurine ennemie à 18” ou moins, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec PA(1). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -6099,6 +6773,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Blindé</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Blindé une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6115,6 +6794,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 1 hit avec PA(2) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 6\", qui subissent chacune 4 coups avec PA(2)."
       }
     ]
   },
@@ -6131,6 +6815,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois figurines ennemies à 12” ou moins, qui subissent 2 touches avec <key>Dangereux</key> chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 1 » se déclenchent. Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une figurine ennemie à moins de 18\" de ligne de vue, qui subit 2 touches avec Dangereux. Lancez autant de dés que de touches pour voir si les effets \"sur 1\" se déclenchent. Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -6147,6 +6836,11 @@
         "system": "GFF",
         "cost": 3,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6163,6 +6857,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Renforcement de Harcelement une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Harcèlement amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6195,6 +6894,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux figurines ennemies à 24″ ou moins, qui subissent chacune 1 touche avec PA (4). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -6259,6 +6963,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Boost de Ferrailleur une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Scrapper amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6309,6 +7018,24 @@
         "faction": "Mercenaries",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent +1 to jets de test de moral une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "faction": "Human Defense Force",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Maintien de la ligne amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "faction": "Human Inquisition",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent +1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "faction": "Titan Lords",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiennent +1 aux jets de moral une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6357,6 +7084,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(2) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 6 coups avec PA(2)."
       }
     ]
   },
@@ -6421,6 +7153,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec <key>Désintegration</key> chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 6\", qui subit 3 coups avec PA(1) et Fauchage. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -6469,6 +7206,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost du Viseur de ciblage une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Visière de ciblage améliorée une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6485,6 +7227,11 @@
         "system": "GFF",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 3 touches avec <key>Fléau</key> chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 3 coups avec Fléau."
       }
     ]
   },
@@ -6501,6 +7248,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 6” ou moins, qui subissent 3 touches avec Fléau chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 12\", ce qui prend 9 coups avec Fléau."
       }
     ]
   },
@@ -6517,6 +7269,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités ennemies à 12” ou moins, qui subissent 1 hit avec PA(2) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 6\", qui subissent chacune 4 coups avec PA(2)."
       }
     ]
   },
@@ -6533,6 +7290,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec Fracasse chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, qui subit 6 coups avec Désintegration."
       }
     ]
   },
@@ -6549,6 +7311,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnent +1 à jets de touche au corps à corps contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies obtiennent +1 aux jets de touche en mêlée (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -6565,6 +7332,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent Régénération une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui obtiendront Régénération une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6597,6 +7369,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent <key>Assaut tranchant</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Wolfborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6613,6 +7390,11 @@
         "system": "GFF",
         "cost": 1,
         "text": "Choisissez une figurine ennemie à 24″ ou moins, qui subit 1 touche avec PA (4). Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une figurine ennemie dans un rayon de 24\" en ligne de vue, qui subit 3 touches avec PA(4). Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -6645,6 +7427,11 @@
         "system": "GFF",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités ennemies à 18″ ou moins, qui subissent chacune 1 touche avec Explosion (3)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 2 coups avec Explosion(3)."
       }
     ]
   },
@@ -6661,6 +7448,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 3 touches chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, ce qui subit 9 coups."
       }
     ]
   },
@@ -6677,6 +7469,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Laceration chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de mire, qui subit 4 coups avec Démolition."
       }
     ]
   },
@@ -6693,6 +7490,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec Désintegration."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 2 coups avec Perforation."
       }
     ]
   },
@@ -6725,6 +7527,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost de la téléportation rapide une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Clignotement rapide amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6741,6 +7548,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Fissure chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 4 coups avec Fracture. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -6764,6 +7576,11 @@
         "faction": "Blood Prime Brothers",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Lacération chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Lacération."
       }
     ]
   },
@@ -6780,6 +7597,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités alliées à 12” ou moins, qui se déplacez +2\" lors d'actions de Avancée actions et +4\" lors d'actions de Course/Charge actions une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui se déplace de +2\" lors de l'utilisation des actions d'Avancée et de +4\" lors de l'utilisation des actions de Course/Charge une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6796,6 +7618,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent +1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient un jet de +1 en Défense une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6812,6 +7639,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost du Brouillard-machine une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Brouillard de machine amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6844,6 +7676,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 12″ ou moins, qui subissent chacune 2 touches avec PA (1) et Lacération."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de mire, qui subit 4 coups avec Fléau."
       }
     ]
   },
@@ -6860,6 +7697,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Laceration."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de mire, qui subit 4 coups avec Laceration."
       }
     ]
   },
@@ -6876,6 +7718,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une figurine ennemie à 24” ou moins, qui subit 1 hit avec Dechirure. Cet effet est résolu comme si la cible était une unité de [1]."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une figurine ennemie à moins de 30\" de ligne de vue, qui subit 3 coups avec PA(3) et Destructeur. Cet effet est résolu comme si la cible était une unité de [1]."
       }
     ]
   },
@@ -6892,6 +7739,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Volant une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Volant une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6908,6 +7760,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité alliées a 12”, qui gagnent Boost de Guerrier de clan une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Guerrier de clan amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -6924,6 +7781,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) et Laceration chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 1 coup avec Explosion(3) et Decimation."
       }
     ]
   },
@@ -6988,6 +7850,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 12” ou moins, qui subissent 2 touches avec PA(1) et Surcharge chacune. Lancez autant de dés que de touches pour déterminer si les effets « sur un résultat de 6 » se déclenchent."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -7004,6 +7871,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité ennemies a 12”, qui subissent 3 touches chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, ce qui subit 9 coups."
       }
     ]
   },
@@ -7068,6 +7940,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à quatre unité ennemies a 18”, qui gagnent -1 to defense rolls une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, qui subissent un -1 aux jets de Défense une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -7084,6 +7961,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Combattant imprévisible contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Combattant Frappe et Repli une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -7100,6 +7982,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Lacération lors d'une attaque contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Lacération sur leurs armes lorsqu'elles attaqueront une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -7116,6 +8003,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie a 18”, qui subit 2 touches."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, ce qui subit 4 coups."
       }
     ]
   },
@@ -7132,6 +8024,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Fléau lors d'une attaque contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, laquelle unité amie recevra Fléau sur ses armes lorsqu'elle attaquera une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -7164,6 +8061,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Indirect lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, contre laquelle les unités amies recevront Indirect sur leurs armes une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -7196,6 +8098,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Tueur contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, contre lesquelles les unités amies recevront Tueur une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -7212,6 +8119,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unité alliées a 12”, qui gagnent Boost d'Infecté une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Infecté amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -7228,6 +8140,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à trois unités ennemies à 6” ou moins, qui subissent 1 hit avec PA(2) et Mortel(3) chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 2 coups avec PA(2) et Mortel(3)."
       }
     ]
   },
@@ -7260,6 +8177,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -7276,6 +8198,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -7292,6 +8219,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
       }
     ]
   },
@@ -7308,6 +8240,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
       }
     ]
   },
@@ -7324,6 +8261,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, qui subissent 1 hit avec Explosion(3) et Laceration chacune."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 6\", qui subit 3 coups avec PA(1) et Fauchage. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -7356,6 +8298,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à six unité alliées a 12”, qui gagnent <key>Esquive</key> une fois (la prochaine fois que l'effet s'appliquerait)."
+      },
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Esquive une fois (la prochaine fois que l'effet devrait s'appliquer)."
       }
     ]
   },
@@ -7372,6 +8319,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez jusqu'à deux unités ennemies à 18” ou moins, contre laquelle les unités alliées gagnents Inarrêtable lors d'un tir contre une fois(la prochaine fois que l'effet devrait s'appliquer)."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités ennemies dans un rayon de 18\" en ligne de vue, quelles unités amies recevront Inarrêtable sur leurs armes lorsqu'elles tireront une fois (la prochaine fois, l'effet s'appliquerait)."
       }
     ]
   },
@@ -7388,6 +8340,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 18” ou moins, qui subit 1 hit avec Explosion(3) et Laceration."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 24\" en ligne de mire, qui subit 6 coups avec PA(1) et Fracas."
       }
     ]
   },
@@ -7404,6 +8361,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie a 12”, qui subit 2 touches avec <key>Fracasse</key>."
+      },
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de vue, qui subit 6 coups avec PA(1) et Perce."
       }
     ]
   },
@@ -7436,6 +8398,11 @@
         "system": "GFF",
         "cost": 0,
         "text": "Choisissez une unité ennemie à 12” ou moins, qui subit 2 touches avec PA(1) et Surcharge."
+      },
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 4 coups avec Surcharge. Lancez autant de dés que de coups pour voir si les effets \"sur 6\" se déclenchent."
       }
     ]
   },
@@ -8206,6 +9173,105 @@
         "system": "AOFS",
         "cost": 3,
         "text": "Choisissez jusqu'à trois unités ennemies à 12″ ou moins, qui subissent chacune 3 touches."
+      }
+    ]
+  },
+  "Blessed Shroud": {
+    "title": "Linceul béni",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Darkborn amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      }
+    ]
+  },
+  "Adrenal Booster": {
+    "title": "Booster surrénalien",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité amie dans un rayon de 12\", qui obtient Déplacement amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      }
+    ]
+  },
+  "Enhanced Serum": {
+    "title": "Sérum amélioré",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Régénération une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      }
+    ]
+  },
+  "Combat Psychosis": {
+    "title": "Combattre la psychose",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de vue, contre laquelle les unités amies recevront Combattant imprévisible une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      }
+    ]
+  },
+  "Cyber Shock": {
+    "title": "Cyber-choc",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie dans un rayon de 6\", qui subit 1 coup avec PA(2) et Mortel(3)."
+      }
+    ]
+  },
+  "Synaptic Stims": {
+    "title": "Stimulations synaptiques",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez jusqu'à deux unités amies dans un rayon de 12\", qui se déplacent de +2\" lors de l'utilisation des actions d'Avancée et de +4\" lors de l'utilisation des actions de Course/Charge une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      }
+    ]
+  },
+  "Overheat Internals": {
+    "title": "Surchauffe des composants internes",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 2,
+        "text": "Choisissez une unité ennemie à moins de 18\" en ligne de mire, qui subit 4 coups avec Démolition."
+      }
+    ]
+  },
+  "Optical Malfunction": {
+    "title": "Dysfonctionnement optique",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez jusqu'à trois unités amies dans un rayon de 18\", qui obtiendront Né de l'Ombre amélioré une fois (la prochaine fois que l'effet devrait s'appliquer)."
+      }
+    ]
+  },
+  "System Collapse": {
+    "title": "Effondrement du système",
+    "system": "GF",
+    "description": [
+      {
+        "system": "GF",
+        "cost": 3,
+        "text": "Choisissez une unité ennemie dans un rayon de 18\" en ligne de mire, ce qui subit 9 coups."
       }
     ]
   }
