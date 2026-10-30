@@ -15,6 +15,10 @@ Exemples :
 Sans paramètre `version`, ou avec `version=current`, les routes renvoient le
 dictionnaire courant. Une version inconnue renvoie une réponse `400`.
 
+Avec `system`, les descriptions propres au système sont renvoyées sous le tag
+du système demandé. Les descriptions génériques conservent le tag `all` afin de
+rester un fallback distinct des descriptions spécifiques.
+
 Les fichiers statiques sont également publiés :
 
 - manifeste courant : `/locales/rules/common-rules/index.json`

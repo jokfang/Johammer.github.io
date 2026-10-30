@@ -35,22 +35,41 @@ describe("common-rules-api", () => {
     expect(Object.keys(getCommonRulesDictionary("G").en)).toHaveLength(0);
     expect(Object.keys(getCommonSpellTranslations("en", "unknown"))).toHaveLength(0);
     expect(filteredRules.en["Hive Bond"].description[0].system).toBe("gf");
-    expect(filteredSpells["Animate Spirit"].description[0].system).toBe("AoF");
+    expect(
+      filteredRules.en["Hive Bond"].description.filter(
+        (description) => description.system === "gf"
+      )
+    ).toHaveLength(1);
+    expect(
+      filteredRules.en["Hive Bond"].description.find(
+        (description) => description.system === "all"
+      )?.text
+    ).toBe("Units where all models have this rule get +1 to morale test rolls.");
+    expect(filteredSpells["Animate Spirit"].description[0].system).toBe("all");
+    expect(
+      filteredSpells["Lightning Bolt"].description.some(
+        (description) => description.system === "AoF"
+      )
+    ).toBe(true);
     expect(
       Object.values(filteredRules.en).every((entry) =>
-        entry.description.some((description) =>
-          description.system
-            .split("/")
-            .some((tag) => tag.trim().toLowerCase() === "gf")
+        entry.description.some(
+          (description) =>
+            description.system === "all" ||
+            description.system
+              .split("/")
+              .some((tag) => tag.trim().toLowerCase() === "gf")
         )
       )
     ).toBe(true);
     expect(
       Object.values(filteredSpells).every((entry) =>
-        entry.description.some((description) =>
-          description.system
-            .split("/")
-            .some((tag) => tag.trim().toLowerCase() === "aof")
+        entry.description.some(
+          (description) =>
+            description.system === "all" ||
+            description.system
+              .split("/")
+              .some((tag) => tag.trim().toLowerCase() === "aof")
         )
       )
     ).toBe(true);

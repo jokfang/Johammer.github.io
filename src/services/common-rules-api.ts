@@ -137,7 +137,10 @@ export const filterTranslationsBySystem = <T extends SystemScopedTranslation>(
                 : entry.description.slice(0, 1);
             return descriptions.map((description) => ({
               ...description,
-              system: responseSystem,
+              system:
+                description.system.trim().toLowerCase() === "all"
+                  ? "all"
+                  : responseSystem,
             }));
           })(),
         },

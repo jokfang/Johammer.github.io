@@ -189,7 +189,7 @@ describe("netlify dictionary-rules handler", () => {
     expect(Object.keys(JSON.parse((res as any).body).en)).toHaveLength(0);
   });
 
-  it("scopes generic rule descriptions to the requested system", async () => {
+  it("preserves generic descriptions separately from system-scoped descriptions", async () => {
     const { handler } = await import(
       "../netlify/functions/dictionary-rules/dictionary-rules"
     );
@@ -200,6 +200,11 @@ describe("netlify dictionary-rules handler", () => {
     const body = JSON.parse((res as any).body);
 
     expect(body.en["Hive Bond"].description[0].system).toBe("GF");
+    expect(
+      body.en["Hive Bond"].description.find(
+        (description: { system: string }) => description.system === "all"
+      )?.text
+    ).toBe("Units where all models have this rule get +1 to morale test rolls.");
   });
 
   it("rejects unsupported methods", async () => {
@@ -246,7 +251,7 @@ describe("netlify dictionary-spells handler", () => {
     expect(Object.keys(JSON.parse((res as any).body).en).length).toBeGreaterThan(0);
   });
 
-  it("scopes generic spell descriptions to the requested system", async () => {
+  it("preserves generic spell descriptions and scopes system-specific variants", async () => {
     const { handler } = await import(
       "../netlify/functions/dictionary-spells/dictionary-spells"
     );
@@ -256,8 +261,12 @@ describe("netlify dictionary-spells handler", () => {
     );
     const body = JSON.parse((res as any).body);
 
-    expect(body.en["Animate Spirit"].description[0].system).toBe("AOF");
-    expect(body.en["Lightning Bolt"].description[0].system).toBe("AOF");
+    expect(body.en["Animate Spirit"].description[0].system).toBe("all");
+    expect(
+      body.en["Lightning Bolt"].description.some(
+        (description: { system: string }) => description.system === "AOF"
+      )
+    ).toBe(true);
   });
 
   it("rejects unsupported methods", async () => {
