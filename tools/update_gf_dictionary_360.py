@@ -17,13 +17,14 @@ from typing import Any, Callable
 ROOT = Path(__file__).resolve().parents[1]
 DICTIONARY_DIR = ROOT / "public/locales/rules/common-rules"
 MONOLITHIC_DICTIONARY = ROOT / "public/locales/rules/common-rules.dictionary.ts"
-SYSTEM = "GF"
-
-ISSUE_RE = re.compile(
-    r"\[INFO\] (?P<type>[^:]+): system=GF army=(?P<army>.*?) "
-    r"(?:(?:section=\S+ rule=(?P<rule>.*?))|(?:spell=(?P<spell>.*?))|(?=sourceUrl=))"
-    r"(?=storedEnglishDescription=|englishDescription=|sourceUrl=|$)"
-)
+SYSTEM = ""
+GAME_SYSTEM_IDS = {
+    "GF": 2,
+    "GFF": 3,
+    "AOF": 4,
+    "AOFS": 5,
+    "AOFR": 6,
+}
 URL_RE = re.compile(r"sourceUrl=(?P<url>https?://\S+)")
 
 
@@ -39,14 +40,21 @@ def write_json(path: Path, value: Any) -> None:
     )
 
 
-def parse_review_log(path: Path) -> tuple[dict[str, set[str]], dict[str, set[str]], set[str], dict[str, str]]:
+def parse_review_log(
+    path: Path, system: str
+) -> tuple[dict[str, set[str]], dict[str, set[str]], set[str], dict[str, str]]:
+    issue_re = re.compile(
+        rf"\[INFO\] (?P<type>[^:]+): system={re.escape(system)} army=(?P<army>.*?) "
+        r"(?:(?:section=\S+ rule=(?P<rule>.*?))|(?:spell=(?P<spell>.*?))|(?=sourceUrl=))"
+        r"(?=storedEnglishDescription=|englishDescription=|sourceUrl=|$)"
+    )
     rule_issues: dict[str, set[str]] = defaultdict(set)
     spell_issues: dict[str, set[str]] = defaultdict(set)
     faction_issues: set[str] = set()
     army_urls: dict[str, str] = {}
 
     for line in path.read_text(encoding="utf-8").splitlines():
-        match = ISSUE_RE.search(line)
+        match = issue_re.search(line)
         if not match:
             continue
         issue_type = match.group("type")
@@ -81,7 +89,7 @@ def army_book_api_url(source_url: str) -> str:
     book_uid = segments[segments.index("army-info") + 2]
     return (
         f"{parsed.scheme}://{parsed.netloc}/api/army-books/{book_uid}"
-        "?gameSystem=2&simpleMode=false"
+        f"?gameSystem={GAME_SYSTEM_IDS[SYSTEM]}&simpleMode=false"
     )
 
 
@@ -567,19 +575,27 @@ def regenerate_monolithic(
 
 
 def main() -> None:
+    global SYSTEM
     parser = argparse.ArgumentParser(
-        description="Update current GF dictionary entries from a 3.6.0 review log."
+        description="Update current dictionary entries from a 3.6.0 review log."
     )
     parser.add_argument("review_log", type=Path)
+    parser.add_argument(
+        "--system",
+        required=True,
+        choices=tuple(GAME_SYSTEM_IDS),
+        help="Game system to update from the review log.",
+    )
     parser.add_argument(
         "--translation-cache",
         type=Path,
         default=ROOT / ".tmp-google-translations.json",
     )
     args = parser.parse_args()
+    SYSTEM = args.system
 
     rule_issues, spell_issues, faction_issues, army_urls = parse_review_log(
-        args.review_log
+        args.review_log, SYSTEM
     )
     books = fetch_books(army_urls)
     rule_variants = collect_rule_variants(rule_issues, books)

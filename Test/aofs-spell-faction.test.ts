@@ -25,19 +25,19 @@ const extractSpell = (armyName: string, spellName: string) => {
 describe("AOFS faction-specific spells", () => {
   it("selects each Lightning Bolt variant from the source army name", () => {
     expect(extractSpell("Kingdom of Angels", "Lightning Bolt").description).toContain(
-      "Mortel"
+      "Fracasse"
     );
     expect(extractSpell("Eternal Wardens", "Lightning Bolt").description).toContain(
-      "Explosion"
+      "Lacération"
     );
   });
 
   it("selects each Spirit Wind variant from the source army name", () => {
     expect(extractSpell("Dragon Empire", "Spirit Wind").description).toContain(
-      "deux unités alliées"
+      "une unité amie"
     );
     expect(
       extractSpell("Shortling Alliances", "Spirit Wind").description
-    ).toContain("quatre unités alliées");
+    ).toContain("deux unités amies");
   });
 });

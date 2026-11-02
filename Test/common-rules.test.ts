@@ -140,7 +140,7 @@ describe("common-rules", () => {
 
     expect(
       translator("Ambush Aura", { field: "description", system: "aofs" })
-    ).toContain("jusqu'à 3 unités alliées");
+    ).toContain("jusqu'à 2 unités amies");
     expect(
       translator("Ambush Aura", { field: "description", system: "aof" })
     ).toContain("Cette figurine et son unité");

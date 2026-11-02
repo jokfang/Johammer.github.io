@@ -82,7 +82,7 @@ describe("common-rules-api", () => {
 
     expect(rules.en.Courageous.title).toBe("Courageous");
     expect(rules.fr.Courageous.title).toBe("Courageux");
-    expect(spells.en["Clan Spirit"].description[0].cost).toBe(1);
+    expect(spells.en["Clan Spirit"].description[0].cost).toBe(3);
     expect(spells.fr["Clan Spirit"].title).toBe("Esprit du Clan");
     expect(factions.en.some((entry) => entry.armyName === "Beastmen")).toBe(true);
     expect(factions.en.some((entry) => entry.armyName === "Brute Clans")).toBe(true);
@@ -185,21 +185,21 @@ describe("common-rules-api", () => {
       (description) => description.system === "AOFS"
     );
 
-    expect(ambushAuraEn?.text).toContain("up to 3 friendly units");
-    expect(ambushAuraFr?.text).toContain("jusqu'à 3 unités alliées");
+    expect(ambushAuraEn?.text).toContain("up to 2 friendly units");
+    expect(ambushAuraFr?.text).toContain("jusqu'à 2 unités amies");
     expect(surgeOfPowerEn?.text).toContain("up to two friendly units");
-    expect(surgeOfPowerFr?.text).toContain("jusqu'à deux unités alliées");
+    expect(surgeOfPowerFr?.text).toContain("jusqu'à deux unités amies");
 
     expect(
       Object.values(allRules.en).filter((entry) =>
         entry.description.some((description) => description.system === "AOFS")
       )
-    ).toHaveLength(139);
+    ).toHaveLength(386);
     expect(
       Object.values(allSpells.en).filter((entry) =>
         entry.description.some((description) => description.system === "AOFS")
       )
-    ).toHaveLength(217);
+    ).toHaveLength(244);
   });
 
   it("selects ambiguous AOFS spells by faction", () => {
@@ -246,17 +246,17 @@ describe("common-rules-api", () => {
       "Mercenaries"
     );
 
-    expect(kingdomBolt?.cost).toBe(1);
-    expect(kingdomBolt?.text).toContain("Deadly(3)");
+    expect(kingdomBolt?.cost).toBe(3);
+    expect(kingdomBolt?.text).toContain("Shatter");
     expect(wardensBolt?.cost).toBe(3);
-    expect(wardensBolt?.text).toContain("Blast(3)");
+    expect(wardensBolt?.text).toContain("Shred");
     expect(dragonWind?.cost).toBe(1);
-    expect(dragonWind?.text).toContain("up to two friendly units");
+    expect(dragonWind?.text).toContain("Rapid Rush");
     expect(shortlingWind?.cost).toBe(2);
-    expect(shortlingWind?.text).toContain("up to four friendly units");
-    expect(humanFireBall?.text).toContain("Fissure");
+    expect(shortlingWind?.text).toContain("up to two friendly units");
+    expect(humanFireBall?.text).toContain("Fracture");
     expect(mercenaryFireBall?.text).toContain("Surcharge");
-    expect(humanAura?.text).toContain("Renforcement Tenir la Ligne");
+    expect(humanAura?.text).toContain("Maintien de la ligne amélioré");
     expect(mercenaryAura?.text).toContain("+1 aux jets de moral");
   });
 });
