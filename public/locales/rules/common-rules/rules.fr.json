@@ -3696,10 +3696,6 @@
     ],
     "description": [
       {
-        "system": "GF",
-        "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" de ligne de vue, qui doit passer un test de moral. En cas d'échec, vous pouvez la déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Les unités ne peuvent être déplacées de cette manière qu'une fois par tour."
-      },
-      {
         "system": "GFF",
         "text": "Une fois par activation, avant d'attaquer, ramassez jusqu'à 3 unités ennemies dans un rayon de 18\" en ligne de vue, qui doivent passer un test de moral. En cas d'échec, vous pouvez les déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Chaque unité ne peut être déplacée de cette manière qu'une fois par tour."
       },
@@ -3714,6 +3710,10 @@
       {
         "system": "AOFS",
         "text": "Une fois par activation, avant d'attaquer, ramassez jusqu'à 3 unités ennemies dans un rayon de 18\" en ligne de vue, qui doivent passer un test de moral. En cas d'échec, vous pouvez les déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Chaque unité ne peut être déplacée de cette manière qu'une fois par tour."
+      },
+      {
+        "system": "GF",
+        "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" et en ligne de vue, qui doit passer un test de moral. En cas d'échec, vous pouvez la déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Chaque unité ne peut être déplacée de cette manière qu'une fois par tour."
       }
     ]
   },

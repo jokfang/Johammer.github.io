@@ -1184,11 +1184,6 @@
         "text": "Pick one enemy unit within 12\" in line of sight, which takes 2 hits with AP(1) and Decimate."
       },
       {
-        "system": "AOFR",
-        "cost": 1,
-        "text": "Pick one enemy unit within 12\" in line of sight in any direction, which takes 2 hits with AP(1) and Decimate."
-      },
-      {
         "system": "AOFS",
         "faction": "Daemons of Plague",
         "cost": 1,
@@ -1199,6 +1194,11 @@
         "faction": "Plague Disciples",
         "cost": 1,
         "text": "Pick one enemy unit within 12\" in line of sight, which takes 2 hits with AP(1) and Decimate."
+      },
+      {
+        "system": "AOFR",
+        "cost": 1,
+        "text": "Pick one enemy unit within 12\" in line of sight in any direction, which takes 3 hits with Decimate."
       }
     ]
   },

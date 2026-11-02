@@ -1184,11 +1184,6 @@
         "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 2 coups avec PA(1) et Decimation."
       },
       {
-        "system": "AOFR",
-        "cost": 1,
-        "text": "Choisissez une unité ennemie à moins de 12\" de ligne de vue dans n'importe quelle direction, ce qui subit 2 coups avec PA(1) et Decimation."
-      },
-      {
         "system": "AOFS",
         "faction": "Daemons of Plague",
         "cost": 1,
@@ -1199,6 +1194,11 @@
         "faction": "Plague Disciples",
         "cost": 1,
         "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 2 coups avec PA(1) et Decimation."
+      },
+      {
+        "system": "AOFR",
+        "cost": 1,
+        "text": "Choisissez une unité ennemie à moins de 12\" et en ligne de vue dans n'importe quelle direction, qui subit 3 coups avec Decimation."
       }
     ]
   },

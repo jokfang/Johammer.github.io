@@ -5469,10 +5469,6 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF",
-          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Units may only be moved once per round in this way."
-        },
-        {
           "system": "GFF",
           "text": "Once per activation, before attacking, pick up to 3 enemy units within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Each unit may only be moved once per round in this way."
         },
@@ -5487,6 +5483,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFS",
           "text": "Once per activation, before attacking, pick up to 3 enemy units within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Each unit may only be moved once per round in this way."
+        },
+        {
+          "system": "GF",
+          "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Each unit may only be moved once per round in this way."
         }
       ]
     },
@@ -20005,10 +20005,6 @@ export const commonRules: RulesByLanguage = {
       ],
       "description": [
         {
-          "system": "GF",
-          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" de ligne de vue, qui doit passer un test de moral. En cas d'échec, vous pouvez la déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Les unités ne peuvent être déplacées de cette manière qu'une fois par tour."
-        },
-        {
           "system": "GFF",
           "text": "Une fois par activation, avant d'attaquer, ramassez jusqu'à 3 unités ennemies dans un rayon de 18\" en ligne de vue, qui doivent passer un test de moral. En cas d'échec, vous pouvez les déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Chaque unité ne peut être déplacée de cette manière qu'une fois par tour."
         },
@@ -20023,6 +20019,10 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "AOFS",
           "text": "Une fois par activation, avant d'attaquer, ramassez jusqu'à 3 unités ennemies dans un rayon de 18\" en ligne de vue, qui doivent passer un test de moral. En cas d'échec, vous pouvez les déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Chaque unité ne peut être déplacée de cette manière qu'une fois par tour."
+        },
+        {
+          "system": "GF",
+          "text": "Une fois par activation, avant d'attaquer, choisissez une unité ennemie à moins de 18\" et en ligne de vue, qui doit passer un test de moral. En cas d'échec, vous pouvez la déplacer jusqu'à 6\" en ligne droite dans n'importe quelle direction. Chaque unité ne peut être déplacée de cette manière qu'une fois par tour."
         }
       ]
     },
@@ -33723,11 +33723,6 @@ export const commonSpells: SpellsByLanguage = {
           "text": "Pick one enemy unit within 12\" in line of sight, which takes 2 hits with AP(1) and Decimate."
         },
         {
-          "system": "AOFR",
-          "cost": 1,
-          "text": "Pick one enemy unit within 12\" in line of sight in any direction, which takes 2 hits with AP(1) and Decimate."
-        },
-        {
           "system": "AOFS",
           "faction": "Daemons of Plague",
           "cost": 1,
@@ -33738,6 +33733,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Plague Disciples",
           "cost": 1,
           "text": "Pick one enemy unit within 12\" in line of sight, which takes 2 hits with AP(1) and Decimate."
+        },
+        {
+          "system": "AOFR",
+          "cost": 1,
+          "text": "Pick one enemy unit within 12\" in line of sight in any direction, which takes 3 hits with Decimate."
         }
       ]
     },
@@ -43981,11 +43981,6 @@ export const commonSpells: SpellsByLanguage = {
           "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 2 coups avec PA(1) et Decimation."
         },
         {
-          "system": "AOFR",
-          "cost": 1,
-          "text": "Choisissez une unité ennemie à moins de 12\" de ligne de vue dans n'importe quelle direction, ce qui subit 2 coups avec PA(1) et Decimation."
-        },
-        {
           "system": "AOFS",
           "faction": "Daemons of Plague",
           "cost": 1,
@@ -43996,6 +43991,11 @@ export const commonSpells: SpellsByLanguage = {
           "faction": "Plague Disciples",
           "cost": 1,
           "text": "Choisissez une unité ennemie à moins de 12\" en ligne de vue, qui subit 2 coups avec PA(1) et Decimation."
+        },
+        {
+          "system": "AOFR",
+          "cost": 1,
+          "text": "Choisissez une unité ennemie à moins de 12\" et en ligne de vue dans n'importe quelle direction, qui subit 3 coups avec Decimation."
         }
       ]
     },

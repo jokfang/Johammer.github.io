@@ -333,6 +333,11 @@ def build_google_translator(
             (r"\bIgnore Regeneration\b", "Ignore Régénération"),
             (r"\bCette arme Ignore\b", "Cette arme ignore"),
             (r"\bminimum\. de\b", "minimum de"),
+            (
+                r"\bà moins de (\d+\") de ligne de vue\b",
+                r"à moins de \1 et en ligne de vue",
+            ),
+            (r", ce qui subit\b", ", qui subit"),
             (r"\bappliquent cette règle\b", "possèdent cette règle"),
             (
                 r"\belles sont tirées/chargées\b",

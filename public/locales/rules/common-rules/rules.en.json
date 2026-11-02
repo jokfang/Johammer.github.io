@@ -5398,10 +5398,6 @@
     ],
     "description": [
       {
-        "system": "GF",
-        "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Units may only be moved once per round in this way."
-      },
-      {
         "system": "GFF",
         "text": "Once per activation, before attacking, pick up to 3 enemy units within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Each unit may only be moved once per round in this way."
       },
@@ -5416,6 +5412,10 @@
       {
         "system": "AOFS",
         "text": "Once per activation, before attacking, pick up to 3 enemy units within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Each unit may only be moved once per round in this way."
+      },
+      {
+        "system": "GF",
+        "text": "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which must take a Morale Test. If failed you may move it by up to 6\" in a straight line in any direction. Each unit may only be moved once per round in this way."
       }
     ]
   },
