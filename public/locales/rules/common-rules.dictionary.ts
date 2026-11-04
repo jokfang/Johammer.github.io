@@ -31814,20 +31814,20 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Brace in Melee": {
-      "title": "Renfort en mêlée",
+      "title": "Pied-ferme en mêlée",
       "system": "AOFS/AOFR/AOF",
       "description": [
         {
           "system": "AOF",
-          "text": "Cette figurine reçoit Brace(1) sur ses armes en mêlée."
+          "text": "Cette figurine reçoit Pied-ferme(1) sur ses armes en mêlée."
         },
         {
           "system": "AOFR",
-          "text": "Cette figurine reçoit Brace(1) sur ses armes en mêlée."
+          "text": "Cette figurine reçoit Pied-ferme(1) sur ses armes en mêlée."
         },
         {
           "system": "AOFS",
-          "text": "Cette figurine reçoit Brace(1) sur ses armes en mêlée."
+          "text": "Cette figurine reçoit Pied-ferme(1) sur ses armes en mêlée."
         }
       ]
     },
@@ -55785,13 +55785,13 @@ export const factionData: FactionDataByLanguage = {
     },
     {
       "systemCode": "GF",
-      "armyName": "Traqueurs de l'espace vide",
+      "armyName": "Traqueurs du Néant",
       "introduction": "Plus à venir bientôt...",
       "backgroundStory": "Plus à venir bientôt..."
     },
     {
       "systemCode": "GFF",
-      "armyName": "Traqueurs de l'espace vide",
+      "armyName": "Traqueurs du Néant",
       "introduction": "Plus à venir bientôt...",
       "backgroundStory": "Plus à venir bientôt..."
     }
