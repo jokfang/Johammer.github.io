@@ -1870,6 +1870,16 @@ export const commonRules: RulesByLanguage = {
         "dRAJ8qnYDOxm"
       ]
     },
+    "Assault": {
+      "title": "Assault",
+      "system": "GF/AOF",
+      "description": [
+        {
+          "system": "all",
+          "text": "Counts as both a ranged and a melee weapon."
+        }
+      ]
+    },
     "Bane": {
       "title": "Bane",
       "system": "GF/AOF",
@@ -1961,6 +1971,16 @@ export const commonRules: RulesByLanguage = {
         "SshMejY9Kz7s",
         "oACH5PrePLfv",
         "AiReKTM86F3e"
+      ]
+    },
+    "Brace": {
+      "title": "Brace",
+      "system": "AOF",
+      "description": [
+        {
+          "system": "all",
+          "text": "Enemies charging this unit roll X fewer Impact dice, unless this unit is Fatigued."
+        }
       ]
     },
     "Caster": {
@@ -2267,6 +2287,16 @@ export const commonRules: RulesByLanguage = {
         }
       ]
     },
+    "Parry": {
+      "title": "Parry",
+      "system": "AOF",
+      "description": [
+        {
+          "system": "all",
+          "text": "When this unit takes hits in melee whilst not Fatigued, roll X dice per model with this special rule, up to the number of hits taken. For each result of 6+, one hit is ignored (defender picks which)."
+        }
+      ]
+    },
     "Regeneration": {
       "title": "Regeneration",
       "system": "GF/AOF",
@@ -2398,6 +2428,16 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Shoots at Quality 2+, and each model with Sniper may pick any model in the target unit as its individual target, which is resolved as if it was a unit of 1. Sniper shooting must be resolved before other weapons."
+        }
+      ]
+    },
+    "Spell Amplifier": {
+      "title": "Spell Amplifier",
+      "system": "GF/AOF",
+      "description": [
+        {
+          "system": "all",
+          "text": "Gets +1 to spell casting rolls."
         }
       ]
     },
@@ -16416,6 +16456,16 @@ export const commonRules: RulesByLanguage = {
         "dRAJ8qnYDOxm"
       ]
     },
+    "Assault": {
+      "title": "Assaut",
+      "system": "GF/AOF",
+      "description": [
+        {
+          "system": "all",
+          "text": "Compte à la fois comme une arme de tir et une arme de mêlée."
+        }
+      ]
+    },
     "Bane": {
       "title": "Fléau",
       "system": "GF/AOF",
@@ -16507,6 +16557,16 @@ export const commonRules: RulesByLanguage = {
         "SshMejY9Kz7s",
         "oACH5PrePLfv",
         "AiReKTM86F3e"
+      ]
+    },
+    "Brace": {
+      "title": "Pied-ferme",
+      "system": "AOF",
+      "description": [
+        {
+          "system": "all",
+          "text": "Les ennemis qui chargent cette unité lancent X dés d'Impact de moins, sauf si cette unité est Fatiguée."
+        }
       ]
     },
     "Caster": {
@@ -16813,6 +16873,16 @@ export const commonRules: RulesByLanguage = {
         }
       ]
     },
+    "Parry": {
+      "title": "Parade",
+      "system": "AOF",
+      "description": [
+        {
+          "system": "all",
+          "text": "Lorsque cette unité subit des touches en mêlée alors qu'elle n'est pas Fatiguée, lancez X dés par figurine bénéficiant de cette règle spéciale, sans dépasser le nombre de touches subies. Pour chaque résultat de 6 ou plus, une touche est ignorée (le défenseur choisit laquelle)."
+        }
+      ]
+    },
     "Regeneration": {
       "title": "Régénération",
       "system": "GF/AOF",
@@ -16934,6 +17004,16 @@ export const commonRules: RulesByLanguage = {
         {
           "system": "all",
           "text": "Tire avec une Qualité de 2+, et chaque figurine possédant cette règle peut cibler n’importe quelle figurine dans l’unité ciblée comme si elle était seule, ce qui est résolu comme s’il s’agissait d’une unité d'une seule figurine. Les tirs avec Sniper doivent être résolus avant les autres armes."
+        }
+      ]
+    },
+    "Spell Amplifier": {
+      "title": "Amplificateur de sort",
+      "system": "GF/AOF",
+      "description": [
+        {
+          "system": "all",
+          "text": "Confère un bonus de +1 aux jets de lancement de sort."
         }
       ]
     },
@@ -17060,7 +17140,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Unstoppable": {
-      "title": "Inarrêtable",
+      "title": "Imparable",
       "system": "AOFS/AOFR/GFF/GF/AOF",
       "description": [
         {
@@ -29194,7 +29274,7 @@ export const commonRules: RulesByLanguage = {
       ]
     },
     "Cumbersome": {
-      "title": "Lourd",
+      "title": "Encombrant",
       "system": "AOFR/AOF/GF",
       "description": [
         {

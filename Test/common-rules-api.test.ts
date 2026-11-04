@@ -22,6 +22,25 @@ describe("common-rules-api", () => {
     await expect(fetchCommonRulesDictionary()).resolves.toBe(rules);
   });
 
+  it("includes the core 3.6.0 special rules", () => {
+    const rules = getCommonRulesDictionary();
+    const gfRules = getCommonRulesDictionary("GF");
+    const aofRules = getCommonRulesDictionary("AOF");
+
+    expect(rules.fr.Assault.title).toBe("Assaut");
+    expect(rules.fr["Spell Amplifier"].title).toBe("Amplificateur de sort");
+    expect(rules.fr.Brace.title).toBe("Pied-ferme");
+    expect(rules.fr.Parry.title).toBe("Parade");
+    expect(rules.fr.Cumbersome.title).toBe("Encombrant");
+    expect(rules.fr.Unstoppable.title).toBe("Imparable");
+    expect(gfRules.en.Assault).toBeDefined();
+    expect(gfRules.en["Spell Amplifier"]).toBeDefined();
+    expect(gfRules.en.Brace).toBeUndefined();
+    expect(gfRules.en.Parry).toBeUndefined();
+    expect(aofRules.en.Brace).toBeDefined();
+    expect(aofRules.en.Parry).toBeDefined();
+  });
+
   it("filters entries by an exact, case-insensitive system tag", () => {
     const rules = getCommonRulesDictionary();
     const spells = getCommonSpellsDictionary();

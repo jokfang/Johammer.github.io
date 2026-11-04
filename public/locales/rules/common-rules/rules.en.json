@@ -1799,6 +1799,16 @@
       "dRAJ8qnYDOxm"
     ]
   },
+  "Assault": {
+    "title": "Assault",
+    "system": "GF/AOF",
+    "description": [
+      {
+        "system": "all",
+        "text": "Counts as both a ranged and a melee weapon."
+      }
+    ]
+  },
   "Bane": {
     "title": "Bane",
     "system": "GF/AOF",
@@ -1890,6 +1900,16 @@
       "SshMejY9Kz7s",
       "oACH5PrePLfv",
       "AiReKTM86F3e"
+    ]
+  },
+  "Brace": {
+    "title": "Brace",
+    "system": "AOF",
+    "description": [
+      {
+        "system": "all",
+        "text": "Enemies charging this unit roll X fewer Impact dice, unless this unit is Fatigued."
+      }
     ]
   },
   "Caster": {
@@ -2196,6 +2216,16 @@
       }
     ]
   },
+  "Parry": {
+    "title": "Parry",
+    "system": "AOF",
+    "description": [
+      {
+        "system": "all",
+        "text": "When this unit takes hits in melee whilst not Fatigued, roll X dice per model with this special rule, up to the number of hits taken. For each result of 6+, one hit is ignored (defender picks which)."
+      }
+    ]
+  },
   "Regeneration": {
     "title": "Regeneration",
     "system": "GF/AOF",
@@ -2327,6 +2357,16 @@
       {
         "system": "all",
         "text": "Shoots at Quality 2+, and each model with Sniper may pick any model in the target unit as its individual target, which is resolved as if it was a unit of 1. Sniper shooting must be resolved before other weapons."
+      }
+    ]
+  },
+  "Spell Amplifier": {
+    "title": "Spell Amplifier",
+    "system": "GF/AOF",
+    "description": [
+      {
+        "system": "all",
+        "text": "Gets +1 to spell casting rolls."
       }
     ]
   },
